@@ -1,17 +1,20 @@
 {
-	"name": "movieyears",
-	"version": "1.0.0",
-	"description": "A showcase of movies related to days of the year",
-	"main": "index.js",
-	"scripts": {
-		"scrape": "node scrape",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"author": "Mark Honeychurch",
-	"license": "ISC",
-	"dependencies": {
-		"csv-parse": "^4.9.0",
-		"fanart.tv": "^2.1.0",
-		"imdb-api": "^4.0.3"
-	}
+  "name": "filmanac",
+  "private": true,
+  "scripts": {
+    "scrape": "node data/scrape",
+    "develop": "gridsome develop",
+    "dev": "yarn develop",
+    "build": "gridsome build",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "gridsome-source-google-sheets": "^0.4.1"
+  },
+  "devDependencies": {
+    "csv-parse": "^4.9.0",
+    "fanart.tv": "^2.1.0",
+    "imdb-api": "^4.0.3"
+  }
 }
