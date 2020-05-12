@@ -1,0 +1,17 @@
+{
+	"name": "movieyears",
+	"version": "1.0.0",
+	"description": "A showcase of movies related to days of the year",
+	"main": "index.js",
+	"scripts": {
+		"scrape": "node scrape",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Mark Honeychurch",
+	"license": "ISC",
+	"dependencies": {
+		"csv-parse": "^4.9.0",
+		"fanart.tv": "^2.1.0",
+		"imdb-api": "^4.0.3"
+	}
+}
