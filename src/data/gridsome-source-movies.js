@@ -16,8 +16,11 @@ module.exports = class MovieSource {
 			});
 			const movieDates = new MovieDates();
 			await movieDates.get();
+			dateCollection.addReference('movies', 'MovieDates');
+			movieDateCollection.addReference('imdb', 'Movies');
 			for (const movie of movieDates.movies) movieCollection.addNode(movie);
-			for (const movie of movieDates.movieDates) movieDateCollection.addNode({...movie, imdb: store.createReference('Movies', movie.imdb)});
+			for (const date of movieDates.dates) dateCollection.addNode(date);
+			for (const movie of movieDates.movieDates) movieDateCollection.addNode(movie);
 		});
 	}
 };

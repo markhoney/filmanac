@@ -26,10 +26,9 @@ class MovieDates {
 		const titles = data.shift();
 		const movieDates = data.map((row) => titles.reduce((rows, title, index) => ({...rows, [title.toLowerCase()]: row[index]}), {}));
 		const months = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-		for (let month = 0; month < months.length; month++) {
-			this.dates[month] = [];
-			for (let day = 0; day < months[month]; day++) {
-				this.dates[month].push({});
+		for (let month = 1; month <= months.length; month++) {
+			for (let day = 1; day <= months[month - 1]; day++) {
+				this.dates.push({month, day, movies: []});
 			}
 		}
 		this.movies = movieDates.map(async (movieDate) => ({
@@ -38,6 +37,8 @@ class MovieDates {
 			...await this.getMovieDetails(movieDate.id),
 		}));
 		this.movieDates = movieDates.map((row) => {
+			const month = parseInt(row.month);
+			const day = parseInt(row.day);
 			const movieDate = {
 				imdb: row.id,
 				wikipedia: row.wikipedia,
@@ -46,11 +47,12 @@ class MovieDates {
 				timestamp: row.timestamp,
 				mention: row.mention,
 				date: row.year ? new Date([row.year, row.month, row.day].join('-')) : null,
-				month: parseInt(row.month),
-				day: parseInt(row.day),
+				month,
+				day,
 				// monthday: [row.month, row.day].join('-'),
 			};
 			// this.dates[parseInt(row.month) - 1][parseInt(row.day) - 1].movies.push(movieDate);
+			this.dates.find((date) => date.month === month && date.day === day)
 			return movieDate;
 		});
 	}
