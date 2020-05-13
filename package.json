@@ -1,20 +1,24 @@
 {
-  "name": "filmanac",
-  "private": true,
-  "scripts": {
-    "scrape": "node data/scrape",
-    "develop": "gridsome develop",
-    "dev": "yarn develop",
-    "build": "gridsome build",
-    "explore": "gridsome explore"
-  },
-  "dependencies": {
-    "gridsome": "^0.7.0",
-    "gridsome-source-google-sheets": "^0.4.1"
-  },
-  "devDependencies": {
-    "csv-parse": "^4.9.0",
-    "fanart.tv": "^2.1.0",
-    "imdb-api": "^4.0.3"
-  }
+	"name": "filmanac",
+	"private": true,
+	"scripts": {
+		"scrape": "node --trace-warnings src/data/imdb",
+		"develop": "gridsome develop",
+		"dev": "yarn develop",
+		"build": "gridsome build",
+		"explore": "gridsome explore",
+		"lint": "eslint --ext .js,.vue --ignore-path .gitignore -f table .",
+		"lint:fix": "npm run lint --fix",
+		"share": "lt --port 8080 --subdomain aarond",
+		"up": "yarn upgrade && yarn upgrade-interactive --latest"
+	},
+	"dependencies": {
+		"gridsome": "^0.7.0",
+		"gridsome-source-google-sheets": "^0.4.1"
+	},
+	"devDependencies": {
+		"csv-parse": "^4.9.0",
+		"fanart.tv": "^2.1.0",
+		"imdb-api": "^4.0.3"
+	}
 }
