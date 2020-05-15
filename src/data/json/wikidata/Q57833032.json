@@ -1,0 +1,1203 @@
+{
+	"pageid": 57747634,
+	"ns": 0,
+	"title": "Q57833032",
+	"lastrevid": 912122580,
+	"modified": "2019-04-13T07:41:59Z",
+	"type": "item",
+	"id": "Q57833032",
+	"labels": {
+		"en": {
+			"language": "en",
+			"value": "Oklahoma City"
+		},
+		"de": {
+			"language": "de",
+			"value": "Oklahoma City"
+		}
+	},
+	"descriptions": {
+		"en": {
+			"language": "en",
+			"value": "2017 documentary film by Barak Goodman"
+		},
+		"de": {
+			"language": "de",
+			"value": "Dokumentarfilm von Barak Goodman (2017)"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film américain de 2017 réalisé par Barak Goodman"
+		}
+	},
+	"aliases": {},
+	"claims": {
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 506240,
+							"id": "Q506240"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q57833032$faed3fa1-436b-89c0-dff7-f531127d08a0",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c2483cb3480b87aec63e3689b024f485725dd49b",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.pbs.org/wgbh/americanexperience/films/oklahoma-city/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P1476": [
+								{
+									"snaktype": "value",
+									"property": "P1476",
+									"datavalue": {
+										"value": {
+											"text": "Oklahoma City",
+											"language": "en"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P123": [
+								{
+									"snaktype": "value",
+									"property": "P123",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 215616,
+											"id": "Q215616"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2018-10-27T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P1476",
+							"P407",
+							"P123",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 93204,
+							"id": "Q93204"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q57833032$f30a12e9-4ccf-73f7-6acd-b4b979be793d",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c2483cb3480b87aec63e3689b024f485725dd49b",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.pbs.org/wgbh/americanexperience/films/oklahoma-city/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P1476": [
+								{
+									"snaktype": "value",
+									"property": "P1476",
+									"datavalue": {
+										"value": {
+											"text": "Oklahoma City",
+											"language": "en"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P123": [
+								{
+									"snaktype": "value",
+									"property": "P123",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 215616,
+											"id": "Q215616"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2018-10-27T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P1476",
+							"P407",
+							"P123",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2017-00-00T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 9,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"id": "Q57833032$226171b0-4cc6-7143-bcf5-d7a9618d5fc6",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c2483cb3480b87aec63e3689b024f485725dd49b",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.pbs.org/wgbh/americanexperience/films/oklahoma-city/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P1476": [
+								{
+									"snaktype": "value",
+									"property": "P1476",
+									"datavalue": {
+										"value": {
+											"text": "Oklahoma City",
+											"language": "en"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P123": [
+								{
+									"snaktype": "value",
+									"property": "P123",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 215616,
+											"id": "Q215616"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2018-10-27T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P1476",
+							"P407",
+							"P123",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "Oklahoma City",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q57833032$cc700665-456b-8409-e10f-ee40ca88937b",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c2483cb3480b87aec63e3689b024f485725dd49b",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.pbs.org/wgbh/americanexperience/films/oklahoma-city/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P1476": [
+								{
+									"snaktype": "value",
+									"property": "P1476",
+									"datavalue": {
+										"value": {
+											"text": "Oklahoma City",
+											"language": "en"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P123": [
+								{
+									"snaktype": "value",
+									"property": "P123",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 215616,
+											"id": "Q215616"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2018-10-27T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P1476",
+							"P407",
+							"P123",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q57833032$615dda68-49f9-8c10-40ed-f1c2d746e502",
+				"rank": "normal"
+			}
+		],
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt6333090",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$8016f241-45cc-e5e0-f979-fc2cc5b164f1",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt6508486",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$8a251826-4300-89d8-eddf-f22cccd10d4b",
+				"rank": "normal"
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q57833032$bed2aee9-4bbc-7616-3276-3598717a0a36",
+				"rank": "normal"
+			}
+		],
+		"P57": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P57",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 22114882,
+							"id": "Q22114882"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q57833032$b5d138d3-4cf3-ccbb-6111-90e070de7b74",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c2483cb3480b87aec63e3689b024f485725dd49b",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.pbs.org/wgbh/americanexperience/films/oklahoma-city/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P1476": [
+								{
+									"snaktype": "value",
+									"property": "P1476",
+									"datavalue": {
+										"value": {
+											"text": "Oklahoma City",
+											"language": "en"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P123": [
+								{
+									"snaktype": "value",
+									"property": "P123",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 215616,
+											"id": "Q215616"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2018-10-27T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P1476",
+							"P407",
+							"P123",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P58": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 22114882,
+							"id": "Q22114882"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q57833032$8df2d2d5-4c0e-8045-82ba-a745fd796f0c",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c2483cb3480b87aec63e3689b024f485725dd49b",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.pbs.org/wgbh/americanexperience/films/oklahoma-city/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P1476": [
+								{
+									"snaktype": "value",
+									"property": "P1476",
+									"datavalue": {
+										"value": {
+											"text": "Oklahoma City",
+											"language": "en"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P123": [
+								{
+									"snaktype": "value",
+									"property": "P123",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 215616,
+											"id": "Q215616"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2018-10-27T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P1476",
+							"P407",
+							"P123",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P921": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P921",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 217528,
+							"id": "Q217528"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q57833032$f39792ed-4e8b-ad85-bc7c-42cfd9d0d85d",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c2483cb3480b87aec63e3689b024f485725dd49b",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.pbs.org/wgbh/americanexperience/films/oklahoma-city/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P1476": [
+								{
+									"snaktype": "value",
+									"property": "P1476",
+									"datavalue": {
+										"value": {
+											"text": "Oklahoma City",
+											"language": "en"
+										},
+										"type": "monolingualtext"
+									},
+									"datatype": "monolingualtext"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P123": [
+								{
+									"snaktype": "value",
+									"property": "P123",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 215616,
+											"id": "Q215616"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2018-10-27T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P1476",
+							"P407",
+							"P123",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P1562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1562",
+					"datavalue": {
+						"value": "v673648",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$2c6f2ef7-429f-f29f-cfe6-7d88e6d12c7b",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1562",
+					"datavalue": {
+						"value": "v676554",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$1EC1310F-3A1B-4E0C-97CD-989CB8F6577A",
+				"rank": "normal"
+			}
+		],
+		"P856": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P856",
+					"datavalue": {
+						"value": "http://www.pbs.org/wgbh/americanexperience/films/oklahoma-city/",
+						"type": "string"
+					},
+					"datatype": "url"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P407": [
+						{
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1860,
+									"id": "Q1860"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P407"
+				],
+				"id": "Q57833032$6af4119d-4078-174b-780a-815a6f615bac",
+				"rank": "normal"
+			}
+		],
+		"P179": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P179",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2842919,
+							"id": "Q2842919"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q57833032$41f75250-451b-98e7-588c-335b949b34f6",
+				"rank": "normal"
+			}
+		],
+		"P4908": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4908",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 28453396,
+							"id": "Q28453396"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q57833032$1bca0365-4839-d194-bca2-fb3ab724f49c",
+				"rank": "normal"
+			}
+		],
+		"P1712": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1712",
+					"datavalue": {
+						"value": "movie/oklahoma-city",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$BC581638-9275-432D-9439-5DCC355ED726",
+				"rank": "normal"
+			}
+		],
+		"P1258": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1258",
+					"datavalue": {
+						"value": "m/oklahoma_city",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$213DCC9F-B81A-46FA-98C6-B3ADE305383F",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1258",
+					"datavalue": {
+						"value": "m/american_experience_oklahoma_city",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$D38EC2F5-7164-47BF-A5BB-2BBA4678D69A",
+				"rank": "normal"
+			}
+		],
+		"P480": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P480",
+					"datavalue": {
+						"value": "560465",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$EE840DD9-1971-4474-82B0-7757540FA7C1",
+				"rank": "normal"
+			}
+		],
+		"P2603": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2603",
+					"datavalue": {
+						"value": "1008758",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$2722946B-03EA-4491-9539-8BFF67E45DCD",
+				"rank": "normal"
+			}
+		],
+		"P2529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2529",
+					"datavalue": {
+						"value": "485421",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$08F7F0B3-CC38-447E-BC06-FF3B2E4971A6",
+				"rank": "normal"
+			}
+		],
+		"P5032": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5032",
+					"datavalue": {
+						"value": "795051",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$DE06B5A5-F9CD-4036-85A6-B65801DA80C2",
+				"rank": "normal"
+			}
+		],
+		"P1970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1970",
+					"datavalue": {
+						"value": "1111703",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$2FB31BB0-C638-43D7-9813-713C459C9C92",
+				"rank": "normal"
+			}
+		],
+		"P1265": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1265",
+					"datavalue": {
+						"value": "252496",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$BC1C93AF-0758-4AEC-9ABB-07DB8D1858E6",
+				"rank": "normal"
+			}
+		],
+		"P2638": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2638",
+					"datavalue": {
+						"value": "movies/oklahoma-city",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$C5CAC5BC-D611-4A43-A5E6-7CF9817F6FBC",
+				"rank": "normal"
+			}
+		],
+		"P2704": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2704",
+					"datavalue": {
+						"value": "10.5240/A4F9-0691-EE63-4930-C94C-Z",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$F7D8B98E-C516-4F58-9760-33B7E72BCEF3",
+				"rank": "normal"
+			}
+		],
+		"P4947": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4947",
+					"datavalue": {
+						"value": "433056",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$FF48B0AA-266B-4371-9C2A-27DA4C4A0ECC",
+				"rank": "normal"
+			}
+		],
+		"P5786": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5786",
+					"datavalue": {
+						"value": "oklahoma-city",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$9FAB6E71-8BF5-40D3-B10A-D8123C290E93",
+				"rank": "normal"
+			}
+		],
+		"P3808": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3808",
+					"datavalue": {
+						"value": "Oklahoma-City",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$4E18CA72-CE96-4359-A951-2349C347E2F7",
+				"rank": "normal"
+			}
+		],
+		"P6127": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6127",
+					"datavalue": {
+						"value": "oklahoma-city",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q57833032$7AF67F61-C6BF-44E6-BE46-792E1597B206",
+				"rank": "normal"
+			}
+		]
+	},
+	"sitelinks": {}
+}

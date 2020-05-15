@@ -1,0 +1,2176 @@
+{
+	"pageid": 48934906,
+	"ns": 0,
+	"title": "Q47899984",
+	"lastrevid": 1180778435,
+	"modified": "2020-05-13T20:34:52Z",
+	"type": "item",
+	"id": "Q47899984",
+	"labels": {
+		"fr": {
+			"language": "fr",
+			"value": "Overlord"
+		},
+		"en": {
+			"language": "en",
+			"value": "Overlord"
+		},
+		"ko": {
+			"language": "ko",
+			"value": "오버로드"
+		},
+		"ru": {
+			"language": "ru",
+			"value": "Оверлорд"
+		},
+		"es": {
+			"language": "es",
+			"value": "Overlord"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "大君主行動"
+		},
+		"it": {
+			"language": "it",
+			"value": "Overlord"
+		},
+		"et": {
+			"language": "et",
+			"value": "Operatsioon \"Overlord\""
+		},
+		"ar": {
+			"language": "ar",
+			"value": "السيد الأعلي"
+		},
+		"tr": {
+			"language": "tr",
+			"value": "Overlord Operasyonu"
+		},
+		"ja": {
+			"language": "ja",
+			"value": "オーヴァーロード"
+		},
+		"de": {
+			"language": "de",
+			"value": "Operation: Overlord"
+		},
+		"uk": {
+			"language": "uk",
+			"value": "Оверлорд (фільм)"
+		},
+		"yue": {
+			"language": "yue",
+			"value": "大君主之役"
+		},
+		"zh-hant": {
+			"language": "zh-hant",
+			"value": "大君主行動"
+		},
+		"hu": {
+			"language": "hu",
+			"value": "Overlord"
+		},
+		"fa": {
+			"language": "fa",
+			"value": "ارباب (فیلم)"
+		},
+		"ro": {
+			"language": "ro",
+			"value": "Overlord"
+		},
+		"pt": {
+			"language": "pt",
+			"value": "Overlord"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "Overlord"
+		}
+	},
+	"descriptions": {
+		"nl": {
+			"language": "nl",
+			"value": "film uit 2018"
+		},
+		"en": {
+			"language": "en",
+			"value": "2018 American horror film directed by Julius Avery"
+		},
+		"tr": {
+			"language": "tr",
+			"value": "2018 yapımı Julius Avery filmi"
+		},
+		"zh-hant": {
+			"language": "zh-hant",
+			"value": "2018年的電影"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "فيلم أمريكي"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film américain de 2018 réalisé par Julius Avery"
+		},
+		"de": {
+			"language": "de",
+			"value": "US-amerikanischer Horror-Kriegsfilm"
+		},
+		"it": {
+			"language": "it",
+			"value": "film del 2018 diretto da Julius Avery."
+		},
+		"zh": {
+			"language": "zh",
+			"value": "2018年的电影"
+		}
+	},
+	"aliases": {
+		"en": [
+			{
+				"language": "en",
+				"value": "Over Lord"
+			}
+		],
+		"it": [
+			{
+				"language": "it",
+				"value": "Over Lord"
+			}
+		]
+	},
+	"claims": {
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 11424,
+							"id": "Q11424"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$525D0C7E-4A92-45B7-8661-11DB1309F0A3",
+				"rank": "normal"
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2018-11-09T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "d030038c836f9ed0d37c69cb8c389d689ebeb05a",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 30,
+									"id": "Q30"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q47899984$BACB4426-6991-4105-BB45-1694DF1C90D8",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2018-11-07T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "0a04593d08cbf7e3266dcb4ca0b01da704269a28",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 145,
+									"id": "Q145"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q47899984$8a7cdb19-4a0b-f586-b17c-e6119b0a25b1",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2018-11-08T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "a15ed95482d52eea03d59e098dae9e31dafef9bd",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 183,
+									"id": "Q183"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q47899984$b3c4fde7-4b0a-b4dd-8536-9bb32a8f895e",
+				"rank": "normal"
+			}
+		],
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt4530422",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$B526324E-70B0-4D38-B3AB-B468F51A30F9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1265": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1265",
+					"datavalue": {
+						"value": "253738",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$94EB967F-3ECF-42C5-828F-482864760D2E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$C590F996-E7A9-47AC-A8B8-37C4D867F004",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P57": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P57",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 18558778,
+							"id": "Q18558778"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$45c02f85-4f24-d364-9f52-4814ec514c11",
+				"rank": "normal"
+			}
+		],
+		"P1657": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1657",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 18665344,
+							"id": "Q18665344"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "30b18846507ccccc10c0793b59af1322b89966de",
+							"datavalue": {
+								"value": "51550",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q47899984$1cb8e753-47cb-4a2e-caa3-95723ff77a3f",
+				"rank": "normal"
+			}
+		],
+		"P58": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2679090,
+							"id": "Q2679090"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$A9E24375-81FB-4E67-B3E2-D75C40C85313",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "2a17f951304b2b1684232e0342a02d6fa6ffedd9",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://it.wikipedia.org/w/index.php?title=Overlord_(film_2018)&oldid=98789149",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 6768454,
+							"id": "Q6768454"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$ac0919bd-4cdf-0f4c-156c-7c5845d7d486",
+				"rank": "normal"
+			}
+		],
+		"P750": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P750",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 159846,
+							"id": "Q159846"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$FE23F96C-5424-4160-83BD-74AF3B7AC133",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c411186dcf8fee2c874f7109c5c3855d1e026e63",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Overlord_(2018_film)&oldid=852440604",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P1040": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1040",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 6788618,
+							"id": "Q6788618"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$B8B5D36E-0D2D-4513-BCD3-C6FAFE0409C8",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c411186dcf8fee2c874f7109c5c3855d1e026e63",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Overlord_(2018_film)&oldid=852440604",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P4529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4529",
+					"datavalue": {
+						"value": "26969115",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$C06137FC-4082-4AA9-A548-E5F259B8FFBD",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "cb4140c73085673613a890a703e206b32f41c014",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 30239,
+											"id": "Q30239"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://zh.wikipedia.org/w/index.php?title=大君主行動_(電影)&oldid=50638296",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P86": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P86",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3176338,
+							"id": "Q3176338"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$A02D2E82-4C36-4F0B-951B-EF4C196C9E29",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "961fde858ff0da50dedfde88feb890b6885448cf",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Overlord_(2018_film)&oldid=858568842",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P1258": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1258",
+					"datavalue": {
+						"value": "m/overlord_2018",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$E183E888-38DF-4485-ADF4-883CDDB0D2B7",
+				"rank": "normal"
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$078D2B5B-6048-4F4B-B90D-D36FCF97E6A1",
+				"rank": "normal"
+			}
+		],
+		"P161": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 27063733,
+							"id": "Q27063733"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$a992da9d-4c19-1a24-81b9-bc1e3a8f90b7",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 15542608,
+							"id": "Q15542608"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$8487abe2-49be-89e4-5b15-ce96f193b77d",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 117906,
+							"id": "Q117906"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$ac701dbb-4469-4e05-1dd4-aeb7af4ef0e9",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1677416,
+							"id": "Q1677416"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$0d113c07-4ccf-4fbd-abdc-c3c61120e103",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 5907683,
+							"id": "Q5907683"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$f1364902-45cb-a339-49bb-06ef45514409",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 6246377,
+							"id": "Q6246377"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$f5bc6ecc-477b-0180-154e-4bec75dd2ff0",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1139685,
+							"id": "Q1139685"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$fab88be2-44ab-b30d-17bf-a2e1f22e6bee",
+				"rank": "normal"
+			}
+		],
+		"P272": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 159846,
+							"id": "Q159846"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$556b614a-4ca2-5b98-97d2-397cb47fe3f2",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 798768,
+							"id": "Q798768"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$1a02bf1a-40c9-771f-971c-c16a71a43e96",
+				"rank": "normal"
+			}
+		],
+		"P2002": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2002",
+					"datavalue": {
+						"value": "OverlordMovie",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P6552": [
+						{
+							"snaktype": "value",
+							"property": "P6552",
+							"hash": "0811bc258785dc51ccc934d931097e4b9fac222e",
+							"datavalue": {
+								"value": "992519616420196353",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						}
+					],
+					"P1552": [
+						{
+							"snaktype": "value",
+							"property": "P1552",
+							"hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 28378282,
+									"id": "Q28378282"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P585": [
+						{
+							"snaktype": "value",
+							"property": "P585",
+							"hash": "21906324863f9cb1c8cc93214e04dd760001f810",
+							"datavalue": {
+								"value": {
+									"time": "+2020-03-25T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P6552",
+					"P1552",
+					"P585"
+				],
+				"id": "Q47899984$5d41dc86-4cbc-d4fe-4b5e-054226a619b3",
+				"rank": "normal"
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 369747,
+							"id": "Q369747"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$e7fc7482-4bb8-edc9-43a7-514853e9e674",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 200092,
+							"id": "Q200092"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$1b1d94a9-49ce-bff9-5e49-ede08ee5abb6",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 188473,
+							"id": "Q188473"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$8BEF3E12-6B2B-4502-B374-C423ABE1CE9C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "6bb3d23959aa7e6484be340c7c0c8dccac9ff6f1",
+						"snaks": {
+							"P3452": [
+								{
+									"snaktype": "value",
+									"property": "P3452",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 6832408,
+											"id": "Q6832408"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-05-28T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								},
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								},
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11921,
+											"id": "Q11921"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								},
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8449,
+											"id": "Q8449"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P3452",
+							"P813",
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 471839,
+							"id": "Q471839"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$D9F79DB1-DD8B-4918-B294-C281AC3495F2",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "002ae823988918545ad09b4b54460ad7a2c5b4b0",
+						"snaks": {
+							"P3452": [
+								{
+									"snaktype": "value",
+									"property": "P3452",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 6836457,
+											"id": "Q6836457"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-05-28T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P3452",
+							"P813",
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P856": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P856",
+					"datavalue": {
+						"value": "https://www.overlordmovie.com/",
+						"type": "string"
+					},
+					"datatype": "url"
+				},
+				"type": "statement",
+				"id": "Q47899984$30637481-4fbf-b14f-f4ad-953bb5ebe683",
+				"rank": "normal"
+			}
+		],
+		"P3077": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3077",
+					"datavalue": {
+						"value": "348493",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$82527940-42d1-9ab7-7332-33dde7f48aae",
+				"rank": "normal"
+			}
+		],
+		"P3216": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3216",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 26678735,
+							"id": "Q26678735"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$53EF4716-6F6C-4F14-BEDE-D4C4F2CA4AB7",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "ae560e7ca2ecd5f0ac1d4fdf493c89ac511eb649",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://justica.gov.br/news/collective-nitf-content-1541701779.07",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P3834": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3834",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 28980118,
+							"id": "Q28980118"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "52bb9c0f4523cbac153d1a994e54bedc0417ae27",
+							"datavalue": {
+								"value": "17498",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q47899984$46441A94-7207-43C8-A32F-48C2F0C1F602",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "00fc62527c3b13603003e516d6ae55d524e4f570",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.rtc.gob.mx/NuevoSitio/cine_clasif_35mm.php?cd=455",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P2047": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2047",
+					"datavalue": {
+						"value": {
+							"amount": "+110",
+							"unit": "http://www.wikidata.org/entity/Q7727"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q47899984$f1bc1c15-410b-b7ef-7c28-fe6e5cc732e7",
+				"rank": "normal"
+			}
+		],
+		"P480": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P480",
+					"datavalue": {
+						"value": "183164",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$fec97843-45c1-ac22-109e-fddc442d4c13",
+				"rank": "normal"
+			}
+		],
+		"P162": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 188137,
+							"id": "Q188137"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$acfdda32-4c38-06eb-7ae3-e09be23c8731",
+				"rank": "normal"
+			}
+		],
+		"P344": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P344",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 42887461,
+							"id": "Q42887461"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$26851130-436e-fd72-2f42-c9a720721c3a",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P344",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 15507934,
+							"id": "Q15507934"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$f82bc95c-47b1-84b0-5726-2ef57213ab84",
+				"rank": "normal"
+			}
+		],
+		"P5150": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5150",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 52692414,
+							"id": "Q52692414"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "0c390c989883efa244ffba7d2409261b89f32453",
+							"datavalue": {
+								"value": "1462/2018",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q47899984$AA224F65-FAC4-4103-BF14-10CA06E3614E",
+				"rank": "normal"
+			}
+		],
+		"P2755": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2755",
+					"datavalue": {
+						"value": "149633",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P580": [
+						{
+							"snaktype": "value",
+							"property": "P580",
+							"hash": "13ef85d008135b12ef4069379b27953b4bba7c9f",
+							"datavalue": {
+								"value": {
+									"time": "+2018-11-21T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P580"
+				],
+				"id": "Q47899984$EA94236A-8798-4E2F-B67A-3D3E5CC97D37",
+				"rank": "normal"
+			}
+		],
+		"P840": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P840",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 142,
+							"id": "Q142"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$8d6c4316-09a9-4580-8b52-67c1db6592b4",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3402": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3402",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 27915577,
+							"id": "Q27915577"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "fa71c90b91bd1d496da8102820c7fd0c0645ea54",
+							"datavalue": {
+								"value": "15774",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q47899984$F7F6BDA2-67B5-45DE-B7AB-609F15A9DDB6",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "da509c245ece86ed9a4f0c2ec6c051ac698fef35",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://cnc.abt.ro/registru/index.aspx?pageID=3&filmID=15993",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "Overlord",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q47899984$901b250e-4eae-0db8-9db7-f9acf2715b04",
+				"rank": "normal"
+			}
+		],
+		"P2363": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2363",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 21571490,
+							"id": "Q21571490"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "316085eec1daf2ab8e318f4e9530adb940be7d83",
+							"datavalue": {
+								"value": "NFT/25100/2019",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q47899984$3d975010-4ae1-b3bc-b25d-240b6dedc019",
+				"rank": "normal"
+			}
+		],
+		"P1712": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1712",
+					"datavalue": {
+						"value": "movie/overlord-2018",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$0B229F60-338F-4F49-8424-CF6560748141",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "89a13dfd59b0a70fbfd8f4f3b3b2159fedb9ef07",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Overlord_(2018_film)&oldid=890250175",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P2684": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2684",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 23649984,
+							"id": "Q23649984"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$36A5A791-DE8A-40E9-A015-1459BA5A1C3B",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "894f0b8b815cb66713c6280b65b8971cd6cda9cf",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.kijkwijzer.nl/index.php?id=26&i=375609",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P1804": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1804",
+					"datavalue": {
+						"value": "112951",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$ae104871-40a8-dd50-68f9-b9dd0ef340db",
+				"rank": "normal"
+			}
+		],
+		"P5099": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5099",
+					"datavalue": {
+						"value": "film1/overlord",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$a319ff9f-42bf-5146-85a5-b7397ed95239",
+				"rank": "normal"
+			}
+		],
+		"P6562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6562",
+					"datavalue": {
+						"value": "rhlT35OCCho",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$015A393B-42CB-4C32-B0CD-4E4375F14E04",
+				"rank": "normal"
+			}
+		],
+		"P5970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5970",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 56887761,
+							"id": "Q56887761"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$9FE6D010-AD66-4FD3-BE38-45E147EA7AE1",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4174f97f03b8cd0fb02db5ba9b672f4c8b1196a0",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 16323348,
+											"id": "Q16323348"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P3306": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3306",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 27253952,
+							"id": "Q27253952"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$8104F8F8-4D4D-495D-97BA-412FAC66C567",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "1072a9508890f46738ce498360f98346f0ed8317",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://sede.mcu.gob.es/webicaa/Ficheros/95918/34/95918/1/209.pdf",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P5128": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5128",
+					"datavalue": {
+						"value": "95918",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q47899984$8A230FA0-5111-4193-9F01-89FE3C5B35A8",
+				"rank": "normal"
+			}
+		],
+		"P2758": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2758",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 23817741,
+							"id": "Q23817741"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q47899984$D79FADD7-3195-42F9-A925-D8D10992FE50",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "ba9d7b05ef245eeb5172cef16d26024889f01035",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://www.cnc.fr/professionnels/visas-et-classification/149633",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P2629": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2629",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 4557532,
+							"id": "Q4557532"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "db5e553d7fbf764908922d96d125445f1585dfcb",
+							"datavalue": {
+								"value": "AZF364913",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q47899984$b80fd273-4a81-77aa-46ea-1edc6eec56a4",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "1f10d608db29056589e89874cee6cb52c94d823e",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://bbfc.co.uk/releases/overlord-2018",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		]
+	},
+	"sitelinks": {
+		"arwiki": {
+			"site": "arwiki",
+			"title": "أوفرلورد (فيلم)",
+			"badges": [],
+			"url": "https://ar.wikipedia.org/wiki/%D8%A3%D9%88%D9%81%D8%B1%D9%84%D9%88%D8%B1%D8%AF_(%D9%81%D9%8A%D9%84%D9%85)"
+		},
+		"dewiki": {
+			"site": "dewiki",
+			"title": "Operation: Overlord",
+			"badges": [],
+			"url": "https://de.wikipedia.org/wiki/Operation:_Overlord"
+		},
+		"enwiki": {
+			"site": "enwiki",
+			"title": "Overlord (2018 film)",
+			"badges": [],
+			"url": "https://en.wikipedia.org/wiki/Overlord_(2018_film)"
+		},
+		"eswiki": {
+			"site": "eswiki",
+			"title": "Overlord (película)",
+			"badges": [],
+			"url": "https://es.wikipedia.org/wiki/Overlord_(pel%C3%ADcula)"
+		},
+		"fawiki": {
+			"site": "fawiki",
+			"title": "ارباب (فیلم)",
+			"badges": [],
+			"url": "https://fa.wikipedia.org/wiki/%D8%A7%D8%B1%D8%A8%D8%A7%D8%A8_(%D9%81%DB%8C%D9%84%D9%85)"
+		},
+		"frwiki": {
+			"site": "frwiki",
+			"title": "Overlord (film, 2018)",
+			"badges": [],
+			"url": "https://fr.wikipedia.org/wiki/Overlord_(film,_2018)"
+		},
+		"itwiki": {
+			"site": "itwiki",
+			"title": "Overlord (film 2018)",
+			"badges": [],
+			"url": "https://it.wikipedia.org/wiki/Overlord_(film_2018)"
+		},
+		"jawiki": {
+			"site": "jawiki",
+			"title": "オーヴァーロード",
+			"badges": [],
+			"url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89"
+		},
+		"kowiki": {
+			"site": "kowiki",
+			"title": "오버로드 (2018년 영화)",
+			"badges": [],
+			"url": "https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B2%84%EB%A1%9C%EB%93%9C_(2018%EB%85%84_%EC%98%81%ED%99%94)"
+		},
+		"ptwiki": {
+			"site": "ptwiki",
+			"title": "Overlord (2018)",
+			"badges": [],
+			"url": "https://pt.wikipedia.org/wiki/Overlord_(2018)"
+		},
+		"rowiki": {
+			"site": "rowiki",
+			"title": "Overlord (film din 2018)",
+			"badges": [],
+			"url": "https://ro.wikipedia.org/wiki/Overlord_(film_din_2018)"
+		},
+		"ruwiki": {
+			"site": "ruwiki",
+			"title": "Оверлорд (фильм)",
+			"badges": [],
+			"url": "https://ru.wikipedia.org/wiki/%D0%9E%D0%B2%D0%B5%D1%80%D0%BB%D0%BE%D1%80%D0%B4_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)"
+		},
+		"ukwiki": {
+			"site": "ukwiki",
+			"title": "Оверлорд (фільм)",
+			"badges": [],
+			"url": "https://uk.wikipedia.org/wiki/%D0%9E%D0%B2%D0%B5%D1%80%D0%BB%D0%BE%D1%80%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)"
+		},
+		"zh_yuewiki": {
+			"site": "zh_yuewiki",
+			"title": "大君主之役",
+			"badges": [],
+			"url": "https://zh-yue.wikipedia.org/wiki/%E5%A4%A7%E5%90%9B%E4%B8%BB%E4%B9%8B%E5%BD%B9"
+		},
+		"zhwiki": {
+			"site": "zhwiki",
+			"title": "大君主行動 (電影)",
+			"badges": [],
+			"url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%90%9B%E4%B8%BB%E8%A1%8C%E5%8B%95_(%E9%9B%BB%E5%BD%B1)"
+		}
+	}
+}

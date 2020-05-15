@@ -5,16 +5,13 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-	siteName: 'Gridsome',
+	siteName: 'Filmanac',
 	plugins: [
-		/* {
-			use: 'gridsome-source-google-sheets',
-			options: {
-				sheetId: process.env.GoogleSheetID,
-				apiKey: process.env.GoogleAPIKey,
-				type: 'MovieDates',
-			},
-		}, */
-		'~/src/data/gridsome-source-movies'
+		'~/src/data/gridsome-source-movies.js',
+		'gridsome-plugin-tailwindcss',
 	],
+	templates: {
+		Movie: '/:id',
+		Day: '/:month/:day',
+	},
 };

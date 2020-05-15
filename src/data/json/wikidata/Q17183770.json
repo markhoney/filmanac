@@ -1,0 +1,8700 @@
+{
+	"pageid": 18778023,
+	"ns": 0,
+	"title": "Q17183770",
+	"lastrevid": 1179006485,
+	"modified": "2020-05-11T15:48:00Z",
+	"type": "item",
+	"id": "Q17183770",
+	"labels": {
+		"en": {
+			"language": "en",
+			"value": "Selma"
+		},
+		"ru": {
+			"language": "ru",
+			"value": "Сельма"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "Selma"
+		},
+		"it": {
+			"language": "it",
+			"value": "Selma"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "塞尔玛游行"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "Selma"
+		},
+		"fa": {
+			"language": "fa",
+			"value": "سلما (فیلم)"
+		},
+		"fi": {
+			"language": "fi",
+			"value": "Selma"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "Selma"
+		},
+		"es": {
+			"language": "es",
+			"value": "Selma"
+		},
+		"uk": {
+			"language": "uk",
+			"value": "Сельма"
+		},
+		"en-gb": {
+			"language": "en-gb",
+			"value": "Selma"
+		},
+		"de": {
+			"language": "de",
+			"value": "Selma"
+		},
+		"cs": {
+			"language": "cs",
+			"value": "Selma"
+		},
+		"lv": {
+			"language": "lv",
+			"value": "Selma"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "سيلما"
+		},
+		"el": {
+			"language": "el",
+			"value": "Selma (ταινία)"
+		},
+		"hy": {
+			"language": "hy",
+			"value": "Սելմա (ֆիլմ)"
+		},
+		"ja": {
+			"language": "ja",
+			"value": "セルマ (映画)"
+		},
+		"ko": {
+			"language": "ko",
+			"value": "셀마 (영화)"
+		},
+		"ml": {
+			"language": "ml",
+			"value": "സെൽമ (ചലച്ചിത്രം)"
+		},
+		"nb": {
+			"language": "nb",
+			"value": "Selma"
+		},
+		"pl": {
+			"language": "pl",
+			"value": "Selma"
+		},
+		"pt": {
+			"language": "pt",
+			"value": "Selma"
+		},
+		"sr": {
+			"language": "sr",
+			"value": "Селма"
+		},
+		"en-ca": {
+			"language": "en-ca",
+			"value": "Selma"
+		},
+		"he": {
+			"language": "he",
+			"value": "סלמה"
+		},
+		"id": {
+			"language": "id",
+			"value": "Selma"
+		},
+		"sh": {
+			"language": "sh",
+			"value": "Selma"
+		},
+		"da": {
+			"language": "da",
+			"value": "Selma"
+		},
+		"te": {
+			"language": "te",
+			"value": "సెల్మా (సినిమా)"
+		},
+		"eu": {
+			"language": "eu",
+			"value": "Selma"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "Selma"
+		},
+		"azb": {
+			"language": "azb",
+			"value": "سلما (فیلم)"
+		},
+		"tr": {
+			"language": "tr",
+			"value": "Selma (film)"
+		}
+	},
+	"descriptions": {
+		"uk": {
+			"language": "uk",
+			"value": "американська історична драма 2014 року"
+		},
+		"en": {
+			"language": "en",
+			"value": "2014 American historical film by Ava DuVernay"
+		},
+		"en-gb": {
+			"language": "en-gb",
+			"value": "2014 American historical film"
+		},
+		"de": {
+			"language": "de",
+			"value": "US-amerikanischer Film von Ava DuVernay (2014)"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film sorti en 2014"
+		},
+		"en-ca": {
+			"language": "en-ca",
+			"value": "2014 American historical film"
+		},
+		"nb": {
+			"language": "nb",
+			"value": "film"
+		},
+		"pl": {
+			"language": "pl",
+			"value": "film"
+		},
+		"it": {
+			"language": "it",
+			"value": "Film del 2014 diretto da Ava DuVernay"
+		},
+		"cs": {
+			"language": "cs",
+			"value": "americký film z roku 2015"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "film uit 2014 van Ava DuVernay"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "فيلم سيرة ذاتية أمريكي"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "amerikansk film från 2014 regisserad av Ava DuVernay"
+		}
+	},
+	"aliases": {},
+	"claims": {
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt1020072",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$5ae4f655-4c31-9b02-bfce-dd932982304b",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "122840a0d41f543a54a3edad850f6a2e5fcd5d0d",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 18709181,
+											"id": "Q18709181"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P6127": [
+								{
+									"snaktype": "value",
+									"property": "P6127",
+									"datavalue": {
+										"value": "selma",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-06-21T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P6127",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 11424,
+							"id": "Q11424"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$8B5605C6-4560-4019-8D59-EA14FB773FD9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$4B133857-B99D-4841-A7F5-F53815DF1216",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2014-12-25T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "d030038c836f9ed0d37c69cb8c389d689ebeb05a",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 30,
+									"id": "Q30"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q17183770$AE56E251-16BB-4BF3-BDA7-DD835CA0FEC8",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2015-01-09T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "548e20e9f59d661d6b409bea2e0126141a2cbc34",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 46,
+									"id": "Q46"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "dfb6efa1e0832b752a01c21d75ef58b4868d5211",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 45256,
+									"id": "Q45256"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q17183770$2c9c63b4-4bfa-34f0-d45f-dfc18a57ca5a",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "317fd745bd2ea1923535c866b03db067182b75c7",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2015-02-19T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "a15ed95482d52eea03d59e098dae9e31dafef9bd",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 183,
+									"id": "Q183"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q17183770$3D5DD8D5-B54A-4416-A714-E8FFBA2602C5",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "e15e533e839baae26482671f9aa5325465483034",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/releaseinfo",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-08-17T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			}
+		],
+		"P161": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 218800,
+							"id": "Q218800"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "b6dac7b06ef17af2bfa4436a6d1ccb7c8ef4d83f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 8027,
+									"id": "Q8027"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$dcae1b52-4559-2cf8-e9d6-009f96729f5e",
+				"rank": "preferred",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "2e826609456f7d15f0f257e5d43740f50bc02de2",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.bbfc.co.uk/releases/selma-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "51ed8de9b96a9fbd09ce44540c325394ae4bfe98",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=175581.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 211322,
+							"id": "Q211322"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "bca0e363d0bcff31cd432034f7f378fb6abaf1a1",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 9640,
+									"id": "Q9640"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$3c35c313-43ff-58e0-deb7-3d1eb877f721",
+				"rank": "preferred",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "2e826609456f7d15f0f257e5d43740f50bc02de2",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.bbfc.co.uk/releases/selma-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "51ed8de9b96a9fbd09ce44540c325394ae4bfe98",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=175581.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 203804,
+							"id": "Q203804"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "ed5eca4acbd7765531d2b06b2d3caf455798bd5e",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 313776,
+									"id": "Q313776"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$63c9cfa7-41b1-6d5f-d18d-9febff78410e",
+				"rank": "preferred",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "2e826609456f7d15f0f257e5d43740f50bc02de2",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.bbfc.co.uk/releases/selma-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 286022,
+							"id": "Q286022"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "841fc09fd07bcd9f6ccf9fd618b6a4b7903b8218",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1920456,
+									"id": "Q1920456"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$580ced3c-4a04-f56d-65fd-144b99db0ea3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 606215,
+							"id": "Q606215"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "06a6fb97bf9e658823ef441f139378b7f36b6971",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 187930,
+									"id": "Q187930"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$cf3ebdb3-4bf9-cb9f-75ab-3b91e9c0e25b",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 391536,
+							"id": "Q391536"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "73fb86fc4b9e88afb7f3e4cc1e00835ccf52cac9",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 230969,
+									"id": "Q230969"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$f6fded27-4f1a-4d43-1ec3-d26e4641e04d",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "2e826609456f7d15f0f257e5d43740f50bc02de2",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.bbfc.co.uk/releases/selma-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "51ed8de9b96a9fbd09ce44540c325394ae4bfe98",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=175581.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 460786,
+							"id": "Q460786"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "c380033334d9c6040d380babb98891b62dffd54e",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 4355869,
+									"id": "Q4355869"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$058d72da-4fc2-346b-cfd9-fed623090c77",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 55800,
+							"id": "Q55800"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "5396020512bb5ea8d629b29cea069d3429292a29",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 17279146,
+									"id": "Q17279146"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$2eb38109-4706-3fa8-d601-6f2036cb2ee7",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 136209,
+							"id": "Q136209"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "45aa066f326d68a91662653a9b4ecf8b27cad2b9",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 5495300,
+									"id": "Q5495300"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$0096db41-41ac-69ac-c5a4-7c9a23750513",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 4328437,
+							"id": "Q4328437"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "7d182eec7da008856131314433a74ab334cda6e9",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 18763751,
+									"id": "Q18763751"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$35a51783-44c9-3426-61c1-9fab080c8d11",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 5147723,
+							"id": "Q5147723"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "55251cf5c2a8af28fbcfa00e30f4a8a6def93812",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 545488,
+									"id": "Q545488"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$e80ac504-4033-6865-922a-250592a6a538",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 350424,
+							"id": "Q350424"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "5275eabf4b1c602e5db2a4d1f307caa270c417ff",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 6229534,
+									"id": "Q6229534"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$26caccbd-4096-0663-e324-0e6b62e09ae5",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "2e826609456f7d15f0f257e5d43740f50bc02de2",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.bbfc.co.uk/releases/selma-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 16762370,
+							"id": "Q16762370"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "5271122fbea197941a4feac3a411fe481d008a49",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 6199368,
+									"id": "Q6199368"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$0e69a2a4-4202-7481-f4d8-ce5376b7f5de",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 4754805,
+							"id": "Q4754805"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "4ea1f5d1de49c425ab9e89a7e5def3766e9523df",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 959635,
+									"id": "Q959635"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$8adcd70b-4aee-2d97-57fa-b8700af7dc04",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 271500,
+							"id": "Q271500"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "79540125d1b50cffff56be5ee7c4a648af61e37d",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 5271535,
+									"id": "Q5271535"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$ba5f202b-4514-20fa-eb62-67536d14fd63",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 727730,
+							"id": "Q727730"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "91e5292d5bf85c80c6f4ffd732b4a7fa36208169",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 15512904,
+									"id": "Q15512904"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$8240353e-482c-0847-f860-beaec72e6f98",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 17517282,
+							"id": "Q17517282"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "3e1bef2734fb1967876eb8492a2fa71de26b19ae",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 16018234,
+									"id": "Q16018234"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$5eef8041-4ba1-963b-7d3e-d061feac6d45",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1811634,
+							"id": "Q1811634"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "239dbd581c81121da520a906c1e056b7a97b863f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 206466,
+									"id": "Q206466"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$f76087f8-491f-493a-fdab-9f354ccfafd3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 18749573,
+							"id": "Q18749573"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "636db6ae28d8b07a5a7bb6a63a77d6efe3dd2faf",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 704746,
+									"id": "Q704746"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$59a1d6c4-4d54-1082-8ab8-9c521fbf2bf5",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 16235476,
+							"id": "Q16235476"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P3831": [
+						{
+							"snaktype": "value",
+							"property": "P3831",
+							"hash": "fc16e279b2969ba003499d78ddd4bfbd621a6a4e",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 45380,
+									"id": "Q45380"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P3831"
+				],
+				"id": "Q17183770$ff2a5dee-4e05-1ea3-0f4f-be7a067e9cda",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 6391717,
+							"id": "Q6391717"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$f62f65eb-40fa-96ba-b6d9-a13fc4da398f",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 15854232,
+							"id": "Q15854232"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "97fdef24a18d8c74277a797d531ba0441a90414f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 6141913,
+									"id": "Q6141913"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$8368e04a-4a6a-6116-11cf-43815fd84baa",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 726128,
+							"id": "Q726128"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "874f5869b3ea424bed8fa9940c5b014acfa5918a",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 210435,
+									"id": "Q210435"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$277b1d3a-433f-9ea2-17e0-581be5e32893",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 184572,
+							"id": "Q184572"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "e969819c768769d1ea23d0b79d69549ae7f0211e",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 5488468,
+									"id": "Q5488468"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "Q17183770$6c0c5a03-40e4-157c-8bf6-4833a7592bda",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 224081,
+							"id": "Q224081"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$1402FE18-0386-4D7F-9181-6AB4B010FF92",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "2e826609456f7d15f0f257e5d43740f50bc02de2",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.bbfc.co.uk/releases/selma-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "51ed8de9b96a9fbd09ce44540c325394ae4bfe98",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=175581.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 21634550,
+							"id": "Q21634550"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$93AACAAA-4FBD-4B6A-A974-7F5B45D36BD5",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1132666,
+							"id": "Q1132666"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$A53FE907-38EB-410C-B71E-20644FB9AE1F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3784932,
+							"id": "Q3784932"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$3761920A-18AE-47CE-863A-F74BB896CBD3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 12684980,
+							"id": "Q12684980"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$DCE6B4B9-5586-439F-91C5-862AA1F3C336",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 464320,
+							"id": "Q464320"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$40288456-D6A3-441C-A426-00C83437AA89",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 948751,
+							"id": "Q948751"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$65A17CBF-42E8-46F9-96E7-F97870ADAE50",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					},
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 19665870,
+							"id": "Q19665870"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$CD5BC751-3579-42FE-B3DA-01DD3A49A510",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 214959,
+							"id": "Q214959"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$92E8B80B-E5ED-41AE-9AC4-30556A77C466",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 296729,
+							"id": "Q296729"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$58C7046E-9D17-463A-B8C0-70D67DA5821A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 297816,
+							"id": "Q297816"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$8D1177F3-7738-49A1-9183-8428F41F1156",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "dacc9aaf6265c67915355015ec94a396bf157a6f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-01-25T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			}
+		],
+		"P1258": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1258",
+					"datavalue": {
+						"value": "m/selma",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$84d2811c-4e7a-e0f7-7151-305f77acae8b",
+				"rank": "normal"
+			}
+		],
+		"P856": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P856",
+					"datavalue": {
+						"value": "http://www.selmamovie.com/",
+						"type": "string"
+					},
+					"datatype": "url"
+				},
+				"type": "statement",
+				"id": "Q17183770$DDA24309-0C4D-4567-9325-C37331A0E56C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1411": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1411",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 102427,
+							"id": "Q102427"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P585": [
+						{
+							"snaktype": "value",
+							"property": "P585",
+							"hash": "6ff65bd3064746deb3dd55f22d947731e580cf43",
+							"datavalue": {
+								"value": {
+									"time": "+2014-01-01T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 9,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					],
+					"P805": [
+						{
+							"snaktype": "value",
+							"property": "P805",
+							"hash": "3fa5608fcf82524ea76a99ba1c1adcb7c3419706",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 16773560,
+									"id": "Q16773560"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P2453": [
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "52af493ad5e73faf0ced1b8cf62bc8a23fbf5ab0",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 144896,
+									"id": "Q144896"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "a960e23063fd02198704a1ee662a0e287afd1552",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 55800,
+									"id": "Q55800"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "12c171058c276224cef9a9cfd6b41fba8ba9dd59",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 5249738,
+									"id": "Q5249738"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "93efda86f872223be139c92fc71bd108bb80129d",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 15884784,
+									"id": "Q15884784"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P585",
+					"P805",
+					"P2453"
+				],
+				"id": "Q17183770$F2EC1BA2-6CE1-4EE9-9C82-C11D100E4C8E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P915": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P915",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 23556,
+							"id": "Q23556"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$9F01D8AD-E29D-42B9-BBF7-929D3DED429D",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P915",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 173,
+							"id": "Q173"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$B8A57066-7A2E-4469-B9CA-8C73BF90EAB7",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P915",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1428,
+							"id": "Q1428"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$3F829D70-7FFF-4898-92FF-15B5D1209CAF",
+				"rank": "normal"
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$6EC3EEC7-7E4F-42EF-B1AD-FEE2F425D77F",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 145,
+							"id": "Q145"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$7E531283-FE6A-4DD0-95B4-496DDCA1E6F4",
+				"rank": "normal"
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 130232,
+							"id": "Q130232"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$6E13F5F3-9B8D-4F7B-B0E6-D8AAC6835358",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "6317577b41cef22ea7a2df3bdc791b7a75522b2b",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.nytimes.com/2014/12/25/arts/in-selma-king-is-just-one-of-the-heroes.html?_r=0",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "1ee701b900c834006b92c6d8ff2ea202f0d74de5",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.nytimes.com/2014/12/25/arts/in-selma-king-is-just-one-of-the-heroes.html?partner=rss&emc=rss&_r=0",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "317fd745bd2ea1923535c866b03db067182b75c7",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "babe7dbe50dcd8babb545c2fa35a1fd520bd05f3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/selma",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 17013749,
+							"id": "Q17013749"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$65C01E4F-F3F5-413D-B420-E0BEE83725B4",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 645928,
+							"id": "Q645928"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$B85091F8-C55B-4118-81B3-D53D9DD29480",
+				"rank": "normal"
+			}
+		],
+		"P57": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P57",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 4827381,
+							"id": "Q4827381"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$1217DA91-1440-4B65-B1A0-B1AAF227ED9F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "317fd745bd2ea1923535c866b03db067182b75c7",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt1020072/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "2e826609456f7d15f0f257e5d43740f50bc02de2",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.bbfc.co.uk/releases/selma-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "51ed8de9b96a9fbd09ce44540c325394ae4bfe98",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=175581.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-05-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P58": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 18818521,
+							"id": "Q18818521"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$893A99A0-DB48-4FCF-A734-F0374DF7C183",
+				"rank": "normal"
+			}
+		],
+		"P162": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 144896,
+							"id": "Q144896"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$52CC5FD4-A527-48F9-BA6E-854C08408170",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 5249738,
+							"id": "Q5249738"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$27C0CCE7-AEBA-4B2C-9412-EAD3059A634C",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 15884784,
+							"id": "Q15884784"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$F22BB673-A2F3-4011-A0B8-61D756AE5F49",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 55800,
+							"id": "Q55800"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$85988F7D-F2D0-4713-9EDD-9250503CDAB9",
+				"rank": "normal"
+			}
+		],
+		"P646": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P646",
+					"datavalue": {
+						"value": "/m/0bbqv9t",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$170bfe95-4285-c592-dbd6-304e51ff02dc",
+				"rank": "normal"
+			}
+		],
+		"P1804": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1804",
+					"datavalue": {
+						"value": "92820",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$1eb13b8e-4265-262c-f958-8c3fe1f4e445",
+				"rank": "normal"
+			}
+		],
+		"P1237": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1237",
+					"datavalue": {
+						"value": "selma",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$186615BA-8B46-4217-923C-45794B751650",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1265": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1265",
+					"datavalue": {
+						"value": "175581",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$FCA3AC5B-C380-4F9D-9617-FA7B2CDD92B9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1712": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1712",
+					"datavalue": {
+						"value": "movie/selma",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$B9E559EF-C5A1-4F29-B933-62E05BE5FB80",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "Selma",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q17183770$3500EC6C-599F-4CC2-9C46-0BF2B3887C6E",
+				"rank": "normal"
+			}
+		],
+		"P86": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P86",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 978467,
+							"id": "Q978467"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$858315C8-FC7B-4D00-B300-D9BB3A04E9A0",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 191168,
+											"id": "Q191168"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P462": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P462",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 22006653,
+							"id": "Q22006653"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$6A21B4EA-A79A-4936-A95D-2BBC8088D6EF",
+				"rank": "normal"
+			}
+		],
+		"P2529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2529",
+					"datavalue": {
+						"value": "275833",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$3A1E4B75-3650-4280-92BE-33E2E9E7311C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 191168,
+											"id": "Q191168"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1970",
+					"datavalue": {
+						"value": "100612",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$A9B1306E-9369-4870-AE75-0D8F72190F16",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 10000,
+											"id": "Q10000"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1981": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1981",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 20644796,
+							"id": "Q20644796"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$62588CD4-1AE9-43AE-8C41-FF8212F640C8",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2465": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2465",
+					"datavalue": {
+						"value": "352675",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$3E436F3C-C7E8-430C-A41B-832D3AB2F0DD",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P18": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P18",
+					"datavalue": {
+						"value": "Bloody Sunday-Alabama police attack.jpeg",
+						"type": "string"
+					},
+					"datatype": "commonsMedia"
+				},
+				"type": "statement",
+				"id": "Q17183770$78C6E510-9684-4F9E-870B-2AFC81727301",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 10000,
+											"id": "Q10000"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1562",
+					"datavalue": {
+						"value": "v595217",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$7C7030D2-5EE0-4FB6-AFE1-00D30D385815",
+				"rank": "normal"
+			}
+		],
+		"P2047": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2047",
+					"datavalue": {
+						"value": {
+							"amount": "+127",
+							"unit": "http://www.wikidata.org/entity/Q7727"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q17183770$076469BA-72B9-4B4B-B355-F334937FE682",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P750": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P750",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 159846,
+							"id": "Q159846"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$F7D5C9BB-DDB0-4491-B2E3-10D4F27C1471",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2603": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2603",
+					"datavalue": {
+						"value": "464607",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$306859AA-DB74-455F-8226-3643842A7B5C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "043ac99faf5875c1934a2fc7030edf88cca1c235",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2389071,
+											"id": "Q2389071"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P905": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P905",
+					"datavalue": {
+						"value": "158995",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$72962042-4cc2-06a7-e8d8-878e4437b60d",
+				"rank": "normal"
+			}
+		],
+		"P3143": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3143",
+					"datavalue": {
+						"value": "931216",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$7923c763-41f9-b344-d748-2353c2a56c62",
+				"rank": "normal"
+			}
+		],
+		"P3129": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3129",
+					"datavalue": {
+						"value": "719611",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$c5aa5809-41a5-8eeb-87bf-d0aee00ecab6",
+				"rank": "normal"
+			}
+		],
+		"P3135": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3135",
+					"datavalue": {
+						"value": "2034437",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$256ddcfe-4255-c27c-cd8f-cbde9c6aeae5",
+				"rank": "normal"
+			}
+		],
+		"P2518": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2518",
+					"datavalue": {
+						"value": "10076",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$08c745d9-41b6-4030-1363-f8fd3d5a8778",
+				"rank": "normal"
+			}
+		],
+		"P272": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 159846,
+							"id": "Q159846"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$2B50E48F-40AB-4391-978C-E895F849C078",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P344": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P344",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 16216857,
+							"id": "Q16216857"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$A9C38F08-9D59-4302-8717-AC94E184545B",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3302": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3302",
+					"datavalue": {
+						"value": "27554",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$EB70DC7F-7B61-4922-A474-54B8E987B5FE",
+				"rank": "normal"
+			}
+		],
+		"P3138": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3138",
+					"datavalue": {
+						"value": "271087",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$29A87A59-9923-4E41-94C3-63B37BC2C245",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "5595b1ec65ab3e7908ef612fe6bae0991cf6cc46",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1669874,
+											"id": "Q1669874"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P3306": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3306",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 27253945,
+							"id": "Q27253945"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$70A293C7-5409-4AC4-8572-47DDF927697F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "43d7961acad35c38ce0289f864d6111e1f3d681a",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.mecd.gob.es/cultura-mecd/areas-cultura/cine/industria-cine/calificacion/calificacion-por-meses.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P3650": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3650",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 28732985,
+							"id": "Q28732985"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$AD9266B7-D860-49F5-A8D0-4598E1633644",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3834": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3834",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 28980109,
+							"id": "Q28980109"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "e07ea763f801b9fe25f7cd9768301830144d4441",
+							"datavalue": {
+								"value": "15276",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q17183770$1BF63B83-015B-44A7-9E29-1B2B1B373514",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "13b12c7a427e550a0b615723d9af3d989349b0b1",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.rtc.gob.mx/NuevoSitio/cine_clasif_35mm.php?cd=257",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P3844": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3844",
+					"datavalue": {
+						"value": "30479",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$7C092F54-C6F5-4B6A-A78D-9F58A4188F22",
+				"rank": "normal"
+			}
+		],
+		"P4276": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4276",
+					"datavalue": {
+						"value": "104938",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$9C13C877-50CA-4C62-A85F-61CA4EB98674",
+				"rank": "normal"
+			}
+		],
+		"P1417": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1417",
+					"datavalue": {
+						"value": "topic/Selma-film",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$AFDD7656-C741-4C0B-9837-2CE27397249D",
+				"rank": "normal"
+			}
+		],
+		"P3077": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3077",
+					"datavalue": {
+						"value": "321076",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$e300e5de-440d-0add-8b33-3307fc25d9aa",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "65b3dd3cf5f4970a4bd5090a710c260ad729e777",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1092476,
+											"id": "Q1092476"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P1552": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1552",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 45171911,
+							"id": "Q45171911"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P1013": [
+						{
+							"snaktype": "value",
+							"property": "P1013",
+							"hash": "30ddffb176643f466e76c3a0164abeafb1bc7b37",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 93591279,
+									"id": "Q93591279"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P1013"
+				],
+				"id": "Q17183770$97B8352A-554F-4473-8201-51BD01911C09",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "6eb122878d15de853a6ab523224ab90a7cdaef53",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 45150204,
+											"id": "Q45150204"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-12-10T00:00:00Z",
+											"timezone": 0,
+											"before": 1,
+											"after": 1,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P4632": [
+								{
+									"snaktype": "value",
+									"property": "P4632",
+									"datavalue": {
+										"value": "5959",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813",
+							"P4632"
+						]
+					}
+				]
+			}
+		],
+		"P4632": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4632",
+					"datavalue": {
+						"value": "5959",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$7D7DD0BF-2963-4A60-9875-C662F49C591F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "650a579722618177a405df3d7c2de89d5b5f1206",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 45150204,
+											"id": "Q45150204"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-12-10T00:00:00Z",
+											"timezone": 0,
+											"before": 1,
+											"after": 1,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P345": [
+								{
+									"snaktype": "value",
+									"property": "P345",
+									"datavalue": {
+										"value": "tt1020072",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813",
+							"P345"
+						]
+					}
+				]
+			}
+		],
+		"P4947": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4947",
+					"datavalue": {
+						"value": "273895",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$DF828DC5-B515-4168-9BBC-90C8DDA1440A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "122840a0d41f543a54a3edad850f6a2e5fcd5d0d",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 18709181,
+											"id": "Q18709181"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P6127": [
+								{
+									"snaktype": "value",
+									"property": "P6127",
+									"datavalue": {
+										"value": "selma",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-06-21T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P6127",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P1040": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1040",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 28839596,
+							"id": "Q28839596"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$79329B57-464E-41E8-9ACB-665009E9181A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "729d2c1cd739c3eb5f6248fd01c2f38f497d1bac",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Selma_(film)&oldid=852261225",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P5786": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5786",
+					"datavalue": {
+						"value": "selma",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$12ACD7B4-DA6E-4FC8-96CB-5E5D8D2770D5",
+				"rank": "normal"
+			}
+		],
+		"P1874": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1874",
+					"datavalue": {
+						"value": "80013278",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$6D11C219-D2C6-4D5F-8D04-5862910C391E",
+				"rank": "normal"
+			}
+		],
+		"P6145": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6145",
+					"datavalue": {
+						"value": "4638",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$B6191EEE-20F0-495C-A692-35C5B7B8A18D",
+				"rank": "normal"
+			}
+		],
+		"P840": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P840",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 173,
+							"id": "Q173"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$8029f9c8-7b25-497a-97cf-3819c16d4ca1",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1431": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1431",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 4827381,
+							"id": "Q4827381"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$A9C128AF-EC90-4B69-B797-DC580F42EAE1",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "15336d9dd0e199d4a14ad85de0614ec5f93599d2",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://it.wikipedia.org/w/index.php?title=Selma_-_La_strada_per_la_libertà&oldid=101461686",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P6127": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6127",
+					"datavalue": {
+						"value": "selma",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$101B8B98-7CFE-46FF-A19E-D97DFE338F9F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "122840a0d41f543a54a3edad850f6a2e5fcd5d0d",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 18709181,
+											"id": "Q18709181"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P6127": [
+								{
+									"snaktype": "value",
+									"property": "P6127",
+									"datavalue": {
+										"value": "selma",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-06-21T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P6127",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6127",
+					"datavalue": {
+						"value": "selma-2014",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$52E1C4CA-DC23-4447-9775-3B34C6D3B7B4",
+				"rank": "normal"
+			}
+		],
+		"P6562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6562",
+					"datavalue": {
+						"value": "Abkka8Vf2_M",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$CB374A20-1208-410D-82E0-0E4A46B343C5",
+				"rank": "normal"
+			}
+		],
+		"P5970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5970",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 56887761,
+							"id": "Q56887761"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$195D0088-8FD9-43FD-88EE-BBB42B357D6E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4174f97f03b8cd0fb02db5ba9b672f4c8b1196a0",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 16323348,
+											"id": "Q16323348"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P7970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P7970",
+					"datavalue": {
+						"value": "MMV4E188128C17E5008F60FC7FA0D6906003",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17183770$FB7DF87E-7010-41B2-B934-772ADFF1EFA7",
+				"rank": "normal"
+			}
+		],
+		"P2755": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2755",
+					"datavalue": {
+						"value": "141856",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P580": [
+						{
+							"snaktype": "value",
+							"property": "P580",
+							"hash": "b6888215a245fcfce07954133b8751a176ea98ab",
+							"datavalue": {
+								"value": {
+									"time": "+2015-03-09T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P580"
+				],
+				"id": "Q17183770$56FD4889-DABC-46B9-A2B9-D7C64B78DE5D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "e9b526dbcceab4c3b27a60572baf36d28cd73b84",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=175581.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P2758": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2758",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 23817729,
+							"id": "Q23817729"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17183770$C3C7892F-F290-4FD2-995B-96DCCEFD5BDD",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "126cd83e759cac328fa53efb3a2812a283fca767",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://www.cnc.fr/professionnels/visas-et-classification/141856",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		]
+	},
+	"sitelinks": {
+		"arwiki": {
+			"site": "arwiki",
+			"title": "سيلما (فيلم)",
+			"badges": [],
+			"url": "https://ar.wikipedia.org/wiki/%D8%B3%D9%8A%D9%84%D9%85%D8%A7_(%D9%81%D9%8A%D9%84%D9%85)"
+		},
+		"azbwiki": {
+			"site": "azbwiki",
+			"title": "سلما (فیلم)",
+			"badges": [],
+			"url": "https://azb.wikipedia.org/wiki/%D8%B3%D9%84%D9%85%D8%A7_(%D9%81%DB%8C%D9%84%D9%85)"
+		},
+		"cswiki": {
+			"site": "cswiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://cs.wikipedia.org/wiki/Selma_(film)"
+		},
+		"dawiki": {
+			"site": "dawiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://da.wikipedia.org/wiki/Selma_(film)"
+		},
+		"dewiki": {
+			"site": "dewiki",
+			"title": "Selma (Film)",
+			"badges": [],
+			"url": "https://de.wikipedia.org/wiki/Selma_(Film)"
+		},
+		"elwiki": {
+			"site": "elwiki",
+			"title": "Selma (ταινία)",
+			"badges": [],
+			"url": "https://el.wikipedia.org/wiki/Selma_(%CF%84%CE%B1%CE%B9%CE%BD%CE%AF%CE%B1)"
+		},
+		"enwiki": {
+			"site": "enwiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://en.wikipedia.org/wiki/Selma_(film)"
+		},
+		"eswiki": {
+			"site": "eswiki",
+			"title": "Selma (película)",
+			"badges": [],
+			"url": "https://es.wikipedia.org/wiki/Selma_(pel%C3%ADcula)"
+		},
+		"euwiki": {
+			"site": "euwiki",
+			"title": "Selma (filma)",
+			"badges": [],
+			"url": "https://eu.wikipedia.org/wiki/Selma_(filma)"
+		},
+		"fawiki": {
+			"site": "fawiki",
+			"title": "سلما (فیلم)",
+			"badges": [],
+			"url": "https://fa.wikipedia.org/wiki/%D8%B3%D9%84%D9%85%D8%A7_(%D9%81%DB%8C%D9%84%D9%85)"
+		},
+		"fiwiki": {
+			"site": "fiwiki",
+			"title": "Selma (elokuva)",
+			"badges": [],
+			"url": "https://fi.wikipedia.org/wiki/Selma_(elokuva)"
+		},
+		"frwiki": {
+			"site": "frwiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://fr.wikipedia.org/wiki/Selma_(film)"
+		},
+		"hywiki": {
+			"site": "hywiki",
+			"title": "Սելմա (ֆիլմ)",
+			"badges": [],
+			"url": "https://hy.wikipedia.org/wiki/%D5%8D%D5%A5%D5%AC%D5%B4%D5%A1_(%D6%86%D5%AB%D5%AC%D5%B4)"
+		},
+		"idwiki": {
+			"site": "idwiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://id.wikipedia.org/wiki/Selma_(film)"
+		},
+		"itwiki": {
+			"site": "itwiki",
+			"title": "Selma - La strada per la libertà",
+			"badges": [],
+			"url": "https://it.wikipedia.org/wiki/Selma_-_La_strada_per_la_libert%C3%A0"
+		},
+		"jawiki": {
+			"site": "jawiki",
+			"title": "グローリー/明日への行進",
+			"badges": [],
+			"url": "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%AA%E3%83%BC/%E6%98%8E%E6%97%A5%E3%81%B8%E3%81%AE%E8%A1%8C%E9%80%B2"
+		},
+		"kowiki": {
+			"site": "kowiki",
+			"title": "셀마 (영화)",
+			"badges": [],
+			"url": "https://ko.wikipedia.org/wiki/%EC%85%80%EB%A7%88_(%EC%98%81%ED%99%94)"
+		},
+		"lvwiki": {
+			"site": "lvwiki",
+			"title": "Selma",
+			"badges": [],
+			"url": "https://lv.wikipedia.org/wiki/Selma"
+		},
+		"mlwiki": {
+			"site": "mlwiki",
+			"title": "സെൽമ (ചലച്ചിത്രം)",
+			"badges": [],
+			"url": "https://ml.wikipedia.org/wiki/%E0%B4%B8%E0%B5%86%E0%B5%BD%E0%B4%AE_(%E0%B4%9A%E0%B4%B2%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%BF%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%82)"
+		},
+		"nlwiki": {
+			"site": "nlwiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://nl.wikipedia.org/wiki/Selma_(film)"
+		},
+		"nowiki": {
+			"site": "nowiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://no.wikipedia.org/wiki/Selma_(film)"
+		},
+		"plwiki": {
+			"site": "plwiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://pl.wikipedia.org/wiki/Selma_(film)"
+		},
+		"ptwiki": {
+			"site": "ptwiki",
+			"title": "Selma (filme)",
+			"badges": [],
+			"url": "https://pt.wikipedia.org/wiki/Selma_(filme)"
+		},
+		"ruwiki": {
+			"site": "ruwiki",
+			"title": "Сельма (фильм)",
+			"badges": [],
+			"url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BB%D1%8C%D0%BC%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)"
+		},
+		"shwiki": {
+			"site": "shwiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://sh.wikipedia.org/wiki/Selma_(film)"
+		},
+		"srwiki": {
+			"site": "srwiki",
+			"title": "Селма (филм)",
+			"badges": [],
+			"url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BB%D0%BC%D0%B0_(%D1%84%D0%B8%D0%BB%D0%BC)"
+		},
+		"svwiki": {
+			"site": "svwiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://sv.wikipedia.org/wiki/Selma_(film)"
+		},
+		"tewiki": {
+			"site": "tewiki",
+			"title": "సెల్మా (సినిమా)",
+			"badges": [],
+			"url": "https://te.wikipedia.org/wiki/%E0%B0%B8%E0%B1%86%E0%B0%B2%E0%B1%8D%E0%B0%AE%E0%B0%BE_(%E0%B0%B8%E0%B0%BF%E0%B0%A8%E0%B0%BF%E0%B0%AE%E0%B0%BE)"
+		},
+		"trwiki": {
+			"site": "trwiki",
+			"title": "Selma (film)",
+			"badges": [],
+			"url": "https://tr.wikipedia.org/wiki/Selma_(film)"
+		},
+		"ukwiki": {
+			"site": "ukwiki",
+			"title": "Сельма (фільм)",
+			"badges": [],
+			"url": "https://uk.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BB%D1%8C%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)"
+		},
+		"zhwiki": {
+			"site": "zhwiki",
+			"title": "塞尔玛游行",
+			"badges": [],
+			"url": "https://zh.wikipedia.org/wiki/%E5%A1%9E%E5%B0%94%E7%8E%9B%E6%B8%B8%E8%A1%8C"
+		}
+	}
+}

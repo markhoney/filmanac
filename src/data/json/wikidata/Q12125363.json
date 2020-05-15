@@ -1,0 +1,1012 @@
+{
+	"pageid": 13345334,
+	"ns": 0,
+	"title": "Q12125363",
+	"lastrevid": 1143568544,
+	"modified": "2020-03-26T16:54:34Z",
+	"type": "item",
+	"id": "Q12125363",
+	"labels": {
+		"en": {
+			"language": "en",
+			"value": "Killing Lincoln"
+		},
+		"de": {
+			"language": "de",
+			"value": "Tom Hanks: Die Lincoln-Verschwörung"
+		},
+		"ja": {
+			"language": "ja",
+			"value": "リンカーンを殺した男"
+		},
+		"id": {
+			"language": "id",
+			"value": "Killing Lincoln"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "刺殺林肯"
+		}
+	},
+	"descriptions": {
+		"en": {
+			"language": "en",
+			"value": "2013 TV-movie"
+		},
+		"de": {
+			"language": "de",
+			"value": "Fernsehfilm (2013)"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film américain"
+		},
+		"sq": {
+			"language": "sq",
+			"value": "film amerikan"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "amerikansk film"
+		}
+	},
+	"aliases": {},
+	"claims": {
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt2299248",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "q12125363$76154ED3-3523-4954-A7F8-EAF5C67DCB6D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 645928,
+							"id": "Q645928"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q12125363$1E3BB42A-00B9-434C-8215-D9148251043D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 130232,
+							"id": "Q130232"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q12125363$B981D457-587D-4475-A443-B5AA4F866AB0",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c667ceaee00904fb9cc40e0f3ec7fb8b2f741ba2",
+						"snaks": {
+							"P3452": [
+								{
+									"snaktype": "value",
+									"property": "P3452",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 6836730,
+											"id": "Q6836730"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-05-27T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P3452",
+							"P813",
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 506240,
+							"id": "Q506240"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q12125363$B1724501-00F0-449D-8DEE-00F56CA22DE9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2013-02-17T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"id": "Q12125363$0EBB22D8-45D0-4748-AB64-B46EC43FA6F2",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "cfc3fc925ddc31f71c67244753346f9fca7ab7d7",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 15241312,
+											"id": "Q15241312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2013-04-05T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "a15ed95482d52eea03d59e098dae9e31dafef9bd",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 183,
+									"id": "Q183"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q12125363$F581DF80-7926-453C-B04B-E0534FAB80B9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "eb1ca913fd2417d77fe44605b1845a32ac580ec5",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2299248/releaseinfo",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-08-17T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q12125363$D6A259B8-D334-48C6-AD6A-8631089DC018",
+				"rank": "normal"
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q12125363$C09A2AE1-B468-437F-9025-E4FEAE2E5A8F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P449": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P449",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 157118,
+							"id": "Q157118"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q12125363$2D1D3525-814C-4BE2-B750-F2A59BA71044",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2465": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2465",
+					"datavalue": {
+						"value": "346247",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q12125363$97AD8B05-BC07-4427-84B0-935AD2C53311",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2603": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2603",
+					"datavalue": {
+						"value": "695761",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q12125363$B780FF68-622B-45E0-8450-821E2B8CC608",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "043ac99faf5875c1934a2fc7030edf88cca1c235",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2389071,
+											"id": "Q2389071"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P3302": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3302",
+					"datavalue": {
+						"value": "98574",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q12125363$14146268-0B8C-47A4-8A2A-0F447AC17814",
+				"rank": "normal"
+			}
+		],
+		"P3138": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3138",
+					"datavalue": {
+						"value": "239275",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q12125363$0294791F-36E8-48D2-8199-631664B13C40",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "5595b1ec65ab3e7908ef612fe6bae0991cf6cc46",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1669874,
+											"id": "Q1669874"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "Killing Lincoln",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q12125363$33864862-2BB8-4587-9745-B7821AE0A73C",
+				"rank": "normal"
+			}
+		],
+		"P161": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 553813,
+							"id": "Q553813"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q12125363$04E0ED3A-3486-4826-BF74-DDCC4E471321",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P144": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P144",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 6407711,
+							"id": "Q6407711"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q12125363$d82cb490-4a0d-36ae-fb6c-5ed466fa67a2",
+				"rank": "normal"
+			}
+		],
+		"P4835": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4835",
+					"datavalue": {
+						"value": "267313",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q12125363$7D5EAA8E-09CC-4072-B231-FAB2549A5A6B",
+				"rank": "normal"
+			}
+		],
+		"P3844": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3844",
+					"datavalue": {
+						"value": "25269",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q12125363$C7F7F145-1048-4FF5-B5E3-5B532C5317A6",
+				"rank": "normal"
+			}
+		],
+		"P5786": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5786",
+					"datavalue": {
+						"value": "tom-hanks-die-lincoln-verschworung",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q12125363$47459716-533A-438D-898B-393469C65A0B",
+				"rank": "normal"
+			}
+		],
+		"P86": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P86",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1173861,
+							"id": "Q1173861"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q12125363$222E95E2-0000-4207-B6BB-2018FFCA5BC7",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "e0b985840d66ed221e137016bd6f9e85bfb6f74b",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Killing_Lincoln_(film)&oldid=852232202",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P407": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P407",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q12125363$A2416688-38EC-4416-9B7E-5BBFFA51395A",
+				"rank": "normal"
+			}
+		],
+		"P856": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P856",
+					"datavalue": {
+						"value": "http://killinglincoln.nationalgeographic.com/",
+						"type": "string"
+					},
+					"datatype": "url"
+				},
+				"type": "statement",
+				"id": "Q12125363$7CCD80E9-6850-4658-A2BD-E7EFDB97F544",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9215269aff81e9e19bb267402de9fd1ca05f9bf3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Killing_Lincoln_(film)&oldid=917585067",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P480": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P480",
+					"datavalue": {
+						"value": "800610",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q12125363$5987F9F8-F952-4ED9-B910-4395A52914AE",
+				"rank": "normal"
+			}
+		],
+		"P7970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P7970",
+					"datavalue": {
+						"value": "MMVB07D61AC3AA6B187B68662CD3CD206660",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q12125363$985CAF0A-7059-4659-9E7E-839BE482B7E1",
+				"rank": "normal"
+			}
+		],
+		"P6127": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6127",
+					"datavalue": {
+						"value": "killing-lincoln",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q12125363$234318A8-8EE3-496B-8352-588A08FDE02C",
+				"rank": "normal"
+			}
+		]
+	},
+	"sitelinks": {
+		"enwiki": {
+			"site": "enwiki",
+			"title": "Killing Lincoln (film)",
+			"badges": [],
+			"url": "https://en.wikipedia.org/wiki/Killing_Lincoln_(film)"
+		},
+		"idwiki": {
+			"site": "idwiki",
+			"title": "Killing Lincoln (film)",
+			"badges": [],
+			"url": "https://id.wikipedia.org/wiki/Killing_Lincoln_(film)"
+		},
+		"jawiki": {
+			"site": "jawiki",
+			"title": "リンカーンを殺した男",
+			"badges": [],
+			"url": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%B3%E3%82%92%E6%AE%BA%E3%81%97%E3%81%9F%E7%94%B7"
+		},
+		"simplewiki": {
+			"site": "simplewiki",
+			"title": "Killing Lincoln (movie)",
+			"badges": [],
+			"url": "https://simple.wikipedia.org/wiki/Killing_Lincoln_(movie)"
+		}
+	}
+}

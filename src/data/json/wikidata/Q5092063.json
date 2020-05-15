@@ -1,0 +1,1037 @@
+{
+	"pageid": 4866656,
+	"ns": 0,
+	"title": "Q5092063",
+	"lastrevid": 964134229,
+	"modified": "2019-06-17T17:18:02Z",
+	"type": "item",
+	"id": "Q5092063",
+	"labels": {
+		"en": {
+			"language": "en",
+			"value": "Chernobyl: The Final Warning"
+		},
+		"de": {
+			"language": "de",
+			"value": "Tschernobyl – Die letzte Warnung"
+		},
+		"ru": {
+			"language": "ru",
+			"value": "Чернобыль: Последнее предупреждение"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "Chernobyl: The Final Warning"
+		}
+	},
+	"descriptions": {
+		"de": {
+			"language": "de",
+			"value": "Film von Anthony Page (1991)"
+		},
+		"en": {
+			"language": "en",
+			"value": "1991 film by Anthony Page"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "film uit 1991 van Anthony Page"
+		},
+		"oc": {
+			"language": "oc",
+			"value": "filme de 1991 dirigit per Anthony Page"
+		},
+		"ca": {
+			"language": "ca",
+			"value": "pel·lícula de 1991 dirigida per Anthony Page"
+		},
+		"pt": {
+			"language": "pt",
+			"value": "filme de 1991 dirigido por Anthony Page"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "película de 1991 dirixida por Anthony Page"
+		},
+		"he": {
+			"language": "he",
+			"value": "סרט משנת 1991"
+		},
+		"it": {
+			"language": "it",
+			"value": "film del 1991 diretto da Anthony Page"
+		},
+		"gl": {
+			"language": "gl",
+			"value": "filme de 1991 dirixido por Anthony Page"
+		},
+		"ext": {
+			"language": "ext",
+			"value": "pinicla de 1991 dirigía por Anthony Page"
+		},
+		"an": {
+			"language": "an",
+			"value": "cinta de 1991 dirichita por Anthony Page"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "film från 1991 regisserad av Anthony Page"
+		},
+		"es": {
+			"language": "es",
+			"value": "película de 1991 dirigida por Anthony Page"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film de Anthony Page, sorti en 1991"
+		},
+		"cs": {
+			"language": "cs",
+			"value": "americký film z roku 1991"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "فيلم أنتج عام 1991"
+		},
+		"et": {
+			"language": "et",
+			"value": "1991. aasta film, lavastanud Anthony Page"
+		},
+		"ro": {
+			"language": "ro",
+			"value": "film din 1991 regizat de Anthony Page"
+		},
+		"fy": {
+			"language": "fy",
+			"value": "film út 1991 fan Anthony Page"
+		}
+	},
+	"aliases": {},
+	"claims": {
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt0101569",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "q5092063$B72B73D3-822E-46B9-A262-F03DF83EAE2C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 11424,
+							"id": "Q11424"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q5092063$C4EA6745-CDE0-4844-B59F-476059F1B487",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P57": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P57",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 573730,
+							"id": "Q573730"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q5092063$3D91B9AD-8CDF-401D-8ED9-CE0383FB00E2",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P161": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 167520,
+							"id": "Q167520"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q5092063$D2B17239-FA01-4564-9E55-D6FB0B236966",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 296630,
+							"id": "Q296630"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q5092063$A5AB3B38-AC42-4D19-82DC-1B574EF1DC8E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2399795,
+							"id": "Q2399795"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q5092063$275A7E89-7F6E-4739-838C-4B47F213E550",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q5092063$500F91B0-644C-4165-B7B4-6E305B53C706",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 93204,
+							"id": "Q93204"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q5092063$CFB1660A-0410-4044-BDDA-4B2B937DB093",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 130232,
+							"id": "Q130232"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q5092063$27A053EF-4656-4721-9A9F-040AC1E1342F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c667ceaee00904fb9cc40e0f3ec7fb8b2f741ba2",
+						"snaks": {
+							"P3452": [
+								{
+									"snaktype": "value",
+									"property": "P3452",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 6836730,
+											"id": "Q6836730"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-05-27T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P3452",
+							"P813",
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+1991-01-01T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 9,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"id": "Q5092063$76E0802F-D64B-49C0-AE83-C4DEE515C404",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q5092063$618DC82C-5B43-4297-92AB-FE1F28EC9510",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "Chernobyl: The Final Warning",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q5092063$340D4F80-8B6B-4281-80CF-62FF1E068B1F",
+				"rank": "normal"
+			}
+		],
+		"P2603": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2603",
+					"datavalue": {
+						"value": "295562",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q5092063$D9B2C9BD-C04F-46C8-A65D-97A07B588F52",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "043ac99faf5875c1934a2fc7030edf88cca1c235",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2389071,
+											"id": "Q2389071"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P646": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P646",
+					"datavalue": {
+						"value": "/m/0gh7s1v",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q5092063$D407F73D-BF28-4E16-B7ED-4008685F9AFD",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "98a9d3d4f77f78f7fd61df8552bd8698208ed0ef",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 648625,
+											"id": "Q648625"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P3138": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3138",
+					"datavalue": {
+						"value": "34616",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q5092063$3457B389-9642-4278-878B-808A50079C71",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "5595b1ec65ab3e7908ef612fe6bae0991cf6cc46",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1669874,
+											"id": "Q1669874"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P2529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2529",
+					"datavalue": {
+						"value": "16505",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q5092063$98f4612f-4c53-2fdb-4801-1fd4b1618241",
+				"rank": "normal"
+			}
+		],
+		"P480": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P480",
+					"datavalue": {
+						"value": "185033",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q5092063$3d097222-4521-5faf-2ae8-b3c557a74c87",
+				"rank": "normal"
+			}
+		],
+		"P1258": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1258",
+					"datavalue": {
+						"value": "m/final_warning",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q5092063$ce78065a-41ee-e45b-a3f0-d9bfb746fbdc",
+				"rank": "normal"
+			}
+		],
+		"P3143": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3143",
+					"datavalue": {
+						"value": "101197",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q5092063$be279a58-4d32-e49a-ae0b-12f3f9170ff1",
+				"rank": "normal"
+			}
+		],
+		"P1562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1562",
+					"datavalue": {
+						"value": "v17306",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q5092063$646754ec-4fd9-593c-b42e-7eed3312d284",
+				"rank": "normal"
+			}
+		],
+		"P1970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1970",
+					"datavalue": {
+						"value": "9136",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q5092063$fd870ab4-4753-e98c-4f22-7ee1497284cf",
+				"rank": "normal"
+			}
+		],
+		"P2346": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2346",
+					"datavalue": {
+						"value": "971223",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q5092063$ce996bcc-40dd-35fd-4129-7d23e27b1ec8",
+				"rank": "normal"
+			}
+		],
+		"P86": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P86",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 328637,
+							"id": "Q328637"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q5092063$5E94FCA9-D00B-4200-ADCD-220936837C01",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d9c5e36eab37fc019da35a2c2188397a55f02fd7",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Chernobyl:_The_Final_Warning&oldid=841135735",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P750": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P750",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 371400,
+							"id": "Q371400"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q5092063$543EA746-08DB-4CB4-B766-5FD80A9CA568",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "aaf1b94826a207d131f40d7e63d56536c3fb0e72",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Chernobyl:_The_Final_Warning&oldid=863736879",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P921": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P921",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 486,
+							"id": "Q486"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q5092063$46e7b73e-4045-9b8f-a03a-93d213ce8954",
+				"rank": "normal"
+			}
+		]
+	},
+	"sitelinks": {
+		"enwiki": {
+			"site": "enwiki",
+			"title": "Chernobyl: The Final Warning",
+			"badges": [],
+			"url": "https://en.wikipedia.org/wiki/Chernobyl:_The_Final_Warning"
+		},
+		"ruwiki": {
+			"site": "ruwiki",
+			"title": "Чернобыль: Последнее предупреждение",
+			"badges": [],
+			"url": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%B1%D1%8B%D0%BB%D1%8C:_%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B5%D0%B5_%D0%BF%D1%80%D0%B5%D0%B4%D1%83%D0%BF%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5"
+		}
+	}
+}

@@ -1,0 +1,6080 @@
+{
+	"pageid": 213256,
+	"ns": 0,
+	"title": "Q218235",
+	"lastrevid": 1177485181,
+	"modified": "2020-05-09T17:11:13Z",
+	"type": "item",
+	"id": "Q218235",
+	"labels": {
+		"zh-hans": {
+			"language": "zh-hans",
+			"value": "查理和巧克力工厂"
+		},
+		"zh-hant": {
+			"language": "zh-hant",
+			"value": "巧克力冒險工廠"
+		},
+		"zh-hk": {
+			"language": "zh-hk",
+			"value": "朱古力獎門人"
+		},
+		"zh-cn": {
+			"language": "zh-cn",
+			"value": "查理和巧克力工厂"
+		},
+		"zh-sg": {
+			"language": "zh-sg",
+			"value": "查理和巧克力工厂"
+		},
+		"zh-tw": {
+			"language": "zh-tw",
+			"value": "巧克力冒險工廠"
+		},
+		"pl": {
+			"language": "pl",
+			"value": "Charlie i fabryka czekolady"
+		},
+		"he": {
+			"language": "he",
+			"value": "צ'ארלי בממלכת השוקולד"
+		},
+		"ko": {
+			"language": "ko",
+			"value": "찰리와 초콜릿 공장"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "Charlie et la Chocolaterie"
+		},
+		"es": {
+			"language": "es",
+			"value": "Charlie y la fábrica de chocolate"
+		},
+		"hu": {
+			"language": "hu",
+			"value": "Charlie és a csokigyár"
+		},
+		"it": {
+			"language": "it",
+			"value": "La fabbrica di cioccolato"
+		},
+		"gl": {
+			"language": "gl",
+			"value": "Charlie e a fábrica de chocolate"
+		},
+		"de": {
+			"language": "de",
+			"value": "Charlie und die Schokoladenfabrik"
+		},
+		"id": {
+			"language": "id",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"ja": {
+			"language": "ja",
+			"value": "チャーリーとチョコレート工場"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "Kalle och chokladfabriken"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "تشارلي ومصنع الشوكولاتة"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"pt": {
+			"language": "pt",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"eo": {
+			"language": "eo",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"sk": {
+			"language": "sk",
+			"value": "Charlie a továreň na čokoládu"
+		},
+		"ru": {
+			"language": "ru",
+			"value": "Чарли и шоколадная фабрика"
+		},
+		"mn": {
+			"language": "mn",
+			"value": "Чарли ба Шоколадны үйлдвэр"
+		},
+		"en": {
+			"language": "en",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"tr": {
+			"language": "tr",
+			"value": "Charlie'nin Çikolata Fabrikası"
+		},
+		"th": {
+			"language": "th",
+			"value": "ชาร์ลี กับ โรงงานช็อกโกแลต"
+		},
+		"ca": {
+			"language": "ca",
+			"value": "Charlie i la fàbrica de xocolata"
+		},
+		"fi": {
+			"language": "fi",
+			"value": "Jali ja suklaatehdas"
+		},
+		"uk": {
+			"language": "uk",
+			"value": "Чарлі і шоколадна фабрика"
+		},
+		"cy": {
+			"language": "cy",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"cs": {
+			"language": "cs",
+			"value": "Karlík a továrna na čokoládu"
+		},
+		"fa": {
+			"language": "fa",
+			"value": "چارلی و کارخانه شکلات‌سازی"
+		},
+		"bg": {
+			"language": "bg",
+			"value": "Чарли и шоколадовата фабрика"
+		},
+		"lt": {
+			"language": "lt",
+			"value": "Čarlis ir šokolado fabrikas"
+		},
+		"da": {
+			"language": "da",
+			"value": "Charlie og chokoladefabrikken"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "查理和巧克力工廠"
+		},
+		"nb": {
+			"language": "nb",
+			"value": "Charlie og sjokoladefabrikken"
+		},
+		"eu": {
+			"language": "eu",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"bs": {
+			"language": "bs",
+			"value": "Charlie i tvornica čokolade"
+		},
+		"mk": {
+			"language": "mk",
+			"value": "Чарли и фабриката за чоколади"
+		},
+		"et": {
+			"language": "et",
+			"value": "Charlie ja šokolaadivabrik"
+		},
+		"is": {
+			"language": "is",
+			"value": "Kalli og súkkulaðiverksmiðjan"
+		},
+		"az": {
+			"language": "az",
+			"value": "Çarli və şokolad fabriki"
+		},
+		"ms": {
+			"language": "ms",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"ia": {
+			"language": "ia",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"qu": {
+			"language": "qu",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"ceb": {
+			"language": "ceb",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"ro": {
+			"language": "ro",
+			"value": "Charlie și fabrica de ciocolată"
+		},
+		"hy": {
+			"language": "hy",
+			"value": "Չառլին և շոկոլադի գործարանը"
+		},
+		"ta": {
+			"language": "ta",
+			"value": "சார்லி அண்ட் த சாக்லேட் பேக்டரி"
+		},
+		"sr": {
+			"language": "sr",
+			"value": "Чарли и фабрика чоколаде"
+		},
+		"vi": {
+			"language": "vi",
+			"value": "Charlie và nhà máy sôcôla"
+		},
+		"tg": {
+			"language": "tg",
+			"value": "Чарлӣ ва корхонаи шакалотсозӣ (филм)"
+		},
+		"uz": {
+			"language": "uz",
+			"value": "Charlie va Shokolad Fabrikasi"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "Charlie and the Chocolate Factory"
+		},
+		"bn": {
+			"language": "bn",
+			"value": "চার্লি অ্যান্ড দ্য চকলেট ফ্যাক্টরি (চলচ্চিত্র)"
+		},
+		"pa": {
+			"language": "pa",
+			"value": "ਚਾਰਲੀ ਐਂਡ ਦ ਚਾਕਲੇਟ ਫੈਕਟਰੀ (ਫਿਲਮ)"
+		},
+		"yue": {
+			"language": "yue",
+			"value": "朱古力獎門人"
+		}
+	},
+	"descriptions": {
+		"it": {
+			"language": "it",
+			"value": "film del 2005 diretto da Tim Burton"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "film uit 2005 van Tim Burton"
+		},
+		"de": {
+			"language": "de",
+			"value": "Film von Tim Burton (2005)"
+		},
+		"fa": {
+			"language": "fa",
+			"value": "فیلمی از تیم برتون"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film sorti en 2005"
+		},
+		"en": {
+			"language": "en",
+			"value": "2005 film by Tim Burton"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "amerikansk-brittisk film från 2005 regisserad av Tim Burton"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "فيلم أُصدر سنة 2005، من إخراج تيم برتون"
+		},
+		"ca": {
+			"language": "ca",
+			"value": "pel·lícula de 2005 dirigida per Tim Burton"
+		},
+		"pt": {
+			"language": "pt",
+			"value": "filme de 2005 dirigido por Tim Burton"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "película de 2005 dirixida por Tim Burton"
+		},
+		"he": {
+			"language": "he",
+			"value": "סרט משנת 2005"
+		},
+		"gl": {
+			"language": "gl",
+			"value": "filme de 2005 dirixido por Tim Burton"
+		},
+		"ext": {
+			"language": "ext",
+			"value": "pinicla de 2005 dirigía por Tim Burton"
+		},
+		"es": {
+			"language": "es",
+			"value": "película de 2005 dirigida por Tim Burton"
+		},
+		"an": {
+			"language": "an",
+			"value": "cinta de 2005 dirichita por Tim Burton"
+		},
+		"oc": {
+			"language": "oc",
+			"value": "filme de 2005 dirigit per Tim Burton"
+		},
+		"ru": {
+			"language": "ru",
+			"value": "художественный фильм Тима Бёртона 2005 г."
+		},
+		"cs": {
+			"language": "cs",
+			"value": "americký film z roku 2005"
+		},
+		"sq": {
+			"language": "sq",
+			"value": "film"
+		},
+		"et": {
+			"language": "et",
+			"value": "2005. aasta film, lavastanud Tim Burton"
+		},
+		"ro": {
+			"language": "ro",
+			"value": "film din 2005 regizat de Tim Burton"
+		},
+		"fy": {
+			"language": "fy",
+			"value": "film út 2005 fan Tim Burton"
+		},
+		"sk": {
+			"language": "sk",
+			"value": "americký film Tima Burtona z roku 2005"
+		},
+		"ms": {
+			"language": "ms",
+			"value": "filem terbitan tahun 2005"
+		},
+		"ja": {
+			"language": "ja",
+			"value": "アメリカの映画作品"
+		}
+	},
+	"aliases": {
+		"zh": [
+			{
+				"language": "zh",
+				"value": "朱古力掌門人"
+			},
+			{
+				"language": "zh",
+				"value": "朱古力獎門人"
+			},
+			{
+				"language": "zh",
+				"value": "查理與巧克力工廠"
+			},
+			{
+				"language": "zh",
+				"value": "巧克力冒險工廠"
+			},
+			{
+				"language": "zh",
+				"value": "Charlie and the Chocolate Factory"
+			}
+		],
+		"he": [
+			{
+				"language": "he",
+				"value": "צ'ארלי בממלכת השוקולדה"
+			}
+		],
+		"fr": [
+			{
+				"language": "fr",
+				"value": "Charlie and the Chocolate Factory"
+			}
+		],
+		"es": [
+			{
+				"language": "es",
+				"value": "Charlie y la fabrica de chocolate"
+			},
+			{
+				"language": "es",
+				"value": "Charlie and the chocolate factory"
+			}
+		],
+		"gl": [
+			{
+				"language": "gl",
+				"value": "Charlie and the Chocolate Factory"
+			}
+		],
+		"ar": [
+			{
+				"language": "ar",
+				"value": "Charlie and the Chocolate Factory"
+			},
+			{
+				"language": "ar",
+				"value": "تشارلى و مصنع الشيكولاتة(فيلم)"
+			},
+			{
+				"language": "ar",
+				"value": "تشارلي و مصنع الشوكولاتة"
+			},
+			{
+				"language": "ar",
+				"value": "تشارلي و مصنع الشوكولاته"
+			}
+		],
+		"tr": [
+			{
+				"language": "tr",
+				"value": "Charlie and the Chocolate Factory"
+			}
+		],
+		"ca": [
+			{
+				"language": "ca",
+				"value": "Charlie and the Chocolate Factory"
+			}
+		],
+		"fi": [
+			{
+				"language": "fi",
+				"value": "Charlie and the Chocolate Factory"
+			}
+		],
+		"fa": [
+			{
+				"language": "fa",
+				"value": "چارلی و کارخانه شکلات سازی"
+			},
+			{
+				"language": "fa",
+				"value": "چارلی و کارخانهٔ شکلات‌سازی"
+			}
+		],
+		"nb": [
+			{
+				"language": "nb",
+				"value": "Charlie og sjokoladefabrikken 2005"
+			}
+		],
+		"it": [
+			{
+				"language": "it",
+				"value": "Charlie and the Chocolate Factory"
+			}
+		],
+		"ms": [
+			{
+				"language": "ms",
+				"value": "filem Charlie and the Chocolate Factory"
+			}
+		],
+		"nl": [
+			{
+				"language": "nl",
+				"value": "Charlie and the Chocolate Factory (film)"
+			}
+		]
+	},
+	"claims": {
+		"P373": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P373",
+					"datavalue": {
+						"value": "Charlie and the Chocolate Factory (film)",
+						"type": "string"
+					},
+					"datatype": "string"
+				},
+				"type": "statement",
+				"id": "Q218235$c87aae63-4921-bd45-6874-6f4062ca098b",
+				"rank": "normal"
+			}
+		],
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt0367594",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "q218235$59694B76-25DE-4082-BCA5-28103FCD5BA0",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 10000,
+											"id": "Q10000"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "4dfc62ab758846d747acae7428acaddc53f55c90",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 18709181,
+											"id": "Q18709181"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P6127": [
+								{
+									"snaktype": "value",
+									"property": "P6127",
+									"datavalue": {
+										"value": "charlie-and-the-chocolate-factory",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-06-21T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P6127",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 11424,
+							"id": "Q11424"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$843D16C6-B2F2-4AED-8A69-CFFF81507D9A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P57": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P57",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 56008,
+							"id": "Q56008"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$041E9F5D-2BC5-4C92-B30C-20F302D24E56",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P58": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 543697,
+							"id": "Q543697"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$8301726E-7609-4011-ABC1-50B0C4A124D4",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 25161,
+							"id": "Q25161"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$0C32DC0B-FFF2-49EF-9867-319CE9F978DD",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P144": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P144",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 466605,
+							"id": "Q466605"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$CB0AF145-1840-4085-8F72-AB2757DACCCB",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P162": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 359311,
+							"id": "Q359311"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$DD69F8E4-95AF-493E-8DB4-719420973110",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 633631,
+							"id": "Q633631"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$3FD3B1B5-9DB5-4EA7-9868-77911595F9A7",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P272": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 126399,
+							"id": "Q126399"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$0E0158C3-0777-4B1D-A762-6B988A430BAF",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 28252,
+							"id": "Q28252"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$19BAD861-58A9-488C-8FC9-2E9A30F2245B",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 622668,
+							"id": "Q622668"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$63787D06-76C7-44F8-A047-5AC0A2C6EB02",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 661896,
+							"id": "Q661896"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$2BC10722-6F86-4D65-BC05-37D9E78A4B1D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P344": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P344",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 750718,
+							"id": "Q750718"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$E6D095C5-5A40-4328-A798-9DCD437B5ECF",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P161": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 37175,
+							"id": "Q37175"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$74E71E13-48B3-459A-91FC-5C33936C17A3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 296887,
+							"id": "Q296887"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$971011F9-18E6-4ECB-84E1-4E711FD713AB",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 470746,
+							"id": "Q470746"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$DFF23DE5-4D13-4BA7-8452-5C732B1C3B80",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 170428,
+							"id": "Q170428"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$2393D3FD-2BF5-4351-9E5D-C887070C326C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 563177,
+							"id": "Q563177"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$FCF388DE-A238-4A4F-8F6B-D7EC773C9CC6",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 105695,
+							"id": "Q105695"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "de478ce150b7a27374ea8cfeb07d4753f383a38a",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 4357196,
+									"id": "Q4357196"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q218235$FD59E8F0-203D-49EE-B1F8-557DCC2DD329",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 233786,
+							"id": "Q233786"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$06A28726-1479-4F62-ACC1-2E4D49B2B44F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 270980,
+							"id": "Q270980"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$CAE8BC5C-E193-4D75-941B-901B2677F827",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 310012,
+							"id": "Q310012"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$E3F2D6B8-2CB7-4B7E-8110-153F1403D5A5",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 180338,
+							"id": "Q180338"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$D2DC60E1-DBD2-4528-9D6A-7B77A21B6809",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 464746,
+							"id": "Q464746"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$7BEF8984-6D82-4388-925F-5874CBFAC8DA",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 431293,
+							"id": "Q431293"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$5B43677A-580D-4311-978D-79A52E66FE77",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1060758,
+							"id": "Q1060758"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$981C0ACE-4F74-400A-A8F9-E7196C470550",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 95602,
+							"id": "Q95602"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$5896DABF-E8FA-46C6-BE07-AF14DF8EB5E5",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 128599,
+							"id": "Q128599"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$1BB5E03B-C143-4540-81E5-37FB62EAEB36",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 291438,
+							"id": "Q291438"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$47918ED0-0E95-4FDD-9AB5-4C5D7B5B0F8E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3247630,
+							"id": "Q3247630"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$8DBB8C6E-F26C-40FF-9637-C56367B00665",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 596972,
+							"id": "Q596972"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$2030B439-F23A-44DC-8307-C0AB87F425A9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3617975,
+							"id": "Q3617975"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$EFE4E84A-EF7F-4FF9-814D-218042402DC2",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3877354,
+							"id": "Q3877354"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q218235$8FDB4DAE-B107-481C-A038-84202AB40095",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2905741,
+							"id": "Q2905741"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$BEB53D9D-CE37-4515-A810-05F86CB0EB6E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 193338,
+							"id": "Q193338"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$307388BC-0D8F-4316-8BAA-C2AF8F3B6CB3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 948164,
+							"id": "Q948164"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$3807511D-1B7A-459E-9B93-6D55716A486D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 945691,
+							"id": "Q945691"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$D105DB94-BCEC-4B6F-8F3B-AE159AA05010",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 77817,
+							"id": "Q77817"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$9BC51DB1-DF01-4048-B65E-C90211A5802F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 5523981,
+							"id": "Q5523981"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$4ABFAAFD-53D3-413B-9952-330C96BEAC1B",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 440980,
+							"id": "Q440980"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$701A6FCA-4FDB-4C28-A92B-2BE9B8EEC336",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3530246,
+							"id": "Q3530246"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$399C1288-F838-47F4-9568-3EEE9FBA38CA",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 24238835,
+							"id": "Q24238835"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$A16F71D5-C3AE-4D85-871A-419A35D3D588",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P646": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P646",
+					"datavalue": {
+						"value": "/m/04pk1f",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$5D1815CE-9C31-42CD-A15A-EE618CB2BE9A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 15241312,
+											"id": "Q15241312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P577": [
+								{
+									"snaktype": "value",
+									"property": "P577",
+									"datavalue": {
+										"value": {
+											"time": "+2013-10-28T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P577"
+						]
+					}
+				]
+			}
+		],
+		"P227": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P227",
+					"datavalue": {
+						"value": "7678460-5",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$41D96542-992E-4CCE-94BD-BD628E76C5D2",
+				"rank": "normal"
+			}
+		],
+		"P1265": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1265",
+					"datavalue": {
+						"value": "52933",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$42D3AF42-CA0E-459C-B6B8-62CCDB2364E3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1258": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1258",
+					"datavalue": {
+						"value": "m/charlie_and_the_chocolate_factory",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$E81FCE77-EE78-46EA-9E2F-BD2A86D526B2",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2005-07-10T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"id": "Q218235$0513EFCC-A843-4B33-91E8-A7C2E0D9B7DF",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "cfc3fc925ddc31f71c67244753346f9fca7ab7d7",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 15241312,
+											"id": "Q15241312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2005-08-11T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "a15ed95482d52eea03d59e098dae9e31dafef9bd",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 183,
+									"id": "Q183"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q218235$A09A4746-E700-4825-A142-0AD2B6E3508D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "67f26a57a5f86e0f03670824b615ce50f6d3429f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt0367594/releaseinfo",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-04-14T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$2E62105A-568D-4878-B66E-8129AB322FE0",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 145,
+							"id": "Q145"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$2D245B9D-E52C-4E34-AF5D-D73EF074C140",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 408,
+							"id": "Q408"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$3E88FE02-455E-4165-8829-389FCB33AA86",
+				"rank": "normal"
+			}
+		],
+		"P1562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1562",
+					"datavalue": {
+						"value": "v290415",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$9D81CC65-E972-4E26-AF81-380EFA108FC7",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$F0822F3A-B838-49DE-87E0-C727356AE9CB",
+				"rank": "normal"
+			}
+		],
+		"P905": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P905",
+					"datavalue": {
+						"value": "68410",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$44A672BD-6592-4970-BBF3-CC23C7CA9938",
+				"rank": "normal"
+			}
+		],
+		"P1804": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1804",
+					"datavalue": {
+						"value": "46128",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$6673BFEA-F4DE-4B9E-A9CE-96DECBC6E88D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "f20be15903adba954c926bb718dd1324ecea88ce",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 181163,
+											"id": "Q181163"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2143665,
+							"id": "Q2143665"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$4623529C-51F1-4EA0-A523-A25AB05B07DC",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 157394,
+							"id": "Q157394"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$7E1F44A8-926A-4E42-BA2C-D4F93AD6B85E",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 5778924,
+							"id": "Q5778924"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$0CE8D139-5270-489D-A356-9307F7A9801E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 52162262,
+							"id": "Q52162262"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$2AAD6DD5-7DC6-446F-B58F-E75369787444",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 842256,
+							"id": "Q842256"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$5d6774d4-4770-0bd2-abd7-513978d4234a",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1237": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1237",
+					"datavalue": {
+						"value": "charliechocolate",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$5223EB75-3877-492A-BC78-22AAEF312CF7",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P480": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P480",
+					"datavalue": {
+						"value": "679957",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$8E885617-2B11-4BE7-86C0-2925A840C84C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8449,
+											"id": "Q8449"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1040": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1040",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1077467,
+							"id": "Q1077467"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$88B51831-7B16-47FB-9259-5D449FE9EA96",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1712": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1712",
+					"datavalue": {
+						"value": "movie/charlie-and-the-chocolate-factory",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$425AFF50-23A6-4B06-9CCD-AD369ADEE048",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "Charlie and the Chocolate Factory",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q218235$11E3A783-0541-466E-BAF8-4BD7C198BF8B",
+				"rank": "normal"
+			}
+		],
+		"P86": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P86",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 193338,
+							"id": "Q193338"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$8EC909DA-913B-4A27-A247-20EA17A3B011",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2438": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2438",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 945691,
+							"id": "Q945691"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$F002112C-FB6A-49D0-9764-1BFBA731618A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8449,
+											"id": "Q8449"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P462": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P462",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 22006653,
+							"id": "Q22006653"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$72670D09-1469-48E5-9DA6-F20158EFA928",
+				"rank": "normal"
+			}
+		],
+		"P1411": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1411",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 277536,
+							"id": "Q277536"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2453": [
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "0e545ac5f0fcae73ce00ab073b910f28235c97ff",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 439536,
+									"id": "Q439536"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P805": [
+						{
+							"snaktype": "value",
+							"property": "P805",
+							"hash": "af0d342a0d380a7d67ec2ec13b805c1f092ccabd",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 319132,
+									"id": "Q319132"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2453",
+					"P805"
+				],
+				"id": "Q218235$EF59917C-0935-414F-A720-BAB66C0170C8",
+				"rank": "normal"
+			}
+		],
+		"P750": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P750",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1097348,
+							"id": "Q1097348"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P17": [
+						{
+							"snaktype": "value",
+							"property": "P17",
+							"hash": "5705435a66751f26a989f0bbd80533799f57397b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 28,
+									"id": "Q28"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P17"
+				],
+				"id": "Q218235$EB6FAD53-DAA8-4368-906C-CB14A5C053F8",
+				"rank": "normal"
+			}
+		],
+		"P2529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2529",
+					"datavalue": {
+						"value": "135983",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$F08D69A5-99EC-4436-98D0-E91900DEB137",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 191168,
+											"id": "Q191168"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1970",
+					"datavalue": {
+						"value": "24768",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$378F78C6-B9A2-47A0-B2D7-D0A6F84DC7CB",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 10000,
+											"id": "Q10000"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2508": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2508",
+					"datavalue": {
+						"value": "36327",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$50BBCB19-20CC-4985-AA37-F0A94988C6BB",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2465": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2465",
+					"datavalue": {
+						"value": "321598",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$9866DC3E-87F5-4CE6-B372-A3C72657C408",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1874": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1874",
+					"datavalue": {
+						"value": "70021648",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$3EDD5DA2-6DCF-421F-8955-9502C921990A",
+				"rank": "normal"
+			}
+		],
+		"P2631": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2631",
+					"datavalue": {
+						"value": "547050",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$5A281AFC-065A-4503-9984-7771FA36AE9E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2047": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2047",
+					"datavalue": {
+						"value": {
+							"amount": "+115",
+							"unit": "http://www.wikidata.org/entity/Q7727"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q218235$7E4AEBD9-2827-4EA0-B79F-0AC0B6DB6E88",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2603": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2603",
+					"datavalue": {
+						"value": "38905",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$3708B1C7-E63E-4CAD-A6FC-A64BD52999AC",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "043ac99faf5875c1934a2fc7030edf88cca1c235",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2389071,
+											"id": "Q2389071"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P1877": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1877",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 25161,
+							"id": "Q25161"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$53ABB946-781F-4DA4-A745-843B3654A1CB",
+				"rank": "normal"
+			}
+		],
+		"P3138": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3138",
+					"datavalue": {
+						"value": "79047",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$FD8C3ADE-C61F-4F7B-8122-13CB56155A9B",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2013": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2013",
+					"datavalue": {
+						"value": "CharlieAndTheChocolateFactoryMovie",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$AA50A11E-90C3-4A34-B57D-5028D38E5C03",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8449,
+											"id": "Q8449"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3302": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3302",
+					"datavalue": {
+						"value": "118",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$7B3830A5-E523-4553-917C-F57B370FFDBB",
+				"rank": "normal"
+			}
+		],
+		"P2518": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2518",
+					"datavalue": {
+						"value": "3808",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$abf07e24-4a85-fa15-a7b8-dae2b7020bae",
+				"rank": "normal"
+			}
+		],
+		"P3143": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3143",
+					"datavalue": {
+						"value": "362539",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$b0ee8e1d-4e96-c27a-3553-f06beda36e38",
+				"rank": "normal"
+			}
+		],
+		"P3135": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3135",
+					"datavalue": {
+						"value": "2005228",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$3747f839-466f-de0f-a1e4-eabdac920470",
+				"rank": "normal"
+			}
+		],
+		"P3129": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3129",
+					"datavalue": {
+						"value": "705218",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$e4b05d27-4e72-afcc-d64a-4bcf5cb43e17",
+				"rank": "normal"
+			}
+		],
+		"P2346": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2346",
+					"datavalue": {
+						"value": "1270182",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$5609fb52-41f2-88ca-9be0-3c66c49fbe5c",
+				"rank": "normal"
+			}
+		],
+		"P3203": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3203",
+					"datavalue": {
+						"value": "97033",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$d9c343ca-49fa-6f42-e0ac-8f08dfe3360f",
+				"rank": "normal"
+			}
+		],
+		"P3141": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3141",
+					"datavalue": {
+						"value": "t0011564",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$e5e4d482-4df5-20de-4441-ab811cbe822c",
+				"rank": "normal"
+			}
+		],
+		"P1417": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1417",
+					"datavalue": {
+						"value": "topic/Charlie-and-the-Chocolate-Factory-film-by-Burton",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$43F1AC9A-61BD-415A-888A-B5AE98CD9992",
+				"rank": "normal"
+			}
+		],
+		"P2014": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2014",
+					"datavalue": {
+						"value": "133356",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$48F6170D-44DD-4F13-8991-E7048BB9CB08",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2014",
+					"datavalue": {
+						"value": "124685",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$EF3E175C-7A13-49DC-A33B-5D6F28121F8F",
+				"rank": "normal"
+			}
+		],
+		"P2061": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2061",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 752245,
+							"id": "Q752245"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$6804C469-14EE-42F7-8098-AB1787B0418D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2515": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2515",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 439536,
+							"id": "Q439536"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$4E761EE5-8B54-47FA-9114-7CBE9269D235",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3417": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3417",
+					"datavalue": {
+						"value": "Charlie-and-the-Chocolate-Factory",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$9DAF081E-B5AF-41FD-A48E-36AD14A26E11",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 51711,
+											"id": "Q51711"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3417",
+					"datavalue": {
+						"value": "Charlie-and-the-Chocolate-Factory-2005-movie",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$9506F283-62F2-4410-9694-D7074F647547",
+				"rank": "normal"
+			}
+		],
+		"P1981": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1981",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 20644794,
+							"id": "Q20644794"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$57D9D683-5196-4240-A7C7-3297D389390A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3650": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3650",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 28732982,
+							"id": "Q28732982"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$548B5CC3-6BA9-44FC-993F-CB5066CD3C79",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "78811c3018c87887b411dd0cb38f8baaaf68d5fc",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://jmkextern.bmb.gv.at/app/detail.aspx?FILID=16081",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P2130": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2130",
+					"datavalue": {
+						"value": {
+							"amount": "+150000000",
+							"unit": "http://www.wikidata.org/entity/Q4917"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q218235$1c57aec0-434a-984a-fa50-f4e75f42e15f",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "ee0028428c7e2c7b56e53617a2ec5329163f0e6b",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.ew.com/ew/article/0,,1073574,00.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2009-06-11T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2142": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2142",
+					"datavalue": {
+						"value": {
+							"amount": "+475000000",
+							"unit": "http://www.wikidata.org/entity/Q4917"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q218235$449b1418-4a9d-661c-910c-5e328c70c0a4",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "483c9d416cd4c16c51b835df3e6f7d39e1e44ce0",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://boxofficemojo.com/movies/?id=charliechocolate.htm",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2011-04-12T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3212": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3212",
+					"datavalue": {
+						"value": "0000-0001-7C31-0000-P-0000-0000-0",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$76006d25-4cf7-fbef-fe8f-195ac066e503",
+				"rank": "normal"
+			}
+		],
+		"P2704": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2704",
+					"datavalue": {
+						"value": "10.5240/56DB-820D-649B-78AF-ED12-2",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$e7ecc8b2-41e4-1468-89d8-d83e861d20fa",
+				"rank": "normal"
+			}
+		],
+		"P3804": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3804",
+					"datavalue": {
+						"value": "191222",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$75061f9d-4d9b-9482-fee0-c8f0a2e1cee9",
+				"rank": "normal"
+			}
+		],
+		"P2509": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2509",
+					"datavalue": {
+						"value": "mv34484",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$857a50aa-4cfa-1d44-b1bb-3be7bc83d7a8",
+				"rank": "normal"
+			}
+		],
+		"P3593": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3593",
+					"datavalue": {
+						"value": "63345",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$a787ce71-4d99-db1d-5959-b5885aa81f00",
+				"rank": "normal"
+			}
+		],
+		"P3808": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3808",
+					"datavalue": {
+						"value": "Charlie-and-the-Chocolate-Factory",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$5389ede6-439e-b85c-0897-5ecfb33db31d",
+				"rank": "normal"
+			}
+		],
+		"P3995": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3995",
+					"datavalue": {
+						"value": "Charlie.I.Fabryka.Czekolady",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$fd83ac6a-424f-2736-8c41-35a341827a33",
+				"rank": "normal"
+			}
+		],
+		"P3933": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3933",
+					"datavalue": {
+						"value": "1304719",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$3e4e44d3-4505-9bf4-ac5b-7777c08a6b17",
+				"rank": "normal"
+			}
+		],
+		"P2755": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2755",
+					"datavalue": {
+						"value": "113363",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P580": [
+						{
+							"snaktype": "value",
+							"property": "P580",
+							"hash": "d62148b3db9485f57c332e8467c4a40ac89c4000",
+							"datavalue": {
+								"value": {
+									"time": "+2005-07-29T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P580"
+				],
+				"id": "Q218235$a34ea896-43a0-5d0d-cb9c-433c20210d31",
+				"rank": "normal"
+			}
+		],
+		"P2638": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2638",
+					"datavalue": {
+						"value": "movies/charlie-and-the-chocolate-factory",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$edd023af-4467-0e64-9d2c-be7f96fd623d",
+				"rank": "normal"
+			}
+		],
+		"P3077": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3077",
+					"datavalue": {
+						"value": "153201",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$0e29695b-4ace-3840-551d-368711fe63a7",
+				"rank": "normal"
+			}
+		],
+		"P2334": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2334",
+					"datavalue": {
+						"value": "61103",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$3f57f84f-4dd0-4872-ef2d-6b54c470427c",
+				"rank": "normal"
+			}
+		],
+		"P3107": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3107",
+					"datavalue": {
+						"value": "524631",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$1cab80dd-4006-5222-19e3-2de8265985cb",
+				"rank": "normal"
+			}
+		],
+		"P3844": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3844",
+					"datavalue": {
+						"value": "7308",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$4f8eb4e4-430a-2116-bd3f-b38ae00ab01a",
+				"rank": "normal"
+			}
+		],
+		"P2703": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2703",
+					"datavalue": {
+						"value": "150702051",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$9c4a9c78-4dc0-fcf1-179a-90b23eaf3270",
+				"rank": "normal"
+			}
+		],
+		"P214": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P214",
+					"datavalue": {
+						"value": "225729138",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$c378dc0c-4872-5d43-926d-a6594d975135",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P214",
+					"datavalue": {
+						"value": "305694608",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$84e98ef8-42e5-ce02-ac7f-cddaa33fae10",
+				"rank": "normal"
+			}
+		],
+		"P950": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P950",
+					"datavalue": {
+						"value": "XX4827519",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$34096a09-45f0-fbd9-e6fb-b55cd9ec8727",
+				"rank": "normal"
+			}
+		],
+		"P244": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P244",
+					"datavalue": {
+						"value": "no2005109285",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$828d7188-44bc-d970-1ff1-52f94181e5ed",
+				"rank": "normal"
+			}
+		],
+		"P268": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P268",
+					"datavalue": {
+						"value": "169038594",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$2e8fdcb4-4cf6-664e-9273-c04dbe4ae201",
+				"rank": "normal"
+			}
+		],
+		"P3145": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3145",
+					"datavalue": {
+						"value": "tt11842",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$a610d762-4d43-3599-a3db-63371d670dfa",
+				"rank": "normal"
+			}
+		],
+		"P4276": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4276",
+					"datavalue": {
+						"value": "76894",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$773D70BE-DAB7-4EEB-93E0-1B5AAD7DAB8F",
+				"rank": "normal"
+			}
+		],
+		"P4515": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4515",
+					"datavalue": {
+						"value": "462225",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$AC98E06D-2B1C-4EBA-8D6A-9BBDB1A379CC",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P4529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4529",
+					"datavalue": {
+						"value": "1309101",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$C0BEB270-5AF4-4FA3-B037-11DDF072AAC2",
+				"rank": "normal"
+			}
+		],
+		"P1552": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1552",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 45171911,
+							"id": "Q45171911"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P1013": [
+						{
+							"snaktype": "value",
+							"property": "P1013",
+							"hash": "30ddffb176643f466e76c3a0164abeafb1bc7b37",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 93591279,
+									"id": "Q93591279"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P1013"
+				],
+				"id": "Q218235$B6ADA089-F791-4E62-9FB7-D19FDAD4B2A6",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "7d47f34628948a850378b415a23da8f41a20e640",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 45150204,
+											"id": "Q45150204"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-12-10T00:00:00Z",
+											"timezone": 0,
+											"before": 1,
+											"after": 1,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P4632": [
+								{
+									"snaktype": "value",
+									"property": "P4632",
+									"datavalue": {
+										"value": "2417",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813",
+							"P4632"
+						]
+					}
+				]
+			}
+		],
+		"P4632": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4632",
+					"datavalue": {
+						"value": "2417",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$2BFBA380-D2DD-405C-9C87-D013BFD63206",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "7ff38d2719f26f1829e9ffcf7bcea0ec8441745f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 45150204,
+											"id": "Q45150204"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-12-10T00:00:00Z",
+											"timezone": 0,
+											"before": 1,
+											"after": 1,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P345": [
+								{
+									"snaktype": "value",
+									"property": "P345",
+									"datavalue": {
+										"value": "tt0367594",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813",
+							"P345"
+						]
+					}
+				]
+			}
+		],
+		"P4665": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4665",
+					"datavalue": {
+						"value": "10034",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$D18F3B5A-CE0D-4474-8F0F-CCD556E1EC7E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "6945c7f21a216fec240306b3def25f537698a5fa",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 199864,
+											"id": "Q199864"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P4783": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4783",
+					"datavalue": {
+						"value": "2596",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$8D59938D-2A13-4A8B-9781-065648615004",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P4786": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4786",
+					"datavalue": {
+						"value": "43237",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$F642D6F1-D32F-4464-9646-B4F138D6C6A4",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3219": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3219",
+					"datavalue": {
+						"value": "charlie-et-la-chocolaterie-et-les-noces-funebres",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$26C6AFB5-8D18-4B9C-977A-C9D6B83600B9",
+				"rank": "normal"
+			}
+		],
+		"P5099": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5099",
+					"datavalue": {
+						"value": "film/lafabbricadicioccolato",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$32a410f6-4c28-36e0-6824-8471399b8383",
+				"rank": "normal"
+			}
+		],
+		"P4780": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4780",
+					"datavalue": {
+						"value": "35763",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$22693f5a-4945-e6b7-e137-bfa257b10af3",
+				"rank": "normal"
+			}
+		],
+		"P4947": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4947",
+					"datavalue": {
+						"value": "118",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$93D684F3-8F62-4050-A7F8-0245595092DC",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4dfc62ab758846d747acae7428acaddc53f55c90",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 18709181,
+											"id": "Q18709181"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P6127": [
+								{
+									"snaktype": "value",
+									"property": "P6127",
+									"datavalue": {
+										"value": "charlie-and-the-chocolate-factory",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-06-21T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P6127",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P195": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P195",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 188740,
+							"id": "Q188740"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$5B263F0B-575B-461E-AD29-A02CA10E71A4",
+				"rank": "normal"
+			}
+		],
+		"P856": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P856",
+					"datavalue": {
+						"value": "http://wwws.warnerbros.co.uk/movies/chocolatefactory",
+						"type": "string"
+					},
+					"datatype": "url"
+				},
+				"type": "statement",
+				"id": "Q218235$F70A605D-5A36-4D72-ADB7-2C6B178E5937",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "b91f00e37933a9e380eeb5c6ce8e7eee62017c7b",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 199913,
+											"id": "Q199913"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://he.wikipedia.org/w/index.php?title=צ'ארלי_בממלכת_השוקולד_(סרט)&oldid=23612802",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P5786": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5786",
+					"datavalue": {
+						"value": "charlie-und-die-schokoladenfabrik",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$25AD676F-AD77-43D5-9C0E-D66145965C8C",
+				"rank": "normal"
+			}
+		],
+		"P6133": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6133",
+					"datavalue": {
+						"value": "3115",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$17968404-5FBD-41AC-A580-50327F9C58F5",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "6c99f28e1b94c7d35b62d8619550d5d1346b1434",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 565074,
+											"id": "Q565074"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://th.wikipedia.org/w/index.php?title=ชาร์ลี_กับ_โรงงานช็อกโกแลต&oldid=7955106",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P6145": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6145",
+					"datavalue": {
+						"value": "4136",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$B95F3531-FCA0-434F-B6FA-D13F7D123B1F",
+				"rank": "normal"
+			}
+		],
+		"P840": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P840",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1490,
+							"id": "Q1490"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$4d9bf866-98c6-4897-9a6d-5a9d781b66b8",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P361": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P361",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 5085749,
+							"id": "Q5085749"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$5d599725-4b92-d4c8-b919-27f4081b108b",
+				"rank": "normal"
+			}
+		],
+		"P6127": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6127",
+					"datavalue": {
+						"value": "charlie-and-the-chocolate-factory",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$AF331DB4-7BDA-4D22-B115-C093420E787E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4dfc62ab758846d747acae7428acaddc53f55c90",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 18709181,
+											"id": "Q18709181"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P6127": [
+								{
+									"snaktype": "value",
+									"property": "P6127",
+									"datavalue": {
+										"value": "charlie-and-the-chocolate-factory",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-06-21T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P6127",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P6562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6562",
+					"datavalue": {
+						"value": "RCJ7uJFVxjc",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$5C539245-DB0E-4017-8157-E4FD53DA3E8B",
+				"rank": "normal"
+			}
+		],
+		"P5970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5970",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 56887459,
+							"id": "Q56887459"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$94069679-BD65-452B-A67C-F5426D749CBC",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4174f97f03b8cd0fb02db5ba9b672f4c8b1196a0",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 16323348,
+											"id": "Q16323348"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P2758": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2758",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 23817729,
+							"id": "Q23817729"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q218235$F30F1DCC-7F2A-4834-9459-55F9BB947C33",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "649b50b1d581f48093d33e15cb0891b50fbeac52",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://www.cnc.fr/professionnels/visas-et-classification/113363",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P154": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P154",
+					"datavalue": {
+						"value": "Catcf-logo.svg",
+						"type": "string"
+					},
+					"datatype": "commonsMedia"
+				},
+				"type": "statement",
+				"id": "Q218235$93AF9BC4-330F-4FE5-984F-799F0FF4EBC6",
+				"rank": "normal"
+			}
+		],
+		"P6058": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6058",
+					"datavalue": {
+						"value": "film/wd/41",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$d8e5c4e9-4eb8-202c-893b-820b86a40626",
+				"rank": "normal"
+			}
+		],
+		"P4839": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4839",
+					"datavalue": {
+						"value": "Entity[\"Movie\", \"CharlieAndTheChocolateFactory::x66ds\"]",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$25514687-EC35-4593-AFCC-ED4C2BE21905",
+				"rank": "normal"
+			}
+		],
+		"P8033": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P8033",
+					"datavalue": {
+						"value": "charlie-and-the-chocolate-factory-m100001664",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q218235$DA6CF3BD-9FB0-438B-809A-545F0AD63368",
+				"rank": "normal"
+			}
+		]
+	},
+	"sitelinks": {
+		"arwiki": {
+			"site": "arwiki",
+			"title": "تشارلي ومصنع الشوكولاتة (فيلم)",
+			"badges": [],
+			"url": "https://ar.wikipedia.org/wiki/%D8%AA%D8%B4%D8%A7%D8%B1%D9%84%D9%8A_%D9%88%D9%85%D8%B5%D9%86%D8%B9_%D8%A7%D9%84%D8%B4%D9%88%D9%83%D9%88%D9%84%D8%A7%D8%AA%D8%A9_(%D9%81%D9%8A%D9%84%D9%85)"
+		},
+		"bgwiki": {
+			"site": "bgwiki",
+			"title": "Чарли и шоколадовата фабрика (филм)",
+			"badges": [],
+			"url": "https://bg.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D0%B8_%D0%B8_%D1%88%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B0_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D0%BC)"
+		},
+		"bnwiki": {
+			"site": "bnwiki",
+			"title": "চার্লি অ্যান্ড দ্য চকলেট ফ্যাক্টরি (চলচ্চিত্র)",
+			"badges": [],
+			"url": "https://bn.wikipedia.org/wiki/%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A6%BF_%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1_%E0%A6%A6%E0%A7%8D%E0%A6%AF_%E0%A6%9A%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%9F_%E0%A6%AB%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A6%B0%E0%A6%BF_(%E0%A6%9A%E0%A6%B2%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0)"
+		},
+		"bswikiquote": {
+			"site": "bswikiquote",
+			"title": "Charlie i tvornica čokolade",
+			"badges": [],
+			"url": "https://bs.wikiquote.org/wiki/Charlie_i_tvornica_%C4%8Dokolade"
+		},
+		"cawiki": {
+			"site": "cawiki",
+			"title": "Charlie i la fàbrica de xocolata (pel·lícula)",
+			"badges": [],
+			"url": "https://ca.wikipedia.org/wiki/Charlie_i_la_f%C3%A0brica_de_xocolata_(pel%C2%B7l%C3%ADcula)"
+		},
+		"cebwiki": {
+			"site": "cebwiki",
+			"title": "Charlie and the Chocolate Factory (film)",
+			"badges": [],
+			"url": "https://ceb.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)"
+		},
+		"commonswiki": {
+			"site": "commonswiki",
+			"title": "Category:Charlie and the Chocolate Factory (film)",
+			"badges": [],
+			"url": "https://commons.wikimedia.org/wiki/Category:Charlie_and_the_Chocolate_Factory_(film)"
+		},
+		"cswiki": {
+			"site": "cswiki",
+			"title": "Karlík a továrna na čokoládu (film)",
+			"badges": [],
+			"url": "https://cs.wikipedia.org/wiki/Karl%C3%ADk_a_tov%C3%A1rna_na_%C4%8Dokol%C3%A1du_(film)"
+		},
+		"cywiki": {
+			"site": "cywiki",
+			"title": "Charlie and the Chocolate Factory (ffilm)",
+			"badges": [],
+			"url": "https://cy.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(ffilm)"
+		},
+		"dawiki": {
+			"site": "dawiki",
+			"title": "Charlie og chokoladefabrikken (film fra 2005)",
+			"badges": [],
+			"url": "https://da.wikipedia.org/wiki/Charlie_og_chokoladefabrikken_(film_fra_2005)"
+		},
+		"dewiki": {
+			"site": "dewiki",
+			"title": "Charlie und die Schokoladenfabrik (2005)",
+			"badges": [],
+			"url": "https://de.wikipedia.org/wiki/Charlie_und_die_Schokoladenfabrik_(2005)"
+		},
+		"enwiki": {
+			"site": "enwiki",
+			"title": "Charlie and the Chocolate Factory (film)",
+			"badges": [
+				"Q17437798"
+			],
+			"url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)"
+		},
+		"enwikiquote": {
+			"site": "enwikiquote",
+			"title": "Charlie and the Chocolate Factory (film)",
+			"badges": [],
+			"url": "https://en.wikiquote.org/wiki/Charlie_and_the_Chocolate_Factory_(film)"
+		},
+		"eowiki": {
+			"site": "eowiki",
+			"title": "Charlie and the Chocolate Factory (filmo)",
+			"badges": [],
+			"url": "https://eo.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(filmo)"
+		},
+		"eswiki": {
+			"site": "eswiki",
+			"title": "Charlie y la fábrica de chocolate (película)",
+			"badges": [],
+			"url": "https://es.wikipedia.org/wiki/Charlie_y_la_f%C3%A1brica_de_chocolate_(pel%C3%ADcula)"
+		},
+		"etwiki": {
+			"site": "etwiki",
+			"title": "Charlie ja šokolaadivabrik (film)",
+			"badges": [],
+			"url": "https://et.wikipedia.org/wiki/Charlie_ja_%C5%A1okolaadivabrik_(film)"
+		},
+		"euwiki": {
+			"site": "euwiki",
+			"title": "Charlie and the Chocolate Factory (filma)",
+			"badges": [],
+			"url": "https://eu.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(filma)"
+		},
+		"fawiki": {
+			"site": "fawiki",
+			"title": "چارلی و کارخانه شکلات‌سازی (فیلم)",
+			"badges": [],
+			"url": "https://fa.wikipedia.org/wiki/%DA%86%D8%A7%D8%B1%D9%84%DB%8C_%D9%88_%DA%A9%D8%A7%D8%B1%D8%AE%D8%A7%D9%86%D9%87_%D8%B4%DA%A9%D9%84%D8%A7%D8%AA%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C_(%D9%81%DB%8C%D9%84%D9%85)"
+		},
+		"fiwiki": {
+			"site": "fiwiki",
+			"title": "Jali ja suklaatehdas (vuoden 2005 elokuva)",
+			"badges": [],
+			"url": "https://fi.wikipedia.org/wiki/Jali_ja_suklaatehdas_(vuoden_2005_elokuva)"
+		},
+		"frwiki": {
+			"site": "frwiki",
+			"title": "Charlie et la Chocolaterie (film, 2005)",
+			"badges": [],
+			"url": "https://fr.wikipedia.org/wiki/Charlie_et_la_Chocolaterie_(film,_2005)"
+		},
+		"glwiki": {
+			"site": "glwiki",
+			"title": "Charlie e a fábrica de chocolate (filme)",
+			"badges": [],
+			"url": "https://gl.wikipedia.org/wiki/Charlie_e_a_f%C3%A1brica_de_chocolate_(filme)"
+		},
+		"hewiki": {
+			"site": "hewiki",
+			"title": "צ'ארלי בממלכת השוקולד (סרט)",
+			"badges": [],
+			"url": "https://he.wikipedia.org/wiki/%D7%A6%27%D7%90%D7%A8%D7%9C%D7%99_%D7%91%D7%9E%D7%9E%D7%9C%D7%9B%D7%AA_%D7%94%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93_(%D7%A1%D7%A8%D7%98)"
+		},
+		"hewikiquote": {
+			"site": "hewikiquote",
+			"title": "צ'ארלי בממלכת השוקולד (סרט)",
+			"badges": [],
+			"url": "https://he.wikiquote.org/wiki/%D7%A6%27%D7%90%D7%A8%D7%9C%D7%99_%D7%91%D7%9E%D7%9E%D7%9C%D7%9B%D7%AA_%D7%94%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93_(%D7%A1%D7%A8%D7%98)"
+		},
+		"huwiki": {
+			"site": "huwiki",
+			"title": "Charlie és a csokigyár",
+			"badges": [],
+			"url": "https://hu.wikipedia.org/wiki/Charlie_%C3%A9s_a_csokigy%C3%A1r"
+		},
+		"hywiki": {
+			"site": "hywiki",
+			"title": "Չառլին և շոկոլադի գործարանը",
+			"badges": [],
+			"url": "https://hy.wikipedia.org/wiki/%D5%89%D5%A1%D5%BC%D5%AC%D5%AB%D5%B6_%D6%87_%D5%B7%D5%B8%D5%AF%D5%B8%D5%AC%D5%A1%D5%A4%D5%AB_%D5%A3%D5%B8%D6%80%D5%AE%D5%A1%D6%80%D5%A1%D5%B6%D5%A8"
+		},
+		"idwiki": {
+			"site": "idwiki",
+			"title": "Charlie and the Chocolate Factory (film)",
+			"badges": [],
+			"url": "https://id.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)"
+		},
+		"iswiki": {
+			"site": "iswiki",
+			"title": "Kalli og súkkulaðiverksmiðjan (kvikmynd 2005)",
+			"badges": [],
+			"url": "https://is.wikipedia.org/wiki/Kalli_og_s%C3%BAkkula%C3%B0iverksmi%C3%B0jan_(kvikmynd_2005)"
+		},
+		"itwiki": {
+			"site": "itwiki",
+			"title": "La fabbrica di cioccolato (film)",
+			"badges": [],
+			"url": "https://it.wikipedia.org/wiki/La_fabbrica_di_cioccolato_(film)"
+		},
+		"itwikiquote": {
+			"site": "itwikiquote",
+			"title": "La fabbrica di cioccolato",
+			"badges": [],
+			"url": "https://it.wikiquote.org/wiki/La_fabbrica_di_cioccolato"
+		},
+		"jawiki": {
+			"site": "jawiki",
+			"title": "チャーリーとチョコレート工場",
+			"badges": [],
+			"url": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%BC%E3%83%AA%E3%83%BC%E3%81%A8%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%E5%B7%A5%E5%A0%B4"
+		},
+		"kowiki": {
+			"site": "kowiki",
+			"title": "찰리와 초콜릿 공장 (영화)",
+			"badges": [],
+			"url": "https://ko.wikipedia.org/wiki/%EC%B0%B0%EB%A6%AC%EC%99%80_%EC%B4%88%EC%BD%9C%EB%A6%BF_%EA%B3%B5%EC%9E%A5_(%EC%98%81%ED%99%94)"
+		},
+		"ltwiki": {
+			"site": "ltwiki",
+			"title": "Čarlis ir šokolado fabrikas",
+			"badges": [],
+			"url": "https://lt.wikipedia.org/wiki/%C4%8Carlis_ir_%C5%A1okolado_fabrikas"
+		},
+		"mkwiki": {
+			"site": "mkwiki",
+			"title": "Чарли и фабриката за чоколади",
+			"badges": [],
+			"url": "https://mk.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D0%B8_%D0%B8_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D1%82%D0%B0_%D0%B7%D0%B0_%D1%87%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%B8"
+		},
+		"mnwiki": {
+			"site": "mnwiki",
+			"title": "Чарли ба Шоколадны үйлдвэр (кино)",
+			"badges": [],
+			"url": "https://mn.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D0%B8_%D0%B1%D0%B0_%D0%A8%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%BD%D1%8B_%D2%AF%D0%B9%D0%BB%D0%B4%D0%B2%D1%8D%D1%80_(%D0%BA%D0%B8%D0%BD%D0%BE)"
+		},
+		"mswiki": {
+			"site": "mswiki",
+			"title": "Charlie and the Chocolate Factory (filem)",
+			"badges": [],
+			"url": "https://ms.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(filem)"
+		},
+		"nlwiki": {
+			"site": "nlwiki",
+			"title": "Charlie and the Chocolate Factory (film)",
+			"badges": [],
+			"url": "https://nl.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)"
+		},
+		"nowiki": {
+			"site": "nowiki",
+			"title": "Charlie og sjokoladefabrikken (2005)",
+			"badges": [],
+			"url": "https://no.wikipedia.org/wiki/Charlie_og_sjokoladefabrikken_(2005)"
+		},
+		"pawiki": {
+			"site": "pawiki",
+			"title": "ਚਾਰਲੀ ਐਂਡ ਦ ਚਾਕਲੇਟ ਫੈਕਟਰੀ (ਫਿਲਮ)",
+			"badges": [],
+			"url": "https://pa.wikipedia.org/wiki/%E0%A8%9A%E0%A8%BE%E0%A8%B0%E0%A8%B2%E0%A9%80_%E0%A8%90%E0%A8%82%E0%A8%A1_%E0%A8%A6_%E0%A8%9A%E0%A8%BE%E0%A8%95%E0%A8%B2%E0%A9%87%E0%A8%9F_%E0%A8%AB%E0%A9%88%E0%A8%95%E0%A8%9F%E0%A8%B0%E0%A9%80_(%E0%A8%AB%E0%A8%BF%E0%A8%B2%E0%A8%AE)"
+		},
+		"plwiki": {
+			"site": "plwiki",
+			"title": "Charlie i fabryka czekolady (film)",
+			"badges": [],
+			"url": "https://pl.wikipedia.org/wiki/Charlie_i_fabryka_czekolady_(film)"
+		},
+		"plwikiquote": {
+			"site": "plwikiquote",
+			"title": "Charlie i fabryka czekolady",
+			"badges": [],
+			"url": "https://pl.wikiquote.org/wiki/Charlie_i_fabryka_czekolady"
+		},
+		"ptwiki": {
+			"site": "ptwiki",
+			"title": "Charlie and the Chocolate Factory (filme)",
+			"badges": [],
+			"url": "https://pt.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(filme)"
+		},
+		"quwiki": {
+			"site": "quwiki",
+			"title": "Charlie and the Chocolate Factory (film)",
+			"badges": [],
+			"url": "https://qu.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)"
+		},
+		"rowiki": {
+			"site": "rowiki",
+			"title": "Charlie și fabrica de ciocolată",
+			"badges": [],
+			"url": "https://ro.wikipedia.org/wiki/Charlie_%C8%99i_fabrica_de_ciocolat%C4%83"
+		},
+		"ruwiki": {
+			"site": "ruwiki",
+			"title": "Чарли и шоколадная фабрика (фильм)",
+			"badges": [],
+			"url": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D0%B8_%D0%B8_%D1%88%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)"
+		},
+		"ruwikiquote": {
+			"site": "ruwikiquote",
+			"title": "Чарли и шоколадная фабрика",
+			"badges": [],
+			"url": "https://ru.wikiquote.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D0%B8_%D0%B8_%D1%88%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0"
+		},
+		"simplewiki": {
+			"site": "simplewiki",
+			"title": "Charlie and the Chocolate Factory (movie)",
+			"badges": [],
+			"url": "https://simple.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(movie)"
+		},
+		"skwiki": {
+			"site": "skwiki",
+			"title": "Charlie a továreň na čokoládu (film)",
+			"badges": [],
+			"url": "https://sk.wikipedia.org/wiki/Charlie_a_tov%C3%A1re%C5%88_na_%C4%8Dokol%C3%A1du_(film)"
+		},
+		"srwiki": {
+			"site": "srwiki",
+			"title": "Чарли и фабрика чоколаде (филм)",
+			"badges": [],
+			"url": "https://sr.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D0%B8_%D0%B8_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_%D1%87%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%B5_(%D1%84%D0%B8%D0%BB%D0%BC)"
+		},
+		"svwiki": {
+			"site": "svwiki",
+			"title": "Kalle och chokladfabriken (2005)",
+			"badges": [],
+			"url": "https://sv.wikipedia.org/wiki/Kalle_och_chokladfabriken_(2005)"
+		},
+		"tawiki": {
+			"site": "tawiki",
+			"title": "சார்லி அண்ட் த சாக்லேட் பேக்டரி (திரைப்படம்)",
+			"badges": [],
+			"url": "https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%B2%E0%AE%BF_%E0%AE%85%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%8D_%E0%AE%A4_%E0%AE%9A%E0%AE%BE%E0%AE%95%E0%AF%8D%E0%AE%B2%E0%AF%87%E0%AE%9F%E0%AF%8D_%E0%AE%AA%E0%AF%87%E0%AE%95%E0%AF%8D%E0%AE%9F%E0%AE%B0%E0%AE%BF_(%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AE%AE%E0%AF%8D)"
+		},
+		"tgwiki": {
+			"site": "tgwiki",
+			"title": "Чарлӣ ва корхонаи шакалотсозӣ (филм)",
+			"badges": [],
+			"url": "https://tg.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D3%A3_%D0%B2%D0%B0_%D0%BA%D0%BE%D1%80%D1%85%D0%BE%D0%BD%D0%B0%D0%B8_%D1%88%D0%B0%D0%BA%D0%B0%D0%BB%D0%BE%D1%82%D1%81%D0%BE%D0%B7%D3%A3_(%D1%84%D0%B8%D0%BB%D0%BC)"
+		},
+		"thwiki": {
+			"site": "thwiki",
+			"title": "ชาร์ลี กับ โรงงานช็อกโกแลต",
+			"badges": [],
+			"url": "https://th.wikipedia.org/wiki/%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A5%E0%B8%B5_%E0%B8%81%E0%B8%B1%E0%B8%9A_%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B9%82%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%95"
+		},
+		"trwiki": {
+			"site": "trwiki",
+			"title": "Charlie'nin Çikolata Fabrikası (film)",
+			"badges": [],
+			"url": "https://tr.wikipedia.org/wiki/Charlie%27nin_%C3%87ikolata_Fabrikas%C4%B1_(film)"
+		},
+		"ukwiki": {
+			"site": "ukwiki",
+			"title": "Чарлі і шоколадна фабрика (фільм)",
+			"badges": [],
+			"url": "https://uk.wikipedia.org/wiki/%D0%A7%D0%B0%D1%80%D0%BB%D1%96_%D1%96_%D1%88%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)"
+		},
+		"uzwiki": {
+			"site": "uzwiki",
+			"title": "Charlie va Shokolad Fabrikasi",
+			"badges": [],
+			"url": "https://uz.wikipedia.org/wiki/Charlie_va_Shokolad_Fabrikasi"
+		},
+		"viwiki": {
+			"site": "viwiki",
+			"title": "Charlie và nhà máy sôcôla (phim)",
+			"badges": [],
+			"url": "https://vi.wikipedia.org/wiki/Charlie_v%C3%A0_nh%C3%A0_m%C3%A1y_s%C3%B4c%C3%B4la_(phim)"
+		},
+		"zh_yuewiki": {
+			"site": "zh_yuewiki",
+			"title": "朱古力獎門人",
+			"badges": [],
+			"url": "https://zh-yue.wikipedia.org/wiki/%E6%9C%B1%E5%8F%A4%E5%8A%9B%E7%8D%8E%E9%96%80%E4%BA%BA"
+		},
+		"zhwiki": {
+			"site": "zhwiki",
+			"title": "查理和巧克力工厂",
+			"badges": [],
+			"url": "https://zh.wikipedia.org/wiki/%E6%9F%A5%E7%90%86%E5%92%8C%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%B7%A5%E5%8E%82"
+		}
+	}
+}

@@ -1,0 +1,5198 @@
+{
+	"pageid": 17363097,
+	"ns": 0,
+	"title": "Q15728784",
+	"lastrevid": 1176679573,
+	"modified": "2020-05-08T16:51:07Z",
+	"type": "item",
+	"id": "Q15728784",
+	"labels": {
+		"en": {
+			"language": "en",
+			"value": "The Purge: Anarchy"
+		},
+		"en-ca": {
+			"language": "en-ca",
+			"value": "The Purge: Anarchy"
+		},
+		"en-gb": {
+			"language": "en-gb",
+			"value": "The Purge: Anarchy"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "American Nightmare 2"
+		},
+		"it": {
+			"language": "it",
+			"value": "Anarchia - La notte del giudizio"
+		},
+		"pl": {
+			"language": "pl",
+			"value": "Noc Oczyszczenia: Anarchia"
+		},
+		"ta": {
+			"language": "ta",
+			"value": "த பர்ஜ்: அனார்ச்சி"
+		},
+		"ko": {
+			"language": "ko",
+			"value": "더 퍼지: 아나키"
+		},
+		"pt": {
+			"language": "pt",
+			"value": "The Purge: Anarchy"
+		},
+		"ru": {
+			"language": "ru",
+			"value": "Судная ночь 2"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "國定殺戮日：無法無天"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "التطهير: فوضى"
+		},
+		"he": {
+			"language": "he",
+			"value": "הטיהור 2"
+		},
+		"de": {
+			"language": "de",
+			"value": "The Purge: Anarchy"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "The Purge: Anarchy"
+		},
+		"uk": {
+			"language": "uk",
+			"value": "Судна ніч 2"
+		},
+		"es": {
+			"language": "es",
+			"value": "The Purge: Anarchy"
+		},
+		"pt-br": {
+			"language": "pt-br",
+			"value": "The Purge: Anarchy"
+		},
+		"hu": {
+			"language": "hu",
+			"value": "A megtisztulás éjszakája: Anarchia"
+		},
+		"gl": {
+			"language": "gl",
+			"value": "The Purge: Anarchy"
+		},
+		"fa": {
+			"language": "fa",
+			"value": "پاکسازی: هرج و مرج"
+		},
+		"ja": {
+			"language": "ja",
+			"value": "パージ:アナーキー"
+		},
+		"hy": {
+			"language": "hy",
+			"value": "Դատաստանի օրը 2"
+		},
+		"ro": {
+			"language": "ro",
+			"value": "Noaptea judecății: Anarhia"
+		},
+		"ca": {
+			"language": "ca",
+			"value": "The Purge: Anarchy"
+		},
+		"da": {
+			"language": "da",
+			"value": "The Purge: Anarki"
+		},
+		"hif": {
+			"language": "hif",
+			"value": "The Purge: Anarchy"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "The Purge: Anarchy"
+		},
+		"lv": {
+			"language": "lv",
+			"value": "Tīrīšana: Anarhija"
+		},
+		"eu": {
+			"language": "eu",
+			"value": "The Purge: Anarchy"
+		}
+	},
+	"descriptions": {
+		"en": {
+			"language": "en",
+			"value": "2014 American action-horror film directed by James DeMonaco"
+		},
+		"gl": {
+			"language": "gl",
+			"value": "Filme de 2014 dirixido por James DeMonaco"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film sorti en 2014"
+		},
+		"de": {
+			"language": "de",
+			"value": "Film von James DeMonaco (2014)"
+		},
+		"ca": {
+			"language": "ca",
+			"value": "pel·lícula americana de 2014"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "thriller-film"
+		},
+		"cs": {
+			"language": "cs",
+			"value": "americký film z roku 2014"
+		},
+		"pl": {
+			"language": "pl",
+			"value": "amerykański horror z 2014 roku"
+		}
+	},
+	"aliases": {
+		"en": [
+			{
+				"language": "en",
+				"value": "Purge: Anarchy"
+			}
+		],
+		"ar": [
+			{
+				"language": "ar",
+				"value": "التطهير 2 (فيلم)"
+			},
+			{
+				"language": "ar",
+				"value": "التطهير: الفوضى"
+			}
+		],
+		"fr": [
+			{
+				"language": "fr",
+				"value": "American Nightmare 2: Anarchy"
+			}
+		]
+	},
+	"claims": {
+		"P155": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P155",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 7758789,
+							"id": "Q7758789"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$928ef49f-4f21-7d6f-9390-fc89d80dbe56",
+				"rank": "normal"
+			}
+		],
+		"P646": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P646",
+					"datavalue": {
+						"value": "/m/0w_scxd",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$dfab64c6-4576-ad9c-2479-91411acce3cc",
+				"rank": "normal"
+			}
+		],
+		"P1265": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1265",
+					"datavalue": {
+						"value": "222167",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$64787400-4100-067b-9612-dca022774d9b",
+				"rank": "normal"
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$1fd7e35c-4b2b-1ca0-6a76-18b18fc0bea2",
+				"rank": "normal"
+			}
+		],
+		"P272": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 16984664,
+							"id": "Q16984664"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$90fe7689-4115-8ca3-8398-2bcedfbfcc95",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 682748,
+							"id": "Q682748"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$7dd2f29e-4e2f-5f57-803e-e413d3f43b0b",
+				"rank": "normal"
+			}
+		],
+		"P57": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P57",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3161013,
+							"id": "Q3161013"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$9931a9ec-4012-0b43-d9b4-6c576aaaae9f",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a9f8c9ba1db28615ea8c558d931afd96b80ddfc",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "d85bf0fc9dcf68c2ce1046c87f047091bfead2ed",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.mafab.hu/movies/a-megtisztulas-ejszakaja-anarchia-145583.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "8db8bbb63131bfe4f2758ac8dac0e54700ca6f23",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.bbfc.co.uk/releases/purge-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "4a48541516a4015dae41a379b669653efffe7d25",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://bbfc.co.uk/releases/purge-anarchy-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "92d8b16fe948e66709efc9b78527f34d70c66f3a",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.filmaffinity.com/es/film374115.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "a10641a5adb09dcd58e77de983f6016d763667a3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=222167.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P161": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 918616,
+							"id": "Q918616"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$f43c6f02-4e1d-6fee-aa27-68fcdaedcc12",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4a48541516a4015dae41a379b669653efffe7d25",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://bbfc.co.uk/releases/purge-anarchy-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "9f1561f9b5278321854f6e4cc501906bfab48408",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/the-purge-anarchy",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "92d8b16fe948e66709efc9b78527f34d70c66f3a",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.filmaffinity.com/es/film374115.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "81ccc0eadcc28c3196c32e922041a62ccab66c7f",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "a10641a5adb09dcd58e77de983f6016d763667a3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=222167.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 391536,
+							"id": "Q391536"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$dfda7ece-46c7-84d3-f731-659932e5e819",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9f1561f9b5278321854f6e4cc501906bfab48408",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/the-purge-anarchy",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "81ccc0eadcc28c3196c32e922041a62ccab66c7f",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "a10641a5adb09dcd58e77de983f6016d763667a3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=222167.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 4490,
+							"id": "Q4490"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$4d9a243c-4745-7b19-b3eb-7b5dbb67b56c",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4a48541516a4015dae41a379b669653efffe7d25",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://bbfc.co.uk/releases/purge-anarchy-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "9f1561f9b5278321854f6e4cc501906bfab48408",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/the-purge-anarchy",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "81ccc0eadcc28c3196c32e922041a62ccab66c7f",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "a10641a5adb09dcd58e77de983f6016d763667a3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=222167.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 230465,
+							"id": "Q230465"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$2fd6ab29-446d-e338-b3fa-c7142cc2fb04",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4a48541516a4015dae41a379b669653efffe7d25",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://bbfc.co.uk/releases/purge-anarchy-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "9f1561f9b5278321854f6e4cc501906bfab48408",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/the-purge-anarchy",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "81ccc0eadcc28c3196c32e922041a62ccab66c7f",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "a10641a5adb09dcd58e77de983f6016d763667a3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=222167.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 378978,
+							"id": "Q378978"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$E68DE65F-598D-4D2B-9E1C-035CFEBD204D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "81ccc0eadcc28c3196c32e922041a62ccab66c7f",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2392907,
+							"id": "Q2392907"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$B300B69E-57B9-4481-A2B3-49DDEDC92D51",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "8db8bbb63131bfe4f2758ac8dac0e54700ca6f23",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.bbfc.co.uk/releases/purge-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "81ccc0eadcc28c3196c32e922041a62ccab66c7f",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3157150,
+							"id": "Q3157150"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$406822AB-77C9-45E2-BA8C-6E003EE54A6E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "9f1561f9b5278321854f6e4cc501906bfab48408",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/the-purge-anarchy",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "81ccc0eadcc28c3196c32e922041a62ccab66c7f",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 270382,
+							"id": "Q270382"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$CF5B6007-FA1B-49B8-AA7E-28EE7D48C6C4",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "9f1561f9b5278321854f6e4cc501906bfab48408",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/the-purge-anarchy",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "81ccc0eadcc28c3196c32e922041a62ccab66c7f",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 921518,
+							"id": "Q921518"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$D2384B69-6803-473B-80B9-766C30905C2C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "4a48541516a4015dae41a379b669653efffe7d25",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://bbfc.co.uk/releases/purge-anarchy-film",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3342658,
+							"id": "Q3342658"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$D6AF289A-ED8A-4BE7-81DD-72C7940E9FA9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "9f1561f9b5278321854f6e4cc501906bfab48408",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/the-purge-anarchy",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "81ccc0eadcc28c3196c32e922041a62ccab66c7f",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/fullcredits",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 523278,
+							"id": "Q523278"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$8D5668EC-2DFB-452E-9382-A3B80DD7A39F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P856": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P856",
+					"datavalue": {
+						"value": "http://blumhouse.com/film/thepurgeanarchy",
+						"type": "string"
+					},
+					"datatype": "url"
+				},
+				"type": "statement",
+				"id": "Q15728784$a95cc04d-4676-65e3-acd7-3adf57b01a1a",
+				"rank": "normal"
+			}
+		],
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 11424,
+							"id": "Q11424"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$AA434347-FD6D-487D-A1FD-AB4C596D01C9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 200092,
+							"id": "Q200092"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$BEC962EA-A4ED-41FE-8D87-9BF832A3E0FE",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a9f8c9ba1db28615ea8c558d931afd96b80ddfc",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "9f1561f9b5278321854f6e4cc501906bfab48408",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.metacritic.com/movie/the-purge-anarchy",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "7556326e74f1c870874368f686b579bc5e839492",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://www.filmaffinity.com/en/film374115.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2484376,
+							"id": "Q2484376"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$24B421BA-4784-4AE4-A735-1EFBBAD72B7F",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 20443008,
+							"id": "Q20443008"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$015E6502-EECD-48AC-B7E8-E0F6B19EA912",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 188473,
+							"id": "Q188473"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$3C188BA0-E6C2-474C-B602-4FC278CC43AC",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "87904cb7a53a4800e4e1759a7726da3f1d5aac3d",
+						"snaks": {
+							"P3452": [
+								{
+									"snaktype": "value",
+									"property": "P3452",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 6832408,
+											"id": "Q6832408"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-05-28T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P3452",
+							"P813",
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt2975578",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$45b07d04-48df-098d-e101-8b0ab386568a",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P58": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3161013,
+							"id": "Q3161013"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$d924833a-40b8-64fc-2ab2-a79a4341b15c",
+				"rank": "normal"
+			}
+		],
+		"P162": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 59259,
+							"id": "Q59259"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$ef9bcc8c-497d-38a2-8db9-11e3e387ac23",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 13449900,
+							"id": "Q13449900"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$c47c1423-48d0-cb29-80dc-10017b4fa665",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 4954920,
+							"id": "Q4954920"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$ea8e4e26-467c-fe16-7d46-285e808c944d",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d89a400b8638eb9fe5cd2c4e040c26611478c653",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.dvdsreleasedates.com/movies/6441/The-Purge-Anarchy-2014.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-04-08T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 21004830,
+							"id": "Q21004830"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$707bd79c-4213-edbe-4fb5-93f274aa3cbb",
+				"rank": "normal"
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$7ca9569b-4f07-e282-244f-ea171dd6e95b",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 142,
+							"id": "Q142"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$fe1f0692-4422-8fe2-4515-2813877618e2",
+				"rank": "normal"
+			}
+		],
+		"P1258": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1258",
+					"datavalue": {
+						"value": "m/the_purge_anarchy_2014",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$f519daa8-4b5f-a435-1dd3-ffbc128c225a",
+				"rank": "normal"
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2014-01-01T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 9,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"id": "Q15728784$C5694961-C2C4-4050-A300-98A39750EB3A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2014-07-31T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "a15ed95482d52eea03d59e098dae9e31dafef9bd",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 183,
+									"id": "Q183"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q15728784$BFB688E7-E89F-413D-8ADB-170DAEB4A8F3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fe3b54dd4bc150ead1fd4ff1b944243230b4a1de",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt2975578/releaseinfo",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-08-17T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2014-07-17T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "8dd6692b0f05cf604df00898f8bd1efd33aa4432",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 28,
+									"id": "Q28"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q15728784$CE0A3852-A4C8-48EF-809A-783E855FC771",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a57150551c185bbd5ebd68f0cacd09504205112c",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://nmhh.hu/dokumentum/166259/premierfilmek_forgalmi_adatai_2014.xlsx",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					},
+					{
+						"hash": "c3fd8bb917feaf9544e2df9f8fb76a310dfd3f15",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://nmhh.hu/dokumentum/198182/terjesztett_filmalkotasok_art_filmek_nyilvantartasa.xlsx",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P840": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P840",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 65,
+							"id": "Q65"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$8E2D307D-525C-4C96-A758-608B5E3A807D",
+				"rank": "normal"
+			}
+		],
+		"P915": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P915",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 65,
+							"id": "Q65"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$447B3B14-3685-412F-BA15-84D4F9916FCE",
+				"rank": "normal"
+			}
+		],
+		"P905": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P905",
+					"datavalue": {
+						"value": "149232",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$3208D0AF-41F5-4D4C-9AE5-671DDE7B239B",
+				"rank": "normal"
+			}
+		],
+		"P1804": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1804",
+					"datavalue": {
+						"value": "90139",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$6a9c4d14-49dc-9cb4-af34-83bf8804cf7a",
+				"rank": "normal"
+			}
+		],
+		"P1970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1970",
+					"datavalue": {
+						"value": "98682",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$59CBAD15-6AF6-4D67-B487-46368FDF43B2",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 10000,
+											"id": "Q10000"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P480": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P480",
+					"datavalue": {
+						"value": "374115",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$DFFCCF44-1AA5-4AB4-B8C1-AB76508603B9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8449,
+											"id": "Q8449"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1237": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1237",
+					"datavalue": {
+						"value": "purge2",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$DC9AD64D-EC3C-4F74-A0C8-E8B0A61F2193",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "The Purge: Anarchy",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q15728784$91A6FDE0-77D3-4B61-B3BC-31E95254FD6D",
+				"rank": "normal"
+			}
+		],
+		"P750": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P750",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1329615,
+							"id": "Q1329615"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P17": [
+						{
+							"snaktype": "value",
+							"property": "P17",
+							"hash": "5705435a66751f26a989f0bbd80533799f57397b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 28,
+									"id": "Q28"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P17"
+				],
+				"id": "Q15728784$CC32A4DF-BFAE-43C0-B784-BBCC5E3AF1CE",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a57150551c185bbd5ebd68f0cacd09504205112c",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://nmhh.hu/dokumentum/166259/premierfilmek_forgalmi_adatai_2014.xlsx",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					},
+					{
+						"hash": "c3fd8bb917feaf9544e2df9f8fb76a310dfd3f15",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://nmhh.hu/dokumentum/198182/terjesztett_filmalkotasok_art_filmek_nyilvantartasa.xlsx",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P2508": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2508",
+					"datavalue": {
+						"value": "83546",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$634E7DC0-ADA8-4CB1-9E3F-94486454ED1E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2465": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2465",
+					"datavalue": {
+						"value": "353046",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$B7FFB791-9488-4ECC-B1E9-74333551AD6E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1712": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1712",
+					"datavalue": {
+						"value": "movie/the-purge-anarchy",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$2E54A372-DC0F-4A2F-9FE5-C30D69424EEA",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P86": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P86",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 18692870,
+							"id": "Q18692870"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$60a4a7ec-41b7-cbba-6827-0add479d813a",
+				"rank": "normal"
+			}
+		],
+		"P344": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P344",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 19339049,
+							"id": "Q19339049"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$7655ebd1-45d7-a1a7-b82e-be43d19ecdd3",
+				"rank": "normal"
+			}
+		],
+		"P2363": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2363",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 21571490,
+							"id": "Q21571490"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "62b0b228315a9e9f2f3218d0ee48ef18f57b0faa",
+							"datavalue": {
+								"value": "NFT/1972/2014",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q15728784$7A5200E1-ABEF-43AC-AA1D-50BDCACDA9E2",
+				"rank": "normal"
+			}
+		],
+		"P2047": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2047",
+					"datavalue": {
+						"value": {
+							"amount": "+103",
+							"unit": "http://www.wikidata.org/entity/Q7727"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q15728784$CB2557C6-7180-4BDB-B634-7EF564A8399F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2603": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2603",
+					"datavalue": {
+						"value": "770805",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$1BAF1333-E8D4-4071-950D-FFDA1A7D53D1",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "043ac99faf5875c1934a2fc7030edf88cca1c235",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2389071,
+											"id": "Q2389071"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P3135": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3135",
+					"datavalue": {
+						"value": "2028142",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$944d1f7c-4ac4-9083-da9d-4308dc941918",
+				"rank": "normal"
+			}
+		],
+		"P3138": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3138",
+					"datavalue": {
+						"value": "263170",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$83ecaf5f-44cd-342a-3a30-a339209c62b5",
+				"rank": "normal"
+			}
+		],
+		"P3129": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3129",
+					"datavalue": {
+						"value": "711608",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$93871715-462e-8eeb-ccb9-e84656436e0e",
+				"rank": "normal"
+			}
+		],
+		"P1562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1562",
+					"datavalue": {
+						"value": "v583368",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$9a323411-40af-915c-438e-01e95d279300",
+				"rank": "normal"
+			}
+		],
+		"P2334": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2334",
+					"datavalue": {
+						"value": "79794",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$ada9003c-4e21-64f4-a36f-c030150521c2",
+				"rank": "normal"
+			}
+		],
+		"P3143": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3143",
+					"datavalue": {
+						"value": "1808478",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$8fd276ec-46af-7e07-4a4e-2f9b3f8e8a5e",
+				"rank": "normal"
+			}
+		],
+		"P2518": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2518",
+					"datavalue": {
+						"value": "9707",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$45e46a79-46e6-cc98-26a5-801435a36de7",
+				"rank": "normal"
+			}
+		],
+		"P2529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2529",
+					"datavalue": {
+						"value": "358867",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$db497205-4700-cf73-4145-cd561599682d",
+				"rank": "normal"
+			}
+		],
+		"P2346": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2346",
+					"datavalue": {
+						"value": "1549193",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$3a36592b-4e30-c5db-19fc-101d9937d63b",
+				"rank": "normal"
+			}
+		],
+		"P3216": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3216",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 26678735,
+							"id": "Q26678735"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$9068578C-7AED-4D26-8323-BCDFB0A37F18",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fd6896cd3ed22265a9d03e187e43ce46cd5a4103",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://justica.gov.br/noticias/classificacao-indicativa-divulga-faixa-etaria-de-filmes-em-cartaz",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P3302": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3302",
+					"datavalue": {
+						"value": "82196",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$920151E9-A1C0-4B4E-8E07-BD3F5EC6C184",
+				"rank": "normal"
+			}
+		],
+		"P462": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P462",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 22006653,
+							"id": "Q22006653"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$F214C5D5-7451-4B85-A4B7-DEDAB5E87C1A",
+				"rank": "normal"
+			}
+		],
+		"P3306": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3306",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 27253952,
+							"id": "Q27253952"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$9115C359-09EB-4127-8D3C-0FC5F48C06EE",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "43d7961acad35c38ce0289f864d6111e1f3d681a",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.mecd.gob.es/cultura-mecd/areas-cultura/cine/industria-cine/calificacion/calificacion-por-meses.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P156": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P156",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 20724304,
+							"id": "Q20724304"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$D064D881-56B2-4FD0-818D-1730BE231A36",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "ed8bd3f9343e9a35e58b67284f26a67859f1808d",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 199913,
+											"id": "Q199913"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3402": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3402",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 27915576,
+							"id": "Q27915576"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "f7b47109f4570390f5243a2772a3e1ceed6263ef",
+							"datavalue": {
+								"value": "14453",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q15728784$9AD337DD-C4DD-4FAB-8301-1CA09C3DDF50",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "0f97e4d123c02418c9ab9d0917ef428c83d436f1",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://cnc.abt.ro/registru/index.aspx?pageID=3&filmID=14639",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P1981": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1981",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 20644797,
+							"id": "Q20644797"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "1fa5034ee7b69b24e51d4c94b19ce730da5290c9",
+							"datavalue": {
+								"value": "145632/K",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q15728784$AE492649-524C-4EBD-9309-1379F333486D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P4013": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4013",
+					"datavalue": {
+						"value": "thepurge",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$140C518F-9754-44C9-8061-B009AE67CDE2",
+				"rank": "normal"
+			}
+		],
+		"P3844": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3844",
+					"datavalue": {
+						"value": "28256",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$C479F3C9-4439-454D-A1BA-7D17D342E32D",
+				"rank": "normal"
+			}
+		],
+		"P3834": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3834",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 28980118,
+							"id": "Q28980118"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "6956a690966474e1be324accada772d80fdef7e7",
+							"datavalue": {
+								"value": "15037",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q15728784$D38539FE-1805-45C2-9811-7A8B49B022E3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "22d2ca0659879d7945898b0d08c832d09ba77aab",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.rtc.gob.mx/NuevoSitio/cine_clasif_35mm.php?cd=228",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P1552": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1552",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 45171911,
+							"id": "Q45171911"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P1013": [
+						{
+							"snaktype": "value",
+							"property": "P1013",
+							"hash": "30ddffb176643f466e76c3a0164abeafb1bc7b37",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 93591279,
+									"id": "Q93591279"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P1013"
+				],
+				"id": "Q15728784$1B062D43-B3C1-42FD-854A-07F8D4455D30",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "7f0d598fff2ba5af6c5e3a287dcec8e13cb8be65",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 45150204,
+											"id": "Q45150204"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-12-10T00:00:00Z",
+											"timezone": 0,
+											"before": 1,
+											"after": 1,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P4632": [
+								{
+									"snaktype": "value",
+									"property": "P4632",
+									"datavalue": {
+										"value": "5642",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813",
+							"P4632"
+						]
+					}
+				]
+			}
+		],
+		"P4632": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4632",
+					"datavalue": {
+						"value": "5642",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$5994C4F8-6D3F-4BD3-9DD7-ED102036519F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c5d919ff55b2980e0912bf9933de583d64b97edb",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 45150204,
+											"id": "Q45150204"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-12-10T00:00:00Z",
+											"timezone": 0,
+											"before": 1,
+											"after": 1,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P345": [
+								{
+									"snaktype": "value",
+									"property": "P345",
+									"datavalue": {
+										"value": "tt2975578",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813",
+							"P345"
+						]
+					}
+				]
+			}
+		],
+		"P4665": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4665",
+					"datavalue": {
+						"value": "590251",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$8D96AA6A-8F85-424D-B6BB-E80DA466320A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "6945c7f21a216fec240306b3def25f537698a5fa",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 199864,
+											"id": "Q199864"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3077": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3077",
+					"datavalue": {
+						"value": "310737",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$09b3827a-4fc1-40bc-9744-a1ef42cb2ee1",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "65b3dd3cf5f4970a4bd5090a710c260ad729e777",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1092476,
+											"id": "Q1092476"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P4783": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4783",
+					"datavalue": {
+						"value": "37039",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$EF2EA77E-4477-487F-A089-676FB0205E55",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P4947": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4947",
+					"datavalue": {
+						"value": "238636",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$B32719F4-4934-48D0-9DEC-2A71B293969A",
+				"rank": "normal"
+			}
+		],
+		"P2002": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2002",
+					"datavalue": {
+						"value": "UniversalHorror",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P6552": [
+						{
+							"snaktype": "value",
+							"property": "P6552",
+							"hash": "743715a5ec0fefdafced4a06872af8533f0e07e1",
+							"datavalue": {
+								"value": "820165350",
+								"type": "string"
+							},
+							"datatype": "external-id"
+						}
+					],
+					"P1552": [
+						{
+							"snaktype": "value",
+							"property": "P1552",
+							"hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 28378282,
+									"id": "Q28378282"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P585": [
+						{
+							"snaktype": "value",
+							"property": "P585",
+							"hash": "e3dd0640d106956ae28b554d1fa70104c58e5ed7",
+							"datavalue": {
+								"value": {
+									"time": "+2020-02-29T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P6552",
+					"P1552",
+					"P585"
+				],
+				"id": "Q15728784$72714B77-1329-46ED-AAD0-612798617CAE",
+				"rank": "normal"
+			}
+		],
+		"P5786": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5786",
+					"datavalue": {
+						"value": "the-purge-2",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$3DA33E79-AF02-4126-9583-B9290C1BBB2D",
+				"rank": "normal"
+			}
+		],
+		"P6562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6562",
+					"datavalue": {
+						"value": "dSFjFDEO2Iw",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$7EB1818D-A09C-4615-859E-AC142A53397A",
+				"rank": "normal"
+			}
+		],
+		"P5970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5970",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 56887761,
+							"id": "Q56887761"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$E2DB4555-D4CE-4803-B07D-CF879C7972CF",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4174f97f03b8cd0fb02db5ba9b672f4c8b1196a0",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 16323348,
+											"id": "Q16323348"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P2142": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2142",
+					"datavalue": {
+						"value": {
+							"amount": "+110602999",
+							"unit": "http://www.wikidata.org/entity/Q4917"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q15728784$345dd6ba-4ffa-7763-3cf4-1c32a4f79a44",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "ee6a8631810c906de79270ba03be0454c21f6478",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://ru.wikipedia.org/?oldid=104285377",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P2130": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2130",
+					"datavalue": {
+						"value": {
+							"amount": "+9000000",
+							"unit": "http://www.wikidata.org/entity/Q4917"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q15728784$775a27a4-4a24-94ba-8235-7f0d9fc44bef",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "ee6a8631810c906de79270ba03be0454c21f6478",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://ru.wikipedia.org/?oldid=104285377",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P6127": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6127",
+					"datavalue": {
+						"value": "the-purge-anarchy",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$845C544F-E448-4E53-85A5-1D7E8D66C21D",
+				"rank": "normal"
+			}
+		],
+		"P7970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P7970",
+					"datavalue": {
+						"value": "MMV94CC3768D2FF330F4EB3B35D36C22BBAA",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$5EAFDDEB-71C4-48DD-B8AB-CF75EBEEE267",
+				"rank": "normal"
+			}
+		],
+		"P2755": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2755",
+					"datavalue": {
+						"value": "140042",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P580": [
+						{
+							"snaktype": "value",
+							"property": "P580",
+							"hash": "220438da004bac67a30a01651880539e08ae582f",
+							"datavalue": {
+								"value": {
+									"time": "+2014-07-09T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P580"
+				],
+				"id": "Q15728784$8F2EB5EB-6AE9-4689-8DD6-C3A2D3D25131",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "6ead71290258f9b656e02eef7c78aa7a4b4d4ede",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=222167.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P2758": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2758",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 23817740,
+							"id": "Q23817740"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q15728784$DD949802-51E9-47CE-A055-B2A1653E1746",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "53ba809e2b3cd344ff4795de6b860a4d94c0ea61",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://www.cnc.fr/professionnels/visas-et-classification/140042",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P3854": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3854",
+					"datavalue": {
+						"value": "105326",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$216AE1FA-8C63-4C37-B6AE-61D15B0B0F94",
+				"rank": "normal"
+			}
+		],
+		"P4276": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4276",
+					"datavalue": {
+						"value": "107338",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$13D71DA3-9336-4562-9088-51CA6FCCD303",
+				"rank": "normal"
+			}
+		],
+		"P6584": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6584",
+					"datavalue": {
+						"value": "the_purge%3A_anarchy_21137",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$385F0D68-0A4A-41D2-9A28-F12A17C1B0EA",
+				"rank": "normal"
+			}
+		],
+		"P5693": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5693",
+					"datavalue": {
+						"value": "170263",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$264AAA84-B932-4E8E-B108-01617ABC7632",
+				"rank": "normal"
+			}
+		],
+		"P5990": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5990",
+					"datavalue": {
+						"value": "the-purge-anarchy",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$EC46C077-0B1E-4F89-AE31-309158AC5DD2",
+				"rank": "normal"
+			}
+		],
+		"P7299": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P7299",
+					"datavalue": {
+						"value": "114007",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$46769082-3191-405E-A550-5593C501BF68",
+				"rank": "normal"
+			}
+		],
+		"P7236": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P7236",
+					"datavalue": {
+						"value": "10434",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$40D8F664-B9A3-4A2C-BD19-74D46B868A4C",
+				"rank": "normal"
+			}
+		],
+		"P8033": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P8033",
+					"datavalue": {
+						"value": "the-purge-anarchy-m100110678",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q15728784$E9D70F52-E125-4B85-9F2D-4D144C536B12",
+				"rank": "normal"
+			}
+		]
+	},
+	"sitelinks": {
+		"arwiki": {
+			"site": "arwiki",
+			"title": "التطهير: فوضى",
+			"badges": [],
+			"url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AA%D8%B7%D9%87%D9%8A%D8%B1:_%D9%81%D9%88%D8%B6%D9%89"
+		},
+		"astwiki": {
+			"site": "astwiki",
+			"title": "The Purge: Anarchy",
+			"badges": [],
+			"url": "https://ast.wikipedia.org/wiki/The_Purge:_Anarchy"
+		},
+		"dewiki": {
+			"site": "dewiki",
+			"title": "The Purge: Anarchy",
+			"badges": [],
+			"url": "https://de.wikipedia.org/wiki/The_Purge:_Anarchy"
+		},
+		"enwiki": {
+			"site": "enwiki",
+			"title": "The Purge: Anarchy",
+			"badges": [],
+			"url": "https://en.wikipedia.org/wiki/The_Purge:_Anarchy"
+		},
+		"eswiki": {
+			"site": "eswiki",
+			"title": "The Purge: Anarchy",
+			"badges": [],
+			"url": "https://es.wikipedia.org/wiki/The_Purge:_Anarchy"
+		},
+		"euwiki": {
+			"site": "euwiki",
+			"title": "The Purge: Anarchy",
+			"badges": [],
+			"url": "https://eu.wikipedia.org/wiki/The_Purge:_Anarchy"
+		},
+		"fawiki": {
+			"site": "fawiki",
+			"title": "پاکسازی: هرج و مرج",
+			"badges": [],
+			"url": "https://fa.wikipedia.org/wiki/%D9%BE%D8%A7%DA%A9%D8%B3%D8%A7%D8%B2%DB%8C:_%D9%87%D8%B1%D8%AC_%D9%88_%D9%85%D8%B1%D8%AC"
+		},
+		"frwiki": {
+			"site": "frwiki",
+			"title": "American Nightmare 2: Anarchy",
+			"badges": [],
+			"url": "https://fr.wikipedia.org/wiki/American_Nightmare_2:_Anarchy"
+		},
+		"glwiki": {
+			"site": "glwiki",
+			"title": "The Purge: Anarchy",
+			"badges": [],
+			"url": "https://gl.wikipedia.org/wiki/The_Purge:_Anarchy"
+		},
+		"hewiki": {
+			"site": "hewiki",
+			"title": "הטיהור 2",
+			"badges": [],
+			"url": "https://he.wikipedia.org/wiki/%D7%94%D7%98%D7%99%D7%94%D7%95%D7%A8_2"
+		},
+		"hifwiki": {
+			"site": "hifwiki",
+			"title": "The Purge: Anarchy",
+			"badges": [],
+			"url": "https://hif.wikipedia.org/wiki/The_Purge:_Anarchy"
+		},
+		"huwiki": {
+			"site": "huwiki",
+			"title": "A megtisztulás éjszakája: Anarchia",
+			"badges": [],
+			"url": "https://hu.wikipedia.org/wiki/A_megtisztul%C3%A1s_%C3%A9jszak%C3%A1ja:_Anarchia"
+		},
+		"itwiki": {
+			"site": "itwiki",
+			"title": "Anarchia - La notte del giudizio",
+			"badges": [],
+			"url": "https://it.wikipedia.org/wiki/Anarchia_-_La_notte_del_giudizio"
+		},
+		"jawiki": {
+			"site": "jawiki",
+			"title": "パージ:アナーキー",
+			"badges": [],
+			"url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%BC%E3%82%B8:%E3%82%A2%E3%83%8A%E3%83%BC%E3%82%AD%E3%83%BC"
+		},
+		"kowiki": {
+			"site": "kowiki",
+			"title": "더 퍼지: 거리의 반란",
+			"badges": [],
+			"url": "https://ko.wikipedia.org/wiki/%EB%8D%94_%ED%8D%BC%EC%A7%80:_%EA%B1%B0%EB%A6%AC%EC%9D%98_%EB%B0%98%EB%9E%80"
+		},
+		"lvwiki": {
+			"site": "lvwiki",
+			"title": "Tīrīšana: Anarhija",
+			"badges": [],
+			"url": "https://lv.wikipedia.org/wiki/T%C4%ABr%C4%AB%C5%A1ana:_Anarhija"
+		},
+		"nlwiki": {
+			"site": "nlwiki",
+			"title": "The Purge: Anarchy",
+			"badges": [],
+			"url": "https://nl.wikipedia.org/wiki/The_Purge:_Anarchy"
+		},
+		"plwiki": {
+			"site": "plwiki",
+			"title": "Noc oczyszczenia: Anarchia",
+			"badges": [],
+			"url": "https://pl.wikipedia.org/wiki/Noc_oczyszczenia:_Anarchia"
+		},
+		"ptwiki": {
+			"site": "ptwiki",
+			"title": "The Purge: Anarchy",
+			"badges": [],
+			"url": "https://pt.wikipedia.org/wiki/The_Purge:_Anarchy"
+		},
+		"rowiki": {
+			"site": "rowiki",
+			"title": "Noaptea judecății: Anarhia",
+			"badges": [],
+			"url": "https://ro.wikipedia.org/wiki/Noaptea_judec%C4%83%C8%9Bii:_Anarhia"
+		},
+		"ruwiki": {
+			"site": "ruwiki",
+			"title": "Судная ночь 2",
+			"badges": [],
+			"url": "https://ru.wikipedia.org/wiki/%D0%A1%D1%83%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BD%D0%BE%D1%87%D1%8C_2"
+		},
+		"tawiki": {
+			"site": "tawiki",
+			"title": "த பர்ஜ்: அனார்ச்சி",
+			"badges": [],
+			"url": "https://ta.wikipedia.org/wiki/%E0%AE%A4_%E0%AE%AA%E0%AE%B0%E0%AF%8D%E0%AE%9C%E0%AF%8D:_%E0%AE%85%E0%AE%A9%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF"
+		},
+		"ukwiki": {
+			"site": "ukwiki",
+			"title": "Чистка: Анархія",
+			"badges": [],
+			"url": "https://uk.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D1%82%D0%BA%D0%B0:_%D0%90%D0%BD%D0%B0%D1%80%D1%85%D1%96%D1%8F"
+		},
+		"zhwiki": {
+			"site": "zhwiki",
+			"title": "國定殺戮日：無法無天",
+			"badges": [],
+			"url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%AE%9A%E6%AE%BA%E6%88%AE%E6%97%A5%EF%BC%9A%E7%84%A1%E6%B3%95%E7%84%A1%E5%A4%A9"
+		}
+	}
+}

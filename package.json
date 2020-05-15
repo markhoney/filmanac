@@ -2,7 +2,7 @@
 	"name": "filmanac",
 	"private": true,
 	"scripts": {
-		"scrape": "node --trace-warnings src/data/imdb",
+		"scrape": "node --trace-warnings src/data/moviedays",
 		"develop": "gridsome develop",
 		"dev": "yarn develop",
 		"build": "gridsome build",
@@ -13,12 +13,16 @@
 		"up": "yarn upgrade && yarn upgrade-interactive --latest"
 	},
 	"dependencies": {
-		"gridsome": "^0.7.0",
-		"gridsome-source-google-sheets": "^0.4.1"
+		"gridsome": "^0.7.0"
 	},
 	"devDependencies": {
+		"colors": "^1.4.0",
 		"csv-parse": "^4.9.0",
 		"fanart.tv": "^2.1.0",
-		"imdb-api": "^4.0.3"
+		"googleapis": "^51.0.0",
+		"gridsome-plugin-tailwindcss": "^2.2.48",
+		"imdb-api": "^4.0.3",
+		"node-fetch": "^2.6.0",
+		"wikidata-sdk": "^7.4.1"
 	}
 }

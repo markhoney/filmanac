@@ -1,0 +1,6768 @@
+{
+	"pageid": 93750,
+	"ns": 0,
+	"title": "Q91540",
+	"lastrevid": 1176686201,
+	"modified": "2020-05-08T17:03:07Z",
+	"type": "item",
+	"id": "Q91540",
+	"labels": {
+		"ru": {
+			"language": "ru",
+			"value": "Назад в будущее"
+		},
+		"bg": {
+			"language": "bg",
+			"value": "Завръщане в бъдещето"
+		},
+		"br": {
+			"language": "br",
+			"value": "Back to the Future"
+		},
+		"ca": {
+			"language": "ca",
+			"value": "Back to the Future"
+		},
+		"cs": {
+			"language": "cs",
+			"value": "Návrat do budoucnosti"
+		},
+		"cy": {
+			"language": "cy",
+			"value": "Back to the Future"
+		},
+		"da": {
+			"language": "da",
+			"value": "Tilbage til fremtiden"
+		},
+		"de": {
+			"language": "de",
+			"value": "Zurück in die Zukunft"
+		},
+		"de-ch": {
+			"language": "de-ch",
+			"value": "Zurück in die Zukunft"
+		},
+		"el": {
+			"language": "el",
+			"value": "Επιστροφή στο Μέλλον"
+		},
+		"en": {
+			"language": "en",
+			"value": "Back to the Future"
+		},
+		"eo": {
+			"language": "eo",
+			"value": "Back to the Future"
+		},
+		"es": {
+			"language": "es",
+			"value": "Back to the Future"
+		},
+		"fi": {
+			"language": "fi",
+			"value": "Paluu tulevaisuuteen"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "Retour vers le futur"
+		},
+		"gl": {
+			"language": "gl",
+			"value": "Back to the Future"
+		},
+		"he": {
+			"language": "he",
+			"value": "בחזרה לעתיד"
+		},
+		"hi": {
+			"language": "hi",
+			"value": "बैक टू द फ़्यूचर"
+		},
+		"hr": {
+			"language": "hr",
+			"value": "Povratak u budućnost"
+		},
+		"hu": {
+			"language": "hu",
+			"value": "Vissza a jövőbe"
+		},
+		"is": {
+			"language": "is",
+			"value": "Aftur til framtíðar"
+		},
+		"it": {
+			"language": "it",
+			"value": "Ritorno al futuro"
+		},
+		"ja": {
+			"language": "ja",
+			"value": "バック・トゥ・ザ・フューチャー"
+		},
+		"ka": {
+			"language": "ka",
+			"value": "უკან მომავალში"
+		},
+		"kn": {
+			"language": "kn",
+			"value": "ಬ್ಯಾಕ್ ಟು ದಿ ಫ್ಯೂಚರ್"
+		},
+		"ko": {
+			"language": "ko",
+			"value": "백 투 더 퓨처"
+		},
+		"la": {
+			"language": "la",
+			"value": "Back to the Future"
+		},
+		"mr": {
+			"language": "mr",
+			"value": "बॅक टू द फ्युचर"
+		},
+		"ms": {
+			"language": "ms",
+			"value": "Back to the Future"
+		},
+		"nah": {
+			"language": "nah",
+			"value": "Back To The Future"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "Back to the Future"
+		},
+		"pl": {
+			"language": "pl",
+			"value": "Powrót do przyszłości"
+		},
+		"pt": {
+			"language": "pt",
+			"value": "Back to the Future"
+		},
+		"pt-br": {
+			"language": "pt-br",
+			"value": "Back to the Future"
+		},
+		"ro": {
+			"language": "ro",
+			"value": "Înapoi în viitor"
+		},
+		"scn": {
+			"language": "scn",
+			"value": "Ritornu al futuru"
+		},
+		"sh": {
+			"language": "sh",
+			"value": "Back to the Future"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "Tillbaka till framtiden"
+		},
+		"th": {
+			"language": "th",
+			"value": "เจาะเวลาหาอดีต"
+		},
+		"tr": {
+			"language": "tr",
+			"value": "Geleceğe Dönüş"
+		},
+		"uk": {
+			"language": "uk",
+			"value": "Назад у майбутнє"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "回到未来"
+		},
+		"zh-hans": {
+			"language": "zh-hans",
+			"value": "回到未来"
+		},
+		"zh-hant": {
+			"language": "zh-hant",
+			"value": "回到未來"
+		},
+		"eu": {
+			"language": "eu",
+			"value": "Back to the Future"
+		},
+		"sr": {
+			"language": "sr",
+			"value": "Povratak u budućnost"
+		},
+		"id": {
+			"language": "id",
+			"value": "Back to the Future"
+		},
+		"oc": {
+			"language": "oc",
+			"value": "Back to the Future"
+		},
+		"fa": {
+			"language": "fa",
+			"value": "بازگشت به آینده"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "العودة إلى المستقبل"
+		},
+		"en-ca": {
+			"language": "en-ca",
+			"value": "Back to the Future"
+		},
+		"en-gb": {
+			"language": "en-gb",
+			"value": "Back to the Future"
+		},
+		"nds": {
+			"language": "nds",
+			"value": "Back to the Future"
+		},
+		"ml": {
+			"language": "ml",
+			"value": "ബാക്ക് ടു ദ ഫ്യൂച്ചർ 1"
+		},
+		"hy": {
+			"language": "hy",
+			"value": "Հետ դեպի ապագա"
+		},
+		"co": {
+			"language": "co",
+			"value": "Back to the Future"
+		},
+		"bs": {
+			"language": "bs",
+			"value": "Povratak u Budućnost"
+		},
+		"nb": {
+			"language": "nb",
+			"value": "Tilbake til fremtiden"
+		},
+		"lv": {
+			"language": "lv",
+			"value": "Atpakaļ nākotnē"
+		},
+		"sq": {
+			"language": "sq",
+			"value": "Back to the Future"
+		},
+		"lt": {
+			"language": "lt",
+			"value": "Atgal į ateitį"
+		},
+		"vi": {
+			"language": "vi",
+			"value": "Trở lại tương lai"
+		},
+		"sk": {
+			"language": "sk",
+			"value": "Návrat do budúcnosti"
+		},
+		"yi": {
+			"language": "yi",
+			"value": "צוריק צום עתיד"
+		},
+		"yue": {
+			"language": "yue",
+			"value": "回到未來"
+		},
+		"bn": {
+			"language": "bn",
+			"value": "ব্যাক টু দ্য ফিউচার"
+		},
+		"mk": {
+			"language": "mk",
+			"value": "Враќање во иднината"
+		},
+		"ky": {
+			"language": "ky",
+			"value": "Келечекке кайтуу"
+		},
+		"sl": {
+			"language": "sl",
+			"value": "Nazaj v prihodnost"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "Back to the Future"
+		},
+		"sco": {
+			"language": "sco",
+			"value": "Back to the Future"
+		},
+		"lb": {
+			"language": "lb",
+			"value": "Back to the Future"
+		},
+		"az": {
+			"language": "az",
+			"value": "Gələcəyə qayıdış"
+		},
+		"azb": {
+			"language": "azb",
+			"value": "گله‌جه‌یه قاییت"
+		}
+	},
+	"descriptions": {
+		"ru": {
+			"language": "ru",
+			"value": "фантастический приключенческий фильм"
+		},
+		"it": {
+			"language": "it",
+			"value": "film del 1985 diretto da Robert Zemeckis"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "film uit 1985 van Robert Zemeckis"
+		},
+		"en": {
+			"language": "en",
+			"value": "1985 film by Robert Zemeckis"
+		},
+		"de": {
+			"language": "de",
+			"value": "Film von Robert Zemeckis (1985)"
+		},
+		"fa": {
+			"language": "fa",
+			"value": "فیلمی از رابرت زمکیس"
+		},
+		"lv": {
+			"language": "lv",
+			"value": "1985. gada amerikāņu zinātniskās fantastikas komēdija"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film sorti en 1985"
+		},
+		"fi": {
+			"language": "fi",
+			"value": "Robert Zemeckisin ohjaama tieteiskomediaelokuva vuodelta 1985"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "amerikansk film från 1985 regisserad av Robert Zemeckis"
+		},
+		"he": {
+			"language": "he",
+			"value": "סרט מדע בדיוני מ-1985"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "فيلم أُصدر سنة 1985، من إخراج روبرت زيميكس"
+		},
+		"ca": {
+			"language": "ca",
+			"value": "pel·lícula de 1985 dirigida per Robert Zemeckis"
+		},
+		"gl": {
+			"language": "gl",
+			"value": "filme de 1985 dirixido por Robert Zemeckis"
+		},
+		"ext": {
+			"language": "ext",
+			"value": "pinicla de 1985 dirigía por Robert Zemeckis"
+		},
+		"an": {
+			"language": "an",
+			"value": "cinta de 1985 dirichita por Robert Zemeckis"
+		},
+		"oc": {
+			"language": "oc",
+			"value": "filme de 1985 dirigit per Robert Zemeckis"
+		},
+		"pt": {
+			"language": "pt",
+			"value": "filme de 1985 dirigido por Robert Zemeckis"
+		},
+		"es": {
+			"language": "es",
+			"value": "película de 1985 dirigida por Robert Zemeckis"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "película de 1985 dirixida por Robert Zemeckis"
+		},
+		"hu": {
+			"language": "hu",
+			"value": "Robert Zemeckis 1985-ös filmje"
+		},
+		"cs": {
+			"language": "cs",
+			"value": "americký film z roku 1985"
+		},
+		"pl": {
+			"language": "pl",
+			"value": "Amerykański film science- fiction"
+		},
+		"sq": {
+			"language": "sq",
+			"value": "film"
+		},
+		"et": {
+			"language": "et",
+			"value": "1985. aasta film, lavastanud Robert Zemeckis"
+		},
+		"ro": {
+			"language": "ro",
+			"value": "film din 1985 regizat de Robert Zemeckis"
+		},
+		"fy": {
+			"language": "fy",
+			"value": "film út 1985 fan Robert Zemeckis"
+		},
+		"bn": {
+			"language": "bn",
+			"value": "১৯৮৫ সালে মুক্তিপ্রাপ্ত ইংরেজি চলচ্চিত্র"
+		},
+		"ja": {
+			"language": "ja",
+			"value": "アメリカの映画作品、『バック・トゥ・ザ・フューチャーシリーズ』の一作目"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "1985年上映的一部英语电影"
+		},
+		"uk": {
+			"language": "uk",
+			"value": "фільм 1985 року, режисера Роберта Земекіса"
+		}
+	},
+	"aliases": {
+		"sv": [
+			{
+				"language": "sv",
+				"value": "Back to the Future"
+			}
+		],
+		"fi": [
+			{
+				"language": "fi",
+				"value": "Back to the Future"
+			}
+		],
+		"ar": [
+			{
+				"language": "ar",
+				"value": "العودة إلى المستقبل (فيلم)"
+			},
+			{
+				"language": "ar",
+				"value": "باك تو ذا فيوتشر (فيلم)"
+			},
+			{
+				"language": "ar",
+				"value": "عودة إلى المستقبل (فيلم)"
+			}
+		]
+	},
+	"claims": {
+		"P57": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P57",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 187364,
+							"id": "Q187364"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$E7BC8CE4-48B8-45F8-B9CB-8BDC7E6E6D8D",
+				"rank": "normal"
+			}
+		],
+		"P58": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 187364,
+							"id": "Q187364"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$BDB7420D-56A3-4C1B-A42A-D5A34BF7DF48",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 725773,
+							"id": "Q725773"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$7A252718-1D01-41E0-B76D-EC6CEBC731E7",
+				"rank": "normal"
+			}
+		],
+		"P162": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 725773,
+							"id": "Q725773"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$E4056FB1-DAE1-4B75-89C2-F31D4578EEE7",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 6988354,
+							"id": "Q6988354"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$2CCA9FFA-5B28-4A31-A18E-D124E422D72A",
+				"rank": "normal"
+			}
+		],
+		"P161": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 109324,
+							"id": "Q109324"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "26067857f6187e7afbcbe70935d56c2a7ce8db37",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 2337004,
+									"id": "Q2337004"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q91540$7B566F10-4E3F-4AC6-9D36-5CF42A3A2E01",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 230605,
+							"id": "Q230605"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "aeb21f70e4349f4c4c48313e509de938e5fe0c35",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 2315519,
+									"id": "Q2315519"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q91540$1A43BADE-38E4-4698-A6F8-42B2A1CDBA54",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 310060,
+							"id": "Q310060"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "eb841c6330b5da05f91f2defb4b74b56e638d81e",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 2535989,
+									"id": "Q2535989"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q91540$A8144143-4C8C-497D-BAD8-3D786092A7E1",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 395274,
+							"id": "Q395274"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "6c0ad667c21496660888ddfae00f25127afdc351",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 2338941,
+									"id": "Q2338941"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q91540$CE039440-3464-45C1-9F03-57580AADF9A7",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 360663,
+							"id": "Q360663"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "7574e9d2854b9d8328c681d9b7f38726196f3b42",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 2537674,
+									"id": "Q2537674"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q91540$6CF5DE88-DFFC-414B-A2B1-E9952E702E9C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1152815,
+							"id": "Q1152815"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$B0C202D8-F3ED-42FC-AE97-C4A1E41944B9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 449324,
+							"id": "Q449324"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$9743D10B-6B8E-4C90-8483-F9EC32B62D36",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 783369,
+							"id": "Q783369"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$87747960-8B29-41AD-862B-13D0EE6A3DC1",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 979428,
+							"id": "Q979428"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$D252506F-F1AA-4F99-B90B-682C07457F67",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 377961,
+							"id": "Q377961"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$EC90BFF1-AB9E-4C91-AE76-F2CD35D2C46A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 174999,
+							"id": "Q174999"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$F3CF3783-7E27-4A0A-B84D-18FFBCA0D78B",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 8002850,
+							"id": "Q8002850"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$3B0A5FE4-E653-45F6-8D51-7EB38FFE4182",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 324868,
+							"id": "Q324868"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$45A95E99-F55B-41E1-9912-DC48CDD419DC",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 205435,
+							"id": "Q205435"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$17EAEDFF-85A9-4828-B0D4-CFD3EC9DD97A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1047259,
+							"id": "Q1047259"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$1025D22D-038F-4B41-9B85-9E6C82A4CFDD",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 51125,
+							"id": "Q51125"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "3520c44d6ed977c82cfb9f1670824169a0cb1ae7",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1159748,
+									"id": "Q1159748"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q91540$1E0F96A0-72EA-4F48-A2D2-16EA33E4D199",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1137839,
+							"id": "Q1137839"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$5215E692-69E9-4BDA-B396-A84BD4ED8E5F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 657093,
+							"id": "Q657093"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$9B41DB73-F83E-4B54-86AA-AC5224BDC31F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 674663,
+							"id": "Q674663"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$B933ADB2-6F85-4C81-8476-94F716387EAF",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3162972,
+							"id": "Q3162972"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$53E1C486-97A3-4A76-AC77-DD9DFF65F364",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 520423,
+							"id": "Q520423"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$43640BD3-155C-476A-BF07-3966AABCB312",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 504458,
+							"id": "Q504458"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$5A62A913-526B-4E82-9FCE-57F61C02E42A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 6106044,
+							"id": "Q6106044"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$a9a9ad6e-59d5-42ef-b776-e955aefee8c7",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 5294399,
+							"id": "Q5294399"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$3858e0ac-9612-435b-b235-3f8dab485969",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1065205,
+							"id": "Q1065205"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$da067c4a-ca56-4833-b4ab-9af8799b13e6",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P344": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P344",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 497036,
+							"id": "Q497036"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$EA2F7103-BDF5-4E22-8F37-BF26FD03DF1D",
+				"rank": "normal"
+			}
+		],
+		"P272": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 457893,
+							"id": "Q457893"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$964B8D00-77DB-4460-A45B-8F3045D939DF",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 168383,
+							"id": "Q168383"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$8372452a-45af-0654-205b-900f9432bd78",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "1b2debdc6c71a5d504c579a8ec594c018882c003",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://ru.wikipedia.org/?oldid=99866197",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt0088763",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "q91540$C365D3D7-C9FE-43C8-AD3C-2A2F611D205D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 10000,
+											"id": "Q10000"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8449,
+											"id": "Q8449"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$0F2BEE16-CDFA-4BFA-A0E8-4289D26199AF",
+				"rank": "normal"
+			}
+		],
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 24869,
+							"id": "Q24869"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$B9288CB7-C85C-43CC-BCB0-B0DABE41A9E3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P480": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P480",
+					"datavalue": {
+						"value": "309023",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "q91540$3C5210F6-329A-42D6-B6E7-5D8B996071BF",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8449,
+											"id": "Q8449"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P373": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P373",
+					"datavalue": {
+						"value": "Back to the Future",
+						"type": "string"
+					},
+					"datatype": "string"
+				},
+				"type": "statement",
+				"id": "q91540$FC656183-2D48-4B0C-886B-576374E8BD74",
+				"rank": "normal"
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 471839,
+							"id": "Q471839"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$dc0b8e8f-470b-e12d-d344-4a092e1ac8ab",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 319221,
+							"id": "Q319221"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$b0cf3769-49ca-d6d5-9e01-76397afb0539",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 157443,
+							"id": "Q157443"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q91540$a483f68e-44d8-edeb-84f9-93160f5919fc",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1146335,
+							"id": "Q1146335"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$9B0AB99E-38A6-439F-BBDD-15373FF0F304",
+				"rank": "normal"
+			}
+		],
+		"P921": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P921",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 182154,
+							"id": "Q182154"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$f9255c52-4772-060f-0729-52ef4205087f",
+				"rank": "normal"
+			}
+		],
+		"P840": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P840",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 99,
+							"id": "Q99"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$3BDB7F53-5330-4610-B816-7066348D2935",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P840",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 954361,
+							"id": "Q954361"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$cdc2ca3e-4968-89b8-1bbd-8c1b267fc5d0",
+				"rank": "normal"
+			}
+		],
+		"P856": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P856",
+					"datavalue": {
+						"value": "http://www.bttfmovie.com/",
+						"type": "string"
+					},
+					"datatype": "url"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P407": [
+						{
+							"snaktype": "value",
+							"property": "P407",
+							"hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1860,
+									"id": "Q1860"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P407"
+				],
+				"id": "Q91540$98246F16-BDC2-4F49-A9A2-E2ABCE0642F9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$A0BF4BA6-F634-4890-AF71-19FEF8F64D8B",
+				"rank": "normal"
+			}
+		],
+		"P179": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P179",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 91558,
+							"id": "Q91558"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P156": [
+						{
+							"snaktype": "value",
+							"property": "P156",
+							"hash": "1af456e150ee78c8c7fce3937dd2bc8760e2732d",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 109331,
+									"id": "Q109331"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P1545": [
+						{
+							"snaktype": "value",
+							"property": "P1545",
+							"hash": "2a1ced1dca90648ea7e306acbadd74fc81a10722",
+							"datavalue": {
+								"value": "1",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					],
+					"P155": [
+						{
+							"snaktype": "novalue",
+							"property": "P155",
+							"hash": "2c0614dca66b9f846a3cb129bd6ca15adeba8a7a",
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P156",
+					"P1545",
+					"P155"
+				],
+				"id": "Q91540$898a109e-46e1-e286-f266-4896b35d9132",
+				"rank": "normal"
+			}
+		],
+		"P227": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P227",
+					"datavalue": {
+						"value": "7527011-0",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$B89E502A-3801-4718-993D-8F727BEEE189",
+				"rank": "normal"
+			}
+		],
+		"P1258": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1258",
+					"datavalue": {
+						"value": "m/back_to_the_future",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$0AD94EC6-E212-4DDD-940D-7403336BFC1E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+1985-07-03T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "d030038c836f9ed0d37c69cb8c389d689ebeb05a",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 30,
+									"id": "Q30"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q91540$0D3A4E26-134C-4410-A067-9513CD06C619",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c1113e4ad591c38e967bd31b1ab7aa62b4acdff2",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.boxofficemojo.com/movies/?id=backtothefuture.htm",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+1985-12-18T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "7e3c5acd8ed74c218a2b55f9a0f77447daa0253b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 34,
+									"id": "Q34"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q91540$a793bdfa-4830-493a-0244-4268426ba47c",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "f4a7e81f1423e768d1562d85b71620a1e525e04b",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.sfi.se/sv/svensk-filmdatabas/Item/?itemid=6913&type=MOVIE&iv=Basic",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+1985-10-30T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "0e14b091e4290b83034c405fdea4955fecb7f935",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 142,
+									"id": "Q142"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q91540$7556dc8d-4276-ba48-7803-5c7733585270",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+1985-10-03T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "a15ed95482d52eea03d59e098dae9e31dafef9bd",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 183,
+									"id": "Q183"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q91540$AA474A96-9138-4379-96D6-85897E8F53F7",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "7250331c80aeb57e718e82417858721d8c3e2f9f",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt0088763/releaseinfo",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-04-14T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			}
+		],
+		"P214": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P214",
+					"datavalue": {
+						"value": "201891914",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$A41CE88E-BDBB-4BC2-99BE-F2A94D3932E4",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1562",
+					"datavalue": {
+						"value": "v3671",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$E11F9197-BC20-4BFB-A83F-CEFD5DADBCBE",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P166": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P166",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 823422,
+							"id": "Q823422"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P585": [
+						{
+							"snaktype": "value",
+							"property": "P585",
+							"hash": "2db64585e3bb2e3f4da3bcebabcfcdc7c83770f9",
+							"datavalue": {
+								"value": {
+									"time": "+2007-01-01T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 9,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P585"
+				],
+				"id": "Q91540$A7D106BB-0572-45E8-BA39-AF49D823085D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P166",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 488645,
+							"id": "Q488645"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P1346": [
+						{
+							"snaktype": "value",
+							"property": "P1346",
+							"hash": "d3f390aca85ff6ae2ee5ce276980b12f16cd4a57",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1065205,
+									"id": "Q1065205"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P1346",
+							"hash": "92678b17fd8af69552e8560307b93a5309f8addc",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 2158543,
+									"id": "Q2158543"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P805": [
+						{
+							"snaktype": "value",
+							"property": "P805",
+							"hash": "69ef6264f3bc7b7f089378d8e9b8ded4735969a8",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 938235,
+									"id": "Q938235"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P1346",
+					"P805"
+				],
+				"id": "Q91540$E1E9A833-E2A6-4A5D-8C80-7501651A30CB",
+				"rank": "normal"
+			}
+		],
+		"P915": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P915",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 65,
+							"id": "Q65"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$88ED919E-C7D3-4512-9533-B34981BFBAA4",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P915",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 5519656,
+							"id": "Q5519656"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$bce8238e-4942-13e2-53cf-88adde291abd",
+				"rank": "normal"
+			}
+		],
+		"P905": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P905",
+					"datavalue": {
+						"value": "8128",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$CE2A881B-A4C5-4BCD-BFB1-66249A017D9F",
+				"rank": "normal"
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "Back to the Future",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q91540$74FFCA2C-3701-4CE9-8348-63CDF10E2DD4",
+				"rank": "normal"
+			}
+		],
+		"P1970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1970",
+					"datavalue": {
+						"value": "261",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$A788D18B-1B18-496A-B5DF-16482EDA4216",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 10000,
+											"id": "Q10000"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P646": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P646",
+					"datavalue": {
+						"value": "/m/0bt4g",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$81290BB5-02DC-4553-BAB0-27960D5DEBCE",
+				"rank": "normal"
+			}
+		],
+		"P86": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P86",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 313537,
+							"id": "Q313537"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$F9AA735D-D36C-4AED-A690-219959B93B56",
+				"rank": "normal"
+			}
+		],
+		"P1804": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1804",
+					"datavalue": {
+						"value": "4796",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$8cfa697a-4357-c6cf-6a4c-ed304b902783",
+				"rank": "normal"
+			}
+		],
+		"P1712": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1712",
+					"datavalue": {
+						"value": "movie/back-to-the-future",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P444": [
+						{
+							"snaktype": "value",
+							"property": "P444",
+							"hash": "ad121f13d096c678ef6ebca72bd4d29ab18fa951",
+							"datavalue": {
+								"value": "86/100",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P444"
+				],
+				"id": "Q91540$e53c1e28-4244-623a-1ae5-476c3fced22a",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "09db4e42a8b3d3343ca529d2f93ee8f997ecb927",
+						"snaks": {
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2015-10-21T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P1237": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1237",
+					"datavalue": {
+						"value": "backtothefuture",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$a213e621-414c-c388-3a26-961f0b512c1b",
+				"rank": "normal"
+			}
+		],
+		"P244": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P244",
+					"datavalue": {
+						"value": "no96055682",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$2963aea5-4e33-1f64-9f8e-da6a38cf047e",
+				"rank": "normal"
+			}
+		],
+		"P1265": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1265",
+					"datavalue": {
+						"value": "448",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$7FAF394B-CBF8-404B-8F68-9E8741879D83",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2334": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2334",
+					"datavalue": {
+						"value": "6913",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$DFDD2700-9540-4559-946A-DBA948A2BE59",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "bd49d3e4f67bc460ce7a06b6ac3027347cf5ee55",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 169514,
+											"id": "Q169514"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2346": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2346",
+					"datavalue": {
+						"value": "114680",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$15261BD9-6D37-44B3-B50B-ED5C4B52FAF6",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "1f1ad4e8b24154f402e1afe4c76421acd00932f9",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 175482,
+											"id": "Q175482"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P935": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P935",
+					"datavalue": {
+						"value": "Back to the Future",
+						"type": "string"
+					},
+					"datatype": "string"
+				},
+				"type": "statement",
+				"id": "Q91540$66E24107-33BE-4541-B918-AB6B00180999",
+				"rank": "normal"
+			}
+		],
+		"P1040": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1040",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1586598,
+							"id": "Q1586598"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$0E5E6D96-B075-448E-ACD8-D41E2BC5FC13",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1411": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1411",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 488645,
+							"id": "Q488645"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2453": [
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "d392eb97d11fe1efc5aeb9ad18df04c445ba8f9f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 1065205,
+									"id": "Q1065205"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "8c86da0760a1889c187ad2e4357d8311d1343b0e",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 2158543,
+									"id": "Q2158543"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P805": [
+						{
+							"snaktype": "value",
+							"property": "P805",
+							"hash": "69ef6264f3bc7b7f089378d8e9b8ded4735969a8",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 938235,
+									"id": "Q938235"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2453",
+					"P805"
+				],
+				"id": "Q91540$1F6966D0-9D39-4964-93B7-4890FA2A7CA0",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1411",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 41417,
+							"id": "Q41417"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2453": [
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "8cc7fd499fef5a31005ce4a6bb8ed671c067d7ed",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 187364,
+									"id": "Q187364"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "8a4cc8e38bae46c3d4bf2761adc78e5c7af08e14",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 725773,
+									"id": "Q725773"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P805": [
+						{
+							"snaktype": "value",
+							"property": "P805",
+							"hash": "69ef6264f3bc7b7f089378d8e9b8ded4735969a8",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 938235,
+									"id": "Q938235"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2453",
+					"P805"
+				],
+				"id": "Q91540$8058A322-AF07-4570-808C-6E00CE088FC5",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1411",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 830079,
+							"id": "Q830079"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2453": [
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "c9f99fd4f6b128be3b5ae188a654c12cab78701a",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 4911227,
+									"id": "Q4911227"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "a1e02e4b4ae0d3291ac61946828b01ee705ce83a",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 4834230,
+									"id": "Q4834230"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "d9b57efd8e8fd2f37879771f07a6ca296f203ea2",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 7350330,
+									"id": "Q7350330"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "94857554bf852ad21e763b4e8eb0aa0f5a94618d",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 2654803,
+									"id": "Q2654803"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P805": [
+						{
+							"snaktype": "value",
+							"property": "P805",
+							"hash": "69ef6264f3bc7b7f089378d8e9b8ded4735969a8",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 938235,
+									"id": "Q938235"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2453",
+					"P805"
+				],
+				"id": "Q91540$C7085F7A-C9B2-4ABE-ACB3-332AB2A63DD7",
+				"rank": "normal"
+			}
+		],
+		"P462": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P462",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 22006653,
+							"id": "Q22006653"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$DFE0F294-97A5-45EA-9345-370977CB1245",
+				"rank": "normal"
+			}
+		],
+		"P1431": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1431",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 8877,
+							"id": "Q8877"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$F9D9B647-17C3-4A82-A8DC-02622908DA87",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2515": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2515",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 176324,
+							"id": "Q176324"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$925F71D3-DFCD-4840-A58F-27D5415F1E4C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "14d2400e3b1d36332748dc330276f099eeaa8800",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1551807,
+											"id": "Q1551807"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P750": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P750",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 17126013,
+							"id": "Q17126013"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P17": [
+						{
+							"snaktype": "value",
+							"property": "P17",
+							"hash": "5705435a66751f26a989f0bbd80533799f57397b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 28,
+									"id": "Q28"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P17"
+				],
+				"id": "Q91540$8BBCDBB2-34D2-4BFC-A0F9-ADF0D2D84AFA",
+				"rank": "normal"
+			}
+		],
+		"P2529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2529",
+					"datavalue": {
+						"value": "10128",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$8FFA9876-6A9E-468E-9FB0-76CE90300B78",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4c39135a12fbab04b1cfb5a687bd1320027cf92f",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 192582,
+											"id": "Q192582"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2509": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2509",
+					"datavalue": {
+						"value": "mv7220",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$CA0F5499-1B77-4B3F-AC1A-5EF9295B171D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2508": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2508",
+					"datavalue": {
+						"value": "7235",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$1692881B-334A-4464-BD04-613A7028C38B",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2465": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2465",
+					"datavalue": {
+						"value": "18114",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$7C55BB03-1C29-4C99-B295-B06A987EEB47",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2631": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2631",
+					"datavalue": {
+						"value": "16306",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$7EE88DC0-043D-430D-9B84-BFEFECF46BE8",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2047": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2047",
+					"datavalue": {
+						"value": {
+							"amount": "+116",
+							"unit": "http://www.wikidata.org/entity/Q7727"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q91540$5AF878CB-12D2-4EB4-BEF8-55C50F379F5E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2603": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2603",
+					"datavalue": {
+						"value": "476",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$60347D7F-A9B3-447A-BBF9-5AECEB75029F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "043ac99faf5875c1934a2fc7030edf88cca1c235",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2389071,
+											"id": "Q2389071"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P3138": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3138",
+					"datavalue": {
+						"value": "1951",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$DB4B889C-86FB-46B6-9209-43F29753232A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3107": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3107",
+					"datavalue": {
+						"value": "348",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$C65C56C2-B552-45E3-BCF0-C7A601078FEC",
+				"rank": "normal"
+			}
+		],
+		"P3302": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3302",
+					"datavalue": {
+						"value": "105",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$BFF1B4F1-A895-4873-A613-17A6DE6648EA",
+				"rank": "normal"
+			}
+		],
+		"P3203": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3203",
+					"datavalue": {
+						"value": "37985",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$2f240d90-4b58-ca70-b82f-68a857ddd2e3",
+				"rank": "normal"
+			}
+		],
+		"P3135": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3135",
+					"datavalue": {
+						"value": "2002951",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$e4cc7fe2-4802-d2a4-f85f-fdbcb50f0cb7",
+				"rank": "normal"
+			}
+		],
+		"P3129": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3129",
+					"datavalue": {
+						"value": "704454",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$685d3f04-4d15-c1fb-c7cc-b1c47e9c25a4",
+				"rank": "normal"
+			}
+		],
+		"P3143": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3143",
+					"datavalue": {
+						"value": "88514",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$e79b5fb2-48f3-ef64-c752-09205706de52",
+				"rank": "normal"
+			}
+		],
+		"P3145": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3145",
+					"datavalue": {
+						"value": "tt165",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$3146d2d2-4077-ce42-7f2c-250563d0219a",
+				"rank": "normal"
+			}
+		],
+		"P2518": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2518",
+					"datavalue": {
+						"value": "1833",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$fa8c791a-4be9-988b-e709-ceb4a8c91040",
+				"rank": "normal"
+			}
+		],
+		"P1981": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1981",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 20644796,
+							"id": "Q20644796"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$0CC9E978-6C36-42F2-97FF-34ACFAE106AB",
+				"rank": "normal"
+			}
+		],
+		"P2061": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2061",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 752245,
+							"id": "Q752245"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$4C40DDD7-789C-4B15-BFC2-061530278A0A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3593": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3593",
+					"datavalue": {
+						"value": "55763",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$978A4DF7-8662-49E8-94AE-FAC5AE46820C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P910": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P910",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 7214161,
+							"id": "Q7214161"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$14A4762D-B0E1-4D26-8027-A0FD779477BA",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "60cce5d0acf0cc060796196012001192a048d885",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 199698,
+											"id": "Q199698"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2142": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2142",
+					"datavalue": {
+						"value": {
+							"amount": "+381109762",
+							"unit": "http://www.wikidata.org/entity/Q4917"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q91540$94cf091a-418d-39f0-4c5e-bea333a75b6f",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "994b3a38bb2cbd4f5e6c23c04582425228f611fc",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://boxofficemojo.com/movies/?id=backtothefuture.htm",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2013-10-10T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2130": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2130",
+					"datavalue": {
+						"value": {
+							"amount": "+19000000",
+							"unit": "http://www.wikidata.org/entity/Q4917"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P1480": [
+						{
+							"snaktype": "value",
+							"property": "P1480",
+							"hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 5727902,
+									"id": "Q5727902"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P1480"
+				],
+				"id": "Q91540$47eb8110-47da-bf7a-17ae-eb87ecac7d52",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "994b3a38bb2cbd4f5e6c23c04582425228f611fc",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://boxofficemojo.com/movies/?id=backtothefuture.htm",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2013-10-10T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854",
+							"P813"
+						]
+					},
+					{
+						"hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3417": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3417",
+					"datavalue": {
+						"value": "Back-to-the-Future-creative-franchise",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$2cfc3756-41fc-7cac-8f7c-f5b100ed6dce",
+				"rank": "normal"
+			}
+		],
+		"P2283": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2283",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 182154,
+							"id": "Q182154"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$a040256f-4b05-6883-bd25-c7d4e4d96734",
+				"rank": "normal"
+			}
+		],
+		"P1552": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1552",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 27847754,
+							"id": "Q27847754"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P1476": [
+						{
+							"snaktype": "value",
+							"property": "P1476",
+							"hash": "7c8089c64dfc97a03542f8ae26f1abc43d7fcadf",
+							"datavalue": {
+								"value": {
+									"text": "Regreso al futuro",
+									"language": "es"
+								},
+								"type": "monolingualtext"
+							},
+							"datatype": "monolingualtext"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P1476"
+				],
+				"id": "Q91540$f185184b-4afc-6027-3f4a-c12ab0da710a",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1552",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 27834579,
+							"id": "Q27834579"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P1476": [
+						{
+							"snaktype": "value",
+							"property": "P1476",
+							"hash": "a277f69f4e8df5d8641e9d6f351f3037f136e2c2",
+							"datavalue": {
+								"value": {
+									"text": "Volver al futuro",
+									"language": "es"
+								},
+								"type": "monolingualtext"
+							},
+							"datatype": "monolingualtext"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P1476"
+				],
+				"id": "Q91540$39f2d773-45dc-f120-96aa-003e9e669620",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1552",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 45172088,
+							"id": "Q45172088"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P1013": [
+						{
+							"snaktype": "value",
+							"property": "P1013",
+							"hash": "30ddffb176643f466e76c3a0164abeafb1bc7b37",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 93591279,
+									"id": "Q93591279"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P1013"
+				],
+				"id": "Q91540$F2F30E7A-B9B2-4E74-8E33-0D8C5416AAC2",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "1fd8e8fb827b9bb9ef0dd4a7fc341a776e2960fb",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 45150204,
+											"id": "Q45150204"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-12-10T00:00:00Z",
+											"timezone": 0,
+											"before": 1,
+											"after": 1,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P345": [
+								{
+									"snaktype": "value",
+									"property": "P345",
+									"datavalue": {
+										"value": "tt0088763",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813",
+							"P345"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1552",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 58483045,
+							"id": "Q58483045"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$d5601b25-4b00-78ad-dd45-028456238735",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "ec067b5423c3229aff50c97389c37790014e49e3",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 91540,
+											"id": "Q91540"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P3844": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3844",
+					"datavalue": {
+						"value": "3745",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$739d9a7c-403b-4b38-d299-582ac2c5df89",
+				"rank": "normal"
+			}
+		],
+		"P3212": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3212",
+					"datavalue": {
+						"value": "0000-0001-F7A9-0000-C-0000-0000-1",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$70347a6c-4ce7-2b5d-428d-ab7f0eab569a",
+				"rank": "normal"
+			}
+		],
+		"P3141": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3141",
+					"datavalue": {
+						"value": "t0003832",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$2ceaf214-4e99-9010-a59c-7ddef24a609e",
+				"rank": "normal"
+			}
+		],
+		"P3808": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3808",
+					"datavalue": {
+						"value": "Back-to-the-Future",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$88755f2e-44ca-d4e5-890d-f8ba3a2c75d6",
+				"rank": "normal"
+			}
+		],
+		"P2704": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2704",
+					"datavalue": {
+						"value": "10.5240/09A3-1F6E-3538-DF46-5C6F-I",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$6f7ed758-42ad-45e4-3a31-b798a332f693",
+				"rank": "normal"
+			}
+		],
+		"P3804": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3804",
+					"datavalue": {
+						"value": "101658",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$de8ab495-45b0-fa64-6d0c-2fd5a03859eb",
+				"rank": "normal"
+			}
+		],
+		"P2638": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2638",
+					"datavalue": {
+						"value": "movies/back-to-the-future",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$bb6d1b00-46ab-ef56-83d3-668c04cedef0",
+				"rank": "normal"
+			}
+		],
+		"P1874": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1874",
+					"datavalue": {
+						"value": "60010110",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$2c655ce2-4cbe-a015-2815-206c0c130b05",
+				"rank": "normal"
+			}
+		],
+		"P4276": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4276",
+					"datavalue": {
+						"value": "1853",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$BBAC134B-EA77-447A-97CE-4001C7F6BC92",
+				"rank": "normal"
+			}
+		],
+		"P1417": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1417",
+					"datavalue": {
+						"value": "topic/Back-to-the-Future",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$DA403453-EFF4-47EF-B2AA-E26DAA668784",
+				"rank": "normal"
+			}
+		],
+		"P4529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4529",
+					"datavalue": {
+						"value": "1300555",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$A5207006-7DA7-4FEA-88F7-0CAACFE1168D",
+				"rank": "normal"
+			}
+		],
+		"P4632": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4632",
+					"datavalue": {
+						"value": "149",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$6C807DBD-9F87-4F05-863E-3C5FEACBA510",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "1fd8e8fb827b9bb9ef0dd4a7fc341a776e2960fb",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 45150204,
+											"id": "Q45150204"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-12-10T00:00:00Z",
+											"timezone": 0,
+											"before": 1,
+											"after": 1,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P345": [
+								{
+									"snaktype": "value",
+									"property": "P345",
+									"datavalue": {
+										"value": "tt0088763",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813",
+							"P345"
+						]
+					}
+				]
+			}
+		],
+		"P4947": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4947",
+					"datavalue": {
+						"value": "105",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$63E61E44-C33D-43E3-A785-59007842D957",
+				"rank": "normal"
+			}
+		],
+		"P5032": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5032",
+					"datavalue": {
+						"value": "8823",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$31D33045-740F-4669-A0DE-4F95F3BC7034",
+				"rank": "normal"
+			}
+		],
+		"P5099": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5099",
+					"datavalue": {
+						"value": "film/ritornoalfuturo1",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$61A7165D-FB3F-4918-B052-B68E5D5A9081",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P5357": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5357",
+					"datavalue": {
+						"value": "back_to_the_future",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$6BC90879-73F1-4ABA-ABEC-21ADE6586E40",
+				"rank": "normal"
+			}
+		],
+		"P3110": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3110",
+					"datavalue": {
+						"value": "1496",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$5117bb22-4c06-0792-9f91-3dfb532132f9",
+				"rank": "normal"
+			}
+		],
+		"P5786": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5786",
+					"datavalue": {
+						"value": "zurueck-in-die-zukunft",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$C7358592-0BD4-4B08-ABF7-331899AFE63A",
+				"rank": "normal"
+			}
+		],
+		"P268": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P268",
+					"datavalue": {
+						"value": "164623994",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$7959692A-9FAE-4889-967B-A417C5D0ECE4",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "18ff9a7ea290d0a02a637d7f7548c675487d3b76",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 54919,
+											"id": "Q54919"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P214": [
+								{
+									"snaktype": "value",
+									"property": "P214",
+									"datavalue": {
+										"value": "201891914",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2018-10-07T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P214",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P6145": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6145",
+					"datavalue": {
+						"value": "2212",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$251EAB75-6CF4-498D-AD61-D2B1D0DEFB70",
+				"rank": "normal"
+			}
+		],
+		"P4969": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4969",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 91419,
+							"id": "Q91419"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$BE54249D-28B4-45C8-B9B2-90CD33EF08F0",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "cf4e8d187a452d949295c6b946a4e3eb4ef366fc",
+						"snaks": {
+							"P3452": [
+								{
+									"snaktype": "value",
+									"property": "P3452",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 91419,
+											"id": "Q91419"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P3452"
+						]
+					}
+				]
+			}
+		],
+		"P3077": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3077",
+					"datavalue": {
+						"value": "32273",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$be21002f-43ad-9cce-8eca-0f073d06095a",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "65b3dd3cf5f4970a4bd5090a710c260ad729e777",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1092476,
+											"id": "Q1092476"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P5905": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5905",
+					"datavalue": {
+						"value": "4025-174",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$8EB37DD2-A444-46A3-B1CB-50E9ED0EE327",
+				"rank": "normal"
+			}
+		],
+		"P6584": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6584",
+					"datavalue": {
+						"value": "back_to_the_future_74",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$BB29F43A-ED10-4260-8A2A-9105EB151491",
+				"rank": "normal"
+			}
+		],
+		"P793": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P793",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 204854,
+							"id": "Q204854"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P585": [
+						{
+							"snaktype": "value",
+							"property": "P585",
+							"hash": "303bb6949be13a0e0c408e781561a1aca647710f",
+							"datavalue": {
+								"value": {
+									"time": "+1985-07-03T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					],
+					"P276": [
+						{
+							"snaktype": "value",
+							"property": "P276",
+							"hash": "3d0174413e758bc49e177729b75fac1ffe58b318",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 65,
+									"id": "Q65"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P276",
+							"hash": "b5b5d8163d01fc4f201200b560140e1bae73fe43",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 60,
+									"id": "Q60"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P585",
+					"P276"
+				],
+				"id": "Q91540$d953d52c-491b-73c4-d9ec-0bad33e6ec09",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P793",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1256415,
+							"id": "Q1256415"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P580": [
+						{
+							"snaktype": "value",
+							"property": "P580",
+							"hash": "9a4410b6cc55c5f562ccb3894b69c234d1d9daf0",
+							"datavalue": {
+								"value": {
+									"time": "+1984-11-26T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					],
+					"P582": [
+						{
+							"snaktype": "value",
+							"property": "P582",
+							"hash": "1159e02f4bee50d057bbe1744ced507830c0e047",
+							"datavalue": {
+								"value": {
+									"time": "+1985-04-26T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P580",
+					"P582"
+				],
+				"id": "Q91540$9c9484c9-470b-40e7-011e-46b218b29db9",
+				"rank": "normal"
+			}
+		],
+		"P3931": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3931",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 168383,
+							"id": "Q168383"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P585": [
+						{
+							"snaktype": "value",
+							"property": "P585",
+							"hash": "d33967771deb2bfda6137e936fc4cb6b1465ee3b",
+							"datavalue": {
+								"value": {
+									"time": "+1985-10-15T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P585"
+				],
+				"id": "Q91540$bbedc7d5-41e1-3101-df21-f4e043b9a51d",
+				"rank": "normal"
+			}
+		],
+		"P1657": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1657",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 18665334,
+							"id": "Q18665334"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "396b18008cff9ec51659693902436ae61b41b69f",
+							"datavalue": {
+								"value": "27831",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q91540$8f3ea3cd-4fa1-2fa7-8e2d-b2eda15a463c",
+				"rank": "normal"
+			}
+		],
+		"P156": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P156",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 109331,
+							"id": "Q109331"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$03a34e16-484f-d33f-90b3-71ca2100a768",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "1b2debdc6c71a5d504c579a8ec594c018882c003",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 206855,
+											"id": "Q206855"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://ru.wikipedia.org/?oldid=99866197",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P2408": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2408",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 34644,
+							"id": "Q34644"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P585": [
+						{
+							"snaktype": "value",
+							"property": "P585",
+							"hash": "3e98ddc7e45e738ffb8c443426322278b8d3dbc8",
+							"datavalue": {
+								"value": {
+									"time": "+1985-00-00T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 9,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					],
+					"P1545": [
+						{
+							"snaktype": "value",
+							"property": "P1545",
+							"hash": "2a1ced1dca90648ea7e306acbadd74fc81a10722",
+							"datavalue": {
+								"value": "1",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P585",
+					"P1545"
+				],
+				"id": "Q91540$6c3f7465-4b92-b7fc-faef-79bbb31fee87",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2408",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 36297,
+							"id": "Q36297"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P580": [
+						{
+							"snaktype": "value",
+							"property": "P580",
+							"hash": "06354b2ada529a4d2f97e765105343e7032b7c79",
+							"datavalue": {
+								"value": {
+									"time": "+1955-11-05T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					],
+					"P582": [
+						{
+							"snaktype": "value",
+							"property": "P582",
+							"hash": "3c0dee84ebbce154bd6e1a1cda10b9ba09b06f3b",
+							"datavalue": {
+								"value": {
+									"time": "+1955-11-12T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					],
+					"P828": [
+						{
+							"snaktype": "value",
+							"property": "P828",
+							"hash": "704c862e264e52f733d720202d26cb4958d8288f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 182154,
+									"id": "Q182154"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P1876": [
+						{
+							"snaktype": "value",
+							"property": "P1876",
+							"hash": "41b8cde435e98f1a8fcafbd7e17cb180f6f34e62",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 19932,
+									"id": "Q19932"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P1545": [
+						{
+							"snaktype": "value",
+							"property": "P1545",
+							"hash": "7241753c62a310cf84895620ea82250dcea65835",
+							"datavalue": {
+								"value": "2",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P580",
+					"P582",
+					"P828",
+					"P1876",
+					"P1545"
+				],
+				"id": "Q91540$860a5162-4a6d-5787-eb00-d1a2305882d8",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2408",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 34644,
+							"id": "Q34644"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P585": [
+						{
+							"snaktype": "value",
+							"property": "P585",
+							"hash": "3e98ddc7e45e738ffb8c443426322278b8d3dbc8",
+							"datavalue": {
+								"value": {
+									"time": "+1985-00-00T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 9,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					],
+					"P828": [
+						{
+							"snaktype": "value",
+							"property": "P828",
+							"hash": "704c862e264e52f733d720202d26cb4958d8288f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 182154,
+									"id": "Q182154"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P1876": [
+						{
+							"snaktype": "value",
+							"property": "P1876",
+							"hash": "41b8cde435e98f1a8fcafbd7e17cb180f6f34e62",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 19932,
+									"id": "Q19932"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P1545": [
+						{
+							"snaktype": "value",
+							"property": "P1545",
+							"hash": "0e979f28bf306fefdcd352b4eb8dee5da2153a6d",
+							"datavalue": {
+								"value": "3",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P585",
+					"P828",
+					"P1876",
+					"P1545"
+				],
+				"id": "Q91540$bc8bf675-4315-f5bf-5df2-38f25c605de7",
+				"rank": "normal"
+			}
+		],
+		"P6839": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6839",
+					"datavalue": {
+						"value": "Film/BackToTheFuture",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$2ea6392a-40ea-5954-4948-f9dc9149727d",
+				"rank": "normal"
+			}
+		],
+		"P6562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6562",
+					"datavalue": {
+						"value": "UpEbGV-mjq0",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$66210DFF-6522-4E70-8F57-86386033209F",
+				"rank": "normal"
+			}
+		],
+		"P7222": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P7222",
+					"datavalue": {
+						"value": "47965",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$23B89002-DAEB-4C32-98A0-8D4BBAD9E93B",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "e8533db517b5c12db5dfa49c1f998da6ea51f4ef",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://ja.wikipedia.org/w/index.php?title=バック・トゥ・ザ・フューチャー&oldid=73702652",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P5970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5970",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 56887384,
+							"id": "Q56887384"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q91540$5BF5EC1A-0DDB-4CE2-BB08-848FED45D004",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4174f97f03b8cd0fb02db5ba9b672f4c8b1196a0",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 16323348,
+											"id": "Q16323348"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P4665": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4665",
+					"datavalue": {
+						"value": "2789",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$D13EDC8D-A955-4F4D-9449-C62509DC5E10",
+				"rank": "normal"
+			}
+		],
+		"P4515": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4515",
+					"datavalue": {
+						"value": "287324",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$BE0CB0C9-B189-4ED0-9E31-931F38868802",
+				"rank": "normal"
+			}
+		],
+		"P4282": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4282",
+					"datavalue": {
+						"value": "975",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$E856ACFD-06AE-4B67-8798-8CD9C09B4E57",
+				"rank": "normal"
+			}
+		],
+		"P4438": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4438",
+					"datavalue": {
+						"value": "4ce2b6f0f169d",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$5A0BCA45-FEBE-4C14-9A09-1510EADD3FCC",
+				"rank": "normal"
+			}
+		],
+		"P2703": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2703",
+					"datavalue": {
+						"value": "150117179",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$8F0A3FA9-369A-403E-80BE-167E0E51CF08",
+				"rank": "normal"
+			}
+		],
+		"P3933": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3933",
+					"datavalue": {
+						"value": "1315890",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$3E832F18-3755-423A-BC89-CB6DBC5B58FA",
+				"rank": "normal"
+			}
+		],
+		"P5693": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5693",
+					"datavalue": {
+						"value": "50896",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$A3069D21-9D27-4374-B120-B71D95B8A7E7",
+				"rank": "normal"
+			}
+		],
+		"P950": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P950",
+					"datavalue": {
+						"value": "XX3810475",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$117708E4-AEBC-4AF0-A4FD-89ED35C0D0DA",
+				"rank": "normal"
+			}
+		],
+		"P349": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P349",
+					"datavalue": {
+						"value": "001217401",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$6CF8E633-B43D-40D1-B215-6783BD16EA0F",
+				"rank": "normal"
+			}
+		],
+		"P1273": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1273",
+					"datavalue": {
+						"value": "a12023747",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$7EE7F026-A6A0-4C74-A7B9-F366EB595835",
+				"rank": "normal"
+			}
+		],
+		"P1015": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1015",
+					"datavalue": {
+						"value": "3089835",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$27CFB294-15FA-4552-B1D6-80541CBFAF21",
+				"rank": "normal"
+			}
+		],
+		"P269": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P269",
+					"datavalue": {
+						"value": "199503397",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$FE5990AF-A562-4C74-8471-1FFCC52FCE73",
+				"rank": "normal"
+			}
+		],
+		"P7818": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P7818",
+					"datavalue": {
+						"value": "Retour_vers_le_futur",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$EF0C121F-5DEF-4D51-9A4D-AF65C04118C7",
+				"rank": "normal"
+			}
+		],
+		"P6262": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6262",
+					"datavalue": {
+						"value": "backtothefuture:Back_to_the_Future",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$f51ea55e-4b74-e556-ade3-1e215f4047c8",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6262",
+					"datavalue": {
+						"value": "movies:Back_to_the_Future",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$3d42ca1d-474d-d42d-691f-cf846f231b0e",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6262",
+					"datavalue": {
+						"value": "the80smovies:Back_to_the_Future",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$f89f90cc-4372-d1fb-b6b6-2b320173add4",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6262",
+					"datavalue": {
+						"value": "scifi:Back_to_the_Future",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$5c72c96a-4215-d3fb-ef2f-4051c2de2a1c",
+				"rank": "normal"
+			}
+		],
+		"P7975": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P7975",
+					"datavalue": {
+						"value": "442",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$8490640d-42d5-dfd5-ea2c-a01b80e1aa2a",
+				"rank": "normal"
+			}
+		],
+		"P8033": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P8033",
+					"datavalue": {
+						"value": "back-to-the-future-m100052056",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q91540$9B1D7ADD-A473-47E4-B823-55937A5C4BA8",
+				"rank": "normal"
+			}
+		],
+		"P2747": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2747",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 23830577,
+							"id": "Q23830577"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "17282af86b37b0a9fc326ad78c44156a27c14e16",
+							"datavalue": {
+								"value": "F/1930/J",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q91540$9955C024-0C6C-4138-85ED-2DB4916BD027",
+				"rank": "normal"
+			}
+		]
+	},
+	"sitelinks": {
+		"arwiki": {
+			"site": "arwiki",
+			"title": "العودة إلى المستقبل",
+			"badges": [],
+			"url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9_%D8%A5%D9%84%D9%89_%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84"
+		},
+		"astwiki": {
+			"site": "astwiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://ast.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"azbwiki": {
+			"site": "azbwiki",
+			"title": "گله‌جه‌یه قاییت",
+			"badges": [],
+			"url": "https://azb.wikipedia.org/wiki/%DA%AF%D9%84%D9%87%E2%80%8C%D8%AC%D9%87%E2%80%8C%DB%8C%D9%87_%D9%82%D8%A7%DB%8C%DB%8C%D8%AA"
+		},
+		"azwiki": {
+			"site": "azwiki",
+			"title": "Gələcəyə qayıdış (film, 1985)",
+			"badges": [],
+			"url": "https://az.wikipedia.org/wiki/G%C9%99l%C9%99c%C9%99y%C9%99_qay%C4%B1d%C4%B1%C5%9F_(film,_1985)"
+		},
+		"bgwiki": {
+			"site": "bgwiki",
+			"title": "Завръщане в бъдещето",
+			"badges": [],
+			"url": "https://bg.wikipedia.org/wiki/%D0%97%D0%B0%D0%B2%D1%80%D1%8A%D1%89%D0%B0%D0%BD%D0%B5_%D0%B2_%D0%B1%D1%8A%D0%B4%D0%B5%D1%89%D0%B5%D1%82%D0%BE"
+		},
+		"bnwiki": {
+			"site": "bnwiki",
+			"title": "ব্যাক টু দ্য ফিউচার",
+			"badges": [],
+			"url": "https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95_%E0%A6%9F%E0%A7%81_%E0%A6%A6%E0%A7%8D%E0%A6%AF_%E0%A6%AB%E0%A6%BF%E0%A6%89%E0%A6%9A%E0%A6%BE%E0%A6%B0"
+		},
+		"brwiki": {
+			"site": "brwiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://br.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"bswiki": {
+			"site": "bswiki",
+			"title": "Povratak u budućnost",
+			"badges": [],
+			"url": "https://bs.wikipedia.org/wiki/Povratak_u_budu%C4%87nost"
+		},
+		"cawiki": {
+			"site": "cawiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://ca.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"commonswiki": {
+			"site": "commonswiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://commons.wikimedia.org/wiki/Back_to_the_Future"
+		},
+		"cowiki": {
+			"site": "cowiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://co.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"cswiki": {
+			"site": "cswiki",
+			"title": "Návrat do budoucnosti",
+			"badges": [],
+			"url": "https://cs.wikipedia.org/wiki/N%C3%A1vrat_do_budoucnosti"
+		},
+		"cywiki": {
+			"site": "cywiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://cy.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"dawiki": {
+			"site": "dawiki",
+			"title": "Tilbage til fremtiden",
+			"badges": [],
+			"url": "https://da.wikipedia.org/wiki/Tilbage_til_fremtiden"
+		},
+		"dewiki": {
+			"site": "dewiki",
+			"title": "Zurück in die Zukunft (Film)",
+			"badges": [
+				"Q17437798"
+			],
+			"url": "https://de.wikipedia.org/wiki/Zur%C3%BCck_in_die_Zukunft_(Film)"
+		},
+		"dewikiquote": {
+			"site": "dewikiquote",
+			"title": "Zurück in die Zukunft (Film)",
+			"badges": [],
+			"url": "https://de.wikiquote.org/wiki/Zur%C3%BCck_in_die_Zukunft_(Film)"
+		},
+		"elwiki": {
+			"site": "elwiki",
+			"title": "Επιστροφή στο Μέλλον",
+			"badges": [],
+			"url": "https://el.wikipedia.org/wiki/%CE%95%CF%80%CE%B9%CF%83%CF%84%CF%81%CE%BF%CF%86%CE%AE_%CF%83%CF%84%CE%BF_%CE%9C%CE%AD%CE%BB%CE%BB%CE%BF%CE%BD"
+		},
+		"enwiki": {
+			"site": "enwiki",
+			"title": "Back to the Future",
+			"badges": [
+				"Q17437798"
+			],
+			"url": "https://en.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"enwikiquote": {
+			"site": "enwikiquote",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://en.wikiquote.org/wiki/Back_to_the_Future"
+		},
+		"eowiki": {
+			"site": "eowiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://eo.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"eswiki": {
+			"site": "eswiki",
+			"title": "Back to the Future",
+			"badges": [
+				"Q17437796"
+			],
+			"url": "https://es.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"euwiki": {
+			"site": "euwiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://eu.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"fawiki": {
+			"site": "fawiki",
+			"title": "بازگشت به آینده",
+			"badges": [],
+			"url": "https://fa.wikipedia.org/wiki/%D8%A8%D8%A7%D8%B2%DA%AF%D8%B4%D8%AA_%D8%A8%D9%87_%D8%A2%DB%8C%D9%86%D8%AF%D9%87"
+		},
+		"fiwiki": {
+			"site": "fiwiki",
+			"title": "Paluu tulevaisuuteen",
+			"badges": [],
+			"url": "https://fi.wikipedia.org/wiki/Paluu_tulevaisuuteen"
+		},
+		"fiwikiquote": {
+			"site": "fiwikiquote",
+			"title": "Paluu tulevaisuuteen",
+			"badges": [],
+			"url": "https://fi.wikiquote.org/wiki/Paluu_tulevaisuuteen"
+		},
+		"frwiki": {
+			"site": "frwiki",
+			"title": "Retour vers le futur",
+			"badges": [],
+			"url": "https://fr.wikipedia.org/wiki/Retour_vers_le_futur"
+		},
+		"frwikiquote": {
+			"site": "frwikiquote",
+			"title": "Retour vers le futur",
+			"badges": [],
+			"url": "https://fr.wikiquote.org/wiki/Retour_vers_le_futur"
+		},
+		"glwiki": {
+			"site": "glwiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://gl.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"hewiki": {
+			"site": "hewiki",
+			"title": "בחזרה לעתיד",
+			"badges": [],
+			"url": "https://he.wikipedia.org/wiki/%D7%91%D7%97%D7%96%D7%A8%D7%94_%D7%9C%D7%A2%D7%AA%D7%99%D7%93"
+		},
+		"hewikiquote": {
+			"site": "hewikiquote",
+			"title": "בחזרה לעתיד",
+			"badges": [],
+			"url": "https://he.wikiquote.org/wiki/%D7%91%D7%97%D7%96%D7%A8%D7%94_%D7%9C%D7%A2%D7%AA%D7%99%D7%93"
+		},
+		"hiwiki": {
+			"site": "hiwiki",
+			"title": "बैक टू द फ़्यूचर",
+			"badges": [],
+			"url": "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A5%88%E0%A4%95_%E0%A4%9F%E0%A5%82_%E0%A4%A6_%E0%A4%AB%E0%A4%BC%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9A%E0%A4%B0"
+		},
+		"hrwiki": {
+			"site": "hrwiki",
+			"title": "Povratak u budućnost",
+			"badges": [],
+			"url": "https://hr.wikipedia.org/wiki/Povratak_u_budu%C4%87nost"
+		},
+		"huwiki": {
+			"site": "huwiki",
+			"title": "Vissza a jövőbe",
+			"badges": [],
+			"url": "https://hu.wikipedia.org/wiki/Vissza_a_j%C3%B6v%C5%91be"
+		},
+		"huwikiquote": {
+			"site": "huwikiquote",
+			"title": "Vissza a jövőbe",
+			"badges": [],
+			"url": "https://hu.wikiquote.org/wiki/Vissza_a_j%C3%B6v%C5%91be"
+		},
+		"hywiki": {
+			"site": "hywiki",
+			"title": "Հետ դեպի ապագա (ֆիլմ)",
+			"badges": [],
+			"url": "https://hy.wikipedia.org/wiki/%D5%80%D5%A5%D5%BF_%D5%A4%D5%A5%D5%BA%D5%AB_%D5%A1%D5%BA%D5%A1%D5%A3%D5%A1_(%D6%86%D5%AB%D5%AC%D5%B4)"
+		},
+		"idwiki": {
+			"site": "idwiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://id.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"iswiki": {
+			"site": "iswiki",
+			"title": "Aftur til framtíðar",
+			"badges": [],
+			"url": "https://is.wikipedia.org/wiki/Aftur_til_framt%C3%AD%C3%B0ar"
+		},
+		"itwiki": {
+			"site": "itwiki",
+			"title": "Ritorno al futuro",
+			"badges": [],
+			"url": "https://it.wikipedia.org/wiki/Ritorno_al_futuro"
+		},
+		"itwikiquote": {
+			"site": "itwikiquote",
+			"title": "Ritorno al futuro",
+			"badges": [],
+			"url": "https://it.wikiquote.org/wiki/Ritorno_al_futuro"
+		},
+		"jawiki": {
+			"site": "jawiki",
+			"title": "バック・トゥ・ザ・フューチャー",
+			"badges": [],
+			"url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%83%E3%82%AF%E3%83%BB%E3%83%88%E3%82%A5%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%95%E3%83%A5%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC"
+		},
+		"kawiki": {
+			"site": "kawiki",
+			"title": "უკან მომავალში",
+			"badges": [],
+			"url": "https://ka.wikipedia.org/wiki/%E1%83%A3%E1%83%99%E1%83%90%E1%83%9C_%E1%83%9B%E1%83%9D%E1%83%9B%E1%83%90%E1%83%95%E1%83%90%E1%83%9A%E1%83%A8%E1%83%98"
+		},
+		"knwiki": {
+			"site": "knwiki",
+			"title": "ಬ್ಯಾಕ್ ಟು ದಿ ಫ್ಯೂಚರ್",
+			"badges": [],
+			"url": "https://kn.wikipedia.org/wiki/%E0%B2%AC%E0%B3%8D%E0%B2%AF%E0%B2%BE%E0%B2%95%E0%B3%8D_%E0%B2%9F%E0%B3%81_%E0%B2%A6%E0%B2%BF_%E0%B2%AB%E0%B3%8D%E0%B2%AF%E0%B3%82%E0%B2%9A%E0%B2%B0%E0%B3%8D"
+		},
+		"kowiki": {
+			"site": "kowiki",
+			"title": "백 투 더 퓨처",
+			"badges": [],
+			"url": "https://ko.wikipedia.org/wiki/%EB%B0%B1_%ED%88%AC_%EB%8D%94_%ED%93%A8%EC%B2%98"
+		},
+		"kowikiquote": {
+			"site": "kowikiquote",
+			"title": "백 투 더 퓨처",
+			"badges": [],
+			"url": "https://ko.wikiquote.org/wiki/%EB%B0%B1_%ED%88%AC_%EB%8D%94_%ED%93%A8%EC%B2%98"
+		},
+		"kywiki": {
+			"site": "kywiki",
+			"title": "Келечекке кайтуу",
+			"badges": [],
+			"url": "https://ky.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BB%D0%B5%D1%87%D0%B5%D0%BA%D0%BA%D0%B5_%D0%BA%D0%B0%D0%B9%D1%82%D1%83%D1%83"
+		},
+		"lawiki": {
+			"site": "lawiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://la.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"ltwiki": {
+			"site": "ltwiki",
+			"title": "Atgal į ateitį",
+			"badges": [],
+			"url": "https://lt.wikipedia.org/wiki/Atgal_%C4%AF_ateit%C4%AF"
+		},
+		"lvwiki": {
+			"site": "lvwiki",
+			"title": "Atpakaļ nākotnē",
+			"badges": [],
+			"url": "https://lv.wikipedia.org/wiki/Atpaka%C4%BC_n%C4%81kotn%C4%93"
+		},
+		"mkwiki": {
+			"site": "mkwiki",
+			"title": "Враќање во иднината (филм од 1985)",
+			"badges": [],
+			"url": "https://mk.wikipedia.org/wiki/%D0%92%D1%80%D0%B0%D1%9C%D0%B0%D1%9A%D0%B5_%D0%B2%D0%BE_%D0%B8%D0%B4%D0%BD%D0%B8%D0%BD%D0%B0%D1%82%D0%B0_(%D1%84%D0%B8%D0%BB%D0%BC_%D0%BE%D0%B4_1985)"
+		},
+		"mlwiki": {
+			"site": "mlwiki",
+			"title": "ബാക്ക് ടു ദ ഫ്യൂച്ചർ 1",
+			"badges": [],
+			"url": "https://ml.wikipedia.org/wiki/%E0%B4%AC%E0%B4%BE%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%8D_%E0%B4%9F%E0%B5%81_%E0%B4%A6_%E0%B4%AB%E0%B5%8D%E0%B4%AF%E0%B5%82%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B5%BC_1"
+		},
+		"mrwiki": {
+			"site": "mrwiki",
+			"title": "बॅक टू द फ्युचर (चित्रपट)",
+			"badges": [],
+			"url": "https://mr.wikipedia.org/wiki/%E0%A4%AC%E0%A5%85%E0%A4%95_%E0%A4%9F%E0%A5%82_%E0%A4%A6_%E0%A4%AB%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%9A%E0%A4%B0_(%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%9F)"
+		},
+		"mswiki": {
+			"site": "mswiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://ms.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"nahwiki": {
+			"site": "nahwiki",
+			"title": "Back To The Future",
+			"badges": [],
+			"url": "https://nah.wikipedia.org/wiki/Back_To_The_Future"
+		},
+		"ndswiki": {
+			"site": "ndswiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://nds.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"nlwiki": {
+			"site": "nlwiki",
+			"title": "Back to the Future (film)",
+			"badges": [],
+			"url": "https://nl.wikipedia.org/wiki/Back_to_the_Future_(film)"
+		},
+		"nowiki": {
+			"site": "nowiki",
+			"title": "Tilbake til fremtiden",
+			"badges": [],
+			"url": "https://no.wikipedia.org/wiki/Tilbake_til_fremtiden"
+		},
+		"plwiki": {
+			"site": "plwiki",
+			"title": "Powrót do przyszłości",
+			"badges": [],
+			"url": "https://pl.wikipedia.org/wiki/Powr%C3%B3t_do_przysz%C5%82o%C5%9Bci"
+		},
+		"plwikiquote": {
+			"site": "plwikiquote",
+			"title": "Powrót do przyszłości",
+			"badges": [],
+			"url": "https://pl.wikiquote.org/wiki/Powr%C3%B3t_do_przysz%C5%82o%C5%9Bci"
+		},
+		"ptwiki": {
+			"site": "ptwiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://pt.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"ptwikiquote": {
+			"site": "ptwikiquote",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://pt.wikiquote.org/wiki/Back_to_the_Future"
+		},
+		"rowiki": {
+			"site": "rowiki",
+			"title": "Înapoi în viitor",
+			"badges": [],
+			"url": "https://ro.wikipedia.org/wiki/%C3%8Enapoi_%C3%AEn_viitor"
+		},
+		"ruwiki": {
+			"site": "ruwiki",
+			"title": "Назад в будущее (фильм)",
+			"badges": [],
+			"url": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D0%B2_%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)"
+		},
+		"ruwikiquote": {
+			"site": "ruwikiquote",
+			"title": "Назад в будущее",
+			"badges": [],
+			"url": "https://ru.wikiquote.org/wiki/%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D0%B2_%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5"
+		},
+		"scnwiki": {
+			"site": "scnwiki",
+			"title": "Ritornu al futuru",
+			"badges": [],
+			"url": "https://scn.wikipedia.org/wiki/Ritornu_al_futuru"
+		},
+		"scowiki": {
+			"site": "scowiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://sco.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"shwiki": {
+			"site": "shwiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://sh.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"simplewiki": {
+			"site": "simplewiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://simple.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"skwiki": {
+			"site": "skwiki",
+			"title": "Návrat do budúcnosti",
+			"badges": [],
+			"url": "https://sk.wikipedia.org/wiki/N%C3%A1vrat_do_bud%C3%BAcnosti"
+		},
+		"slwiki": {
+			"site": "slwiki",
+			"title": "Nazaj v prihodnost",
+			"badges": [
+				"Q17437796"
+			],
+			"url": "https://sl.wikipedia.org/wiki/Nazaj_v_prihodnost"
+		},
+		"sqwiki": {
+			"site": "sqwiki",
+			"title": "Back to the Future",
+			"badges": [],
+			"url": "https://sq.wikipedia.org/wiki/Back_to_the_Future"
+		},
+		"srwiki": {
+			"site": "srwiki",
+			"title": "Povratak u budućnost",
+			"badges": [],
+			"url": "https://sr.wikipedia.org/wiki/Povratak_u_budu%C4%87nost"
+		},
+		"svwiki": {
+			"site": "svwiki",
+			"title": "Tillbaka till framtiden",
+			"badges": [],
+			"url": "https://sv.wikipedia.org/wiki/Tillbaka_till_framtiden"
+		},
+		"svwikiquote": {
+			"site": "svwikiquote",
+			"title": "Tillbaka till framtiden",
+			"badges": [],
+			"url": "https://sv.wikiquote.org/wiki/Tillbaka_till_framtiden"
+		},
+		"thwiki": {
+			"site": "thwiki",
+			"title": "เจาะเวลาหาอดีต",
+			"badges": [
+				"Q17437798"
+			],
+			"url": "https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%88%E0%B8%B2%E0%B8%B0%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%AD%E0%B8%94%E0%B8%B5%E0%B8%95"
+		},
+		"trwiki": {
+			"site": "trwiki",
+			"title": "Geleceğe Dönüş",
+			"badges": [],
+			"url": "https://tr.wikipedia.org/wiki/Gelece%C4%9Fe_D%C3%B6n%C3%BC%C5%9F"
+		},
+		"ukwiki": {
+			"site": "ukwiki",
+			"title": "Назад у майбутнє",
+			"badges": [],
+			"url": "https://uk.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D1%83_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%94"
+		},
+		"ukwikiquote": {
+			"site": "ukwikiquote",
+			"title": "Назад у майбутнє",
+			"badges": [],
+			"url": "https://uk.wikiquote.org/wiki/%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D1%83_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%94"
+		},
+		"viwiki": {
+			"site": "viwiki",
+			"title": "Trở lại tương lai",
+			"badges": [],
+			"url": "https://vi.wikipedia.org/wiki/Tr%E1%BB%9F_l%E1%BA%A1i_t%C6%B0%C6%A1ng_lai"
+		},
+		"viwikiquote": {
+			"site": "viwikiquote",
+			"title": "Trở lại tương lai",
+			"badges": [],
+			"url": "https://vi.wikiquote.org/wiki/Tr%E1%BB%9F_l%E1%BA%A1i_t%C6%B0%C6%A1ng_lai"
+		},
+		"wuuwiki": {
+			"site": "wuuwiki",
+			"title": "回到未来",
+			"badges": [],
+			"url": "https://wuu.wikipedia.org/wiki/%E5%9B%9E%E5%88%B0%E6%9C%AA%E6%9D%A5"
+		},
+		"yiwiki": {
+			"site": "yiwiki",
+			"title": "צוריק צום עתיד",
+			"badges": [],
+			"url": "https://yi.wikipedia.org/wiki/%D7%A6%D7%95%D7%A8%D7%99%D7%A7_%D7%A6%D7%95%D7%9D_%D7%A2%D7%AA%D7%99%D7%93"
+		},
+		"zh_yuewiki": {
+			"site": "zh_yuewiki",
+			"title": "回到未來",
+			"badges": [],
+			"url": "https://zh-yue.wikipedia.org/wiki/%E5%9B%9E%E5%88%B0%E6%9C%AA%E4%BE%86"
+		},
+		"zhwiki": {
+			"site": "zhwiki",
+			"title": "回到未来",
+			"badges": [],
+			"url": "https://zh.wikipedia.org/wiki/%E5%9B%9E%E5%88%B0%E6%9C%AA%E6%9D%A5"
+		}
+	}
+}

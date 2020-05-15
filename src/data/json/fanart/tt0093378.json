@@ -1,0 +1,77 @@
+{
+	"name": "La Bamba",
+	"tmdb_id": "16620",
+	"imdb_id": "tt0093378",
+	"moviedisc": [
+		{
+			"id": "217470",
+			"url": "https://assets.fanart.tv/fanart/movies/16620/moviedisc/la-bamba-5a76fec9cef0b.png",
+			"lang": "en",
+			"likes": "7",
+			"disc": "1",
+			"disc_type": "bluray"
+		},
+		{
+			"id": "217456",
+			"url": "https://assets.fanart.tv/fanart/movies/16620/moviedisc/la-bamba-5a76eef3387d4.png",
+			"lang": "en",
+			"likes": "6",
+			"disc": "1",
+			"disc_type": "bluray"
+		},
+		{
+			"id": "216139",
+			"url": "https://assets.fanart.tv/fanart/movies/16620/moviedisc/la-bamba-5a671cbcc7e72.png",
+			"lang": "pt",
+			"likes": "4",
+			"disc": "1",
+			"disc_type": "dvd"
+		}
+	],
+	"movieposter": [
+		{
+			"id": "217461",
+			"url": "https://assets.fanart.tv/fanart/movies/16620/movieposter/la-bamba-5a76f9448aef2.jpg",
+			"lang": "en",
+			"likes": "5"
+		},
+		{
+			"id": "100636",
+			"url": "https://assets.fanart.tv/fanart/movies/16620/movieposter/la-bamba-5505d38bc9769.jpg",
+			"lang": "en",
+			"likes": "1"
+		}
+	],
+	"moviebanner": [
+		{
+			"id": "100730",
+			"url": "https://assets.fanart.tv/fanart/movies/16620/moviebanner/la-bamba-5507020491125.jpg",
+			"lang": "en",
+			"likes": "2"
+		}
+	],
+	"hdmovielogo": [
+		{
+			"id": "40328",
+			"url": "https://assets.fanart.tv/fanart/movies/16620/hdmovielogo/la-bamba-51d106770d1e2.png",
+			"lang": "en",
+			"likes": "1"
+		}
+	],
+	"moviebackground": [
+		{
+			"id": "100637",
+			"url": "https://assets.fanart.tv/fanart/movies/16620/moviebackground/la-bamba-5505d3a39e8cf.jpg",
+			"lang": "",
+			"likes": "0"
+		}
+	],
+	"movielogo": [
+		{
+			"id": "40329",
+			"url": "https://assets.fanart.tv/fanart/movies/16620/movielogo/la-bamba-51d106d8730ba.png",
+			"lang": "en",
+			"likes": "0"
+		}
+	]
+}

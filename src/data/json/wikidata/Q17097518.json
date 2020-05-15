@@ -1,0 +1,324 @@
+{
+	"pageid": 18693961,
+	"ns": 0,
+	"title": "Q17097518",
+	"lastrevid": 1125591212,
+	"modified": "2020-02-28T23:13:59Z",
+	"type": "item",
+	"id": "Q17097518",
+	"labels": {
+		"en": {
+			"language": "en",
+			"value": "The Gettysburg Address"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "哥底斯堡演说"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "The Gettysburg Address"
+		}
+	},
+	"descriptions": {
+		"en": {
+			"language": "en",
+			"value": "2017 US documentary written, produced and directed by Sean Conant."
+		},
+		"nl": {
+			"language": "nl",
+			"value": "film uit 2017"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film américain"
+		},
+		"sq": {
+			"language": "sq",
+			"value": "film amerikan"
+		},
+		"de": {
+			"language": "de",
+			"value": "US-amerikanischer Film"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "amerikansk film"
+		}
+	},
+	"aliases": {
+		"en": [
+			{
+				"language": "en",
+				"value": "Gettysburg Address"
+			}
+		]
+	},
+	"claims": {
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 11424,
+							"id": "Q11424"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17097518$45282603-536B-4C48-A584-10EAD7B2AB44",
+				"rank": "normal"
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17097518$392956A9-9DE7-4AEF-A6ED-22683D9178E5",
+				"rank": "normal"
+			}
+		],
+		"P856": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P856",
+					"datavalue": {
+						"value": "http://gettysburgaddressfilm.com",
+						"type": "string"
+					},
+					"datatype": "url"
+				},
+				"type": "statement",
+				"id": "Q17097518$0D403AC9-749A-4C75-A28F-B1D21D1A4284",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 93204,
+							"id": "Q93204"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17097518$93F0296B-BA51-4A72-BD4E-FB86CD497951",
+				"rank": "normal"
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "The Gettysburg Address",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q17097518$E24866FC-A21D-44D6-9366-1432FA2B5B8A",
+				"rank": "normal"
+			}
+		],
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt3066808",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17097518$5C1605F4-1F46-44FF-9402-454B38B00F86",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "0ee3b3ba1c958f4c3dcba7ed8091fe4b57311348",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 30239,
+											"id": "Q30239"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2529",
+					"datavalue": {
+						"value": "396789",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q17097518$31aa0054-473e-9da3-08f2-0b8b96528325",
+				"rank": "normal"
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2017-00-00T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 9,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"id": "Q17097518$7CB82AFA-DB9C-41E1-BF54-01BA01C6AE79",
+				"rank": "normal"
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q17097518$E3B8BC4B-F885-485D-87C1-9FFE7F6B8791",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "408c808bc0350b1004c7f43c8f23850404ad7286",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=The_Gettysburg_Address_(film)&oldid=851188871",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		]
+	},
+	"sitelinks": {
+		"zhwiki": {
+			"site": "zhwiki",
+			"title": "葛底斯堡演说 (电影)",
+			"badges": [],
+			"url": "https://zh.wikipedia.org/wiki/%E8%91%9B%E5%BA%95%E6%96%AF%E5%A0%A1%E6%BC%94%E8%AF%B4_(%E7%94%B5%E5%BD%B1)"
+		}
+	}
+}

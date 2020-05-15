@@ -1,0 +1,5995 @@
+{
+	"pageid": 53846,
+	"ns": 0,
+	"title": "Q51668",
+	"lastrevid": 1163600620,
+	"modified": "2020-04-22T12:02:53Z",
+	"type": "item",
+	"id": "Q51668",
+	"labels": {
+		"id": {
+			"language": "id",
+			"value": "The Passion of the Christ"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "آلام المسيح"
+		},
+		"bg": {
+			"language": "bg",
+			"value": "Страстите Христови"
+		},
+		"ca": {
+			"language": "ca",
+			"value": "The Passion of the Christ"
+		},
+		"cs": {
+			"language": "cs",
+			"value": "Umučení Krista"
+		},
+		"cy": {
+			"language": "cy",
+			"value": "Passion of the Christ"
+		},
+		"da": {
+			"language": "da",
+			"value": "The Passion of the Christ"
+		},
+		"de": {
+			"language": "de",
+			"value": "Die Passion Christi"
+		},
+		"de-ch": {
+			"language": "de-ch",
+			"value": "Die Passion Christi"
+		},
+		"en": {
+			"language": "en",
+			"value": "The Passion of the Christ"
+		},
+		"en-ca": {
+			"language": "en-ca",
+			"value": "The Passion of the Christ"
+		},
+		"en-gb": {
+			"language": "en-gb",
+			"value": "The Passion of the Christ"
+		},
+		"eo": {
+			"language": "eo",
+			"value": "La Pasiono de Kristo"
+		},
+		"es": {
+			"language": "es",
+			"value": "La pasión de Cristo"
+		},
+		"fa": {
+			"language": "fa",
+			"value": "مصائب مسیح"
+		},
+		"fi": {
+			"language": "fi",
+			"value": "The Passion of the Christ"
+		},
+		"fo": {
+			"language": "fo",
+			"value": "The Passion of The Christ"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "La Passion du Christ"
+		},
+		"gl": {
+			"language": "gl",
+			"value": "The Passion of the Christ"
+		},
+		"he": {
+			"language": "he",
+			"value": "הפסיון של ישו"
+		},
+		"hr": {
+			"language": "hr",
+			"value": "Pasija"
+		},
+		"hu": {
+			"language": "hu",
+			"value": "A passió"
+		},
+		"hy": {
+			"language": "hy",
+			"value": "Քրիստոսի չարչարանքները"
+		},
+		"it": {
+			"language": "it",
+			"value": "La passione di Cristo"
+		},
+		"ja": {
+			"language": "ja",
+			"value": "パッション"
+		},
+		"ko": {
+			"language": "ko",
+			"value": "패션 오브 크라이스트"
+		},
+		"la": {
+			"language": "la",
+			"value": "The Passion of the Christ"
+		},
+		"lt": {
+			"language": "lt",
+			"value": "Kristaus kančia"
+		},
+		"ml": {
+			"language": "ml",
+			"value": "ദ പാഷൻ ഓഫ് ദ ക്രൈസ്റ്റ്"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "The Passion of the Christ"
+		},
+		"pl": {
+			"language": "pl",
+			"value": "Pasja"
+		},
+		"pt": {
+			"language": "pt",
+			"value": "A Paixão de Cristo"
+		},
+		"pt-br": {
+			"language": "pt-br",
+			"value": "A Paixão de Cristo"
+		},
+		"ro": {
+			"language": "ro",
+			"value": "Patimile lui Hristos"
+		},
+		"ru": {
+			"language": "ru",
+			"value": "Страсти Христовы"
+		},
+		"sh": {
+			"language": "sh",
+			"value": "The Passion of the Christ"
+		},
+		"sr": {
+			"language": "sr",
+			"value": "Страдање Христово"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "The Passion of the Christ"
+		},
+		"tr": {
+			"language": "tr",
+			"value": "Tutku - Hz. İsa'nın Çilesi"
+		},
+		"uk": {
+			"language": "uk",
+			"value": "Страсті Христові"
+		},
+		"ur": {
+			"language": "ur",
+			"value": "دی پیشن آف دی کرائسٹ"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "耶穌受難記"
+		},
+		"oc": {
+			"language": "oc",
+			"value": "The Passion of the Christ"
+		},
+		"nb": {
+			"language": "nb",
+			"value": "The Passion of the Christ"
+		},
+		"sk": {
+			"language": "sk",
+			"value": "Umučenie Krista"
+		},
+		"lv": {
+			"language": "lv",
+			"value": "Kristus ciešanas"
+		},
+		"ka": {
+			"language": "ka",
+			"value": "ქრისტეს ვნებანი"
+		},
+		"sl": {
+			"language": "sl",
+			"value": "Kristusov pasijon"
+		},
+		"mk": {
+			"language": "mk",
+			"value": "Пасија"
+		},
+		"eu": {
+			"language": "eu",
+			"value": "The Passion of the Christ"
+		},
+		"sd": {
+			"language": "sd",
+			"value": "دي پيشن آف دي ڪرائسٽ"
+		},
+		"el": {
+			"language": "el",
+			"value": "Τα Πάθη του Χριστού"
+		},
+		"yue": {
+			"language": "yue",
+			"value": "受難曲"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "The Passion of the Christ"
+		},
+		"uz": {
+			"language": "uz",
+			"value": "The Passion of the Christ"
+		},
+		"arz": {
+			"language": "arz",
+			"value": "الام المسيح (فيلم)"
+		}
+	},
+	"descriptions": {
+		"id": {
+			"language": "id",
+			"value": "Sebuah film tahun 2004 yang ditulis bersama, diproduksi bersama dan disutradarii oleh Mel Gibson."
+		},
+		"it": {
+			"language": "it",
+			"value": "film del 2004 diretto da Mel Gibson"
+		},
+		"de": {
+			"language": "de",
+			"value": "Film von Mel Gibson aus dem Jahr 2004"
+		},
+		"en": {
+			"language": "en",
+			"value": "2004 film directed by Mel Gibson"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "film van Mel Gibson"
+		},
+		"fa": {
+			"language": "fa",
+			"value": "فیلمی از مل گیبسون"
+		},
+		"es": {
+			"language": "es",
+			"value": "película dramática y cristiana estadounidense de 2004, dirigida por Mel Gibson"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film sorti en 2004"
+		},
+		"sv": {
+			"language": "sv",
+			"value": "dramafilm från 2004 av och med Mel Gibson"
+		},
+		"ar": {
+			"language": "ar",
+			"value": "فيلم أُصدر سنة 2004، من إخراج ميل غيبسون"
+		},
+		"el": {
+			"language": "el",
+			"value": "δραματική ταινία του 2004"
+		},
+		"cs": {
+			"language": "cs",
+			"value": "americký film z roku 2004"
+		},
+		"sq": {
+			"language": "sq",
+			"value": "film"
+		},
+		"pl": {
+			"language": "pl",
+			"value": "film dramatyczny w reżyserii Mela Gibsona z 2004"
+		},
+		"ro": {
+			"language": "ro",
+			"value": "Film de ficțiune"
+		}
+	},
+	"aliases": {
+		"en": [
+			{
+				"language": "en",
+				"value": "Passion of the Christ"
+			}
+		],
+		"fr": [
+			{
+				"language": "fr",
+				"value": "Passion du Christ"
+			}
+		],
+		"it": [
+			{
+				"language": "it",
+				"value": "Passione di Cristo"
+			}
+		],
+		"es": [
+			{
+				"language": "es",
+				"value": "La pasion de Cristo"
+			}
+		]
+	},
+	"claims": {
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt0335345",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "q51668$AC58DF55-1929-48F3-A451-53178390AD11",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 10000,
+											"id": "Q10000"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8449,
+											"id": "Q8449"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 11424,
+							"id": "Q11424"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$243B5C0D-BCCA-4153-B4B4-EA9A08523805",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P57": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P57",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 42229,
+							"id": "Q42229"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$221FF2FA-0914-48E6-B7B1-16E76F98E25E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P58": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 816861,
+							"id": "Q816861"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$3DF0593B-C93A-45E7-93DA-95E8989DE839",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 4020014,
+							"id": "Q4020014"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$FAFBECC8-A793-4A54-B5D0-CD0FCE6692BB",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 42229,
+							"id": "Q42229"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$FE77406D-B309-43C1-986F-97FC964CAECD",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P161": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 200841,
+							"id": "Q200841"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "622988f910bd34e397cb071a37175401b42eb462",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 302,
+									"id": "Q302"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q51668$8A1AFE06-AF7B-416A-97F8-3D82D041A806",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 191168,
+											"id": "Q191168"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 178077,
+							"id": "Q178077"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "bafc866f4a56188646de707d6734ffe6723ecce3",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 345,
+									"id": "Q345"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q51668$62E1F2A2-0DE0-40C0-A1A9-BCDAA444082F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 191168,
+											"id": "Q191168"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 81819,
+							"id": "Q81819"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "e55335eebe84ce4d01cf4c1efd06d4f1a8f1f85c",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 63070,
+									"id": "Q63070"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q51668$3A8E5DCB-5C2E-4EE7-9FFE-71BEF0A4EF3F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 191168,
+											"id": "Q191168"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 961078,
+							"id": "Q961078"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$C5AAEF35-8B45-40AB-BC7C-86AE6760F1E2",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 274314,
+							"id": "Q274314"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P453": [
+						{
+							"snaktype": "value",
+							"property": "P453",
+							"hash": "40aa506e8f90e8ffbd5f5da90db8df8e8e6008ab",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 35230,
+									"id": "Q35230"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P453"
+				],
+				"id": "q51668$56F30642-127A-40F8-B6C4-5C5D2876DB67",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 191168,
+											"id": "Q191168"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 697816,
+							"id": "Q697816"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$698A9EA1-876B-484C-98DA-D63A81896A19",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1441013,
+							"id": "Q1441013"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$5C7459E5-F9B6-4475-9238-33B6A95120E3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 472414,
+							"id": "Q472414"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$091F3968-C87F-49AF-BED7-9D63B0F334CF",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1617703,
+							"id": "Q1617703"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$6BF5E3EF-285E-4E5B-97AB-C6B8C1B8DDCA",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3616970,
+							"id": "Q3616970"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$20911303-73A3-4EAC-8129-CB582341D9D7",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1141628,
+							"id": "Q1141628"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$AD5B4E47-83C1-48DE-A936-3055C0E84284",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 468793,
+							"id": "Q468793"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$CCF53A59-609C-45E6-905D-507E3E80E018",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3904235,
+							"id": "Q3904235"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$48E3EDBA-E4B8-4C7F-BC2E-4C9A84D0DE24",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3761901,
+							"id": "Q3761901"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$8FAEB74A-C1C6-4BD7-B14D-D46306D5D2F0",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3944358,
+							"id": "Q3944358"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$ECEDCD3B-3A90-4CFF-9ED4-45C9E9C4C9D9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3838796,
+							"id": "Q3838796"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$E47688F3-ECB0-4A27-A1F3-B73424C965F9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3770822,
+							"id": "Q3770822"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$1CA0D3CF-C5EF-4038-B716-E8C604545CEA",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3782386,
+							"id": "Q3782386"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$2899BB83-F9C3-4876-A9BE-B7BE48A0A1DB",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3703573,
+							"id": "Q3703573"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$5C2A720E-8BAC-44CB-9C0A-BC4443B89AA3",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 9257523,
+							"id": "Q9257523"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$CD8FD381-8788-4FF3-8494-448D1FB35609",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 325768,
+							"id": "Q325768"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$371144F2-9CE4-4958-91F6-D20DB4EAADDD",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 6695887,
+							"id": "Q6695887"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$4A32F8F8-5157-4059-BC23-9F31A7414C13",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 919572,
+							"id": "Q919572"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$A6B03E80-8D79-423E-897A-F628663D8F97",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 16105196,
+							"id": "Q16105196"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$D018D176-E55B-4E11-899C-F8E43D2C49C0",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3804842,
+							"id": "Q3804842"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$FFE5F026-7270-4C44-A5FC-242528D87DAE",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1683706,
+							"id": "Q1683706"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$95A53E7E-D9EE-4FF7-9B2E-34C88D388E4A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2821516,
+							"id": "Q2821516"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$2B03C974-CF37-4485-B702-4FE8163508CB",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3724385,
+							"id": "Q3724385"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$257006EB-90E7-4B19-86E5-CD6447DAA62C",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3768347,
+							"id": "Q3768347"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$BDAE5EFA-D84B-498C-80DD-4D4D2FC296A4",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "697ebe753b838814bf6eb9bc6d52bbae34d1a790",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 3561957,
+											"id": "Q3561957"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P144": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P144",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 623306,
+							"id": "Q623306"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$82EE5FB5-A10A-462C-903F-189318D71F0F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P480": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P480",
+					"datavalue": {
+						"value": "332621",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "q51668$37A0E0E6-0369-47CF-86FC-69694FF46C6E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8449,
+											"id": "Q8449"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P162": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 42229,
+							"id": "Q42229"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$04510DAA-1054-433B-BA0A-FA36A8CF79FF",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 381807,
+							"id": "Q381807"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$B7E46426-ABD0-4737-98F1-92D8DC192668",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3498608,
+							"id": "Q3498608"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$53CF2080-099B-4BE8-B478-E31334935395",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P272": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P272",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2669403,
+							"id": "Q2669403"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$8098FAF4-6285-434A-A963-1B4F64C20075",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P344": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P344",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 49020,
+							"id": "Q49020"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "q51668$7D80F35A-F7C2-457A-9904-76B899955CEC",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P856": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P856",
+					"datavalue": {
+						"value": "http://www.thepassionofchrist.com/",
+						"type": "string"
+					},
+					"datatype": "url"
+				},
+				"type": "statement",
+				"id": "Q51668$B4891711-0D47-413B-B477-4E41A724294A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P646": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P646",
+					"datavalue": {
+						"value": "/m/01br2w",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$A0CDE5FF-F362-42D0-8D0B-FF11DEF78CB1",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 15241312,
+											"id": "Q15241312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P577": [
+								{
+									"snaktype": "value",
+									"property": "P577",
+									"datavalue": {
+										"value": {
+											"time": "+2013-10-28T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P577"
+						]
+					}
+				]
+			}
+		],
+		"P227": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P227",
+					"datavalue": {
+						"value": "4774371-2",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$7881C001-4088-48A5-A2E7-1D366E22E5F3",
+				"rank": "normal"
+			}
+		],
+		"P1258": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1258",
+					"datavalue": {
+						"value": "m/passion_of_the_christ",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$7F54D4AF-7A39-427F-BCC5-452B048C2A26",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2004-02-25T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "d030038c836f9ed0d37c69cb8c389d689ebeb05a",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 30,
+									"id": "Q30"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q51668$8D144286-64A0-4428-8B5A-5BA0BE15407B",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "eb94ba5edf32aea689b435c7adb627ac40b52a4f",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.boxofficemojo.com/movies/?id=passionofthechrist.htm",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2004-04-02T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "7e3c5acd8ed74c218a2b55f9a0f77447daa0253b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 34,
+									"id": "Q34"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q51668$ffaddf72-4c61-54d0-88b0-5ff47c84b059",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "81040a275dfbdd4d1acf497d2b4f5aa374ccede3",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.sfi.se/sv/svensk-filmdatabas/Item/?itemid=57894&type=MOVIE&iv=Basic",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2004-03-18T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 11,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P291": [
+						{
+							"snaktype": "value",
+							"property": "P291",
+							"hash": "a15ed95482d52eea03d59e098dae9e31dafef9bd",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 183,
+									"id": "Q183"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P291"
+				],
+				"id": "Q51668$245346A2-BBA9-48C4-8F72-60FF354D3175",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9bd910c12f24997ab2d2d71f589eb3619f4515ba",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.imdb.com/title/tt0335345/releaseinfo",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2017-04-14T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P407": [
+								{
+									"snaktype": "value",
+									"property": "P407",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1860,
+											"id": "Q1860"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P854",
+							"P813",
+							"P407"
+						]
+					}
+				]
+			}
+		],
+		"P1562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1562",
+					"datavalue": {
+						"value": "v290960",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$CC091BA0-84D7-41B2-9990-5F94499765C9",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "b3fd5e254143d8b52cd96cff43af9af5e3a82358",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 199693,
+											"id": "Q199693"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$2038EAE8-20CE-451F-B104-FBF35115059A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 8447,
+											"id": "Q8447"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P915": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P915",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1452,
+							"id": "Q1452"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$2B8A236D-BCCE-4289-BF44-EA2F1C88CA73",
+				"rank": "normal"
+			}
+		],
+		"P905": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P905",
+					"datavalue": {
+						"value": "61309",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$764F32A0-EE7E-4757-9321-84F21C5AD42A",
+				"rank": "normal"
+			}
+		],
+		"P1970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1970",
+					"datavalue": {
+						"value": "6964",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$9AD1E8B6-8580-44B1-891C-0DC63B98682E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 10000,
+											"id": "Q10000"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P86": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P86",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 48975,
+							"id": "Q48975"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$0EB91C5B-73C4-4F33-88BA-133D39B2E267",
+				"rank": "normal"
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 28602,
+							"id": "Q28602"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$045E1A34-90B7-4528-B3E3-09896CFB003F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "bd378156722a3c3414e2034ff91dea29e7898ce7",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-02-10T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 397,
+							"id": "Q397"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$ad5d6210-4570-9e3e-b86d-00670dd25e2e",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "bd378156722a3c3414e2034ff91dea29e7898ce7",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-02-10T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 9288,
+							"id": "Q9288"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$1f7e4a21-44ef-a3e1-3643-9dc8fb6ff8bb",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "bd378156722a3c3414e2034ff91dea29e7898ce7",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 37312,
+											"id": "Q37312"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2016-02-10T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 130232,
+							"id": "Q130232"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$E24ED15A-DB73-4C60-9E10-4508B88CB4DD",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 645928,
+							"id": "Q645928"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$2D376423-32E2-4A8C-AFA4-7736629DE4A5",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "2cc679a7f7a64cdf1bf9df853bf8deb1bc87aba5",
+						"snaks": {
+							"P3452": [
+								{
+									"snaktype": "value",
+									"property": "P3452",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 6449667,
+											"id": "Q6449667"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-05-28T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							],
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1551807,
+											"id": "Q1551807"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P3452",
+							"P813",
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1804": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1804",
+					"datavalue": {
+						"value": "39288",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$6A4A820F-FEB0-4CAA-8D6D-889BB2F51617",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "f20be15903adba954c926bb718dd1324ecea88ce",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 181163,
+											"id": "Q181163"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1237": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1237",
+					"datavalue": {
+						"value": "passionofthechrist",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$13B6744D-ED02-4655-AF3E-79B925D5B9FA",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1040": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1040",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2704409,
+							"id": "Q2704409"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$D95F09C6-F439-47C2-BAB9-9541978A5342",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 10000,
+											"id": "Q10000"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1265": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1265",
+					"datavalue": {
+						"value": "47326",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$31A7D84F-365B-444B-B3B2-45C8127E48E6",
+				"rank": "normal"
+			}
+		],
+		"P1712": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1712",
+					"datavalue": {
+						"value": "movie/the-passion-of-the-christ",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$25EF1418-BCF3-4C27-A16E-37836DB8A6FF",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "The Passion of the Christ",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q51668$C59281C4-45C7-4FC2-ACB5-E951EEF0FC2C",
+				"rank": "normal"
+			}
+		],
+		"P1411": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1411",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 131520,
+							"id": "Q131520"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2453": [
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "f9313258aeb538044090b0f4fc17c8770cea3873",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 49020,
+									"id": "Q49020"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P805": [
+						{
+							"snaktype": "value",
+							"property": "P805",
+							"hash": "9483b50c6205763346ca656183daebb766f2e92f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 504962,
+									"id": "Q504962"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2453",
+					"P805"
+				],
+				"id": "Q51668$4FA5F789-4EA8-45D1-A16D-74CB4D418277",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1411",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 487136,
+							"id": "Q487136"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2453": [
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "ef6575c36ac46b76ce9bca02acffa9201749d8e4",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 6385155,
+									"id": "Q6385155"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						},
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "890dd7d5f745b15fcb0ef81e0494d1540bffdea7",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 5110723,
+									"id": "Q5110723"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P805": [
+						{
+							"snaktype": "value",
+							"property": "P805",
+							"hash": "9483b50c6205763346ca656183daebb766f2e92f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 504962,
+									"id": "Q504962"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2453",
+					"P805"
+				],
+				"id": "Q51668$09555202-164B-40BF-B364-4646BF834938",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1411",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 488651,
+							"id": "Q488651"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2453": [
+						{
+							"snaktype": "value",
+							"property": "P2453",
+							"hash": "8a7fc7875b6e5e42597549ad19815c0076eba73b",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 48975,
+									"id": "Q48975"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P805": [
+						{
+							"snaktype": "value",
+							"property": "P805",
+							"hash": "9483b50c6205763346ca656183daebb766f2e92f",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 504962,
+									"id": "Q504962"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2453",
+					"P805"
+				],
+				"id": "Q51668$1AEDA6CA-94E2-46E2-9249-FDDE06FD02CB",
+				"rank": "normal"
+			}
+		],
+		"P462": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P462",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 22006653,
+							"id": "Q22006653"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$88B2EA07-6C10-4272-A1CB-A360D82059CC",
+				"rank": "normal"
+			}
+		],
+		"P750": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P750",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3875639,
+							"id": "Q3875639"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$BCC9EF3A-F228-415C-959E-A41000ED782E",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2529",
+					"datavalue": {
+						"value": "70199",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$7EDBF7FC-8EDD-4357-BB6E-F47F39C0D39A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 191168,
+											"id": "Q191168"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1981": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1981",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 20644797,
+							"id": "Q20644797"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "15eda242a2d4d832a73667c3d6285cd508bae283",
+							"datavalue": {
+								"value": "97225/K",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q51668$87B9EFAB-D4A6-4AA6-9F43-13723AE532C1",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2509": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2509",
+					"datavalue": {
+						"value": "mv35096",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$6DF35ACF-DF5A-45C7-8873-0AF9ECAC0865",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2508": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2508",
+					"datavalue": {
+						"value": "36952",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$76137995-1BDE-4289-AE46-0336DCE092D0",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2465": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2465",
+					"datavalue": {
+						"value": "319595",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$C201A225-91FA-41B5-ACE5-683AB713042A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "a29a646602abf65105ed0f39a44231c962ece9ee",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 177837,
+											"id": "Q177837"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1874": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1874",
+					"datavalue": {
+						"value": "60031422",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$0FF6886B-4DBD-447B-959C-7B46124D3B29",
+				"rank": "normal"
+			}
+		],
+		"P2047": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2047",
+					"datavalue": {
+						"value": {
+							"amount": "+127",
+							"unit": "http://www.wikidata.org/entity/Q7727"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q51668$E29EF2D0-37E5-46A0-8DE3-7B2884D3C4C5",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2554": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2554",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3750010,
+							"id": "Q3750010"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$68D4DA91-23EE-4C4A-8C60-B518C7CFF4F5",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2603": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2603",
+					"datavalue": {
+						"value": "3707",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$17CDAD73-0CB7-4A86-A022-5C92E5938E44",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "043ac99faf5875c1934a2fc7030edf88cca1c235",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 2389071,
+											"id": "Q2389071"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P3138": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3138",
+					"datavalue": {
+						"value": "35671",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$77526D9E-171C-4CC3-84B6-23727665D4FE",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2334": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2334",
+					"datavalue": {
+						"value": "57894",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$a29ff256-4e81-0b20-bba4-acec446a7b23",
+				"rank": "normal"
+			}
+		],
+		"P3107": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3107",
+					"datavalue": {
+						"value": "521941",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$4EA89D61-0864-44C7-9659-C5567947C085",
+				"rank": "normal"
+			}
+		],
+		"P2346": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2346",
+					"datavalue": {
+						"value": "1228869",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$d7e29fb0-41fd-fd8f-a4cc-2b6979d1ea39",
+				"rank": "normal"
+			}
+		],
+		"P3129": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3129",
+					"datavalue": {
+						"value": "704264",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$1551980b-45e9-e919-cb5f-69f334857842",
+				"rank": "normal"
+			}
+		],
+		"P2518": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2518",
+					"datavalue": {
+						"value": "2718",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$63b74d04-492f-aaf3-0e1c-6fdd2eb1abad",
+				"rank": "normal"
+			}
+		],
+		"P3145": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3145",
+					"datavalue": {
+						"value": "tt11129",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$7e01f7c7-4dc9-e07a-0ae0-d352bb413ebd",
+				"rank": "normal"
+			}
+		],
+		"P3135": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3135",
+					"datavalue": {
+						"value": "2018212",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$473a465e-4d18-7088-9910-f25a0e26d2f0",
+				"rank": "normal"
+			}
+		],
+		"P3203": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3203",
+					"datavalue": {
+						"value": "89030",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$ce536bb8-48cc-aaaf-bd62-a5b3dafe3f58",
+				"rank": "normal"
+			}
+		],
+		"P3143": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3143",
+					"datavalue": {
+						"value": "330688",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$d5c4566d-48f6-bb3c-2bf8-95cce3d14f1c",
+				"rank": "normal"
+			}
+		],
+		"P3141": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3141",
+					"datavalue": {
+						"value": "t0011443",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$83f578dc-467c-5e1c-fc3c-e03d5bf0df2c",
+				"rank": "normal"
+			}
+		],
+		"P3302": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3302",
+					"datavalue": {
+						"value": "615",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$0708FC08-EF31-4B7A-A9EB-5127193A12CE",
+				"rank": "normal"
+			}
+		],
+		"P2013": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2013",
+					"datavalue": {
+						"value": "ThePassionoftheChristOfficial",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$f8790c36-42d5-db36-25d3-dc268fa7c6bf",
+				"rank": "normal"
+			}
+		],
+		"P2061": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2061",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 21062414,
+							"id": "Q21062414"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$96FF938D-515D-4B75-81D2-4E3BA425D4F1",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2515": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2515",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 3852661,
+							"id": "Q3852661"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$CC1755AA-BB69-4622-B505-5AF182337E85",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3650": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3650",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 28732987,
+							"id": "Q28732987"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$D7041431-CBB3-43BC-9856-C1A5F90DD853",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					},
+					{
+						"hash": "f8ee46e34aa453e726d3217066f155d5b0197525",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://jmkextern.bmb.gv.at/app/detail.aspx?FILID=13160",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P3804": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3804",
+					"datavalue": {
+						"value": "137060",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$ed0a5a79-424c-9137-86af-437c58daabd9",
+				"rank": "normal"
+			}
+		],
+		"P2704": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2704",
+					"datavalue": {
+						"value": "10.5240/BD91-5D0B-38C3-94E6-AA18-K",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$c2408b83-416d-23e5-f1d5-6b14c6acdfa3",
+				"rank": "normal"
+			}
+		],
+		"P3077": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3077",
+					"datavalue": {
+						"value": "124823",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$ec3c10d9-4374-e808-2ea1-03fffdea57fc",
+				"rank": "normal"
+			}
+		],
+		"P3808": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3808",
+					"datavalue": {
+						"value": "Passion-of-the-Christ-The",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$3929c570-4d0c-d28c-2d84-c99c4bd53f14",
+				"rank": "normal"
+			}
+		],
+		"P3995": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3995",
+					"datavalue": {
+						"value": "Pasja",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$46cd787b-4dc6-56b6-d884-0ff924c7c554",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "14d2400e3b1d36332748dc330276f099eeaa8800",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 1551807,
+											"id": "Q1551807"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P3212": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3212",
+					"datavalue": {
+						"value": "0000-0001-E62C-0000-3-0000-0000-S",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$b6dc76b6-4893-497a-4772-8fc5c04d5a56",
+				"rank": "normal"
+			}
+		],
+		"P2638": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2638",
+					"datavalue": {
+						"value": "movies/the-passion-of-the-christ",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$2917955d-4bb3-e3a0-d829-fbe886c8dc30",
+				"rank": "normal"
+			}
+		],
+		"P2631": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2631",
+					"datavalue": {
+						"value": "538344",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$96738c39-4552-132d-5048-2dec3cce595b",
+				"rank": "normal"
+			}
+		],
+		"P3933": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P3933",
+					"datavalue": {
+						"value": "1339602",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$0c0df7ef-42ea-7ca7-b050-7fe02b5b92cb",
+				"rank": "normal"
+			}
+		],
+		"P4276": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4276",
+					"datavalue": {
+						"value": "70741",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$E3D42202-3154-481B-A91E-CF09F637E495",
+				"rank": "normal"
+			}
+		],
+		"P1417": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1417",
+					"datavalue": {
+						"value": "topic/The-Passion-of-the-Christ",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$8F904BC4-6F8E-4345-9D70-D489A8BCAD0C",
+				"rank": "normal"
+			}
+		],
+		"P4529": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4529",
+					"datavalue": {
+						"value": "1308750",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$F9E3B4AB-1E08-49B2-A0FC-2C0D354A6800",
+				"rank": "normal"
+			}
+		],
+		"P4665": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4665",
+					"datavalue": {
+						"value": "8401",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$D8685274-F1E0-4943-915D-AC1E5D5E3375",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "6945c7f21a216fec240306b3def25f537698a5fa",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 199864,
+											"id": "Q199864"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P4783": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4783",
+					"datavalue": {
+						"value": "1461",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$6C93D290-8B47-40F3-8453-73F46ABB26F0",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P4786": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4786",
+					"datavalue": {
+						"value": "42933",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$83B1F932-964C-41B1-9880-2EB0C1A73263",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P910": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P910",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30678138,
+							"id": "Q30678138"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$C206ECD6-8157-41A6-8177-19ED7A37F278",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P4947": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4947",
+					"datavalue": {
+						"value": "615",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$AB942C7B-15C1-425D-8D4F-B75133BCED16",
+				"rank": "normal"
+			}
+		],
+		"P5201": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5201",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 52382311,
+							"id": "Q52382311"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$3181af3b-4338-2df2-5358-7b1bbb770d54",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "69bd65e106eca2e0933c242e1b26baea5f9de938",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://imdaonline.imda.gov.sg/classification/Search/Film/SearchDetail.aspx?sType=Feature&sRowID=AAAbRZAANAAAA8CAAD",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P4780": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4780",
+					"datavalue": {
+						"value": "34961",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$2381ed02-486b-0f25-6e40-15a8613e3405",
+				"rank": "normal"
+			}
+		],
+		"P214": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P214",
+					"datavalue": {
+						"value": "214775930",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$5740101b-4bf1-fcbd-7ed2-f12776379732",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fb96c9b34ff7dd8729534601a14555be92b5e5c2",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://viaf.org/viaf/214775930/#Passion_of_the_Christ_(Motion_picture)",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P244": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P244",
+					"datavalue": {
+						"value": "n2004040004",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$7242de39-4054-8466-5c1d-2ec39ec0c1cc",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "0e71b36df3e9477a3b64e5eb87906b5889264ec3",
+						"snaks": {
+							"P214": [
+								{
+									"snaktype": "value",
+									"property": "P214",
+									"datavalue": {
+										"value": "214775930",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"snaks-order": [
+							"P214"
+						]
+					}
+				]
+			}
+		],
+		"P269": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P269",
+					"datavalue": {
+						"value": "078066824",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$07e14fb3-4542-2d51-a92a-ee0fa761977a",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "0e71b36df3e9477a3b64e5eb87906b5889264ec3",
+						"snaks": {
+							"P214": [
+								{
+									"snaktype": "value",
+									"property": "P214",
+									"datavalue": {
+										"value": "214775930",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							]
+						},
+						"snaks-order": [
+							"P214"
+						]
+					}
+				]
+			}
+		],
+		"P5786": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5786",
+					"datavalue": {
+						"value": "die-passion-christi",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$957D8C9C-05BD-4EAE-9B2A-47810A9A6E96",
+				"rank": "normal"
+			}
+		],
+		"P6145": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6145",
+					"datavalue": {
+						"value": "4032",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$8742E62D-6AD8-427B-A632-547F4965A991",
+				"rank": "normal"
+			}
+		],
+		"P840": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P840",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 801,
+							"id": "Q801"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$c1af82b3-3d8d-4c90-bee5-95623f82fc8d",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9424852ca7d9d48269148c57acbefacca1899882",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11921,
+											"id": "Q11921"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P2142": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2142",
+					"datavalue": {
+						"value": {
+							"amount": "+610061517",
+							"unit": "http://www.wikidata.org/entity/Q4917"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P3005": [
+						{
+							"snaktype": "value",
+							"property": "P3005",
+							"hash": "758d9eecb0ab60634a082337afceed29d8fc76de",
+							"datavalue": {
+								"value": {
+									"entity-type": "item",
+									"numeric-id": 13780930,
+									"id": "Q13780930"
+								},
+								"type": "wikibase-entityid"
+							},
+							"datatype": "wikibase-item"
+						}
+					],
+					"P1352": [
+						{
+							"snaktype": "value",
+							"property": "P1352",
+							"hash": "d941f36a244881e0b5ae01af4189646340e20393",
+							"datavalue": {
+								"value": {
+									"amount": "+154",
+									"unit": "1"
+								},
+								"type": "quantity"
+							},
+							"datatype": "quantity"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P3005",
+					"P1352"
+				],
+				"id": "Q51668$F4685F5D-EF4F-4001-A788-46E7A7413F7A",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "f5fceddc96b0abc2f08c084a41ea13faf6c98f89",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 223142,
+											"id": "Q223142"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-03-07T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P6127": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6127",
+					"datavalue": {
+						"value": "the-passion-of-the-christ",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$4C4E850C-605C-4EB7-95CF-D9BFBC739657",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6127",
+					"datavalue": {
+						"value": "the-passion-2004",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$653CE166-B536-479E-8CA2-7A3AEEB897A0",
+				"rank": "normal"
+			}
+		],
+		"P1552": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1552",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 45171911,
+							"id": "Q45171911"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$584272BE-EFD9-4604-889F-5034BD5AA58F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "37dbb05fb9c7d7b9f53a056e66a1b10a41fa77e1",
+						"snaks": {
+							"P4632": [
+								{
+									"snaktype": "value",
+									"property": "P4632",
+									"datavalue": {
+										"value": "8132",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-07-21T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P4632",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P4632": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4632",
+					"datavalue": {
+						"value": "8132",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$4712FA0B-8504-4688-B22D-5402A61F9E20",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "37dbb05fb9c7d7b9f53a056e66a1b10a41fa77e1",
+						"snaks": {
+							"P4632": [
+								{
+									"snaktype": "value",
+									"property": "P4632",
+									"datavalue": {
+										"value": "8132",
+										"type": "string"
+									},
+									"datatype": "external-id"
+								}
+							],
+							"P813": [
+								{
+									"snaktype": "value",
+									"property": "P813",
+									"datavalue": {
+										"value": {
+											"time": "+2019-07-21T00:00:00Z",
+											"timezone": 0,
+											"before": 0,
+											"after": 0,
+											"precision": 11,
+											"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+										},
+										"type": "time"
+									},
+									"datatype": "time"
+								}
+							]
+						},
+						"snaks-order": [
+							"P4632",
+							"P813"
+						]
+					}
+				]
+			}
+		],
+		"P7132": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P7132",
+					"datavalue": {
+						"value": "42102",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$02B638FF-FB1C-4B3D-9D13-08489CAA374B",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "22a1e567aba791a9d6d899e9d73e9b3416de27a7",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 11920,
+											"id": "Q11920"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://it.wikipedia.org/w/index.php?title=La_passione_di_Cristo_(film_2004)&oldid=104943393",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P6562": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6562",
+					"datavalue": {
+						"value": "uSP7Suodz-k",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$70502F95-6C14-4975-BF17-6A570E709E4B",
+				"rank": "normal"
+			}
+		],
+		"P5970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5970",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 56887761,
+							"id": "Q56887761"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$CC36801E-5E35-48B9-977B-7CC14D1D39AB",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "4174f97f03b8cd0fb02db5ba9b672f4c8b1196a0",
+						"snaks": {
+							"P248": [
+								{
+									"snaktype": "value",
+									"property": "P248",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 16323348,
+											"id": "Q16323348"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P248"
+						]
+					}
+				]
+			}
+		],
+		"P154": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P154",
+					"datavalue": {
+						"value": "Passionofchrist-logo.svg",
+						"type": "string"
+					},
+					"datatype": "commonsMedia"
+				},
+				"type": "statement",
+				"id": "Q51668$848C15D8-566D-41D4-81EE-1C74289ED534",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P6058": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6058",
+					"datavalue": {
+						"value": "film/wd/151",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$1f934b7a-48bf-29fe-f8d1-2fc1a5ee0d51",
+				"rank": "normal"
+			}
+		],
+		"P7970": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P7970",
+					"datavalue": {
+						"value": "1MV5e5a8d8f6db0128c008d7578c4c66f9e",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$05647269-9E99-4AA1-AF96-91E12FEA1339",
+				"rank": "normal"
+			}
+		],
+		"P6262": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6262",
+					"datavalue": {
+						"value": "movies:The_Passion_of_the_Christ",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$74ca9b3a-4b70-d483-757d-123fd7928758",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P6262",
+					"datavalue": {
+						"value": "otherholidayspecials:The_Passion_of_the_Christ",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$c37f4adf-4c92-d986-f973-938483b51f5e",
+				"rank": "normal"
+			}
+		],
+		"P2755": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2755",
+					"datavalue": {
+						"value": "110032",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P580": [
+						{
+							"snaktype": "value",
+							"property": "P580",
+							"hash": "6e819a4417ed26f1996ef346835a1187cc4abc12",
+							"datavalue": {
+								"value": {
+									"time": "+2004-03-25T00:00:00Z",
+									"timezone": 0,
+									"before": 0,
+									"after": 0,
+									"precision": 11,
+									"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+								},
+								"type": "time"
+							},
+							"datatype": "time"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P580"
+				],
+				"id": "Q51668$65EC0A43-2CBF-4F61-8779-D06457FFC52F",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "60e31a46e90568ce4b856ced0a68f667b3b093f0",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=47326.html",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P2758": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2758",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 23817740,
+							"id": "Q23817740"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q51668$4C318C4A-8582-4728-B2D7-93759C6A1E82",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "59f135317898e20144249d69ef93764569c3522d",
+						"snaks": {
+							"P854": [
+								{
+									"snaktype": "value",
+									"property": "P854",
+									"datavalue": {
+										"value": "https://www.cnc.fr/professionnels/visas-et-classification/110032",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P854"
+						]
+					}
+				]
+			}
+		],
+		"P8033": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P8033",
+					"datavalue": {
+						"value": "the-passion-of-the-christ-m100022392",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q51668$CFAD7255-982C-4850-BF6D-FECA76206658",
+				"rank": "normal"
+			}
+		]
+	},
+	"sitelinks": {
+		"arwiki": {
+			"site": "arwiki",
+			"title": "آلام المسيح (فيلم)",
+			"badges": [],
+			"url": "https://ar.wikipedia.org/wiki/%D8%A2%D9%84%D8%A7%D9%85_%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%AD_(%D9%81%D9%8A%D9%84%D9%85)"
+		},
+		"arzwiki": {
+			"site": "arzwiki",
+			"title": "الام المسيح (فيلم)",
+			"badges": [],
+			"url": "https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D8%A7%D9%85_%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%AD_(%D9%81%D9%8A%D9%84%D9%85)"
+		},
+		"bgwiki": {
+			"site": "bgwiki",
+			"title": "Страстите Христови (филм)",
+			"badges": [],
+			"url": "https://bg.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B0%D1%81%D1%82%D0%B8%D1%82%D0%B5_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%B8_(%D1%84%D0%B8%D0%BB%D0%BC)"
+		},
+		"cawiki": {
+			"site": "cawiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://ca.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"cswiki": {
+			"site": "cswiki",
+			"title": "Umučení Krista",
+			"badges": [],
+			"url": "https://cs.wikipedia.org/wiki/Umu%C4%8Den%C3%AD_Krista"
+		},
+		"cywiki": {
+			"site": "cywiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://cy.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"dawiki": {
+			"site": "dawiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://da.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"dewiki": {
+			"site": "dewiki",
+			"title": "Die Passion Christi",
+			"badges": [],
+			"url": "https://de.wikipedia.org/wiki/Die_Passion_Christi"
+		},
+		"elwiki": {
+			"site": "elwiki",
+			"title": "Τα Πάθη του Χριστού",
+			"badges": [],
+			"url": "https://el.wikipedia.org/wiki/%CE%A4%CE%B1_%CE%A0%CE%AC%CE%B8%CE%B7_%CF%84%CE%BF%CF%85_%CE%A7%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%8D"
+		},
+		"enwiki": {
+			"site": "enwiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://en.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"enwikiquote": {
+			"site": "enwikiquote",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://en.wikiquote.org/wiki/The_Passion_of_the_Christ"
+		},
+		"eowiki": {
+			"site": "eowiki",
+			"title": "La Pasiono de Kristo",
+			"badges": [],
+			"url": "https://eo.wikipedia.org/wiki/La_Pasiono_de_Kristo"
+		},
+		"eswiki": {
+			"site": "eswiki",
+			"title": "La Pasión de Cristo (película)",
+			"badges": [],
+			"url": "https://es.wikipedia.org/wiki/La_Pasi%C3%B3n_de_Cristo_(pel%C3%ADcula)"
+		},
+		"euwiki": {
+			"site": "euwiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://eu.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"fawiki": {
+			"site": "fawiki",
+			"title": "مصائب مسیح",
+			"badges": [],
+			"url": "https://fa.wikipedia.org/wiki/%D9%85%D8%B5%D8%A7%D8%A6%D8%A8_%D9%85%D8%B3%DB%8C%D8%AD"
+		},
+		"fawikiquote": {
+			"site": "fawikiquote",
+			"title": "مصائب مسیح",
+			"badges": [],
+			"url": "https://fa.wikiquote.org/wiki/%D9%85%D8%B5%D8%A7%D8%A6%D8%A8_%D9%85%D8%B3%DB%8C%D8%AD"
+		},
+		"fiwiki": {
+			"site": "fiwiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://fi.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"fowiki": {
+			"site": "fowiki",
+			"title": "The Passion of The Christ",
+			"badges": [],
+			"url": "https://fo.wikipedia.org/wiki/The_Passion_of_The_Christ"
+		},
+		"frwiki": {
+			"site": "frwiki",
+			"title": "La Passion du Christ",
+			"badges": [],
+			"url": "https://fr.wikipedia.org/wiki/La_Passion_du_Christ"
+		},
+		"glwiki": {
+			"site": "glwiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://gl.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"hewiki": {
+			"site": "hewiki",
+			"title": "הפסיון של ישו (סרט)",
+			"badges": [],
+			"url": "https://he.wikipedia.org/wiki/%D7%94%D7%A4%D7%A1%D7%99%D7%95%D7%9F_%D7%A9%D7%9C_%D7%99%D7%A9%D7%95_(%D7%A1%D7%A8%D7%98)"
+		},
+		"hrwiki": {
+			"site": "hrwiki",
+			"title": "Pasija (2004.)",
+			"badges": [],
+			"url": "https://hr.wikipedia.org/wiki/Pasija_(2004.)"
+		},
+		"huwiki": {
+			"site": "huwiki",
+			"title": "A passió",
+			"badges": [],
+			"url": "https://hu.wikipedia.org/wiki/A_passi%C3%B3"
+		},
+		"hywiki": {
+			"site": "hywiki",
+			"title": "Քրիստոսի չարչարանքները",
+			"badges": [
+				"Q17437796"
+			],
+			"url": "https://hy.wikipedia.org/wiki/%D5%94%D6%80%D5%AB%D5%BD%D5%BF%D5%B8%D5%BD%D5%AB_%D5%B9%D5%A1%D6%80%D5%B9%D5%A1%D6%80%D5%A1%D5%B6%D6%84%D5%B6%D5%A5%D6%80%D5%A8"
+		},
+		"idwiki": {
+			"site": "idwiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://id.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"itwiki": {
+			"site": "itwiki",
+			"title": "La passione di Cristo (film 2004)",
+			"badges": [],
+			"url": "https://it.wikipedia.org/wiki/La_passione_di_Cristo_(film_2004)"
+		},
+		"itwikiquote": {
+			"site": "itwikiquote",
+			"title": "La passione di Cristo",
+			"badges": [],
+			"url": "https://it.wikiquote.org/wiki/La_passione_di_Cristo"
+		},
+		"jawiki": {
+			"site": "jawiki",
+			"title": "パッション (2004年の映画)",
+			"badges": [],
+			"url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3_(2004%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)"
+		},
+		"kawiki": {
+			"site": "kawiki",
+			"title": "ქრისტეს ვნებანი",
+			"badges": [],
+			"url": "https://ka.wikipedia.org/wiki/%E1%83%A5%E1%83%A0%E1%83%98%E1%83%A1%E1%83%A2%E1%83%94%E1%83%A1_%E1%83%95%E1%83%9C%E1%83%94%E1%83%91%E1%83%90%E1%83%9C%E1%83%98"
+		},
+		"kowiki": {
+			"site": "kowiki",
+			"title": "패션 오브 크라이스트",
+			"badges": [],
+			"url": "https://ko.wikipedia.org/wiki/%ED%8C%A8%EC%85%98_%EC%98%A4%EB%B8%8C_%ED%81%AC%EB%9D%BC%EC%9D%B4%EC%8A%A4%ED%8A%B8"
+		},
+		"lawiki": {
+			"site": "lawiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://la.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"ltwiki": {
+			"site": "ltwiki",
+			"title": "Kristaus kančia",
+			"badges": [],
+			"url": "https://lt.wikipedia.org/wiki/Kristaus_kan%C4%8Dia"
+		},
+		"lvwiki": {
+			"site": "lvwiki",
+			"title": "Kristus ciešanas",
+			"badges": [],
+			"url": "https://lv.wikipedia.org/wiki/Kristus_cie%C5%A1anas"
+		},
+		"mkwiki": {
+			"site": "mkwiki",
+			"title": "Пасија (филм)",
+			"badges": [],
+			"url": "https://mk.wikipedia.org/wiki/%D0%9F%D0%B0%D1%81%D0%B8%D1%98%D0%B0_(%D1%84%D0%B8%D0%BB%D0%BC)"
+		},
+		"mlwiki": {
+			"site": "mlwiki",
+			"title": "ദ പാഷൻ ഓഫ് ദ ക്രൈസ്റ്റ്",
+			"badges": [],
+			"url": "https://ml.wikipedia.org/wiki/%E0%B4%A6_%E0%B4%AA%E0%B4%BE%E0%B4%B7%E0%B5%BB_%E0%B4%93%E0%B4%AB%E0%B5%8D_%E0%B4%A6_%E0%B4%95%E0%B5%8D%E0%B4%B0%E0%B5%88%E0%B4%B8%E0%B5%8D%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%8D"
+		},
+		"nlwiki": {
+			"site": "nlwiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://nl.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"nowiki": {
+			"site": "nowiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://no.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"plwiki": {
+			"site": "plwiki",
+			"title": "Pasja (film 2004)",
+			"badges": [],
+			"url": "https://pl.wikipedia.org/wiki/Pasja_(film_2004)"
+		},
+		"plwikiquote": {
+			"site": "plwikiquote",
+			"title": "Pasja",
+			"badges": [],
+			"url": "https://pl.wikiquote.org/wiki/Pasja"
+		},
+		"ptwiki": {
+			"site": "ptwiki",
+			"title": "A Paixão de Cristo",
+			"badges": [],
+			"url": "https://pt.wikipedia.org/wiki/A_Paix%C3%A3o_de_Cristo"
+		},
+		"rowiki": {
+			"site": "rowiki",
+			"title": "Patimile lui Hristos (film)",
+			"badges": [],
+			"url": "https://ro.wikipedia.org/wiki/Patimile_lui_Hristos_(film)"
+		},
+		"ruwiki": {
+			"site": "ruwiki",
+			"title": "Страсти Христовы (фильм)",
+			"badges": [],
+			"url": "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B0%D1%81%D1%82%D0%B8_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)"
+		},
+		"ruwikiquote": {
+			"site": "ruwikiquote",
+			"title": "Страсти Христовы (фильм)",
+			"badges": [],
+			"url": "https://ru.wikiquote.org/wiki/%D0%A1%D1%82%D1%80%D0%B0%D1%81%D1%82%D0%B8_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)"
+		},
+		"sdwiki": {
+			"site": "sdwiki",
+			"title": "دي پيشن آف دي ڪرائسٺ",
+			"badges": [],
+			"url": "https://sd.wikipedia.org/wiki/%D8%AF%D9%8A_%D9%BE%D9%8A%D8%B4%D9%86_%D8%A2%D9%81_%D8%AF%D9%8A_%DA%AA%D8%B1%D8%A7%D8%A6%D8%B3%D9%BA"
+		},
+		"shwiki": {
+			"site": "shwiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://sh.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"simplewiki": {
+			"site": "simplewiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://simple.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"skwiki": {
+			"site": "skwiki",
+			"title": "Umučenie Krista",
+			"badges": [],
+			"url": "https://sk.wikipedia.org/wiki/Umu%C4%8Denie_Krista"
+		},
+		"slwiki": {
+			"site": "slwiki",
+			"title": "Kristusov pasijon",
+			"badges": [],
+			"url": "https://sl.wikipedia.org/wiki/Kristusov_pasijon"
+		},
+		"srwiki": {
+			"site": "srwiki",
+			"title": "Страдање Христово",
+			"badges": [],
+			"url": "https://sr.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B0%D0%B4%D0%B0%D1%9A%D0%B5_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE"
+		},
+		"svwiki": {
+			"site": "svwiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://sv.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"tawiki": {
+			"site": "tawiki",
+			"title": "த பேசன் ஆப் த கிறைஸ்ட்",
+			"badges": [],
+			"url": "https://ta.wikipedia.org/wiki/%E0%AE%A4_%E0%AE%AA%E0%AF%87%E0%AE%9A%E0%AE%A9%E0%AF%8D_%E0%AE%86%E0%AE%AA%E0%AF%8D_%E0%AE%A4_%E0%AE%95%E0%AE%BF%E0%AE%B1%E0%AF%88%E0%AE%B8%E0%AF%8D%E0%AE%9F%E0%AF%8D"
+		},
+		"trwiki": {
+			"site": "trwiki",
+			"title": "Tutku - İsa Mesih'in Çilesi",
+			"badges": [],
+			"url": "https://tr.wikipedia.org/wiki/Tutku_-_%C4%B0sa_Mesih%27in_%C3%87ilesi"
+		},
+		"ukwiki": {
+			"site": "ukwiki",
+			"title": "Страсті Христові (фільм)",
+			"badges": [],
+			"url": "https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B0%D1%81%D1%82%D1%96_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)"
+		},
+		"urwiki": {
+			"site": "urwiki",
+			"title": "دی پیشن آف دی کرائسٹ",
+			"badges": [],
+			"url": "https://ur.wikipedia.org/wiki/%D8%AF%DB%8C_%D9%BE%DB%8C%D8%B4%D9%86_%D8%A2%D9%81_%D8%AF%DB%8C_%DA%A9%D8%B1%D8%A7%D8%A6%D8%B3%D9%B9"
+		},
+		"uzwiki": {
+			"site": "uzwiki",
+			"title": "The Passion of the Christ",
+			"badges": [],
+			"url": "https://uz.wikipedia.org/wiki/The_Passion_of_the_Christ"
+		},
+		"zh_yuewiki": {
+			"site": "zh_yuewiki",
+			"title": "受難曲",
+			"badges": [],
+			"url": "https://zh-yue.wikipedia.org/wiki/%E5%8F%97%E9%9B%A3%E6%9B%B2"
+		},
+		"zhwiki": {
+			"site": "zhwiki",
+			"title": "耶穌受難記",
+			"badges": [],
+			"url": "https://zh.wikipedia.org/wiki/%E8%80%B6%E7%A9%8C%E5%8F%97%E9%9B%A3%E8%A8%98"
+		}
+	}
+}

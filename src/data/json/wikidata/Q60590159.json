@@ -1,0 +1,980 @@
+{
+	"pageid": 60458210,
+	"ns": 0,
+	"title": "Q60590159",
+	"lastrevid": 1170520838,
+	"modified": "2020-05-01T04:42:18Z",
+	"type": "item",
+	"id": "Q60590159",
+	"labels": {
+		"de": {
+			"language": "de",
+			"value": "Danger Close: The Battle of Long Tan"
+		},
+		"en": {
+			"language": "en",
+			"value": "Danger Close: The Battle of Long Tan"
+		},
+		"ast": {
+			"language": "ast",
+			"value": "Danger Close"
+		},
+		"fi": {
+			"language": "fi",
+			"value": "Danger Close: The Battle of Long Tan"
+		},
+		"zh-hant": {
+			"language": "zh-hant",
+			"value": "108悍將"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "危机：龙潭之战"
+		},
+		"ja": {
+			"language": "ja",
+			"value": "デンジャー・クロース 極限着弾"
+		},
+		"it": {
+			"language": "it",
+			"value": "La battaglia di Long Tan"
+		}
+	},
+	"descriptions": {
+		"de": {
+			"language": "de",
+			"value": "australischer Spielfilm aus dem Jahr 2019"
+		},
+		"en": {
+			"language": "en",
+			"value": "2019 film directed by Kriv Stenders"
+		},
+		"nl": {
+			"language": "nl",
+			"value": "film van Kriv Stenders"
+		},
+		"fr": {
+			"language": "fr",
+			"value": "film sorti en 2019 et réalisé par Kriv Stenders"
+		},
+		"zh-hant": {
+			"language": "zh-hant",
+			"value": "2019年的電影"
+		},
+		"it": {
+			"language": "it",
+			"value": "film del 2019 diretto da Kriv Stenders"
+		},
+		"zh": {
+			"language": "zh",
+			"value": "2019年的电影"
+		}
+	},
+	"aliases": {
+		"en": [
+			{
+				"language": "en",
+				"value": "Danger Close"
+			}
+		]
+	},
+	"claims": {
+		"P31": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P31",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 11424,
+							"id": "Q11424"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$d5386577-4be5-bfe8-2b50-38e7406acfec",
+				"rank": "normal"
+			}
+		],
+		"P495": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 408,
+							"id": "Q408"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$9c0b0894-4703-1630-3b20-1d6dcf32e30a",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "43b4822e91a97b824d4bd0b6b1fa296bff8ed5bb",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Danger_Close:_The_Battle_of_Long_Tan&oldid=899324653",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P495",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 30,
+							"id": "Q30"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$89576139-489e-6726-df11-01916619cce0",
+				"rank": "normal"
+			}
+		],
+		"P364": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P364",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1860,
+							"id": "Q1860"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$d6edf955-4a7e-8853-bcc1-6399de076227",
+				"rank": "normal"
+			}
+		],
+		"P57": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P57",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 6438600,
+							"id": "Q6438600"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$d4019834-458c-f09c-c771-36f884a7363a",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "43b4822e91a97b824d4bd0b6b1fa296bff8ed5bb",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://en.wikipedia.org/w/index.php?title=Danger_Close:_The_Battle_of_Long_Tan&oldid=899324653",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P345": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P345",
+					"datavalue": {
+						"value": "tt0441881",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q60590159$a34c88ee-4284-dc63-e1eb-b636d988ef75",
+				"rank": "normal"
+			}
+		],
+		"P462": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P462",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 22006653,
+							"id": "Q22006653"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$cd078b80-47c8-cf3b-13e2-7d2822691071",
+				"rank": "normal"
+			}
+		],
+		"P136": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 130232,
+							"id": "Q130232"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$9230a60f-46d5-6b32-dfd3-db39a330ff99",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P136",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 369747,
+							"id": "Q369747"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$A98FC056-74DC-4667-8A7F-6B8EB29FA42D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1476": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1476",
+					"datavalue": {
+						"value": {
+							"text": "Danger Close",
+							"language": "en"
+						},
+						"type": "monolingualtext"
+					},
+					"datatype": "monolingualtext"
+				},
+				"type": "statement",
+				"id": "Q60590159$e7aae850-4740-4cd5-f492-bfe4970f2074",
+				"rank": "normal"
+			}
+		],
+		"P161": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 201198,
+							"id": "Q201198"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$07eda377-4f15-0a82-a2aa-1d56f29bac4e",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 4302005,
+							"id": "Q4302005"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$954e8cc6-4a45-d64a-94e1-647c7781ec91",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 361630,
+							"id": "Q361630"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$853ac7c1-4e7a-590f-733b-0f27ffe89e5e",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 26422949,
+							"id": "Q26422949"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$b2d3e21b-40ec-54a5-c8ae-2fa41599c044",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 23928938,
+							"id": "Q23928938"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$da3e3049-47d5-c3d4-a323-01610ab30869",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 931873,
+							"id": "Q931873"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$54d33ec9-40be-801d-5915-97c05d4df534",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 19875117,
+							"id": "Q19875117"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$be4f69c0-4a7b-e783-4964-b4e80ae57dcc",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 1394456,
+							"id": "Q1394456"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$9ae25451-458d-7b07-2e29-d016979e13ef",
+				"rank": "normal"
+			},
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P161",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 4772688,
+							"id": "Q4772688"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$20352812-483c-fc8f-7890-c1bd5d5e8920",
+				"rank": "normal"
+			}
+		],
+		"P856": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P856",
+					"datavalue": {
+						"value": "https://dangerclosemovie.com",
+						"type": "string"
+					},
+					"datatype": "url"
+				},
+				"type": "statement",
+				"id": "Q60590159$35afbdad-4729-5644-a0ec-d22699a4add9",
+				"rank": "normal"
+			}
+		],
+		"P1040": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1040",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 6486430,
+							"id": "Q6486430"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$de072224-4f81-9ea4-a553-af246ce0c7fa",
+				"rank": "normal"
+			}
+		],
+		"P162": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P162",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2719725,
+							"id": "Q2719725"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$0f330c5f-4fb8-7a9e-491b-d3e240781df6",
+				"rank": "normal"
+			}
+		],
+		"P577": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P577",
+					"datavalue": {
+						"value": {
+							"time": "+2019-00-00T00:00:00Z",
+							"timezone": 0,
+							"before": 0,
+							"after": 0,
+							"precision": 9,
+							"calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+						},
+						"type": "time"
+					},
+					"datatype": "time"
+				},
+				"type": "statement",
+				"id": "Q60590159$92FC6D51-97E4-458E-9BB1-16C55160102D",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "563b4e844c2230f9b1a7724bc0af87fe3e7c620f",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://de.wikipedia.org/w/index.php?title=Danger_Close_(2019)&oldid=184679878",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					},
+					{
+						"hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 328,
+											"id": "Q328"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143"
+						]
+					}
+				]
+			}
+		],
+		"P1657": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1657",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 18665344,
+							"id": "Q18665344"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "9cda25c6deb76aa49bde397731179b782d7502e7",
+							"datavalue": {
+								"value": "52410",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q60590159$b304d051-4f5e-ba41-5b6a-5403a39c2661",
+				"rank": "normal"
+			}
+		],
+		"P5150": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5150",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 52692412,
+							"id": "Q52692412"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"qualifiers": {
+					"P2676": [
+						{
+							"snaktype": "value",
+							"property": "P2676",
+							"hash": "89d47ebf95261065683de7d6ec9d2004c0a77466",
+							"datavalue": {
+								"value": "1511/2019",
+								"type": "string"
+							},
+							"datatype": "string"
+						}
+					]
+				},
+				"qualifiers-order": [
+					"P2676"
+				],
+				"id": "Q60590159$76548FD5-EA8D-42F6-A4D7-B0A1B2914C95",
+				"rank": "normal"
+			}
+		],
+		"P5786": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5786",
+					"datavalue": {
+						"value": "long-tan-2",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q60590159$925CE1B5-7F2B-492B-9B60-857F6346186A",
+				"rank": "normal"
+			}
+		],
+		"P58": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P58",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 2719725,
+							"id": "Q2719725"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$A143BF01-ED43-4268-8D1A-27D286DA54FC",
+				"rank": "normal",
+				"references": [
+					{
+						"hash": "39e6aa8ff35c7c5170bce65aa9a47dfc8c7b79c7",
+						"snaks": {
+							"P143": [
+								{
+									"snaktype": "value",
+									"property": "P143",
+									"datavalue": {
+										"value": {
+											"entity-type": "item",
+											"numeric-id": 48183,
+											"id": "Q48183"
+										},
+										"type": "wikibase-entityid"
+									},
+									"datatype": "wikibase-item"
+								}
+							],
+							"P4656": [
+								{
+									"snaktype": "value",
+									"property": "P4656",
+									"datavalue": {
+										"value": "https://de.wikipedia.org/w/index.php?title=Danger_Close:_The_Battle_of_Long_Tan&oldid=194912596",
+										"type": "string"
+									},
+									"datatype": "url"
+								}
+							]
+						},
+						"snaks-order": [
+							"P143",
+							"P4656"
+						]
+					}
+				]
+			}
+		],
+		"P2061": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2061",
+					"datavalue": {
+						"value": {
+							"entity-type": "item",
+							"numeric-id": 21062414,
+							"id": "Q21062414"
+						},
+						"type": "wikibase-entityid"
+					},
+					"datatype": "wikibase-item"
+				},
+				"type": "statement",
+				"id": "Q60590159$949251dc-4eaf-4cf0-67ea-51beded41145",
+				"rank": "normal"
+			}
+		],
+		"P1258": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1258",
+					"datavalue": {
+						"value": "m/danger_close_2019",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q60590159$1a9b55b2-4904-f9b4-c84c-f549317e055b",
+				"rank": "normal"
+			}
+		],
+		"P1712": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P1712",
+					"datavalue": {
+						"value": "movie/danger-close-the-battle-of-long-tan",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q60590159$0c234362-48fa-e422-2f5e-6bdf033429be",
+				"rank": "normal"
+			}
+		],
+		"P4783": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4783",
+					"datavalue": {
+						"value": "51910",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q60590159$1012c5f7-4296-4703-cc6c-13443f87bde0",
+				"rank": "normal"
+			}
+		],
+		"P4780": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P4780",
+					"datavalue": {
+						"value": "101669",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q60590159$42547df8-4359-a7c4-e82c-c84096933475",
+				"rank": "normal"
+			}
+		],
+		"P5253": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P5253",
+					"datavalue": {
+						"value": "171813",
+						"type": "string"
+					},
+					"datatype": "external-id"
+				},
+				"type": "statement",
+				"id": "Q60590159$1694fd8b-4c15-94e5-d8d9-7a237f3639b4",
+				"rank": "normal"
+			}
+		],
+		"P2047": [
+			{
+				"mainsnak": {
+					"snaktype": "value",
+					"property": "P2047",
+					"datavalue": {
+						"value": {
+							"amount": "+118",
+							"unit": "http://www.wikidata.org/entity/Q7727"
+						},
+						"type": "quantity"
+					},
+					"datatype": "quantity"
+				},
+				"type": "statement",
+				"id": "Q60590159$a4dfd296-4095-f990-1bc9-1bc61d8962ec",
+				"rank": "normal"
+			}
+		]
+	},
+	"sitelinks": {
+		"dewiki": {
+			"site": "dewiki",
+			"title": "Danger Close: The Battle of Long Tan",
+			"badges": [],
+			"url": "https://de.wikipedia.org/wiki/Danger_Close:_The_Battle_of_Long_Tan"
+		},
+		"enwiki": {
+			"site": "enwiki",
+			"title": "Danger Close: The Battle of Long Tan",
+			"badges": [],
+			"url": "https://en.wikipedia.org/wiki/Danger_Close:_The_Battle_of_Long_Tan"
+		},
+		"fiwiki": {
+			"site": "fiwiki",
+			"title": "Danger Close: The Battle of Long Tan",
+			"badges": [],
+			"url": "https://fi.wikipedia.org/wiki/Danger_Close:_The_Battle_of_Long_Tan"
+		},
+		"itwiki": {
+			"site": "itwiki",
+			"title": "La battaglia di Long Tan",
+			"badges": [],
+			"url": "https://it.wikipedia.org/wiki/La_battaglia_di_Long_Tan"
+		},
+		"jawiki": {
+			"site": "jawiki",
+			"title": "デンジャー・クロース 極限着弾",
+			"badges": [],
+			"url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%BB%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B9_%E6%A5%B5%E9%99%90%E7%9D%80%E5%BC%BE"
+		},
+		"zhwiki": {
+			"site": "zhwiki",
+			"title": "108悍將",
+			"badges": [],
+			"url": "https://zh.wikipedia.org/wiki/108%E6%82%8D%E5%B0%87"
+		}
+	}
+}
