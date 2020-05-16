@@ -13,48 +13,24 @@ module.exports = class MovieSource {
 			const movieDayCollection = addCollection({
 				typeName: 'MovieDay',
 			});
-			addSchemaResolvers({
+			/* addSchemaResolvers({
 				Movie: {
-					date: {
-						type: 'String',
-						resolve: (node) => {
-							return node.year || node.year === 0 ? new Date(node.year, node.month - 1, node.day) : null;
-						},
-					},
-					imdburl: {
-						type: 'String',
-						resolve: (node) => {
-							return `https://www.imdb.com/title/${node.imdb.id}/`;
-						},
-					},
-					wikipediaurl: {
-						type: 'String',
-						resolve: (node) => {
-							return node.wikipedia ? `https://en.wikipedia.org/wiki/${node.wikipedia}` : null;
-						},
-					},
-					wikidataurl: {
-						type: 'String',
-						resolve: (node) => {
-							return node.wikidata ? `https://www.wikidata.org/wiki/${node.wikidata}` : null;
-						},
-					},
+					date: (node) => node.year || node.year === 0 ? new Date(node.year, node.month - 1, node.day) : null,
+					imdburl: (node) => `https://www.imdb.com/title/${node.imdb.id}/`,
+					wikipediaurl: (node) => node.wikipedia ? `https://en.wikipedia.org/wiki/${node.wikipedia}` : null,
+					wikidataurl: (node) => node.wikidata ? `https://www.wikidata.org/wiki/${node.wikidata}` : null,
 				},
 				Day: {
-					wikipediaurl: {
-						type: 'String',
-						resolve: (node) => {
-							return node.wikipedia ? `https://en.wikipedia.org/wiki/${node.wikipedia}` : null;
-						},
-					},
+					wikipediaurl: (node) => node.wikipedia ? `https://en.wikipedia.org/wiki/${node.wikipedia}` : null,
 				},
-			});
+			}); */
 			const movieDays = new MovieDays();
 			await movieDays.get();
-			// dayCollection.addReference('movies', 'MovieDays');
-			movieDayCollection.addReference('imdb', 'Movie');
 			for (const movie of movieDays.movies) movieCollection.addNode(movie);
+			movieDayCollection.addReference('movie', 'Movie');
 			for (const movieDay of movieDays.movieDays) movieDayCollection.addNode(movieDay);
+			// for (const movieDay of movieDays.movieDays) movieDayCollection.addNode({...movieDay, imdb: store.createReference('Movie', movieDay.imdb)});
+			// dayCollection.addReference('movies', 'MovieDay');
 			for (const day of movieDays.days) dayCollection.addNode({...day, movies: store.createReference('MovieDay', day.movies)});
 		});
 	}

@@ -6052,6 +6052,13 @@ node-releases@^1.1.53:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.55.tgz#8af23b7c561d8e2e6e36a46637bab84633b07cee"
   integrity sha512-H3R3YR/8TjT5WPin/wOoHOUPHgvj8leuU/Keta/rwelEQN9pA/S2Dx8/se4pZ2LBxSd0nAGzsNzhqwa77v7F1w==
 
+node-themoviedb@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/node-themoviedb/-/node-themoviedb-0.1.4.tgz#168457f72357ac9822483dab0650aa1278c92079"
+  integrity sha512-KAecujSCdgwrPu2PqZ6YmMaiLJL3011GaUM33kZnk42xXWzxG6q5iuwyjwWtWSEqt6t6lWqZalTF2/YTk0xjoQ==
+  dependencies:
+    got "^9.6.0"
+
 noop-logger@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/noop-logger/-/noop-logger-0.1.1.tgz#94a2b1633c4f1317553007d8966fd0e841b6a4c2"

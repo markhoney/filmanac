@@ -2,12 +2,12 @@
 	<div class="w-full md:w-full lg:w-1/2 max-w-4xl rounded overflow-hidden shadow-lg m-4 flex justify-between">
 		<div class="md:flex-shrink-0">
 			<g-image class="md:w-56"
-				:src="movie.images.poster.path"
-				:alt="movie.images.poster.title + ' movie poster'"
+				:src="movie.images.art.poster.path"
+				:alt="movie.title + ' movie poster'"
 			/>
 		</div>
 		<div class="flex flex-col flex-grow px-8 py-4 bg-color-333">
-			<h3 class="font-bold text-4xl md:text-2xl lg:text-2xl text-gray-200 movie--title">{{movie.title}}</h3>
+			<h3 class="font-bold text-4xl md:text-2xl lg:text-2xl text-gray-200 movie--title"><g-link :to="'/' + movie.id">{{movie.title}}</g-link></h3>
 			<span class="movie--year text-xl lg:text-sm lg:mb-4">{{movie.year}}</span>
 			<div class="flex-grow">
 				<p class="text-xl md:text-base lg:text-base text-gray-100 leading-snug truncate-overflow">{{movie.plot}}</p>
@@ -15,12 +15,7 @@
 			</div>
 			<div class="button-container flex justify-between mb-2">
 				<g-image
-					v-for="(icon, index) in [
-						...movie.images.studio,
-						...movie.images.genre,
-						...movie.images.country,
-						...movie.images.language,
-					]"
+					v-for="(icon, index) in movie.images.icon.flat()"
 					:key="index"
 					:src="icon.path"
 					:title="icon.title"
@@ -49,6 +44,7 @@
 		width: 100%;
 		margin: 64px auto;
 		font-size: 16px;
+		color: #ccc;
 	}
 
 	.flex--movie {

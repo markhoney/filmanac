@@ -15,25 +15,28 @@
 			director
 			year
 			images {
-				poster {
-					path
-					title
+				art {
+					poster {
+						path
+					}
 				}
-				studio {
-					path
-					title
-				}
-				genre {
-					path
-					title
-				}
-				country {
-					path
-					title
-				}
-				language {
-					path
-					title
+				icon {
+					studio {
+						path
+						title
+					}
+					genre {
+						path
+						title
+					}
+					country {
+						path
+						title
+					}
+					language {
+						path
+						title
+					}
 				}
 			}
 		}

@@ -23,6 +23,7 @@
 		"gridsome-plugin-tailwindcss": "^2.2.48",
 		"imdb-api": "^4.0.3",
 		"node-fetch": "^2.6.0",
+		"node-themoviedb": "^0.1.4",
 		"wikidata-sdk": "^7.4.1"
 	}
 }
