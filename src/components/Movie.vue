@@ -2,7 +2,7 @@
 	<div class="w-full md:w-full lg:w-1/2 max-w-4xl rounded overflow-hidden shadow-lg m-4 flex justify-between">
 		<div class="md:flex-shrink-0">
 			<g-image class="md:w-56"
-				:src="movie.images.art.poster.path"
+				:src="movie.images.poster.path"
 				:alt="movie.title + ' movie poster'"
 			/>
 		</div>
@@ -14,13 +14,11 @@
 				<p class="mt-4 text-gray-100">- Directed by {{movie.director}}.</p>
 			</div>
 			<div class="button-container flex justify-between mb-2">
-				<g-image
-					v-for="(icon, index) in movie.images.icon.flat()"
-					:key="index"
-					:src="icon.path"
-					:title="icon.title"
-					style="max-height: 32px; width: auto; margin: 8px;"
-				/>
+				<template v-for="category in ['genre', 'studio', 'country', 'language']">
+					<g-link v-for="(item, index) in movie[category]" :key="category + index" :to="'/' + category + '/' + item.id">
+						<g-image :src="item.icon" :title="item.id" class="icon" />
+					</g-link>
+				</template>
 			</div>
 		</div>
 	</div>
@@ -39,14 +37,19 @@
 </script>
 
 <style>
-	body {
+	/* body {
 		background: #111;
 		width: 100%;
 		margin: 64px auto;
 		font-size: 16px;
 		color: #ccc;
-	}
+	} */
 
+	.icon {
+		max-height: 32px;
+		width: auto;
+		/* margin: 8px; */
+	}
 	.flex--movie {
 		max-width: 80%;
 		margin: 0 auto;

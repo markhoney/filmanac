@@ -1,7 +1,11 @@
 <template>
 	<Layout>
-		<h1>{{date}}</h1>
-		<Movie v-for="(movie, index) in $page.movies.edges[0].node.movies" :key="index" :movie="movie.imdb" />
+		<h1 class="font-bold text-4xl">
+			<g-link :to="$page.movies.edges[0].node.previous">&lt;</g-link>
+			{{$page.movies.edges[0].node.month_full}} {{$page.movies.edges[0].node.day_ordinal}}
+			<g-link :to="$page.movies.edges[0].node.next">&gt;</g-link>
+		</h1>
+		<Movie v-for="(event, index) in $page.movies.edges[0].node.events" :key="index" :movie="event.movie" />
 	</Layout>
 </template>
 
@@ -11,40 +15,40 @@
 			edges {
 				node {
 					month
+					month_full
 					day
-					movies {
+					day_ordinal
+					previous
+					next
+					events {
 						id
 						reason
-						imdb {
+						movie {
 							id
 							title
 							plot
 							director
 							year
 							images {
-								art {
-									poster {
-										path
-									}
+								poster {
+									path
 								}
-								icon {
-									studio {
-										path
-										title
-									}
-									genre {
-										path
-										title
-									}
-									country {
-										path
-										title
-									}
-									language {
-										path
-										title
-									}
-								}
+							}
+							studios {
+								id
+								icon
+							}
+							genres {
+								id
+								icon
+							}
+							countries {
+								id
+								icon
+							}
+							languages {
+								id
+								icon
 							}
 						}
 					}

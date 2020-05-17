@@ -1,14 +1,27 @@
-# Default starter for Gridsome
+# Movie Days / Filmanac
 
-This is the project you get when you run `gridsome create new-project`.
+- `gridsome develop` to start a local dev server at `http://localhost:8080`
+- `gridsome build`
 
-### 1. Install Gridsome CLI tool if you don't have
+## To Do
 
-`npm install --global @gridsome/cli`
+- Components
+  - Movie card view
+    - Days
+  - Movie full screen view
+    - Single Movie
+  - Movie cover view
+    - Genres, Studios, etc
+      - Split by month with headers?
+    - All movies?
+  - Timeline view
+    - All movies?
 
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+- Layout
+  - Red curtain
+    - Fixed top
+      - Make 4k wide?
+      - Centre
+    - Variable sides
+      - Tiled on the outside
+  - Dark body

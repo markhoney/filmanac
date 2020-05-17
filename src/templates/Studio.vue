@@ -1,24 +1,21 @@
 <template>
 	<Layout>
-		<p></p>
-		<div v-if="$page.movies.edges[0].node.movies">
-			<Movie v-for="(event, index) in $page.movies.edges[0].node.events" :key="index" :movie="event.movie" />
-		</div>
+		<h1>
+			{{$page.studio.name}}
+		</h1>
+		<Movie v-for="(movie, index) in $page.studio.belongsTo.edges" :key="index" :movie="movie.node" />
 	</Layout>
 </template>
 
 <page-query>
-	{
-		allDay {
-			edges {
-				node {
-					id
-					month
-					day
-					events {
-						id
-						reason
-						movie {
+	query studio ($id: ID) {
+		studio(id: $id) {
+			name
+			icon
+			belongsTo {
+				edges {
+					node {
+						... on Movie {
 							id
 							title
 							plot
@@ -58,7 +55,7 @@
 	export default {
 		components: {Movie},
 		metaInfo: {
-			title: 'Today',
+			title: 'Movies for ', // + this.date,
 		},
 	};
 </script>

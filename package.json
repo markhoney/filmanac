@@ -2,7 +2,7 @@
 	"name": "filmanac",
 	"private": true,
 	"scripts": {
-		"scrape": "node --trace-warnings src/data/moviedays",
+		"scrape": "node --trace-warnings src/data/movieevents",
 		"develop": "gridsome develop",
 		"dev": "yarn develop",
 		"build": "gridsome build",

@@ -11,7 +11,12 @@ module.exports = {
 		'gridsome-plugin-tailwindcss',
 	],
 	templates: {
-		Movie: '/:id',
 		Day: '/:month/:day',
+		Movie: '/movie/:id',
+		Genre: '/genre/:id',
+		Studio: '/studio/:id',
+		Language: '/language/:id',
+		Country: '/country/:id',
+		Year: '/year/:id',
 	},
 };

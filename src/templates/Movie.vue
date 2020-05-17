@@ -15,29 +15,25 @@
 			director
 			year
 			images {
-				art {
-					poster {
-						path
-					}
+				poster {
+					path
 				}
-				icon {
-					studio {
-						path
-						title
-					}
-					genre {
-						path
-						title
-					}
-					country {
-						path
-						title
-					}
-					language {
-						path
-						title
-					}
-				}
+			}
+			studios {
+				id
+				icon
+			}
+			genres {
+				id
+				icon
+			}
+			countries {
+				id
+				icon
+			}
+			languages {
+				id
+				icon
 			}
 		}
 	}
