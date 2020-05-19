@@ -465,7 +465,7 @@ class MovieEvents {
 async function getAll() {
 	const movieEvents = new MovieEvents();
 	await movieEvents.get();
-	for (const movie of movieEvents.movies) console.log(movie.studios);
+	// for (const movie of movieEvents.movies) console.log(movie.studios);
 	if (!module.parent) {
 		const days = movieEvents.stats();
 		console.log(movieEvents.movies.length, 'movies.', days, 'days covered,', 366 - days, 'days missing.');

@@ -11,7 +11,9 @@ module.exports = class MovieSource {
 			collections.Events.addReference('movie', 'Movies');
 			const movieEvents = new MovieEvents();
 			await movieEvents.get();
-			for (const collection of Object.keys(collections)) for (const node of movieEvents[collection.toLowerCase()]) collections[collection].addNode(node);
+			for (const collection of Object.keys(collections)) for (const node of movieEvents[collection.toLowerCase()]) {
+				collections[collection].addNode(node);
+			}
 		});
 	}
 };
