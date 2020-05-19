@@ -20,7 +20,7 @@ function split(string, separator) {
 }
 
 function slugify(name) {
-	return name.toLowerCase().split(' ').join('_');
+	if (name.endsWith('.')) console.log(name);
 }
 
 function cleanObj(obj) {
