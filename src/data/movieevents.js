@@ -1,6 +1,6 @@
 require('dotenv').config();
 require('colors');
-const {readFileSync, writeFileSync, existsSync, createWriteStream} = require('fs');
+const {readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, createWriteStream} = require('fs');
 const {resolve} = require('path');
 const fetch = require('node-fetch');
 const imdb = new (require('imdb-api')).Client({apiKey: process.env.OMDBAPIKey});
@@ -15,7 +15,7 @@ function unique(array) {
 }
 
 function split(string, separator) {
-	if (string) return unique(string.split(separator).map((item) => item.trim()));
+	if (string) return unique(string.split(separator).map((item) => item.trim().replace(/\.+$/g, '')));
 	return [];
 }
 
@@ -30,8 +30,13 @@ function cleanObj(obj) {
 	return obj;
 }
 
+function monthName(number) {
+	return ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][number - 1];
+}
+
 class MovieEvents {
 	constructor() {
+		this.sheets = null;
 		this.days = this.getDays();
 		this.movies = [];
 		this.events = [];
@@ -45,7 +50,6 @@ class MovieEvents {
 
 	getDays() {
 		const months = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-		const monthnames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 		const days = [];
 		for (let month = 1; month <= months.length; month++) {
 			for (let day = 1; day <= months[month - 1]; day++) {
@@ -53,8 +57,8 @@ class MovieEvents {
 					id: [month, day].join('-'),
 					path: `/${month}/${day}`,
 					month,
-					month_short: monthnames[month - 1].toLowerCase().slice(0, 3),
-					month_full: monthnames[month - 1],
+					month_short: monthName(month).toLowerCase().slice(0, 3),
+					month_full: monthName(month),
 					day,
 					day_ordinal: day + (day > 0 ? ['th', 'st', 'nd', 'rd'][(day > 3 && day < 21) || day % 10 > 3 ? 0 : day % 10] : ''),
 					events: [],
@@ -77,24 +81,46 @@ class MovieEvents {
 			const year = parseInt(event.year);
 			const month = parseInt(event.month);
 			const day = parseInt(event.day);
-			return {
+			const ev = {
 				id: [month, day, event.imdb].join('-'),
-				ids: {
-					imdb: event.imdb,
-					wikipedia: event.wikipedia,
-				},
+				info: {},
 				movie: event.imdb,
-				reason: event.reason,
-				refreshments: event.refreshments,
-				timestamp: event.timestamp,
-				mention: event.mention,
+				reason: {
+					short: event.reason,
+					description: event.longreason,
+				},
+				refreshments: {
+					list: event.refreshments && event.refreshments.split(',').map((refreshment) => refreshment.trim()),
+					description: event.refreshmentsreason,
+				},
+				mention: {
+					timestamp: event.timestamp,
+					description: event.mention,
+				},
 				date: {
 					year,
 					month,
+					month_short: monthName(month).toLowerCase().slice(0, 3),
+					month_full: monthName(month),
 					day,
+					day_ordinal: day + (day > 0 ? ['th', 'st', 'nd', 'rd'][(day > 3 && day < 21) || day % 10 > 3 ? 0 : day % 10] : ''),
 					js: year || year === 0 ? new Date(year, month - 1, day) : null,
 				},
 			};
+			if (event.wikidata) {
+				ev.info.wikidata = {
+					id: event.wikidata,
+					url: `https://www.wikidata.org/wiki/${event.wikidata}`,
+				};
+			}
+			if (event.wikipedia) {
+				ev.info.wikipedia = {
+					id: event.wikipedia,
+					url: `https://en.wikipedia.org/wiki/${event.wikipedia}`,
+				};
+			}
+
+			return ev;
 		});
 	}
 
@@ -105,8 +131,16 @@ class MovieEvents {
 		}
 		for (const name of unique([title, title.split(' ').join(''), title.toLowerCase(), title.toLowerCase().split(' ').join('')])) {
 			for (const ext of ['.png', '.jpg']) {
-				const path = resolve(__dirname, '..', 'images', type, variant, name + ext);
-				if (existsSync(path)) return path;
+				// if (existsSync(path)) return path;
+				const src = resolve(__dirname, '..', 'images', type, variant, name + ext);
+				if (existsSync(src)) {
+					const dest = resolve(__dirname, '..', '..', 'static', 'images', type, variant, name + ext);
+					if (!existsSync(dest)) {
+						mkdirSync(resolve(__dirname, '..', '..', 'static', 'images', type, variant), {recursive: true});
+						copyFileSync(src, dest);
+					}
+					return '/' + ['images', type, variant, name + ext].join('/');
+				}
 			}
 		}
 		console.log(`Missing ${type}:`.red, title);
@@ -125,7 +159,13 @@ class MovieEvents {
 		}
 	}
 
-	getLanguages() {
+	getLanguages(countries) {
+		const languages = [];
+		for (const country of countries) {
+			if (country.languages) for (const language of country.languages) {
+				languages.push({from: language, to: country.name});
+			}
+		}
 		this.languages = unique(this.movies.map((movie) => movie.languages).flat()).map((language) => ({
 			id: slugify(language),
 			name: language,
@@ -137,11 +177,17 @@ class MovieEvents {
 		}
 	}
 
-	getCountries() {
+	getCountries(countries) {
+		const countrynames = [];
+		for (const country of countries) {
+			if (country.altnames) for (const name of country.altnames) {
+				countrynames.push({from: name, to: country.name});
+			}
+		}
 		this.countries = unique(this.movies.map((movie) => movie.countries).flat()).map((country) => ({
 			id: slugify(country),
 			name: country,
-			icon: this.getImagePath(country, 'country', 'map'),
+			icon: this.getImagePath(country, 'country', 'map', countrynames),
 			// movies: this.movies.filter((movie) => movie.countries && movie.countries.includes[country]).map((movie) => movie.id),
 		}));
 		for (const movie of this.movies) {
@@ -176,7 +222,7 @@ class MovieEvents {
 			.map((event) => {
 				const movie = {
 					id: event.imdb,
-					link: {
+					info: {
 						imdb: {
 							id: event.imdb,
 							url: `https://www.imdb.com/title/${event.imdb}/`,
@@ -184,13 +230,13 @@ class MovieEvents {
 					},
 				};
 				if (event.moviewikidata) {
-					movie.link.wikidata = {
+					movie.info.wikidata = {
 						id: event.moviewikidata,
 						url: `https://www.wikidata.org/wiki/${event.moviewikidata}`,
 					};
 				}
 				if (event.moviewikipedia) {
-					movie.link.wikipedia = {
+					movie.info.wikipedia = {
 						id: event.moviewikipedia,
 						url: `https://en.wikipedia.org/wiki/${event.moviewikipedia}`,
 					};
@@ -248,12 +294,13 @@ class MovieEvents {
 		return art;
 	}
 
-	getArtURLs(fanart) {
+	getArtURLs(fanart, poster) {
 		const art = {};
 		if (fanart) {
 			art.logo = this.getURL([...(fanart.hdmovielogo || []), ...(fanart.movielogo || [])]);
 			art.clearart = this.getURL([...(fanart.hdmovieclearart || []), ...(fanart.movieclearart || [])]);
 			art.poster = this.getURL(fanart.movieposter);
+			if (!art.poster) art.poster = {url: poster};
 			let keyart;
 			if (fanart.movieposter) keyart = fanart.movieposter.find((art) => art.lang === '00');
 			if (keyart) art.keyart = {url: keyart.url};
@@ -265,8 +312,8 @@ class MovieEvents {
 		return art;
 	}
 
-	async getArt(fanart, id) {
-		const art = this.getArtURLs(fanart);
+	async getArt(fanart, id, poster) {
+		const art = this.getArtURLs(fanart, poster);
 		for (const image in art) {
 			if (art[image]) {
 				art[image].type = image;
@@ -282,7 +329,7 @@ class MovieEvents {
 		return art;
 	}
 
-	async getFanart(id) {
+	async getFanart(id, poster) {
 		const json = resolve(__dirname, 'json', 'fanart', `${id}.json`);
 		let details;
 		if (!existsSync(json)) {
@@ -297,7 +344,7 @@ class MovieEvents {
 		} else {
 			details = JSON.parse(readFileSync(json, 'utf8'));
 		}
-		if (details) return [details.tmdb_id, await this.getArt(details, id)];
+		if (details) return [details.tmdb_id, await this.getArt(details, id, poster)];
 		return [];
 	}
 
@@ -355,13 +402,12 @@ class MovieEvents {
 			}
 			if (movie.genres) movie.genres = split(movie.genres, ',');
 			if (movie.languages) movie.languages = split(movie.languages, ',');
-			const [tmdb, fanart] = await this.getFanart(movie.id);
-			if (tmdb) movie.link.tmdb = {
+			const [tmdb, fanart] = await this.getFanart(movie.id, movie.poster);
+			if (tmdb) movie.info.tmdb = {
 				id: tmdb,
 				url: `https://www.themoviedb.org/movie/${tmdb}`,
 			};
 			if (fanart) movie.images = fanart;
-			// if (movie.poster) movie.images.poster = {path: this.getPoster(movie.id, movie.poster), title: movie.title};
 			movie.watch = this.getWatchLinks(movie.title);
 			movie.data = movie.wikidata ? await this.getWikiData(movie.wikidata) : null;
 		}
@@ -374,25 +420,36 @@ class MovieEvents {
 		}
 	}
 
-	async get() {
-		const sheets = google.sheets({
-			version: 'v4',
-			auth: process.env.GoogleAPIKey,
-		});
-		const sheet = await sheets.spreadsheets.values.get({
+	async getSheet(name) {
+		if (!this.sheets) {
+			this.sheets = google.sheets({
+				version: 'v4',
+				auth: process.env.GoogleAPIKey,
+			});
+		}
+		const sheet = await this.sheets.spreadsheets.values.get({
 			spreadsheetId: process.env.GoogleSheetID,
-			range: 'A1:ZZ10000',
+			range: name + '!A1:ZZ10000',
 		});
 		const titles = sheet.data.values.shift();
-		const events = sheet.data.values.map((row) => titles.reduce((rows, title, index) => ({...rows, [title.toLowerCase()]: row[index]}), {}));
+		return sheet.data.values.map((row) => titles.reduce((rows, title, index) => ({...rows, [title.toLowerCase()]: row[index]}), {}));
+	}
+
+	async get() {
+		const events = await this.getSheet('Movies');
+		const countries = await this.getSheet('Countries');
+		for (const country of countries) {
+			if (country.languages) country.languages = country.languages.split(',');
+			if (country.altnames) country.altnames = country.altnames.split(',');
+		}
 		this.events = this.getEvents(events);
 		this.movies = this.getMovies(events);
 		this.addEventsToDays();
 		await this.getMovieDetails();
 		this.getStudios();
 		this.getGenres();
-		this.getLanguages();
-		this.getCountries();
+		this.getLanguages(countries);
+		this.getCountries(countries);
 		this.getYears();
 	}
 
@@ -408,6 +465,7 @@ class MovieEvents {
 async function getAll() {
 	const movieEvents = new MovieEvents();
 	await movieEvents.get();
+	for (const movie of movieEvents.movies) console.log(movie.studios);
 	if (!module.parent) {
 		const days = movieEvents.stats();
 		console.log(movieEvents.movies.length, 'movies.', days, 'days covered,', 366 - days, 'days missing.');

@@ -1,23 +1,46 @@
 <template>
 	<Layout>
-		<p></p>
-		<div v-if="$page.movies.edges[0].node.movies">
-			<Movie v-for="(event, index) in $page.movies.edges[0].node.events" :key="index" :movie="event.movie" />
+		<h1 class="font-bold text-4xl">
+			<g-link :to="today.previous">&lt;</g-link>
+			{{today.month_full}} {{today.day_ordinal}}
+			<g-link :to="today.next">&gt;</g-link>
+		</h1>
+		<div v-if="today">
+			<Movie v-for="(event, index) in today.events" :key="index" :movie="event.movie" />
 		</div>
 	</Layout>
 </template>
 
 <page-query>
 	{
-		allDay {
+		allDays {
 			edges {
 				node {
 					id
 					month
+					month_full
 					day
+					day_ordinal
+					previous
+					next
 					events {
 						id
-						reason
+						info {
+							wikipedia {
+								url
+							}
+						}
+						reason {
+							short
+							description
+						}
+						refreshments {
+							list
+						}
+						mention {
+							timestamp
+							description
+						}
 						movie {
 							id
 							title
@@ -31,18 +54,22 @@
 							}
 							studios {
 								id
+								name
 								icon
 							}
 							genres {
 								id
+								name
 								icon
 							}
 							countries {
 								id
+								name
 								icon
 							}
 							languages {
 								id
+								name
 								icon
 							}
 						}
@@ -54,11 +81,31 @@
 </page-query>
 
 <script>
-	import Movie from '@/components/Movie.vue';
+	import Movie from '@/components/MovieCard.vue';
 	export default {
 		components: {Movie},
 		metaInfo: {
-			title: 'Today',
+			title: 'Movies for Today',
+		},
+		data () {
+			return {
+				now: new Date(),
+			};
+		},
+		created () {
+			setInterval(() => this.now = new Date, 1000 * 60);
+		},
+		computed: {
+			month() {
+				return this.now.getMonth() + 1;
+			},
+			day() {
+				return this.now.getDate();
+			},
+			today() {
+				const today = this.$page.allDays.edges.find((date) => date.node.month === this.month && date.node.day === this.day);
+				return today && today.node;
+			}
 		},
 	};
 </script>

@@ -7,8 +7,8 @@
 </template>
 
 <page-query>
-	query movie ($id: ID) {
-		movie(id: $id) {
+	query movie($id: ID) {
+		movie: movies(id: $id) {
 			id
 			title
 			plot
@@ -21,18 +21,22 @@
 			}
 			studios {
 				id
+				name
 				icon
 			}
 			genres {
 				id
+				name
 				icon
 			}
 			countries {
 				id
+				name
 				icon
 			}
 			languages {
 				id
+				name
 				icon
 			}
 		}
@@ -40,11 +44,13 @@
 </page-query>
 
 <script>
-	import Movie from '~/components/Movie.vue';
+	import Movie from '~/components/MovieCard.vue';
 	export default {
 		components: {Movie},
-		metaInfo: {
-			title: 'Blog',
+		metaInfo() {
+			return {
+				title: this.$page.movie.title,
+			};
 		},
 	};
 </script>

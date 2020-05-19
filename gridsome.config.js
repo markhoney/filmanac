@@ -5,18 +5,22 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-	siteName: 'Filmanac',
+	siteName: 'A Movie for Today',
+	// siteUrl: '',
+	// siteDescription: '',
+	siteUrl: 'https://markhoney.github.io',
+	pathPrefix: '/amoviefortoday',
 	plugins: [
 		'~/src/data/gridsome-source-movies.js',
 		'gridsome-plugin-tailwindcss',
 	],
 	templates: {
-		Day: '/:month/:day',
-		Movie: '/movie/:id',
-		Genre: '/genre/:id',
-		Studio: '/studio/:id',
-		Language: '/language/:id',
-		Country: '/country/:id',
-		Year: '/year/:id',
+		Days: '/:month/:day',
+		Movies: '/:id',
+		Genres: '/genres/:id',
+		Studios: '/studios/:id',
+		Languages: '/languages/:id',
+		Countries: '/countries/:id',
+		Years: '/years/:id',
 	},
 };

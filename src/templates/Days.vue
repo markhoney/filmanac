@@ -1,22 +1,20 @@
 <template>
 	<Layout>
 		<h1 class="font-bold text-4xl">
-			<g-link :to="today.previous">&lt;</g-link>
-			{{today.month_full}} {{today.day_ordinal}}
-			<g-link :to="today.next">&gt;</g-link>
+			<g-link :to="day.previous">&lt;</g-link>
+			{{date}}
+			<g-link :to="day.next">&gt;</g-link>
 		</h1>
-		<div v-if="today">
-			<Movie v-for="(event, index) in today.events" :key="index" :movie="event.movie" />
-		</div>
+		<Event v-for="(event, index) in day.events" :key="index" :event="event" />
+		<p v-if="!day.events.length">Sorry, there are no movies for today. If you know of a movie that is connected to this date, please let me know by emailing me at <a href="mailto:mark@honeychurch.org">mark@honeychurch.org</a></p>
 	</Layout>
 </template>
 
 <page-query>
-	{
-		allDays {
+	query days($month: Int, $day: Int) {
+		days: allDays(filter: {month: {eq: $month}, day: {eq: $day}}) {
 			edges {
 				node {
-					id
 					month
 					month_full
 					day
@@ -36,6 +34,7 @@
 						}
 						refreshments {
 							list
+							description
 						}
 						mention {
 							timestamp
@@ -81,31 +80,17 @@
 </page-query>
 
 <script>
-	import Movie from '@/components/MovieCard.vue';
+	import Event from '@/components/EventCard.vue';
 	export default {
-		components: {Movie},
-		metaInfo: {
-			title: 'Movies for Today',
-		},
-		data () {
+		components: {Event},
+		metaInfo() {
 			return {
-				now: new Date(),
+				title: 'Movies for ' + this.date,
 			};
 		},
-		created () {
-			setInterval(() => this.now = new Date, 1000 * 60);
-		},
 		computed: {
-			month() {
-				return this.now.getMonth() + 1;
-			},
-			day() {
-				return this.now.getDate();
-			},
-			today() {
-				const today = this.$page.allDays.edges.find((date) => date.node.month === this.month && date.node.day === this.day);
-				return today && today.node;
-			}
+			day() {return this.$page.days.edges[0].node},
+			date() {return this.day.month_full + ' ' + this.day.day_ordinal},
 		},
 	};
 </script>

@@ -1,10 +1,12 @@
 <template>
-	<div class="w-full md:w-full lg:w-1/2 max-w-4xl rounded overflow-hidden shadow-lg m-4 flex justify-between">
+	<div class="w-full md:w-full max-w-4xl rounded overflow-hidden shadow-lg m-4 flex justify-between">
 		<div class="md:flex-shrink-0">
-			<g-image class="md:w-56"
-				:src="movie.images.poster.path"
-				:alt="movie.title + ' movie poster'"
-			/>
+			<g-link :to="'/' + movie.id">
+				<g-image v-if="movie.images && movie.images.poster" class="md:w-56"
+					:src="movie.images.poster.path"
+					:alt="movie.title + ' movie poster'"
+				/>
+			</g-link>
 		</div>
 		<div class="flex flex-col flex-grow px-8 py-4 bg-color-333">
 			<h3 class="font-bold text-4xl md:text-2xl lg:text-2xl text-gray-200 movie--title"><g-link :to="'/' + movie.id">{{movie.title}}</g-link></h3>
@@ -14,9 +16,9 @@
 				<p class="mt-4 text-gray-100">- Directed by {{movie.director}}.</p>
 			</div>
 			<div class="button-container flex justify-between mb-2">
-				<template v-for="category in ['genre', 'studio', 'country', 'language']">
+				<template v-for="category in ['genres', 'studios', 'countries', 'languages']">
 					<g-link v-for="(item, index) in movie[category]" :key="category + index" :to="'/' + category + '/' + item.id">
-						<g-image :src="item.icon" :title="item.id" class="icon" />
+						<img v-if="item.icon" :src="item.icon" :title="item.name" class="icon" />
 					</g-link>
 				</template>
 			</div>

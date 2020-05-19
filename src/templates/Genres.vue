@@ -1,21 +1,21 @@
 <template>
 	<Layout>
 		<h1>
-			{{$page.language.name}}
+			{{$page.genres.name}}
 		</h1>
-		<Movie v-for="(movie, index) in $page.language.belongsTo.edges" :key="index" :movie="movie.node" />
+		<Movie v-for="(movie, index) in $page.genres.belongsTo.edges" :key="index" :movie="movie.node" />
 	</Layout>
 </template>
 
 <page-query>
-	query language ($id: ID) {
-		language(id: $id) {
+	query genres($id: ID) {
+		genres(id: $id) {
 			name
 			icon
 			belongsTo {
 				edges {
 					node {
-						... on Movie {
+						... on Movies {
 							id
 							title
 							plot
@@ -28,18 +28,22 @@
 							}
 							studios {
 								id
+								name
 								icon
 							}
 							genres {
 								id
+								name
 								icon
 							}
 							countries {
 								id
+								name
 								icon
 							}
 							languages {
 								id
+								name
 								icon
 							}
 						}
@@ -51,11 +55,13 @@
 </page-query>
 
 <script>
-	import Movie from '@/components/Movie.vue';
+	import Movie from '@/components/MovieCard.vue';
 	export default {
 		components: {Movie},
-		metaInfo: {
-			title: 'Movies for ', // + this.date,
+		metaInfo() {
+			return {
+				title: this.$page.genres.name + ' Movies',
+			};
 		},
 	};
 </script>
