@@ -14,6 +14,11 @@
 			plot
 			director
 			year
+			rated
+			runtime
+			actors
+			awards
+			rating
 			images {
 				poster {
 					path

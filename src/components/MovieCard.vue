@@ -1,39 +1,24 @@
 <template>
-	<div class="w-full md:w-full max-w-4xl rounded overflow-hidden shadow-lg m-4 flex justify-between">
-		<div class="md:flex-shrink-0">
-			<g-link :to="'/' + movie.id">
-				<g-image v-if="movie.images && movie.images.poster" class="md:w-56"
-					:src="movie.images.poster.path"
-					:alt="movie.title + ' movie poster'"
-				/>
-			</g-link>
-		</div>
-		<div class="flex flex-col flex-grow px-8 py-4 bg-color-333">
-			<h3 class="font-bold text-4xl md:text-2xl lg:text-2xl text-gray-200 movie--title"><g-link :to="'/' + movie.id">{{movie.title}}</g-link></h3>
-			<span class="movie--year text-xl lg:text-sm lg:mb-4">{{movie.year}}</span>
-			<div class="flex-grow">
-				<p class="text-xl md:text-base lg:text-base text-gray-100 leading-snug truncate-overflow">{{movie.plot}}</p>
-				<p class="mt-4 text-gray-100">- Directed by {{movie.director}}.</p>
-			</div>
-			<div class="button-container flex justify-between mb-2">
-				<template v-for="category in ['genres', 'studios', 'countries', 'languages']">
-					<g-link v-for="(item, index) in movie[category]" :key="category + index" :to="'/' + category + '/' + item.id">
-						<img v-if="item.icon" :src="item.icon" :title="item.name" class="icon" />
-					</g-link>
-				</template>
-			</div>
-		</div>
-	</div>
+	<Card
+		:link="'/' + movie.id"
+		:poster="movie.images && movie.images.poster && movie.images.poster.path"
+		:title="movie.title"
+		:subtitle="movie.year"
+		:icons="{genres: movie.genres, studios: movie.studios, countries: movie.countries, languages: movie.languages}"
+	>
+		<p class="text-xl md:text-base lg:text-base text-gray-100 leading-snug truncate-overflow">{{movie.plot}}</p>
+		<Rating />
+		<p class="mt-4 text-gray-100">- Directed by {{movie.director}}.</p>
+	</Card>
 </template>
 
 <script>
+	import Card from './Card.vue';
+	import Rating from './Rating.vue';
 	export default {
+		components: {Card, Rating},
 		props: {
 			movie: Object,
-		},
-		data() {
-			return {
-			};
 		},
 	};
 </script>

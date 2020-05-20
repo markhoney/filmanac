@@ -5,11 +5,12 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-	siteName: 'A Movie for Today',
+	siteName: 'Movies for Today',
 	// siteUrl: '',
 	// siteDescription: '',
-	siteUrl: 'https://markhoney.github.io',
-	pathPrefix: '/amoviefortoday',
+	// siteUrl: 'https://markhoney.github.io',
+	// pathPrefix: '/amoviefortoday',
+	// siteUrl: 'https://movies.honeychurch.org',
 	plugins: [
 		'~/src/data/gridsome-source-movies.js',
 		'gridsome-plugin-tailwindcss',

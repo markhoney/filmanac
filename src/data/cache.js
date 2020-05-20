@@ -9,30 +9,6 @@ const {google} = require('googleapis');
 // const MovieDB = require('node-themoviedb/index');
 // const mdb = new MovieDB(process.env.TheMovieDBKey);
 
-function unique(array) {
-	return [...new Set(array)].filter((element) => !['N/A', 'None', '', null, undefined].includes(element));
-}
-
-function split(string, separator) {
-	if (string) return unique(string.split(separator).map((item) => item.trim().replace(/\.+$/g, '')));
-	return [];
-}
-
-function slugify(name) {
-	return name.toLowerCase().split(' ').join('_');
-}
-
-function cleanObj(obj) {
-	for (let prop in obj) {
-		if (typeof obj[prop] === 'string' && ['N/A', 'None', '', null, undefined].includes(obj[prop].trim())) delete obj[prop];
-	}
-	return obj;
-}
-
-function monthName(number) {
-	return ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][number - 1];
-}
-
 class MovieEvents {
 	constructor() {
 		this.sheets = null;
@@ -40,7 +16,6 @@ class MovieEvents {
 		this.movies = [];
 		this.events = [];
 		this.studios = [];
-		this.ratings = [];
 		this.genres = [];
 		this.countries = [];
 		this.languages = [];
@@ -145,117 +120,6 @@ class MovieEvents {
 		}
 		console.log(`Missing ${type}:`.red, title);
 		return null;
-	}
-
-	getStudios() {
-		this.studios = unique(this.movies.map((movie) => movie.studios).flat()).map((studio) => ({
-			id: slugify(studio),
-			name: studio,
-			icon: this.getImagePath(studio, 'studio', 'colour'),
-		}));
-		for (const movie of this.movies) {
-			if (movie.studios) movie.studios = movie.studios.map((studio) => slugify(studio));
-		}
-	}
-
-	getRatings() {
-		this.ratings = unique(this.movies.map((movie) => movie.rating)).map((rating) => ({
-			id: slugify(rating),
-			name: rating,
-			icon: this.getImagePath(rating, 'rating', 'us'),
-		}));
-		for (const movie of this.movies) {
-			if (movie.rating) movie.rating = slugify(movie.rating);
-		}
-	}
-
-	getLanguages(countries) {
-		const languages = [];
-		for (const country of countries) {
-			if (country.languages) for (const language of country.languages) {
-				languages.push({from: language, to: country.name});
-			}
-		}
-		this.languages = unique(this.movies.map((movie) => movie.languages).flat()).map((language) => ({
-			id: slugify(language),
-			name: language,
-			icon: this.getImagePath(language, 'language', 'flag', languages),
-		}));
-		for (const movie of this.movies) {
-			if (movie.languages) movie.languages = movie.languages.map((language) => slugify(language));
-		}
-	}
-
-	getCountries(countries) {
-		const countrynames = [];
-		for (const country of countries) {
-			if (country.altnames) for (const name of country.altnames) {
-				countrynames.push({from: name, to: country.name});
-			}
-		}
-		this.countries = unique(this.movies.map((movie) => movie.countries).flat()).map((country) => ({
-			id: slugify(country),
-			name: country,
-			icon: this.getImagePath(country, 'country', 'map', countrynames),
-		}));
-		for (const movie of this.movies) {
-			if (movie.countries) movie.countries = movie.countries.map((country) => slugify(country));
-		}
-	}
-
-	getGenres() {
-		this.genres = unique(this.movies.map((movie) => movie.genres).flat()).map((genre) => ({
-			id: slugify(genre),
-			name: genre,
-			icon: this.getImagePath(genre, 'genre', 'white'),
-			fanart: this.getImagePath(genre, 'genre', 'fanart'),
-		}));
-		for (const movie of this.movies) {
-			if (movie.genres) movie.genres = movie.genres.map((genre) => slugify(genre));
-		}
-	}
-
-	getYears() {
-		this.years = unique(this.events.map((event) => event.year)).map((year) => ({
-			id: year,
-			name: year,
-			// movies: this.events.filter((event) => event.year === year).map((event) => event.ids.imdb),
-		}));
-	}
-
-	getMovies(events) {
-		return events
-			.filter((v,i,a) => a.findIndex((t) => (t.imdb === v.imdb)) === i)
-			.map((event) => {
-				const movie = {
-					id: event.imdb,
-					info: {
-						imdb: {
-							id: event.imdb,
-							url: `https://www.imdb.com/title/${event.imdb}/`,
-						},
-					},
-				};
-				if (event.moviewikidata) {
-					movie.info.wikidata = {
-						id: event.moviewikidata,
-						url: `https://www.wikidata.org/wiki/${event.moviewikidata}`,
-					};
-				}
-				if (event.moviewikipedia) {
-					movie.info.wikipedia = {
-						id: event.moviewikipedia,
-						url: `https://en.wikipedia.org/wiki/${event.moviewikipedia}`,
-					};
-				}
-				return movie;
-		});
-	}
-
-	addEventsToDays() {
-		for (const event of this.events) {
-			this.days.find((day) => day.month === event.date.month && day.day === event.date.day).events.push(event.id);
-		}
 	}
 
 	async getPoster(id, url) {
@@ -409,9 +273,6 @@ class MovieEvents {
 			}
 			if (movie.genres) movie.genres = split(movie.genres, ',');
 			if (movie.languages) movie.languages = split(movie.languages, ',');
-			if (movie.actors) movie.actors = split(movie.actors, ',');
-			if (movie.runtime) movie.runtime = movie.runtime.replace(' min', '');
-			if (movie.rating) movie.rating = movie.rating * 10;
 			const [tmdb, fanart] = await this.getFanart(movie.id, movie.poster);
 			if (tmdb) movie.info.tmdb = {
 				id: tmdb,

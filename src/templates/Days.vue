@@ -1,13 +1,5 @@
 <template>
-	<Layout>
-		<h1 class="font-bold text-4xl">
-			<g-link :to="day.previous">&lt;</g-link>
-			{{date}}
-			<g-link :to="day.next">&gt;</g-link>
-		</h1>
-		<Event v-for="(event, index) in day.events" :key="index" :event="event" />
-		<p v-if="!day.events.length">Sorry, there are no movies for today. If you know of a movie that is connected to this date, please let me know by emailing me at <a href="mailto:mark@honeychurch.org">mark@honeychurch.org</a></p>
-	</Layout>
+	<Day :day="this.$page.days.edges[0].node" />
 </template>
 
 <page-query>
@@ -80,17 +72,16 @@
 </page-query>
 
 <script>
-	import Event from '@/components/EventCard.vue';
+	import Day from '@/components/Day.vue';
 	export default {
-		components: {Event},
+		components: {Day},
 		metaInfo() {
 			return {
 				title: 'Movies for ' + this.date,
 			};
 		},
 		computed: {
-			day() {return this.$page.days.edges[0].node},
-			date() {return this.day.month_full + ' ' + this.day.day_ordinal},
+			date() {return this.$page.days.edges[0].node.month_full + ' ' + this.$page.days.edges[0].node.day_ordinal},
 		},
 	};
 </script>

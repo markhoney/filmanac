@@ -1,111 +1,44 @@
 <template>
-	<Layout>
-		<h1 class="font-bold text-4xl">
-			<g-link :to="today.previous">&lt;</g-link>
-			{{today.month_full}} {{today.day_ordinal}}
-			<g-link :to="today.next">&gt;</g-link>
-		</h1>
-		<div v-if="today">
-			<Movie v-for="(event, index) in today.events" :key="index" :movie="event.movie" />
-		</div>
-	</Layout>
+	<Day :day="this.day" />
 </template>
 
-<page-query>
-	{
-		allDays {
-			edges {
-				node {
-					id
-					month
-					month_full
-					day
-					day_ordinal
-					previous
-					next
-					events {
-						id
-						info {
-							wikipedia {
-								url
-							}
-						}
-						reason {
-							short
-							description
-						}
-						refreshments {
-							list
-						}
-						mention {
-							timestamp
-							description
-						}
-						movie {
-							id
-							title
-							plot
-							director
-							year
-							images {
-								poster {
-									path
-								}
-							}
-							studios {
-								id
-								name
-								icon
-							}
-							genres {
-								id
-								name
-								icon
-							}
-							countries {
-								id
-								name
-								icon
-							}
-							languages {
-								id
-								name
-								icon
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-</page-query>
-
 <script>
-	import Movie from '@/components/MovieCard.vue';
+	import Day from '@/components/Day.vue';
 	export default {
-		components: {Movie},
+		components: {Day},
 		metaInfo: {
 			title: 'Movies for Today',
 		},
 		data () {
 			return {
 				now: new Date(),
+				mounted: false,
 			};
 		},
 		created () {
 			setInterval(() => this.now = new Date, 1000 * 60);
 		},
+		mounted () {
+			this.mounted = true;
+		},
 		computed: {
-			month() {
-				return this.now.getMonth() + 1;
+			month() {return this.now.getMonth() + 1},
+			day() {return this.now.getDate()},
+			date() {return this.day.month_full + ' ' + this.day.day_ordinal},
+		},
+		asyncComputed: {
+			async day() {
+				if (this.mounted) {
+					const results = await fetch(`/assets/data/${this.month}/${this.day}/index.json`);
+					try {
+						const json = await results.json();
+						return json.data.days.edges[0].node;
+					} catch(e) {
+						console.log('Data file not found');
+					}
+				}
+				return null;
 			},
-			day() {
-				return this.now.getDate();
-			},
-			today() {
-				const today = this.$page.allDays.edges.find((date) => date.node.month === this.month && date.node.day === this.day);
-				return today && today.node;
-			}
 		},
 	};
 </script>

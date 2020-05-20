@@ -7,6 +7,7 @@
 		"dev": "yarn develop",
 		"build": "gridsome build",
 		"predeploy": "yarn build",
+		"serve": "serve dist",
 		"deploy": "gh-pages -d dist",
 		"explore": "gridsome explore",
 		"lint": "eslint --ext .js,.vue --ignore-path .gitignore -f table .",
@@ -14,19 +15,19 @@
 		"share": "lt --port 8080 --subdomain aarond",
 		"up": "yarn upgrade && yarn upgrade-interactive --latest"
 	},
-	"dependencies": {
-		"gridsome": "^0.7.0"
-	},
 	"devDependencies": {
 		"colors": "^1.4.0",
 		"csv-parse": "^4.9.0",
 		"fanart.tv": "^2.1.0",
 		"gh-pages": "^2.2.0",
 		"googleapis": "^51.0.0",
+		"gridsome": "^0.7.0",
 		"gridsome-plugin-tailwindcss": "^2.2.48",
 		"imdb-api": "^4.0.3",
 		"node-fetch": "^2.6.0",
 		"node-themoviedb": "^0.1.4",
+		"serve": "^11.3.0",
+		"vue-async-computed": "^3.8.2",
 		"wikidata-sdk": "^7.4.1"
 	}
 }
