@@ -4,8 +4,22 @@
 import DefaultLayout from '~/layouts/Default.vue';
 import AsyncComputed from 'vue-async-computed';
 
-export default function (Vue, {router, head, isClient}) {
+// import Loading from 'vue-loading-overlay';
+// import 'vue-loading-overlay/dist/vue-loading.css';
+
+export default function (Vue, {router}) { // , {head, isClient}
 	// Set default layout as a global component
 	Vue.component('Layout', DefaultLayout);
 	Vue.use(AsyncComputed);
+	/* Vue.use(Loading);
+	let loader;
+
+	router.beforeEach((to, from, next) => {
+		loader = Vue.$loading.show();
+		next();
+	});
+
+	router.afterEach((to, from) => {
+		loader.hide();
+	}); */
 }

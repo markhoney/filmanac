@@ -2,7 +2,7 @@
 	"name": "filmanac",
 	"private": true,
 	"scripts": {
-		"scrape": "node --trace-warnings src/data/movieevents",
+		"scrape": "node src/data/movieevents",
 		"develop": "gridsome develop",
 		"dev": "yarn develop",
 		"build": "gridsome build",
@@ -16,18 +16,27 @@
 		"up": "yarn upgrade && yarn upgrade-interactive --latest"
 	},
 	"devDependencies": {
+		"@gridsome/plugin-sitemap": "^0.2.3",
 		"colors": "^1.4.0",
 		"csv-parse": "^4.9.0",
 		"fanart.tv": "^2.1.0",
 		"gh-pages": "^2.2.0",
 		"googleapis": "^51.0.0",
 		"gridsome": "^0.7.0",
+		"gridsome-plugin-feed": "^1.0.2",
+		"gridsome-plugin-flexsearch": "^0.1.20",
+		"gridsome-plugin-pwa": "^0.0.17",
 		"gridsome-plugin-tailwindcss": "^2.2.48",
 		"imdb-api": "^4.0.3",
 		"node-fetch": "^2.6.0",
 		"node-themoviedb": "^0.1.4",
 		"serve": "^11.3.0",
 		"vue-async-computed": "^3.8.2",
+		"vue-loading-overlay": "^3.3.2",
 		"wikidata-sdk": "^7.4.1"
+	},
+	"dependencies": {
+		"ffmpeg-extract-frame": "^1.0.2",
+		"vue-carousel": "^0.18.0"
 	}
 }

@@ -6,8 +6,10 @@
 ## To Do
 
 - Components
-  - Movie card view
-    - Days
+  - ~~Movie card view~~
+    - Use for categories
+  - ~~Event card view~~
+    - Use for Days
   - Movie full screen view
     - Single Movie
   - Movie cover view
@@ -16,6 +18,10 @@
     - All movies?
   - Timeline view
     - All movies?
+  - ~~Ratings~~
+  - Actors
+  - Director
+  - Rated
 
 - Layout
   - Red curtain
@@ -24,4 +30,4 @@
       - Centre
     - Variable sides
       - Tiled on the outside
-  - Dark body
+  - ~~Dark body~~

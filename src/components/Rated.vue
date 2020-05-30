@@ -1,0 +1,5 @@
+<template>
+	<p style="font-family: Garamond, 'Times New Roman', serif;" class="m-2 px-1 border-4 rounded-lg font-serif font-bold uppercase">
+		<slot />
+	</p>
+</template>

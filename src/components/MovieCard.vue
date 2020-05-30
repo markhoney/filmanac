@@ -7,16 +7,18 @@
 		:icons="{genres: movie.genres, studios: movie.studios, countries: movie.countries, languages: movie.languages}"
 	>
 		<p class="text-xl md:text-base lg:text-base text-gray-100 leading-snug truncate-overflow">{{movie.plot}}</p>
-		<Rating />
-		<p class="mt-4 text-gray-100">- Directed by {{movie.director}}.</p>
+		<Rated v-if="movie.rated" class="float-right">{{movie.rated.title}}</Rated>
+		<Rating class="mt-2" :percent="movie.rating" :stars="5" />
+		<!--<p class="mt-4 text-gray-100">- Directed by {{movie.director}}.</p>-->
 	</Card>
 </template>
 
 <script>
 	import Card from './Card.vue';
 	import Rating from './Rating.vue';
+	import Rated from './Rated.vue';
 	export default {
-		components: {Card, Rating},
+		components: {Card, Rating, Rated},
 		props: {
 			movie: Object,
 		},
@@ -24,36 +26,6 @@
 </script>
 
 <style>
-	/* body {
-		background: #111;
-		width: 100%;
-		margin: 64px auto;
-		font-size: 16px;
-		color: #ccc;
-	} */
-
-	.icon {
-		max-height: 32px;
-		width: auto;
-		/* margin: 8px; */
-	}
-	.flex--movie {
-		max-width: 80%;
-		margin: 0 auto;
-	}
-
-	.bg-color-333 {
-		background-color: #333;
-	}
-
-	.movie--year {
-		font-variant-numeric: ordinal;
-		font-weight: 700;
-		color: #fff;
-		letter-spacing: 0.07em;
-		font-family: monospace;
-	}
-
 	.truncate-overflow {
 		--max-lines: 3;
 		position: relative;

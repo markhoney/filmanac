@@ -1,12 +1,21 @@
 <template>
-	<div>
-		<svg v-for="i in stars" :key="i" :class="[percent * stars + 1 / 100 >= i ? 'text-blue': 'text-grey']" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block h-8 w-8" viewBox="0 0 20 20"><path d="M10 15l-6 3 1-6-5-5 7-1 3-6 3 6 7 1-5 5 1 6z"/></svg>
+	<div :title="percent + '%'">
+		<button v-for="i in stars" :key="i" :class="[i <= rating ? 'text-blue-500' : 'text-gray-200']">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8" viewBox="0 0 260 245">
+				<path d="M55 237L129 9l74 228L9 96h240"/>
+			</svg>
+		</button>
 	</div>
 </template>
 
 <script>
 	export default {
-		name: "StarRating",
+		title: "StarRating",
 		props: ['percent', 'stars'],
+		computed: {
+			rating() {
+				return this.percent * (this.stars + 1) / 100 - 0.5;
+			},
+		},
 	};
 </script>

@@ -1,50 +1,64 @@
 <template>
 	<Layout>
-		<h1>
-			{{$page.languages.name}}
-		</h1>
-		<Movie v-for="(movie, index) in $page.languages.belongsTo.edges" :key="index" :movie="movie.node" />
+		<h1>{{$page.language.title}}</h1>
+		<Movie v-for="(movie, index) in $page.language.belongsTo.edges" :key="index" :movie="movie.node" />
 	</Layout>
 </template>
 
 <page-query>
 	query languages($id: ID) {
-		languages(id: $id) {
-			name
-			icon
+		language: languages(id: $id) {
+			title
+			country {
+				id
+				flag
+				map
+			}
 			belongsTo {
 				edges {
 					node {
-						... on Movies {
+						... on Movie {
 							id
 							title
 							plot
-							director
+							directors
+							actors
 							year
+							rating
+							runtime
+							actors
+							awards
 							images {
 								poster {
 									path
 								}
 							}
+							rated {
+								id
+								title
+							}
 							studios {
 								id
-								name
+								title
 								icon
 							}
 							genres {
 								id
-								name
+								title
 								icon
 							}
 							countries {
 								id
-								name
-								icon
+								title
+								map
 							}
 							languages {
 								id
-								name
-								icon
+								title
+								country {
+									id
+									flag
+								}
 							}
 						}
 					}
@@ -60,7 +74,7 @@
 		components: {Movie},
 		metaInfo() {
 			return {
-				title: this.$page.languages.name + ' Movies',
+				title: this.$page.language.title + ' Movies',
 			};
 		},
 	};

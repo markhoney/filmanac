@@ -1,50 +1,60 @@
 <template>
 	<Layout>
-		<h1>
-			{{$page.studios.name}}
-		</h1>
-		<Movie v-for="(movie, index) in $page.studios.belongsTo.edges" :key="index" :movie="movie.node" />
+		<h1>{{$page.studios.title}}</h1>
+		<Movie v-for="(movie, index) in $page.studio.belongsTo.edges" :key="index" :movie="movie.node" />
 	</Layout>
 </template>
 
 <page-query>
 	query studios($id: ID) {
-		studios(id: $id) {
-			name
+		studio: studios(id: $id) {
+			title
 			icon
 			belongsTo {
 				edges {
 					node {
-						... on Movies {
+						... on Movie {
 							id
 							title
 							plot
-							director
+							directors
+							actors
 							year
+							rating
+							runtime
+							actors
+							awards
 							images {
 								poster {
 									path
 								}
 							}
+							rated {
+								id
+								title
+							}
 							studios {
 								id
-								name
+								title
 								icon
 							}
 							genres {
 								id
-								name
+								title
 								icon
 							}
 							countries {
 								id
-								name
-								icon
+								title
+								map
 							}
 							languages {
 								id
-								name
-								icon
+								title
+								country {
+									id
+									flag
+								}
 							}
 						}
 					}
@@ -60,7 +70,7 @@
 		components: {Movie},
 		metaInfo() {
 			return {
-				title: this.$page.studios.name + ' Movies',
+				title: this.$page.studio.title + ' Movies',
 			};
 		},
 	};

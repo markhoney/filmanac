@@ -1,5 +1,5 @@
 <template>
-	<Day :day="this.day" />
+	<Day :day="this.today" />
 </template>
 
 <script>
@@ -27,7 +27,7 @@
 			date() {return this.day.month_full + ' ' + this.day.day_ordinal},
 		},
 		asyncComputed: {
-			async day() {
+			async today() {
 				if (this.mounted) {
 					const results = await fetch(`/assets/data/${this.month}/${this.day}/index.json`);
 					try {

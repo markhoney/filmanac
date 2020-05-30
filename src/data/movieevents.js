@@ -9,17 +9,47 @@ const {google} = require('googleapis');
 // const MovieDB = require('node-themoviedb/index');
 // const mdb = new MovieDB(process.env.TheMovieDBKey);
 
+const nofanart = require('./nofanart.json');
+
 function unique(array) {
 	return [...new Set(array)].filter((element) => !['N/A', 'None', '', null, undefined].includes(element));
 }
 
-function split(string, separator) {
+function removeNA(obj) {
+	for (const key in obj) {
+		if (obj[key] === 'N/A') delete obj[key];
+	}
+}
+
+function split(string, separator = ',') {
 	if (string) return unique(string.split(separator).map((item) => item.trim().replace(/\.+$/g, '')));
 	return [];
 }
 
 function slugify(name) {
 	return name.toLowerCase().split(' ').join('_');
+}
+
+function ord(number) {
+	return number > 0 ? ['th', 'st', 'nd', 'rd'][(number > 3 && number < 21) || number % 10 > 3 ? 0 : number % 10] : '';
+}
+
+function ordWord(number) {
+	return [
+		'Zeroth', 'First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eighth', 'Ninth',
+		'Tenth', 'Eleventh', 'Twelth', 'Thirteenth', 'Fourteenth', 'Fifteenth', 'Sixteenth', 'Seventeenth', 'Eighteenth', 'Nineteenth',
+		'Twentieth', 'Twenty First', 'Twenty Second', 'Twenty Third', 'Twenty Fourth', 'Twenty Fifth', 'Twenty Sixth', 'Twenty Seventh', 'Twenty Eighth', 'Twenty Ninth',
+		'Thirtieth', 'Thirty First'
+	][number];
+}
+
+function numberWord(number) {
+	return [
+		'Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine',
+		'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen',
+		'Twenty', 'Twenty One', 'Twenty Two', 'Twenty Three', 'Twenty Four', 'Twenty Five', 'Twenty Six', 'Twenty Seven', 'Twenty Eight', 'Twenty Nine',
+		'Thirty', 'Thirty One'
+	][number];
 }
 
 function cleanObj(obj) {
@@ -33,58 +63,83 @@ function monthName(number) {
 	return ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][number - 1];
 }
 
+function titleCase(string) {
+	if (string) return string
+		.toLowerCase()
+		.split(' ')
+		.map(word => word.charAt(0).toUpperCase() + word.slice(1))
+		.join(' ');
+}
+
 class MovieEvents {
 	constructor() {
 		this.sheets = null;
-		this.days = this.getDays();
-		this.movies = [];
-		this.events = [];
+		[this.dayofyear, this.month, this.day] = this.getAllDates();
+		this.days = [];
+		this.movie = [];
+		this.event = [];
 		this.studios = [];
-		this.ratings = [];
+		this.rated = [];
 		this.genres = [];
 		this.countries = [];
 		this.languages = [];
-		this.years = [];
-		this.ratings = [];
+		this.stats = {};
+		this.year = [];
+		this.directors = [];
+		this.writers = [];
+		this.actors = [];
 	}
 
-	getDays() {
+	getAllDates() {
 		const months = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 		const days = [];
-		for (let month = 1; month <= months.length; month++) {
+		const dates = [];
+		for (let month in months) {
+			month = parseInt(month) + 1;
 			for (let day = 1; day <= months[month - 1]; day++) {
-				days.push({
+				if (month === 1) days.push({
+					id: day,
+					title: ordWord(day),
+					ordinal: ord(day),
+				});
+				dates.push({
 					id: [month, day].join('-'),
 					path: `/${month}/${day}`,
 					month,
-					month_short: monthName(month).toLowerCase().slice(0, 3),
-					month_full: monthName(month),
 					day,
-					day_ordinal: day + (day > 0 ? ['th', 'st', 'nd', 'rd'][(day > 3 && day < 21) || day % 10 > 3 ? 0 : day % 10] : ''),
-					events: [],
+					title: `${monthName(month)} ${day}${ord(day)}`,
+					// dm: `${day}${ord(day)} ${monthName(month)}`,
 				});
 			}
+			months[month - 1] = {
+				id: month,
+				slug: monthName(month).toLowerCase().slice(0, 3),
+				days: months[month],
+				title: monthName(month),
+			};
 		}
-		days[0].previous = '/12/31';
-		days[0].next = '/1/2';
-		for (let day = 1; day < days.length - 1; day++) {
-			days[day].previous = days[day - 1].path;
-			days[day].next = days[day + 1].path;
+		dates[0].previous = '/12/31';
+		dates[0].next = '/1/2';
+		for (let day = 1; day < dates.length - 1; day++) {
+			dates[day].previous = dates[day - 1].path;
+			dates[day].next = dates[day + 1].path;
 		}
-		days[365].previous = '/12/30';
-		days[365].next = '/1/1';
-		return days;
+		dates[365].previous = '/12/30';
+		dates[365].next = '/1/1';
+		return [dates, months, days];
 	}
 
 	getEvents(events) {
 		return events.map((event) => {
-			const year = parseInt(event.year);
+			const year = event.year ? parseInt(event.year) : null;
 			const month = parseInt(event.month);
 			const day = parseInt(event.day);
 			const ev = {
 				id: [month, day, event.imdb].join('-'),
 				info: {},
 				movie: event.imdb,
+				title: event.reason,
+				content: event.longreason,
 				reason: {
 					short: event.reason,
 					description: event.longreason,
@@ -97,38 +152,31 @@ class MovieEvents {
 					timestamp: event.timestamp,
 					description: event.mention,
 				},
-				date: {
-					year,
-					month,
-					month_short: monthName(month).toLowerCase().slice(0, 3),
-					month_full: monthName(month),
-					day,
-					day_ordinal: day + (day > 0 ? ['th', 'st', 'nd', 'rd'][(day > 3 && day < 21) || day % 10 > 3 ? 0 : day % 10] : ''),
-					js: year || year === 0 ? new Date(year, month - 1, day) : null,
-				},
+				year,
+				month,
+				day,
+				dayofyear: [month, day].join('-'),
+				iso: year ? [event.year, event.month, event.day].join('-') : null,
+				// dmy: `${day}${ord(day)} ${monthName(month)} ${year || ''}`.trim(),
+				title: `${monthName(month)} ${day}${ord(day)} ${year || ''}`.trim(),
 			};
-			if (event.wikidata) {
-				ev.info.wikidata = {
-					id: event.wikidata,
-					url: `https://www.wikidata.org/wiki/${event.wikidata}`,
-				};
-			}
 			if (event.wikipedia) {
 				ev.info.wikipedia = {
 					id: event.wikipedia,
 					url: `https://en.wikipedia.org/wiki/${event.wikipedia}`,
 				};
 			}
-
+			if (event.wikidata) {
+				ev.info.wikidata = {
+					id: event.wikidata,
+					url: `https://www.wikidata.org/wiki/${event.wikidata}`,
+				};
+			}
 			return ev;
 		});
 	}
 
-	getImagePath(title, type, variant, lookup) {
-		if (lookup) {
-			const newtitle = lookup.find((name) => name.from === title);
-			if (newtitle) title = newtitle.to;
-		}
+	getImagePath(title, type, variant) {
 		for (const name of unique([title, title.split(' ').join(''), title.toLowerCase(), title.toLowerCase().split(' ').join('')])) {
 			for (const ext of ['.png', '.jpg']) {
 				// if (existsSync(path)) return path;
@@ -143,84 +191,109 @@ class MovieEvents {
 				}
 			}
 		}
-		console.log(`Missing ${type}:`.red, title);
+		console.log(`Missing ${type} image:`.red, title);
 		return null;
 	}
 
+	getRated() {
+		const rated = unique(this.movie.map((movie) => movie.rated).filter((rated) => rated)).map((rated) => ({
+			id: slugify(rated),
+			title: rated.toUpperCase(),
+			// icon: this.getImagePath(rated, 'rating', 'us'),
+		}));
+		for (const movie of this.movie) {
+			if (movie.rated) movie.rated = slugify(titleCase(movie.rated));
+		}
+		return rated;
+	}
+
 	getStudios() {
-		this.studios = unique(this.movies.map((movie) => movie.studios).flat()).map((studio) => ({
+		const studios = unique(this.movie.map((movie) => movie.studios).flat()).map((studio) => ({
 			id: slugify(studio),
-			name: studio,
+			title: studio,
 			icon: this.getImagePath(studio, 'studio', 'colour'),
 		}));
-		for (const movie of this.movies) {
+		for (const movie of this.movie) {
 			if (movie.studios) movie.studios = movie.studios.map((studio) => slugify(studio));
 		}
+		return studios;
 	}
 
-	getRatings() {
-		this.ratings = unique(this.movies.map((movie) => movie.rating)).map((rating) => ({
-			id: slugify(rating),
-			name: rating,
-			icon: this.getImagePath(rating, 'rating', 'us'),
-		}));
-		for (const movie of this.movies) {
-			if (movie.rating) movie.rating = slugify(movie.rating);
-		}
-	}
-
-	getLanguages(countries) {
-		const languages = [];
-		for (const country of countries) {
-			if (country.languages) for (const language of country.languages) {
-				languages.push({from: language, to: country.name});
+	getLanguages(lookup) {
+		const languages = unique(this.movie.map((movie) => movie.languages).flat()).map((language) => {
+			const row = lookup.find((row) => row.languages && row.languages.includes(language));
+			if (row) return {
+				id: slugify(language),
+				title: language,
+				country: slugify(row.name),
+			};
+			else {
+				console.log('Missing language'.red, language);
+				return {
+					id: slugify(language),
+					title: language,
+				};
 			}
-		}
-		this.languages = unique(this.movies.map((movie) => movie.languages).flat()).map((language) => ({
-			id: slugify(language),
-			name: language,
-			icon: this.getImagePath(language, 'language', 'flag', languages),
-		}));
-		for (const movie of this.movies) {
+		});
+		for (const movie of this.movie) {
 			if (movie.languages) movie.languages = movie.languages.map((language) => slugify(language));
 		}
+		return languages;
 	}
 
-	getCountries(countries) {
-		const countrynames = [];
-		for (const country of countries) {
-			if (country.altnames) for (const name of country.altnames) {
-				countrynames.push({from: name, to: country.name});
+	getCountries(lookup) {
+		const countries = unique(this.movie.map((movie) => movie.countries).flat()).map((country) => {
+			const row = lookup.find((row) => row.name === country || row.fullname === country || (row.names && row.names.includes(country)));
+			if (row) return {
+				id: slugify(country),
+				title: country,
+				code: row.code,
+				possessive: row.possessive,
+				map: this.getImagePath(row.name, 'country', 'map'),
+				flag: this.getImagePath(row.name, 'country', 'flag'),
+			};
+			else {
+				console.log('Missing country'.red, country);
+				return {
+					id: slugify(country),
+					title: country,
+				};
 			}
-		}
-		this.countries = unique(this.movies.map((movie) => movie.countries).flat()).map((country) => ({
-			id: slugify(country),
-			name: country,
-			icon: this.getImagePath(country, 'country', 'map', countrynames),
-		}));
-		for (const movie of this.movies) {
+		});
+		for (const movie of this.movie) {
 			if (movie.countries) movie.countries = movie.countries.map((country) => slugify(country));
 		}
+		return countries;
 	}
 
 	getGenres() {
-		this.genres = unique(this.movies.map((movie) => movie.genres).flat()).map((genre) => ({
+		const genres = unique(this.movie.map((movie) => movie.genres).flat()).map((genre) => ({
 			id: slugify(genre),
-			name: genre,
+			title: genre,
 			icon: this.getImagePath(genre, 'genre', 'white'),
 			fanart: this.getImagePath(genre, 'genre', 'fanart'),
 		}));
-		for (const movie of this.movies) {
+		for (const movie of this.movie) {
 			if (movie.genres) movie.genres = movie.genres.map((genre) => slugify(genre));
 		}
+		return genres;
 	}
 
 	getYears() {
-		this.years = unique(this.events.map((event) => event.year)).map((year) => ({
+		const years = unique(this.event.map((event) => event.year)).map((year) => ({
 			id: year,
-			name: year,
-			// movies: this.events.filter((event) => event.year === year).map((event) => event.ids.imdb),
+			title: year,
 		}));
+		return years;
+	}
+
+	getDates() {
+		const dates = unique(this.event.filter((event) => event.year || event.year === 0)).map((event) => ({
+			id: [event.year, event.month, event.day].join('-'),
+			title: `${ord(event.day)} ${monthName(event.month)} ${event.year}`,
+			js: new Date(event.year, event.month - 1, event.day),
+		}));
+		return dates;
 	}
 
 	getMovies(events) {
@@ -250,12 +323,6 @@ class MovieEvents {
 				}
 				return movie;
 		});
-	}
-
-	addEventsToDays() {
-		for (const event of this.events) {
-			this.days.find((day) => day.month === event.date.month && day.day === event.date.day).events.push(event.id);
-		}
 	}
 
 	async getPoster(id, url) {
@@ -301,13 +368,16 @@ class MovieEvents {
 		return art;
 	}
 
-	getArtURLs(fanart, poster) {
+	getArtURLs(fanart, id, poster) {
 		const art = {};
 		if (fanart) {
 			art.logo = this.getURL([...(fanart.hdmovielogo || []), ...(fanart.movielogo || [])]);
 			art.clearart = this.getURL([...(fanart.hdmovieclearart || []), ...(fanart.movieclearart || [])]);
 			art.poster = this.getURL(fanart.movieposter);
-			if (!art.poster) art.poster = {url: poster};
+			if (!art.poster) {
+				if (poster) art.poster = {url: poster};
+				else console.log('No poster for'.red, id);
+			}
 			let keyart;
 			if (fanart.movieposter) keyart = fanart.movieposter.find((art) => art.lang === '00');
 			if (keyart) art.keyart = {url: keyart.url};
@@ -315,12 +385,14 @@ class MovieEvents {
 			art.disc = this.getURL(fanart.moviedisc);
 			art.banner = this.getURL(fanart.moviebanner);
 			art.landscape = this.getURL(fanart.moviethumb);
+		} else if (poster) {
+			art.poster = {url: poster};
 		}
 		return art;
 	}
 
 	async getArt(fanart, id, poster) {
-		const art = this.getArtURLs(fanart, poster);
+		const art = this.getArtURLs(fanart, id, poster);
 		for (const image in art) {
 			if (art[image]) {
 				art[image].type = image;
@@ -337,22 +409,26 @@ class MovieEvents {
 	}
 
 	async getFanart(id, poster) {
-		const json = resolve(__dirname, 'json', 'fanart', `${id}.json`);
-		let details;
-		if (!existsSync(json)) {
-			console.log('Downloading Fanart info for', id);
-			try {
-				// details = await fanart.movies.get(id);
-				// writeFileSync(json, JSON.stringify(details, null, '	'));
-			} catch(e) {
-				// console.log(e);
-				console.log('Fanart scraping error for'.red, id);
+		if (!nofanart.includes(id)) {
+			const json = resolve(__dirname, 'json', 'fanart', `${id}.json`);
+			let details;
+			if (!existsSync(json)) {
+				console.log('Downloading Fanart info for', id);
+				try {
+					details = await fanart.movies.get(id);
+					writeFileSync(json, JSON.stringify(details, null, '	'));
+				} catch(e) {
+					// console.log(e);
+					console.log('Fanart scraping error for'.red, id);
+					nofanart.push(id);
+					writeFileSync(resolve(__dirname, 'nofanart.json'), JSON.stringify(nofanart, null, '	'));
+				}
+			} else {
+				details = JSON.parse(readFileSync(json, 'utf8'));
 			}
-		} else {
-			details = JSON.parse(readFileSync(json, 'utf8'));
+			if (details) return [details.tmdb_id, await this.getArt(details, id, poster)];
 		}
-		if (details) return [details.tmdb_id, await this.getArt(details, id, poster)];
-		return [];
+		return [null, await this.getArt(null, id, poster)];
 	}
 
 	async getWikiData(id) {
@@ -361,7 +437,7 @@ class MovieEvents {
 			console.log('Downloading WikiData info for', id);
 			try {
 				const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
-				writeFileSync(json, JSON.stringify(details, null, '	'));
+				writeFileSync(json, JSON.stringify(details, null, '\t'));
 				return details;
 			} catch(e) {
 				// console.log(e);
@@ -397,6 +473,7 @@ class MovieEvents {
 			movie = {
 				...movie,
 				...details,
+				content: details.plot,
 				// ...paths,
 			};
 			if (movie.production) {
@@ -404,14 +481,24 @@ class MovieEvents {
 				delete movie.production;
 			}
 			if (movie.country) {
-				movie.countries = split(movie.country, ',');
+				movie.countries = split(movie.country);
 				delete movie.country;
 			}
-			if (movie.genres) movie.genres = split(movie.genres, ',');
-			if (movie.languages) movie.languages = split(movie.languages, ',');
-			if (movie.actors) movie.actors = split(movie.actors, ',');
+			if (movie.genres) movie.genres = split(movie.genres);
+			if (movie.languages) movie.languages = split(movie.languages);
+			if (movie.actors) movie.actors = split(movie.actors);
 			if (movie.runtime) movie.runtime = movie.runtime.replace(' min', '');
 			if (movie.rating) movie.rating = movie.rating * 10;
+			if (movie.rated) movie.rated = movie.rated.toUpperCase();
+			if (movie.director) {
+				movie.directors = split(movie.director);
+				delete movie.director;
+			}
+			if (movie.writer) {
+				movie.writers = split(movie.writer);
+				delete movie.writer;
+			}
+
 			const [tmdb, fanart] = await this.getFanart(movie.id, movie.poster);
 			if (tmdb) movie.info.tmdb = {
 				id: tmdb,
@@ -424,9 +511,17 @@ class MovieEvents {
 		return movie;
 	}
 
+	async eventScreenshot() {
+		await extractFrame({
+			input: 'media/1.mp4',
+			output: 'test.jpg',
+			offset: 1000, // seek offset in milliseconds
+		});
+	}
+
 	async getMovieDetails() {
-		for (const index in this.movies) {
-			this.movies[index] = await this.getDetails(this.movies[index]);
+		for (const index in this.movie) {
+			this.movie[index] = await this.getDetails(this.movie[index]);
 		}
 	}
 
@@ -447,38 +542,55 @@ class MovieEvents {
 
 	async get() {
 		const events = await this.getSheet('Movies');
-		const countries = await this.getSheet('Countries');
-		for (const country of countries) {
-			if (country.languages) country.languages = country.languages.split(',');
-			if (country.altnames) country.altnames = country.altnames.split(',');
-		}
-		this.events = this.getEvents(events);
-		this.movies = this.getMovies(events);
-		this.addEventsToDays();
+		const countries = (await this.getSheet('Countries')).map((country) => ({
+			...country,
+			titles: country.names && split(country.names),
+			languages: country.languages && split(country.languages),
+		}));
+		this.event = this.getEvents(events);
+		this.movie = this.getMovies(events);
 		await this.getMovieDetails();
-		this.getStudios();
-		this.getGenres();
-		this.getLanguages(countries);
-		this.getCountries(countries);
-		this.getYears();
+		this.studios = this.getStudios();
+		this.rated = this.getRated();
+		this.genres = this.getGenres();
+		this.languages = this.getLanguages(countries);
+		this.countries = this.getCountries(countries);
+		this.years = this.getYears();
+		this.days = this.getDates();
+		this.stats = this.getStats();
 	}
 
-	stats() {
-		let days = 0;
-		for (const day of this.days) {
-			if (day.events.length) days++;
-		}
-		return days;
+	stat(name) {
+		const stat = this.stats.find((stat) => stat.id === name);
+		if (stat) return stat.value;
+	}
+
+	getStats() {
+		const days = unique(this.event.map((event) => event.dayofyear)).length;
+		return [
+			{id: 'days', value: days},
+			{id: 'missing', value: 366 - days},
+			{id: 'months', value: this.month.length},
+			{id: 'years', value: this.year.length},
+			{id: 'dates', value: this.days.length},
+			{id: 'events', value: this.event.length},
+			{id: 'movies', value: this.movie.length},
+			{id: 'rated', value: this.rated.length},
+			{id: 'studios', value: this.studios.length},
+			{id: 'genres', value: this.genres.length},
+			{id: 'languages', value: this.languages.length},
+			{id: 'countries', value: this.countries.length},
+		];
 	}
 }
 
 async function getAll() {
 	const movieEvents = new MovieEvents();
 	await movieEvents.get();
-	// for (const movie of movieEvents.movies) console.log(movie.studios);
 	if (!module.parent) {
-		const days = movieEvents.stats();
-		console.log(movieEvents.movies.length, 'movies.', days, 'days covered,', 366 - days, 'days missing.');
+		console.log();
+		console.log(movieEvents.stat('events'), 'events in', movieEvents.stat('movies'), 'movies.', movieEvents.stat('days'), 'days covered,', movieEvents.stat('missing'), 'days missing.');
+		console.log();
 	}
 }
 

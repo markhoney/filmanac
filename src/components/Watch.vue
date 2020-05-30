@@ -1,0 +1,13 @@
+<template>
+	<div class="button-container flex justify-between mb-2">
+		<a v-for="(service, index) in services" :key="index" :href="service.url">
+			<img v-if="service.icon" :src="service.icon" :title="service.title" class="icon" />
+		</a>
+	</div>
+</template>
+
+<script>
+	export default {
+		props: ['services'],
+	}
+</script>

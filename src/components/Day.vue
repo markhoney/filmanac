@@ -2,11 +2,16 @@
 	<Layout v-if="day">
 		<h1 class="font-bold text-4xl">
 			<g-link :to="day.previous">&lt;</g-link>
-			{{date}}
+			<span style="width: 400px;"> {{date}} </span>
 			<g-link :to="day.next">&gt;</g-link>
 		</h1>
-		<Event v-for="(event, index) in day.events" :key="index" :event="event" />
-		<NoEvents v-if="!day.events.length" />
+		<!--<carousel>
+			<slide v-for="(event, index) in day.belongsTo.edges" :key="index" :perPage="1">
+				<Event :event="event.node" />
+			</slide>
+		</carousel>-->
+		<Event v-for="(event, index) in day.belongsTo.edges" :key="index" :event="event.node" />
+		<NoEvents v-if="!day.belongsTo.edges.length" />
 	</Layout>
 	<Layout v-else>
 		<Loading />
@@ -21,7 +26,7 @@
 		components: {Event, NoEvents, Loading},
 		props: ['day'],
 		computed: {
-			date() {return this.day.month_full + ' ' + this.day.day_ordinal},
+			date() {return this.day.month.title + ' ' + this.day.day.id + this.day.day.ordinal},
 		},
 	};
 </script>

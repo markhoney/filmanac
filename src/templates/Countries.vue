@@ -1,50 +1,61 @@
 <template>
 	<Layout>
-		<h1>
-			{{$page.countries.name}}
-		</h1>
+		<h1>{{$page.country.title}}</h1>
 		<Movie v-for="(movie, index) in $page.countries.belongsTo.edges" :key="index" :movie="movie.node" />
 	</Layout>
 </template>
 
 <page-query>
 	query counties($id: ID) {
-		countries(id: $id) {
-			name
-			icon
+		country: countries(id: $id) {
+			title
+			flag
+			map
 			belongsTo {
 				edges {
 					node {
-						... on Movies {
+						... on Movie {
 							id
 							title
 							plot
-							director
+							directors
+							actors
 							year
+							rating
+							runtime
+							actors
+							awards
 							images {
 								poster {
 									path
 								}
 							}
+							rated {
+								id
+								title
+							}
 							studios {
 								id
-								name
+								title
 								icon
 							}
 							genres {
 								id
-								name
+								title
 								icon
 							}
 							countries {
 								id
-								name
-								icon
+								title
+								map
 							}
 							languages {
 								id
-								name
-								icon
+								title
+								country {
+									id
+									flag
+								}
 							}
 						}
 					}
@@ -60,7 +71,7 @@
 		components: {Movie},
 		metaInfo() {
 			return {
-				title: this.$page.countries.name + ' Movies',
+				title: this.$page.country.title + ' Movies',
 			};
 		},
 	};

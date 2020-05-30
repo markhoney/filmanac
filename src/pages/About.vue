@@ -1,14 +1,15 @@
 <template>
 	<Layout>
-		<h1>About us</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+		<p>The idea for this website came about a friend watched <g-link to="/tt0367594">Charlie and the Chocolate Factory</g-link> on the First of February, and spotted that the visit to the chocolate factory happens on February the first. When he realised that the next day, February the second, was <g-link to="/tt0107048">Groundhog Day</g-link>, he thought it was a nice coincidence.</p>
+		<p>When my friend told me this story a few days later, we sat there and thought of a few more movies that are related to a particular day of the year. Some of the first movies we came up with were <g-link to="/tt0116629">Independence Day</g-link>, <g-link to="/tt0058777">Zulu</g-link>, <g-link to="/tt0077651">Halloween</g-link> and <g-link to="/tt0095016">Die Hard</g-link>. Of course, it seemed prudent to start adding these movies to a spreadsheet.</p>
+		<p>As the spreadsheet started growing, I realised that it would be nice to have a website where others could see the list. So I figured I'd try out Gridsome, a nice Vue based static site generator that uses GraphQL as a data layer. I'm a big fan of shiny new JavaScript technologies, and a Vue/GraphQL solution seemed perfect. I've also used Tailwind CSS, a utility-first CSS library, to make things look nice.</p>
 	</Layout>
 </template>
 
 <script>
 export default {
 	metaInfo: {
-		title: 'About us'
+		title: 'About this website'
 	}
 }
 </script>
