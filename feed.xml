@@ -4,7 +4,7 @@
         <title>Movies for Today</title>
         <link>https://movies.honeychurch.org/</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 04 Jun 2020 09:16:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jun 2020 02:47:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Gridsome Feed Plugin</generator>
         <atom:link href="https://movies.honeychurch.org/feed.xml" rel="self" type="application/rss+xml"/>
@@ -12,6 +12,11 @@
             <title><![CDATA[The Age of Adaline]]></title>
             <link>https://movies.honeychurch.org/tt1655441/</link>
             <guid>https://movies.honeychurch.org/tt1655441/</guid>
+        </item>
+        <item>
+            <title><![CDATA[The Wall]]></title>
+            <link>https://movies.honeychurch.org/tt0190874/</link>
+            <guid>https://movies.honeychurch.org/tt0190874/</guid>
         </item>
         <item>
             <title><![CDATA[The Poseidon Adventure]]></title>
@@ -89,6 +94,11 @@
             <guid>https://movies.honeychurch.org/tt0033954/</guid>
         </item>
         <item>
+            <title><![CDATA[The Brink's Job]]></title>
+            <link>https://movies.honeychurch.org/tt0077275/</link>
+            <guid>https://movies.honeychurch.org/tt0077275/</guid>
+        </item>
+        <item>
             <title><![CDATA[The Executioner's Song]]></title>
             <link>https://movies.honeychurch.org/tt0083909/</link>
             <guid>https://movies.honeychurch.org/tt0083909/</guid>
@@ -122,16 +132,6 @@
             <title><![CDATA[The Ninth Day]]></title>
             <link>https://movies.honeychurch.org/tt0411702/</link>
             <guid>https://movies.honeychurch.org/tt0411702/</guid>
-        </item>
-        <item>
-            <title><![CDATA[A Mighty Heart]]></title>
-            <link>https://movies.honeychurch.org/tt0829459/</link>
-            <guid>https://movies.honeychurch.org/tt0829459/</guid>
-        </item>
-        <item>
-            <title><![CDATA[Collateral]]></title>
-            <link>https://movies.honeychurch.org/tt0369339/</link>
-            <guid>https://movies.honeychurch.org/tt0369339/</guid>
         </item>
     </channel>
 </rss>
