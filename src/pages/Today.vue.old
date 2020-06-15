@@ -29,22 +29,14 @@
 					next
 					events {
 						id
+						title
 						info {
 							wikipedia {
 								url
 							}
 						}
-						reason {
-							short
-							description
-						}
-						refreshments {
-							list
-						}
-						mention {
-							timestamp
-							description
-						}
+						refreshments
+						mention
 						movie {
 							id
 							title

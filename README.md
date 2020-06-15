@@ -31,3 +31,6 @@
     - Variable sides
       - Tiled on the outside
   - ~~Dark body~~
+
+- Stats
+  - Google Analytics

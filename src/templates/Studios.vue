@@ -1,7 +1,7 @@
 <template>
-	<Layout>
-		<h1>{{$page.studios.title}}</h1>
-		<Movie v-for="(movie, index) in $page.studio.belongsTo.edges" :key="index" :movie="movie.node" />
+	<Layout :title="title">
+		<h1>{{$page.studio.title}}</h1>
+		<Movie v-for="(movie, index) in $page.studio.movies" :key="index" :movie="movie" />
 	</Layout>
 </template>
 
@@ -10,54 +10,42 @@
 		studio: studios(id: $id) {
 			title
 			icon
-			belongsTo {
-				edges {
-					node {
-						... on Movie {
-							id
-							title
-							plot
-							directors
-							actors
-							year
-							rating
-							runtime
-							actors
-							awards
-							images {
-								poster {
-									path
-								}
-							}
-							rated {
-								id
-								title
-							}
-							studios {
-								id
-								title
-								icon
-							}
-							genres {
-								id
-								title
-								icon
-							}
-							countries {
-								id
-								title
-								map
-							}
-							languages {
-								id
-								title
-								country {
-									id
-									flag
-								}
-							}
-						}
+			movies {
+				id
+				title
+				plot
+				year
+				rating
+				runtime
+				awards
+				images {
+					poster {
+						path
 					}
+				}
+				rated {
+					title
+					path
+				}
+				studios {
+					title
+					icon
+					path
+				}
+				genres {
+					title
+					icon
+					path
+				}
+				countries {
+					title
+					icon
+					path
+				}
+				languages {
+					title
+					icon
+					path
 				}
 			}
 		}
@@ -65,13 +53,16 @@
 </page-query>
 
 <script>
-	import Movie from '@/components/MovieCard.vue';
+	import Movie from '@/components/movie/Card.vue';
 	export default {
 		components: {Movie},
 		metaInfo() {
 			return {
-				title: this.$page.studio.title + ' Movies',
+				title: this.title,
 			};
+		},
+		computed: {
+			title() {return this.$page.studio.title + ' Movies'},
 		},
 	};
 </script>

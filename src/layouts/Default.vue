@@ -1,16 +1,27 @@
 <template>
-	<div class="layout">
-		<header class="header">
-			<strong>
-				<g-link to="/">{{$static.metadata.siteName}}</g-link>
-			</strong>
-			<nav class="nav">
-				<g-link class="nav__link" to="/">Home</g-link>
-				<g-link class="nav__link" to="/about/">About</g-link>
-				<Search />
+	<div>
+		<header class="sm:flex justify-center light:bg-red-400 p-4">
+			<h1 class="flex-auto text-4xl font-sans font-bold"><g-link to="/">{{title || $static.metadata.siteName}}</g-link></h1>
+			<nav class="flex-none flex mt-3">
+				<ul class="flex-none">
+					<li class="inline mr-6"><g-link class="nav__link" to="/">Today</g-link></li>
+					<li class="inline mr-6">
+						<g-link class="nav__link" to="/">Days</g-link>
+						<ul style="display: none;">
+							<li v-for="month in $static.allMonth.edges" :key="month.node.id">
+								{{month.node.id}}
+								<ul>
+									<li v-for="day in month.node.days" :key="day.node.id">{{day.node.id}}</li>
+								</ul>
+							</li>
+						</ul>
+						</li>
+					<li class="inline mr-6"><g-link class="nav__link" to="/about/">About</g-link></li>
+				</ul>
+				<Search class="flex-none" />
 			</nav>
 		</header>
-		<slot/>
+		<slot />
 	</div>
 </template>
 
@@ -19,50 +30,20 @@
 		metadata {
 			siteName
 		}
+		allMonth {
+			edges {
+				node {
+					id
+				}
+			}
+		}
 	}
 </static-query>
 
 <script>
-	import Search from '@/components/Search.vue';
+	import Search from '@/components/generic/Search.vue';
 	export default {
 		components: {Search},
+		props: ['title'],
 	}
 </script>
-
-<style>
-	body {
-		font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-		margin:0;
-		padding:0;
-		line-height: 1.5;
-		background: #111;
-		color: #ccc;
-	}
-
-	/* body {
-		background: #111;
-		width: 100%;
-		margin: 64px auto;
-		font-size: 16px;
-		color: #ccc;
-	} */
-
-	.layout {
-		max-width: 760px;
-		margin: 0 auto;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-
-	.header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin-bottom: 20px;
-		height: 80px;
-	}
-
-	.nav__link {
-		margin-left: 20px;
-	}
-</style>

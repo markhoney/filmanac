@@ -1,22 +1,20 @@
 <template>
 	<Layout :title="title">
-		<h1>{{$page.country.title}}</h1>
-		<Movie v-for="(movie, index) in $page.country.movies" :key="index" :movie="movie" />
+		<h1>{{$page.rated.title}}</h1>
+		<Movie v-for="(movie, index) in $page.rated.movies" :key="index" :movie="movie" />
 	</Layout>
 </template>
 
 <page-query>
-	query counties($id: ID) {
-		country: countries(id: $id) {
+	query rated($id: ID) {
+		rated(id: $id) {
 			title
-			possessive
-			flag
 			movies {
 				id
 				title
 				plot
 				year
-				score
+				rating
 				runtime
 				awards
 				images {
@@ -63,7 +61,7 @@
 			};
 		},
 		computed: {
-			title() {return this.$page.country.possessive + ' Movies'},
+			title() {return this.$page.rated.title + ' Movies'},
 		},
 	};
 </script>

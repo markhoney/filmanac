@@ -1,8 +1,6 @@
 <template>
 	<Layout>
-		<div>
-			<Movie :movie="$page.movie" />
-		</div>
+		<Movie :movie="$page.movie" />
 	</Layout>
 </template>
 
@@ -12,43 +10,70 @@
 			id
 			title
 			plot
-			directors
-			actors
 			year
-			rating
+			score
 			runtime
-			actors
 			awards
 			images {
 				poster {
 					path
 				}
+				fanart {
+					path
+				}
 			}
 			rated {
-				id
 				title
+				path
 			}
 			studios {
-				id
 				title
 				icon
+				path
 			}
 			genres {
-				id
 				title
 				icon
+				path
 			}
 			countries {
-				id
 				title
-				map
+				icon
+				path
 			}
 			languages {
+				title
+				icon
+				path
+			}
+			events {
 				id
 				title
-				country {
+				year {
 					id
-					flag
+				}
+				month {
+					title
+				}
+				day {
+					id
+					ordinal
+				}
+				info {
+					wikipedia {
+						url
+					}
+				}
+				dayofyear {
+					path
+					month {
+						id
+						title
+					}
+					day {
+						id
+						ordinal
+					}
 				}
 			}
 		}
@@ -56,13 +81,16 @@
 </page-query>
 
 <script>
-	import Movie from '~/components/MovieCard.vue';
+	import Movie from '@/components/movie/Page.vue';
 	export default {
 		components: {Movie},
 		metaInfo() {
 			return {
-				title: this.$page.movie.title,
+				title: this.title,
 			};
+		},
+		computed: {
+			title() {return this.$page.movie.title},
 		},
 	};
 </script>

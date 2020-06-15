@@ -68,7 +68,7 @@ module.exports = {
 				nodeToFeedItem: (node) => ({
 					title: node.title,
 					// date: node.date || node.fields.date,
-					content: node.description
+					content: node.description,
 				})
 			},
 		},
@@ -93,6 +93,7 @@ module.exports = {
 				title: siteName,
 				disableServiceWorker: false,
 				shortName: siteName,
+				cachedFileTypes: 'js,css',
 				themeColor: '#e32929',
 				backgroundColor: '#ffffff',
 				icon: 'src/favicon.png',
@@ -100,12 +101,18 @@ module.exports = {
 		},
 	],
 	templates: {
-		DayofYear: '/:month/:day',
 		Movie: '/:id',
+		DayofYear: '/:month/:day',
+		// DayofYear: ['/:month/:day', '/:slugs__month/:day', , '/:slugs__month/:slugs__day', , '/:slugs__month/:slugs__shortday', , '/:slugs__shortmonth/:slugs__day', , '/:slugs__shortmonth/:slugs__shortday'],
 		Genres: '/genres/:id',
 		Studios: '/studios/:id',
 		Languages: '/languages/:id',
 		Countries: '/countries/:id',
-		// Year: '/year/:id',
+		Directors: '/directors/:id',
+		Writers: '/writers/:id',
+		Actors: '/actors/:id',
+		Month: '/month/:id',
+		Year: '/year/:id',
+		Rated: '/rated/:id',
 	},
 };

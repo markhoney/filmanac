@@ -13,30 +13,41 @@
 		"lint": "eslint --ext .js,.vue --ignore-path .gitignore -f table .",
 		"lint:fix": "npm run lint --fix",
 		"share": "lt --port 8080 --subdomain aarond",
-		"up": "yarn upgrade && yarn upgrade-interactive --latest"
+		"up": "yarn upgrade && yarn upgrade-interactive --latest",
+		"install:maps": "djaiss/mapsicon",
+		"install:countries": "napa braz96/resource.images.moviecountryicons.flags braz96/resource.images.moviecountryicons.maps",
+		"install:studios": "napa XBMC-Addons/resource.images.studios.coloured XBMC-Addons/resource.images.studios.white braz96/resource.images.studios.squarehd",
+		"install:genres": "napa DjCisco/resource.images.moviegenreicons.transparent XBMC-Addons/resource.images.moviegenreicons.white XBMC-Addons/resource.images.moviegenreicons.filmstrip dproudmoore/resource.images.moviegenrefanart.metrocity Helly1206/resource.images.moviegenrefanart.xonfluence mistervee/resource.images.moviegenreicons.filmstrip-hd.colour mistervee/resource.images.moviegenreicons.filmstrip-hd.bw",
+		"install:classification": "napa wyrm65/resource.images.classificationicons.colour",
+		"install:languages": "napa vdb86/resource.images.languageflags.completepack jeroenpardon/resource.images.languageflags.colour-flat"
 	},
 	"devDependencies": {
-		"@gridsome/plugin-sitemap": "^0.2.3",
+		"@gridsome/plugin-sitemap": "^0.3.0",
 		"colors": "^1.4.0",
 		"csv-parse": "^4.9.0",
 		"fanart.tv": "^2.1.0",
-		"gh-pages": "^2.2.0",
-		"googleapis": "^51.0.0",
+		"gh-pages": "^3.0.0",
+		"googleapis": "^52.1.0",
 		"gridsome": "^0.7.0",
 		"gridsome-plugin-feed": "^1.0.2",
-		"gridsome-plugin-flexsearch": "^0.1.20",
-		"gridsome-plugin-pwa": "^0.0.17",
+		"gridsome-plugin-flexsearch": "^1.0.1",
+		"gridsome-plugin-pwa": "^0.0.18",
 		"gridsome-plugin-tailwindcss": "^2.2.48",
 		"imdb-api": "^4.0.3",
+		"napa": "^3.0.0",
 		"node-fetch": "^2.6.0",
-		"node-themoviedb": "^0.1.4",
+		"node-themoviedb": "^0.2.3",
 		"serve": "^11.3.0",
 		"vue-async-computed": "^3.8.2",
 		"vue-loading-overlay": "^3.3.2",
 		"wikidata-sdk": "^7.4.1"
 	},
 	"dependencies": {
+		"@leonardocabeza/the-movie-db": "^4.0.6",
 		"ffmpeg-extract-frame": "^1.0.2",
-		"vue-carousel": "^0.18.0"
+		"svg-country-flags": "^1.2.7",
+		"vue-carousel": "^0.18.0",
+		"vue-flip": "^1.0.1",
+		"vue-infinite-loading": "^2.4.5"
 	}
 }

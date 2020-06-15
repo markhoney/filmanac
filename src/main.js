@@ -1,25 +1,10 @@
-// This is the main.js file. Import global CSS and scripts here.
-// The Client API can be used here. Learn more: gridsome.org/docs/client-api
-
 import DefaultLayout from '~/layouts/Default.vue';
+// import VueFlip from 'vue-flip';
 import AsyncComputed from 'vue-async-computed';
 
-// import Loading from 'vue-loading-overlay';
-// import 'vue-loading-overlay/dist/vue-loading.css';
-
-export default function (Vue, {router}) { // , {head, isClient}
-	// Set default layout as a global component
+export default function (Vue, {router, head}) { // , {head, isClient}
 	Vue.component('Layout', DefaultLayout);
+	// Vue.component('vue-flip', VueFlip);
 	Vue.use(AsyncComputed);
-	/* Vue.use(Loading);
-	let loader;
-
-	router.beforeEach((to, from, next) => {
-		loader = Vue.$loading.show();
-		next();
-	});
-
-	router.afterEach((to, from) => {
-		loader.hide();
-	}); */
+	head.bodyAttrs = {class: 'bg-gray-800 light:bg-gray-100 text-gray-300 light:text-gray-900'};
 }
