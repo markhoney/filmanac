@@ -7,11 +7,11 @@
 
 - Components
   - ~~Movie card view~~
-    - Use for categories
+    - ~~Use for categories~~
   - ~~Event card view~~
-    - Use for Days
-  - Movie full screen view
-    - Single Movie
+    - ~~Use for Days~~
+  - ~~Movie full screen view~~
+    - ~~Single Movie~~
   - Movie cover view
     - Genres, Studios, etc
       - Split by month with headers?
@@ -19,9 +19,9 @@
   - Timeline view
     - All movies?
   - ~~Ratings~~
-  - Actors
-  - Director
-  - Rated
+  - ~~Actors~~
+  - ~~Director~~
+  - ~~Rated~~
 
 - Layout
   - Red curtain
