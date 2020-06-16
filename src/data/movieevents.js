@@ -186,16 +186,16 @@ class MovieEvents {
 		});
 	}
 
-	getImagePath(title, path) {
-		for (const name of unique([title, title.split(' ').join(''), title.toLowerCase(), title.toLowerCase().split(' ').join('')])) {
-			for (const suffix of ['', '/vector']) {
-				for (const ext of ['.png', '.jpg', '.svg']) {
-					const src = resolve('node_modules', path, name + suffix + ext);
+	getImagePath(title, paths) {
+		for (const path of paths) if (path) {
+			for (const name of unique([title, title.split(' ').join(''), title.toLowerCase(), title.toLowerCase().split(' ').join('')])) {
+					for (const ext of ['.png', '.jpg', '.svg']) {
+					const src = resolve(path, name + ext);
 					if (existsSync(src)) return src;
 				}
 			}
 		}
-		console.log(`Missing ${path} image:`.red, title);
+		console.log(`Missing ${paths[0]} image:`.red, title);
 		return null;
 	}
 
@@ -203,7 +203,7 @@ class MovieEvents {
 		const rated = unique(this.movie.map((movie) => movie.rated)).map((rated) => ({
 			id: slugify(rated),
 			title: rated,
-			// icon: this.getImagePath(rated, 'rating', 'us'),
+			icon: this.getImagePath('USA ' + rated, ['node_modules/resource.images.classificationicons.colour/resources']),
 		}));
 		for (const movie of this.movie) if (movie.rated) movie.rated = slugify(movie.rated);
 		return rated;
@@ -223,7 +223,7 @@ class MovieEvents {
 			return {
 				id: slugify(studio),
 				title: studio,
-				icon: this.getImagePath(image && image.to || studio, 'resource.images.studios.coloured/resources'),
+				icon: this.getImagePath((image && image.to) || studio, ['node_modules/resource.images.studios.coloured/resources', 'src/images/studios']),
 			};
 		});
 		for (const movie of this.movie) if (movie.studios) movie.studios = movie.studios.map((studio) => slugify(studio));
@@ -237,7 +237,7 @@ class MovieEvents {
 				id: slugify(language),
 				title: language,
 				country: slugify(row.name),
-				icon: this.getImagePath(row.code.toLowerCase(), 'svg-country-flags/svg'),
+				icon: this.getImagePath(row.code.toLowerCase(), ['node_modules/svg-country-flags/svg', 'src/images/languages']),
 			};
 			else {
 				console.log('Missing language'.red, language);
@@ -259,10 +259,9 @@ class MovieEvents {
 				title: country,
 				code: row.code,
 				possessive: row.possessive,
-				// icon: this.getImagePath(row.code.toLowerCase(), 'mapsicon/all'),
-				icon: this.getImagePath(row.name, 'resource.images.moviecountryicons.maps/resources'),
-				// map: this.getImagePath(row.code.toLowerCase(), 'mapsicon/all'),
-				flag: this.getImagePath(row.code.toLowerCase(), 'svg-country-flags/svg'),
+				icon: this.getImagePath(row.name, ['node_modules/resource.images.moviecountryicons.maps/resources']),
+				map: this.getImagePath(row.code.toLowerCase() + '/vector', ['node_modules/mapsicon/all']),
+				flag: this.getImagePath(row.code.toLowerCase(), ['node_modules/svg-country-flags/svg']),
 			};
 			else {
 				console.log('Missing country'.red, country);
@@ -280,8 +279,8 @@ class MovieEvents {
 		const genres = unique(this.movie.map((movie) => movie.genres).flat()).map((genre) => ({
 			id: slugify(genre),
 			title: genre,
-			icon: this.getImagePath(genre, 'resource.images.moviegenreicons.transparent/resources'),
-			fanart: this.getImagePath(genre, 'resource.images.moviegenrefanart.xonfluence/resources'),
+			icon: this.getImagePath(genre, ['node_modules/resource.images.moviegenreicons.transparent/resources', 'src/images/genres/transparent']),
+			fanart: this.getImagePath(genre, ['node_modules/resource.images.moviegenrefanart.xonfluence/resources', 'node_modules/resource.images.moviegenrefanart.metrocity/resources']),
 		}));
 		for (const movie of this.movie) if (movie.genres) movie.genres = movie.genres.map((genre) => slugify(genre));
 		return genres;
@@ -393,7 +392,7 @@ class MovieEvents {
 			if (!art) art = fanart[0];
 			// if (art) art = {url: art.url};
 		}
-		return art;
+		return art && art.url;
 	}
 
 	getFanartURLs(fanart) {
@@ -404,7 +403,7 @@ class MovieEvents {
 			art.poster = this.getURL(fanart.movieposter);
 			let keyart;
 			if (fanart.movieposter) keyart = fanart.movieposter.find((art) => art.lang === '00');
-			if (keyart) art.keyart = {url: keyart.url};
+			if (keyart) art.keyart = keyart.url;
 			art.fanart = this.getURL(fanart.moviebackground);
 			art.disc = this.getURL(fanart.moviedisc);
 			art.banner = this.getURL(fanart.moviebanner);
@@ -434,7 +433,6 @@ class MovieEvents {
 	}
 
 	async getFanart(id, poster) {
-		let fanart;
 		let urls = {};
 		// if (poster) urls.poster = {url: poster};
 		if (poster) urls.poster = poster;
@@ -540,7 +538,9 @@ class MovieEvents {
 				// ...paths,
 			};
 			if (movie.production) {
-				movie.studios = split(movie.production.replace('&amp;', ','), '/');
+				// console.log(movie.production);
+				movie.studios = split(movie.production.replace('&amp;', '/').replace(/Corporat$/, 'Corporation').replace(/Entertain$/, 'Entertainment'), '/');
+				// console.log(movie.studios);
 				delete movie.production;
 			}
 			if (movie.country) {
@@ -548,7 +548,7 @@ class MovieEvents {
 				delete movie.country;
 			}
 			if (movie.genres) movie.genres = split(movie.genres);
-			if (movie.languages) movie.languages = split(movie.languages);
+			if (movie.languages) movie.languages = split(movie.languages.replace(',  Ancient (to 1453)', ''));
 			if (movie.actors) movie.actors = split(movie.actors);
 			if (movie.runtime) movie.runtime = parseInt(movie.runtime.replace(' min', ''));
 			if (movie.rating) movie.score = movie.rating * 10;
@@ -611,10 +611,11 @@ class MovieEvents {
 			titles: country.names && split(country.names),
 			languages: country.languages && split(country.languages),
 		}));
+		const studios = await this.getSheet('Studios');
 		this.event = this.getEvents(events);
 		this.movie = this.getMovies(events);
 		await this.getMovieDetails();
-		this.studios = this.getStudios(await this.getSheet('Studios'));
+		this.studios = this.getStudios(studios);
 		this.rated = this.getRated();
 		this.genres = this.getGenres();
 		this.languages = this.getLanguages(countries);
