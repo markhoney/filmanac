@@ -45,28 +45,28 @@
 							year
 							images {
 								poster {
-									path
+									image (width: 200, height: 300, quality: 80)
 								}
 							}
 							studios {
 								id
 								title
-								icon
+								image
 							}
 							genres {
 								id
 								title
-								icon
+								image
 							}
 							countries {
 								id
 								title
-								icon
+								image
 							}
 							languages {
 								id
 								title
-								icon
+								image
 							}
 						}
 					}

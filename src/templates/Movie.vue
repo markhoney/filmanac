@@ -16,10 +16,10 @@
 			awards
 			images {
 				poster {
-					path
+					image (width: 200, height: 300, quality: 80)
 				}
 				fanart {
-					path
+					image (width: 1280, height: 720, quality: 80)
 				}
 			}
 			rated {
@@ -28,22 +28,22 @@
 			}
 			studios {
 				title
-				icon
+				image
 				path
 			}
 			genres {
 				title
-				icon
+				image
 				path
 			}
 			countries {
 				title
-				icon
+				image
 				path
 			}
 			languages {
 				title
-				icon
+				image
 				path
 			}
 			events {

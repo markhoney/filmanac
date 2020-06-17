@@ -1,19 +1,19 @@
 <template>
-	<div class="w-full md:w-full max-w-4xl rounded overflow-hidden shadow-lg m-4 flex justify-between">
-		<div class="md:flex-shrink-0">
+	<div class="rounded shadow-lg m-4 flex bg-gray-900">
+		<div class="flex-auto">
 			<g-link v-if="poster" :to="link">
-				<g-image class="md:w-56" :src="poster" :alt="title + ' poster'" />
+				<g-image class="" :src="poster" :alt="title + ' poster'" />
 			</g-link>
 		</div>
-		<div class="flex flex-col flex-grow px-8 py-4 bg-gray-800">
-			<h3 class="font-bold text-4xl md:text-2xl lg:text-2xl text-gray-200">
+		<div class="flex-grow px-4">
+			<h3 class="font-bold text-2xl md:text-4xl text-gray-200">
 				<g-link :to="link">{{title}}</g-link>
 			</h3>
-			<span class="text-xl lg:mb-4">{{subtitle}}</span>
-			<div class="flex-grow">
+			<h4 class="text-base md:text-xl">{{subtitle}}</h4>
+			<div class="hidden md:block mt-4">
 				<slot />
 			</div>
-			<Icons :icons="icons" style="color: #ff0000;" />
+			<Icons :icons="icons" class="hidden md:flex mt-6" />
 		</div>
 	</div>
 </template>

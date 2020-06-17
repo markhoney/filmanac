@@ -17,44 +17,12 @@ module.exports = {
 		{
 			use: 'gridsome-plugin-flexsearch',
 			options: {
-				collections: [
-					{
-						typeName: 'Movie',
-						indexName: 'Movie',
-						fields: ['name'],
-					},
-					{
-						typeName: 'DayofYear',
-						indexName: 'DayofYear',
-						fields: ['md'],
-					},
-					{
-						typeName: 'Year',
-						indexName: 'Year',
-						fields: ['name'],
-					},
-					{
-						typeName: 'Genres',
-						indexName: 'Genres',
-						fields: ['name'],
-					},
-					{
-						typeName: 'Languages',
-						indexName: 'Languages',
-						fields: ['name'],
-					},
-					{
-						typeName: 'Countries',
-						indexName: 'Countries',
-						fields: ['name'],
-					},
-					{
-						typeName: 'Studios',
-						indexName: 'Studios',
-						fields: ['name'],
-					},
-				],
-				searchFields: ['name'],
+				collections: ['Movie', 'DayofYear', 'Event', 'Year', 'Genres', 'Languages', 'Countries', 'Studios'].map((collection) => ({
+					typeName: collection,
+					indexName: collection,
+					fields: ['title'],
+				})),
+				searchFields: ['title'],
 			},
 		},
 		{

@@ -12,7 +12,7 @@
 	}
 </script>
 
-<style scoped>
+<style scoped lang="postcss">
 	.badge {
 		@apply mr-2 bg-green-600 text-white p-2 rounded  leading-none flex items-center;
 	}

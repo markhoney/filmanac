@@ -2,7 +2,7 @@
 	<Card
 		v-if="event.movie"
 		:link="event.movie.path"
-		:poster="event.movie.images && event.movie.images.poster && event.movie.images.poster.path"
+		:poster="event.movie.images && event.movie.images.poster && event.movie.images.poster.image"
 		:title="event.movie.title + (event.movie.year ? ' (' + event.movie.year + ')' : '')"
 		:subtitle="[event.month.title, event.day.id + event.day.ordinal, event.year && event.year.id, '-', event.title].join(' ')"
 		:icons="[
@@ -24,7 +24,7 @@
 	};
 </script>
 
-<style scoped>
+<style scoped lang="postcss">
 	.plot {
 		@apply text-4xl text-base text-gray-100 leading-snug h-16 overflow-hidden;
 		text-overflow: ellipsis;

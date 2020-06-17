@@ -1,7 +1,7 @@
 <template>
 	<Card
 		:link="movie.path"
-		:poster="movie.images && movie.images.poster && movie.images.poster.path"
+		:poster="movie.images && movie.images.poster && movie.images.poster.image"
 		:title="movie.title"
 		:subtitle="movie.year"
 		:icons="[

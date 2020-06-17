@@ -203,7 +203,7 @@ class MovieEvents {
 		const rated = unique(this.movie.map((movie) => movie.rated)).map((rated) => ({
 			id: slugify(rated),
 			title: rated,
-			icon: this.getImagePath('USA ' + rated, ['node_modules/resource.images.classificationicons.colour/resources']),
+			image: this.getImagePath('USA ' + rated, ['node_modules/resource.images.classificationicons.colour/resources']),
 		}));
 		for (const movie of this.movie) if (movie.rated) movie.rated = slugify(movie.rated);
 		return rated;
@@ -223,7 +223,7 @@ class MovieEvents {
 			return {
 				id: slugify(studio),
 				title: studio,
-				icon: this.getImagePath((image && image.to) || studio, ['node_modules/resource.images.studios.coloured/resources', 'src/images/studios']),
+				image: this.getImagePath((image && image.to) || studio, ['node_modules/resource.images.studios.coloured/resources', 'src/images/studios']),
 			};
 		});
 		for (const movie of this.movie) if (movie.studios) movie.studios = movie.studios.map((studio) => slugify(studio));
@@ -237,7 +237,7 @@ class MovieEvents {
 				id: slugify(language),
 				title: language,
 				country: slugify(row.name),
-				icon: this.getImagePath(row.code.toLowerCase(), ['node_modules/svg-country-flags/svg', 'src/images/languages']),
+				image: this.getImagePath(row.code.toLowerCase(), ['node_modules/svg-country-flags/svg', 'src/images/languages']),
 			};
 			else {
 				console.log('Missing language'.red, language);
@@ -259,7 +259,7 @@ class MovieEvents {
 				title: country,
 				code: row.code,
 				possessive: row.possessive,
-				icon: this.getImagePath(row.name, ['node_modules/resource.images.moviecountryicons.maps/resources']),
+				image: this.getImagePath(row.name, ['node_modules/resource.images.moviecountryicons.maps/resources']),
 				map: this.getImagePath(row.code.toLowerCase() + '/vector', ['node_modules/mapsicon/all']),
 				flag: this.getImagePath(row.code.toLowerCase(), ['node_modules/svg-country-flags/svg']),
 			};
@@ -279,7 +279,7 @@ class MovieEvents {
 		const genres = unique(this.movie.map((movie) => movie.genres).flat()).map((genre) => ({
 			id: slugify(genre),
 			title: genre,
-			icon: this.getImagePath(genre, ['node_modules/resource.images.moviegenreicons.transparent/resources', 'src/images/genres/transparent']),
+			image: this.getImagePath(genre, ['node_modules/resource.images.moviegenreicons.transparent/resources', 'src/images/genres/transparent']),
 			fanart: this.getImagePath(genre, ['node_modules/resource.images.moviegenrefanart.xonfluence/resources', 'node_modules/resource.images.moviegenrefanart.metrocity/resources']),
 		}));
 		for (const movie of this.movie) if (movie.genres) movie.genres = movie.genres.map((genre) => slugify(genre));
@@ -371,13 +371,13 @@ class MovieEvents {
 		return {
 			plex: {
 				url: `https://app.plex.tv/desktop#!/search?query=${encodeURI(title)}`,
-				icon: resolve(__dirname, '..', 'images', 'watch', 'plex.png'),
+				image: resolve(__dirname, '..', 'images', 'watch', 'plex.png'),
 				title: 'Search on Plex',
 				type: 'plex',
 			},
 			netflix: {
 				url: `https://www.netflix.com/search?q=${encodeURI(title)}`,
-				icon: resolve(__dirname, '..', 'images', 'watch', 'netflix.png'),
+				image: resolve(__dirname, '..', 'images', 'watch', 'netflix.png'),
 				title: 'Search on Netflix',
 				type: 'netflix',
 			},
@@ -414,19 +414,19 @@ class MovieEvents {
 
 	async getArt(id, urls) {
 		const art = {};
-		for (const image in urls) {
-			if (urls[image]) {
-				art[image] = {
-					type: image,
-					// url: art[image],
-					path: resolve('cache', 'images', image, `${id}.jpg`)
+		for (const type in urls) {
+			if (urls[type]) {
+				art[type] = {
+					type,
+					// url: urls[type],
+					image: resolve('cache', 'images', type, `${id}.jpg`)
 				};
-				if (!existsSync(art[image].path)) {
-					console.log(`Downloading ${image} for ${id}`);
-					const res = await fetch(urls[image]);
-					await res.body.pipe(createWriteStream(art[image].path));
+				if (!existsSync(art[type].image)) {
+					console.log(`Downloading ${type} for ${id}`);
+					const res = await fetch(urls[type]);
+					await res.body.pipe(createWriteStream(art[type].image));
 				}
-				// delete art[image].url;
+				// delete art[type].url;
 			}
 		}
 		return art;

@@ -1,9 +1,9 @@
 <template>
 	<div>
-		<section class="h-64 bg-cover bg-center mb-8" :style="{'background-image': `url('${movie.images && movie.images.fanart && movie.images.fanart.path && movie.images.fanart.path.src}')`}">
+		<section class="h-64 bg-cover bg-center mb-8" :style="{'background-image': `url('${movie.images && movie.images.fanart && movie.images.fanart.image && movie.images.fanart.image.src}')`}">
 			<div style="backdrop-filter: blur(5px) brightness(50%)" class="flex w-full h-full">
 				<div class="flex-none pr-48 ml-8 mt-16 hidden sm:inline height-1">
-					<g-image v-if="movie.images && movie.images.poster && movie.images.poster.path" :src="movie.images.poster.path" class="absolute shadow-xl border-4 border-white w-48 z-20" />
+					<g-image v-if="movie.images && movie.images.poster && movie.images.poster.image" :src="movie.images.poster.image" class="absolute shadow-xl border-4 border-white w-48 z-20" />
 				</div>
 				<div style="backdrop-filter: blur(1px) brightness(50%)" class="flex-auto ml-8">
 					<h1 class="font-bold text-4xl tracking-loose mt-16 z-10" style="text-shadow: 2px 2px #111;">{{movie.title}} ({{movie.year}})</h1>
