@@ -21,14 +21,6 @@
 		return needles.split(' ').map((needle) => findInString(haystack, needle).map((index) => [index, index + needle.length])).flat();
 	}
 
-	function rangeToNumbers(start, end) {
-		return [...Array(end).keys()].slice(start);
-	}
-
-	function uniqueArray(list) {
-		return [...new Set(list)];
-	}
-
 	function numbersToRanges(positions, leeway = 1) {
 		return [...new Set(positions)].sort((a, b) => a - b).reduce((p, c) => {
 			if (!p.length) return [[c, c]];
@@ -38,11 +30,19 @@
 		}, []);
 	}
 
+	function rangeToNumbers(start, end) {
+		return [...Array(end).keys()].slice(start);
+	}
+
 	function rangesToNumbers(ranges) {
 		return [...new Set(ranges.map((range) => rangeToNumbers(...range)).flat())].sort((a, b) => a - b);
 	}
 
-	function rationaliseRanges(ranges) {
+	function uniqueArray(list) {
+		return [...new Set(list)];
+	}
+
+	function deduplicateRanges(ranges) {
 		return numbersToRanges(rangesToNumbers(ranges));
 	}
 
@@ -81,7 +81,7 @@
 				setTimeout(() => {this.focus = false}, 100);
 			},
 			boldNew(result) {
-				return tag(result, rationaliseRanges(findPartsInString(result, this.searchTerm)));
+				return tag(result, deduplicateRanges(findPartsInString(result, this.searchTerm)));
 			},
 			bold(result) {
 				const pos = result.toLowerCase().indexOf(this.searchTerm.toLowerCase());
