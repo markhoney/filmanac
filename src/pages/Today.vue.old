@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<Fixed>
 		<h1 class="font-bold text-4xl">
 			<g-link :to="today.previous">&lt;</g-link>
 			{{today.month_full}} {{today.day_ordinal}}
@@ -8,7 +8,7 @@
 		<div v-if="today">
 			<Movie v-for="(event, index) in today.events" :key="index" :movie="event.movie" />
 		</div>
-	</Layout>
+	</Fixed>
 </template>
 
 <page-query>
@@ -44,9 +44,7 @@
 							director
 							year
 							images {
-								poster {
-									image (width: 200, height: 300, quality: 80)
-								}
+								poster (width: 200, height: 300, quality: 80)
 							}
 							studios {
 								id

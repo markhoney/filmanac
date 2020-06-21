@@ -1,7 +1,5 @@
 <template>
-	<Layout>
-		<Movie :movie="$page.movie" />
-	</Layout>
+	<Movie :movie="$page.movie" />
 </template>
 
 <page-query>
@@ -11,18 +9,16 @@
 			title
 			plot
 			year
-			score
+			score {
+				id
+			}
 			runtime
 			awards
 			images {
-				poster {
-					image (width: 200, height: 300, quality: 80)
-				}
-				fanart {
-					image (width: 1280, height: 720, quality: 80)
-				}
+				poster (width: 200, height: 300, quality: 80)
+				fanart (width: 1280, height: 720, quality: 80)
 			}
-			rated {
+			classification {
 				title
 				path
 			}

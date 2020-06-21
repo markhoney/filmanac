@@ -84,7 +84,7 @@ class MovieEvents {
 		this.movie = [];
 		this.event = [];
 		this.studios = [];
-		this.rated = [];
+		this.classification = [];
 		this.genres = [];
 		this.countries = [];
 		this.languages = [];
@@ -92,7 +92,7 @@ class MovieEvents {
 		this.directors = [];
 		this.writers = [];
 		this.actors = [];
-		this.scores = [];
+		this.score = [];
 	}
 
 	getAllDates() {
@@ -199,14 +199,14 @@ class MovieEvents {
 		return null;
 	}
 
-	getRated() {
-		const rated = unique(this.movie.map((movie) => movie.rated)).map((rated) => ({
-			id: slugify(rated),
-			title: rated,
-			image: this.getImagePath('USA ' + rated, ['node_modules/resource.images.classificationicons.colour/resources']),
+	getClassifications() {
+		const classifications = unique(this.movie.map((movie) => movie.classification)).map((classification) => ({
+			id: slugify(classification),
+			title: classification,
+			image: this.getImagePath('USA ' + classification, ['node_modules/resource.images.classificationicons.colour/resources']),
 		}));
-		for (const movie of this.movie) if (movie.rated) movie.rated = slugify(movie.rated);
-		return rated;
+		for (const movie of this.movie) if (movie.classification) movie.classification = slugify(movie.classification);
+		return classifications;
 	}
 
 	getScores() {
@@ -416,15 +416,16 @@ class MovieEvents {
 		const art = {};
 		for (const type in urls) {
 			if (urls[type]) {
-				art[type] = {
+				/* art[type] = {
 					type,
 					// url: urls[type],
-					image: resolve('cache', 'images', type, `${id}.jpg`)
-				};
-				if (!existsSync(art[type].image)) {
+					image: resolve('cache', 'images', type, `${id}.jpg`),
+				}; */
+				art[type] = resolve('cache', 'images', type, `${id}.jpg`);
+				if (!existsSync(art[type])) {
 					console.log(`Downloading ${type} for ${id}`);
 					const res = await fetch(urls[type]);
-					await res.body.pipe(createWriteStream(art[type].image));
+					await res.body.pipe(createWriteStream(art[type]));
 				}
 				// delete art[type].url;
 			}
@@ -552,7 +553,10 @@ class MovieEvents {
 			if (movie.actors) movie.actors = split(movie.actors);
 			if (movie.runtime) movie.runtime = parseInt(movie.runtime.replace(' min', ''));
 			if (movie.rating) movie.score = movie.rating * 10;
-			if (movie.rated) movie.rated = movie.rated.toUpperCase();
+			if (movie.rated) {
+				movie.classification = movie.rated.toUpperCase();
+				delete movie.rated;
+			}
 			if (movie.votes) movie.votes = parseInt(movie.votes.replace(/,/g, ''));
 			if (movie.director) {
 				movie.directors = split(movie.director);
@@ -616,7 +620,7 @@ class MovieEvents {
 		this.movie = this.getMovies(events);
 		await this.getMovieDetails();
 		this.studios = this.getStudios(studios);
-		this.rated = this.getRated();
+		this.classification = this.getClassifications();
 		this.genres = this.getGenres();
 		this.languages = this.getLanguages(countries);
 		this.countries = this.getCountries(countries);
@@ -626,7 +630,7 @@ class MovieEvents {
 		this.directors = this.getDirectors();
 		this.writers = this.getWriters();
 		this.actors = this.getActors();
-		this.scores = this.getScores();
+		this.score = this.getScores();
 		this.stats = Object.entries(this.getStats()).map((stat) => ({id: stat[0], value: stat[1]}));
 	}
 
@@ -640,11 +644,11 @@ class MovieEvents {
 		stats.days = unique(this.event.map((event) => [event.month, event.day].join('-'))).length;
 		stats.movieyears = this.years.length;
 		stats.dates = this.days.length;
-		stats.ratings = this.rated.length;
+		stats.classifications = this.classification.length;
 		for (const cat of ['year', 'event', 'movie']) {
 			stats[cat + 's'] = this[cat].length;
 		}
-		for (const cat of ['studios', 'genres', 'languages', 'countries', 'directors', 'writers', 'actors', 'scores']) {
+		for (const cat of ['studios', 'genres', 'languages', 'countries', 'directors', 'writers', 'actors', 'score', 'classification']) {
 			stats[cat] = this[cat].length;
 		}
 		for (const source of ['wikipedia', 'wikidata']) {

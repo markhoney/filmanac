@@ -17,7 +17,7 @@ module.exports = {
 		{
 			use: 'gridsome-plugin-flexsearch',
 			options: {
-				collections: ['Movie', 'DayofYear', 'Event', 'Year', 'Genres', 'Languages', 'Countries', 'Studios'].map((collection) => ({
+				collections: ['Movie', 'DayofYear', 'Year', 'Genres', 'Languages', 'Countries', 'Studios'].map((collection) => ({
 					typeName: collection,
 					indexName: collection,
 					fields: ['title'],
@@ -81,6 +81,6 @@ module.exports = {
 		Actors: '/actors/:id',
 		Month: '/month/:id',
 		Year: '/year/:id',
-		Rated: '/rated/:id',
+		Classification: '/classification/:id',
 	},
 };

@@ -1,7 +1,7 @@
 <template>
 	<Card
 		:link="movie.path"
-		:poster="movie.images && movie.images.poster && movie.images.poster.image"
+		:image="movie.images && movie.images.poster"
 		:title="movie.title"
 		:subtitle="movie.year"
 		:icons="[
@@ -12,18 +12,18 @@
 		]"
 	>
 		<p class="text-xl text-base text-gray-100 leading-snug h-20 overflow-hidden">{{movie.plot}}</p>
-		<Rated v-if="movie.rated" class="float-right" :to="movie.rated.path">{{movie.rated.title}}</Rated>
-		<Rating class="mt-2" :percent="movie.score" :stars="5" />
+		<score v-if="movie.rated" class="float-right" :to="movie.rated.path">{{movie.rated.title}}</score>
+		<classification class="mt-2" :percent="movie.score" :stars="5" />
 		<!--<p class="mt-4 text-gray-100">- Directed by {{movie.director}}.</p>-->
 	</Card>
 </template>
 
 <script>
 	import Card from '@/components/generic/Card.vue';
-	import Rating from './Score.vue';
-	import Rated from './Rated.vue';
+	import Score from './Score.vue';
+	import Classification from './Classification.vue';
 	export default {
-		components: {Card, Rating, Rated},
+		components: {Card, Score, Classification},
 		props: {
 			movie: Object,
 		},

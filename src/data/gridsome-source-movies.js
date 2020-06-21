@@ -4,7 +4,7 @@ module.exports = class MovieSource {
 	constructor(api) {
 		api.loadSource(async ({addCollection}) => {
 			const collections = {};
-			const MovieCategories = ['Genres', 'Studios', 'Languages', 'Countries', 'Rated', 'Directors', 'Writers', 'Actors'];
+			const MovieCategories = ['Genres', 'Studios', 'Languages', 'Countries', 'Score', 'Classification', 'Directors', 'Writers', 'Actors'];
 			const EventCategories = ['Movie', 'Day', 'Month', 'Year', 'DayofYear'];
 			const DayofYearCategories = ['Day', 'Month'];
 			for (const collection of [...MovieCategories, ...EventCategories, 'Event', 'Stats']) collections[collection] = addCollection({typeName: collection});

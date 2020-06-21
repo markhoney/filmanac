@@ -1,28 +1,25 @@
 <template>
-	<Layout :title="title">
+	<div>
 		<h1>{{$page.rated.title}}</h1>
 		<Movie v-for="(movie, index) in $page.rated.movies" :key="index" :movie="movie" />
-	</Layout>
+	</div>
 </template>
 
 <page-query>
-	query rated($id: ID) {
-		rated(id: $id) {
+	query classification($id: ID) {
+		classification(id: $id) {
 			title
 			movies {
 				id
 				title
 				plot
 				year
-				rating
 				runtime
 				awards
 				images {
-					poster {
-						image (width: 200, height: 300, quality: 80)
-					}
+					poster (width: 200, height: 300, quality: 80)
 				}
-				rated {
+				classification {
 					title
 					path
 				}

@@ -1,7 +1,7 @@
 <template>
-	<div>
+	<div class="flex flex-col">
 		<site-header />
-		<div class="main">
+		<div class="flex-grow max-w-screen-lg mx-auto p-4">
 			<slot />
 		</div>
 		<site-footer />
@@ -9,15 +9,9 @@
 </template>
 
 <script>
-	import SiteHeader from '@/components/site/header.vue';
-	import SiteFooter from '@/components/site/footer.vue';
+	import SiteHeader from '@/components/site/Header.vue';
+	import SiteFooter from '@/components/site/Footer.vue';
 	export default {
 		components: {SiteHeader, SiteFooter},
 	}
 </script>
-
-<style scoped lang="postcss">
-	.main {
-		@apply max-w-screen-lg mx-auto;
-	}
-</style>

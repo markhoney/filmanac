@@ -1,8 +1,8 @@
 <template>
-	<Layout :title="title">
+	<Fixed :title="title">
 		<h1>{{$page.studio.title}}</h1>
 		<Movie v-for="(movie, index) in $page.studio.movies" :key="index" :movie="movie" />
-	</Layout>
+	</Fixed>
 </template>
 
 <page-query>
@@ -15,15 +15,12 @@
 				title
 				plot
 				year
-				rating
 				runtime
 				awards
 				images {
-					poster {
-						image (width: 200, height: 300, quality: 80)
-					}
+					poster (width: 200, height: 300, quality: 80)
 				}
-				rated {
+				classification {
 					title
 					path
 				}

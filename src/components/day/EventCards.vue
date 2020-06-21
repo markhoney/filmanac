@@ -16,7 +16,7 @@
 </template>
 
 <script>
-	import Event from '@/components/event/Card.vue';
+	import Event from '@/components/generic/NewCard.vue';
 	import NoEvents from '@/components/event/None.vue';
 	import Loading from '@/components/day/Loading.vue';
 	export default {

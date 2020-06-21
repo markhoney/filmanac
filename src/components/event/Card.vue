@@ -2,9 +2,9 @@
 	<Card
 		v-if="event.movie"
 		:link="event.movie.path"
-		:poster="event.movie.images && event.movie.images.poster && event.movie.images.poster.image"
+		:image="event.movie.images && event.movie.images.poster"
 		:title="event.movie.title + (event.movie.year ? ' (' + event.movie.year + ')' : '')"
-		:subtitle="[event.month.title, event.day.id + event.day.ordinal, event.year && event.year.id, '-', event.title].join(' ')"
+		:subtitle="event.title && [event.month.title, event.day.id + event.day.ordinal, event.year && event.year.id, '-', event.title].join(' ')"
 		:icons="[
 			...event.movie.genres,
 			...event.movie.studios,

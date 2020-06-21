@@ -1,7 +1,7 @@
 <template>
-	<Layout :title="title">
+	<Fixed>
 		<Day :day="this.$page.dayofYear" />
-	</Layout>
+	</Fixed>
 </template>
 
 <page-query>
@@ -46,16 +46,16 @@
 					title
 					plot
 					year
-					score
+					score {
+						id
+					}
 					votes
 					runtime
 					awards
 					images {
-						poster {
-							image (width: 200, height: 300, quality: 80)
-						}
+						poster (width: 200, height: 300, quality: 80)
 					}
-					rated {
+					classification {
 						title
 						path
 					}

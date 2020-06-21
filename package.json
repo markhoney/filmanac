@@ -13,13 +13,13 @@
 		"lint": "eslint --ext .js,.vue --ignore-path .gitignore -f table .",
 		"lint:fix": "npm run lint --fix",
 		"share": "lt --port 8080 --subdomain aarond",
-		"up": "yarn upgrade && yarn upgrade-interactive --latest",
-		"install:maps": "djaiss/mapsicon",
-		"install:countries": "napa braz96/resource.images.moviecountryicons.flags braz96/resource.images.moviecountryicons.maps",
-		"install:studios": "napa XBMC-Addons/resource.images.studios.coloured XBMC-Addons/resource.images.studios.white braz96/resource.images.studios.squarehd",
+		"up": "yarn upgrade && yarn upgrade-interactive --latest && yarn install:all",
 		"install:genres": "napa DjCisco/resource.images.moviegenreicons.transparent XBMC-Addons/resource.images.moviegenreicons.white XBMC-Addons/resource.images.moviegenreicons.filmstrip dproudmoore/resource.images.moviegenrefanart.metrocity Helly1206/resource.images.moviegenrefanart.xonfluence mistervee/resource.images.moviegenreicons.filmstrip-hd.colour mistervee/resource.images.moviegenreicons.filmstrip-hd.bw",
-		"install:classification": "napa wyrm65/resource.images.classificationicons.colour",
-		"install:languages": "napa vdb86/resource.images.languageflags.completepack jeroenpardon/resource.images.languageflags.colour-flat"
+		"install:studios": "napa XBMC-Addons/resource.images.studios.coloured XBMC-Addons/resource.images.studios.white braz96/resource.images.studios.squarehd",
+		"install:classifications": "napa wyrm65/resource.images.classificationicons.colour",
+		"install:countries": "napa djaiss/mapsicon braz96/resource.images.moviecountryicons.flags braz96/resource.images.moviecountryicons.maps",
+		"install:languages": "napa vdb86/resource.images.languageflags.completepack jeroenpardon/resource.images.languageflags.colour-flat",
+		"install:all": "yarn install:genres && yarn install:studios && yarn install:classifications && yarn install:countries && yarn install:languages"
 	},
 	"devDependencies": {
 		"@gridsome/plugin-sitemap": "^0.3.0",
@@ -43,11 +43,31 @@
 		"wikidata-sdk": "^7.4.1"
 	},
 	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.29",
+		"@fortawesome/free-brands-svg-icons": "^5.13.1",
+		"@fortawesome/vue-fontawesome": "^0.1.10",
 		"@leonardocabeza/the-movie-db": "^4.0.6",
 		"ffmpeg-extract-frame": "^1.0.2",
 		"svg-country-flags": "^1.2.7",
+		"typeface-alfa-slab-one": "^0.0.72",
+		"typeface-audiowide": "^0.0.72",
+		"typeface-bangers": "^0.0.72",
+		"typeface-bungee-shade": "^0.0.71",
+		"typeface-carter-one": "^0.0.72",
+		"typeface-catamaran": "^0.0.72",
+		"typeface-creepster": "^0.0.72",
+		"typeface-henny-penny": "^0.0.71",
+		"typeface-josefin-sans": "^0.0.75",
+		"typeface-monoton": "^0.0.72",
+		"typeface-mountains-of-christmas": "^0.0.72",
+		"typeface-racing-sans-one": "^0.0.72",
+		"typeface-sail": "^0.0.71",
+		"typeface-special-elite": "^0.0.72",
 		"vue-carousel": "^0.18.0",
 		"vue-flip": "^1.0.1",
 		"vue-infinite-loading": "^2.4.5"
+	},
+	"napa-config": {
+		"cache": false
 	}
 }

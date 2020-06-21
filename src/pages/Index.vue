@@ -1,7 +1,5 @@
 <template>
-	<Layout>
-		<Day :day="this.today" />
-	</Layout>
+	<Day :day="this.today" />
 </template>
 
 <script>
