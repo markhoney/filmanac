@@ -7,8 +7,8 @@
 				</div>
 				<div style="backdrop-filter: blur(1px) brightness(50%)" class="flex-auto ml-8">
 					<h1 class="font-bold text-4xl tracking-loose mt-16 z-10" style="text-shadow: 2px 2px #111;">{{movie.title}} ({{movie.year}})</h1>
-					<score v-if="movie.rated" class="float-right">{{movie.rated.title}}</score>
-					<classification class="mt-2" :percent="movie.score" :stars="5" :numeric="true" />
+					<classification v-if="movie.classification" class="float-right">{{movie.classification.title}}</classification>
+					<score v-if="movie.score" class="mt-2" :percent="movie.score.id" :stars="5" :numeric="true" />
 				</div>
 			</div>
 		</section>

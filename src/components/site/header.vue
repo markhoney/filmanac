@@ -1,8 +1,8 @@
 <template>
-	<header>
-		<h1><g-link to="/">{{title || $static.metadata.siteName}}</g-link></h1>
+	<header class="sm:flex p-4 justify-center bg-black bg-opacity-25 light:bg-red-400">
 		<site-menu />
-		<Search class="flex-none" />
+		<h1 class="flex-auto text-center text-4xl font-bold" style="font-family: Josefin Sans;"><g-link to="/">{{title || $static.metadata.siteName}}</g-link></h1>
+		<Search />
 	</header>
 </template>
 
@@ -22,32 +22,3 @@
 		props: ['title'],
 	}
 </script>
-
-<style scoped lang="postcss">
-	header {
-		@apply p-4 justify-center bg-black bg-opacity-25; /* sm:flex light:bg-red-400; */
-		@screen sm {
-			@apply flex;
-		}
-		@screen light {
-			@apply bg-red-400;
-		}
-	}
-
-	header h1 {
-		@apply flex-auto text-4xl font-bold;
-		font-family: Josefin Sans;
-	}
-
-	header nav {
-		@apply flex-none flex mt-3;
-	}
-
-	header nav ul {
-		@apply flex-none;
-	}
-
-	header nav ul li {
-		@apply inline mr-6;
-	}
-</style>

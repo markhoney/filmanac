@@ -4,9 +4,12 @@
 		<!--<svg xmlns="http://www.w3.org/2000/svg" class="text-gray-600 h-4 w-4 fill-current" viewBox="0 0 57 57">
 			<path d="M55.1 51.9L41.6 37.8A23 23 0 0024 0a23 23 0 1013.2 41.8L50.8 56a3 3 0 004.3.1 3 3 0 000-4.2zM24 6a17 17 0 110 34 17 17 0 010-34z"/>
 		</svg>-->
-		<ul v-if="focus && searchResults">
+		<ul v-if="focus && searchTerm.length >= 3">
 			<li v-for="result in searchResults" :key="result.id">
 				<g-link :to="result.path"><span v-html="boldNew(result.title)" /></g-link>
+			</li>
+			<li v-if="!searchResults.length">
+				<em>Sorry, no results found</em>
 			</li>
 		</ul>
 	</div>
@@ -93,7 +96,9 @@
 
 <style scoped lang="postcss">
 	ul {
-		@apply absolute w-auto max-h-screen bg-white p-0 rounded right-0 mr-4 overflow-y-auto;
+		@apply absolute w-auto bg-white p-0 rounded right-0 mr-4 overflow-y-auto z-50;
+		min-width: 192px;
+		max-height: 90vh;
 	}
 	li {
 		@apply m-2;

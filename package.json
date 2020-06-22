@@ -14,12 +14,12 @@
 		"lint:fix": "npm run lint --fix",
 		"share": "lt --port 8080 --subdomain aarond",
 		"up": "yarn upgrade && yarn upgrade-interactive --latest && yarn install:all",
-		"install:genres": "napa DjCisco/resource.images.moviegenreicons.transparent XBMC-Addons/resource.images.moviegenreicons.white XBMC-Addons/resource.images.moviegenreicons.filmstrip dproudmoore/resource.images.moviegenrefanart.metrocity Helly1206/resource.images.moviegenrefanart.xonfluence mistervee/resource.images.moviegenreicons.filmstrip-hd.colour mistervee/resource.images.moviegenreicons.filmstrip-hd.bw",
-		"install:studios": "napa XBMC-Addons/resource.images.studios.coloured XBMC-Addons/resource.images.studios.white braz96/resource.images.studios.squarehd",
-		"install:classifications": "napa wyrm65/resource.images.classificationicons.colour",
-		"install:countries": "napa djaiss/mapsicon braz96/resource.images.moviecountryicons.flags braz96/resource.images.moviecountryicons.maps",
-		"install:languages": "napa vdb86/resource.images.languageflags.completepack jeroenpardon/resource.images.languageflags.colour-flat",
-		"install:all": "yarn install:genres && yarn install:studios && yarn install:classifications && yarn install:countries && yarn install:languages"
+		"extras:genres": "napa DjCisco/resource.images.moviegenreicons.transparent XBMC-Addons/resource.images.moviegenreicons.white XBMC-Addons/resource.images.moviegenreicons.filmstrip dproudmoore/resource.images.moviegenrefanart.metrocity Helly1206/resource.images.moviegenrefanart.xonfluence mistervee/resource.images.moviegenreicons.filmstrip-hd.colour mistervee/resource.images.moviegenreicons.filmstrip-hd.bw",
+		"extras:studios": "napa XBMC-Addons/resource.images.studios.coloured XBMC-Addons/resource.images.studios.white braz96/resource.images.studios.squarehd",
+		"extras:classifications": "napa wyrm65/resource.images.classificationicons.colour",
+		"extras:countries": "napa djaiss/mapsicon braz96/resource.images.moviecountryicons.flags braz96/resource.images.moviecountryicons.maps",
+		"extras:languages": "napa vdb86/resource.images.languageflags.completepack jeroenpardon/resource.images.languageflags.colour-flat",
+		"extras": "yarn install:genres && yarn install:studios && yarn install:classifications && yarn install:countries && yarn install:languages"
 	},
 	"devDependencies": {
 		"@gridsome/plugin-sitemap": "^0.3.0",

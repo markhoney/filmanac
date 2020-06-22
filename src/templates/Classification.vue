@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<h1>{{$page.rated.title}}</h1>
-		<Movie v-for="(movie, index) in $page.rated.movies" :key="index" :movie="movie" />
+		<h1>{{$page.classification.title}}</h1>
+		<Movie v-for="(movie, index) in $page.classification.movies" :key="index" :movie="movie" />
 	</div>
 </template>
 
@@ -58,7 +58,7 @@
 			};
 		},
 		computed: {
-			title() {return this.$page.rated.title + ' Movies'},
+			title() {return this.$page.classification.title + ' Movies'},
 		},
 	};
 </script>

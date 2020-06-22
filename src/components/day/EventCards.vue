@@ -1,8 +1,8 @@
 <template>
 	<section v-if="day">
-		<h1 class="font-bold text-4xl content-center">
+		<h1 class="font-bold text-4xl text-center">
 			<g-link :to="day.previous.path">&lt;</g-link>&nbsp;
-			<span style="width: 400px;">{{date}}</span>&nbsp;
+			<span class="inline-block">{{date}}</span>&nbsp;
 			<g-link :to="day.next.path">&gt;</g-link>
 		</h1>
 		<template v-if="day.events">
