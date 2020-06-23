@@ -519,8 +519,8 @@ class MovieEvents {
 				writeFileSync(json, JSON.stringify(details, null, '	'));
 				return details;
 			} catch(e) {
-				// console.log(e);
 				console.log('OMDB scraping error for'.red, id);
+				console.log(e);
 			}
 		} else {
 			return JSON.parse(readFileSync(json, 'utf8'));
@@ -609,6 +609,8 @@ class MovieEvents {
 	}
 
 	async get() {
+		for (const type of ['omdb', 'wikidata', 'fanart', 'themoviedb']) mkdirSync(resolve('cache', 'json', type), {recursive: true});
+		for (const type of ['logo', 'clearart', 'poster', 'keyart', 'fanart', 'disc', 'banner', 'landscape']) mkdirSync(resolve('cache', 'images', type), {recursive: true});
 		const events = await this.getSheet('Movies');
 		const countries = (await this.getSheet('Countries')).map((country) => ({
 			...country,
