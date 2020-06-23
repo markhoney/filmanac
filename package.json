@@ -5,7 +5,7 @@
 		"scrape": "node src/data/movieevents",
 		"develop": "gridsome develop",
 		"dev": "yarn develop",
-		"build": "gridsome build",
+		"build": "cross-env NODE_OPTIONS=--max_old_space_size=4096 gridsome build",
 		"predeploy": "yarn build",
 		"serve": "serve dist",
 		"deploy": "gh-pages -d dist",
@@ -24,6 +24,7 @@
 	"devDependencies": {
 		"@gridsome/plugin-sitemap": "^0.3.0",
 		"colors": "^1.4.0",
+		"cross-env": "^7.0.2",
 		"csv-parse": "^4.9.0",
 		"fanart.tv": "^2.1.0",
 		"gh-pages": "^3.0.0",
