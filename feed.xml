@@ -4,7 +4,7 @@
         <title>Movies for Today</title>
         <link>https://movies.honeychurch.org/</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 17 Jun 2020 14:42:56 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jun 2020 12:46:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Gridsome Feed Plugin</generator>
         <atom:link href="https://movies.honeychurch.org/feed.xml" rel="self" type="application/rss+xml"/>
@@ -34,9 +34,9 @@
             <guid>https://movies.honeychurch.org/tt2334649/</guid>
         </item>
         <item>
-            <title><![CDATA[The Poseidon Adventure]]></title>
-            <link>https://movies.honeychurch.org/tt0069113/</link>
-            <guid>https://movies.honeychurch.org/tt0069113/</guid>
+            <title><![CDATA[Poseidon]]></title>
+            <link>https://movies.honeychurch.org/tt0409182/</link>
+            <guid>https://movies.honeychurch.org/tt0409182/</guid>
         </item>
         <item>
             <title><![CDATA[Rocky]]></title>
@@ -44,9 +44,9 @@
             <guid>https://movies.honeychurch.org/tt0075148/</guid>
         </item>
         <item>
-            <title><![CDATA[Poseidon]]></title>
-            <link>https://movies.honeychurch.org/tt0409182/</link>
-            <guid>https://movies.honeychurch.org/tt0409182/</guid>
+            <title><![CDATA[The Poseidon Adventure]]></title>
+            <link>https://movies.honeychurch.org/tt0069113/</link>
+            <guid>https://movies.honeychurch.org/tt0069113/</guid>
         </item>
         <item>
             <title><![CDATA[12 Years a Slave]]></title>
@@ -62,6 +62,11 @@
             <title><![CDATA[War Dogs]]></title>
             <link>https://movies.honeychurch.org/tt2005151/</link>
             <guid>https://movies.honeychurch.org/tt2005151/</guid>
+        </item>
+        <item>
+            <title><![CDATA[The Rise of Catherine the Great]]></title>
+            <link>https://movies.honeychurch.org/tt0024962/</link>
+            <guid>https://movies.honeychurch.org/tt0024962/</guid>
         </item>
         <item>
             <title><![CDATA[Loving]]></title>
@@ -89,6 +94,11 @@
             <guid>https://movies.honeychurch.org/tt1161404/</guid>
         </item>
         <item>
+            <title><![CDATA[The Messenger: The Story of Joan of Arc]]></title>
+            <link>https://movies.honeychurch.org/tt0151137/</link>
+            <guid>https://movies.honeychurch.org/tt0151137/</guid>
+        </item>
+        <item>
             <title><![CDATA[The Silence of Joan]]></title>
             <link>https://movies.honeychurch.org/tt1444266/</link>
             <guid>https://movies.honeychurch.org/tt1444266/</guid>
@@ -97,11 +107,6 @@
             <title><![CDATA[The Trial of Joan of Arc]]></title>
             <link>https://movies.honeychurch.org/tt0059616/</link>
             <guid>https://movies.honeychurch.org/tt0059616/</guid>
-        </item>
-        <item>
-            <title><![CDATA[The Messenger: The Story of Joan of Arc]]></title>
-            <link>https://movies.honeychurch.org/tt0151137/</link>
-            <guid>https://movies.honeychurch.org/tt0151137/</guid>
         </item>
         <item>
             <title><![CDATA[Monster]]></title>
@@ -127,11 +132,6 @@
             <title><![CDATA[The Tashkent Files]]></title>
             <link>https://movies.honeychurch.org/tt8108268/</link>
             <guid>https://movies.honeychurch.org/tt8108268/</guid>
-        </item>
-        <item>
-            <title><![CDATA[Pee-wee's Big Adventure]]></title>
-            <link>https://movies.honeychurch.org/tt0089791/</link>
-            <guid>https://movies.honeychurch.org/tt0089791/</guid>
         </item>
     </channel>
 </rss>
