@@ -424,8 +424,14 @@ class MovieEvents {
 				art[type] = resolve('cache', 'images', type, `${id}.jpg`);
 				if (!existsSync(art[type])) {
 					console.log(`Downloading ${type} for ${id}`);
-					const res = await fetch(urls[type]);
-					await res.body.pipe(createWriteStream(art[type]));
+					let res;
+					try {
+						res = await fetch(urls[type]);
+						await res.body.pipe(createWriteStream(art[type]));
+					} catch(e) {
+					// console.log(e);
+					console.log('Fanart scraping error for'.red, type, id);
+					}
 				}
 				// delete art[type].url;
 			}
@@ -448,7 +454,7 @@ class MovieEvents {
 					writeFileSync(json, JSON.stringify(details, null, '	'));
 				} catch(e) {
 					// console.log(e);
-					console.log('Fanart scraping error for'.red, id);
+					console.log('Fanart info scraping error for'.red, id);
 					nofanart.push(id);
 					writeFileSync(resolve(__dirname, 'nofanart.json'), JSON.stringify(nofanart, null, '	'));
 				}
@@ -484,7 +490,7 @@ class MovieEvents {
 				details = await v3Client.find.byId({external_id: id, external_source: 'imdb_id'});
 				writeFileSync(json, JSON.stringify(details, null, '	'));
 			} catch(e) {
-				console.log('The Movie DB scraping error for'.red, id);
+				// console.log('The Movie DB scraping error for'.red, id);
 				console.log(e);
 			}
 		} else {
@@ -519,7 +525,7 @@ class MovieEvents {
 				writeFileSync(json, JSON.stringify(details, null, '	'));
 				return details;
 			} catch(e) {
-				console.log('OMDB scraping error for'.red, id);
+				// console.log('OMDB scraping error for'.red, id);
 				console.log(e);
 			}
 		} else {
