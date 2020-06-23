@@ -6,10 +6,10 @@
 			</g-link>
 		</div>
 		<div class="flex-auto px-4">
-			<h3 class="font-bold text-2xl md:text-4xl text-gray-200">
+			<h3 class="font-bold text-2xl md:text-4xl text-gray-200 leading-tight">
 				<g-link :to="link">{{title}}</g-link>
 			</h3>
-			<h4 class="text-base md:text-xl">{{subtitle}}</h4>
+			<h4 class="text-base md:text-xl leading-tight">{{subtitle}}</h4>
 			<div class="hidden md:block mt-4">
 				<slot />
 			</div>

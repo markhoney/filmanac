@@ -1,18 +1,21 @@
 <template>
 	<div>
-		<section class="h-64 bg-cover bg-center mb-8" :style="{'background-image': `url('${movie.images && movie.images.fanart && movie.images.fanart.src}')`}">
-			<div style="backdrop-filter: blur(5px) brightness(50%)" class="flex w-full h-full">
-				<div class="flex-none pr-48 ml-8 mt-16 hidden sm:inline height-1">
-					<g-image v-if="movie.images && movie.images.poster" :src="movie.images.poster" class="absolute shadow-xl border-4 border-white w-48 z-20" />
+		<section class="h-64">
+			<g-image v-if="movie.images && movie.images.fanart" class="absolute z-0 h-64 w-full object-cover object-top" style="clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%)" :src="movie.images.fanart" />
+			<div class="flex w-full h-full p-2">
+				<div class="pr-48 ml-8 mt-16 hidden sm:inline height-1">
+					<g-image class="absolute shadow-xl border-4 border-white w-48 z-0" v-if="movie.images && movie.images.poster" :src="movie.images.poster" />
 				</div>
-				<div style="backdrop-filter: blur(1px) brightness(50%)" class="flex-auto ml-8">
-					<h1 class="font-bold text-4xl tracking-loose mt-16 z-10" style="text-shadow: 2px 2px #111;">{{movie.title}} ({{movie.year}})</h1>
-					<classification v-if="movie.classification" class="float-right">{{movie.classification.title}}</classification>
+				<div class="flex-auto md:ml-8 z-10">
+					<h1 class="font-bold text-4xl md:text-6xl tracking-loose leading-tight md:mt-16 z-10" style="text-shadow: 2px 2px #111;">{{movie.title}} ({{movie.year}})</h1>
 					<score v-if="movie.score" class="mt-2" :percent="movie.score.id" :stars="5" :numeric="true" />
+				</div>
+				<div class="z-10">
+					<classification v-if="movie.classification" class="float-right md:mr-16 mt-16">{{movie.classification.title}}</classification>
 				</div>
 			</div>
 		</section>
-		<section class="mx-64 pa-16 text-xl">
+		<section class="mt-8 ml-8 sm:ml-64 mr-8 max-w-screen-lg pa-16 text-xl">
 			<p>{{movie.plot}}</p>
 			<h3 class="mt-8 text-3xl">Events</h3>
 			<ul>

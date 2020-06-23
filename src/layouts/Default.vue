@@ -1,7 +1,7 @@
 <template>
-	<div class="flex flex-col">
+	<div class="flex flex-col min-h-screen">
 		<site-header />
-		<div class="flex-grow max-w-screen-lg mx-auto p-4">
+		<div class="flex-grow">
 			<slot />
 		</div>
 		<site-footer />

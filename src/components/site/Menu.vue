@@ -1,9 +1,9 @@
 <template>
-	<nav class="mt-3">
+	<nav class="mt-3 z-10">
 		<ul>
-			<li class="group">
+			<li class="group hover:bg-opacity-75">
 				<g-link to="/days">Days</g-link>
-				<ul class="hidden absolute group-hover:block p-2 bg-black bg-opacity-50">
+				<ul class="hidden absolute group-hover:block p-3 bg-black bg-opacity-75">
 					<li v-for="month in $static.allMonth.edges" :key="month.node.id" class="group p-1">
 						<g-link :to="month.node.path">{{month.node.title}}</g-link>
 						<ul class="hidden absolute">

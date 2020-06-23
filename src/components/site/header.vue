@@ -1,7 +1,7 @@
 <template>
-	<header class="sm:flex p-4 justify-center bg-black bg-opacity-25 light:bg-red-400">
+	<header class="sm:flex p-4 text-center bg-black bg-opacity-25 light:bg-red-400">
 		<site-menu />
-		<h1 class="flex-auto text-center text-4xl font-bold" style="font-family: Josefin Sans;"><g-link to="/">{{title || $static.metadata.siteName}}</g-link></h1>
+		<div class="flex-auto text-center text-4xl font-bold" style="font-family: Josefin Sans;"><g-link to="/">{{title || $static.metadata.siteName}}</g-link></div>
 		<Search />
 	</header>
 </template>
