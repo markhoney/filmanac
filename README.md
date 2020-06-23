@@ -5,12 +5,13 @@
 Run the following in order:
 
 - `git clone https://github.com/markhoney/amoviefortoday.git`
+- `cd amoviefortoday`
 - `yarn install`
-- `yarn extras`
+- `yarn extras` to install non NPM packages
 
 Next create a file called `.env` in the root of the repo, looking like this:
 
-```env
+```ini
 GoogleAPIKey=XXXXXXX-XXXXXXXXXXXXXXXXXXXX-XXXXXXXXXX
 GoogleSheetID=XXXXXXXXXXXXXXXXXXXXXXXXXX-XXXXXXXXXX-XXXXXX
 OMDBAPIKey=XXXXXXXX
