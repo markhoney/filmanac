@@ -1,9 +1,9 @@
 <template>
 	<div class="flex shadow-xl mx-auto my-16 max-w-3xl bg-gray-600 bg-opacity-25 rounded-lg">
-		<g-link v-if="event.movie.images && event.movie.images.poster" :to="link">
-			<g-image class="h-full rounded-lg rounded-r-none" :src="event.movie.images.poster" :alt="title + ' poster'" />
-		</g-link>
-		<!--<Poster :movie="event.movie" class="rounded-lg rounded-r-none" />-->
+		<!--<g-link v-if="event.movie.images && event.movie.images.poster" :to="event.movie.path">
+			<g-image class="h-full rounded-lg rounded-r-none" :src="event.movie.images.poster" :alt="event.movie.title + ' poster'" />
+		</g-link>-->
+		<Poster :movie="event.movie" class="rounded-lg rounded-r-none" />
 		<div class="w-3/4 p-4 px-6 rounded-lg flex flex-col">
 			<h3 class="mb-4 font-bold text-2xl md:text-4xl text-gray-200 leading-none">
 				<g-link :to="event.movie.path">{{event.movie.title}}<span class="hidden sm:inline"> {{event.movie.year && ` (${event.movie.year})`}}</span></g-link>

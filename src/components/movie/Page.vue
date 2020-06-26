@@ -1,10 +1,10 @@
 <template>
 	<div>
 		<section class="h-64">
-			<g-image v-if="movie.images && movie.images.fanart" class="absolute z-0 h-64 w-full object-cover object-top" style="clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%)" :src="movie.images.fanart" />
+			<g-image v-if="movie.images && movie.images.fanart" :src="movie.images.fanart" class="absolute z-0 h-64 w-full object-cover object-top" style="clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%)" />
 			<div class="flex w-full h-full p-2">
-				<div class="pr-48 ml-8 mt-16 hidden sm:inline height-1">
-					<g-image class="absolute shadow-xl border-4 border-white w-48 z-0" v-if="movie.images && movie.images.poster" :src="movie.images.poster" />
+				<div v-if="movie.images && movie.images.poster" class="pr-48 ml-8 mt-16 hidden sm:inline height-1">
+					<g-image class="absolute shadow-lg border-4 border-white w-48 z-0" :src="movie.images.poster" />
 				</div>
 				<div class="flex-auto md:ml-8 z-10">
 					<h1 class="font-bold text-4xl md:text-6xl tracking-loose leading-tight md:mt-16 z-10" style="text-shadow: 2px 2px #111;">{{movie.title}} ({{movie.year}})</h1>

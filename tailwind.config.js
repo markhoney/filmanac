@@ -9,6 +9,7 @@ module.exports = {
 	},
 	variants: {
 		display: ['responsive', 'hover', 'group-hover'],
+		transitionProperty: ['responsive', 'hover', 'group-hover'],
 	},
 	plugins: [],
 };

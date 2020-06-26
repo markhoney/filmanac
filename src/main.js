@@ -28,5 +28,5 @@ export default function (Vue, {router, head}) { // , {isClient}
 	Vue.component('Fixed', Fixed);
 	// Vue.component('vue-flip', VueFlip);
 	Vue.use(AsyncComputed);
-	head.bodyAttrs = {class: 'bg-gray-800 light:bg-gray-100 text-gray-300 light:text-gray-900'};
+	// head.bodyAttrs = {class: 'bg-gray-800 light:bg-gray-100 text-gray-300 light:text-gray-900'};
 }

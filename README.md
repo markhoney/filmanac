@@ -4,10 +4,10 @@
 
 Run the following in order:
 
-- `git clone https://github.com/markhoney/amoviefortoday.git`
+- `git clone --single-branch https://github.com/markhoney/amoviefortoday.git` to just download the Master branch
 - `cd amoviefortoday`
-- `yarn install`
-- `yarn extras` to install non NPM packages
+- `yarn install` to install dependencies
+- `yarn extras` to install non NPM Git packages
 
 Next create a file called `.env` in the root of the repo, looking like this:
 
