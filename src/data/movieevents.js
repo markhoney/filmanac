@@ -93,6 +93,7 @@ class MovieEvents {
 		this.writers = [];
 		this.actors = [];
 		this.score = [];
+		this.celebration = [];
 	}
 
 	getAllDates() {
@@ -215,6 +216,15 @@ class MovieEvents {
 			title: score + '%',
 		}));
 		return scores;
+	}
+
+	getCelebrations() {
+		const celebrations = unique(this.movie.map((movie) => movie.celebration)).map((celebration) => ({
+			id: slugify(celebration),
+			title: celebration,
+		}));
+		for (const movie of this.movie) if (movie.celebration) movie.celebration = slugify(movie.celebration);
+		return celebrations;
 	}
 
 	getStudios(lookup) {
@@ -639,6 +649,7 @@ class MovieEvents {
 		this.writers = this.getWriters();
 		this.actors = this.getActors();
 		this.score = this.getScores();
+		this.celebration = this.getCelebrations();
 		this.stats = Object.entries(this.getStats()).map((stat) => ({id: stat[0], value: stat[1]}));
 	}
 

@@ -24,6 +24,10 @@ module.exports = class MovieSource {
 				// event.dayofyear = movieEvents.dayofyear.find((dayofyear) => event.day === dayofyear.day && event.month === dayofyear.month).id;
 				event.dayofyear = [event.month, event.day].join('-');
 			}
+			collections.Year.addReference('events', 'Event');
+			for (const year of movieEvents.year) {
+				year.events = movieEvents.event.filter((event) => event.year === year.id).map((event) => event.id);
+			}
 			collections.Event.addReference('dayofyear', 'DayofYear');
 			for (const month of movieEvents.month) {
 				month.days = movieEvents.dayofyear.filter((date) => date.month === month.id).map((date) => date.id);

@@ -1,14 +1,25 @@
 <template>
 	<div class="text-gray-700 w-48 mx-auto">
 		<div class="h-10 pl-3 pr-2 bg-white border rounded flex justify-between items-center relative">
-			<input class="appearance-none w-full outline-none focus:outline-none active:outline-none" type="search" v-model="searchTerm" @focus="focus = true" @blur="hide" placeholder="Search..." /><!-- form-control w-48 rounded p-1 -->
+			<input
+				type="search"
+				placeholder="Search..."
+				class="appearance-none w-full outline-none focus:outline-none active:outline-none"
+				v-model="searchTerm"
+				@focus="focus = true"
+				@blur="hide"
+			/>
 			<button type="submit" class="ml-1 outline-none focus:outline-none active:outline-none">
 				<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6">
 					<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
 				</svg>
 			</button>
 		</div>
-		<ul v-if="focus && searchTerm.length >= 3" class="absolute w-auto max-w-sm right-0 bg-white p-0 rounded mr-4 overflow-y-auto z-50" style="min-width: 192px; max-height: 90vh;">
+		<ul
+			v-if="focus && searchTerm.length >= 3"
+			class="absolute w-auto max-w-sm right-0 bg-white p-0 rounded mr-4 overflow-y-auto z-50"
+			style="min-width: 192px; max-height: 90vh;"
+		>
 			<li v-for="result in searchResults" :key="result.id">
 				<g-link :to="result.path"><span v-html="boldNew(result.title)" /></g-link>
 			</li>

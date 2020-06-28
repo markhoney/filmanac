@@ -1,7 +1,9 @@
 <template>
 	<ul>
-		<li v-for="classification in $page.allClassification.edges.node" :key="classification.id">
-			{{classification.title}}
+		<li v-for="classification in $page.allClassification.edges" :key="classification.node.id">
+			<g-link :to="classification.node.path">
+				{{classification.node.title}}
+			</g-link>
 		</li>
 	</ul>
 </template>
