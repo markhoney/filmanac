@@ -474,7 +474,7 @@ class MovieEvents {
 			// if (movie.poster_path) urls.poster = {url: 'https://image.tmdb.org/t/p/original/' + movie.poster_path};
 			// if (movie.backdrop_path) urls.fanart = {url: 'https://image.tmdb.org/t/p/original/' + movie.fanart_path};
 			if (movie.poster_path) urls.poster = 'https://image.tmdb.org/t/p/original/' + movie.poster_path;
-			if (movie.backdrop_path) urls.fanart = 'https://image.tmdb.org/t/p/original/' + movie.fanart_path;
+			if (movie.backdrop_path) urls.fanart = 'https://image.tmdb.org/t/p/original/' + movie.backdrop_path;
 			// console.log(urls.poster, urls.fanart);
 		}
 		return [tmdb, await this.getArt(id, urls)];
@@ -663,7 +663,7 @@ class MovieEvents {
 			stats[source] = this.movie.filter((movie) => movie.info[source]).length;
 		}
 		for (const image of ['logo', 'clearart', 'poster', 'keyart', 'fanart', 'disc', 'banner', 'landscape']) {
-			stats[image + 's'] = this.movie.filter((movie) => movie.images[image]).length;
+			stats[image + 's'] = this.movie.filter((movie) => movie.images && movie.images[image]).length;
 		}
 		return stats;
 	}

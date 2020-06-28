@@ -5,9 +5,11 @@
 			<span class="inline-block">{{date}}</span>&nbsp;
 			<g-link :to="day.next.path" :title="day.next.title">⇨</g-link>
 		</h1>
-		<template v-if="day.events">
-			<Event v-for="event in events" :key="event.id" :event="event" class="my-4 md:my-8" />
-		</template>
+		<carousel-3d v-if="day.events" :controlsVisible="true" :count="day.events.length" height="300" width="800">
+			<slide v-for="(event, index) in events" :key="event.id" :index="index">
+				<Event :event="event" />
+			</slide>
+		</carousel-3d>
 		<NoEvents v-else />
 		<div class="text-center text-6xl font-bold">
 			<g-link :to="day.previous.path" :title="day.previous.title">
@@ -31,8 +33,9 @@
 	import Event from '@/components/generic/NewCard.vue';
 	import NoEvents from '@/components/event/None.vue';
 	import Loading from '@/components/day/Loading.vue';
+	import {Carousel3d, Slide} from 'vue-carousel-3d';
 	export default {
-		components: {Event, NoEvents, Loading},
+		components: {Event, NoEvents, Loading, Carousel3d, Slide},
 		props: ['day'],
 		data() {
 			return {

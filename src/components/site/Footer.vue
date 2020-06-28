@@ -1,5 +1,5 @@
 <template>
 	<footer class="text-center m-4">
-		Site created by <a href="https://mark.honeychurch.org" target="_blank">Mark Honeychurch</a>
+		Site created by <a href="https://mark.honeychurch.org" target="_blank" class="font-bold">Mark Honeychurch</a>, with a little help from my friends
 	</footer>
 </template>

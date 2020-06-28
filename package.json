@@ -13,7 +13,7 @@
 		"lint": "eslint --ext .js,.vue --ignore-path .gitignore -f table .",
 		"lint:fix": "npm run lint --fix",
 		"share": "lt --port 8080 --subdomain aarond",
-		"up": "yarn upgrade && yarn upgrade-interactive --latest && yarn extras:all",
+		"up": "yarn upgrade && yarn upgrade-interactive --latest && yarn extras",
 		"extras:genres": "napa DjCisco/resource.images.moviegenreicons.transparent XBMC-Addons/resource.images.moviegenreicons.white XBMC-Addons/resource.images.moviegenreicons.filmstrip dproudmoore/resource.images.moviegenrefanart.metrocity Helly1206/resource.images.moviegenrefanart.xonfluence mistervee/resource.images.moviegenreicons.filmstrip-hd.colour mistervee/resource.images.moviegenreicons.filmstrip-hd.bw",
 		"extras:studios": "napa XBMC-Addons/resource.images.studios.coloured XBMC-Addons/resource.images.studios.white braz96/resource.images.studios.squarehd",
 		"extras:classifications": "napa wyrm65/resource.images.classificationicons.colour",
@@ -22,6 +22,7 @@
 		"extras": "yarn extras:genres && yarn extras:studios && yarn extras:classifications && yarn extras:countries && yarn extras:languages"
 	},
 	"devDependencies": {
+		"@danestves/tailwindcss-darkmode": "^1.1.5",
 		"@gridsome/plugin-sitemap": "^0.3.0",
 		"colors": "^1.4.0",
 		"cross-env": "^7.0.2",
@@ -33,7 +34,7 @@
 		"gridsome-plugin-feed": "^1.0.2",
 		"gridsome-plugin-flexsearch": "^1.0.1",
 		"gridsome-plugin-pwa": "^0.0.18",
-		"gridsome-plugin-tailwindcss": "^2.2.48",
+		"gridsome-plugin-tailwindcss": "^3.0.1",
 		"imdb-api": "^4.0.3",
 		"napa": "^3.0.0",
 		"node-fetch": "^2.6.0",
@@ -65,8 +66,12 @@
 		"typeface-sail": "^0.0.71",
 		"typeface-special-elite": "^0.0.72",
 		"vue-carousel": "^0.18.0",
+		"vue-carousel-3d": "^0.2.0",
 		"vue-flip": "^1.0.1",
-		"vue-infinite-loading": "^2.4.5"
+		"vue-horizontal-list": "^1.0.7",
+		"vue-infinite-loading": "^2.4.5",
+		"vue-slick-carousel": "^1.0.5",
+		"vuejs-snackbar": "^4.0.1"
 	},
 	"napa-config": {
 		"cache": false

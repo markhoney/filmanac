@@ -15,9 +15,11 @@
 				ordinal
 			}
 			previous {
+				title
 				path
 			}
 			next {
+				title
 				path
 			}
 			events {

@@ -14,6 +14,14 @@
 			}
 			runtime
 			awards
+			directors {
+				title
+				path
+			}
+			actors {
+				title
+				path
+			}
 			images {
 				poster (width: 200, height: 300, quality: 80)
 				fanart (width: 1280, height: 720, quality: 80)

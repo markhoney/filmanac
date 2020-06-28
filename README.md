@@ -37,6 +37,7 @@ Finally, to download and cache all required files, run:
     - ~~Use for Days~~
   - ~~Movie full screen view~~
     - ~~Single Movie~~
+    - Show actors, directors, etc
   - Movie cover view
     - Genres, Studios, etc
       - Split by month with headers?
@@ -47,6 +48,11 @@ Finally, to download and cache all required files, run:
   - ~~Actors~~
   - ~~Director~~
   - ~~Rated~~
+  - Two Line View
+    - Movie name, Event description
+    - Use for dates
+  - Poster view
+    - Genres
 
 - Layout
   - Red curtain

@@ -1,5 +1,5 @@
 <template>
-	<nav class="mt-3 z-10">
+	<nav class="mt-3 z-10 font-bold">
 		<ul>
 			<li class="group hover:bg-opacity-75">
 				<g-link to="/days">Days</g-link>
