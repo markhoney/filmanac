@@ -661,30 +661,35 @@ class MovieEvents {
 	getStats() {
 		const stats = {};
 		stats.days = unique(this.event.map((event) => [event.month, event.day].join('-'))).length;
-		stats.movieyears = this.years.length;
+		stats.multiple = this.event.reduce((events, event) => {
+			const day = event.month * 31 + event.day;
+			if (!events[day]) events[day] = 0;
+			events[day]++;
+			return events;
+		}, []).filter((day) => day > 1).length;
 		stats.dates = this.days.length;
-		stats.classifications = this.classification.length;
-		for (const cat of ['year', 'event', 'movie']) {
-			stats[cat + 's'] = this[cat].length;
-		}
-		for (const cat of ['studios', 'genres', 'languages', 'countries', 'directors', 'writers', 'actors', 'score', 'classification']) {
+		for (const cat of ['year', 'event', 'movie', 'years', 'studios', 'genres', 'languages', 'countries', 'directors', 'writers', 'actors', 'score', 'classification', 'celebration']) {
 			stats[cat] = this[cat].length;
 		}
 		for (const source of ['wikipedia', 'wikidata']) {
 			stats[source] = this.movie.filter((movie) => movie.info[source]).length;
 		}
-		for (const image of ['logo', 'clearart', 'poster', 'keyart', 'fanart', 'disc', 'banner', 'landscape']) {
-			stats[image + 's'] = this.movie.filter((movie) => movie.images && movie.images[image]).length;
+		for (const image of ['poster', 'fanart', 'logo', 'clearart', 'keyart', 'disc', 'banner', 'landscape']) {
+			stats[image] = this.movie.filter((movie) => movie.images && movie.images[image]).length;
 		}
 		return stats;
 	}
 
 	getMissing(stats) {
 		const missing = {};
-		for (const value of ['wikipedia', 'wikidata', 'logos', 'cleararts', 'posters', 'keyarts', 'fanarts', 'discs', 'banners', 'landscapes']) {
-			missing[value] = stats.movies - stats[value];
-		}
 		missing.days = 366 - stats.days;
+		missing.multiple = 366 - stats.multiple;
+		for (const value of ['wikipedia', 'wikidata', 'poster', 'fanart', 'logo', 'clearart', 'keyart', 'disc', 'banner', 'landscape']) {
+			missing[value] = stats.movie - stats[value];
+		}
+		for (const value of ['studios', 'directors', 'actors', 'runtime', 'score', 'classification']) {
+			missing[value] = stats.movie - this.movie.filter((movie) => movie[value]).length;
+		}
 		return missing;
 	}
 }
@@ -695,10 +700,12 @@ async function getAll() {
 	if (!module.parent) {
 		console.log();
 		// console.log(movieEvents.stats.reduce((p, c) => ({...p, [c.id]: c.value}), {}));
-		console.log('Missing', movieEvents.getMissing(movieEvents.getStats()));
+		const stats = movieEvents.getStats();
+		console.log('Stats', stats);
+		console.log('Missing', movieEvents.getMissing(stats));
 	}
 	console.log();
-	console.log(movieEvents.stat('events'), 'events in', movieEvents.stat('movies'), 'movies.', movieEvents.stat('days'), 'days covered,', 366 - movieEvents.stat('days'), 'days missing.');
+	console.log(movieEvents.stat('event'), 'events in', movieEvents.stat('movie'), 'movies.', movieEvents.stat('days'), 'days covered,', 366 - movieEvents.stat('days'), 'days missing.');
 	console.log();
 }
 
