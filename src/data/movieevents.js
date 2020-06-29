@@ -705,7 +705,7 @@ async function getAll() {
 		console.log('Missing', movieEvents.getMissing(stats));
 	}
 	console.log();
-	console.log(movieEvents.stat('event'), 'events in', movieEvents.stat('movie'), 'movies.', movieEvents.stat('days'), 'days covered,', 366 - movieEvents.stat('days'), 'days missing.');
+	console.log(movieEvents.stat('event'), 'events in', movieEvents.stat('movie'), 'movies.', 366 - movieEvents.stat('multiple'), 'days with only one movie.');
 	console.log();
 }
 
