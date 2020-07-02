@@ -4,7 +4,7 @@
         <title>Movies for Today</title>
         <link>https://movies.honeychurch.org/</link>
         <description>undefined</description>
-        <lastBuildDate>Sat, 27 Jun 2020 03:25:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jul 2020 01:56:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Gridsome Feed Plugin</generator>
         <atom:link href="https://movies.honeychurch.org/feed.xml" rel="self" type="application/rss+xml"/>
@@ -49,6 +49,16 @@
             <guid>https://movies.honeychurch.org/tt0069113/</guid>
         </item>
         <item>
+            <title><![CDATA[Killing Kennedy]]></title>
+            <link>https://movies.honeychurch.org/tt2815030/</link>
+            <guid>https://movies.honeychurch.org/tt2815030/</guid>
+        </item>
+        <item>
+            <title><![CDATA[Ruby]]></title>
+            <link>https://movies.honeychurch.org/tt0105291/</link>
+            <guid>https://movies.honeychurch.org/tt0105291/</guid>
+        </item>
+        <item>
             <title><![CDATA[12 Years a Slave]]></title>
             <link>https://movies.honeychurch.org/tt2024544/</link>
             <guid>https://movies.honeychurch.org/tt2024544/</guid>
@@ -59,6 +69,11 @@
             <guid>https://movies.honeychurch.org/tt0077294/</guid>
         </item>
         <item>
+            <title><![CDATA[Coach Carter]]></title>
+            <link>https://movies.honeychurch.org/tt0393162/</link>
+            <guid>https://movies.honeychurch.org/tt0393162/</guid>
+        </item>
+        <item>
             <title><![CDATA[War Dogs]]></title>
             <link>https://movies.honeychurch.org/tt2005151/</link>
             <guid>https://movies.honeychurch.org/tt2005151/</guid>
@@ -67,6 +82,11 @@
             <title><![CDATA[The Rise of Catherine the Great]]></title>
             <link>https://movies.honeychurch.org/tt0024962/</link>
             <guid>https://movies.honeychurch.org/tt0024962/</guid>
+        </item>
+        <item>
+            <title><![CDATA[The Lives of Others]]></title>
+            <link>https://movies.honeychurch.org/tt0405094/</link>
+            <guid>https://movies.honeychurch.org/tt0405094/</guid>
         </item>
         <item>
             <title><![CDATA[Loving]]></title>
@@ -89,6 +109,11 @@
             <guid>https://movies.honeychurch.org/tt1895587/</guid>
         </item>
         <item>
+            <title><![CDATA[The Hoax]]></title>
+            <link>https://movies.honeychurch.org/tt0462338/</link>
+            <guid>https://movies.honeychurch.org/tt0462338/</guid>
+        </item>
+        <item>
             <title><![CDATA[Blood Night: The Legend of Mary Hatchet]]></title>
             <link>https://movies.honeychurch.org/tt1161404/</link>
             <guid>https://movies.honeychurch.org/tt1161404/</guid>
@@ -107,31 +132,6 @@
             <title><![CDATA[The Trial of Joan of Arc]]></title>
             <link>https://movies.honeychurch.org/tt0059616/</link>
             <guid>https://movies.honeychurch.org/tt0059616/</guid>
-        </item>
-        <item>
-            <title><![CDATA[Monster]]></title>
-            <link>https://movies.honeychurch.org/tt0340855/</link>
-            <guid>https://movies.honeychurch.org/tt0340855/</guid>
-        </item>
-        <item>
-            <title><![CDATA[Aligarh]]></title>
-            <link>https://movies.honeychurch.org/tt5121000/</link>
-            <guid>https://movies.honeychurch.org/tt5121000/</guid>
-        </item>
-        <item>
-            <title><![CDATA[BlacKkKlansman]]></title>
-            <link>https://movies.honeychurch.org/tt7349662/</link>
-            <guid>https://movies.honeychurch.org/tt7349662/</guid>
-        </item>
-        <item>
-            <title><![CDATA[Talk to Me]]></title>
-            <link>https://movies.honeychurch.org/tt0796368/</link>
-            <guid>https://movies.honeychurch.org/tt0796368/</guid>
-        </item>
-        <item>
-            <title><![CDATA[Walk. Ride. Rodeo.]]></title>
-            <link>https://movies.honeychurch.org/tt5848416/</link>
-            <guid>https://movies.honeychurch.org/tt5848416/</guid>
         </item>
     </channel>
 </rss>
