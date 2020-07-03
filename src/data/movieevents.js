@@ -17,7 +17,7 @@ const {v3, v4} = require('@leonardocabeza/the-movie-db');
 const v4Client = v4(process.env.TheMovieDB4Key);
 const v3Client = v3(process.env.TheMovieDBKey);
 
-const nofanart = require('./nofanart.json');
+const nofanart = require('../../cache/images/nofanart.json');
 
 function unique(array) {
 	return [...new Set(array)].filter((element) => !['N/A', 'None', '', null, undefined, false].includes(element));
