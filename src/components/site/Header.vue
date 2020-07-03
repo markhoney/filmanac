@@ -1,5 +1,5 @@
 <template>
-	<header class="sm:flex p-4 text-center bg-red-900 text-gray-400">
+	<header class="sm:flex p-4 text-center bg-primary-dark text-gray-200">
 		<dark class="mr-4" />
 		<site-menu />
 		<div class="flex-auto text-center text-4xl font-bold" style="font-family: Josefin Sans;">

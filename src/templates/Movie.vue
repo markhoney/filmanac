@@ -56,13 +56,6 @@
 				year {
 					id
 				}
-				month {
-					title
-				}
-				day {
-					id
-					ordinal
-				}
 				info {
 					wikipedia {
 						url

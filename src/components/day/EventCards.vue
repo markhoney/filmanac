@@ -1,9 +1,9 @@
 <template>
 	<section v-if="day">
 		<h1 class="font-bold text-4xl text-center">
-			<g-link :to="day.previous.path" :title="day.previous.title">⇦</g-link>&nbsp;
+			<g-link :to="day.previous.path" :title="day.previous.title">🠰</g-link>&nbsp;
 			<span class="inline-block">{{date}}</span>&nbsp;
-			<g-link :to="day.next.path" :title="day.next.title">⇨</g-link>
+			<g-link :to="day.next.path" :title="day.next.title">🠲</g-link>
 		</h1>
 		<template v-if="day.events">
 			<Event v-for="event in events" :key="event.id" :event="event" class="my-4 md:my-8" />
@@ -12,12 +12,12 @@
 		<div class="text-center text-6xl font-bold">
 			<g-link :to="day.previous.path" :title="day.previous.title">
 				<button class="mr-8 px-2">
-					⇦
+					🠰
 				</button>
 			</g-link>
 			<g-link :to="day.next.path" :title="day.next.title">
 				<button class="mr-8 px-2">
-					⇨
+					🠲
 				</button>
 			</g-link>
 		</div>
@@ -28,7 +28,7 @@
 </template>
 
 <script>
-	import Event from '@/components/generic/NewCard.vue';
+	import Event from '@/components/event/Card.vue';
 	import NoEvents from '@/components/event/None.vue';
 	import Loading from '@/components/day/Loading.vue';
 	export default {

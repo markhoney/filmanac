@@ -53,6 +53,8 @@ Finally, to download and cache all required files, run:
     - Use for dates
   - Poster view
     - Genres
+  - Next movie view
+    - Includes year
 
 - Layout
   - Red curtain

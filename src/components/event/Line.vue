@@ -1,7 +1,7 @@
 <template>
 	<span>
 		<b>
-			<g-link :to="event.dayofyear && event.dayofyear.path">{{event.month.title}} {{event.day.id}}{{event.day.ordinal}}</g-link>{{event.year && ', ' + event.year.id}}
+			<g-link :to="event.dayofyear.path">{{event.dayofyear.month.title}} {{event.dayofyear.day.id}}{{event.dayofyear.day.ordinal}}</g-link>{{event.year && ', ' + event.year.id}}
 		</b>
 		{{separator}}
 		{{event.title}}

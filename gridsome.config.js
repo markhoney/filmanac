@@ -59,7 +59,7 @@ module.exports = {
 			use: 'gridsome-plugin-pwa',
 			options: {
 				title: siteName,
-				disableServiceWorker: false,
+				disableServiceWorker: true,
 				shortName: siteName,
 				cachedFileTypes: 'js,css',
 				themeColor: '#e32929',
@@ -70,8 +70,7 @@ module.exports = {
 	],
 	templates: {
 		Movie: '/:id',
-		DayofYear: '/:month/:day',
-		// DayofYear: ['/:month/:day', '/:slugs__month/:day', , '/:slugs__month/:slugs__day', , '/:slugs__month/:slugs__shortday', , '/:slugs__shortmonth/:slugs__day', , '/:slugs__shortmonth/:slugs__shortday'],
+		// // DayofYear: ['/:month/:day', '/:slugs__month/:day', , '/:slugs__month/:slugs__day', , '/:slugs__month/:slugs__shortday', , '/:slugs__shortmonth/:slugs__day', , '/:slugs__shortmonth/:slugs__shortday'],
 		Genres: '/genres/:id',
 		Studios: '/studios/:id',
 		Languages: '/languages/:id',
@@ -79,6 +78,7 @@ module.exports = {
 		Directors: '/directors/:id',
 		Writers: '/writers/:id',
 		Actors: '/actors/:id',
+		DayofYear: '/:month/:day',
 		Month: '/month/:id',
 		Year: '/year/:id',
 		Classification: '/classification/:id',

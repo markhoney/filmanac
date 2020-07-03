@@ -19,10 +19,6 @@
 				images {
 					poster (width: 200, height: 300, quality: 80)
 				}
-				classification {
-					title
-					path
-				}
 				studios {
 					title
 					image

@@ -11,7 +11,7 @@
 					<g-image class="absolute shadow-lg border-4 border-white w-48 z-0" :src="movie.images.poster" />
 				</div>
 				<div class="flex-auto md:ml-16 z-10">
-					<div class="h-64">
+					<div class="h-56">
 						<h1
 							class="font-bold text-4xl md:text-6xl tracking-loose leading-tight z-10"
 							style="text-shadow: 2px 2px #111;"
@@ -20,7 +20,7 @@
 						</h1>
 						<score v-if="movie.score" class="mt-2" :percent="movie.score.id" :stars="5" :numeric="true" />
 					</div>
-					<div class="mt-4 mr-8 max-w-screen-lg pa-16 text-xl">
+					<div class="mt-4 mr-8 max-w-screen-lg p-8 text-xl">
 						<p>{{movie.plot}}</p>
 						<p v-if="movie.directors" class="mt-4"><b>Directed by</b> {{movie.directors.map((director) => director.title).join(', ')}}</p>
 						<p v-if="movie.actors" class="mt-4"><b>Starring</b> {{movie.actors.map((actor) => actor.title).join(', ')}}</p>

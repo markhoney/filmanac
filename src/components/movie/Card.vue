@@ -11,7 +11,7 @@
 			...movie.languages || [],
 		]"
 	>
-		<p class="text-xl text-base text-gray-100 leading-snug h-20 overflow-hidden">{{movie.plot}}</p>
+		<p class="text-xl text-gray-100 leading-snug h-20 overflow-hidden">{{movie.plot}}</p>
 		<classification v-if="movie.classification" class="float-right" :to="movie.classification.path">{{movie.classification.title}}</classification>
 		<score v-if="movie.score" class="mt-2" :percent="movie.score.id" :stars="5" />
 		<!--<p class="mt-4 text-gray-100">- Directed by {{movie.director}}.</p>-->
