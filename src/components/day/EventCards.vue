@@ -1,9 +1,9 @@
 <template>
 	<section v-if="day">
 		<h1 class="font-bold text-4xl text-center">
-			<g-link :to="day.previous.path" :title="day.previous.title">⇦</g-link>&nbsp;
+			<g-link :to="day.previous.path" :title="day.previous.title"><font-awesome :icon="['fas', 'chevron-circle-left']"/></g-link>&nbsp;
 			<span class="inline-block">{{date}}</span>&nbsp;
-			<g-link :to="day.next.path" :title="day.next.title">⇨</g-link>
+			<g-link :to="day.next.path" :title="day.next.title">&gt;&gt;</g-link>
 		</h1>
 		<template v-if="day.events">
 			<Event v-for="event in events" :key="event.id" :event="event" class="my-4 md:my-8" />
