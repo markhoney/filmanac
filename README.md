@@ -67,3 +67,7 @@ Finally, to download and cache all required files, run:
 
 - Stats
   - Google Analytics
+
+## Crowd Sourcing form
+
+[https://docs.google.com/forms/d/e/1FAIpQLScHIrrdLHayB8kvMgS_tQhxLZXNacMnwxNiOD0vfYDODDT8Wg/viewform](https://docs.google.com/forms/d/e/1FAIpQLScHIrrdLHayB8kvMgS_tQhxLZXNacMnwxNiOD0vfYDODDT8Wg/viewform)

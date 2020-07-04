@@ -79,6 +79,8 @@ function titleCase(string) {
 		.join(' ');
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 class MovieEvents {
 	constructor() {
 		this.sheets = null;
@@ -377,12 +379,6 @@ class MovieEvents {
 						},
 					},
 				};
-				if (event.moviewikidata) {
-					movie.info.wikidata = {
-						id: event.moviewikidata,
-						url: `https://www.wikidata.org/wiki/${event.moviewikidata}`,
-					};
-				}
 				if (event.moviewikipedia) {
 					movie.info.wikipedia = {
 						id: event.moviewikipedia,
@@ -525,12 +521,17 @@ class MovieEvents {
 		return details;
 	}
 
-	async getWikiData(id) {
+	async getWikiData(id, name) {
 		const json = resolve('cache', 'json', 'wikidata', `${id}.json`);
 		if (!existsSync(json)) {
 			console.log('Downloading WikiData info for', id);
 			try {
-				const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
+				// const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
+				await sleep(1000);
+				const page = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&format=json&titles=${name}`);
+				const data = await page.json();
+				// const id = Object.keys(json.entities);
+				const details = Object.values(data.entities)[0];
 				writeFileSync(json, JSON.stringify(details, null, '\t'));
 				return details;
 			} catch(e) {
@@ -585,6 +586,13 @@ class MovieEvents {
 				...movie,
 				...this.processDetails(details),
 			};
+			if (movie.info.wikipedia) {
+				let wikidata = await this.getWikiData(movie.id, movie.info.wikipedia.id);
+				if (wikidata) movie.info.wikidata = {
+					id: wikidata.title,
+					url: `https://www.wikidata.org/wiki/${wikidata.title}`,
+				};
+			}
 			const [tmdb, fanart] = await this.getFanart(movie.id, movie.poster);
 			delete movie.poster;
 			if (tmdb) movie.info.tmdb = {
@@ -675,12 +683,14 @@ class MovieEvents {
 	getStats() {
 		const stats = {};
 		stats.days = unique(this.event.map((event) => [event.month, event.day].join('-'))).length;
-		stats.multiple = this.event.reduce((events, event) => {
-			const day = event.month * 31 + event.day;
+		const daysofyear = this.event.reduce((events, event) => {
+			const day = [event.month, event.day].join('-');
 			if (!events[day]) events[day] = 0;
 			events[day]++;
 			return events;
-		}, []).filter((day) => day > 1).length;
+		}, {});
+		stats.multiple = Object.values(daysofyear).filter((day) => day > 1).length;
+		// stats.single = daysofyear.filter((day) => day < 2).map((day) => day.);
 		stats.dates = this.days.length;
 		for (const cat of ['year', 'event', 'movie', 'years', 'studios', 'genres', 'languages', 'countries', 'directors', 'writers', 'actors', 'score', 'classification', 'celebration']) {
 			stats[cat] = this[cat].length;
@@ -688,6 +698,7 @@ class MovieEvents {
 		for (const source of ['wikipedia', 'wikidata']) {
 			stats[source] = this.movie.filter((movie) => movie.info[source]).length;
 		}
+		stats.descriptions = this.event.filter((event) => event.title).length;
 		for (const image of ['poster', 'fanart', 'logo', 'clearart', 'keyart', 'disc', 'banner', 'landscape']) {
 			stats[image] = this.movie.filter((movie) => movie.images && movie.images[image]).length;
 		}
@@ -698,6 +709,9 @@ class MovieEvents {
 		const missing = {};
 		missing.days = 366 - stats.days;
 		missing.multiple = 366 - stats.multiple;
+		for (const value of ['descriptions']) {
+			missing[value] = stats.event - stats[value];
+		}
 		for (const value of ['wikipedia', 'wikidata', 'poster', 'fanart', 'logo', 'clearart', 'keyart', 'disc', 'banner', 'landscape']) {
 			missing[value] = stats.movie - stats[value];
 		}
