@@ -30,7 +30,7 @@
 </template>
 
 <script>
-	import Event from '@/components/generic/NewCard.vue';
+	import Event from '@/components/event/Card.vue';
 	import NoEvents from '@/components/event/None.vue';
 	import Loading from '@/components/day/Loading.vue';
 	import {Carousel3d, Slide} from 'vue-carousel-3d';

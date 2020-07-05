@@ -1,5 +1,5 @@
 <template>
-	<Fixed class="pa-8">
+	<Fixed>
 		<h2 class="text-4xl">Stats</h2>
 		<p>This database contains {{stat('events')}} events, from {{stat('movies')}} movies. These events cover {{stat('days')}} days of the year, and the events occurred in {{stat('years')}} different years. {{366 - stat('days')}} days unfortunately still have no movie events connected to them. The movies were made in {{stat('countries')}} countries, have {{stat('languages')}} spoken (or signed) languages and were made by {{stat('studios')}} different movie studios.
 		<h2 class="text-4xl">History</h2>

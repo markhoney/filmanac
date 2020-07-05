@@ -33,12 +33,14 @@
 				year {
 					id
 				}
-				month {
-					title
-				}
-				day {
-					id
-					ordinal
+				dayofyear {
+					month {
+						title
+					}
+					day {
+						id
+						ordinal
+					}
 				}
 				refreshments
 				mention
