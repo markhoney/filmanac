@@ -6,10 +6,7 @@ const fetch = require('node-fetch');
 const imdb = new (require('imdb-api')).Client({apiKey: process.env.OMDBAPIKey});
 const fanart = new (require('fanart.tv'))(process.env.FanartTVKey);
 const {google} = require('googleapis');
-const MovieDB = require('node-themoviedb');
-const mdb = new MovieDB(process.env.TheMovieDBKey);
-const {v3, v4} = require('@leonardocabeza/the-movie-db');
-const v4Client = v4(process.env.TheMovieDB4Key);
+const {v3} = require('@leonardocabeza/the-movie-db');
 const v3Client = v3(process.env.TheMovieDBKey);
 
 const nofanart = require('../../cache/images/nofanart.json');
@@ -507,6 +504,10 @@ class MovieEvents {
 			details = JSON.parse(readFileSync(json, 'utf8'));
 		}
 		return details;
+	}
+
+	getWikiDataFromWikipedia(wikipedia) {
+		const details = Object.keys((await(await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&format=json&titles=${wikipedia}`)).json()).entities)[0];
 	}
 
 	async getWikiData(id) {
