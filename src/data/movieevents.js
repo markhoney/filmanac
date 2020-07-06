@@ -2,19 +2,13 @@ require('dotenv').config();
 require('colors');
 const {readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, createWriteStream} = require('fs');
 const {resolve} = require('path');
-const {promisify} = require('util');
 const fetch = require('node-fetch');
 const imdb = new (require('imdb-api')).Client({apiKey: process.env.OMDBAPIKey});
 const fanart = new (require('fanart.tv'))(process.env.FanartTVKey);
 const {google} = require('googleapis');
-const MovieDB = require('node-themoviedb');
-// const extractFrame = require('ffmpeg-extract-frame');
 // const ffmpeg = require('fluent-ffmpeg');
 const extractFrames = require('ffmpeg-extract-frames');
-// const screenshot = promisify(ffmpeg.screenshots);
-const mdb = new MovieDB(process.env.TheMovieDBKey);
-const {v3, v4} = require('@leonardocabeza/the-movie-db');
-const v4Client = v4(process.env.TheMovieDB4Key);
+const {v3} = require('@leonardocabeza/the-movie-db');
 const v3Client = v3(process.env.TheMovieDBKey);
 
 const nofanart = require('../../cache/images/nofanart.json');
@@ -117,7 +111,7 @@ class MovieEvents {
 				});
 				dates.push({
 					id: [month, day].join('-'),
-					path: `/${month}/${day}`,
+					// path: `/${month}/${day}`,
 					month,
 					slugs: {
 						month: slugify(monthName(month)),
@@ -519,6 +513,28 @@ class MovieEvents {
 			details = JSON.parse(readFileSync(json, 'utf8'));
 		}
 		return details;
+	}
+
+	getBechdel(id) {
+		const json = resolve('cache', 'json', 'bechdel', `${id}.json`);
+		if (!existsSync(json)) {
+			console.log('Downloading Bechdel Test info for', id);
+			try {
+				// const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
+				await sleep(1000);
+				const page = await fetch('http://bechdeltest.com/api/v1/getMovieByImdbId?imdbid=' + id);
+				const data = await page.json();
+				// const id = Object.keys(json.entities);
+				const details = Object.values(data.entities)[0];
+				writeFileSync(json, JSON.stringify(details, null, '\t'));
+				return details;
+			} catch(e) {
+				// console.log(e);
+				console.log('WikiData scraping error for'.red, id);
+			}
+		} else {
+			return JSON.parse(readFileSync(json, 'utf8'));
+		}
 	}
 
 	async getWikiData(id, name) {
