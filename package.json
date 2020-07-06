@@ -5,6 +5,8 @@
 		"scrape": "node src/data/movieevents",
 		"develop": "gridsome develop",
 		"dev": "yarn develop",
+		"bacon": "node node_modules/six-degrees-kevin-bacon-api/index",
+		"dep": "depcheck",
 		"build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 gridsome build",
 		"predeploy": "yarn build",
 		"serve": "serve dist",
@@ -19,7 +21,8 @@
 		"extras:classifications": "napa wyrm65/resource.images.classificationicons.colour",
 		"extras:countries": "napa djaiss/mapsicon braz96/resource.images.moviecountryicons.flags braz96/resource.images.moviecountryicons.maps",
 		"extras:languages": "napa vdb86/resource.images.languageflags.completepack jeroenpardon/resource.images.languageflags.colour-flat",
-		"extras": "yarn extras:genres && yarn extras:studios && yarn extras:classifications && yarn extras:countries && yarn extras:languages"
+		"extras:bacon": "napa itwasmattgregg/six-degrees-kevin-bacon-api && cd node_modules/six-degrees-kevin-bacon-api && yarn install",
+		"extras": "yarn extras:genres && yarn extras:studios && yarn extras:classifications && yarn extras:countries && yarn extras:languages extras:bacon"
 	},
 	"devDependencies": {
 		"@danestves/tailwindcss-darkmode": "^1.1.5",
@@ -27,6 +30,7 @@
 		"colors": "^1.4.0",
 		"cross-env": "^7.0.2",
 		"csv-parse": "^4.9.0",
+		"depcheck": "^0.9.2",
 		"fanart.tv": "^2.1.0",
 		"ffmpeg-extract-frames": "^2.0.2",
 		"fluent-ffmpeg": "^2.1.2",
@@ -40,18 +44,13 @@
 		"imdb-api": "^4.0.3",
 		"napa": "^3.0.0",
 		"node-fetch": "^2.6.0",
-		"node-themoviedb": "^0.2.3",
 		"serve": "^11.3.0",
 		"vue-async-computed": "^3.8.2",
 		"vue-loading-overlay": "^3.3.2",
 		"wikidata-sdk": "^7.4.1"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "^1.2.29",
-		"@fortawesome/free-brands-svg-icons": "^5.13.1",
-		"@fortawesome/vue-fontawesome": "^0.1.10",
 		"@leonardocabeza/the-movie-db": "^4.0.6",
-		"ffmpeg-extract-frame": "^1.0.2",
 		"svg-country-flags": "^1.2.7",
 		"typeface-alfa-slab-one": "^0.0.72",
 		"typeface-audiowide": "^0.0.72",
@@ -69,7 +68,6 @@
 		"typeface-special-elite": "^0.0.72",
 		"vue-carousel": "^0.18.0",
 		"vue-carousel-3d": "^0.2.0",
-		"vue-flip": "^1.0.1",
 		"vue-horizontal-list": "^1.0.7",
 		"vue-infinite-loading": "^2.4.5",
 		"vue-slick-carousel": "^1.0.5",

@@ -2,7 +2,6 @@ require('dotenv').config();
 require('colors');
 const {readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, createWriteStream} = require('fs');
 const {resolve} = require('path');
-const {promisify} = require('util');
 const fetch = require('node-fetch');
 const imdb = new (require('imdb-api')).Client({apiKey: process.env.OMDBAPIKey});
 const fanart = new (require('fanart.tv'))(process.env.FanartTVKey);
@@ -112,7 +111,7 @@ class MovieEvents {
 				});
 				dates.push({
 					id: [month, day].join('-'),
-					path: `/${month}/${day}`,
+					// path: `/${month}/${day}`,
 					month,
 					slugs: {
 						month: slugify(monthName(month)),
@@ -525,6 +524,28 @@ class MovieEvents {
 			return JSON.parse(readFileSync(json, 'utf8'));
 		}
 		return {};
+	}
+
+	getBechdel(id) {
+		const json = resolve('cache', 'json', 'bechdel', `${id}.json`);
+		if (!existsSync(json)) {
+			console.log('Downloading Bechdel Test info for', id);
+			try {
+				// const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
+				await sleep(1000);
+				const page = await fetch('http://bechdeltest.com/api/v1/getMovieByImdbId?imdbid=' + id);
+				const data = await page.json();
+				// const id = Object.keys(json.entities);
+				const details = Object.values(data.entities)[0];
+				writeFileSync(json, JSON.stringify(details, null, '\t'));
+				return details;
+			} catch(e) {
+				// console.log(e);
+				console.log('WikiData scraping error for'.red, id);
+			}
+		} else {
+			return JSON.parse(readFileSync(json, 'utf8'));
+		}
 	}
 
 	async getWikiData(id, name) {
