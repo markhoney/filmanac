@@ -1,9 +1,13 @@
 const {resolve} = require('path');
-const {writeFileSync} = require('fs');
+const {existsSync, writeFileSync} = require('fs');
 
 module.exports = new class unavailable {
 	constructor() {
-		this.types = require('../../cache/unavailable.json');
+		if (existsSync(resolve('cache', 'unavailable.json'))) {
+			this.types = require('../../cache/unavailable.json');
+		} else {
+			this.types = {};
+		}
 	}
 
 	exists(type, id) {

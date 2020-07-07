@@ -1,3 +1,4 @@
+require("dotenv").config();
 require('colors');
 // const ffmpeg = require('fluent-ffmpeg');
 const extractFrames = require('ffmpeg-extract-frames');

@@ -1,17 +1,15 @@
 require('dotenv').config();
 require('colors');
-const {readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, createWriteStream} = require('fs');
+const {mkdirSync, existsSync, copyFileSync} = require('fs');
 const {resolve} = require('path');
-const fetch = require('node-fetch');
-const imdb = new (require('imdb-api')).Client({apiKey: process.env.OMDBAPIKey});
-const fanart = new (require('fanart.tv'))(process.env.FanartTVKey);
-const {google} = require('googleapis');
-const {v3} = require('@leonardocabeza/the-movie-db');
-const v3Client = v3(process.env.TheMovieDBKey);
 const number = require('./number');
 const {screenshot} = require('./extract');
-const unavailable = require('./unavailable');
 const googlesheet = require('./googlesheet');
+const fanart = require('./fanart');
+const tmdb = require('./tmdb');
+const omdb = require('./omdb');
+const bechdel = require('./bechdel');
+const wikidata = require('./wikidata');
 
 function unique(array) {
 	return [...new Set(array)].filter((element) => !['N/A', 'None', '', null, undefined, false].includes(element));
@@ -32,13 +30,6 @@ function slugify(name) {
 	return name.toLowerCase().split(' ').join('_');
 }
 
-function cleanObj(obj) {
-	for (let prop in obj) {
-		if (typeof obj[prop] === 'string' && ['N/A', 'None', '', null, undefined].includes(obj[prop].trim())) delete obj[prop];
-	}
-	return obj;
-}
-
 function monthName(number) {
 	return ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][number - 1];
 }
@@ -50,8 +41,6 @@ function titleCase(string) {
 		.map(word => word.charAt(0).toUpperCase() + word.slice(1))
 		.join(' ');
 }
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 class MovieEvents {
 	constructor() {
@@ -360,255 +349,32 @@ class MovieEvents {
 		return null;
 	}
 
-	getURL(fanart) {
-		let art;
-		if (fanart && fanart.length) {
-			art = fanart.find((art) => art.lang === 'en' && art.disc_type === 'bluray');
-			if (!art) art = fanart.find((art) => art.lang === 'en');
-			if (!art) art = fanart[0];
-			// if (art) art = {url: art.url};
-		}
-		return art && art.url;
-	}
-
-	getFanartURLs(fanart) {
-		const art = {};
-		if (fanart) {
-			art.logo = this.getURL([...(fanart.hdmovielogo || []), ...(fanart.movielogo || [])]);
-			art.clearart = this.getURL([...(fanart.hdmovieclearart || []), ...(fanart.movieclearart || [])]);
-			art.poster = this.getURL(fanart.movieposter);
-			let keyart;
-			if (fanart.movieposter) keyart = fanart.movieposter.find((art) => art.lang === '00');
-			if (keyart) art.keyart = keyart.url;
-			art.fanart = this.getURL(fanart.moviebackground);
-			art.disc = this.getURL(fanart.moviedisc);
-			art.banner = this.getURL(fanart.moviebanner);
-			art.landscape = this.getURL(fanart.moviethumb);
-		}
-		return art;
-	}
-
-	async getArt(id, urls) {
-		const art = {};
-		for (const type in urls) {
-			if (urls[type]) {
-				/* art[type] = {
-					type,
-					// url: urls[type],
-					image: resolve('cache', 'images', type, `${id}.jpg`),
-				}; */
-				art[type] = resolve('cache', 'images', type, `${id}.jpg`);
-				if (!existsSync(art[type])) {
-					console.log(`Downloading ${type} for ${id}`);
-					let res;
-					try {
-						res = await fetch(urls[type]);
-						await res.body.pipe(createWriteStream(art[type]));
-					} catch(e) {
-					// console.log(e);
-					console.log('Fanart scraping error for'.red, type, id);
-					}
-				}
-				// delete art[type].url;
-			}
-		}
-		return art;
-	}
-
-	async getFanart(id, omdbposter, tmdbposter, tmdbfanart) {
-		let urls = {};
-		if (omdbposter) urls.poster = omdbposter;
-		if (!unavailable.exists('fanart', id)) {
-			const json = resolve('cache', 'json', 'fanart', `${id}.json`);
-			let details;
-			if (!existsSync(json)) {
-				console.log('Downloading Fanart info for', id);
-				try {
-					details = await fanart.movies.get(id);
-					writeFileSync(json, JSON.stringify(details, null, '	'));
-				} catch(e) {
-					// console.log(e);
-					console.log('Fanart info scraping error for'.red, id);
-					unavailable.add('fanart', id);
-				}
-			} else {
-				details = JSON.parse(readFileSync(json, 'utf8'));
-			}
-			urls = {
-				...urls,
-				...this.getFanartURLs(details),
-			};
-		}
-		if (tmdbposter) urls.poster = 'https://image.tmdb.org/t/p/original/' + tmdbposter;
-		if (tmdbfanart) urls.fanart = 'https://image.tmdb.org/t/p/original/' + tmdbfanart;
-		return await this.getArt(id, urls);
-	}
-
-	async getTMDB(id) {
-		if (!unavailable.exists('tmdb', id)) {
-			const json = resolve('cache', 'json', 'themoviedb', `${id}.json`);
-			if (!existsSync(json)) {
-				console.log('Downloading The Movie DB info for', id);
-				try {
-					// details = await mdb.find.byExternalID({pathParameters: {external_id: id, external_source: 'imdb_id'}, query: {external_id: id, external_source: 'imdb_id'}});
-					const overview = await v3Client.find.byId({external_id: id, external_source: 'imdb_id'});
-					if (overview && overview.movie_results && overview.movie_results.length) {
-						const details = await v3Client.movie.details(overview.movie_results[0].id);
-						writeFileSync(json, JSON.stringify(details, null, '	'));
-						return details;
-					} else {
-						unavailable.add('tmdb', id);
-					}
-				} catch(e) {
-					console.log('The Movie DB scraping error for'.red, id);
-					// console.log(e);
-				}
-			} else {
-				return JSON.parse(readFileSync(json, 'utf8'));
-			}
-		}
-		return {};
-	}
-
-	async getBechdel(id) {
-		if (!unavailable.exists('bechdel', id)) {
-			const json = resolve('cache', 'json', 'bechdel', `${id}.json`);
-			if (!existsSync(json)) {
-				console.log('Downloading Bechdel Test info for', id);
-				try {
-					// const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
-					await sleep(1000);
-					const page = await fetch('http://bechdeltest.com/api/v1/getMovieByImdbId?imdbid=' + id.replace('tt', ''));
-					const details = await page.json();
-					if (!details.status) {
-						writeFileSync(json, JSON.stringify(details, null, '\t'));
-						return details;
-					} else {
-						unavailable.add('bechdel', id);
-					}
-				} catch(e) {
-					console.log('Bechdel Test scraping error for'.red, id);
-					// unavailable.add('bechdel', id);
-					console.log(e);
-				}
-			} else {
-				return JSON.parse(readFileSync(json, 'utf8'));
-			}
-		}
-	}
-
-	async getWikiData(id, name) {
-		if (!unavailable.exists('wikidata', id)) {
-			const json = resolve('cache', 'json', 'wikidata', `${id}.json`);
-			if (!existsSync(json)) {
-				console.log('Downloading WikiData info for', id);
-				try {
-					// const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
-					await sleep(1000);
-					const page = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&format=json&titles=${name}`);
-					const data = await page.json();
-					// const id = Object.keys(json.entities);
-					const details = Object.values(data.entities)[0];
-					writeFileSync(json, JSON.stringify(details, null, '\t'));
-					return details;
-				} catch(e) {
-					// console.log(e);
-					console.log('WikiData scraping error for'.red, id);
-					unavailable.add('wikidata', id);
-				}
-			} else {
-				return JSON.parse(readFileSync(json, 'utf8'));
-			}
-		}
-	}
-
-	async getOMDB(id) {
-		const json = resolve('cache', 'json', 'omdb', `${id}.json`);
-		if (!existsSync(json)) {
-			console.log('Downloading OMDB info for', id);
-			try {
-				const details = await imdb.get({id});
-				writeFileSync(json, JSON.stringify(details, null, '	'));
-				return details;
-			} catch(e) {
-				// console.log('OMDB scraping error for'.red, id);
-				console.log(e);
-			}
-		} else {
-			return JSON.parse(readFileSync(json, 'utf8'));
-		}
-		return {};
-	}
-
-	processOMDB(omdb) {
-		const movie = {title: omdb.title};
-		if (omdb.year) movie.year = omdb.year;
-		if (omdb.rated) movie.classification = omdb.rated.toUpperCase();
-		if (omdb.released) movie.released = new Date(omdb.released);
-		if (omdb.runtime) movie.runtime = parseInt(omdb.runtime.replace(' min', ''));
-		if (omdb.genres) movie.genres = split(omdb.genres);
-		if (omdb.director) movie.directors = split(omdb.director);
-		if (omdb.writer) movie.writers = split(omdb.writer);
-		if (omdb.actors) movie.actors = split(omdb.actors);
-		if (omdb.plot) movie.plot = omdb.plot;
-		if (omdb.languages) movie.languages = split(omdb.languages.replace(',  Ancient (to 1453)', ''));
-		if (omdb.country) movie.countries = split(omdb.country);
-		if (omdb.awards) movie.awards = omdb.awards;
-		if (omdb.rating) movie.score = omdb.rating * 10;
-		if (omdb.votes) movie.votes = parseInt(omdb.votes.replace(/,/g, ''));
-		if (omdb.imdbid) movie.id = omdb.imdbid;
-		if (omdb.boxoffice) movie.revenue = omdb.boxoffice;
-		if (movie.production) movie.studios = split(omdb.production.replace('&amp;', '/').replace(/Corporat$/, 'Corporation').replace(/Entertain$/, 'Entertainment').replace(/Compa$/, 'Company').replace(/Internationa$/, 'International').replace(/Distrib$/, 'Distribution'), '/');
-		if (omdb.website) movie.website = omdb.website;
-		return movie;
-	}
-
-	processTMDB(tmdb) {
-		const movie = {title: tmdb.title};
-		if (tmdb.budget) movie.budget = tmdb.budget;
-		if (tmdb.genres) movie.genres = tmdb.genres.map((genre) => genre.name);
-		if (tmdb.homepage) movie.website = tmdb.homepage;
-		if (tmdb.imdb_id) movie.id = tmdb.imdb_id;
-		if (tmdb.overview) movie.plot = tmdb.overview;
-		if (tmdb.popularity) movie.score = Math.round(tmdb.popularity * 10);
-		if (tmdb.production_companies) movie.studios = tmdb.production_companies.map((company) => company.name);
-		if (tmdb.production_countries) movie.countries = tmdb.production_countries.map((country) => country.name);
-		if (tmdb.release_date) movie.released = new Date(tmdb.release_date);
-		if (tmdb.revenue) movie.revenue = tmdb.revenue;
-		if (tmdb.runtime) movie.runtime = tmdb.runtime;
-		if (tmdb.spoken_languages) movie.languages = tmdb.spoken_languages.map((language) => language.name);
-		if (tmdb.tagline) movie.tagline = tmdb.tagline;
-		if (tmdb.vote_average) movie.score = tmdb.vote_average * 10;
-		if (tmdb.vote_count) movie.votes = tmdb.vote_count;
-		return movie;
-	}
-
 	async getDetails(movie) {
-		const omdb = cleanObj(await this.getOMDB(movie.id));
-		const tmdb = await this.getTMDB(movie.id);
-		const fanart = await this.getFanart(movie.id, omdb.poster, tmdb.poster_path, tmdb.backdrop_path);
-		const bechdel = await this.getBechdel(movie.id);
+		const openmoviedb = await omdb(movie.id);
+		const themoviedb = await tmdb(movie.id);
+		const art = await fanart(movie.id, omdb.poster, tmdb.poster_path, tmdb.backdrop_path);
+		const bechdelScore = await bechdel(movie.id);
 		movie = {
 			...movie,
-			...this.processOMDB(omdb),
-			...this.processTMDB(tmdb),
+			...openmoviedb,
+			...themoviedb,
 		};
 		delete movie.poster;
-		if (bechdel) movie.bechdel = bechdel;
+		if (bechdelScore) movie.bechdel = bechdelScore;
+		if (themoviedb) movie.info.tmdb = {
+			id: themoviedb.id,
+			url: `https://www.themoviedb.org/movie/${themoviedb}`,
+		};
 		if (movie.info.wikipedia) {
-			let wikidata = await this.getWikiData(movie.id, movie.info.wikipedia.id);
-			if (wikidata) movie.info.wikidata = {
-				id: wikidata.title,
-				url: `https://www.wikidata.org/wiki/${wikidata.title}`,
+			let wikidatapage = await wikidata(movie.id, movie.info.wikipedia.id);
+			if (wikidatapage) movie.info.wikidata = {
+				id: wikidatapage.title,
+				url: `https://www.wikidata.org/wiki/${wikidatapage.title}`,
 			};
 		}
-		if (tmdb) movie.info.tmdb = {
-			id: tmdb.id,
-			url: `https://www.themoviedb.org/movie/${tmdb}`,
-		};
-		if (fanart) movie.images = fanart;
+		if (art) movie.images = art;
 		movie.watch = this.getWatchLinks(movie.title);
-		movie.data = movie.wikidata ? await this.getWikiData(movie.wikidata) : null;
+		// movie.data = movie.wikidata ? await this.getWikiData(movie.wikidata) : null;
 		return movie;
 	}
 
@@ -664,7 +430,7 @@ class MovieEvents {
 			return events;
 		}, {});
 		stats.multiple = Object.values(daysofyear).filter((day) => day.total > 1).length;
-		stats.single = Object.values(daysofyear).filter((day) => day.total < 2).map((day) => day.day).sort().join(', ');
+		// stats.single = Object.values(daysofyear).filter((day) => day.total < 2).map((day) => day.day).sort().join(', ');
 		stats.dates = this.days.length;
 		for (const cat of ['year', 'event', 'movie', 'years', 'studios', 'genres', 'languages', 'countries', 'directors', 'writers', 'actors', 'score', 'classification', 'celebration']) {
 			stats[cat] = this[cat].length;

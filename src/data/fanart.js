@@ -1,5 +1,10 @@
+require('dotenv').config();
 require('colors');
-const cache = require('./cache');
+const {resolve} = require('path');
+const {existsSync, readFileSync, createWriteStream} = require('fs');
+const fetch = require('node-fetch');
+const fanart = new (require('fanart.tv'))(process.env.FanartTVKey);
+const unavailable = require('./unavailable');
 
 function getURL(fanart) {
 	let art;
@@ -7,6 +12,7 @@ function getURL(fanart) {
 		art = fanart.find((art) => art.lang === 'en' && art.disc_type === 'bluray');
 		if (!art) art = fanart.find((art) => art.lang === 'en');
 		if (!art) art = fanart[0];
+		// if (art) art = {url: art.url};
 	}
 	return art && art.url;
 }
@@ -35,15 +41,15 @@ async function getArt(id, urls) {
 			art[type] = resolve('cache', 'images', type, `${id}.jpg`);
 			if (!existsSync(art[type])) {
 				console.log(`Downloading ${type} for ${id}`);
+				let res;
 				try {
-					const res = await fetch(urls[type]);
+					res = await fetch(urls[type]);
 					await res.body.pipe(createWriteStream(art[type]));
 				} catch(e) {
 				// console.log(e);
 				console.log('Fanart scraping error for'.red, type, id);
 				}
 			}
-			// delete art[type].url;
 		}
 	}
 	return art;
@@ -52,9 +58,9 @@ async function getArt(id, urls) {
 async function getFanart(id, omdbposter, tmdbposter, tmdbfanart) {
 	let urls = {};
 	if (omdbposter) urls.poster = omdbposter;
-	if (!nofanart.includes(id)) {
-		let details;
+	if (!unavailable.exists('fanart', id)) {
 		const json = resolve('cache', 'json', 'fanart', `${id}.json`);
+		let details;
 		if (!existsSync(json)) {
 			console.log('Downloading Fanart info for', id);
 			try {
@@ -63,8 +69,7 @@ async function getFanart(id, omdbposter, tmdbposter, tmdbfanart) {
 			} catch(e) {
 				console.log('Fanart info scraping error for'.red, id);
 				// console.log(e);
-				nofanart.push(id);
-				writeFileSync(resolve('cache', 'images', 'nofanart.json'), JSON.stringify(nofanart, null, '	'));
+				unavailable.add('fanart', id);
 			}
 		} else {
 			details = JSON.parse(readFileSync(json, 'utf8'));
