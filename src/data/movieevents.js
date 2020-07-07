@@ -4,23 +4,16 @@ const {mkdirSync, existsSync, copyFileSync} = require('fs');
 const {resolve} = require('path');
 const number = require('./number');
 const {screenshot} = require('./extract');
-const googlesheet = require('./googlesheet');
 const fanart = require('./fanart');
 const tmdb = require('./tmdb');
 const omdb = require('./omdb');
 const bechdel = require('./bechdel');
 const wikidata = require('./wikidata');
+const googlesheet = require('./googlesheet');
 
 function unique(array) {
 	return [...new Set(array)].filter((element) => !['N/A', 'None', '', null, undefined, false].includes(element));
 }
-
-function removeNA(obj) {
-	for (const key in obj) {
-		if (obj[key] === 'N/A') delete obj[key];
-	}
-}
-
 function split(string, separator = ',') {
 	if (string) return unique(string.split(separator).map((item) => item.trim().replace(/\.+$/g, '')));
 	return [];
@@ -32,14 +25,6 @@ function slugify(name) {
 
 function monthName(number) {
 	return ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][number - 1];
-}
-
-function titleCase(string) {
-	if (string) return string
-		.toLowerCase()
-		.split(' ')
-		.map(word => word.charAt(0).toUpperCase() + word.slice(1))
-		.join(' ');
 }
 
 class MovieEvents {
@@ -129,12 +114,6 @@ class MovieEvents {
 				ev.info.wikipedia = {
 					id: event.wikipedia,
 					url: `https://en.wikipedia.org/wiki/${event.wikipedia}`,
-				};
-			}
-			if (event.wikidata) {
-				ev.info.wikidata = {
-					id: event.wikidata,
-					url: `https://www.wikidata.org/wiki/${event.wikidata}`,
 				};
 			}
 			return ev;
@@ -332,7 +311,7 @@ class MovieEvents {
 	getImagePath(title, paths, staticFolder = null) {
 		for (const path of paths) if (path) {
 			for (const name of unique([title, title.split(' ').join(''), title.toLowerCase(), title.toLowerCase().split(' ').join('')])) {
-					for (const ext of ['.png', '.jpg', '.svg']) {
+				for (const ext of ['.png', '.jpg', '.svg']) {
 					const src = resolve(path, name + ext);
 					if (existsSync(src)) {
 						if (!staticFolder) return src;
@@ -349,38 +328,49 @@ class MovieEvents {
 		return null;
 	}
 
-	async getDetails(movie) {
+	async getMovieDetails(movie) {
 		const openmoviedb = await omdb(movie.id);
 		const themoviedb = await tmdb(movie.id);
-		const art = await fanart(movie.id, omdb.poster, tmdb.poster_path, tmdb.backdrop_path);
-		const bechdelScore = await bechdel(movie.id);
 		movie = {
 			...movie,
 			...openmoviedb,
 			...themoviedb,
 		};
-		delete movie.poster;
+		const bechdelScore = await bechdel(movie.id);
 		if (bechdelScore) movie.bechdel = bechdelScore;
 		if (themoviedb) movie.info.tmdb = {
 			id: themoviedb.id,
-			url: `https://www.themoviedb.org/movie/${themoviedb}`,
+			url: `https://www.themoviedb.org/movie/${themoviedb.id}`,
 		};
 		if (movie.info.wikipedia) {
 			let wikidatapage = await wikidata(movie.id, movie.info.wikipedia.id);
 			if (wikidatapage) movie.info.wikidata = {
-				id: wikidatapage.title,
-				url: `https://www.wikidata.org/wiki/${wikidatapage.title}`,
+				id: wikidatapage.id,
+				url: `https://www.wikidata.org/wiki/${wikidatapage.id}`,
 			};
 		}
+		const art = await fanart(movie.id, openmoviedb.poster, themoviedb.poster_path, themoviedb.backdrop_path);
 		if (art) movie.images = art;
 		movie.watch = this.getWatchLinks(movie.title);
 		// movie.data = movie.wikidata ? await this.getWikiData(movie.wikidata) : null;
 		return movie;
 	}
 
-	async getMovieDetails() {
+	async getMoviesDetails() {
 		for (const index in this.movie) {
-			this.movie[index] = await this.getDetails(this.movie[index]);
+			this.movie[index] = await this.getMovieDetails(this.movie[index]);
+		}
+	}
+
+	async getEventsDetails() {
+		for (const ev of this.event) {
+			if (ev.info.wikipedia) {
+				let wikidatapage = await wikidata(ev.id, ev.info.wikipedia.id.split('#')[0]);
+				if (wikidatapage) ev.info.wikidata = {
+					id: wikidatapage.id,
+					url: `https://www.wikidata.org/wiki/${wikidatapage.id}`,
+				};
+			}
 		}
 	}
 
@@ -397,7 +387,8 @@ class MovieEvents {
 		const studios = await googlesheet('Studios');
 		this.event = this.getEvents(events);
 		this.movie = this.getMovies(events);
-		await this.getMovieDetails();
+		await this.getMoviesDetails();
+		await this.getEventsDetails();
 		for (const event of this.event) event.image = await screenshot(event, this.movie.find((movie) => movie.id === event.movie));
 		this.studios = this.getStudios(studios);
 		this.classification = this.getClassifications();
