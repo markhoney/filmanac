@@ -1,4 +1,5 @@
 require("dotenv").config();
+require('colors');
 const {v3} = require('@leonardocabeza/the-movie-db');
 const tmdb = v3(process.env.TheMovieDBKey);
 const cache = require('./cache');
@@ -13,7 +14,7 @@ async function getShortestPaths(actorNames) {
 	}
 	let commonMovies = getCommonMovies(personToMovies);
 	while (commonMovies.size < 1) {
-		for (person in personToMovies) {
+		for (const person in personToMovies) {
 			if (personToMovies[person] === undefined) {
 				personToMovies[person] = await getMovies(person);
 			}
@@ -29,9 +30,9 @@ function getPaths(actorNames, commonMovies) {
 		nodes: [],
 		links: []
 	};
-	for (actorName of actorNames) {
+	for (const actorName of actorNames) {
 		result.nodes.push({ id: actorName, group: 1 });
-		for (movieJSON of commonMovies) {
+		for (const movieJSON of commonMovies) {
 			const movie = JSON.parse(movieJSON);
 			result.links.push({
 				source: actorName,
@@ -40,7 +41,7 @@ function getPaths(actorNames, commonMovies) {
 			});
 		}
 	}
-	for (movieJSON of commonMovies) {
+	for (const movieJSON of commonMovies) {
 		const movie = JSON.parse(movieJSON);
 		result.nodes.push({ id: movie.name, group: 2 });
 	}
@@ -64,17 +65,17 @@ function getCommonMovies(personToMovies) {
 }
 
 async function getMovies(personId) {
-	const data = await cache('tmdb/credits/person', personId, tmdb.people.movieCredits); // combinedCredits
+	const data = await cache('tmdb/credits/person', personId, tmdb.people.movieCredits, personId); // combinedCredits
 	if (data && data.cast && data.cast.length) return data.cast.map((movie) => ({
 		type: "movie",
 		id: movie.id,
-		name: movie.original_title || movie.title,
+		name: movie.title,
 	}));
 	return {};
 }
 
 async function getPeople(movieId) {
-	const data = await cache('tmdb/credits/movie', movieId, tmdb.movie.credits);
+	const data = await cache('tmdb/credits/movie', movieId, tmdb.movie.credits, movieId);
 	if (data && data.cast && data.cast.length) return data.cast.map((person) => ({
 		type: "person",
 		id: person.id,
@@ -84,10 +85,3 @@ async function getPeople(movieId) {
 }
 
 module.exports = getShortestPaths;
-
-async function test() {
-	console.log(await getPeople(551));
-	console.log(await getMovies(193));
-}
-
-test();

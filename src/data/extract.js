@@ -1,5 +1,8 @@
+require('colors');
 // const ffmpeg = require('fluent-ffmpeg');
 const extractFrames = require('ffmpeg-extract-frames');
+const {existsSync} = require('fs');
+const {resolve} = require('path');
 
 function screenshot(event, movie) {
 	if (process.env.MoviePath && event.time && event.time.length === 1) {

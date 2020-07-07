@@ -1,17 +1,38 @@
 const {resolve} = require('path');
-const {existsSync, mkdirSync} = require('fs');
+const {existsSync, mkdirSync, writeFileSync} = require('fs');
+require('colors');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-module.exports = async function(type, id, func, wait = 1000) {
-	const folder = resolve('cache', 'json', type);
-	if (!existsSync(folder)) mkdirSync(folder, {recursive: true});
-	const cache = resolve(folder, `${id}.json`);
+async function getBinary(folder, file, func, ...arguments) {
+	const dir = resolve('cache', folder);
+	if (!existsSync(dir)) mkdirSync(dir, {recursive: true});
+	const cache = resolve(dir, file);
 	if (!existsSync(cache)) {
 		console.log(`Downloading ${type} info for ${id}`);
+		await sleep(1000);
 		try {
-			await sleep(wait);
-			const details = await func(id);
+			const details = await func(...arguments);
+			writeFileSync(cache, JSON.stringify(details, null, '\t'));
+			return details;
+		} catch(e) {
+			console.log(`Error scraping ${type} for`.red, id);
+			// console.log(e);
+		}
+	} else {
+		return readFileSync(cache, 'utf8');
+	}
+}
+
+async function getJSON(folder, file, func, ...arguments) {
+	const dir = resolve('cache', folder);
+	if (!existsSync(dir)) mkdirSync(dir, {recursive: true});
+	const cache = resolve(dir, file);
+	if (!existsSync(cache)) {
+		console.log(`Downloading ${type} info for ${id}`);
+		await sleep(1000);
+		try {
+			const details = await func(...arguments);
 			writeFileSync(cache, JSON.stringify(details, null, '\t'));
 			return details;
 		} catch(e) {
@@ -21,4 +42,6 @@ module.exports = async function(type, id, func, wait = 1000) {
 	} else {
 		return JSON.parse(readFileSync(cache, 'utf8'));
 	}
-};
+}
+
+module.exports = {getJSON};

@@ -6,12 +6,12 @@ const fetch = require('node-fetch');
 const imdb = new (require('imdb-api')).Client({apiKey: process.env.OMDBAPIKey});
 const fanart = new (require('fanart.tv'))(process.env.FanartTVKey);
 const {google} = require('googleapis');
-// const ffmpeg = require('fluent-ffmpeg');
-const extractFrames = require('ffmpeg-extract-frames');
 const {v3} = require('@leonardocabeza/the-movie-db');
 const v3Client = v3(process.env.TheMovieDBKey);
-
-const nofanart = require('../../cache/images/nofanart.json');
+const number = require('./number');
+const {screenshot} = require('./extract');
+const unavailable = require('./unavailable');
+const googlesheet = require('./googlesheet');
 
 function unique(array) {
 	return [...new Set(array)].filter((element) => !['N/A', 'None', '', null, undefined, false].includes(element));
@@ -30,28 +30,6 @@ function split(string, separator = ',') {
 
 function slugify(name) {
 	return name.toLowerCase().split(' ').join('_');
-}
-
-function ord(number) {
-	return number > 0 ? ['th', 'st', 'nd', 'rd'][(number > 3 && number < 21) || number % 10 > 3 ? 0 : number % 10] : '';
-}
-
-function ordWord(number) {
-	return [
-		'Zeroth', 'First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eighth', 'Ninth',
-		'Tenth', 'Eleventh', 'Twelth', 'Thirteenth', 'Fourteenth', 'Fifteenth', 'Sixteenth', 'Seventeenth', 'Eighteenth', 'Nineteenth',
-		'Twentieth', 'Twenty First', 'Twenty Second', 'Twenty Third', 'Twenty Fourth', 'Twenty Fifth', 'Twenty Sixth', 'Twenty Seventh', 'Twenty Eighth', 'Twenty Ninth',
-		'Thirtieth', 'Thirty First'
-	][number];
-}
-
-function numberWord(number) {
-	return [
-		'Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine',
-		'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen',
-		'Twenty', 'Twenty One', 'Twenty Two', 'Twenty Three', 'Twenty Four', 'Twenty Five', 'Twenty Six', 'Twenty Seven', 'Twenty Eight', 'Twenty Nine',
-		'Thirty', 'Thirty One'
-	][number];
 }
 
 function cleanObj(obj) {
@@ -106,36 +84,22 @@ class MovieEvents {
 			for (let day = 1; day <= months[month - 1]; day++) {
 				if (month === 1) days.push({
 					id: day,
-					title: ordWord(day),
-					ordinal: ord(day),
+					title: number(day).ordinal.name,
+					ordinal: number(day).ordinal.extension,
 				});
 				dates.push({
 					id: [month, day].join('-'),
-					// path: `/${month}/${day}`,
 					month,
-					slugs: {
-						month: slugify(monthName(month)),
-						shortmonth: slugify(monthName(month)),
-						day: slugify(ordWord(day)),
-						shortday: slugify(day + ord(day)),
-					},
 					day,
-					title: `${monthName(month)} ${day}${ord(day)}`,
-					// dm: `${day}${ord(day)} ${monthName(month)}`,
+					title: `${monthName(month)} ${day}${number(day).ordinal.extension}`,
 				});
 			}
 			months[month - 1] = {
 				id: month,
-				slug: monthName(month).toLowerCase().slice(0, 3),
-				// days: months[month],
-				// days: dates.filter((date) => date.month === month).map((date) => date.id),
+				// slug: monthName(month).toLowerCase().slice(0, 3),
 				title: monthName(month),
 			};
 		}
-		/* for (const month of months) {
-			month.previous = dates[day - 1].id;
-			month.next = dates[day + 1].id;
-		} */
 		for (const [index, date] of dates.entries()) {
 			if (date.id === '1-1') {
 				date.previous = '12-31';
@@ -170,10 +134,6 @@ class MovieEvents {
 				month,
 				day,
 				date: year ? new Date([event.year, event.month, event.day].join('-')) : null,
-				// dayofyear: [month, day].join('-'),
-				// iso: year ? [event.year, event.month, event.day].join('-') : null,
-				// dmy: `${day}${ord(day)} ${monthName(month)} ${year || ''}`.trim(),
-				// title: `${monthName(month)} ${day}${ord(day)} ${year || ''}`.trim(),
 			};
 			if (event.timestamp && event.timestampend) ev.time.push(event.timestampend);
 			if (event.wikipedia) {
@@ -190,26 +150,6 @@ class MovieEvents {
 			}
 			return ev;
 		}).filter((event) => event.month && event.day && event.movie);
-	}
-
-	getImagePath(title, paths, staticFolder = null) {
-		for (const path of paths) if (path) {
-			for (const name of unique([title, title.split(' ').join(''), title.toLowerCase(), title.toLowerCase().split(' ').join('')])) {
-					for (const ext of ['.png', '.jpg', '.svg']) {
-					const src = resolve(path, name + ext);
-					if (existsSync(src)) {
-						if (!staticFolder) return src;
-						const staticPath = ['static', 'img', staticFolder].join('/');
-						mkdirSync(staticPath, {recursive: true});
-						const dest = resolve(staticPath, name.replace('/vector', '').replace('/', '-') + ext);
-						copyFileSync(src, dest);
-						return [staticPath.replace('static', ''), name + ext].join('/');
-					}
-				}
-			}
-		}
-		console.log(`Missing ${paths[0]} image:`.red, title);
-		return null;
 	}
 
 	getClassifications() {
@@ -327,7 +267,7 @@ class MovieEvents {
 	getDates() {
 		const dates = unique(this.event.filter((event) => event.year || event.year === 0)).map((event) => ({
 			id: [event.year, event.month, event.day].join('-'),
-			title: `${ord(event.day)} ${monthName(event.month)} ${event.year}`,
+			title: `${number(event.day).ordinal.name} ${monthName(event.month)} ${event.year}`,
 			js: new Date(event.year, event.month - 1, event.day),
 		}));
 		return dates;
@@ -400,21 +340,24 @@ class MovieEvents {
 		};
 	}
 
-	screenshot(event, movie) {
-		if (process.env.MoviePath && event.time && event.time.length === 1) {
-			const movieName = `${movie.title.replace(': ', ' - ')} (${movie.year})`;
-			const input = resolve(process.env.MoviePath, movieName, movieName + '.mkv');
-			const output = resolve('cache', 'images', 'screenshot', `${event.id}.jpg`);
-			if (existsSync(input)) {
-				if (!existsSync(output)) return extractFrames({
-					input,
-					output,
-					timestamps: event.time,
-				});
-			} else {
-				console.log('Movie file missing'.red, input);
+	getImagePath(title, paths, staticFolder = null) {
+		for (const path of paths) if (path) {
+			for (const name of unique([title, title.split(' ').join(''), title.toLowerCase(), title.toLowerCase().split(' ').join('')])) {
+					for (const ext of ['.png', '.jpg', '.svg']) {
+					const src = resolve(path, name + ext);
+					if (existsSync(src)) {
+						if (!staticFolder) return src;
+						const staticPath = ['static', 'img', staticFolder].join('/');
+						mkdirSync(staticPath, {recursive: true});
+						const dest = resolve(staticPath, name.replace('/vector', '').replace('/', '-') + ext);
+						copyFileSync(src, dest);
+						return [staticPath.replace('static', ''), name + ext].join('/');
+					}
+				}
 			}
 		}
+		console.log(`Missing ${paths[0]} image:`.red, title);
+		return null;
 	}
 
 	getURL(fanart) {
@@ -475,10 +418,9 @@ class MovieEvents {
 	async getFanart(id, omdbposter, tmdbposter, tmdbfanart) {
 		let urls = {};
 		if (omdbposter) urls.poster = omdbposter;
-		let tmdb;
-		if (!nofanart.includes(id)) {
-			let details;
+		if (!unavailable.exists('fanart', id)) {
 			const json = resolve('cache', 'json', 'fanart', `${id}.json`);
+			let details;
 			if (!existsSync(json)) {
 				console.log('Downloading Fanart info for', id);
 				try {
@@ -487,8 +429,7 @@ class MovieEvents {
 				} catch(e) {
 					// console.log(e);
 					console.log('Fanart info scraping error for'.red, id);
-					nofanart.push(id);
-					writeFileSync(resolve('cache', 'images', 'nofanart.json'), JSON.stringify(nofanart, null, '	'));
+					unavailable.add('fanart', id);
 				}
 			} else {
 				details = JSON.parse(readFileSync(json, 'utf8'));
@@ -497,7 +438,6 @@ class MovieEvents {
 				...urls,
 				...this.getFanartURLs(details),
 			};
-			tmdb = details && details.tmdb_id;
 		}
 		if (tmdbposter) urls.poster = 'https://image.tmdb.org/t/p/original/' + tmdbposter;
 		if (tmdbfanart) urls.fanart = 'https://image.tmdb.org/t/p/original/' + tmdbfanart;
@@ -505,68 +445,80 @@ class MovieEvents {
 	}
 
 	async getTMDB(id) {
-		const json = resolve('cache', 'json', 'themoviedb', `${id}.json`);
-		if (!existsSync(json)) {
-			console.log('Downloading The Movie DB info for', id);
-			try {
-				// details = await mdb.find.byExternalID({pathParameters: {external_id: id, external_source: 'imdb_id'}, query: {external_id: id, external_source: 'imdb_id'}});
-				const overview = await v3Client.find.byId({external_id: id, external_source: 'imdb_id'});
-				if (overview && overview.movie_results && overview.movie_results.length) {
-					const details = await v3Client.movie.details(overview.movie_results[0].id);
-					writeFileSync(json, JSON.stringify(details, null, '	'));
-					return details;
+		if (!unavailable.exists('tmdb', id)) {
+			const json = resolve('cache', 'json', 'themoviedb', `${id}.json`);
+			if (!existsSync(json)) {
+				console.log('Downloading The Movie DB info for', id);
+				try {
+					// details = await mdb.find.byExternalID({pathParameters: {external_id: id, external_source: 'imdb_id'}, query: {external_id: id, external_source: 'imdb_id'}});
+					const overview = await v3Client.find.byId({external_id: id, external_source: 'imdb_id'});
+					if (overview && overview.movie_results && overview.movie_results.length) {
+						const details = await v3Client.movie.details(overview.movie_results[0].id);
+						writeFileSync(json, JSON.stringify(details, null, '	'));
+						return details;
+					} else {
+						unavailable.add('tmdb', id);
+					}
+				} catch(e) {
+					console.log('The Movie DB scraping error for'.red, id);
+					// console.log(e);
 				}
-			} catch(e) {
-				console.log('The Movie DB scraping error for'.red, id);
-				// console.log(e);
+			} else {
+				return JSON.parse(readFileSync(json, 'utf8'));
 			}
-		} else {
-			return JSON.parse(readFileSync(json, 'utf8'));
 		}
 		return {};
 	}
 
-	getBechdel(id) {
-		const json = resolve('cache', 'json', 'bechdel', `${id}.json`);
-		if (!existsSync(json)) {
-			console.log('Downloading Bechdel Test info for', id);
-			try {
-				// const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
-				await sleep(1000);
-				const page = await fetch('http://bechdeltest.com/api/v1/getMovieByImdbId?imdbid=' + id);
-				const data = await page.json();
-				// const id = Object.keys(json.entities);
-				const details = Object.values(data.entities)[0];
-				writeFileSync(json, JSON.stringify(details, null, '\t'));
-				return details;
-			} catch(e) {
-				// console.log(e);
-				console.log('WikiData scraping error for'.red, id);
+	async getBechdel(id) {
+		if (!unavailable.exists('bechdel', id)) {
+			const json = resolve('cache', 'json', 'bechdel', `${id}.json`);
+			if (!existsSync(json)) {
+				console.log('Downloading Bechdel Test info for', id);
+				try {
+					// const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
+					await sleep(1000);
+					const page = await fetch('http://bechdeltest.com/api/v1/getMovieByImdbId?imdbid=' + id.replace('tt', ''));
+					const details = await page.json();
+					if (!details.status) {
+						writeFileSync(json, JSON.stringify(details, null, '\t'));
+						return details;
+					} else {
+						unavailable.add('bechdel', id);
+					}
+				} catch(e) {
+					console.log('Bechdel Test scraping error for'.red, id);
+					// unavailable.add('bechdel', id);
+					console.log(e);
+				}
+			} else {
+				return JSON.parse(readFileSync(json, 'utf8'));
 			}
-		} else {
-			return JSON.parse(readFileSync(json, 'utf8'));
 		}
 	}
 
 	async getWikiData(id, name) {
-		const json = resolve('cache', 'json', 'wikidata', `${id}.json`);
-		if (!existsSync(json)) {
-			console.log('Downloading WikiData info for', id);
-			try {
-				// const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
-				await sleep(1000);
-				const page = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&format=json&titles=${name}`);
-				const data = await page.json();
-				// const id = Object.keys(json.entities);
-				const details = Object.values(data.entities)[0];
-				writeFileSync(json, JSON.stringify(details, null, '\t'));
-				return details;
-			} catch(e) {
-				// console.log(e);
-				console.log('WikiData scraping error for'.red, id);
+		if (!unavailable.exists('wikidata', id)) {
+			const json = resolve('cache', 'json', 'wikidata', `${id}.json`);
+			if (!existsSync(json)) {
+				console.log('Downloading WikiData info for', id);
+				try {
+					// const details = (await(await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)).json()).entities[id];
+					await sleep(1000);
+					const page = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&format=json&titles=${name}`);
+					const data = await page.json();
+					// const id = Object.keys(json.entities);
+					const details = Object.values(data.entities)[0];
+					writeFileSync(json, JSON.stringify(details, null, '\t'));
+					return details;
+				} catch(e) {
+					// console.log(e);
+					console.log('WikiData scraping error for'.red, id);
+					unavailable.add('wikidata', id);
+				}
+			} else {
+				return JSON.parse(readFileSync(json, 'utf8'));
 			}
-		} else {
-			return JSON.parse(readFileSync(json, 'utf8'));
 		}
 	}
 
@@ -635,11 +587,14 @@ class MovieEvents {
 		const omdb = cleanObj(await this.getOMDB(movie.id));
 		const tmdb = await this.getTMDB(movie.id);
 		const fanart = await this.getFanart(movie.id, omdb.poster, tmdb.poster_path, tmdb.backdrop_path);
+		const bechdel = await this.getBechdel(movie.id);
 		movie = {
 			...movie,
 			...this.processOMDB(omdb),
 			...this.processTMDB(tmdb),
 		};
+		delete movie.poster;
+		if (bechdel) movie.bechdel = bechdel;
 		if (movie.info.wikipedia) {
 			let wikidata = await this.getWikiData(movie.id, movie.info.wikipedia.id);
 			if (wikidata) movie.info.wikidata = {
@@ -647,7 +602,6 @@ class MovieEvents {
 				url: `https://www.wikidata.org/wiki/${wikidata.title}`,
 			};
 		}
-		delete movie.poster;
 		if (tmdb) movie.info.tmdb = {
 			id: tmdb.id,
 			url: `https://www.themoviedb.org/movie/${tmdb}`,
@@ -664,36 +618,21 @@ class MovieEvents {
 		}
 	}
 
-	async getSheet(name) {
-		if (!this.sheets) {
-			this.sheets = google.sheets({
-				version: 'v4',
-				auth: process.env.GoogleAPIKey,
-			});
-		}
-		const sheet = await this.sheets.spreadsheets.values.get({
-			spreadsheetId: process.env.GoogleSheetID,
-			range: name + '!A1:ZZ10000',
-		});
-		const titles = sheet.data.values.shift();
-		return sheet.data.values.map((row) => titles.reduce((rows, title, index) => ({...rows, [title.toLowerCase()]: row[index]}), {}));
-	}
-
 	async get() {
-		for (const type of ['omdb', 'wikidata', 'fanart', 'themoviedb']) mkdirSync(resolve('cache', 'json', type), {recursive: true});
+		for (const type of ['omdb', 'wikidata', 'fanart', 'themoviedb', 'bechdel']) mkdirSync(resolve('cache', 'json', type), {recursive: true});
 		for (const type of ['logo', 'clearart', 'poster', 'keyart', 'fanart', 'disc', 'banner', 'landscape', 'screenshot']) mkdirSync(resolve('cache', 'images', type), {recursive: true});
 		for (const type of ['mention']) mkdirSync(resolve('cache', 'audio', type), {recursive: true});
-		const events = await this.getSheet('Movies');
-		const countries = (await this.getSheet('Countries')).map((country) => ({
+		const events = await googlesheet('Movies');
+		const countries = (await googlesheet('Countries')).map((country) => ({
 			...country,
 			titles: country.names && split(country.names),
 			languages: country.languages && split(country.languages),
 		}));
-		const studios = await this.getSheet('Studios');
+		const studios = await googlesheet('Studios');
 		this.event = this.getEvents(events);
 		this.movie = this.getMovies(events);
 		await this.getMovieDetails();
-		for (const event of this.event) event.image = await this.screenshot(event, this.movie.find((movie) => movie.id === event.movie));
+		for (const event of this.event) event.image = await screenshot(event, this.movie.find((movie) => movie.id === event.movie));
 		this.studios = this.getStudios(studios);
 		this.classification = this.getClassifications();
 		this.genres = this.getGenres();
