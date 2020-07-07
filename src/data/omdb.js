@@ -40,6 +40,7 @@ function processOMDB(omdb) {
 	if (omdb.boxoffice) movie.revenue = omdb.boxoffice;
 	if (movie.production) movie.studios = split(omdb.production.replace('&amp;', '/').replace(/Corporat$/, 'Corporation').replace(/Entertain$/, 'Entertainment').replace(/Compa$/, 'Company').replace(/Internationa$/, 'International').replace(/Distrib$/, 'Distribution'), '/');
 	if (omdb.website) movie.website = omdb.website;
+	if (omdb.poster) movie.poster = omdb.poster;
 	return movie;
 }
 
@@ -49,7 +50,7 @@ module.exports = async function getOMDB(id) {
 		console.log('Downloading OMDB info for', id);
 		try {
 			const details = await imdb.get({id});
-			writeFileSync(json, JSON.stringify(details, null, '	'));
+			writeFileSync(json, JSON.stringify(details, null, '\t'));
 			return processOMDB(details);
 		} catch(e) {
 			console.log('OMDB scraping error for'.red, id);

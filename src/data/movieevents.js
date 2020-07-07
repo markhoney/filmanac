@@ -349,7 +349,9 @@ class MovieEvents {
 				url: `https://www.wikidata.org/wiki/${wikidatapage.id}`,
 			};
 		}
-		const art = await fanart(movie.id, openmoviedb.poster, themoviedb.poster_path, themoviedb.backdrop_path);
+		const art = await fanart(movie.id, movie.poster, movie.fanart);
+		delete movie.poster;
+		delete movie.fanart;
 		if (art) movie.images = art;
 		movie.watch = this.getWatchLinks(movie.title);
 		// movie.data = movie.wikidata ? await this.getWikiData(movie.wikidata) : null;

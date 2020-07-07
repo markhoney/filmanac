@@ -5,31 +5,31 @@ const {existsSync, readFileSync, createWriteStream} = require('fs');
 const fetch = require('node-fetch');
 const fanart = new (require('fanart.tv'))(process.env.FanartTVKey);
 const unavailable = require('./unavailable');
+const cache = require('./cache');
 
-function getURL(fanart) {
+function getURL(fanarts) {
 	let art;
-	if (fanart && fanart.length) {
-		art = fanart.find((art) => art.lang === 'en' && art.disc_type === 'bluray');
-		if (!art) art = fanart.find((art) => art.lang === 'en');
-		if (!art) art = fanart[0];
-		// if (art) art = {url: art.url};
+	if (fanarts && fanarts.length) {
+		art = fanarts.find((art) => art.lang === 'en' && art.disc_type === 'bluray');
+		if (!art) art = fanarts.find((art) => art.lang === 'en');
+		if (!art) art = fanarts[0];
 	}
 	return art && art.url;
 }
 
-function getFanartURLs(fanart) {
+function getFanartURLs(fanarts) {
 	const art = {};
-	if (fanart) {
-		art.logo = getURL([...(fanart.hdmovielogo || []), ...(fanart.movielogo || [])]);
-		art.clearart = getURL([...(fanart.hdmovieclearart || []), ...(fanart.movieclearart || [])]);
-		art.poster = getURL(fanart.movieposter);
+	if (fanarts) {
+		art.logo = getURL([...(fanarts.hdmovielogo || []), ...(fanarts.movielogo || [])]);
+		art.clearart = getURL([...(fanarts.hdmovieclearart || []), ...(fanarts.movieclearart || [])]);
+		art.poster = getURL(fanarts.movieposter);
 		let keyart;
-		if (fanart.movieposter) keyart = fanart.movieposter.find((art) => art.lang === '00');
+		if (fanarts.movieposter) keyart = fanarts.movieposter.find((art) => art.lang === '00');
 		if (keyart) art.keyart = keyart.url;
-		art.fanart = getURL(fanart.moviebackground);
-		art.disc = getURL(fanart.moviedisc);
-		art.banner = getURL(fanart.moviebanner);
-		art.landscape = getURL(fanart.moviethumb);
+		art.fanart = getURL(fanarts.moviebackground);
+		art.disc = getURL(fanarts.moviedisc);
+		art.banner = getURL(fanarts.moviebanner);
+		art.landscape = getURL(fanarts.moviethumb);
 	}
 	return art;
 }
@@ -38,49 +38,27 @@ async function getArt(id, urls) {
 	const art = {};
 	for (const type in urls) {
 		if (urls[type]) {
-			art[type] = resolve('cache', 'images', type, `${id}.jpg`);
-			if (!existsSync(art[type])) {
-				console.log(`Downloading ${type} for ${id}`);
-				let res;
-				try {
-					res = await fetch(urls[type]);
-					await res.body.pipe(createWriteStream(art[type]));
-				} catch(e) {
-				// console.log(e);
-				console.log('Fanart scraping error for'.red, type, id);
-				}
-			}
+			art[type] = await cache.image(type, id, urls[type]);
 		}
 	}
 	return art;
 }
 
-async function getFanart(id, omdbposter, tmdbposter, tmdbfanart) {
+async function getFanart(id, poster, backdrop) {
 	let urls = {};
-	if (omdbposter) urls.poster = omdbposter;
+	if (poster) urls.poster = poster;
+	if (backdrop) urls.fanart = backdrop;
 	if (!unavailable.exists('fanart', id)) {
-		const json = resolve('cache', 'json', 'fanart', `${id}.json`);
-		let details;
-		if (!existsSync(json)) {
-			console.log('Downloading Fanart info for', id);
-			try {
-				details = await fanart.movies.get(id);
-				writeFileSync(json, JSON.stringify(details, null, '	'));
-			} catch(e) {
-				console.log('Fanart info scraping error for'.red, id);
-				// console.log(e);
-				unavailable.add('fanart', id);
-			}
+		const details = await cache.json('fanart', id, fanart.movies.get, id);
+		if (details) {
+			urls = {
+				...urls,
+				...getFanartURLs(details),
+			};
 		} else {
-			details = JSON.parse(readFileSync(json, 'utf8'));
+			unavailable.add('fanart', id);
 		}
-		urls = {
-			...urls,
-			...getFanartURLs(details),
-		};
 	}
-	if (tmdbposter) urls.poster = 'https://image.tmdb.org/t/p/original/' + tmdbposter;
-	if (tmdbfanart) urls.fanart = 'https://image.tmdb.org/t/p/original/' + tmdbfanart;
 	return await getArt(id, urls);
 }
 

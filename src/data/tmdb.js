@@ -23,6 +23,8 @@ function processTMDB(tmdb) {
 	if (tmdb.tagline) movie.tagline = tmdb.tagline;
 	if (tmdb.vote_average) movie.score = tmdb.vote_average * 10;
 	if (tmdb.vote_count) movie.votes = tmdb.vote_count;
+	if (tmdb.poster_path) movie.poster = 'https://image.tmdb.org/t/p/original/' + tmdb.poster_path;
+	if (tmdb.backdrop_path) movie.fanart = 'https://image.tmdb.org/t/p/original/' + tmdb.backdrop_path;
 	return movie;
 }
 
