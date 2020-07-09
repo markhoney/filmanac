@@ -1,7 +1,7 @@
+require('colors');
 const {resolve} = require('path');
 const {existsSync, mkdirSync, readFileSync, writeFileSync, createWriteStream} = require('fs');
-require('colors');
-
+const fetch = require('node-fetch');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function image(folder, id, url) {
@@ -18,7 +18,7 @@ async function image(folder, id, url) {
 			return cache;
 		} catch(e) {
 			console.log(`Error scraping`.red, url);
-			// console.log(e);
+			console.log(e);
 		}
 	}
 }
@@ -36,8 +36,8 @@ async function json(folder, id, func, ...arguments) {
 			writeFileSync(cache, JSON.stringify(details, null, '\t'));
 			return details;
 		} catch(e) {
-			console.log(`Error scraping ${folder} for`.red, id);
-			// console.log(e);
+			console.log(`Error scraping ${folder} info for`.red, id);
+			console.log(e);
 		}
 	}
 }
