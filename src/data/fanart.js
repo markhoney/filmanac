@@ -1,8 +1,5 @@
 require('dotenv').config();
 require('colors');
-const {resolve} = require('path');
-const {existsSync, readFileSync, createWriteStream} = require('fs');
-const fetch = require('node-fetch');
 const fanart = new (require('fanart.tv'))(process.env.FanartTVKey);
 const unavailable = require('./unavailable');
 const cache = require('./cache');

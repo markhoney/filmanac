@@ -13,8 +13,8 @@
 </template>
 
 <page-query>
-	query year($id: ID) {
-		year(id: $id) {
+	query years($id: ID) {
+		year: years(id: $id) {
 			title
 			events {
 				id

@@ -1,14 +1,15 @@
 <template>
 	<Fixed>
-		<Day :day="this.$page.dayofYear" />
+		<Day :day="this.$page.dayofyear" />
 	</Fixed>
 </template>
 
 <page-query>
-	query ($id: ID!) {
-		dayofYear(id: $id) {
+	query($id: ID!) {
+		dayofyear: daysOfYear(id: $id) {
 			month {
 				title
+				path
 			}
 			day {
 				id
@@ -32,6 +33,7 @@
 				}
 				year {
 					id
+					path
 				}
 				dayofyear {
 					month {

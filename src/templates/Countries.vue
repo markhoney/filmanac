@@ -6,7 +6,7 @@
 </template>
 
 <page-query>
-	query counties($id: ID) {
+	query($id: ID) {
 		country: countries(id: $id) {
 			title
 			possessive

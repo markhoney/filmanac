@@ -3,8 +3,8 @@
 </template>
 
 <page-query>
-	query movie($id: ID) {
-		movie(id: $id) {
+	query movies($id: ID) {
+		movie: movies(id: $id) {
 			id
 			title
 			plot
@@ -55,6 +55,7 @@
 				title
 				year {
 					id
+					path
 				}
 				info {
 					wikipedia {
@@ -66,6 +67,7 @@
 					month {
 						id
 						title
+						path
 					}
 					day {
 						id

@@ -17,7 +17,7 @@ module.exports = {
 		{
 			use: 'gridsome-plugin-flexsearch',
 			options: {
-				collections: ['Movie', 'DayofYear', 'Year', 'Genres', 'Languages', 'Countries', 'Studios'].map((collection) => ({
+				collections: ['Movies', 'DaysOfYear', 'Years', 'Genres', 'Languages', 'Countries', 'Studios'].map((collection) => ({
 					typeName: collection,
 					indexName: collection,
 					fields: ['title'],
@@ -28,7 +28,7 @@ module.exports = {
 		{
 			use: 'gridsome-plugin-feed',
 			options: {
-				contentTypes: ['Movie', 'Event', 'DayofYear'],
+				contentTypes: ['Movies', 'Events', 'DaysOfYear'],
 				feedOptions: {
 					title: siteName,
 					// description: '',
@@ -69,7 +69,9 @@ module.exports = {
 		},
 	],
 	templates: {
-		Movie: '/:id',
+		Months: '/:id',
+		DaysOfYear: '/:month/:day',
+		Movies: '/movie/:id',
 		// // DayofYear: ['/:month/:day', '/:slugs__month/:day', , '/:slugs__month/:slugs__day', , '/:slugs__month/:slugs__shortday', , '/:slugs__shortmonth/:slugs__day', , '/:slugs__shortmonth/:slugs__shortday'],
 		Genres: '/genres/:id',
 		Studios: '/studios/:id',
@@ -78,9 +80,7 @@ module.exports = {
 		Directors: '/directors/:id',
 		Writers: '/writers/:id',
 		Actors: '/actors/:id',
-		DayofYear: '/:month/:day',
-		Month: '/month/:id',
-		Year: '/year/:id',
-		Classification: '/classification/:id',
+		Years: '/years/:id',
+		Classifications: '/classifications/:id',
 	},
 };

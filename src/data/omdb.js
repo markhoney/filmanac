@@ -22,9 +22,9 @@ function cleanObj(obj) {
 
 function processOMDB(omdb) {
 	const movie = {title: omdb.title};
-	if (omdb.year) movie.year = omdb.year;
+	if (omdb.year) movie.releaseyear = omdb.year;
 	if (omdb.rated) movie.classification = omdb.rated.toUpperCase();
-	if (omdb.released) movie.released = new Date(omdb.released);
+	if (omdb.released) movie.release = new Date(omdb.released);
 	if (omdb.runtime) movie.runtime = parseInt(omdb.runtime.replace(' min', ''));
 	if (omdb.genres) movie.genres = split(omdb.genres);
 	if (omdb.director) movie.directors = split(omdb.director);

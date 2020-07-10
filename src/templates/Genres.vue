@@ -1,18 +1,18 @@
 <template>
 	<Fixed :title="title">
-		<h1>{{$page.genre.title}}</h1>
 		<Movie v-for="(movie, index) in $page.genre.movies" :key="index" :movie="movie" />
 	</Fixed>
 </template>
 
 <page-query>
-	query genres($id: ID) {
+	query($id: ID) {
 		genre: genres(id: $id) {
 			title
 			image
 			movies {
 				id
 				title
+				path
 				plot
 				year
 				score {

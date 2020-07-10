@@ -16,7 +16,10 @@ function processTMDB(tmdb) {
 	if (tmdb.popularity) movie.score = Math.round(tmdb.popularity * 10);
 	if (tmdb.production_companies) movie.studios = tmdb.production_companies.map((company) => company.name);
 	if (tmdb.production_countries) movie.countries = tmdb.production_countries.map((country) => country.name);
-	if (tmdb.release_date) movie.released = new Date(tmdb.release_date);
+	if (tmdb.release_date) {
+		movie.release = new Date(tmdb.release_date);
+		movie.year = parseInt(tmdb.release_date.slice(0, 4));
+	}
 	if (tmdb.revenue) movie.revenue = tmdb.revenue;
 	if (tmdb.runtime) movie.runtime = tmdb.runtime;
 	if (tmdb.spoken_languages) movie.languages = tmdb.spoken_languages.map((language) => language.name);

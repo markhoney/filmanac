@@ -26,12 +26,12 @@
 						<p v-if="movie.actors" class="mt-4"><b>Starring</b> {{movie.actors.map((actor) => actor.title).join(', ')}}</p>
 						<h3 class="mt-8 text-3xl">Events</h3>
 						<ul class="ml-8">
-							<li v-for="event in movie.events" :key="event.id"><event-line :event="event" separator="-" /></li>
+							<li v-for="event in movie.events" :key="event.id"><event-line :event="event" /></li>
 						</ul>
 					</div>
 				</div>
 				<div class="z-10">
-					<classification v-if="movie.classification" class="float-right md:mr-16">{{movie.classification.title}}</classification>
+					<classification v-if="movie.classification" class="float-right md:mr-16" :to="movie.classification.path">{{movie.classification.title}}</classification>
 				</div>
 			</div>
 		</section>

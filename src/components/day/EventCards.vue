@@ -2,7 +2,7 @@
 	<section v-if="day">
 		<h1 class="font-bold text-4xl text-center">
 			<g-link :to="day.previous.path" :title="day.previous.title">🠰</g-link>&nbsp;
-			<span class="inline-block">{{date}}</span>&nbsp;
+			<span class="inline-block"><g-link :to="day.month.path">{{day.month.title}}</g-link> {{day.day.id}}{{day.day.ordinal}}</span>&nbsp;
 			<g-link :to="day.next.path" :title="day.next.title">🠲</g-link>
 		</h1>
 		<template v-if="day.events">

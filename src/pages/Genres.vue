@@ -1,9 +1,9 @@
 <template>
 	<Fixed>
 		<ul>
-			<li v-for="classification in $page.allClassification.edges" :key="classification.node.id">
-				<g-link :to="classification.node.path">
-					{{classification.node.title}}
+			<li v-for="genre in $page.allGenres.edges" :key="genre.node.id">
+				<g-link :to="genre.node.path">
+					{{genre.node.title}}
 				</g-link>
 			</li>
 		</ul>
@@ -12,7 +12,7 @@
 
 <page-query>
 	{
-		allClassification {
+		allGenres {
 			edges {
 				node {
 					id

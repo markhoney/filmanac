@@ -4,7 +4,7 @@
 			<li class="group hover:bg-opacity-75">
 				<g-link to="/days">Days</g-link>
 				<ul class="hidden absolute group-hover:block p-3 bg-black bg-opacity-75">
-					<li v-for="month in $static.allMonth.edges" :key="month.node.id" class="group p-1">
+					<li v-for="month in $static.months.edges" :key="month.node.id" class="group p-1">
 						<g-link :to="month.node.path">{{month.node.title}}</g-link>
 						<ul class="hidden absolute">
 							<li v-for="day in month.node.days" :key="day.day.id"><g-link :to="day.path">{{day.day.id}}{{day.day.ordinal}}</g-link></li>
@@ -20,13 +20,13 @@
 
 <static-query>
 	query {
-		allMonth(sortBy: "id", order: ASC) {
+		months: allMonths(sortBy: "id", order: ASC) {
 			edges {
 				node {
 					id
 					path
 					title
-					days {
+					daysofyear {
 						id
 						path
 						day {
@@ -39,16 +39,6 @@
 		}
 	}
 </static-query>
-
-<script>
-	export default {
-		data: () => ({
-			menu: {
-
-			}
-		}),
-	}
-</script>
 
 <style scoped lang="postcss">
 	nav > ul > li {

@@ -1,6 +1,7 @@
+require('colors');
 const {resolve} = require('path');
 const {existsSync, mkdirSync, readFileSync, writeFileSync, createWriteStream} = require('fs');
-require('colors');
+const fetch = require('node-fetch');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 

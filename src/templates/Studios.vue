@@ -6,7 +6,7 @@
 </template>
 
 <page-query>
-	query studios($id: ID) {
+	query($id: ID) {
 		studio: studios(id: $id) {
 			title
 			image

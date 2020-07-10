@@ -6,7 +6,7 @@
 </template>
 
 <page-query>
-	query languages($id: ID) {
+	query($id: ID) {
 		language: languages(id: $id) {
 			title
 			country {

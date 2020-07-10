@@ -6,8 +6,8 @@
 </template>
 
 <page-query>
-	query classification($id: ID) {
-		classification(id: $id) {
+	query($id: ID) {
+		classification: classifications(id: $id) {
 			title
 			movies {
 				id
