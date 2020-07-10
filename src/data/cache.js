@@ -19,7 +19,7 @@ async function image(folder, id, url) {
 			return cache;
 		} catch(e) {
 			console.log(`Error scraping`.red, url);
-			// console.log(e);
+			console.log(e);
 		}
 	}
 }
@@ -37,8 +37,8 @@ async function json(folder, id, func, ...arguments) {
 			writeFileSync(cache, JSON.stringify(details, null, '\t'));
 			return details;
 		} catch(e) {
-			console.log(`Error scraping ${folder} for`.red, id);
-			// console.log(e);
+			console.log(`Error scraping ${folder} info for`.red, id);
+			console.log(e);
 		}
 	}
 }

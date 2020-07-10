@@ -12,7 +12,7 @@ module.exports = async function getWikiData(id, name) {
 		if (!existsSync(json)) {
 			console.log('Downloading WikiData info for', id);
 			try {
-				await sleep(1000);
+				await sleep(500);
 				const page = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&format=json&titles=${name}`);
 				const data = await page.json();
 				const details = Object.values(data.entities)[0];
@@ -21,7 +21,7 @@ module.exports = async function getWikiData(id, name) {
 			} catch(e) {
 				console.log('WikiData scraping error for'.red, id);
 				// console.log(e);
-				unavailable.add('wikidata', id);
+				// unavailable.add('wikidata', id);
 			}
 		} else {
 			return JSON.parse(readFileSync(json, 'utf8'));
