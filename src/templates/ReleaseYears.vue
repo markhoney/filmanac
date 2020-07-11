@@ -1,26 +1,32 @@
 <template>
-	<div>
-		<h1>{{$page.classification.title}}</h1>
-		<Movie v-for="movie in $page.classification.movies" :key="movie.id" :movie="movie" />
-	</div>
+	<Fixed :title="title">
+		<Movie v-for="movie in $page.year.movies" :key="movie.id" :movie="movie" />
+	</Fixed>
 </template>
 
 <page-query>
 	query($id: ID) {
-		classification: classifications(id: $id) {
-			title
+		year: releaseYears(id: $id) {
+			id
 			movies {
 				id
 				title
+				path
 				plot
 				year {
 					id
-					path
+				}
+				score {
+					id
 				}
 				runtime
 				awards
 				images {
 					poster (width: 200, height: 300, quality: 80)
+				}
+				classification {
+					title
+					path
 				}
 				studios {
 					title
@@ -42,6 +48,30 @@
 					image
 					path
 				}
+				events {
+					id
+					title
+					info {
+						wikipedia {
+							url
+						}
+					}
+					year {
+						id
+						path
+					}
+					dayofyear {
+						month {
+							title
+						}
+						day {
+							id
+							ordinal
+						}
+					}
+					refreshments
+					mention
+				}
 			}
 		}
 	}
@@ -57,7 +87,7 @@
 			};
 		},
 		computed: {
-			title() {return this.$page.classification.title + ' Movies'},
+			title() {return 'Movies released in ' + this.$page.year.id},
 		},
 	};
 </script>

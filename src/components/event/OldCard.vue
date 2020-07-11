@@ -3,7 +3,7 @@
 		v-if="event.movie"
 		:link="event.movie.path"
 		:image="event.movie.images && event.movie.images.poster"
-		:title="event.movie.title + (event.movie.year ? ' (' + event.movie.year + ')' : '')"
+		:title="event.movie.title + (event.movie.year ? ' (' + event.movie.year.id + ')' : '')"
 		:subtitle="event.title && [event.month.title, event.day.id + event.day.ordinal, event.year && event.year.id, '-', event.title].join(' ')"
 		:icons="[
 			...event.movie.genres,

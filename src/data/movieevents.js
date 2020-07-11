@@ -78,7 +78,7 @@ class MovieEvents {
 					ordinal: number(day).ordinal.extension,
 				});
 				daysofyear.push({
-					id: [monthID, dayID].join('-'),
+					id: [month, day].join('-'),
 					month: monthID,
 					day: dayID,
 					title: `${monthName(month)} ${day}${number(day).ordinal.extension}`,
@@ -86,13 +86,13 @@ class MovieEvents {
 			}
 		}
 		for (const [index, dayofyear] of daysofyear.entries()) {
-			if (dayofyear.id === '1-1') {
-				dayofyear.previous = '12-31';
+			if (index === 0) {
+				dayofyear.previous = daysofyear[daysofyear.length - 1].id;
 			} else {
 				dayofyear.previous = daysofyear[index - 1].id;
 			}
-			if (dayofyear.id === '12-31') {
-				dayofyear.next = '1-1';
+			if (index === daysofyear.length - 1) {
+				dayofyear.next = daysofyear[0].id;
 			} else {
 				dayofyear.next = daysofyear[index + 1].id;
 			}
@@ -236,7 +236,7 @@ class MovieEvents {
 		return years;
 	}
 
-	getMovieYears() {
+	getReleaseYears() {
 		const years = unique(this.movies.map((movie) => movie.year)).map((year) => ({
 			id: year,
 			title: year,
@@ -399,9 +399,15 @@ class MovieEvents {
 			languages: country.languages && split(country.languages),
 		}));
 		const studios = await googlesheet('Studios');
+		const languages = (await googlesheet('Languages')).reduce((languages, language) => ({...languages, [language.native]: language.english}), {});
 		this.events = this.getEvents(events);
 		this.movies = this.getMovies(events);
 		await this.getMoviesDetails();
+		for (const movie of this.movies) {
+			for (const index in movie.languages) {
+				if (languages[movie.languages[index]]) movie.languages[index] = languages[movie.languages[index]];
+			}
+		}
 		await this.getEventsDetails();
 		for (const event of this.events) event.image = await screenshot(event, this.movies.find((movie) => movie.id === event.movie));
 		this.studios = this.getStudios(studios);
@@ -410,7 +416,7 @@ class MovieEvents {
 		this.languages = this.getLanguages(countries);
 		this.countries = this.getCountries(countries);
 		this.years = this.getYears();
-		this.releases = this.getMovieYears();
+		this.releaseyears = this.getReleaseYears();
 		this.dates = this.getDates();
 		this.directors = this.getDirectors();
 		this.writers = this.getWriters();
@@ -437,7 +443,7 @@ class MovieEvents {
 		stats.multiple = Object.values(daysofyear).filter((day) => day.total > 1).length;
 		// stats.single = Object.values(daysofyear).filter((day) => day.total < 2).map((day) => day.day).sort().join(', ');
 		stats.dates = this.days.length;
-		for (const cat of ['years', 'events', 'movies', 'releases', 'studios', 'genres', 'languages', 'countries', 'directors', 'writers', 'actors', 'scores', 'classifications', 'celebrations']) {
+		for (const cat of ['years', 'events', 'movies', 'releaseyears', 'studios', 'genres', 'languages', 'countries', 'directors', 'writers', 'actors', 'scores', 'classifications', 'celebrations']) {
 			stats[cat] = this[cat].length;
 		}
 		for (const source of ['wikipedia', 'wikidata']) {
@@ -455,13 +461,13 @@ class MovieEvents {
 		missing.days = 366 - stats.days;
 		missing.multiple = 366 - stats.multiple;
 		for (const value of ['descriptions']) {
-			missing[value] = stats.event - stats[value];
+			missing[value] = stats.events - stats[value];
 		}
 		for (const value of ['wikipedia', 'wikidata', 'poster', 'fanart', 'logo', 'clearart', 'keyart', 'disc', 'banner', 'landscape']) {
-			missing[value] = stats.movie - stats[value];
+			missing[value] = stats.movies - stats[value];
 		}
 		for (const value of ['studios', 'classification', 'directors', 'actors', 'runtime', 'score']) {
-			missing[value] = stats.movie - this.movies.filter((movie) => movie[value]).length;
+			missing[value] = stats.movies - this.movies.filter((movie) => movie[value]).length;
 		}
 		return missing;
 	}

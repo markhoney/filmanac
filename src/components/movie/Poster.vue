@@ -1,5 +1,5 @@
 <template>
-	<div class="relative text-gray-100 font-bold">
+	<div class="relative text-gray-100 font-bold" style="max-width: 200px;">
 		<div
 			:class="{absolute: movie.images && movie.images.poster, 'opacity-0': movie.images && movie.images.poster}"
 			class="rounded-lg rounded-r-none hover:opacity-100 duration-500 ease-in-out transition-opacity flex flex-col bg-black bg-opacity-75 top-0 left-0 w-full h-full p-2 text-center justify-around"

@@ -22,9 +22,14 @@ function cleanObj(obj) {
 
 function processOMDB(omdb) {
 	const movie = {title: omdb.title};
-	if (omdb.year) movie.releaseyear = omdb.year;
+	/* if (omdb.year || omdb.released) {
+		movie.release = {};
+		if (omdb.year) movie.release.year = omdb.year;
+		if (omdb.released) movie.release.date = new Date(omdb.released);
+	} */
+	if (omdb.year) movie.year = omdb.year;
+	if (omdb.released) movie.date = new Date(omdb.released);
 	if (omdb.rated) movie.classification = omdb.rated.toUpperCase();
-	if (omdb.released) movie.release = new Date(omdb.released);
 	if (omdb.runtime) movie.runtime = parseInt(omdb.runtime.replace(' min', ''));
 	if (omdb.genres) movie.genres = split(omdb.genres);
 	if (omdb.director) movie.directors = split(omdb.director);

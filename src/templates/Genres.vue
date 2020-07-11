@@ -1,6 +1,6 @@
 <template>
 	<Fixed :title="title">
-		<Movie v-for="(movie, index) in $page.genre.movies" :key="index" :movie="movie" />
+		<Movie v-for="movie in $page.genre.movies" :key="movie.id" :movie="movie" />
 	</Fixed>
 </template>
 
@@ -14,7 +14,10 @@
 				title
 				path
 				plot
-				year
+				year {
+					id
+					path
+				}
 				score {
 					id
 				}

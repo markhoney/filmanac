@@ -27,6 +27,7 @@
 				mounted: false,
 				frontend: false,
 				title: "Today's Movies",
+				months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
 			};
 		},
 		created () {
@@ -37,7 +38,8 @@
 			this.mounted = true;
 		},
 		computed: {
-			month() {return this.now.getMonth() + 1},
+			// month() {return this.now.getMonth() + 1},
+			month() {return this.months[this.now.getMonth()].toLowerCase()},
 			day() {return this.now.getDate()},
 			date() {return this.day.month_full + ' ' + this.day.day_ordinal},
 		},

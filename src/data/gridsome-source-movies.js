@@ -14,10 +14,10 @@ module.exports = class MovieSource {
 	constructor(api) {
 		api.loadSource(async ({addCollection}) => {
 			const collections = {};
-			const MovieCategories = ['Genres', 'Studios', 'Languages', 'Countries', 'Score', 'Classification', 'Directors', 'Writers', 'Actors', 'ReleaseYear'];
+			const MovieCategories = ['Genres', 'Studios', 'Languages', 'Countries', 'Score', 'Classification', 'Directors', 'Writers', 'Actors'];
 			const EventCategories = ['Movie', 'Year', 'DayOfYear'];
 			const DayOfYearCategories = ['Day', 'Month'];
-			for (const collection of [...MovieCategories, ...EventCategories, ...DayOfYearCategories, 'Events', 'Stats']) collections[getPlural(collection)] = addCollection({typeName: getPlural(collection)});
+			for (const collection of [...MovieCategories, ...EventCategories, ...DayOfYearCategories, 'Events', 'Stats', 'ReleaseYears']) collections[getPlural(collection)] = addCollection({typeName: getPlural(collection)});
 			for (const collection of MovieCategories) collections.Movies.addReference(collection.toLowerCase(), getPlural(collection));
 			for (const collection of EventCategories) collections.Events.addReference(collection.toLowerCase(), getPlural(collection));
 			for (const collection of DayOfYearCategories) collections.DaysOfYear.addReference(collection.toLowerCase(), getPlural(collection));
@@ -30,6 +30,11 @@ module.exports = class MovieSource {
 				movie.events = movieEvents.events.filter((event) => event.movie === movie.id).map((event) => event.id);
 			}
 			collections.Movies.addReference('events', 'Events');
+			collections.Movies.addReference('year', 'ReleaseYears');
+			for (const year of movieEvents.releaseyears) {
+				year.movies = movieEvents.movies.filter((movie) => movie.year === year.id).map((movie) => movie.id);
+			}
+			collections.ReleaseYears.addReference('movies', 'Movies');
 			for (const event of movieEvents.events) {
 				// event.dayofyear = movieEvents.dayofyear.find((dayofyear) => event.day === dayofyear.day && event.month === dayofyear.month).id;
 				event.dayofyear = [event.month, event.day].join('-');

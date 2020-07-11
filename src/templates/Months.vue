@@ -33,7 +33,10 @@
 						id
 						path
 						title
-						year
+						year {
+							id
+							path
+						}
 					}
 				}
 			}

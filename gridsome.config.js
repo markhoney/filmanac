@@ -81,6 +81,7 @@ module.exports = {
 		Writers: '/writers/:id',
 		Actors: '/actors/:id',
 		Years: '/years/:id',
+		ReleaseYears: '/released/:id',
 		Classifications: '/classifications/:id',
 	},
 };

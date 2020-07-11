@@ -15,3 +15,9 @@
 		components: {SiteHeader, SiteFooter},
 	}
 </script>
+
+<style lang="postcss">
+	a:hover {
+		@apply underline;
+	}
+</style>

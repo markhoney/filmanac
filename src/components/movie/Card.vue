@@ -3,7 +3,7 @@
 		:link="movie.path"
 		:image="movie.images && movie.images.poster"
 		:title="movie.title"
-		:subtitle="movie.year"
+		:subtitle="movie.year.id"
 		:icons="[
 			...movie.genres || [],
 			...movie.studios || [],

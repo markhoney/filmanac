@@ -8,7 +8,10 @@
 			id
 			title
 			plot
-			year
+			year {
+				id
+				path
+			}
 			score {
 				id
 			}
