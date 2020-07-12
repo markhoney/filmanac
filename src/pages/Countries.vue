@@ -27,7 +27,7 @@
 <script>
 	export default {
 		metaInfo: {
-			title: 'Movies for Today',
+			title: 'Movie Countries',
 		},
 	};
 </script>

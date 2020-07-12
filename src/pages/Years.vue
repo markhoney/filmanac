@@ -1,7 +1,7 @@
 <template>
 	<Fixed>
 		<ul>
-			<li v-for="year in $page.allYear.edges" :key="year.node.id">
+			<li v-for="year in $page.years.edges" :key="year.node.id">
 				<g-link :to="year.node.path">
 					{{year.node.title}}
 				</g-link>
@@ -12,7 +12,7 @@
 
 <page-query>
 	{
-		allYears {
+		years: allYears {
 			edges {
 				node {
 					id
@@ -27,7 +27,7 @@
 <script>
 	export default {
 		metaInfo: {
-			title: 'Movies for Today',
+			title: 'Event Years',
 		},
 	};
 </script>

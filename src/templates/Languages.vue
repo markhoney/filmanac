@@ -1,6 +1,5 @@
 <template>
 	<Fixed :title="title">
-		<h1>{{$page.language.title}}</h1>
 		<movie-card v-for="movie in $page.language.movies" :key="movie.id" :value="movie" />
 	</Fixed>
 </template>
@@ -68,7 +67,7 @@
 			};
 		},
 		computed: {
-			title() {return this.$page.language.title + ' Movies'},
+			title() {return this.$page.language.title + ' Language Movies'},
 		},
 	};
 </script>

@@ -1,6 +1,5 @@
 <template>
 	<Fixed :title="title">
-		<h1>{{$page.studio.title}}</h1>
 		<movie-card v-for="movie in $page.studio.movies" :key="movie.id" :value="movie" />
 	</Fixed>
 </template>

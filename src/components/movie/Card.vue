@@ -3,7 +3,7 @@
 		:link="value.path"
 		:image="value.images && value.images.poster"
 		:title="value.title"
-		:subtitle="value.year.id"
+		:subtitle="value.year && value.year.id"
 		:icons="[
 			...value.genres || [],
 			...value.studios || [],
