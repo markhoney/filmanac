@@ -8,8 +8,18 @@
 
 <script>
 	export default {
-		props: ['icons'],
-	}
+		props: ['value'],
+		computed: {
+			icons() {
+				return [
+					...this.value.genres || [],
+					...this.value.studios || [],
+					...this.value.countries || [],
+					...this.value.languages || [],
+				];
+			},
+		},
+	};
 </script>
 
 <style scoped lang="postcss">

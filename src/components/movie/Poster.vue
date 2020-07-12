@@ -1,21 +1,21 @@
 <template>
-	<div class="relative text-gray-100 font-bold" style="max-width: 200px;">
+	<div class="text-gray-100 font-bold" style="max-width: 200px;">
 		<div
-			:class="{absolute: movie.images && movie.images.poster, 'opacity-0': movie.images && movie.images.poster}"
+			:class="{absolute: value.images && value.images.poster, 'opacity-0': value.images && value.images.poster}"
 			class="rounded-lg rounded-r-none hover:opacity-100 duration-500 ease-in-out transition-opacity flex flex-col bg-black bg-opacity-75 top-0 left-0 w-full h-full p-2 text-center justify-around"
 		>
-			<div v-if="movie.score">
-				Rating: {{movie.score.id}} %
+			<div v-if="value.score">
+				Rating: {{value.score.id}} %
 			</div>
-			<div v-if="movie.awards">
+			<div v-if="value.awards">
 				Awards:
-				{{movie.awards}}
+				{{value.awards}}
 			</div>
-			<div v-if="movie.runtime">
-				Length: {{movie.runtime}} mins
+			<div v-if="value.runtime">
+				Length: {{value.runtime}} mins
 			</div>
 		</div>
-		<g-image v-if="movie.images && movie.images.poster" class="rounded-lg rounded-r-none" :src="movie.images.poster" :alt="movie.title + ' poster'" />
+		<g-image v-if="value.images && value.images.poster" :src="value.images.poster" :alt="value.title + ' poster'" />
 	</div>
 </template>
 
@@ -28,7 +28,7 @@
 			Classification,
 		},
 		props: {
-			movie: Object,
+			value: Object,
 		},
 	};
 </script>

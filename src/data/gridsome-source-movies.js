@@ -54,8 +54,8 @@ module.exports = class MovieSource {
 			}
 			collections.DaysOfYear.addReference('events', 'Events');
 			for (const collection of MovieCategories) {
-				const coll = getPlural(collection).toLowerCase();
-				for (const item of movieEvents[coll]) {
+				const coll = collection.toLowerCase();
+				for (const item of movieEvents[getPlural(collection).toLowerCase()]) {
 					item.movies = movieEvents.movies.filter((movie) => Array.isArray(movie[coll]) ? movie[coll].includes(item.id) : movie[coll] === item.id).map((movie) => movie.id);
 				}
 				collections[getPlural(collection)].addReference('movies', 'Movies');

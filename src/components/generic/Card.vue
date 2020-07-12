@@ -13,15 +13,15 @@
 			<div class="hidden md:block mt-4">
 				<slot />
 			</div>
-			<Icons :icons="icons" class="hidden md:flex mt-6" />
+			<movie-icons :value="{genres: icons}" class="hidden md:flex mt-6" />
 		</div>
 	</div>
 </template>
 
 <script>
-	import Icons from '@/components/movie/categories/Icons.vue';
+	import MovieIcons from '@/components/movie/categories/Icons.vue';
 	export default {
-		components: {Icons},
+		components: {MovieIcons},
 		props: ['link', 'poster', 'title', 'subtitle', 'icons'],
 	};
 </script>

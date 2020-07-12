@@ -8,7 +8,7 @@
 			<li>It could be that there's a day of the year where that movie is celebrated, such as Top Gun Day (13th May), Back to the Future Day (21st October) or Blade Runner Day (1st November).</li>
 			<li>Or it could just be that the day's a special day, and there's an obvious movie or two for that day, like Pi or The Life of Pi on Pi Day (March 14th) or Pirates of the Caribbean on Talk Like a Pirate Day (September 19th)</li>
 		</ul>
-		<Day :day="this.today" />
+		<day :value="this.today" />
 		</section>
 </template>
 

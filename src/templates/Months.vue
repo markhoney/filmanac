@@ -2,10 +2,10 @@
 	<Fixed :title="$page.month.title">
 		<ul>
 			<li v-for="day in $page.month.daysofyear" :key="day.id">
-				<h2 class="text-4xl border-b-2 border-white"><g-link :to="day.path">{{day.day.id}}{{day.day.ordinal}}</g-link></h2>
+				<h2 class="text-4xl border-b-2 border-white"><g-link :to="day.path" :title="'See all movies on ' + day.title">{{day.day.id}}{{day.day.ordinal}}</g-link></h2>
 				<ul>
 					<li v-for="event in day.events" :key="event.id">
-						<h3 class="text-2xl"><g-link :to="event.movie.path">{{event.movie.title}}</g-link></h3>
+						<movie-title :value="event.movie" class="text-2xl" />
 						<h4>{{event.title.slice(0, 1).toUpperCase()}}{{event.title.slice(1)}}</h4>
 					</li>
 				</ul>
@@ -33,10 +33,6 @@
 						id
 						path
 						title
-						year {
-							id
-							path
-						}
 					}
 				}
 			}
@@ -45,7 +41,10 @@
 </page-query>
 
 <script>
+	import MovieTitle from '@/components/movie/Title.vue';
+	import EventLine from '@/components/event/Line.vue';
 	export default {
+		components: {MovieTitle, EventLine},
 		metaInfo() {
 			return {
 				title: this.title,

@@ -1,5 +1,5 @@
 <template>
-	<Fixed>
+	<Fixed title="Movie Classifications">
 		<ul>
 			<li v-for="classification in $page.allClassification.edges" :key="classification.node.id">
 				<g-link :to="classification.node.path">

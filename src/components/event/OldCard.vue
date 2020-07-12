@@ -1,26 +1,26 @@
 <template>
-	<Card
-		v-if="event.movie"
-		:link="event.movie.path"
-		:image="event.movie.images && event.movie.images.poster"
-		:title="event.movie.title + (event.movie.year ? ' (' + event.movie.year.id + ')' : '')"
-		:subtitle="event.title && [event.month.title, event.day.id + event.day.ordinal, event.year && event.year.id, '-', event.title].join(' ')"
+	<card
+		v-if="value.movie"
+		:link="value.movie.path"
+		:image="value.movie.images && value.movie.images.poster"
+		:title="value.movie.title + (value.movie.year ? ' (' + value.movie.year.id + ')' : '')"
+		:subtitle="value.title && [value.month.title, value.day.id + value.day.ordinal, value.year && value.year.id, '-', value.title].join(' ')"
 		:icons="[
-			...event.movie.genres,
-			...event.movie.studios,
-			...event.movie.countries,
-			...event.movie.languages,
+			...value.movie.genres,
+			...value.movie.studios,
+			...value.movie.countries,
+			...value.movie.languages,
 		]"
 	>
-		<p class="plot">{{event.movie.plot}}</p>
-	</Card>
+		<p class="plot">{{value.movie.plot}}</p>
+	</card>
 </template>
 
 <script>
 	import Card from '@/components/generic/Card.vue';
 	export default {
 		components: {Card},
-		props: ['event'],
+		props: ['value'],
 	};
 </script>
 

@@ -1,25 +1,17 @@
 <template>
 	<Fixed v-if="$page.day">
 		<h1 class="font-bold text-4xl text-center">
-			<g-link :to="$page.day.previous.path" :title="$page.day.previous.title">&lt;-</g-link>&nbsp;
+			<g-link :to="$page.day.previous.path" :title="$page.day.previous.title" class="text-2xl tracking-tighter">&lt;&lt;</g-link>&nbsp;
 			<span class="inline-block"><g-link :to="$page.day.month.path" :title="'See all events in ' + $page.day.month.title">{{$page.day.month.title}}</g-link> {{$page.day.day.id}}{{$page.day.day.ordinal}}</span>&nbsp;
-			<g-link :to="$page.day.next.path" :title="$page.day.next.title">-&gt;</g-link>
+			<g-link :to="$page.day.next.path" :title="$page.day.next.title" class="text-2xl tracking-tighter">&gt;&gt;</g-link>
 		</h1>
 		<template v-if="events">
-			<Event v-for="event in events" :key="event.id" :event="event" class="my-4 md:my-8" />
+			<event-card v-for="event in events" :key="event.id" :value="event" class="my-4 md:my-8" />
 		</template>
-		<NoEvents v-else />
-		<div class="text-center text-6xl font-bold">
-			<g-link :to="$page.day.previous.path" :title="$page.day.previous.title">
-				<button class="mr-8 px-2">
-					&lt;-
-				</button>
-			</g-link>
-			<g-link :to="$page.day.next.path" :title="$page.day.next.title">
-				<button class="mr-8 px-2">
-					-&gt;
-				</button>
-			</g-link>
+		<no-events v-else />
+		<div class="text-center text-6xl font-bold tracking-tighter">
+			<g-link :to="$page.day.previous.path" :title="$page.day.previous.title"><button class="mr-8 px-2">&lt;&lt;</button></g-link>
+			<g-link :to="$page.day.next.path" :title="$page.day.next.title"><button class="mr-8 px-2">&gt;&gt;</button></g-link>
 		</div>
 	</Fixed>
 	<Fixed v-else>
@@ -118,11 +110,11 @@
 </page-query>
 
 <script>
-	import Event from '@/components/event/Card.vue';
+	import EventCard from '@/components/event/Card.vue';
 	import NoEvents from '@/components/event/None.vue';
 	import Loading from '@/components/day/Loading.vue';
 	export default {
-		components: {Event, NoEvents, Loading},
+		components: {EventCard, NoEvents, Loading},
 		data() {
 			return {
 				bottom: true,

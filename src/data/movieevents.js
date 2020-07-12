@@ -336,7 +336,7 @@ class MovieEvents {
 				}
 			}
 		}
-		console.log(`Missing ${paths[0]} image:`.red, title);
+		// console.log(`Missing ${paths[0]} image:`.red, title);
 		return null;
 	}
 
