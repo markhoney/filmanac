@@ -466,7 +466,7 @@ class MovieEvents {
 		for (const value of ['wikipedia', 'wikidata', 'poster', 'fanart', 'logo', 'clearart', 'keyart', 'disc', 'banner', 'landscape']) {
 			missing[value] = stats.movies - stats[value];
 		}
-		for (const value of ['studios', 'classification', 'directors', 'actors', 'runtime', 'score']) {
+		for (const value of ['studios', 'classification', 'directors', 'actors', 'runtime', 'score', 'year']) {
 			missing[value] = stats.movies - this.movies.filter((movie) => movie[value]).length;
 		}
 		return missing;
