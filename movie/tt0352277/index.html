@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title> - Movies for Today</title><meta name="gridsome:hash" content="bb88a772a75182c1812a41515c26ddf2bf185560"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.19"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><meta data-vue-tag="ssr" name="theme-color" content="#e32929"><meta data-vue-tag="ssr" name="apple-mobile-web-app-capable" content="yes"><meta data-vue-tag="ssr" name="apple-mobile-web-app-status-bar-style" content="default"><meta data-vue-tag="ssr" name="apple-mobile-web-app-title" content="Movies for Today"><meta data-vue-tag="ssr" name="application-name" content="Movies for Today"><meta data-vue-tag="ssr" name="msapplication-TileColor" content="#666600"><meta data-vue-tag="ssr" name="msapplication-TileImage" content="/assets/static/favicon.png-144x144.png"><meta data-vue-tag="ssr" data-key="description" name="description" content=""><link data-vue-tag="ssr" rel="icon" href="data:,"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="16x16" href="/assets/static/favicon.ce0531f.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="32x32" href="/assets/static/favicon.ac8d93a.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96" href="/assets/static/favicon.b9532cc.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/assets/static/favicon.f22e9f3.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/assets/static/favicon.62d22cb.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/assets/static/favicon.1539b60.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/assets/static/favicon.dc0cdc5.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/static/favicon.7b22250.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="manifest" href="/manifest.json"><link rel="preload" href="/assets/css/0.styles.ebc91bdf.css" as="style"><link rel="preload" href="/assets/js/app.448744b9.js" as="script"><link rel="preload" href="/assets/js/page--src--templates--movies-vue.c0899dec.js" as="script"><link rel="prefetch" href="/assets/js/page--node-modules--gridsome--app--pages--404-vue.be1007fb.js"><link rel="prefetch" href="/assets/js/page--src--pages--about-vue.b4127ef4.js"><link rel="prefetch" href="/assets/js/page--src--pages--classifications-vue.26ed59a6.js"><link rel="prefetch" href="/assets/js/page--src--pages--countries-vue.2b483af6.js"><link rel="prefetch" href="/assets/js/page--src--pages--genres-vue.195fad68.js"><link rel="prefetch" href="/assets/js/page--src--pages--index-vue.12adcc65.js"><link rel="prefetch" href="/assets/js/page--src--pages--languages-vue.236368ea.js"><link rel="prefetch" href="/assets/js/page--src--pages--released-vue.5461c6a2.js"><link rel="prefetch" href="/assets/js/page--src--pages--studios-vue.f92f88c2.js"><link rel="prefetch" href="/assets/js/page--src--pages--years-vue.6b0854b9.js"><link rel="prefetch" href="/assets/js/page--src--templates--classifications-vue.ef6c5457.js"><link rel="prefetch" href="/assets/js/page--src--templates--countries-vue.96a18cfd.js"><link rel="prefetch" href="/assets/js/page--src--templates--days-of-year-vue.ed8726e5.js"><link rel="prefetch" href="/assets/js/page--src--templates--genres-vue.3d5700a1.js"><link rel="prefetch" href="/assets/js/page--src--templates--languages-vue.7cea2745.js"><link rel="prefetch" href="/assets/js/page--src--templates--months-vue.81edd7ae.js"><link rel="prefetch" href="/assets/js/page--src--templates--release-years-vue.45043916.js"><link rel="prefetch" href="/assets/js/page--src--templates--studios-vue.fe41bd50.js"><link rel="prefetch" href="/assets/js/page--src--templates--years-vue.0243f608.js"><link rel="stylesheet" href="/assets/css/0.styles.ebc91bdf.css"><style data-vue-tag="ssr" type="text/css">
+    #nprogress {
+     pointer-events: none;
+    }
+    #nprogress .bar {
+      background: #667eea;
+      position: fixed;
+      z-index: 1031;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+    }
+    #nprogress .peg {
+      display: block;
+      position: absolute;
+      right: 0px;
+      width: 100px;
+      height: 100%;
+      box-shadow: 0 0 10px #667eea, 0 0 5px #667eea;
+      opacity: 1.0;
+      -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+      transform: rotate(3deg) translate(0px, -4px);
+    }
+    #nprogress .spinner {
+      display: block;
+      position: fixed;
+      z-index: 1031;
+      top: 15px;
+      right: 15px;
+    }
+    #nprogress .spinner-icon {
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+      border: solid 2px transparent;
+      border-top-color: #667eea;
+      border-left-color: #667eea;
+      border-radius: 50%;
+      -webkit-animation: nprogress-spinner 400ms linear infinite;
+      animation: nprogress-spinner 400ms linear infinite;
+    }
+    .nprogress-custom-parent {
+      overflow: hidden;
+      position: relative;
+    }
+    .nprogress-custom-parent #nprogress .spinner,
+    .nprogress-custom-parent #nprogress .bar {
+      position: absolute;
+    }
+    @-webkit-keyframes nprogress-spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    @keyframes nprogress-spinner {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <div data-server-rendered="true" id="app" class="flex flex-col min-h-screen bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-300"><header class="sm:flex p-4 text-center bg-primary-dark text-gray-200"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="mr-4" style="width:2rem;"><title>Switch to light mode</title><path fill="#ffffff" d="M31.3 25.2a7 7 0 10-14 0 7 7 0 0014 0zm-7 5a5 5 0 110-10 5 5 0 010 10zM23.3 34v6.2a1 1 0 102 0v-6.1a1 1 0 10-2 0zM23.3 10.2v6.2a1 1 0 102 0v-6.2a1 1 0 10-2 0zM34.2 36.5a1 1 0 001.4 0c.4-.4.4-1 0-1.4l-4.3-4.3a1 1 0 10-1.4 1.4l4.3 4.3zM13 14a1 1 0 000 1.3l4.3 4.4a1 1 0 001.5 0c.4-.4.4-1 0-1.5L14.4 14a1 1 0 00-1.4 0zM39.3 24.2h-6.1a1 1 0 100 2h6.1a1 1 0 100-2zM8.3 25.2c0 .6.5 1 1 1h6.2a1 1 0 100-2H9.3a1 1 0 00-1 1zM34.2 14L30 18.1a1 1 0 101.4 1.5l4.3-4.4a1 1 0 10-1.4-1.4zM13.7 36.8c.3 0 .5 0 .7-.3l4.4-4.3a1 1 0 10-1.5-1.4L13 35a1 1 0 00.7 1.7z"></path></svg><nav class="mt-3 z-10 font-bold" data-v-1eb4fea7><ul data-v-1eb4fea7><li class="group hover:bg-opacity-75" data-v-1eb4fea7><a href="/days" data-v-1eb4fea7>Days</a><ul class="hidden absolute group-hover:block p-3 bg-black bg-opacity-75" data-v-1eb4fea7><li class="group p-1" data-v-1eb4fea7><a href="/april/" data-v-1eb4fea7>April</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/august/" data-v-1eb4fea7>August</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/december/" data-v-1eb4fea7>December</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/february/" data-v-1eb4fea7>February</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/january/" data-v-1eb4fea7>January</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/july/" data-v-1eb4fea7>July</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/june/" data-v-1eb4fea7>June</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/march/" data-v-1eb4fea7>March</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/may/" data-v-1eb4fea7>May</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/november/" data-v-1eb4fea7>November</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/october/" data-v-1eb4fea7>October</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/september/" data-v-1eb4fea7>September</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li></ul></li><li data-v-1eb4fea7><a href="/" class="active" data-v-1eb4fea7>Today</a></li><li data-v-1eb4fea7><a href="/about/" data-v-1eb4fea7>About</a></li></ul></nav><div class="flex-auto text-center text-4xl font-bold" style="font-family: Josefin Sans;"><a href="/" class="active">
+			Movies for Today
+		</a></div><div class="text-gray-700 w-48 mx-auto" data-v-1a170fee><div class="h-10 pl-3 pr-2 bg-white border rounded flex justify-between items-center relative" data-v-1a170fee><input type="search" placeholder="Search..." value="" class="appearance-none w-full outline-none focus:outline-none active:outline-none" data-v-1a170fee><button type="submit" class="ml-1 outline-none focus:outline-none active:outline-none" data-v-1a170fee><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6" data-v-1a170fee><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" data-v-1a170fee></path></svg></button></div><!----></div></header><div class="flex-grow bg-repeat" style="background-image: url('/img/fabric.png')"><div><!----><div class="flex w-full h-full p-2 pt-16"><!----><div class="flex-auto md:ml-16 z-10"><div class="h-56"><h2 class="font-bold text-4xl md:text-6xl tracking-loose leading-tight z-10" style="text-shadow:2px 2px #111;"> (<a href="/released/2004/" title="See all movies released in 2004">2004</a>)</h2><div title="66%" class="mt-2" style="color:#4299E1;" data-v-25dadfe1><button data-v-25dadfe1><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 260 245" class="w-8" data-v-25dadfe1><path d="M55 237L129 9l74 228L9 96h240" data-v-25dadfe1></path></svg></button><button data-v-25dadfe1><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 260 245" class="w-8" data-v-25dadfe1><path d="M55 237L129 9l74 228L9 96h240" data-v-25dadfe1></path></svg></button><button data-v-25dadfe1><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 260 245" class="w-8" data-v-25dadfe1><path d="M55 237L129 9l74 228L9 96h240" data-v-25dadfe1></path></svg></button><button class="text-gray-300" data-v-25dadfe1><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 260 245" class="w-8" data-v-25dadfe1><path d="M55 237L129 9l74 228L9 96h240" data-v-25dadfe1></path></svg></button><button class="text-gray-300" data-v-25dadfe1><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 260 245" class="w-8" data-v-25dadfe1><path d="M55 237L129 9l74 228L9 96h240" data-v-25dadfe1></path></svg></button><span class="ml-5 text-3xl text-gray-300" data-v-25dadfe1>66%</span></div></div><div class="mt-4 mr-8 max-w-screen-lg p-8 text-xl"><p>De-Lovely is an original musical portrait of American composer Cole Porter, filled with his unforgettable songs. In the film, Porter is looking back on his life as if it was one of his spectacular stage shows, with the people and events of his life becoming the actors and action onstage. Through elaborate production numbers and popular hits like &quot;Anything Goes,&quot; &quot;It's De-Lovely,&quot; and &quot;Night and Day,&quot; Porter's elegant, excessive past comes to light - including his deeply complicated relationship with his wife and muse, Linda Lee Porter.</p><p class="mt-4"><b>Directed by</b> Irwin Winkler</p><p class="mt-4"><b>Starring</b> Kevin Kline, Ashley Judd, Jonathan Pryce, Kevin McNally</p><h3 class="mt-8 text-3xl">Events</h3><ul class="ml-8"><li><span><b><a href="/january/30/" title="See all events on January 30th">
+			January 30th
+		</a>,
+			<a href="/years/1918/" title="See all events in 1918">1918</a></b>
+	
+	Cole Porter and Linda Thomas marry
+</span></li><li><span><b><a href="/may/20/" title="See all events on May 20th">
+			May 20th
+		</a>,
+			<a href="/years/1954/" title="See all events in 1954">1954</a></b>
+	
+	Linda Thomas dies
+</span></li><li><span><b><a href="/october/15/" title="See all events on October 15th">
+			October 15th
+		</a>,
+			<a href="/years/1964/" title="See all events in 1964">1964</a></b>
+	
+	Cole Porter dies
+</span></li><li><span><b><a href="/october/24/" title="See all events on October 24th">
+			October 24th
+		</a>,
+			<a href="/years/1937/" title="See all events in 1937">1937</a></b>
+	
+	Cole Porter is injured while horse riding
+</span></li><li><span><b><a href="/december/19/" title="See all events on December 19th">
+			December 19th
+		</a>,
+			<a href="/years/1919/" title="See all events in 1919">1919</a></b>
+	
+	Cole Porter and Linda Thomas meet
+</span></li></ul></div></div><div class="z-10"><a href="/classifications/pg-13/" title="See all movies classified PG-13" class="m-2 px-1 border-4 rounded-lg font-serif font-bold uppercase whitespace-no-wrap float-right md:mr-16" style="font-family:Garamond, 'Times New Roman', serif;">
+	PG-13
+</a></div></div></div></div><footer class="text-center m-4">
+	Site created by <a href="https://mark.honeychurch.org" target="_blank" class="font-bold">Mark Honeychurch</a>, with a little help from my friends
+</footer></div>
+    <script>window.__INITIAL_STATE__={"data":{"movie":{"id":"tt0352277","title":"","plot":"De-Lovely is an original musical portrait of American composer Cole Porter, filled with his unforgettable songs. In the film, Porter is looking back on his life as if it was one of his spectacular stage shows, with the people and events of his life becoming the actors and action onstage. Through elaborate production numbers and popular hits like \"Anything Goes,\" \"It's De-Lovely,\" and \"Night and Day,\" Porter's elegant, excessive past comes to light - including his deeply complicated relationship with his wife and muse, Linda Lee Porter.","year":{"id":"2004","path":"\u002Freleased\u002F2004\u002F"},"score":{"id":"66"},"runtime":125,"awards":"Nominated for 2 Golden Globes. Another 2 wins & 11 nominations.","directors":[{"title":"Irwin Winkler","path":"\u002Fdirectors\u002Firwin_winkler\u002F"}],"actors":[{"title":"Kevin Kline","path":"\u002Factors\u002Fkevin_kline\u002F"},{"title":"Ashley Judd","path":"\u002Factors\u002Fashley_judd\u002F"},{"title":"Jonathan Pryce","path":"\u002Factors\u002Fjonathan_pryce\u002F"},{"title":"Kevin McNally","path":"\u002Factors\u002Fkevin_mcnally\u002F"}],"images":{"poster":null,"fanart":null},"classification":{"title":"PG-13","path":"\u002Fclassifications\u002Fpg-13\u002F"},"studios":[],"genres":[{"title":"Biography","image":"\u002Fimg\u002Fgenres\u002FBiography.png","path":"\u002Fgenres\u002Fbiography\u002F"},{"title":"Drama","image":"\u002Fimg\u002Fgenres\u002FDrama.png","path":"\u002Fgenres\u002Fdrama\u002F"},{"title":"Music","image":"\u002Fimg\u002Fgenres\u002FMusic.png","path":"\u002Fgenres\u002Fmusic\u002F"},{"title":"Musical","image":"\u002Fimg\u002Fgenres\u002FMusical.png","path":"\u002Fgenres\u002Fmusical\u002F"}],"countries":[{"title":"UK","image":"\u002Fimg\u002Fcountries\u002Fmaps\u002FUnited Kingdom.png","path":"\u002Fcountries\u002Fuk\u002F"},{"title":"USA","image":"\u002Fimg\u002Fcountries\u002Fmaps\u002FUnited States of America.png","path":"\u002Fcountries\u002Fusa\u002F"}],"languages":[{"title":"English","image":"\u002Fimg\u002Fcountries\u002Fflags\u002Fgb.svg","path":"\u002Flanguages\u002Fenglish\u002F"},{"title":"French","image":"\u002Fimg\u002Fcountries\u002Fflags\u002Ffr.svg","path":"\u002Flanguages\u002Ffrench\u002F"},{"title":"Italian","image":"\u002Fimg\u002Fcountries\u002Fflags\u002Fit.svg","path":"\u002Flanguages\u002Fitalian\u002F"}],"events":[{"id":"1-30-tt0352277","title":"Cole Porter and Linda Thomas marry","year":{"id":"1918","path":"\u002Fyears\u002F1918\u002F"},"info":{"wikipedia":{"url":"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FLinda_Lee_Thomas#Marriage_to_Porter"}},"dayofyear":{"path":"\u002Fjanuary\u002F30\u002F","month":{"id":"january","title":"January","path":"\u002Fjanuary\u002F"},"day":{"id":"30","ordinal":"th"}}},{"id":"5-20-tt0352277","title":"Linda Thomas dies","year":{"id":"1954","path":"\u002Fyears\u002F1954\u002F"},"info":{"wikipedia":{"url":"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FLinda_Lee_Thomas"}},"dayofyear":{"path":"\u002Fmay\u002F20\u002F","month":{"id":"may","title":"May","path":"\u002Fmay\u002F"},"day":{"id":"20","ordinal":"th"}}},{"id":"10-15-tt0352277","title":"Cole Porter dies","year":{"id":"1964","path":"\u002Fyears\u002F1964\u002F"},"info":{"wikipedia":{"url":"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FCole_Porter#Last_years"}},"dayofyear":{"path":"\u002Foctober\u002F15\u002F","month":{"id":"october","title":"October","path":"\u002Foctober\u002F"},"day":{"id":"15","ordinal":"th"}}},{"id":"10-24-tt0352277","title":"Cole Porter is injured while horse riding","year":{"id":"1937","path":"\u002Fyears\u002F1937\u002F"},"info":{"wikipedia":{"url":"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FCole_Porter#1930s"}},"dayofyear":{"path":"\u002Foctober\u002F24\u002F","month":{"id":"october","title":"October","path":"\u002Foctober\u002F"},"day":{"id":"24","ordinal":"th"}}},{"id":"12-19-tt0352277","title":"Cole Porter and Linda Thomas meet","year":{"id":"1919","path":"\u002Fyears\u002F1919\u002F"},"info":{"wikipedia":{"url":"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FCole_Porter#Paris_and_marriage"}},"dayofyear":{"path":"\u002Fdecember\u002F19\u002F","month":{"id":"december","title":"December","path":"\u002Fdecember\u002F"},"day":{"id":"19","ordinal":"th"}}}]}},"context":{}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script><script src="/assets/js/app.448744b9.js" defer></script><script src="/assets/js/page--src--templates--movies-vue.c0899dec.js" defer></script>
+  </body>
+</html>

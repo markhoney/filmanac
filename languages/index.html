@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title>Movie Languages - Movies for Today</title><meta name="gridsome:hash" content="bb88a772a75182c1812a41515c26ddf2bf185560"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.19"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><meta data-vue-tag="ssr" name="theme-color" content="#e32929"><meta data-vue-tag="ssr" name="apple-mobile-web-app-capable" content="yes"><meta data-vue-tag="ssr" name="apple-mobile-web-app-status-bar-style" content="default"><meta data-vue-tag="ssr" name="apple-mobile-web-app-title" content="Movies for Today"><meta data-vue-tag="ssr" name="application-name" content="Movies for Today"><meta data-vue-tag="ssr" name="msapplication-TileColor" content="#666600"><meta data-vue-tag="ssr" name="msapplication-TileImage" content="/assets/static/favicon.png-144x144.png"><meta data-vue-tag="ssr" data-key="description" name="description" content=""><link data-vue-tag="ssr" rel="icon" href="data:,"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="16x16" href="/assets/static/favicon.ce0531f.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="32x32" href="/assets/static/favicon.ac8d93a.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96" href="/assets/static/favicon.b9532cc.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/assets/static/favicon.f22e9f3.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/assets/static/favicon.62d22cb.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/assets/static/favicon.1539b60.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/assets/static/favicon.dc0cdc5.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/static/favicon.7b22250.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="manifest" href="/manifest.json"><link rel="preload" href="/assets/css/0.styles.ebc91bdf.css" as="style"><link rel="preload" href="/assets/js/app.448744b9.js" as="script"><link rel="preload" href="/assets/js/page--src--pages--languages-vue.236368ea.js" as="script"><link rel="prefetch" href="/assets/js/page--node-modules--gridsome--app--pages--404-vue.be1007fb.js"><link rel="prefetch" href="/assets/js/page--src--pages--about-vue.b4127ef4.js"><link rel="prefetch" href="/assets/js/page--src--pages--classifications-vue.26ed59a6.js"><link rel="prefetch" href="/assets/js/page--src--pages--countries-vue.2b483af6.js"><link rel="prefetch" href="/assets/js/page--src--pages--genres-vue.195fad68.js"><link rel="prefetch" href="/assets/js/page--src--pages--index-vue.12adcc65.js"><link rel="prefetch" href="/assets/js/page--src--pages--released-vue.5461c6a2.js"><link rel="prefetch" href="/assets/js/page--src--pages--studios-vue.f92f88c2.js"><link rel="prefetch" href="/assets/js/page--src--pages--years-vue.6b0854b9.js"><link rel="prefetch" href="/assets/js/page--src--templates--classifications-vue.ef6c5457.js"><link rel="prefetch" href="/assets/js/page--src--templates--countries-vue.96a18cfd.js"><link rel="prefetch" href="/assets/js/page--src--templates--days-of-year-vue.ed8726e5.js"><link rel="prefetch" href="/assets/js/page--src--templates--genres-vue.3d5700a1.js"><link rel="prefetch" href="/assets/js/page--src--templates--languages-vue.7cea2745.js"><link rel="prefetch" href="/assets/js/page--src--templates--months-vue.81edd7ae.js"><link rel="prefetch" href="/assets/js/page--src--templates--movies-vue.c0899dec.js"><link rel="prefetch" href="/assets/js/page--src--templates--release-years-vue.45043916.js"><link rel="prefetch" href="/assets/js/page--src--templates--studios-vue.fe41bd50.js"><link rel="prefetch" href="/assets/js/page--src--templates--years-vue.0243f608.js"><link rel="stylesheet" href="/assets/css/0.styles.ebc91bdf.css"><style data-vue-tag="ssr" type="text/css">
+    #nprogress {
+     pointer-events: none;
+    }
+    #nprogress .bar {
+      background: #667eea;
+      position: fixed;
+      z-index: 1031;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+    }
+    #nprogress .peg {
+      display: block;
+      position: absolute;
+      right: 0px;
+      width: 100px;
+      height: 100%;
+      box-shadow: 0 0 10px #667eea, 0 0 5px #667eea;
+      opacity: 1.0;
+      -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+      transform: rotate(3deg) translate(0px, -4px);
+    }
+    #nprogress .spinner {
+      display: block;
+      position: fixed;
+      z-index: 1031;
+      top: 15px;
+      right: 15px;
+    }
+    #nprogress .spinner-icon {
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+      border: solid 2px transparent;
+      border-top-color: #667eea;
+      border-left-color: #667eea;
+      border-radius: 50%;
+      -webkit-animation: nprogress-spinner 400ms linear infinite;
+      animation: nprogress-spinner 400ms linear infinite;
+    }
+    .nprogress-custom-parent {
+      overflow: hidden;
+      position: relative;
+    }
+    .nprogress-custom-parent #nprogress .spinner,
+    .nprogress-custom-parent #nprogress .bar {
+      position: absolute;
+    }
+    @-webkit-keyframes nprogress-spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    @keyframes nprogress-spinner {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <div data-server-rendered="true" id="app" class="flex flex-col min-h-screen bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-300"><header class="sm:flex p-4 text-center bg-primary-dark text-gray-200"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="mr-4" style="width:2rem;"><title>Switch to light mode</title><path fill="#ffffff" d="M31.3 25.2a7 7 0 10-14 0 7 7 0 0014 0zm-7 5a5 5 0 110-10 5 5 0 010 10zM23.3 34v6.2a1 1 0 102 0v-6.1a1 1 0 10-2 0zM23.3 10.2v6.2a1 1 0 102 0v-6.2a1 1 0 10-2 0zM34.2 36.5a1 1 0 001.4 0c.4-.4.4-1 0-1.4l-4.3-4.3a1 1 0 10-1.4 1.4l4.3 4.3zM13 14a1 1 0 000 1.3l4.3 4.4a1 1 0 001.5 0c.4-.4.4-1 0-1.5L14.4 14a1 1 0 00-1.4 0zM39.3 24.2h-6.1a1 1 0 100 2h6.1a1 1 0 100-2zM8.3 25.2c0 .6.5 1 1 1h6.2a1 1 0 100-2H9.3a1 1 0 00-1 1zM34.2 14L30 18.1a1 1 0 101.4 1.5l4.3-4.4a1 1 0 10-1.4-1.4zM13.7 36.8c.3 0 .5 0 .7-.3l4.4-4.3a1 1 0 10-1.5-1.4L13 35a1 1 0 00.7 1.7z"></path></svg><nav class="mt-3 z-10 font-bold" data-v-1eb4fea7><ul data-v-1eb4fea7><li class="group hover:bg-opacity-75" data-v-1eb4fea7><a href="/days" data-v-1eb4fea7>Days</a><ul class="hidden absolute group-hover:block p-3 bg-black bg-opacity-75" data-v-1eb4fea7><li class="group p-1" data-v-1eb4fea7><a href="/april/" data-v-1eb4fea7>April</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/august/" data-v-1eb4fea7>August</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/december/" data-v-1eb4fea7>December</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/february/" data-v-1eb4fea7>February</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/january/" data-v-1eb4fea7>January</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/july/" data-v-1eb4fea7>July</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/june/" data-v-1eb4fea7>June</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/march/" data-v-1eb4fea7>March</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/may/" data-v-1eb4fea7>May</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/november/" data-v-1eb4fea7>November</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/october/" data-v-1eb4fea7>October</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/september/" data-v-1eb4fea7>September</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li></ul></li><li data-v-1eb4fea7><a href="/" class="active" data-v-1eb4fea7>Today</a></li><li data-v-1eb4fea7><a href="/about/" data-v-1eb4fea7>About</a></li></ul></nav><div class="flex-auto text-center text-4xl font-bold" style="font-family: Josefin Sans;"><a href="/" class="active">
+			Movies for Today
+		</a></div><div class="text-gray-700 w-48 mx-auto" data-v-1a170fee><div class="h-10 pl-3 pr-2 bg-white border rounded flex justify-between items-center relative" data-v-1a170fee><input type="search" placeholder="Search..." value="" class="appearance-none w-full outline-none focus:outline-none active:outline-none" data-v-1a170fee><button type="submit" class="ml-1 outline-none focus:outline-none active:outline-none" data-v-1a170fee><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6" data-v-1a170fee><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" data-v-1a170fee></path></svg></button></div><!----></div></header><div class="flex-grow bg-repeat" style="background-image: url('/img/fabric.png')"><div class="flex-grow max-w-screen-lg mx-auto p-4"><!----><ul><li><a href="/languages/saami/">
+				Saami
+			</a></li><li><a href="/languages/khmer/">
+				Khmer
+			</a></li><li><a href="/languages/estonian/">
+				Estonian
+			</a></li><li><a href="/languages/bhojpuri/">
+				Bhojpuri
+			</a></li><li><a href="/languages/kannada/">
+				Kannada
+			</a></li><li><a href="/languages/hausa/">
+				Hausa
+			</a></li><li><a href="/languages/yoruba/">
+				Yoruba
+			</a></li><li><a href="/languages/sindarin/">
+				Sindarin
+			</a></li><li><a href="/languages/french_sign_language/">
+				French Sign Language
+			</a></li><li><a href="/languages/lithuanian/">
+				Lithuanian
+			</a></li><li><a href="/languages/georgian/">
+				Georgian
+			</a></li><li><a href="/languages/min_nan/">
+				Min Nan
+			</a></li><li><a href="/languages/masai/">
+				Masai
+			</a></li><li><a href="/languages/catalan/">
+				Catalan
+			</a></li><li><a href="/languages/balinese/">
+				Balinese
+			</a></li><li><a href="/languages/sioux/">
+				Sioux
+			</a></li><li><a href="/languages/british_sign_language/">
+				British Sign Language
+			</a></li><li><a href="/languages/nyanja/">
+				Nyanja
+			</a></li><li><a href="/languages/swiss_german/">
+				Swiss German
+			</a></li><li><a href="/languages/aboriginal/">
+				Aboriginal
+			</a></li><li><a href="/languages/bulgarian/">
+				Bulgarian
+			</a></li><li><a href="/languages/ladino/">
+				Ladino
+			</a></li><li><a href="/languages/macedonian/">
+				Macedonian
+			</a></li><li><a href="/languages/serbian/">
+				Serbian
+			</a></li><li><a href="/languages/malayalam/">
+				Malayalam
+			</a></li><li><a href="/languages/american_sign_language/">
+				American Sign Language
+			</a></li><li><a href="/languages/serbo-croatian/">
+				Serbo-Croatian
+			</a></li><li><a href="/languages/burmese/">
+				Burmese
+			</a></li><li><a href="/languages/czech/">
+				Czech
+			</a></li><li><a href="/languages/flemish/">
+				Flemish
+			</a></li><li><a href="/languages/punjabi/">
+				Punjabi
+			</a></li><li><a href="/languages/marathi/">
+				Marathi
+			</a></li><li><a href="/languages/pashto/">
+				Pashto
+			</a></li><li><a href="/languages/polynesian/">
+				Polynesian
+			</a></li><li><a href="/languages/sanskrit/">
+				Sanskrit
+			</a></li><li><a href="/languages/hawaiian/">
+				Hawaiian
+			</a></li><li><a href="/languages/turkish/">
+				Turkish
+			</a></li><li><a href="/languages/armenian/">
+				Armenian
+			</a></li><li><a href="/languages/ibo/">
+				Ibo
+			</a></li><li><a href="/languages/yiddish/">
+				Yiddish
+			</a></li><li><a href="/languages/somali/">
+				Somali
+			</a></li><li><a href="/languages/tamashek/">
+				Tamashek
+			</a></li><li><a href="/languages/songhay/">
+				Songhay
+			</a></li><li><a href="/languages/bambara/">
+				Bambara
+			</a></li><li><a href="/languages/danish/">
+				Danish
+			</a></li><li><a href="/languages/aramaic/">
+				Aramaic
+			</a></li><li><a href="/languages/mapudungun/">
+				Mapudungun
+			</a></li><li><a href="/languages/quechua/">
+				Quechua
+			</a></li><li><a href="/languages/cantonese/">
+				Cantonese
+			</a></li><li><a href="/languages/welsh/">
+				Welsh
+			</a></li><li><a href="/languages/hungarian/">
+				Hungarian
+			</a></li><li><a href="/languages/amharic/">
+				Amharic
+			</a></li><li><a href="/languages/tibetan/">
+				Tibetan
+			</a></li><li><a href="/languages/ukrainian/">
+				Ukrainian
+			</a></li><li><a href="/languages/greek/">
+				Greek
+			</a></li><li><a href="/languages/indonesian/">
+				Indonesian
+			</a></li><li><a href="/languages/assamese/">
+				Assamese
+			</a></li><li><a href="/languages/sesotho/">
+				Sesotho
+			</a></li><li><a href="/languages/xhosa/">
+				Xhosa
+			</a></li><li><a href="/languages/afrikaans/">
+				Afrikaans
+			</a></li><li><a href="/languages/swedish/">
+				Swedish
+			</a></li><li><a href="/languages/scottish_gaelic/">
+				Scottish Gaelic
+			</a></li><li><a href="/languages/tupi/">
+				Tupi
+			</a></li><li><a href="/languages/maori/">
+				Maori
+			</a></li><li><a href="/languages/polish/">
+				Polish
+			</a></li><li><a href="/languages/icelandic/">
+				Icelandic
+			</a></li><li><a href="/languages/chinese/">
+				Chinese
+			</a></li><li><a href="/languages/irish/">
+				Irish
+			</a></li><li><a href="/languages/telugu/">
+				Telugu
+			</a></li><li><a href="/languages/tamil/">
+				Tamil
+			</a></li><li><a href="/languages/lao/">
+				Lao
+			</a></li><li><a href="/languages/mandarin/">
+				Mandarin
+			</a></li><li><a href="/languages/vietnamese/">
+				Vietnamese
+			</a></li><li><a href="/languages/bengali/">
+				Bengali
+			</a></li><li><a href="/languages/gujarati/">
+				Gujarati
+			</a></li><li><a href="/languages/tagalog/">
+				Tagalog
+			</a></li><li><a href="/languages/filipino/">
+				Filipino
+			</a></li><li><a href="/languages/thai/">
+				Thai
+			</a></li><li><a href="/languages/persian/">
+				Persian
+			</a></li><li><a href="/languages/swahili/">
+				Swahili
+			</a></li><li><a href="/languages/korean/">
+				Korean
+			</a></li><li><a href="/languages/urdu/">
+				Urdu
+			</a></li><li><a href="/languages/zulu/">
+				Zulu
+			</a></li><li><a href="/languages/finnish/">
+				Finnish
+			</a></li><li><a href="/languages/norwegian/">
+				Norwegian
+			</a></li><li><a href="/languages/japanese/">
+				Japanese
+			</a></li><li><a href="/languages/hindi/">
+				Hindi
+			</a></li><li><a href="/languages/latin/">
+				Latin
+			</a></li><li><a href="/languages/german/">
+				German
+			</a></li><li><a href="/languages/algonquin/">
+				Algonquin
+			</a></li><li><a href="/languages/romanian/">
+				Romanian
+			</a></li><li><a href="/languages/albanian/">
+				Albanian
+			</a></li><li><a href="/languages/arabic/">
+				Arabic
+			</a></li><li><a href="/languages/russian/">
+				Russian
+			</a></li><li><a href="/languages/hebrew/">
+				Hebrew
+			</a></li><li><a href="/languages/french/">
+				French
+			</a></li><li><a href="/languages/dutch/">
+				Dutch
+			</a></li><li><a href="/languages/spanish/">
+				Spanish
+			</a></li><li><a href="/languages/italian/">
+				Italian
+			</a></li><li><a href="/languages/portuguese/">
+				Portuguese
+			</a></li><li><a href="/languages/english/">
+				English
+			</a></li></ul></div></div><footer class="text-center m-4">
+	Site created by <a href="https://mark.honeychurch.org" target="_blank" class="font-bold">Mark Honeychurch</a>, with a little help from my friends
+</footer></div>
+    <script>window.__INITIAL_STATE__={"data":{"allLanguages":{"edges":[{"node":{"id":"saami","path":"\u002Flanguages\u002Fsaami\u002F","title":"Saami"}},{"node":{"id":"khmer","path":"\u002Flanguages\u002Fkhmer\u002F","title":"Khmer"}},{"node":{"id":"estonian","path":"\u002Flanguages\u002Festonian\u002F","title":"Estonian"}},{"node":{"id":"bhojpuri","path":"\u002Flanguages\u002Fbhojpuri\u002F","title":"Bhojpuri"}},{"node":{"id":"kannada","path":"\u002Flanguages\u002Fkannada\u002F","title":"Kannada"}},{"node":{"id":"hausa","path":"\u002Flanguages\u002Fhausa\u002F","title":"Hausa"}},{"node":{"id":"yoruba","path":"\u002Flanguages\u002Fyoruba\u002F","title":"Yoruba"}},{"node":{"id":"sindarin","path":"\u002Flanguages\u002Fsindarin\u002F","title":"Sindarin"}},{"node":{"id":"french_sign_language","path":"\u002Flanguages\u002Ffrench_sign_language\u002F","title":"French Sign Language"}},{"node":{"id":"lithuanian","path":"\u002Flanguages\u002Flithuanian\u002F","title":"Lithuanian"}},{"node":{"id":"georgian","path":"\u002Flanguages\u002Fgeorgian\u002F","title":"Georgian"}},{"node":{"id":"min_nan","path":"\u002Flanguages\u002Fmin_nan\u002F","title":"Min Nan"}},{"node":{"id":"masai","path":"\u002Flanguages\u002Fmasai\u002F","title":"Masai"}},{"node":{"id":"catalan","path":"\u002Flanguages\u002Fcatalan\u002F","title":"Catalan"}},{"node":{"id":"balinese","path":"\u002Flanguages\u002Fbalinese\u002F","title":"Balinese"}},{"node":{"id":"sioux","path":"\u002Flanguages\u002Fsioux\u002F","title":"Sioux"}},{"node":{"id":"british_sign_language","path":"\u002Flanguages\u002Fbritish_sign_language\u002F","title":"British Sign Language"}},{"node":{"id":"nyanja","path":"\u002Flanguages\u002Fnyanja\u002F","title":"Nyanja"}},{"node":{"id":"swiss_german","path":"\u002Flanguages\u002Fswiss_german\u002F","title":"Swiss German"}},{"node":{"id":"aboriginal","path":"\u002Flanguages\u002Faboriginal\u002F","title":"Aboriginal"}},{"node":{"id":"bulgarian","path":"\u002Flanguages\u002Fbulgarian\u002F","title":"Bulgarian"}},{"node":{"id":"ladino","path":"\u002Flanguages\u002Fladino\u002F","title":"Ladino"}},{"node":{"id":"macedonian","path":"\u002Flanguages\u002Fmacedonian\u002F","title":"Macedonian"}},{"node":{"id":"serbian","path":"\u002Flanguages\u002Fserbian\u002F","title":"Serbian"}},{"node":{"id":"malayalam","path":"\u002Flanguages\u002Fmalayalam\u002F","title":"Malayalam"}},{"node":{"id":"american_sign_language","path":"\u002Flanguages\u002Famerican_sign_language\u002F","title":"American Sign Language"}},{"node":{"id":"serbo-croatian","path":"\u002Flanguages\u002Fserbo-croatian\u002F","title":"Serbo-Croatian"}},{"node":{"id":"burmese","path":"\u002Flanguages\u002Fburmese\u002F","title":"Burmese"}},{"node":{"id":"czech","path":"\u002Flanguages\u002Fczech\u002F","title":"Czech"}},{"node":{"id":"flemish","path":"\u002Flanguages\u002Fflemish\u002F","title":"Flemish"}},{"node":{"id":"punjabi","path":"\u002Flanguages\u002Fpunjabi\u002F","title":"Punjabi"}},{"node":{"id":"marathi","path":"\u002Flanguages\u002Fmarathi\u002F","title":"Marathi"}},{"node":{"id":"pashto","path":"\u002Flanguages\u002Fpashto\u002F","title":"Pashto"}},{"node":{"id":"polynesian","path":"\u002Flanguages\u002Fpolynesian\u002F","title":"Polynesian"}},{"node":{"id":"sanskrit","path":"\u002Flanguages\u002Fsanskrit\u002F","title":"Sanskrit"}},{"node":{"id":"hawaiian","path":"\u002Flanguages\u002Fhawaiian\u002F","title":"Hawaiian"}},{"node":{"id":"turkish","path":"\u002Flanguages\u002Fturkish\u002F","title":"Turkish"}},{"node":{"id":"armenian","path":"\u002Flanguages\u002Farmenian\u002F","title":"Armenian"}},{"node":{"id":"ibo","path":"\u002Flanguages\u002Fibo\u002F","title":"Ibo"}},{"node":{"id":"yiddish","path":"\u002Flanguages\u002Fyiddish\u002F","title":"Yiddish"}},{"node":{"id":"somali","path":"\u002Flanguages\u002Fsomali\u002F","title":"Somali"}},{"node":{"id":"tamashek","path":"\u002Flanguages\u002Ftamashek\u002F","title":"Tamashek"}},{"node":{"id":"songhay","path":"\u002Flanguages\u002Fsonghay\u002F","title":"Songhay"}},{"node":{"id":"bambara","path":"\u002Flanguages\u002Fbambara\u002F","title":"Bambara"}},{"node":{"id":"danish","path":"\u002Flanguages\u002Fdanish\u002F","title":"Danish"}},{"node":{"id":"aramaic","path":"\u002Flanguages\u002Faramaic\u002F","title":"Aramaic"}},{"node":{"id":"mapudungun","path":"\u002Flanguages\u002Fmapudungun\u002F","title":"Mapudungun"}},{"node":{"id":"quechua","path":"\u002Flanguages\u002Fquechua\u002F","title":"Quechua"}},{"node":{"id":"cantonese","path":"\u002Flanguages\u002Fcantonese\u002F","title":"Cantonese"}},{"node":{"id":"welsh","path":"\u002Flanguages\u002Fwelsh\u002F","title":"Welsh"}},{"node":{"id":"hungarian","path":"\u002Flanguages\u002Fhungarian\u002F","title":"Hungarian"}},{"node":{"id":"amharic","path":"\u002Flanguages\u002Famharic\u002F","title":"Amharic"}},{"node":{"id":"tibetan","path":"\u002Flanguages\u002Ftibetan\u002F","title":"Tibetan"}},{"node":{"id":"ukrainian","path":"\u002Flanguages\u002Fukrainian\u002F","title":"Ukrainian"}},{"node":{"id":"greek","path":"\u002Flanguages\u002Fgreek\u002F","title":"Greek"}},{"node":{"id":"indonesian","path":"\u002Flanguages\u002Findonesian\u002F","title":"Indonesian"}},{"node":{"id":"assamese","path":"\u002Flanguages\u002Fassamese\u002F","title":"Assamese"}},{"node":{"id":"sesotho","path":"\u002Flanguages\u002Fsesotho\u002F","title":"Sesotho"}},{"node":{"id":"xhosa","path":"\u002Flanguages\u002Fxhosa\u002F","title":"Xhosa"}},{"node":{"id":"afrikaans","path":"\u002Flanguages\u002Fafrikaans\u002F","title":"Afrikaans"}},{"node":{"id":"swedish","path":"\u002Flanguages\u002Fswedish\u002F","title":"Swedish"}},{"node":{"id":"scottish_gaelic","path":"\u002Flanguages\u002Fscottish_gaelic\u002F","title":"Scottish Gaelic"}},{"node":{"id":"tupi","path":"\u002Flanguages\u002Ftupi\u002F","title":"Tupi"}},{"node":{"id":"maori","path":"\u002Flanguages\u002Fmaori\u002F","title":"Maori"}},{"node":{"id":"polish","path":"\u002Flanguages\u002Fpolish\u002F","title":"Polish"}},{"node":{"id":"icelandic","path":"\u002Flanguages\u002Ficelandic\u002F","title":"Icelandic"}},{"node":{"id":"chinese","path":"\u002Flanguages\u002Fchinese\u002F","title":"Chinese"}},{"node":{"id":"irish","path":"\u002Flanguages\u002Firish\u002F","title":"Irish"}},{"node":{"id":"telugu","path":"\u002Flanguages\u002Ftelugu\u002F","title":"Telugu"}},{"node":{"id":"tamil","path":"\u002Flanguages\u002Ftamil\u002F","title":"Tamil"}},{"node":{"id":"lao","path":"\u002Flanguages\u002Flao\u002F","title":"Lao"}},{"node":{"id":"mandarin","path":"\u002Flanguages\u002Fmandarin\u002F","title":"Mandarin"}},{"node":{"id":"vietnamese","path":"\u002Flanguages\u002Fvietnamese\u002F","title":"Vietnamese"}},{"node":{"id":"bengali","path":"\u002Flanguages\u002Fbengali\u002F","title":"Bengali"}},{"node":{"id":"gujarati","path":"\u002Flanguages\u002Fgujarati\u002F","title":"Gujarati"}},{"node":{"id":"tagalog","path":"\u002Flanguages\u002Ftagalog\u002F","title":"Tagalog"}},{"node":{"id":"filipino","path":"\u002Flanguages\u002Ffilipino\u002F","title":"Filipino"}},{"node":{"id":"thai","path":"\u002Flanguages\u002Fthai\u002F","title":"Thai"}},{"node":{"id":"persian","path":"\u002Flanguages\u002Fpersian\u002F","title":"Persian"}},{"node":{"id":"swahili","path":"\u002Flanguages\u002Fswahili\u002F","title":"Swahili"}},{"node":{"id":"korean","path":"\u002Flanguages\u002Fkorean\u002F","title":"Korean"}},{"node":{"id":"urdu","path":"\u002Flanguages\u002Furdu\u002F","title":"Urdu"}},{"node":{"id":"zulu","path":"\u002Flanguages\u002Fzulu\u002F","title":"Zulu"}},{"node":{"id":"finnish","path":"\u002Flanguages\u002Ffinnish\u002F","title":"Finnish"}},{"node":{"id":"norwegian","path":"\u002Flanguages\u002Fnorwegian\u002F","title":"Norwegian"}},{"node":{"id":"japanese","path":"\u002Flanguages\u002Fjapanese\u002F","title":"Japanese"}},{"node":{"id":"hindi","path":"\u002Flanguages\u002Fhindi\u002F","title":"Hindi"}},{"node":{"id":"latin","path":"\u002Flanguages\u002Flatin\u002F","title":"Latin"}},{"node":{"id":"german","path":"\u002Flanguages\u002Fgerman\u002F","title":"German"}},{"node":{"id":"algonquin","path":"\u002Flanguages\u002Falgonquin\u002F","title":"Algonquin"}},{"node":{"id":"romanian","path":"\u002Flanguages\u002Fromanian\u002F","title":"Romanian"}},{"node":{"id":"albanian","path":"\u002Flanguages\u002Falbanian\u002F","title":"Albanian"}},{"node":{"id":"arabic","path":"\u002Flanguages\u002Farabic\u002F","title":"Arabic"}},{"node":{"id":"russian","path":"\u002Flanguages\u002Frussian\u002F","title":"Russian"}},{"node":{"id":"hebrew","path":"\u002Flanguages\u002Fhebrew\u002F","title":"Hebrew"}},{"node":{"id":"french","path":"\u002Flanguages\u002Ffrench\u002F","title":"French"}},{"node":{"id":"dutch","path":"\u002Flanguages\u002Fdutch\u002F","title":"Dutch"}},{"node":{"id":"spanish","path":"\u002Flanguages\u002Fspanish\u002F","title":"Spanish"}},{"node":{"id":"italian","path":"\u002Flanguages\u002Fitalian\u002F","title":"Italian"}},{"node":{"id":"portuguese","path":"\u002Flanguages\u002Fportuguese\u002F","title":"Portuguese"}},{"node":{"id":"english","path":"\u002Flanguages\u002Fenglish\u002F","title":"English"}}]}},"context":{}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script><script src="/assets/js/app.448744b9.js" defer></script><script src="/assets/js/page--src--pages--languages-vue.236368ea.js" defer></script>
+  </body>
+</html>

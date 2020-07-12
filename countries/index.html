@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title>Movie Countries - Movies for Today</title><meta name="gridsome:hash" content="bb88a772a75182c1812a41515c26ddf2bf185560"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.19"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><meta data-vue-tag="ssr" name="theme-color" content="#e32929"><meta data-vue-tag="ssr" name="apple-mobile-web-app-capable" content="yes"><meta data-vue-tag="ssr" name="apple-mobile-web-app-status-bar-style" content="default"><meta data-vue-tag="ssr" name="apple-mobile-web-app-title" content="Movies for Today"><meta data-vue-tag="ssr" name="application-name" content="Movies for Today"><meta data-vue-tag="ssr" name="msapplication-TileColor" content="#666600"><meta data-vue-tag="ssr" name="msapplication-TileImage" content="/assets/static/favicon.png-144x144.png"><meta data-vue-tag="ssr" data-key="description" name="description" content=""><link data-vue-tag="ssr" rel="icon" href="data:,"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="16x16" href="/assets/static/favicon.ce0531f.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="32x32" href="/assets/static/favicon.ac8d93a.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96" href="/assets/static/favicon.b9532cc.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/assets/static/favicon.f22e9f3.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/assets/static/favicon.62d22cb.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/assets/static/favicon.1539b60.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/assets/static/favicon.dc0cdc5.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/static/favicon.7b22250.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="manifest" href="/manifest.json"><link rel="preload" href="/assets/css/0.styles.ebc91bdf.css" as="style"><link rel="preload" href="/assets/js/app.448744b9.js" as="script"><link rel="preload" href="/assets/js/page--src--pages--countries-vue.2b483af6.js" as="script"><link rel="prefetch" href="/assets/js/page--node-modules--gridsome--app--pages--404-vue.be1007fb.js"><link rel="prefetch" href="/assets/js/page--src--pages--about-vue.b4127ef4.js"><link rel="prefetch" href="/assets/js/page--src--pages--classifications-vue.26ed59a6.js"><link rel="prefetch" href="/assets/js/page--src--pages--genres-vue.195fad68.js"><link rel="prefetch" href="/assets/js/page--src--pages--index-vue.12adcc65.js"><link rel="prefetch" href="/assets/js/page--src--pages--languages-vue.236368ea.js"><link rel="prefetch" href="/assets/js/page--src--pages--released-vue.5461c6a2.js"><link rel="prefetch" href="/assets/js/page--src--pages--studios-vue.f92f88c2.js"><link rel="prefetch" href="/assets/js/page--src--pages--years-vue.6b0854b9.js"><link rel="prefetch" href="/assets/js/page--src--templates--classifications-vue.ef6c5457.js"><link rel="prefetch" href="/assets/js/page--src--templates--countries-vue.96a18cfd.js"><link rel="prefetch" href="/assets/js/page--src--templates--days-of-year-vue.ed8726e5.js"><link rel="prefetch" href="/assets/js/page--src--templates--genres-vue.3d5700a1.js"><link rel="prefetch" href="/assets/js/page--src--templates--languages-vue.7cea2745.js"><link rel="prefetch" href="/assets/js/page--src--templates--months-vue.81edd7ae.js"><link rel="prefetch" href="/assets/js/page--src--templates--movies-vue.c0899dec.js"><link rel="prefetch" href="/assets/js/page--src--templates--release-years-vue.45043916.js"><link rel="prefetch" href="/assets/js/page--src--templates--studios-vue.fe41bd50.js"><link rel="prefetch" href="/assets/js/page--src--templates--years-vue.0243f608.js"><link rel="stylesheet" href="/assets/css/0.styles.ebc91bdf.css"><style data-vue-tag="ssr" type="text/css">
+    #nprogress {
+     pointer-events: none;
+    }
+    #nprogress .bar {
+      background: #667eea;
+      position: fixed;
+      z-index: 1031;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+    }
+    #nprogress .peg {
+      display: block;
+      position: absolute;
+      right: 0px;
+      width: 100px;
+      height: 100%;
+      box-shadow: 0 0 10px #667eea, 0 0 5px #667eea;
+      opacity: 1.0;
+      -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+      transform: rotate(3deg) translate(0px, -4px);
+    }
+    #nprogress .spinner {
+      display: block;
+      position: fixed;
+      z-index: 1031;
+      top: 15px;
+      right: 15px;
+    }
+    #nprogress .spinner-icon {
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+      border: solid 2px transparent;
+      border-top-color: #667eea;
+      border-left-color: #667eea;
+      border-radius: 50%;
+      -webkit-animation: nprogress-spinner 400ms linear infinite;
+      animation: nprogress-spinner 400ms linear infinite;
+    }
+    .nprogress-custom-parent {
+      overflow: hidden;
+      position: relative;
+    }
+    .nprogress-custom-parent #nprogress .spinner,
+    .nprogress-custom-parent #nprogress .bar {
+      position: absolute;
+    }
+    @-webkit-keyframes nprogress-spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    @keyframes nprogress-spinner {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <div data-server-rendered="true" id="app" class="flex flex-col min-h-screen bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-300"><header class="sm:flex p-4 text-center bg-primary-dark text-gray-200"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="mr-4" style="width:2rem;"><title>Switch to light mode</title><path fill="#ffffff" d="M31.3 25.2a7 7 0 10-14 0 7 7 0 0014 0zm-7 5a5 5 0 110-10 5 5 0 010 10zM23.3 34v6.2a1 1 0 102 0v-6.1a1 1 0 10-2 0zM23.3 10.2v6.2a1 1 0 102 0v-6.2a1 1 0 10-2 0zM34.2 36.5a1 1 0 001.4 0c.4-.4.4-1 0-1.4l-4.3-4.3a1 1 0 10-1.4 1.4l4.3 4.3zM13 14a1 1 0 000 1.3l4.3 4.4a1 1 0 001.5 0c.4-.4.4-1 0-1.5L14.4 14a1 1 0 00-1.4 0zM39.3 24.2h-6.1a1 1 0 100 2h6.1a1 1 0 100-2zM8.3 25.2c0 .6.5 1 1 1h6.2a1 1 0 100-2H9.3a1 1 0 00-1 1zM34.2 14L30 18.1a1 1 0 101.4 1.5l4.3-4.4a1 1 0 10-1.4-1.4zM13.7 36.8c.3 0 .5 0 .7-.3l4.4-4.3a1 1 0 10-1.5-1.4L13 35a1 1 0 00.7 1.7z"></path></svg><nav class="mt-3 z-10 font-bold" data-v-1eb4fea7><ul data-v-1eb4fea7><li class="group hover:bg-opacity-75" data-v-1eb4fea7><a href="/days" data-v-1eb4fea7>Days</a><ul class="hidden absolute group-hover:block p-3 bg-black bg-opacity-75" data-v-1eb4fea7><li class="group p-1" data-v-1eb4fea7><a href="/april/" data-v-1eb4fea7>April</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/august/" data-v-1eb4fea7>August</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/december/" data-v-1eb4fea7>December</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/february/" data-v-1eb4fea7>February</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/january/" data-v-1eb4fea7>January</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/july/" data-v-1eb4fea7>July</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/june/" data-v-1eb4fea7>June</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/march/" data-v-1eb4fea7>March</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/may/" data-v-1eb4fea7>May</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/november/" data-v-1eb4fea7>November</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/october/" data-v-1eb4fea7>October</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/september/" data-v-1eb4fea7>September</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li></ul></li><li data-v-1eb4fea7><a href="/" class="active" data-v-1eb4fea7>Today</a></li><li data-v-1eb4fea7><a href="/about/" data-v-1eb4fea7>About</a></li></ul></nav><div class="flex-auto text-center text-4xl font-bold" style="font-family: Josefin Sans;"><a href="/" class="active">
+			Movies for Today
+		</a></div><div class="text-gray-700 w-48 mx-auto" data-v-1a170fee><div class="h-10 pl-3 pr-2 bg-white border rounded flex justify-between items-center relative" data-v-1a170fee><input type="search" placeholder="Search..." value="" class="appearance-none w-full outline-none focus:outline-none active:outline-none" data-v-1a170fee><button type="submit" class="ml-1 outline-none focus:outline-none active:outline-none" data-v-1a170fee><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6" data-v-1a170fee><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" data-v-1a170fee></path></svg></button></div><!----></div></header><div class="flex-grow bg-repeat" style="background-image: url('/img/fabric.png')"><div class="flex-grow max-w-screen-lg mx-auto p-4"><!----><ul><li><a href="/countries/mali/">
+				Mali
+			</a></li><li><a href="/countries/czechoslovakia/">
+				Czechoslovakia
+			</a></li><li><a href="/countries/estonia/">
+				Estonia
+			</a></li><li><a href="/countries/indonesia/">
+				Indonesia
+			</a></li><li><a href="/countries/uruguay/">
+				Uruguay
+			</a></li><li><a href="/countries/east_germany/">
+				East Germany
+			</a></li><li><a href="/countries/pakistan/">
+				Pakistan
+			</a></li><li><a href="/countries/romania/">
+				Romania
+			</a></li><li><a href="/countries/iran/">
+				Iran
+			</a></li><li><a href="/countries/egypt/">
+				Egypt
+			</a></li><li><a href="/countries/singapore/">
+				Singapore
+			</a></li><li><a href="/countries/monaco/">
+				Monaco
+			</a></li><li><a href="/countries/isle_of_man/">
+				Isle Of Man
+			</a></li><li><a href="/countries/west_germany/">
+				West Germany
+			</a></li><li><a href="/countries/turkey/">
+				Turkey
+			</a></li><li><a href="/countries/bahamas/">
+				Bahamas
+			</a></li><li><a href="/countries/finland/">
+				Finland
+			</a></li><li><a href="/countries/israel/">
+				Israel
+			</a></li><li><a href="/countries/malta/">
+				Malta
+			</a></li><li><a href="/countries/republic_of_macedonia/">
+				Republic of Macedonia
+			</a></li><li><a href="/countries/panama/">
+				Panama
+			</a></li><li><a href="/countries/serbia/">
+				Serbia
+			</a></li><li><a href="/countries/morocco/">
+				Morocco
+			</a></li><li><a href="/countries/nigeria/">
+				Nigeria
+			</a></li><li><a href="/countries/thailand/">
+				Thailand
+			</a></li><li><a href="/countries/soviet_union/">
+				Soviet Union
+			</a></li><li><a href="/countries/new_caledonia/">
+				New Caledonia
+			</a></li><li><a href="/countries/venezuela/">
+				Venezuela
+			</a></li><li><a href="/countries/greece/">
+				Greece
+			</a></li><li><a href="/countries/united_kingdom/">
+				United Kingdom
+			</a></li><li><a href="/countries/rwanda/">
+				Rwanda
+			</a></li><li><a href="/countries/mauritania/">
+				Mauritania
+			</a></li><li><a href="/countries/peru/">
+				Peru
+			</a></li><li><a href="/countries/ukraine/">
+				Ukraine
+			</a></li><li><a href="/countries/poland/">
+				Poland
+			</a></li><li><a href="/countries/hungary/">
+				Hungary
+			</a></li><li><a href="/countries/taiwan/">
+				Taiwan
+			</a></li><li><a href="/countries/spain/">
+				Spain
+			</a></li><li><a href="/countries/lithuania/">
+				Lithuania
+			</a></li><li><a href="/countries/south_korea/">
+				South Korea
+			</a></li><li><a href="/countries/austria/">
+				Austria
+			</a></li><li><a href="/countries/colombia/">
+				Colombia
+			</a></li><li><a href="/countries/iceland/">
+				Iceland
+			</a></li><li><a href="/countries/south_africa/">
+				South Africa
+			</a></li><li><a href="/countries/mexico/">
+				Mexico
+			</a></li><li><a href="/countries/new_zealand/">
+				New Zealand
+			</a></li><li><a href="/countries/brazil/">
+				Brazil
+			</a></li><li><a href="/countries/chile/">
+				Chile
+			</a></li><li><a href="/countries/italy/">
+				Italy
+			</a></li><li><a href="/countries/russia/">
+				Russia
+			</a></li><li><a href="/countries/united_arab_emirates/">
+				United Arab Emirates
+			</a></li><li><a href="/countries/ireland/">
+				Ireland
+			</a></li><li><a href="/countries/argentina/">
+				Argentina
+			</a></li><li><a href="/countries/china/">
+				China
+			</a></li><li><a href="/countries/switzerland/">
+				Switzerland
+			</a></li><li><a href="/countries/hong_kong/">
+				Hong Kong
+			</a></li><li><a href="/countries/australia/">
+				Australia
+			</a></li><li><a href="/countries/norway/">
+				Norway
+			</a></li><li><a href="/countries/netherlands/">
+				Netherlands
+			</a></li><li><a href="/countries/sweden/">
+				Sweden
+			</a></li><li><a href="/countries/luxembourg/">
+				Luxembourg
+			</a></li><li><a href="/countries/india/">
+				India
+			</a></li><li><a href="/countries/czech_republic/">
+				Czech Republic
+			</a></li><li><a href="/countries/united_states_of_america/">
+				United States of America
+			</a></li><li><a href="/countries/qatar/">
+				Qatar
+			</a></li><li><a href="/countries/cambodia/">
+				Cambodia
+			</a></li><li><a href="/countries/germany/">
+				Germany
+			</a></li><li><a href="/countries/japan/">
+				Japan
+			</a></li><li><a href="/countries/france/">
+				France
+			</a></li><li><a href="/countries/belgium/">
+				Belgium
+			</a></li><li><a href="/countries/denmark/">
+				Denmark
+			</a></li><li><a href="/countries/cayman_islands/">
+				Cayman Islands
+			</a></li><li><a href="/countries/uk/">
+				UK
+			</a></li><li><a href="/countries/canada/">
+				Canada
+			</a></li><li><a href="/countries/usa/">
+				USA
+			</a></li></ul></div></div><footer class="text-center m-4">
+	Site created by <a href="https://mark.honeychurch.org" target="_blank" class="font-bold">Mark Honeychurch</a>, with a little help from my friends
+</footer></div>
+    <script>window.__INITIAL_STATE__={"data":{"allCountries":{"edges":[{"node":{"id":"mali","path":"\u002Fcountries\u002Fmali\u002F","title":"Mali"}},{"node":{"id":"czechoslovakia","path":"\u002Fcountries\u002Fczechoslovakia\u002F","title":"Czechoslovakia"}},{"node":{"id":"estonia","path":"\u002Fcountries\u002Festonia\u002F","title":"Estonia"}},{"node":{"id":"indonesia","path":"\u002Fcountries\u002Findonesia\u002F","title":"Indonesia"}},{"node":{"id":"uruguay","path":"\u002Fcountries\u002Furuguay\u002F","title":"Uruguay"}},{"node":{"id":"east_germany","path":"\u002Fcountries\u002Feast_germany\u002F","title":"East Germany"}},{"node":{"id":"pakistan","path":"\u002Fcountries\u002Fpakistan\u002F","title":"Pakistan"}},{"node":{"id":"romania","path":"\u002Fcountries\u002Fromania\u002F","title":"Romania"}},{"node":{"id":"iran","path":"\u002Fcountries\u002Firan\u002F","title":"Iran"}},{"node":{"id":"egypt","path":"\u002Fcountries\u002Fegypt\u002F","title":"Egypt"}},{"node":{"id":"singapore","path":"\u002Fcountries\u002Fsingapore\u002F","title":"Singapore"}},{"node":{"id":"monaco","path":"\u002Fcountries\u002Fmonaco\u002F","title":"Monaco"}},{"node":{"id":"isle_of_man","path":"\u002Fcountries\u002Fisle_of_man\u002F","title":"Isle Of Man"}},{"node":{"id":"west_germany","path":"\u002Fcountries\u002Fwest_germany\u002F","title":"West Germany"}},{"node":{"id":"turkey","path":"\u002Fcountries\u002Fturkey\u002F","title":"Turkey"}},{"node":{"id":"bahamas","path":"\u002Fcountries\u002Fbahamas\u002F","title":"Bahamas"}},{"node":{"id":"finland","path":"\u002Fcountries\u002Ffinland\u002F","title":"Finland"}},{"node":{"id":"israel","path":"\u002Fcountries\u002Fisrael\u002F","title":"Israel"}},{"node":{"id":"malta","path":"\u002Fcountries\u002Fmalta\u002F","title":"Malta"}},{"node":{"id":"republic_of_macedonia","path":"\u002Fcountries\u002Frepublic_of_macedonia\u002F","title":"Republic of Macedonia"}},{"node":{"id":"panama","path":"\u002Fcountries\u002Fpanama\u002F","title":"Panama"}},{"node":{"id":"serbia","path":"\u002Fcountries\u002Fserbia\u002F","title":"Serbia"}},{"node":{"id":"morocco","path":"\u002Fcountries\u002Fmorocco\u002F","title":"Morocco"}},{"node":{"id":"nigeria","path":"\u002Fcountries\u002Fnigeria\u002F","title":"Nigeria"}},{"node":{"id":"thailand","path":"\u002Fcountries\u002Fthailand\u002F","title":"Thailand"}},{"node":{"id":"soviet_union","path":"\u002Fcountries\u002Fsoviet_union\u002F","title":"Soviet Union"}},{"node":{"id":"new_caledonia","path":"\u002Fcountries\u002Fnew_caledonia\u002F","title":"New Caledonia"}},{"node":{"id":"venezuela","path":"\u002Fcountries\u002Fvenezuela\u002F","title":"Venezuela"}},{"node":{"id":"greece","path":"\u002Fcountries\u002Fgreece\u002F","title":"Greece"}},{"node":{"id":"united_kingdom","path":"\u002Fcountries\u002Funited_kingdom\u002F","title":"United Kingdom"}},{"node":{"id":"rwanda","path":"\u002Fcountries\u002Frwanda\u002F","title":"Rwanda"}},{"node":{"id":"mauritania","path":"\u002Fcountries\u002Fmauritania\u002F","title":"Mauritania"}},{"node":{"id":"peru","path":"\u002Fcountries\u002Fperu\u002F","title":"Peru"}},{"node":{"id":"ukraine","path":"\u002Fcountries\u002Fukraine\u002F","title":"Ukraine"}},{"node":{"id":"poland","path":"\u002Fcountries\u002Fpoland\u002F","title":"Poland"}},{"node":{"id":"hungary","path":"\u002Fcountries\u002Fhungary\u002F","title":"Hungary"}},{"node":{"id":"taiwan","path":"\u002Fcountries\u002Ftaiwan\u002F","title":"Taiwan"}},{"node":{"id":"spain","path":"\u002Fcountries\u002Fspain\u002F","title":"Spain"}},{"node":{"id":"lithuania","path":"\u002Fcountries\u002Flithuania\u002F","title":"Lithuania"}},{"node":{"id":"south_korea","path":"\u002Fcountries\u002Fsouth_korea\u002F","title":"South Korea"}},{"node":{"id":"austria","path":"\u002Fcountries\u002Faustria\u002F","title":"Austria"}},{"node":{"id":"colombia","path":"\u002Fcountries\u002Fcolombia\u002F","title":"Colombia"}},{"node":{"id":"iceland","path":"\u002Fcountries\u002Ficeland\u002F","title":"Iceland"}},{"node":{"id":"south_africa","path":"\u002Fcountries\u002Fsouth_africa\u002F","title":"South Africa"}},{"node":{"id":"mexico","path":"\u002Fcountries\u002Fmexico\u002F","title":"Mexico"}},{"node":{"id":"new_zealand","path":"\u002Fcountries\u002Fnew_zealand\u002F","title":"New Zealand"}},{"node":{"id":"brazil","path":"\u002Fcountries\u002Fbrazil\u002F","title":"Brazil"}},{"node":{"id":"chile","path":"\u002Fcountries\u002Fchile\u002F","title":"Chile"}},{"node":{"id":"italy","path":"\u002Fcountries\u002Fitaly\u002F","title":"Italy"}},{"node":{"id":"russia","path":"\u002Fcountries\u002Frussia\u002F","title":"Russia"}},{"node":{"id":"united_arab_emirates","path":"\u002Fcountries\u002Funited_arab_emirates\u002F","title":"United Arab Emirates"}},{"node":{"id":"ireland","path":"\u002Fcountries\u002Fireland\u002F","title":"Ireland"}},{"node":{"id":"argentina","path":"\u002Fcountries\u002Fargentina\u002F","title":"Argentina"}},{"node":{"id":"china","path":"\u002Fcountries\u002Fchina\u002F","title":"China"}},{"node":{"id":"switzerland","path":"\u002Fcountries\u002Fswitzerland\u002F","title":"Switzerland"}},{"node":{"id":"hong_kong","path":"\u002Fcountries\u002Fhong_kong\u002F","title":"Hong Kong"}},{"node":{"id":"australia","path":"\u002Fcountries\u002Faustralia\u002F","title":"Australia"}},{"node":{"id":"norway","path":"\u002Fcountries\u002Fnorway\u002F","title":"Norway"}},{"node":{"id":"netherlands","path":"\u002Fcountries\u002Fnetherlands\u002F","title":"Netherlands"}},{"node":{"id":"sweden","path":"\u002Fcountries\u002Fsweden\u002F","title":"Sweden"}},{"node":{"id":"luxembourg","path":"\u002Fcountries\u002Fluxembourg\u002F","title":"Luxembourg"}},{"node":{"id":"india","path":"\u002Fcountries\u002Findia\u002F","title":"India"}},{"node":{"id":"czech_republic","path":"\u002Fcountries\u002Fczech_republic\u002F","title":"Czech Republic"}},{"node":{"id":"united_states_of_america","path":"\u002Fcountries\u002Funited_states_of_america\u002F","title":"United States of America"}},{"node":{"id":"qatar","path":"\u002Fcountries\u002Fqatar\u002F","title":"Qatar"}},{"node":{"id":"cambodia","path":"\u002Fcountries\u002Fcambodia\u002F","title":"Cambodia"}},{"node":{"id":"germany","path":"\u002Fcountries\u002Fgermany\u002F","title":"Germany"}},{"node":{"id":"japan","path":"\u002Fcountries\u002Fjapan\u002F","title":"Japan"}},{"node":{"id":"france","path":"\u002Fcountries\u002Ffrance\u002F","title":"France"}},{"node":{"id":"belgium","path":"\u002Fcountries\u002Fbelgium\u002F","title":"Belgium"}},{"node":{"id":"denmark","path":"\u002Fcountries\u002Fdenmark\u002F","title":"Denmark"}},{"node":{"id":"cayman_islands","path":"\u002Fcountries\u002Fcayman_islands\u002F","title":"Cayman Islands"}},{"node":{"id":"uk","path":"\u002Fcountries\u002Fuk\u002F","title":"UK"}},{"node":{"id":"canada","path":"\u002Fcountries\u002Fcanada\u002F","title":"Canada"}},{"node":{"id":"usa","path":"\u002Fcountries\u002Fusa\u002F","title":"USA"}}]}},"context":{}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script><script src="/assets/js/app.448744b9.js" defer></script><script src="/assets/js/page--src--pages--countries-vue.2b483af6.js" defer></script>
+  </body>
+</html>

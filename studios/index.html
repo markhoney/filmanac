@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title>Movie Studios - Movies for Today</title><meta name="gridsome:hash" content="bb88a772a75182c1812a41515c26ddf2bf185560"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.19"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><meta data-vue-tag="ssr" name="theme-color" content="#e32929"><meta data-vue-tag="ssr" name="apple-mobile-web-app-capable" content="yes"><meta data-vue-tag="ssr" name="apple-mobile-web-app-status-bar-style" content="default"><meta data-vue-tag="ssr" name="apple-mobile-web-app-title" content="Movies for Today"><meta data-vue-tag="ssr" name="application-name" content="Movies for Today"><meta data-vue-tag="ssr" name="msapplication-TileColor" content="#666600"><meta data-vue-tag="ssr" name="msapplication-TileImage" content="/assets/static/favicon.png-144x144.png"><meta data-vue-tag="ssr" data-key="description" name="description" content=""><link data-vue-tag="ssr" rel="icon" href="data:,"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="16x16" href="/assets/static/favicon.ce0531f.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="32x32" href="/assets/static/favicon.ac8d93a.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96" href="/assets/static/favicon.b9532cc.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/assets/static/favicon.f22e9f3.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/assets/static/favicon.62d22cb.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/assets/static/favicon.1539b60.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/assets/static/favicon.dc0cdc5.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/static/favicon.7b22250.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="manifest" href="/manifest.json"><link rel="preload" href="/assets/css/0.styles.ebc91bdf.css" as="style"><link rel="preload" href="/assets/js/app.448744b9.js" as="script"><link rel="preload" href="/assets/js/page--src--pages--studios-vue.f92f88c2.js" as="script"><link rel="prefetch" href="/assets/js/page--node-modules--gridsome--app--pages--404-vue.be1007fb.js"><link rel="prefetch" href="/assets/js/page--src--pages--about-vue.b4127ef4.js"><link rel="prefetch" href="/assets/js/page--src--pages--classifications-vue.26ed59a6.js"><link rel="prefetch" href="/assets/js/page--src--pages--countries-vue.2b483af6.js"><link rel="prefetch" href="/assets/js/page--src--pages--genres-vue.195fad68.js"><link rel="prefetch" href="/assets/js/page--src--pages--index-vue.12adcc65.js"><link rel="prefetch" href="/assets/js/page--src--pages--languages-vue.236368ea.js"><link rel="prefetch" href="/assets/js/page--src--pages--released-vue.5461c6a2.js"><link rel="prefetch" href="/assets/js/page--src--pages--years-vue.6b0854b9.js"><link rel="prefetch" href="/assets/js/page--src--templates--classifications-vue.ef6c5457.js"><link rel="prefetch" href="/assets/js/page--src--templates--countries-vue.96a18cfd.js"><link rel="prefetch" href="/assets/js/page--src--templates--days-of-year-vue.ed8726e5.js"><link rel="prefetch" href="/assets/js/page--src--templates--genres-vue.3d5700a1.js"><link rel="prefetch" href="/assets/js/page--src--templates--languages-vue.7cea2745.js"><link rel="prefetch" href="/assets/js/page--src--templates--months-vue.81edd7ae.js"><link rel="prefetch" href="/assets/js/page--src--templates--movies-vue.c0899dec.js"><link rel="prefetch" href="/assets/js/page--src--templates--release-years-vue.45043916.js"><link rel="prefetch" href="/assets/js/page--src--templates--studios-vue.fe41bd50.js"><link rel="prefetch" href="/assets/js/page--src--templates--years-vue.0243f608.js"><link rel="stylesheet" href="/assets/css/0.styles.ebc91bdf.css"><style data-vue-tag="ssr" type="text/css">
+    #nprogress {
+     pointer-events: none;
+    }
+    #nprogress .bar {
+      background: #667eea;
+      position: fixed;
+      z-index: 1031;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+    }
+    #nprogress .peg {
+      display: block;
+      position: absolute;
+      right: 0px;
+      width: 100px;
+      height: 100%;
+      box-shadow: 0 0 10px #667eea, 0 0 5px #667eea;
+      opacity: 1.0;
+      -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+      transform: rotate(3deg) translate(0px, -4px);
+    }
+    #nprogress .spinner {
+      display: block;
+      position: fixed;
+      z-index: 1031;
+      top: 15px;
+      right: 15px;
+    }
+    #nprogress .spinner-icon {
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+      border: solid 2px transparent;
+      border-top-color: #667eea;
+      border-left-color: #667eea;
+      border-radius: 50%;
+      -webkit-animation: nprogress-spinner 400ms linear infinite;
+      animation: nprogress-spinner 400ms linear infinite;
+    }
+    .nprogress-custom-parent {
+      overflow: hidden;
+      position: relative;
+    }
+    .nprogress-custom-parent #nprogress .spinner,
+    .nprogress-custom-parent #nprogress .bar {
+      position: absolute;
+    }
+    @-webkit-keyframes nprogress-spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    @keyframes nprogress-spinner {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <div data-server-rendered="true" id="app" class="flex flex-col min-h-screen bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-300"><header class="sm:flex p-4 text-center bg-primary-dark text-gray-200"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="mr-4" style="width:2rem;"><title>Switch to light mode</title><path fill="#ffffff" d="M31.3 25.2a7 7 0 10-14 0 7 7 0 0014 0zm-7 5a5 5 0 110-10 5 5 0 010 10zM23.3 34v6.2a1 1 0 102 0v-6.1a1 1 0 10-2 0zM23.3 10.2v6.2a1 1 0 102 0v-6.2a1 1 0 10-2 0zM34.2 36.5a1 1 0 001.4 0c.4-.4.4-1 0-1.4l-4.3-4.3a1 1 0 10-1.4 1.4l4.3 4.3zM13 14a1 1 0 000 1.3l4.3 4.4a1 1 0 001.5 0c.4-.4.4-1 0-1.5L14.4 14a1 1 0 00-1.4 0zM39.3 24.2h-6.1a1 1 0 100 2h6.1a1 1 0 100-2zM8.3 25.2c0 .6.5 1 1 1h6.2a1 1 0 100-2H9.3a1 1 0 00-1 1zM34.2 14L30 18.1a1 1 0 101.4 1.5l4.3-4.4a1 1 0 10-1.4-1.4zM13.7 36.8c.3 0 .5 0 .7-.3l4.4-4.3a1 1 0 10-1.5-1.4L13 35a1 1 0 00.7 1.7z"></path></svg><nav class="mt-3 z-10 font-bold" data-v-1eb4fea7><ul data-v-1eb4fea7><li class="group hover:bg-opacity-75" data-v-1eb4fea7><a href="/days" data-v-1eb4fea7>Days</a><ul class="hidden absolute group-hover:block p-3 bg-black bg-opacity-75" data-v-1eb4fea7><li class="group p-1" data-v-1eb4fea7><a href="/april/" data-v-1eb4fea7>April</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/august/" data-v-1eb4fea7>August</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/december/" data-v-1eb4fea7>December</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/february/" data-v-1eb4fea7>February</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/january/" data-v-1eb4fea7>January</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/july/" data-v-1eb4fea7>July</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/june/" data-v-1eb4fea7>June</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/march/" data-v-1eb4fea7>March</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/may/" data-v-1eb4fea7>May</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/november/" data-v-1eb4fea7>November</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/october/" data-v-1eb4fea7>October</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li><li class="group p-1" data-v-1eb4fea7><a href="/september/" data-v-1eb4fea7>September</a><ul class="hidden absolute" data-v-1eb4fea7></ul></li></ul></li><li data-v-1eb4fea7><a href="/" class="active" data-v-1eb4fea7>Today</a></li><li data-v-1eb4fea7><a href="/about/" data-v-1eb4fea7>About</a></li></ul></nav><div class="flex-auto text-center text-4xl font-bold" style="font-family: Josefin Sans;"><a href="/" class="active">
+			Movies for Today
+		</a></div><div class="text-gray-700 w-48 mx-auto" data-v-1a170fee><div class="h-10 pl-3 pr-2 bg-white border rounded flex justify-between items-center relative" data-v-1a170fee><input type="search" placeholder="Search..." value="" class="appearance-none w-full outline-none focus:outline-none active:outline-none" data-v-1a170fee><button type="submit" class="ml-1 outline-none focus:outline-none active:outline-none" data-v-1a170fee><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6" data-v-1a170fee><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" data-v-1a170fee></path></svg></button></div><!----></div></header><div class="flex-grow bg-repeat" style="background-image: url('/img/fabric.png')"><div class="flex-grow max-w-screen-lg mx-auto p-4"><!----><ul><li><a href="/studios/europa_filmes/">
+				Europa Filmes
+			</a></li><li><a href="/studios/nexus_cinema_e_v%C3%ADdeo/">
+				Nexus Cinema e Vídeo
+			</a></li><li><a href="/studios/lumiere/">
+				Lumiere
+			</a></li><li><a href="/studios/buskin_film/">
+				Buskin Film
+			</a></li><li><a href="/studios/bauer_martinez_studios/">
+				Bauer Martinez Studios
+			</a></li><li><a href="/studios/media_pro_pictures/">
+				Media Pro Pictures
+			</a></li><li><a href="/studios/lucky_7_productions_llc/">
+				Lucky 7 Productions LLC
+			</a></li><li><a href="/studios/demann_entertainment_company/">
+				DeMann Entertainment Company
+			</a></li><li><a href="/studios/company_pictures/">
+				Company Pictures
+			</a></li><li><a href="/studios/mr._mudd_production/">
+				Mr. Mudd Production
+			</a></li><li><a href="/studios/isle_of_man_film/">
+				Isle of Man Film
+			</a></li><li><a href="/studios/first_choice_films/">
+				First Choice Films
+			</a></li><li><a href="/studios/conspira%C3%A7%C3%A3o_filmes/">
+				Conspiração Filmes
+			</a></li><li><a href="/studios/globo_filmes/">
+				Globo Filmes
+			</a></li><li><a href="/studios/pixar/">
+				Pixar
+			</a></li><li><a href="/studios/walt_disney_pictures/">
+				Walt Disney Pictures
+			</a></li><li><a href="/studios/sony_pictures/">
+				Sony Pictures
+			</a></li><li><a href="/studios/reliance_big_entertainment/">
+				Reliance Big Entertainment
+			</a></li><li><a href="/studios/original_film/">
+				Original Film
+			</a></li><li><a href="/studios/bull_productions/">
+				Bull Productions
+			</a></li><li><a href="/studios/fox_searchlight_pictures/">
+				Fox Searchlight Pictures
+			</a></li><li><a href="/studios/double_dare_you_productions/">
+				Double Dare You Productions
+			</a></li><li><a href="/studios/paramount/">
+				Paramount
+			</a></li><li><a href="/studios/showtime_networks/">
+				Showtime Networks
+			</a></li><li><a href="/studios/hallmark_entertainment/">
+				Hallmark Entertainment
+			</a></li><li><a href="/studios/island_pictures/">
+				Island Pictures
+			</a></li><li><a href="/studios/clinica_estetico/">
+				Clinica Estetico
+			</a></li><li><a href="/studios/film_afrika_worldwide/">
+				Film Afrika Worldwide
+			</a></li><li><a href="/studios/motion_picture_production_gmbh_%26_co._erste_kg/">
+				Motion Picture Production GmbH &amp; Co. Erste KG
+			</a></li><li><a href="/studios/icon_entertainment_international/">
+				Icon Entertainment International
+			</a></li><li><a href="/studios/wheelhouse_entertainment/">
+				Wheelhouse Entertainment
+			</a></li><li><a href="/studios/room_101/">
+				Room 101
+			</a></li><li><a href="/studios/solana_films/">
+				Solana Films
+			</a></li><li><a href="/studios/blumhouse_productions/">
+				Blumhouse Productions
+			</a></li><li><a href="/studios/rillington_production/">
+				Rillington Production
+			</a></li><li><a href="/studios/peninsula_films/">
+				Peninsula Films
+			</a></li><li><a href="/studios/dej_productions/">
+				DEJ Productions
+			</a></li><li><a href="/studios/antietam_filmworks/">
+				Antietam Filmworks
+			</a></li><li><a href="/studios/turner_pictures/">
+				Turner Pictures
+			</a></li><li><a href="/studios/fine_line_features/">
+				Fine Line Features
+			</a></li><li><a href="/studios/meno_films/">
+				Meno Films
+			</a></li><li><a href="/studios/blue_relief_productions/">
+				Blue Relief Productions
+			</a></li><li><a href="/studios/fearmakers_studios/">
+				Fearmakers Studios
+			</a></li><li><a href="/studios/hbo_films/">
+				HBO Films
+			</a></li><li><a href="/studios/endgame_entertainment/">
+				Endgame Entertainment
+			</a></li><li><a href="/studios/mikado_film/">
+				Mikado Film
+			</a></li><li><a href="/studios/inside_track_films/">
+				Inside Track Films
+			</a></li><li><a href="/studios/miracle_pictures/">
+				Miracle Pictures
+			</a></li><li><a href="/studios/industrial_development_corporation_of_south_africa/">
+				Industrial Development Corporation of South Africa
+			</a></li><li><a href="/studios/lions_gate_films/">
+				Lions Gate Films
+			</a></li><li><a href="/studios/united_artists/">
+				United Artists
+			</a></li><li><a href="/studios/sixth_sense_productions/">
+				Sixth Sense Productions
+			</a></li><li><a href="/studios/warner_bros._pictures/">
+				Warner Bros. Pictures
+			</a></li><li><a href="/studios/participant_media/">
+				Participant Media
+			</a></li><li><a href="/studios/one_community/">
+				One Community
+			</a></li><li><a href="/studios/macro/">
+				MACRO
+			</a></li><li><a href="/studios/endeavor_content/">
+				Endeavor Content
+			</a></li><li><a href="/studios/outlier_society_productions/">
+				Outlier Society Productions
+			</a></li><li><a href="/studios/netter_productions/">
+				Netter Productions
+			</a></li><li><a href="/studios/tartan_films/">
+				Tartan Films
+			</a></li><li><a href="/studios/20th_century_fox/">
+				20th Century Fox
+			</a></li><li><a href="/studios/artemple_-_hollywood/">
+				Artemple - Hollywood
+			</a></li><li><a href="/studios/tsg_entertainment/">
+				TSG Entertainment
+			</a></li><li><a href="/studios/pacific_standard/">
+				Pacific Standard
+			</a></li><li><a href="/studios/new_regency_pictures/">
+				New Regency Pictures
+			</a></li><li><a href="/studios/regency_enterprises/">
+				Regency Enterprises
+			</a></li></ul></div></div><footer class="text-center m-4">
+	Site created by <a href="https://mark.honeychurch.org" target="_blank" class="font-bold">Mark Honeychurch</a>, with a little help from my friends
+</footer></div>
+    <script>window.__INITIAL_STATE__={"data":{"allStudios":{"edges":[{"node":{"id":"europa_filmes","path":"\u002Fstudios\u002Feuropa_filmes\u002F","title":"Europa Filmes"}},{"node":{"id":"nexus_cinema_e_vídeo","path":"\u002Fstudios\u002Fnexus_cinema_e_v%C3%ADdeo\u002F","title":"Nexus Cinema e Vídeo"}},{"node":{"id":"lumiere","path":"\u002Fstudios\u002Flumiere\u002F","title":"Lumiere"}},{"node":{"id":"buskin_film","path":"\u002Fstudios\u002Fbuskin_film\u002F","title":"Buskin Film"}},{"node":{"id":"bauer_martinez_studios","path":"\u002Fstudios\u002Fbauer_martinez_studios\u002F","title":"Bauer Martinez Studios"}},{"node":{"id":"media_pro_pictures","path":"\u002Fstudios\u002Fmedia_pro_pictures\u002F","title":"Media Pro Pictures"}},{"node":{"id":"lucky_7_productions_llc","path":"\u002Fstudios\u002Flucky_7_productions_llc\u002F","title":"Lucky 7 Productions LLC"}},{"node":{"id":"demann_entertainment_company","path":"\u002Fstudios\u002Fdemann_entertainment_company\u002F","title":"DeMann Entertainment Company"}},{"node":{"id":"company_pictures","path":"\u002Fstudios\u002Fcompany_pictures\u002F","title":"Company Pictures"}},{"node":{"id":"mr._mudd_production","path":"\u002Fstudios\u002Fmr._mudd_production\u002F","title":"Mr. Mudd Production"}},{"node":{"id":"isle_of_man_film","path":"\u002Fstudios\u002Fisle_of_man_film\u002F","title":"Isle of Man Film"}},{"node":{"id":"first_choice_films","path":"\u002Fstudios\u002Ffirst_choice_films\u002F","title":"First Choice Films"}},{"node":{"id":"conspiração_filmes","path":"\u002Fstudios\u002Fconspira%C3%A7%C3%A3o_filmes\u002F","title":"Conspiração Filmes"}},{"node":{"id":"globo_filmes","path":"\u002Fstudios\u002Fglobo_filmes\u002F","title":"Globo Filmes"}},{"node":{"id":"pixar","path":"\u002Fstudios\u002Fpixar\u002F","title":"Pixar"}},{"node":{"id":"walt_disney_pictures","path":"\u002Fstudios\u002Fwalt_disney_pictures\u002F","title":"Walt Disney Pictures"}},{"node":{"id":"sony_pictures","path":"\u002Fstudios\u002Fsony_pictures\u002F","title":"Sony Pictures"}},{"node":{"id":"reliance_big_entertainment","path":"\u002Fstudios\u002Freliance_big_entertainment\u002F","title":"Reliance Big Entertainment"}},{"node":{"id":"original_film","path":"\u002Fstudios\u002Foriginal_film\u002F","title":"Original Film"}},{"node":{"id":"bull_productions","path":"\u002Fstudios\u002Fbull_productions\u002F","title":"Bull Productions"}},{"node":{"id":"fox_searchlight_pictures","path":"\u002Fstudios\u002Ffox_searchlight_pictures\u002F","title":"Fox Searchlight Pictures"}},{"node":{"id":"double_dare_you_productions","path":"\u002Fstudios\u002Fdouble_dare_you_productions\u002F","title":"Double Dare You Productions"}},{"node":{"id":"paramount","path":"\u002Fstudios\u002Fparamount\u002F","title":"Paramount"}},{"node":{"id":"showtime_networks","path":"\u002Fstudios\u002Fshowtime_networks\u002F","title":"Showtime Networks"}},{"node":{"id":"hallmark_entertainment","path":"\u002Fstudios\u002Fhallmark_entertainment\u002F","title":"Hallmark Entertainment"}},{"node":{"id":"island_pictures","path":"\u002Fstudios\u002Fisland_pictures\u002F","title":"Island Pictures"}},{"node":{"id":"clinica_estetico","path":"\u002Fstudios\u002Fclinica_estetico\u002F","title":"Clinica Estetico"}},{"node":{"id":"film_afrika_worldwide","path":"\u002Fstudios\u002Ffilm_afrika_worldwide\u002F","title":"Film Afrika Worldwide"}},{"node":{"id":"motion_picture_production_gmbh_&_co._erste_kg","path":"\u002Fstudios\u002Fmotion_picture_production_gmbh_%26_co._erste_kg\u002F","title":"Motion Picture Production GmbH & Co. Erste KG"}},{"node":{"id":"icon_entertainment_international","path":"\u002Fstudios\u002Ficon_entertainment_international\u002F","title":"Icon Entertainment International"}},{"node":{"id":"wheelhouse_entertainment","path":"\u002Fstudios\u002Fwheelhouse_entertainment\u002F","title":"Wheelhouse Entertainment"}},{"node":{"id":"room_101","path":"\u002Fstudios\u002Froom_101\u002F","title":"Room 101"}},{"node":{"id":"solana_films","path":"\u002Fstudios\u002Fsolana_films\u002F","title":"Solana Films"}},{"node":{"id":"blumhouse_productions","path":"\u002Fstudios\u002Fblumhouse_productions\u002F","title":"Blumhouse Productions"}},{"node":{"id":"rillington_production","path":"\u002Fstudios\u002Frillington_production\u002F","title":"Rillington Production"}},{"node":{"id":"peninsula_films","path":"\u002Fstudios\u002Fpeninsula_films\u002F","title":"Peninsula Films"}},{"node":{"id":"dej_productions","path":"\u002Fstudios\u002Fdej_productions\u002F","title":"DEJ Productions"}},{"node":{"id":"antietam_filmworks","path":"\u002Fstudios\u002Fantietam_filmworks\u002F","title":"Antietam Filmworks"}},{"node":{"id":"turner_pictures","path":"\u002Fstudios\u002Fturner_pictures\u002F","title":"Turner Pictures"}},{"node":{"id":"fine_line_features","path":"\u002Fstudios\u002Ffine_line_features\u002F","title":"Fine Line Features"}},{"node":{"id":"meno_films","path":"\u002Fstudios\u002Fmeno_films\u002F","title":"Meno Films"}},{"node":{"id":"blue_relief_productions","path":"\u002Fstudios\u002Fblue_relief_productions\u002F","title":"Blue Relief Productions"}},{"node":{"id":"fearmakers_studios","path":"\u002Fstudios\u002Ffearmakers_studios\u002F","title":"Fearmakers Studios"}},{"node":{"id":"hbo_films","path":"\u002Fstudios\u002Fhbo_films\u002F","title":"HBO Films"}},{"node":{"id":"endgame_entertainment","path":"\u002Fstudios\u002Fendgame_entertainment\u002F","title":"Endgame Entertainment"}},{"node":{"id":"mikado_film","path":"\u002Fstudios\u002Fmikado_film\u002F","title":"Mikado Film"}},{"node":{"id":"inside_track_films","path":"\u002Fstudios\u002Finside_track_films\u002F","title":"Inside Track Films"}},{"node":{"id":"miracle_pictures","path":"\u002Fstudios\u002Fmiracle_pictures\u002F","title":"Miracle Pictures"}},{"node":{"id":"industrial_development_corporation_of_south_africa","path":"\u002Fstudios\u002Findustrial_development_corporation_of_south_africa\u002F","title":"Industrial Development Corporation of South Africa"}},{"node":{"id":"lions_gate_films","path":"\u002Fstudios\u002Flions_gate_films\u002F","title":"Lions Gate Films"}},{"node":{"id":"united_artists","path":"\u002Fstudios\u002Funited_artists\u002F","title":"United Artists"}},{"node":{"id":"sixth_sense_productions","path":"\u002Fstudios\u002Fsixth_sense_productions\u002F","title":"Sixth Sense Productions"}},{"node":{"id":"warner_bros._pictures","path":"\u002Fstudios\u002Fwarner_bros._pictures\u002F","title":"Warner Bros. Pictures"}},{"node":{"id":"participant_media","path":"\u002Fstudios\u002Fparticipant_media\u002F","title":"Participant Media"}},{"node":{"id":"one_community","path":"\u002Fstudios\u002Fone_community\u002F","title":"One Community"}},{"node":{"id":"macro","path":"\u002Fstudios\u002Fmacro\u002F","title":"MACRO"}},{"node":{"id":"endeavor_content","path":"\u002Fstudios\u002Fendeavor_content\u002F","title":"Endeavor Content"}},{"node":{"id":"outlier_society_productions","path":"\u002Fstudios\u002Foutlier_society_productions\u002F","title":"Outlier Society Productions"}},{"node":{"id":"netter_productions","path":"\u002Fstudios\u002Fnetter_productions\u002F","title":"Netter Productions"}},{"node":{"id":"tartan_films","path":"\u002Fstudios\u002Ftartan_films\u002F","title":"Tartan Films"}},{"node":{"id":"20th_century_fox","path":"\u002Fstudios\u002F20th_century_fox\u002F","title":"20th Century Fox"}},{"node":{"id":"artemple_-_hollywood","path":"\u002Fstudios\u002Fartemple_-_hollywood\u002F","title":"Artemple - Hollywood"}},{"node":{"id":"tsg_entertainment","path":"\u002Fstudios\u002Ftsg_entertainment\u002F","title":"TSG Entertainment"}},{"node":{"id":"pacific_standard","path":"\u002Fstudios\u002Fpacific_standard\u002F","title":"Pacific Standard"}},{"node":{"id":"new_regency_pictures","path":"\u002Fstudios\u002Fnew_regency_pictures\u002F","title":"New Regency Pictures"}},{"node":{"id":"regency_enterprises","path":"\u002Fstudios\u002Fregency_enterprises\u002F","title":"Regency Enterprises"}}]}},"context":{}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script><script src="/assets/js/app.448744b9.js" defer></script><script src="/assets/js/page--src--pages--studios-vue.f92f88c2.js" defer></script>
+  </body>
+</html>
