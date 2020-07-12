@@ -26,11 +26,11 @@
 	},
 	"devDependencies": {
 		"@danestves/tailwindcss-darkmode": "^1.1.5",
-		"@gridsome/plugin-sitemap": "^0.3.0",
+		"@gridsome/plugin-sitemap": "^0.4.0",
 		"colors": "^1.4.0",
 		"cross-env": "^7.0.2",
 		"csv-parse": "^4.9.0",
-		"depcheck": "^0.9.2",
+		"depcheck": "^1.0.0",
 		"fanart.tv": "^2.1.0",
 		"ffmpeg-extract-frames": "^2.0.2",
 		"fluent-ffmpeg": "^2.1.2",
@@ -50,7 +50,7 @@
 	},
 	"dependencies": {
 		"@leonardocabeza/the-movie-db": "^4.0.6",
-		"nprogress": "^0.2.0",
+		"gridsome-plugin-nprogress": "^0.0.7",
 		"sharp": "^0.25.4",
 		"svg-country-flags": "^1.2.7",
 		"typeface-alfa-slab-one": "^0.0.72",

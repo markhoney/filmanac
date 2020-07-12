@@ -14,6 +14,7 @@ module.exports = {
 	plugins: [
 		'~/src/data/gridsome-source-movies.js',
 		'gridsome-plugin-tailwindcss',
+		'gridsome-plugin-nprogress',
 		{
 			use: 'gridsome-plugin-flexsearch',
 			options: {

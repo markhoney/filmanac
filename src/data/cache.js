@@ -11,7 +11,7 @@ async function image(folder, id, url) {
 	const cache = resolve(dir, `${id}.${url.split('.').pop().toLowerCase().replace('jpeg', 'jpg')}`);
 	if (existsSync(cache)) return cache;
 	else {
-		console.log(`Downloading ${url} to ${folder}`);
+		console.log(`Downloading ${url.split('/').pop()} to ${folder}`);
 		await sleep(1000);
 		try {
 			const res = await fetch(url);
@@ -19,7 +19,7 @@ async function image(folder, id, url) {
 			return cache;
 		} catch(e) {
 			console.log(`Error scraping`.red, url);
-			console.log(e);
+			// console.log(e);
 		}
 	}
 }
@@ -38,7 +38,7 @@ async function json(folder, id, func, ...arguments) {
 			return details;
 		} catch(e) {
 			console.log(`Error scraping ${folder} info for`.red, id);
-			console.log(e);
+			// console.log(e);
 		}
 	}
 }

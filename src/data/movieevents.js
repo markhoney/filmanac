@@ -20,7 +20,7 @@ function split(string, separator = ',') {
 }
 
 function slugify(name) {
-	return name.toLowerCase().split(' ').join('_');
+	return name.toLowerCase().split(' ').join('_').split(':').join('-');
 }
 
 function monthName(number) {

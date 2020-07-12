@@ -126,7 +126,7 @@
 			};
 		},
 		computed: {
-			title() {return this.$page.$page.movie.title},
+			title() {return this.$page.movie.title},
 		},
 	};
 </script>
