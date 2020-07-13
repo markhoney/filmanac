@@ -20,10 +20,12 @@ function getFanartURLs(fanarts) {
 		art.logo = getURL([...(fanarts.hdmovielogo || []), ...(fanarts.movielogo || [])]);
 		art.clearart = getURL([...(fanarts.hdmovieclearart || []), ...(fanarts.movieclearart || [])]);
 		art.poster = getURL(fanarts.movieposter);
+		if (!art.poster) delete art.poster;
 		let keyart;
 		if (fanarts.movieposter) keyart = fanarts.movieposter.find((art) => art.lang === '00');
 		if (keyart) art.keyart = keyart.url;
 		art.fanart = getURL(fanarts.moviebackground);
+		if (!art.fanart) delete art.fanart;
 		art.disc = getURL(fanarts.moviedisc);
 		art.banner = getURL(fanarts.moviebanner);
 		art.landscape = getURL(fanarts.moviethumb);
