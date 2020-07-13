@@ -9,7 +9,9 @@ const v3Client = v3(process.env.TheMovieDBKey);
 // const languages = (await googlesheet('Languages')).reduce((languages, language) => ({...languages, [language.native]: language.english}), {});
 
 function processTMDB(tmdb) {
-	const movie = {title: tmdb.title};
+	const movie = {};
+	if (tmdb.original_title) movie.title = tmdb.original_title;
+	if (tmdb.title) movie.title = tmdb.title;
 	if (tmdb.genres) movie.genres = tmdb.genres.map((genre) => genre.name);
 	if (tmdb.homepage) movie.website = tmdb.homepage;
 	if (tmdb.imdb_id) movie.id = tmdb.imdb_id;

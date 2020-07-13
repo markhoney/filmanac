@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<p>Have you ever arrived home after a long day at work, sat down in front of the TV to relax and unwind, and then found that you can't choose a movie to watch? Maybe you want someone to make the decision for you, maybe with all the streaming options available these days there's too much choice.</p>
+		<p>Have you ever arrived home after a long day at work, sat down in front of the TV to relax and unwind, and then found that you can't choose a movie to watch? With all the streaming options available these days there's so much choice, maybe you just want someone to make the decision for you.</p>
 		<p>Well, fret no longer. For every day of the year, this website suggests movies that you can watch. What makes this site interesting is that it's not just picking random movies. Each suggestion is in someone connected to the day it's connected to.</p>
 		<ul>
 			<li>It might be that a movie this site suggests is based on historical events, and an event in the movie happened on the day in question.</li>
@@ -24,7 +24,6 @@
 		data () {
 			return {
 				now: new Date(),
-				mounted: false,
 				frontend: false,
 				title: "Today's Movies",
 				months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
@@ -35,27 +34,23 @@
 		},
 		mounted () {
 			if (window) this.frontend = true;
-			this.mounted = true;
 		},
 		computed: {
 			// month() {return this.now.getMonth() + 1},
 			month() {return this.months[this.now.getMonth()].toLowerCase()},
 			day() {return this.now.getDate()},
-			date() {return this.day.month_full + ' ' + this.day.day_ordinal},
+			dev() {return !!process.env.TheMovieDBKey},
 		},
 		asyncComputed: {
 			async today() {
-				if (this.mounted) {
-					if (this.frontend) {
-						this.$router.push({path: `/${this.month}/${this.day}/`});
-					} else {
-						const results = await fetch(`/assets/data/${this.month}/${this.day}/index.json`);
-						try {
-							const json = await results.json();
-							return json.data.days.edges[0].node;
-						} catch(e) {
-							this.$router.push({path: `/${this.month}/${this.day}/`});
-						}
+				if (this.frontend) {
+					console.log();
+					const results = await fetch(`/assets/data/${this.month}/${this.day}/index.json`);
+					try {
+						const json = await results.json();
+						return json.data.days.edges[0].node;
+					} catch(e) {
+						if (!dev) this.$router.push({path: `/${this.month}/${this.day}/`});
 					}
 				}
 				return null;

@@ -4909,9 +4909,9 @@ gridsome-plugin-feed@^1.0.2:
     moment "^2.24.0"
 
 gridsome-plugin-flexsearch@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-flexsearch/-/gridsome-plugin-flexsearch-1.0.1.tgz#d74df18d925d7a1c7b841d923118780a2c98b9af"
-  integrity sha512-tTbxoC1ImlTKKTRTMV0vRlOpS5ljRFjQO0M0Wi/I3NoQU8V5mdHs5XOwqimZIFKqwhTIRLx22gfPsRLNhfKWXw==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-flexsearch/-/gridsome-plugin-flexsearch-1.0.2.tgz#d01c7a8d8aceec778456e59873b89e44249da701"
+  integrity sha512-T+9xUqJN4PygWgNqB76wICNym8BDM8EYA4X77UjblEfVBnrGFisrJtJ1aynJFKg/s25Z9n4R001rO3fV5MiLnQ==
   dependencies:
     compressed-json "^1.0.15"
     core-js "^3.6.5"

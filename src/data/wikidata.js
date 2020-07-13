@@ -21,7 +21,7 @@ module.exports = async function getWikiData(id, name) {
 			} catch(e) {
 				console.log('WikiData scraping error for'.red, id);
 				// console.log(e);
-				// unavailable.add('wikidata', id);
+				unavailable.add('wikidata', id);
 			}
 		} else {
 			return JSON.parse(readFileSync(json, 'utf8'));
