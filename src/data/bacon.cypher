@@ -36,17 +36,17 @@ MERGE (n)-[r:APPEARS_IN]->(t)
 RETURN count(*);
 
 :auto USING PERIODIC COMMIT
-LOAD CSV WITH HEADERS FROM 'file:///name.basics.tsv' AS row FIELDTERMINATOR '\t'
+LOAD CSV WITH HEADERS FROM 'file:///name.basics.tsv.gz' AS row FIELDTERMINATOR '\t'
 MERGE(n:Name {id: row.nconst, name: row.primaryName})
 RETURN count(n);
 
 :auto USING PERIODIC COMMIT
-LOAD CSV WITH HEADERS FROM 'file:///title.basics.tsv' AS row FIELDTERMINATOR '\t'
+LOAD CSV WITH HEADERS FROM 'file:///title.basics.tsv.gz' AS row FIELDTERMINATOR '\t'
 MERGE(t:Title {id: row.tconst, name: row.primaryTitle})
 RETURN count(t);
 
 :auto USING PERIODIC COMMIT
-LOAD CSV WITH HEADERS FROM 'file:///title.principals.tsv' AS row FIELDTERMINATOR '\t'
+LOAD CSV WITH HEADERS FROM 'file:///title.principals.tsv.gz' AS row FIELDTERMINATOR '\t'
 WHERE row.category IN ['actor', 'actress', 'self']
 MATCH (n:Name {id: row.nconst})
 MATCH (t:Title {id: row.tconst})
@@ -58,4 +58,6 @@ MATCH (Kevin:Name {id: 'nm0000102'}),(Al:Person {name: 'Al Pacino'}), p = shorte
 WHERE ALL (r IN relationships(p) WHERE EXISTS (r.role))
 RETURN p
 
-// neo4j-admin import --nodes=name.basics.tsv.gz --nodes=title.basics.tsv.gz --relationships=ACTED_IN=title.principals.tsv.gz --delimiter="\t" --array-delimiter=","
+// sudo rm -R /usr/local/var/neo4j/data/databases/neo4j/
+// neo4j-admin import --nodes=Name=name.basics.headers.tsv,name.basics.tsv.gz --nodes=Title=title.basics.headers.tsv,title.basics.tsv.gz --relationships=WORKED_ON=title.principals.headers.tsv,title.principals.tsv.gz --delimiter="\t" --array-delimiter="," --skip-bad-relationships --quote=^
+// neo4j start
