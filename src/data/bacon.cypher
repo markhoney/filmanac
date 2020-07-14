@@ -57,3 +57,5 @@ RETURN count(*);
 MATCH (Kevin:Name {id: 'nm0000102'}),(Al:Person {name: 'Al Pacino'}), p = shortestPath((Kevin)-[:ACTED_IN*]-(Al))
 WHERE ALL (r IN relationships(p) WHERE EXISTS (r.role))
 RETURN p
+
+// neo4j-admin import --nodes=name.basics.tsv.gz --nodes=title.basics.tsv.gz --relationships=ACTED_IN=title.principals.tsv.gz --delimiter="\t" --array-delimiter=","
