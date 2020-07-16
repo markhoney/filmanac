@@ -50,11 +50,11 @@ LOAD CSV WITH HEADERS FROM 'file:///title.principals.tsv.gz' AS row FIELDTERMINA
 WHERE row.category IN ['actor', 'actress', 'self']
 MATCH (n:Name {id: row.nconst})
 MATCH (t:Title {id: row.tconst})
-MERGE (n)-[r:ACTED_IN]->(t)
+MERGE (n)-[r:WORKED_ON]->(t)
 RETURN count(*);
 
 
-MATCH (Kevin:Name {id: 'nm0000102'}),(Al:Person {name: 'Al Pacino'}), p = shortestPath((Kevin)-[:ACTED_IN*]-(Al))
+MATCH (Kevin:Name {id: 'nm0000102'}),(Al:Person {name: 'Al Pacino'}), p = shortestPath((Kevin)-[:WORKED_ON*]-(Al))
 WHERE ALL (r IN relationships(p) WHERE EXISTS (r.role))
 RETURN p
 
