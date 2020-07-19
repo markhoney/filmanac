@@ -9,6 +9,8 @@
 </template>
 
 <script>
+	// https://www.transparenttextures.com/
+	// https://www.heropatterns.com/
 	import SiteHeader from '@/components/site/Header.vue';
 	import SiteFooter from '@/components/site/Footer.vue';
 	export default {

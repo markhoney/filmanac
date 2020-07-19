@@ -1,6 +1,6 @@
 require('dotenv').config();
 require('colors');
-const {mkdirSync, existsSync, copyFileSync} = require('fs');
+const {mkdirSync, existsSync, copyFileSync, writeFileSync} = require('fs');
 const {resolve} = require('path');
 const number = require('./number');
 const {screenshot} = require('./extract');
@@ -410,6 +410,7 @@ class MovieEvents {
 		}
 		await this.getEventsDetails();
 		for (const event of this.events) event.image = await screenshot(event, this.movies.find((movie) => movie.id === event.movie));
+		this.export();
 		this.studios = this.getStudios(studios);
 		this.classifications = this.getClassifications();
 		this.genres = this.getGenres();
@@ -454,6 +455,17 @@ class MovieEvents {
 			stats[image] = this.movies.filter((movie) => movie.images && movie.images[image]).length;
 		}
 		return stats;
+	}
+
+	export() {
+		writeFileSync('./movies.json', JSON.stringify(this.movies.map((movie) => ({
+			title: movie.title,
+			runtime: movie.runtime,
+			score: movie.score,
+			votes: movie.votes,
+			revenue: movie.revenue,
+			budget: movie.budget,
+		})), null, '\t'));
 	}
 
 	getMissing(stats) {
