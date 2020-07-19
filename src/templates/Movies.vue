@@ -23,7 +23,7 @@
 					<p v-if="$page.movie.directors" class="mt-4"><b>Directed by</b> {{$page.movie.directors.map((director) => director.title).join(', ')}}</p>
 					<p v-if="$page.movie.actors" class="mt-4"><b>Starring</b> {{$page.movie.actors.map((actor) => actor.title).join(', ')}}</p>
 					<p v-if="$page.movie.bechdel" class="mt-4">
-						<b><a href="https://en.wikipedia.org/wiki/Bechdel_test" target="_blank">Bechdel score</b>&nbsp;
+					<a href="https://en.wikipedia.org/wiki/Bechdel_test" target="_blank" class="font-bold">Bechdel score</a>&nbsp;
 						<bechdel :value="$page.movie.bechdel.rating" />
 					</p>
 				</div>
