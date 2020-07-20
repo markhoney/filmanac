@@ -1,5 +1,5 @@
 <template>
-	<header class="sm:flex p-4 text-center bg-primary-dark text-gray-200">
+	<header class="sm:flex p-4 text-center bg-primary-dark text-gray-200 shadow-xl" style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));">
 		<dark class="mr-4" />
 		<site-menu />
 		<div class="flex-auto text-center text-4xl font-bold" style="font-family: Josefin Sans;">
