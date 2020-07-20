@@ -11,7 +11,7 @@
 			dark: true,
 		}),
 		computed: {
-			color() {return this.dark ? '#ffffff' : '#000000'},
+			color() {return this.dark ? '#cccccc' : '#666666'},
 			title() {return this.dark ? 'light' : 'dark'},
 		},
 		mounted() {
