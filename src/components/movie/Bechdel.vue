@@ -1,5 +1,5 @@
 <template>
-	<span class="ml-4 pb-1 px-5 font-bold rounded-md" :class="'bg-' + colours[value]" :title="title">{{value}}</span>
+	<span class="ml-4 pb-1 px-5 font-bold rounded-md" :class="colours[value]" :title="title">{{value}}</span>
 </template>
 
 <script>
@@ -14,10 +14,10 @@
 					'about something other than a man'
 				],
 				colours: [
-					'red-600',
-					'orange-600',
-					'yellow-600',
-					'green-600',
+					'bg-red-600',
+					'bg-orange-600',
+					'bg-yellow-600',
+					'bg-green-600',
 				],
 			};
 		},
