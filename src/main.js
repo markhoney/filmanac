@@ -11,8 +11,8 @@ import AsyncComputed from 'vue-async-computed';
 // require('typeface-special-elite');
 // require('typeface-audiowide');
 // require('typeface-monoton');
-// require('typeface-racing-sans-one');
-require('typeface-josefin-sans');
+require('typeface-racing-sans-one');
+// require('typeface-josefin-sans');
 // require('typeface-catamaran');
 
 export default function (Vue, {router}) {
