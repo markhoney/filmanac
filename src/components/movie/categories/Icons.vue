@@ -1,7 +1,7 @@
 <template>
 	<div class="flex mb-2">
-		<g-link v-for="item in icons" :key="item.title" :to="item.path">
-			<g-image v-if="item.image" :src="item.image" :title="item.title" class="icon" height="32" />
+		<g-link v-for="icon in icons" :key="icon.title" :to="icon.path">
+			<g-image v-if="icon.image" :src="icon.image" :title="icon.title" class="icon" height="32" />
 		</g-link>
 	</div>
 </template>

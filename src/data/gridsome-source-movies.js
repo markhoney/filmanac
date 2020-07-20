@@ -60,6 +60,8 @@ module.exports = class MovieSource {
 				}
 				collections[getPlural(collection)].addReference('movies', 'Movies');
 			}
+			for (const collection of Object.values(collections)) collection._collection.configureOptions({adaptiveBinaryIndices: false});
+			api._app.store.nodeIndex.index.configureOptions({adaptiveBinaryIndices: false});
 			for (const collection of Object.keys(collections)) for (const node of movieEvents[collection.toLowerCase()]) {
 				collections[collection].addNode(node);
 			}
