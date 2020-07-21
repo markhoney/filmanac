@@ -41,11 +41,19 @@
 </static-query>
 
 <style scoped lang="postcss">
+	nav > ul a {
+		@apply block;
+	}
+
+	nav > ul a:hover {
+		@apply no-underline;
+	}
+
 	nav > ul > li {
 		@apply relative float-left p-2;
 	}
 
-	nav > ul > li:hover {
+	nav li:hover {
 		@apply bg-primary-light;
 	 }
 
@@ -53,38 +61,19 @@
 		@apply inline;
 	}
 
-	nav > ul a {
-		@apply block;
+	nav li li {
+		@apply relative bg-primary-dark;
+		height: 1.5rem;
 	}
 
 	nav > ul > li > ul {
-		@apply absolute left-0 hidden;
-		top: 40px;
-		width: 150px;
-	}
-
-	nav > ul > li > ul > li {
-		@apply relative bg-primary-dark;
-		height: 25px;
-	}
-
-	nav > ul > li > ul > li:hover {
-		@apply bg-primary-light;
+		@apply absolute left-0 hidden w-32;
+		top: 2.5rem;
 	}
 
 	nav > ul > li > ul > li > ul {
-		@apply absolute top-0 hidden;
-		right: -150px;
-		width: 150px;
-	}
-
-	nav > ul > li > ul > li > ul > li {
-		height: 25px;
-		@apply bg-primary-dark;
-	}
-
-	nav > ul > li > ul > li > ul > li:hover {
-		@apply bg-primary-light;
+		@apply absolute top-0 hidden w-24;
+		right: -6rem;
 	}
 
 </style>

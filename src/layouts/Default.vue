@@ -19,6 +19,9 @@
 </script>
 
 <style lang="postcss">
+	a {
+		@apply font-medium;
+	}
 	a:hover {
 		@apply underline;
 	}
