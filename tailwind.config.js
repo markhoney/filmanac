@@ -43,6 +43,7 @@ module.exports = {
 		transitionProperty: ['responsive', 'hover', 'group-hover'],
 		backgroundColor: ['responsive', 'hover', 'focus', 'dark'],
 		textColor: ['responsive', 'hover', 'focus', 'dark'],
+		borderColor: ['responsive', 'hover', 'focus', 'dark'],
 	},
 	plugins: [
 		require('@danestves/tailwindcss-darkmode')(),

@@ -15,7 +15,9 @@
 		props: ['percent', 'stars', 'colour', 'numeric'],
 		computed: {
 			rating() {
-				return this.percent * (this.stars + 1) / 100 - 0.5;
+				// return this.percent * (this.stars + 1) / 100 - 0.5;
+				// return Math.floor((this.percent / 100) * (this.stars + 1));
+				return Math.min(Math.max((this.percent / 10) - 3, 0), 5);
 			},
 		},
 	};
