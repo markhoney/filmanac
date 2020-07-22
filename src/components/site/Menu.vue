@@ -1,8 +1,9 @@
 <template>
 	<nav class="z-10 font-bold">
 		<ul>
+			<li><g-link to="/">Today</g-link></li>
 			<li>
-				<g-link to="/days">Days</g-link>
+				<g-link to="/">Days</g-link>
 				<ul>
 					<li v-for="month in $static.months.edges" :key="month.node.id">
 						<g-link :to="month.node.path">{{month.node.title}}</g-link>
@@ -12,7 +13,6 @@
 					</li>
 				</ul>
 				</li>
-			<li><g-link to="/">Today</g-link></li>
 			<li><g-link to="/about/">About</g-link></li>
 		</ul>
 	</nav>
