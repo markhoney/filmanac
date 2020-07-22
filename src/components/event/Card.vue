@@ -1,5 +1,5 @@
 <template>
-	<div class="flex shadow-xl bg-gray-100 dark:bg-gray-900 rounded-lg"><!-- mx-auto my-16 max-w-3xl -->
+	<div class="flex shadow-xl bg-gray-100 dark:bg-gray-900 rounded-lg" style="background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.05));"><!-- mx-auto my-16 max-w-3xl -->
 		<movie-poster :value="value.movie" class="relative" />
 		<div class="w-3/4 pt-4 pl-6 pb-1 rounded-lg flex flex-col">
 			<movie-title :value="value.movie" class="mb-4 font-bold text-2xl md:text-4xl leading-none" />
@@ -11,7 +11,7 @@
 					<p class="plot">{{value.movie.plot}}</p>
 				</div>
 			</div>
-			<movie-icons :value="value.movie" class="hidden sm:flex mt-2 p-3 bg-gray-900 rounded-lg" />
+			<movie-icons :value="value.movie" class="hidden sm:flex mt-2 mb-3 p-3 bg-gray-700 rounded-lg" />
 		</div>
 	</div>
 </template>
