@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col min-h-screen bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-300" style="background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.05));">
+	<div class="flex flex-col min-h-screen bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-300" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.05));">
 		<site-header />
 		<div class="flex-grow bg-repeat" :style="{backgroundImage}">
 			<slot />
