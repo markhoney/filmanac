@@ -1,5 +1,5 @@
 <template>
-	<div class="text-gray-700 w-48 mx-auto">
+	<div class="text-gray-700 w-48">
 		<div class="h-10 pl-3 pr-2 bg-white border rounded flex justify-between items-center relative">
 			<input
 				type="search"
@@ -17,7 +17,7 @@
 		</div>
 		<ul
 			v-if="focus && searchTerm.length >= 3"
-			class="absolute w-auto max-w-sm right-0 bg-white p-0 rounded mr-4 overflow-y-auto z-50"
+			class="absolute w-auto max-w-sm right-0 bg-white p-0 rounded mr-6 overflow-y-auto z-50"
 			style="min-width: 192px; max-height: 90vh;"
 		>
 			<li v-for="result in searchResults" :key="result.id">

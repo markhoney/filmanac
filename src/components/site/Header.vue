@@ -3,11 +3,11 @@
 		<dark class="mr-4" />
 		<site-menu class="mt-4" />
 		<h1 class="flex-auto text-center text-5xl font-bold" style="font-family: Racing Sans One;">
-			<g-link to="/">
+			<g-link class="hover:no-underline" to="/">
 				{{title || $static.metadata.siteName}}
 			</g-link>
 		</h1>
-		<search />
+		<search class="m-4" />
 	</header>
 </template>
 
