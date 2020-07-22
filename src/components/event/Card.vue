@@ -1,7 +1,7 @@
 <template>
-	<div class="flex shadow-xl bg-gray-400 dark:bg-gray-900 rounded-lg"><!-- mx-auto my-16 max-w-3xl -->
+	<div class="flex shadow-xl bg-gray-100 dark:bg-gray-900 rounded-lg"><!-- mx-auto my-16 max-w-3xl -->
 		<movie-poster :value="value.movie" class="relative" />
-		<div class="w-3/4 p-4 px-6 rounded-lg flex flex-col">
+		<div class="w-3/4 pt-4 pl-6 pb-1 rounded-lg flex flex-col">
 			<movie-title :value="value.movie" class="mb-4 font-bold text-2xl md:text-4xl leading-none" />
 			<div class="flex-grow">
 				<h4 v-if="value.title" class="text-lg md:text-xl leading-tight text-primary-dark dark:text-primary-lighter">
@@ -11,7 +11,7 @@
 					<p class="plot">{{value.movie.plot}}</p>
 				</div>
 			</div>
-			<movie-icons :value="value.movie" class="hidden sm:flex mt-2" />
+			<movie-icons :value="value.movie" class="hidden sm:flex mt-2 p-3 bg-gray-900 rounded-lg" />
 		</div>
 	</div>
 </template>
