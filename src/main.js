@@ -15,7 +15,9 @@ require('typeface-racing-sans-one');
 // require('typeface-josefin-sans');
 // require('typeface-catamaran');
 
-export default function (Vue, {router}) {
+export default function (Vue, {head}) {
 	Vue.component('Fixed', Fixed);
 	Vue.use(AsyncComputed);
+	// head.htmlAttrs = {class: 'bg-black'};
+	head.bodyAttrs = {class: 'bg-gray-800'};
 }

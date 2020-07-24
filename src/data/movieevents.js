@@ -410,7 +410,7 @@ class MovieEvents {
 		}
 		await this.getEventsDetails();
 		for (const event of this.events) event.image = await screenshot(event, this.movies.find((movie) => movie.id === event.movie));
-		this.export();
+		// this.export();
 		this.studios = this.getStudios(studios);
 		this.classifications = this.getClassifications();
 		this.genres = this.getGenres();
@@ -458,7 +458,7 @@ class MovieEvents {
 	}
 
 	export() {
-		writeFileSync('./movies.json', JSON.stringify(this.movies.map((movie) => ({
+		writeFileSync(resolve('cache', 'movies.json'), JSON.stringify(this.movies.map((movie) => ({
 			title: movie.title,
 			runtime: movie.runtime,
 			score: movie.score,
