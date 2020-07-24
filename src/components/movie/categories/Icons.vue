@@ -1,9 +1,11 @@
 <template>
-	<div class="flex mb-2">
-		<g-link v-for="icon in icons" :key="icon.title" :to="icon.path">
-			<g-image v-if="icon.image" :src="icon.image" :title="icon.title" class="icon" height="32" />
-		</g-link>
-	</div>
+	<ul class="inline-flex flex-row">
+		<li v-for="icon in icons" :key="icon.title">
+			<g-link :to="icon.path">
+				<g-image v-if="icon.image" :src="icon.image" :title="icon.title" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500" />
+			</g-link>
+		</li>
+	</ul>
 </template>
 
 <script>
@@ -24,6 +26,6 @@
 
 <style scoped lang="postcss">
 	.icon {
-		@apply mx-2 w-auto h-6 text-white;
+		@apply mx-2 h-6 text-white;
 	}
 </style>

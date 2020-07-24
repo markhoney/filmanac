@@ -15,18 +15,20 @@
 				</svg>
 			</button>
 		</div>
-		<ul
-			v-if="focus && searchTerm.length >= 3"
-			class="absolute w-auto max-w-sm right-0 bg-white p-0 rounded mr-6 overflow-y-auto z-50"
-			style="min-width: 192px; max-height: 90vh;"
-		>
-			<li v-for="result in searchResults" :key="result.id">
-				<g-link :to="result.path"><span v-html="boldNew(result.title)" /></g-link>
-			</li>
-			<li v-if="!searchResults.length">
-				<em>Sorry, no results found</em>
-			</li>
-		</ul>
+		<transition name="fade">
+			<ul
+				v-if="focus && searchTerm.length >= 3"
+				class="absolute w-auto max-w-sm right-0 bg-white p-0 rounded mr-6 overflow-y-auto z-50"
+				style="min-width: 192px; max-height: 90vh;"
+			>
+				<li v-for="result in searchResults" :key="result.id">
+					<g-link :to="result.path"><span v-html="boldNew(result.title)" /></g-link>
+				</li>
+				<li v-if="!searchResults.length">
+					<em>Sorry, no results found</em>
+				</li>
+			</ul>
+		</transition>
 	</div>
 </template>
 

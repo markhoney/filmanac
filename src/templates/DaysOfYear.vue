@@ -1,37 +1,11 @@
 <template>
-	<Fixed v-if="$page.day">
-		<h1 class="font-bold text-4xl text-center pb-2 mt-4">
-			<g-link
-				:to="$page.day.previous.path"
-				:title="'Go to ' + $page.day.previous.title"
-				class="inline-block font-sans tracking-tighter bg-black bg-opacity-50 pb-2 px-3 rounded-l-lg hover:no-underline hover:bg-opacity-75"
-			>&lt;</g-link>
-			<span class="inline-block bg-black bg-opacity-25 px-6 pb-2">
-				<g-link :to="$page.day.month.path" :title="'See all events in ' + $page.day.month.title">{{$page.day.month.title}}</g-link>
-				{{$page.day.day.id}}{{$page.day.day.ordinal}}
-			</span>
-			<g-link
-				:to="$page.day.next.path"
-				:title="'Go to ' + $page.day.next.title"
-				class="inline-block font-sans tracking-tighter bg-black bg-opacity-50 pb-2 px-3 rounded-r-lg hover:no-underline hover:bg-opacity-75"
-			>&gt;</g-link>
-		</h1>
-		<template v-if="events">
+	<Fixed v-if="$page.day" class="flex flex-col">
+		<back-forward :value="$page.day" title class="text-4xl mt-6" />
+		<template v-if="events" class="flex-grow">
 			<event-card v-for="event in events" :key="event.id" :value="event" class="my-4 md:my-8" />
 		</template>
-		<no-events v-else />
-		<div class="text-center text-6xl font-bold tracking-tighter my-8">
-			<g-link
-				class="bg-black bg-opacity-50 pb-3 px-6 rounded-l-lg hover:no-underline hover:bg-opacity-75 border-r-4 border-gray-600"
-				:to="$page.day.previous.path"
-				:title="'Go to ' + $page.day.previous.title"
-			>&lt;</g-link>
-			<g-link
-				class="bg-black bg-opacity-50 pb-3 px-6 rounded-r-lg hover:no-underline hover:bg-opacity-75"
-				:to="$page.day.next.path"
-				:title="'Go to ' + $page.day.next.title"
-			>&gt;</g-link>
-		</div>
+		<no-events v-else class="flex-grow" />
+		<back-forward :value="$page.day" class="text-6xl" />
 	</Fixed>
 	<Fixed v-else>
 		<Loading />
@@ -133,8 +107,9 @@
 	import EventCard from '@/components/event/Card.vue';
 	import NoEvents from '@/components/event/None.vue';
 	import Loading from '@/components/day/Loading.vue';
+	import BackForward from '@/components/site/BackForward.vue';
 	export default {
-		components: {EventCard, NoEvents, Loading},
+		components: {EventCard, NoEvents, Loading, BackForward},
 		data() {
 			return {
 				bottom: true,

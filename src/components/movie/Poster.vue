@@ -1,8 +1,8 @@
 <template>
 	<div class="text-gray-100 font-bold" style="max-width: 200px;">
 		<div
-			:class="{absolute: value.images && value.images.poster, 'opacity-0': value.images && value.images.poster}"
-			class="rounded-lg rounded-r-none hover:opacity-100 duration-500 ease-in-out transition-opacity flex flex-col bg-black bg-opacity-75 top-0 left-0 w-full h-full p-2 text-center justify-around"
+			:class="{absolute: value.images && value.images.poster, 'rounded-l-lg': rounded, 'opacity-0': value.images && value.images.poster}"
+			class="hover:opacity-100 duration-500 ease-in-out transition-opacity flex flex-col bg-black bg-opacity-75 top-0 left-0 w-full h-full p-2 text-center justify-around"
 		>
 			<div v-if="value.score">
 				Rating: {{value.score.id}} %
@@ -15,7 +15,7 @@
 				Length: {{value.runtime}} mins
 			</div>
 		</div>
-		<g-image v-if="value.images && value.images.poster" :src="value.images.poster" :alt="value.title + ' poster'" />
+		<g-image v-if="value.images && value.images.poster" :src="value.images.poster" :alt="value.title + ' poster'" :class="{'rounded-l-lg': rounded}" />
 	</div>
 </template>
 
@@ -29,6 +29,7 @@
 		},
 		props: {
 			value: Object,
+			rounded: Boolean,
 		},
 	};
 </script>

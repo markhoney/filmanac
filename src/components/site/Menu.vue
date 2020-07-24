@@ -1,18 +1,26 @@
 <template>
-	<nav class="z-10 font-bold">
+	<nav class="z-50 font-bold">
 		<ul>
-			<li><g-link to="/">Today</g-link></li>
+			<li><g-link to="/" title="See all movies for today">Today</g-link></li>
 			<li>
 				<g-link to="/">Days</g-link>
 				<ul>
 					<li v-for="month in $static.months.edges" :key="month.node.id">
-						<g-link :to="month.node.path">{{month.node.title}}</g-link>
+						<g-link :to="month.node.path" :title="'See all movies in ' + month.node.title">{{month.node.title}}</g-link>
 						<ul>
-							<li v-for="day in month.node.daysofyear" :key="day.day.id"><g-link :to="day.path">{{day.day.id}}{{day.day.ordinal}}</g-link></li>
+							<li v-for="day in month.node.daysofyear" :key="day.day.id"><g-link :to="day.path" :title="`See all movies for ${month.node.title} ${day.day.id}${day.day.ordinal}`">{{day.day.id}}{{day.day.ordinal}}</g-link></li>
 						</ul>
 					</li>
 				</ul>
-				</li>
+			</li>
+			<li>
+				Categories
+				<ul>
+					<li v-for="category in categories" :key="category">
+						<g-link :to="category.toLowerCase()" :title="`See all ${category} movies`">{{category}}</g-link>
+					</li>
+				</ul>
+			</li>
 			<li><g-link to="/about/">About</g-link></li>
 		</ul>
 	</nav>
@@ -39,6 +47,26 @@
 		}
 	}
 </static-query>
+
+<script>
+	export default {
+		data() {
+			return {
+				categories: [
+					'Genres',
+					'Studios',
+					'Languages',
+					'Countries',
+					'Scores',
+					'Classifications',
+					// 'Directors',
+					// 'Writers',
+					// 'Actors',
+				],
+			};
+		},
+	};
+</script>
 
 <style scoped lang="postcss">
 	nav > ul a {

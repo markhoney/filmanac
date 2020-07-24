@@ -1,6 +1,6 @@
 module.exports = {
 	purge: ['./src/**/*.vue'],
-	theme: { // https://www.transparenttextures.com/
+	theme: {
 		extend: {
 			colors: { // https://paletton.com/#uid=72Q0u0kFccSvg88DJ9VBOjtEyqu
 				primary: {
@@ -38,9 +38,9 @@ module.exports = {
 			}, */
 		},
 	},
-	variants: {
-		display: ['responsive', 'hover', 'group-hover'],
-		transitionProperty: ['responsive', 'hover', 'group-hover'],
+	variants: { // https://tailwindcss.com/docs/configuring-variants/#default-variants-reference
+		// display: ['responsive', 'hover', 'group-hover'],
+		// transitionProperty: ['responsive', 'hover', 'group-hover'],
 		backgroundColor: ['responsive', 'hover', 'focus', 'dark'],
 		textColor: ['responsive', 'hover', 'focus', 'dark'],
 		borderColor: ['responsive', 'hover', 'focus', 'dark'],
