@@ -18,6 +18,6 @@ require('typeface-racing-sans-one');
 export default function (Vue, {head}) {
 	Vue.component('Fixed', Fixed);
 	Vue.use(AsyncComputed);
-	// head.htmlAttrs = {class: 'bg-black'};
-	head.bodyAttrs = {class: 'bg-gray-800'};
+	head.htmlAttrs = {class: 'bg-gray-800'};
+	// head.bodyAttrs = {class: 'bg-gray-800'};
 }

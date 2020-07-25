@@ -34,24 +34,26 @@
 		<h2>Stats</h2>
 		<p>
 			This database contains <b>{{stat('events')}}</b> events from <b>{{stat('movies')}}</b> movies.
-			These events cover <b>{{stat('days')}}</b> days of the year, and the events occurred in <b>{{stat('years')}}</b> different years.
-			The movies were made in <b>{{stat('countries')}}</b> countries, have <b>{{stat('languages')}}</b> spoken (or signed) languages
-			and were made by <b>{{stat('studios')}}</b> different movie studios.
+			These events cover <g-link to="/days">{{stat('days')}}</g-link> days of the year, and the events occurred in <g-link to="/years">{{stat('years')}}</g-link> different years.
+			The movies were made in <g-link to="/countries">{{stat('countries')}}</g-link> countries,
+			by <g-link to="/studios">{{stat('studios')}}</g-link> different movie studios,
+			have <g-link to="/languages">{{stat('languages')}}</g-link> spoken (or signed) languages
+			and were released in <g-link to="/released">{{stat('releaseyears')}}</g-link> different years.
 		</p>
 		<h2>History</h2>
 		<p>
-			The idea for this website came about when a friend watched <g-link to="/tt0367594">Charlie and the Chocolate Factory</g-link> on the First of February,
+			The idea for this website came about when a friend watched <g-link to="/movie/tt0367594">Charlie and the Chocolate Factory</g-link> on the First of February,
 			and spotted that the visit to the chocolate factory happens on <g-link to="/february/1">February the first</g-link>.
-			When he realised that the next day, <g-link to="/february/2">February the second</g-link>, was <g-link to="/tt0107048">Groundhog Day</g-link>,
+			When he realised that the next day, <g-link to="/february/2">February the second</g-link>, was <g-link to="/movie/tt0107048">Groundhog Day</g-link>,
 			he thought it was a nice coincidence.
 		</p>
 		<p>
 			When I was told this story a few days later, we both sat there and thought of a few more movies that are related to a particular day of the year.
 			Some of the first movies we came up with were
-			<g-link to="/tt0116629">Independence Day</g-link>,
-			<g-link to="/tt0058777">Zulu</g-link>,
-			<g-link to="/tt0077651">Halloween</g-link> and
-			<g-link to="/tt0095016">Die Hard</g-link>.
+			<g-link to="/movie/tt0116629">Independence Day</g-link>,
+			<g-link to="/movie/tt0058777">Zulu</g-link>,
+			<g-link to="/movie/tt0077651">Halloween</g-link> and
+			<g-link to="/movie/tt0095016">Die Hard</g-link>.
 			Of course, it seemed prudent to start adding these movies to a spreadsheet.
 		</p>
 		<p>
@@ -64,7 +66,9 @@
 		<h2>Metrics</h2>
 		<h3 id="stars">Stars</h3>
 		<p>
-			The star rating on this website is based on <a href="https://www.imdb.com/" target="_blank" rel="noopener">IMDB</a> and <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TheMovieDB</a> scores,
+			The star rating on this website is based on
+			<a href="https://www.imdb.com/" target="_blank" rel="noopener">IMDB</a> and
+			<a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TheMovieDB</a> scores,
 			and takes into account that only very bad movies score below 40% (and not many reach below 30%), and not many movies score higher than 80%.
 		</p>
 		<dl>
@@ -113,17 +117,17 @@
 
 
 <script>
-export default {
-	metaInfo: {
-		title: 'About this website'
-	},
-	methods: {
-		stat(name) {
-			const stat = this.$page.allStats.edges.find((stat) => stat.node.id === name);
-			if (stat) return stat.node.value;
-		}
-	}
-}
+	export default {
+		metaInfo: {
+			title: 'About this website'
+		},
+		methods: {
+			stat(name) {
+				const stat = this.$page.allStats.edges.find((stat) => stat.node.id === name);
+				if (stat) return stat.node.value;
+			},
+		},
+	};
 </script>
 
 <style scoped lang="postcss">

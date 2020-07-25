@@ -26,11 +26,6 @@
 		"extras:bacon": "napa itwasmattgregg/six-degrees-kevin-bacon-api && cd node_modules/six-degrees-kevin-bacon-api && yarn install",
 		"extras": "yarn extras:genres && yarn extras:studios && yarn extras:classifications && yarn extras:countries && yarn extras:languages extras:bacon"
 	},
-	"napa": {
-		"names": "https://datasets.imdbws.com/name.basics.tsv.gz",
-		"titles": "https://datasets.imdbws.com/title.basics.tsv.gz",
-		"principals": "https://datasets.imdbws.com/title.principals.tsv.gz"
-	},
 	"devDependencies": {
 		"@danestves/tailwindcss-darkmode": "^1.1.5",
 		"@gridsome/plugin-sitemap": "^0.4.0",

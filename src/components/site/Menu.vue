@@ -1,13 +1,13 @@
 <template>
 	<nav class="z-50 font-bold">
-		<ul>
+		<ul class="h-full">
 			<li><g-link to="/" title="See all movies for today">Today</g-link></li>
 			<li>
 				<g-link to="/">Days</g-link>
-				<ul>
+				<ul class="bg-white dark:bg-primary-dark">
 					<li v-for="month in $static.months.edges" :key="month.node.id">
 						<g-link :to="month.node.path" :title="'See all movies in ' + month.node.title">{{month.node.title}}</g-link>
-						<ul>
+						<ul class="bg-white dark:bg-primary-dark">
 							<li v-for="day in month.node.daysofyear" :key="day.day.id"><g-link :to="day.path" :title="`See all movies for ${month.node.title} ${day.day.id}${day.day.ordinal}`">{{day.day.id}}{{day.day.ordinal}}</g-link></li>
 						</ul>
 					</li>
@@ -15,7 +15,7 @@
 			</li>
 			<li>
 				Categories
-				<ul>
+				<ul class="bg-white dark:bg-primary-dark">
 					<li v-for="category in categories" :key="category">
 						<g-link :to="category.toLowerCase()" :title="`See all ${category} movies`">{{category}}</g-link>
 					</li>
@@ -78,11 +78,11 @@
 	}
 
 	nav > ul > li {
-		@apply relative float-left p-2;
+		@apply relative float-left p-2 h-full pt-6;
 	}
 
 	nav li:hover {
-		@apply bg-primary-light;
+		@apply bg-secondary-lighter;
 	 }
 
 	nav > ul li:hover > ul {
@@ -90,13 +90,13 @@
 	}
 
 	nav li li {
-		@apply relative bg-primary-dark;
-		height: 1.5rem;
+		@apply relative;
+		height: 1.6rem;
 	}
 
 	nav > ul > li > ul {
 		@apply absolute left-0 hidden w-32;
-		top: 2.5rem;
+		top: 4rem;
 	}
 
 	nav > ul > li > ul > li > ul {

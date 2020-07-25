@@ -392,7 +392,7 @@ class MovieEvents {
 		for (const type of ['omdb', 'wikidata', 'fanart', 'themoviedb', 'bechdel']) mkdirSync(resolve('cache', 'json', type), {recursive: true});
 		for (const type of ['logo', 'clearart', 'poster', 'keyart', 'fanart', 'disc', 'banner', 'landscape', 'screenshot']) mkdirSync(resolve('cache', 'images', type), {recursive: true});
 		for (const type of ['mention']) mkdirSync(resolve('cache', 'audio', type), {recursive: true});
-		const events = await googlesheet('Movies');
+		const events = (await googlesheet('Movies')).filter((event) => event.month && event.day && event.imdb);
 		const countries = (await googlesheet('Countries')).map((country) => ({
 			...country,
 			titles: country.names && split(country.names),

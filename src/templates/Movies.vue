@@ -9,10 +9,11 @@
 			<div v-if="$page.movie.images && $page.movie.images.poster" class="pr-48 ml-8 hidden sm:inline height-1">
 				<movie-poster :value="$page.movie" class="absolute shadow-lg border-4 border-white w-48 z-0" />
 			</div>
-			<div class="flex-auto md:ml-16 z-10">
+			<div class="flex-auto ml-8 md:ml-16 z-10">
 				<div class="h-56">
-					<movie-title :value="$page.movie" class="font-bold text-4xl md:text-5xl tracking-loose leading-tight z-10" style="text-shadow: 2px 2px #111;" />
-					<score v-if="$page.movie.score" class="mt-2" :percent="$page.movie.score.id" :stars="5" :numeric="true" />
+					<movie-title :value="$page.movie" class="font-bold text-white text-4xl md:text-5xl tracking-loose leading-tight z-10" style="text-shadow: 2px 2px #111;" />
+					<score v-if="$page.movie.score" class="mt-2 inline" :percent="$page.movie.score.id" :stars="5" :numeric="true" />
+					<icons :value="$page.movie" class="hidden md:inline-flex my-4 md:mr-32 float-right" />
 				</div>
 				<div class="mt-4 mr-8 max-w-screen-lg p-8 text-xl">
 					<p>{{$page.movie.plot}}</p>
@@ -23,11 +24,10 @@
 					<p v-if="$page.movie.directors" class="mt-4"><b>Directed by</b> {{$page.movie.directors.map((director) => director.title).join(', ')}}</p>
 					<p v-if="$page.movie.actors" class="mt-4"><b>Starring</b> {{$page.movie.actors.map((actor) => actor.title).join(', ')}}</p>
 					<p v-if="$page.movie.bechdel" class="mt-4"><g-link class="font-bold" to="/about#bechdel">Bechdel score</g-link> <bechdel :value="$page.movie.bechdel.rating" /></p>
-					<icons :value="$page.movie" class="my-16" />
 				</div>
 			</div>
 			<div class="z-10">
-				<classification v-if="$page.movie.classification" class="float-right md:mr-16" :value="$page.movie.classification" />
+				<classification v-if="$page.movie.classification" class="hidden lg:block float-right md:mr-16" :value="$page.movie.classification" />
 			</div>
 		</div>
 	</div>
