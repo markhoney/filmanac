@@ -1,12 +1,11 @@
 <template>
-	<Fixed>
-		<ul>
-			<li v-for="genre in $page.allGenres.edges" :key="genre.node.id">
-				<g-link :to="genre.node.path">
-					{{genre.node.title}}
-				</g-link>
-			</li>
-		</ul>
+	<Fixed title="Genres" class="flex flex-wrap">
+		<g-link v-for="genre in $page.allGenres.edges" :key="genre.node.id" :to="genre.node.path" class="w-32 m-8">
+			<figure>
+				<g-image v-if="genre.node.image" :src="genre.node.image" class="invert" />
+				<figcaption class="text-center">{{genre.node.title}}</figcaption>
+			</figure>
+		</g-link>
 	</Fixed>
 </template>
 
@@ -18,6 +17,7 @@
 					id
 					path
 					title
+					image
 				}
 			}
 		}
@@ -31,3 +31,9 @@
 		},
 	};
 </script>
+
+<style scoped lang="postcss">
+	.invert {
+		filter: invert(1);
+	}
+</style>

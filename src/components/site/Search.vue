@@ -22,7 +22,7 @@
 				style="min-width: 192px; max-height: 90vh;"
 			>
 				<li v-for="result in searchResults" :key="result.id">
-					<g-link :to="result.path"><span v-html="boldNew(result.title)" /></g-link>
+					<g-link :to="result.path" class="font-medium"><span v-html="boldNew(result.title)" /></g-link>
 				</li>
 				<li v-if="!searchResults.length">
 					<em>Sorry, no results found</em>

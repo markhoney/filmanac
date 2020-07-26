@@ -330,7 +330,10 @@ class MovieEvents {
 						const staticPath = ['static', 'img', staticFolder].join('/');
 						mkdirSync(staticPath, {recursive: true});
 						const dest = resolve(staticPath, name.replace('/vector', '').replace('/', '-') + ext);
-						copyFileSync(src, dest);
+						if (!existsSync(dest)) {
+							console.log(src, dest);
+							copyFileSync(src, dest);
+						}
 						return [staticPath.replace('static', ''), name + ext].join('/');
 					}
 				}

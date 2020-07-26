@@ -1,12 +1,9 @@
 <template>
-	<Fixed>
-		<ul>
-			<li v-for="studio in $page.allStudios.edges" :key="studio.node.id">
-				<g-link :to="studio.node.path">
-					{{studio.node.title}}
-				</g-link>
-			</li>
-		</ul>
+	<Fixed title="Studios" class="flex flex-wrap">
+		<g-link v-for="studio in $page.allStudios.edges" :key="studio.node.id" :to="studio.node.path" class="w-32 m-8">
+			<g-image v-if="studio.node.image" :src="studio.node.image" class="invert" />
+			<h3 v-else class="text-center">{{studio.node.title}}</h3>
+		</g-link>
 	</Fixed>
 </template>
 
@@ -18,6 +15,7 @@
 					id
 					path
 					title
+					image
 				}
 			}
 		}

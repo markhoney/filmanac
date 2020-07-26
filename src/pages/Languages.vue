@@ -1,12 +1,11 @@
 <template>
-	<Fixed>
-		<ul>
-			<li v-for="language in $page.allLanguages.edges" :key="language.node.id">
-				<g-link :to="language.node.path">
-					{{language.node.title}}
-				</g-link>
-			</li>
-		</ul>
+	<Fixed title="Languages" class="flex flex-wrap">
+		<g-link v-for="language in $page.allLanguages.edges" :key="language.node.id" :to="language.node.path" class="w-32 m-8">
+			<figure>
+				<g-image :src="language.node.image" class="invert" />
+				<figcaption class="text-center">{{language.node.title}}</figcaption>
+			</figure>
+		</g-link>
 	</Fixed>
 </template>
 
@@ -18,6 +17,7 @@
 					id
 					path
 					title
+					image
 				}
 			}
 		}

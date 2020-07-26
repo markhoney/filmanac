@@ -27,7 +27,7 @@
 				</div>
 			</div>
 			<div class="z-10">
-				<classification v-if="$page.movie.classification" class="hidden lg:block float-right md:mr-16" :value="$page.movie.classification" />
+				<classification v-if="$page.movie.classification" class="hidden lg:block float-right md:mr-16 text-white" :value="$page.movie.classification" />
 			</div>
 		</div>
 	</div>

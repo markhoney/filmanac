@@ -29,11 +29,13 @@
 				if (dark) {
 					localStorage.setItem('theme', 'dark');
 					document.body.classList.add('dark-mode');
+					// window.dark = true;
 				} else {
 					localStorage.setItem('theme', 'light');
 					document.body.classList.remove('dark-mode');
+					// window.dark = false;
 				}
 			},
 		},
-	}
+	};
 </script>

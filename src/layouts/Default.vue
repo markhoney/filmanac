@@ -31,7 +31,7 @@
 		},
 		computed: {
 			backgroundImage() {
-				return `url('/img/${this.backgrounds[~~(Math.random() * this.backgrounds.length)]}.png')`;
+				return `url('/img/backgrounds/${this.backgrounds[~~(Math.random() * this.backgrounds.length)]}.png')`;
 			},
 		},
 	}
@@ -39,7 +39,7 @@
 
 <style lang="postcss">
 	a {
-		@apply font-bold;
+		@apply font-medium;
 	}
 	a:hover {
 		@apply underline;
