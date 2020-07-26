@@ -4,10 +4,10 @@
 			<li><g-link to="/" title="See all movies for today">Today</g-link></li>
 			<li>
 				<g-link to="/">Days</g-link>
-				<ul class="bg-white dark:bg-primary-dark">
+				<ul class="dark:bg-primary-light">
 					<li v-for="month in $static.months.edges" :key="month.node.id">
 						<g-link :to="month.node.path" :title="'See all movies in ' + month.node.title">{{month.node.title}}</g-link>
-						<ul class="bg-white dark:bg-primary-dark">
+						<ul class="dark:bg-primary-light">
 							<li v-for="day in month.node.daysofyear" :key="day.day.id"><g-link :to="day.path" :title="`See all movies for ${month.node.title} ${day.day.id}${day.day.ordinal}`">{{day.day.id}}{{day.day.ordinal}}</g-link></li>
 						</ul>
 					</li>
@@ -15,7 +15,7 @@
 			</li>
 			<li>
 				Categories
-				<ul class="bg-white dark:bg-primary-dark">
+				<ul class="dark:bg-primary-light">
 					<li v-for="category in categories" :key="category">
 						<g-link :to="category.toLowerCase()" :title="`See all ${category} movies`">{{category}}</g-link>
 					</li>
@@ -87,7 +87,11 @@
 
 	nav li:hover {
 		@apply bg-secondary-lighter;
-	 }
+	}
+
+	nav ul ul {
+		@apply bg-white;
+	}
 
 	nav > ul li:hover > ul {
 		@apply inline;

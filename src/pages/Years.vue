@@ -1,6 +1,12 @@
 <template>
 	<Fixed title="Event Years" class="flex flex-wrap">
-		<g-link v-for="year in $page.allYears.edges" :key="year.node.id" :to="year.node.path" class="w-32 m-8 text-2xl text-center">
+		<g-link
+			v-for="year in $page.allYears.edges"
+			:key="year.node.id"
+			:to="year.node.path"
+			:title="'See all events in ' + year.node.title"
+			class="w-32 m-8 text-2xl text-center"
+		>
 			{{year.node.title}}
 		</g-link>
 	</Fixed>
