@@ -9,7 +9,7 @@
 
 <page-query>
 	{
-		allStudios {
+		allStudios(sortBy: "id", order: ASC) {
 			edges {
 				node {
 					id

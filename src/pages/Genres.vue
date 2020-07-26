@@ -11,7 +11,7 @@
 
 <page-query>
 	{
-		allGenres {
+		allGenres(sortBy: "id", order: ASC) {
 			edges {
 				node {
 					id

@@ -11,7 +11,7 @@
 
 <page-query>
 	{
-		allLanguages {
+		allLanguages(sortBy: "id", order: ASC) {
 			edges {
 				node {
 					id

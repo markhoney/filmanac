@@ -11,7 +11,7 @@
 
 <page-query>
 	{
-		allCountries {
+		allCountries(sortBy: "id", order: ASC) {
 			edges {
 				node {
 					id

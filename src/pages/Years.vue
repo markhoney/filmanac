@@ -1,18 +1,14 @@
 <template>
-	<Fixed>
-		<ul>
-			<li v-for="year in $page.years.edges" :key="year.node.id">
-				<g-link :to="year.node.path">
-					{{year.node.title}}
-				</g-link>
-			</li>
-		</ul>
+	<Fixed title="Event Years" class="flex flex-wrap">
+		<g-link v-for="year in $page.allYears.edges" :key="year.node.id" :to="year.node.path" class="w-32 m-8 text-2xl text-center">
+			{{year.node.title}}
+		</g-link>
 	</Fixed>
 </template>
 
 <page-query>
 	{
-		years: allYears {
+		allYears(sortBy: "id", order: ASC) {
 			edges {
 				node {
 					id

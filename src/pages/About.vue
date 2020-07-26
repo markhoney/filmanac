@@ -34,7 +34,8 @@
 		<h2>Stats</h2>
 		<p>
 			This database contains <b>{{stat('events')}}</b> events from <b>{{stat('movies')}}</b> movies.
-			These events cover <g-link to="/days">{{stat('days')}}</g-link> days of the year, and the events occurred in <g-link to="/years">{{stat('years')}}</g-link> different years.
+			These events cover <g-link to="/days">{{stat('days')}}</g-link> days of the year,
+			and the events occurred in <g-link to="/years">{{stat('years')}}</g-link> different years.
 			The movies were made in <g-link to="/countries">{{stat('countries')}}</g-link> countries,
 			by <g-link to="/studios">{{stat('studios')}}</g-link> different movie studios,
 			have <g-link to="/languages">{{stat('languages')}}</g-link> spoken (or signed) languages

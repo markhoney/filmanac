@@ -3,7 +3,7 @@
 		class="flex flex-col sm:flex-row pt-0 text-center bg-white dark:bg-primary-light text-black dark:text-gray-400 shadow-xl"
 		style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));"
 	>
-		<dark class="mr-4" />
+		<dark class="mx-4" />
 		<site-menu />
 		<h1 class="flex-auto text-center text-5xl font-bold text-primary-light dark:text-gray-300" style="font-family: Racing Sans One;">
 			<g-link class="hover:no-underline" to="/">
