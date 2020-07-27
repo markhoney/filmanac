@@ -1,6 +1,6 @@
 <template>
-	<Fixed>
-		<h2>About</h2>
+	<div>
+		<parallax :src="$page.allMovies.edges[0].node.images.fanart.src" title="About" class="mb-16" />
 		<p>
 			Have you ever spotted a date mentioned in a movie, or wondered when historical events in movies actually took place?
 			Wouldn't it be cool if you could watch a movie on the same date the events in it occurred?
@@ -11,7 +11,7 @@
 		</p>
 		<p>
 			Well, fret no longer. For every day of the year, this website suggests movies that you can watch.
-			What makes this site interesting is that it's not just picking random movies. Each suggestion is in someone connected to the day it's connected to.
+			What makes this site interesting is that it's not just picking random movies. Each suggestion is in some way connected to the day it's connected to.
 		</p>
 		<ul class="list-disc">
 			<li>It might be that a movie this site suggests is based on historical events, and an event in the movie happened on the day in question.</li>
@@ -31,7 +31,7 @@
 				Talk Like a Pirate Day (<g-link to="/september/19">September 19th</g-link>)
 			</li>
 		</ul>
-		<h2>Stats</h2>
+		<parallax :src="$page.allMovies.edges[1].node.images.fanart.src" title="Stats" class="mt-32 mb-16" />
 		<p>
 			This database contains <b>{{stat('events')}}</b> events from <b>{{stat('movies')}}</b> movies.
 			These events cover <g-link to="/days">{{stat('days')}}</g-link> days of the year,
@@ -41,7 +41,17 @@
 			have <g-link to="/languages">{{stat('languages')}}</g-link> spoken (or signed) languages
 			and were released in <g-link to="/released">{{stat('releaseyears')}}</g-link> different years.
 		</p>
-		<h2>History</h2>
+		<div class="stats">
+			<p><span>{{stat('events')}}</span>Events</p>
+			<p><span>{{stat('movies')}}</span>Movies</p>
+			<p><g-link to="/days">{{stat('days')}}</g-link>Days of the Year</p>
+			<p><g-link to="/years">{{stat('years')}}</g-link>Event Years</p>
+			<p><g-link to="/countries">{{stat('countries')}}</g-link>Countries</p>
+			<p><g-link to="/studios">{{stat('studios')}}</g-link>Studios</p>
+			<p><g-link to="/languages">{{stat('languages')}}</g-link>Languages</p>
+			<p><g-link to="/released">{{stat('releaseyears')}}</g-link>Movie Release Years</p>
+		</div>
+		<parallax :src="$page.allMovies.edges[2].node.images.fanart.src" title="History" class="mt-32 mb-16" />
 		<p>
 			The idea for this website came about when a friend watched <g-link to="/movie/tt0367594">Charlie and the Chocolate Factory</g-link> on the First of February,
 			and spotted that the visit to the chocolate factory happens on <g-link to="/february/1">February the first</g-link>.
@@ -64,22 +74,22 @@
 			I'm a big fan of shiny new JavaScript technologies, and a <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a>/GraphQL solution seemed perfect.
 			I've also used <a href="https://tailwindcss.com/" target="_blank" rel="noopener">Tailwind CSS</a>, a utility-first CSS library, to make things look pretty.
 		</p>
-		<h2>Metrics</h2>
+		<parallax :src="$page.allMovies.edges[3].node.images.fanart.src" title="Metrics" class="mt-32 mb-16" />
 		<h3 id="stars">Stars</h3>
 		<p>
 			The star rating on this website is based on
 			<a href="https://www.imdb.com/" target="_blank" rel="noopener">IMDB</a> and
 			<a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TheMovieDB</a> scores,
-			and takes into account that only very bad movies score below 40% (and not many reach below 30%), and not many movies score higher than 80%.
+			and takes into account that only very bad movies score below 40% (and not many of those reach below 30%), and very few movies score higher than 80%.
 		</p>
-		<dl>
-			<dt>0% - 40%</dt><dd>0 stars</dd>
-			<dt>40% - 50%</dt><dd>1 star</dd>
-			<dt>50% - 60%</dt><dd>2 stars</dd>
-			<dt>60% - 70%</dt><dd>3 stars</dd>
-			<dt>70% - 80%</dt><dd>4 stars</dd>
-			<dt>80% - 100%</dt><dd>5 stars</dd>
-		</dl>
+		<div class="scores">
+			<p><score :percent="35" :stars="5" />0% - 40%</p>
+			<p><score :percent="45" :stars="5" />40% - 50%</p>
+			<p><score :percent="55" :stars="5" />50% - 60%</p>
+			<p><score :percent="65" :stars="5" />60% - 70%</p>
+			<p><score :percent="75" :stars="5" />70% - 80%</p>
+			<p><score :percent="85" :stars="5" />80% - 100%</p>
+		</div>
 		<h3 id="bechdel">Bechdel Score</h3>
 		<p>
 			The Bechdel score uses the popular <a href="https://en.wikipedia.org/wiki/Bechdel_test" target="_blank" rel="noopener">Bechdel Test</a>
@@ -87,12 +97,10 @@
 			The bar for scoring is fairly low, but it's surprising how many movies don't manage to score the full three points.
 			Here's are the three levels of Bechdel scores:
 		</p>
-		<ol class="list-decimal">
-			<li>A movie has at least two women in it</li>
-			<li>A movie has at least two women in it who talk to each other</li>
-			<li>A movie has at least two women in it who talk to each other about something other than a man</li>
-		</ol>
-		<p>A movie with a Bechdel score of 0 does not even reach the level of having two women in it. This is frequently the case, for example, in older war movies.</p>
+		<p><bechdel :value="0" class="mr-2" />The movie does not have at least two women in it</p>
+		<p><bechdel :value="1" class="mr-2" />The movie has at least two women in it</p>
+		<p><bechdel :value="2" class="mr-2" />The movie has at least two women in it who talk to each other</p>
+		<p><bechdel :value="3" class="mr-2" />The movie has at least two women in it who talk to each other about something other than a man</p>
 		<p>
 			Bechdel results are scraped from the <a href="http://bechdeltest.com/" target="_blank" rel="noopener">Bechdel Test website</a>,
 			so if you want to see a Bechdel score for a movie on this site that's missing one, watch the movie, work out its score and add it to the site's API.
@@ -100,7 +108,8 @@
 		</p>
 		<h3 id="value">Value for Money</h3>
 		<p>Coming soon...</p>
-	</Fixed>
+		<parallax :src="$page.allMovies.edges[4].node.images.fanart.src" class="mt-32" />
+	</div>
 </template>
 
 <page-query>
@@ -113,14 +122,31 @@
 				}
 			}
 		}
+		allMovies(limit: 5, skip: 250) {
+			edges {
+				node {
+					images {
+						fanart
+					}
+				}
+			}
+		}
+
 	}
 </page-query>
 
-
 <script>
+	import Parallax from '@/components/generic/Parallax.vue';
+	import Score from '@/components/movie/Score.vue';
+	import Bechdel from '@/components/movie/Bechdel.vue';
 	export default {
 		metaInfo: {
 			title: 'About this website'
+		},
+		components: {
+			Parallax,
+			Score,
+			Bechdel,
 		},
 		methods: {
 			stat(name) {
@@ -141,21 +167,17 @@
 	h3 {
 		@apply text-2xl ml-2;
 	}
-	p, ul, ol, dl {
-		@apply m-4;
+	p, ul, ol, dl, h2, h3, .stats, .scores {
+		@apply m-4 max-w-screen-xl mx-auto px-4;
 	}
 	ul, ol {
-		@apply ml-8;
+		@apply pl-4;
 	}
-	dt {
-		@apply inline-block text-right w-24;
+	.scores, .stats {
+		@apply flex flex-wrap text-center;
 	}
-	dd {
-		@apply inline ml-3 font-bold;
-	}
-	dd:after {
-		content: '\A';
-		white-space: pre;
+	.stats span, .stats a {
+		@apply block text-3xl;
 	}
 	/* dt::after {
 		content: ":";

@@ -12,7 +12,12 @@
 <script>
 	export default {
 		title: "StarRating",
-		props: ['percent', 'stars', 'colour', 'numeric'],
+		props: {
+			percent: Number,
+			stars: Number,
+			colour: String,
+			numeric:Boolean,
+		},
 		computed: {
 			rating() {
 				// return this.percent * (this.stars + 1) / 100 - 0.5;

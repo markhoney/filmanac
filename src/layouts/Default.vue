@@ -4,7 +4,7 @@
 		style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.05));"
 	>
 		<site-header />
-		<div class="flex-grow bg-repeat" :style="{backgroundImage}">
+		<div class="flex-grow bg-repeat bg-fixed" :style="{backgroundImage}">
 			<slot />
 		</div>
 		<site-footer />

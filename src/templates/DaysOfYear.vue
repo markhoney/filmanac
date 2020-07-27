@@ -107,7 +107,7 @@
 	import EventCard from '@/components/event/Card.vue';
 	import NoEvents from '@/components/event/None.vue';
 	import Loading from '@/components/day/Loading.vue';
-	import BackForward from '@/components/site/BackForward.vue';
+	import BackForward from '@/components/generic/BackForward.vue';
 	export default {
 		components: {EventCard, NoEvents, Loading, BackForward},
 		data() {
