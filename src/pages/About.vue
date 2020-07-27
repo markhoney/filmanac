@@ -108,7 +108,7 @@
 		</p>
 		<h3 id="value">Value for Money</h3>
 		<p>Coming soon...</p>
-		<parallax :src="$page.allMovies.edges[4].node.images.fanart" class="mt-32" />
+		<parallax :src="$page.allMovies.edges[4].node.images.fanart" class="mt-64" />
 	</div>
 </template>
 
@@ -171,7 +171,7 @@
 		@apply m-4 max-w-screen-xl mx-auto px-4;
 	}
 	ul, ol {
-		@apply pl-4;
+		@apply pl-16;
 	}
 	.scores, .stats {
 		@apply flex flex-wrap text-center;
