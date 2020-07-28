@@ -1,5 +1,5 @@
 <template>
-	<span class="ml-4 pb-1 px-5 font-bold rounded-md" :class="colours[value]" :title="title">{{value}}</span>
+	<span class="ml-4 py-1 px-5 font-bold rounded-md" :class="colours[value]" :title="title">{{value}}</span>
 </template>
 
 <script>

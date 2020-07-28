@@ -88,7 +88,7 @@
 				image
 				path
 			}
-			events {
+			events(sortBy: "date", order: ASC) {
 				id
 				title
 				year {
