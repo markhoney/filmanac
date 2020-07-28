@@ -8,7 +8,7 @@
 			class="w-32 m-4"
 		>
 			<figure>
-				<g-image :src="country.node.image" class="invert" />
+				<g-image v-if="country.node.image" :src="country.node.image" class="invert" />
 				<figcaption class="text-center">{{country.node.title}}</figcaption>
 			</figure>
 		</g-link>
