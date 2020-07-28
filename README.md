@@ -55,9 +55,16 @@ Finally, to download and cache all required files, run:
     - Genres
   - Next movie view
     - Includes year
+  - Fix movie card
+    - Use poster view instead?
+  - VueX
+    - Global dark mode variable
+      - Invert icon colour based on mode
+        - Used both in movies/events, and on category pages
 
 - Layout
   - Red curtain
+    - Curtain overlay on red title?
     - Fixed top
       - Make 4k wide?
       - Centre
