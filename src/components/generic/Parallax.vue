@@ -1,15 +1,21 @@
 <template>
-	<div ref="imgParent" class="flex items-center justify-center w-full overflow-hidden" @scroll="parallax"> <!-- bg-fixed bg-center bg-cover bg-no-repeat :style="`background-image: url('${src}');`" -->
-		<g-image
-			ref="img"
-			:src="src"
-			class="absolute z-0 w-full object-cover"
-			:class="styles"
-			style="height: 20rem; filter: saturate(0.3) brightness(0.3);"
-		/>
-		<blockquote v-if="title" class="bg-black bg-opacity-75 font-serif mx-4 mt-56 p-4 px-64 text-center text-white z-10">
-			<p class="font-bold italic text-3xl">{{title}}</p>
+	<div ref="container" class="overflow-hidden"> <!-- flex items-center justify-center -->
+		<blockquote v-if="title" class="absolute bg-black bg-opacity-75 w-full mt-40 p-3 px-64 font-serif text-center text-white z-10">
+			<p class="font-bold italic text-5xl">{{title}}</p>
 		</blockquote>
+		<slot />
+		<div ref="image" :style="style.image">
+			<div ref="element" :style="style.element" class="relative overflow-hidden h-0" style="top: -100%;">
+				<div ref="inside" class="absolute top-0 left-0 h-full w-full">
+					<g-image
+						ref="img"
+						:src="src"
+						class="absolute z-10"
+						style="filter: saturate(0.5) brightness(0.5);"
+					/>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -18,42 +24,52 @@
 		props: ['src', 'title', 'speed'],
 		data() {
 			return {
-				height: 0,
-				scrollFactor: 0,
 				width: 0,
-				styles: {
-					top: '0%',
-					transform: 'translate(-50%, -0%)',
-				},
+				height: 0,
+				innerHeight: 0,
+				scrollFactor: 0,
+				factor: 0.5,
+				aspectRatio: 9 / 16,
 			};
 		},
-		created () {
-			window.addEventListener('scroll', this.parallax);
+		mounted() {
+			this.parallax();
+			window.addEventListener('resize', this.animation);
+			window.addEventListener('scroll', this.animation);
 		},
-		destroyed () {
-			window.removeEventListener('scroll', this.parallax);
+		destroyed() {
+			window.removeEventListener('resize', this.animation);
+			window.removeEventListener('scroll', this.animation);
+		},
+		computed: {
+			offset() {
+				return this.scrollFactor * this.height * this.factor;
+			},
+			compensatedHeight() {
+				return this.innerHeight - (this.innerHeight * this.factor);
+			},
+			style() {
+				return {
+					image: {height: `${this.compensatedHeight}px`},
+					element: {
+						transform: `translate3d(0, ${this.offset}px, 0)`,
+						paddingTop: `${this.aspectRatio * 100}%`,
+					},
+				};
+			},
 		},
 		methods: {
-			parallax(event) {
-				const speed = this.speed || 0.5;
-				const imgY = this.$refs.imgParent.offsetTop;
-				const winY = this.$refs.img.scrollTop;
-				const winH = this.$refs.img.height;
-				// const parentH = this.$refs.imgParent.innerHeight || ;
-				const parentH = this.$refs.img.clientHeight;
-				console.log(this.$refs);
-				console.log(imgY, winY, winH, parentH);
-				const winBottom = winY + winH;
-				// if (winBottom > imgY && winY < imgY + parentH) {
-					const imgPercent = ((((winBottom - imgY) * speed) / (winH + parentH)) * 100) + (50 - (speed * 50));
-					this.styles.top = imgPercent + '%';
-					this.styles.transform = 'translate(-50%, -' + imgPercent + '%)';
-					console.log(this.src.src, this.styles.top, this.styles.transform);
-				// }
-				/* this.$refs.img.css({
-					top: imgPercent + '%',
-					transform: 'translate(-50%, -' + imgPercent + '%)'
-				}); */
+			parallax() {
+				const containerRect = this.$refs.container.getBoundingClientRect();
+				this.width = containerRect.width;
+				this.height = containerRect.height;
+				this.innerHeight = this.$refs.inside.getBoundingClientRect().height;
+				const viewportOffsetTop = containerRect.top;
+				const viewportOffsetBottom = window.innerHeight - viewportOffsetTop;
+				this.scrollFactor = viewportOffsetBottom / (window.innerHeight + this.height);
+			},
+			animation() {
+				requestAnimationFrame(this.parallax);
 			},
 		},
 	};

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<parallax :src="fanart[0]" title="About" class="mb-16 mt-2" />
+		<parallax :src="fanart[0]" title="About" class="mb-16 h-64" />
 		<p>
 			Have you ever spotted a date mentioned in a movie, or wondered when historical events in movies actually took place?
 			Wouldn't it be cool if you could watch a movie on the same date the events in it occurred?
@@ -31,7 +31,7 @@
 				Talk Like a Pirate Day (<g-link to="/september/19">September 19th</g-link>)
 			</li>
 		</ul>
-		<parallax :src="fanart[1]" title="Stats" class="mt-24 mb-16" />
+		<parallax :src="fanart[1]" title="Stats" class="mt-24 mb-16 h-64" />
 		<p>
 			This database contains <b>{{stat('events')}}</b> events from <b>{{stat('movies')}}</b> movies.
 			These events cover <g-link to="/days">{{stat('days')}}</g-link> days of the year,
@@ -51,7 +51,7 @@
 			<p><g-link to="/languages">{{stat('languages')}}</g-link>Languages</p>
 			<p><g-link to="/released">{{stat('releaseyears')}}</g-link>Movie Release Years</p>
 		</div>
-		<parallax :src="fanart[2]" title="History" class="mt-24 mb-16" />
+		<parallax :src="fanart[2]" title="History" class="mt-24 mb-16 h-64" />
 		<p>
 			The idea for this website came about when a friend watched <g-link to="/movie/tt0367594">Charlie and the Chocolate Factory</g-link> on the First of February,
 			and spotted that the visit to the chocolate factory happens on <g-link to="/february/1">February the first</g-link>.
@@ -74,7 +74,7 @@
 			I'm a big fan of shiny new JavaScript technologies, and a <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a>/GraphQL solution seemed perfect.
 			I've also used <a href="https://tailwindcss.com/" target="_blank" rel="noopener">Tailwind CSS</a>, a utility-first CSS library, to make things look pretty.
 		</p>
-		<parallax :src="fanart[3]" title="Metrics" class="mt-24 mb-16" />
+		<parallax :src="fanart[3]" title="Metrics" class="mt-24 mb-16 h-64" />
 		<h3 id="stars">Stars</h3>
 		<p>
 			The star rating on this website is based on
@@ -108,7 +108,7 @@
 		</p>
 		<h3 id="value">Value for Money</h3>
 		<p>Coming soon...</p>
-		<parallax :src="fanart[4]" class="mt-64" />
+		<parallax :src="fanart[4]" class="mt-32 h-64" />
 	</div>
 </template>
 

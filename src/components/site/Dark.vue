@@ -29,10 +29,12 @@
 				if (dark) {
 					localStorage.setItem('theme', 'dark');
 					document.body.classList.add('dark-mode');
+					this.$store.dark(true);
 					// window.dark = true;
 				} else {
 					localStorage.setItem('theme', 'light');
 					document.body.classList.remove('dark-mode');
+					this.$store.dark(false);
 					// window.dark = false;
 				}
 			},

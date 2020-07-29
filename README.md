@@ -63,13 +63,8 @@ Finally, to download and cache all required files, run:
         - Used both in movies/events, and on category pages
 
 - Layout
-  - Red curtain
-    - Curtain overlay on red title?
-    - Fixed top
-      - Make 4k wide?
-      - Centre
-    - Variable sides
-      - Tiled on the outside
+  - ~~Red curtain~~
+    - ~~Curtain overlay on red title?~~
   - ~~Dark body~~
 
 - Stats
