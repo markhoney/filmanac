@@ -8,7 +8,7 @@
 			class="w-32 m-8"
 		>
 			<figure>
-				<g-image v-if="genre.node.image" :src="genre.node.image" class="invert" />
+				<g-image v-if="genre.node.image" :src="genre.node.image" :class="{invert: !$store.state.dark}" />
 				<figcaption class="text-center">{{genre.node.title}}</figcaption>
 			</figure>
 		</g-link>

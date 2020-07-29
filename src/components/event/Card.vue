@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex shadow-xl bg-gray-100 dark:bg-gray-900 rounded-lg"
+		class="flex shadow-xl bg-gray-100 dark:bg-gray-800 rounded-lg"
 		style="background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.05));"
 	>
 		<movie-poster :value="value.movie" :rounded="true" class="relative" />

@@ -27,7 +27,7 @@ export default function (Vue, {head, appOptions}) {
 			dark: false,
 		},
 		mutations: {
-			dark (state, dark) {
+			dark(state, dark) {
 				state.dark = dark;
 			}
 		}
