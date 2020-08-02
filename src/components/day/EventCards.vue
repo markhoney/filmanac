@@ -45,8 +45,8 @@
 		},
 		methods: {
 			navigate(key) {
-				if (key.code === 'ArrowLeft') this.$router.push({path: this.value.previous.path});
-				else if (key.code === 'ArrowRight') this.$router.push({path: this.value.next.path}); // || (key.code === 'Space' && this.bottom)
+				if (key.code === 'ArrowLeft' && this.value) this.$router.push({path: this.value.previous.path});
+				else if (key.code === 'ArrowRight' && this.value) this.$router.push({path: this.value.next.path}); // || (key.code === 'Space' && this.bottom)
 			},
 			scroll () {
 				this.bottom = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop) + window.innerHeight === document.documentElement.offsetHeight;
