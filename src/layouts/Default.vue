@@ -1,19 +1,17 @@
 <template>
 	<div
-		class="flex flex-col min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-300"
-		style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.05));"
+		class="h-screen flex flex-col min-h-screen text-grey-darkest dark:text-grey-lighter bg-repeat bg-fixed"
+		:style="{backgroundImage}"
 	>
-		<site-header />
-		<div class="flex-grow bg-repeat bg-fixed" :style="{backgroundImage}">
+		<site-header class="z-10 shadow-xl" />
+		<div class="overflow-y-auto flex-1 flex-grow bg-grey-lightest dark:bg-grey-darkest" style="--bg-opacity: 0.95; backdrop-filter: grayscale(100%);">
 			<slot />
 		</div>
-		<site-footer />
+		<site-footer class="z-10" />
 	</div>
 </template>
 
 <script>
-	// https://www.transparenttextures.com/
-	// https://www.heropatterns.com/
 	// https://katgregorowicz.com/The-Shining
 	import SiteHeader from '@/components/site/Header.vue';
 	import SiteFooter from '@/components/site/Footer.vue';
@@ -24,14 +22,15 @@
 				backgrounds: [
 					'overlook',
 					'peacock',
-					'goldroom',
+					'gold',
 					'maze',
 				],
 			};
 		},
 		computed: {
 			backgroundImage() {
-				return `url('/img/backgrounds/${this.backgrounds[~~(Math.random() * this.backgrounds.length)]}.png')`;
+				// return `url('/img/backgrounds/${this.backgrounds[~~(Math.random() * this.backgrounds.length)]}.png')`;
+				return `url('/img/backgrounds/tiles/${this.backgrounds[~~(Math.random() * this.backgrounds.length)]}.jpg')`;
 			},
 		},
 	}
@@ -43,5 +42,8 @@
 	}
 	a:hover {
 		@apply underline;
+	}
+	.invert {
+		filter: invert(1);
 	}
 </style>

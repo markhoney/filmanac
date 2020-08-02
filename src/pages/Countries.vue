@@ -1,6 +1,5 @@
 <template>
 	<Fixed title="Countries" class="flex flex-wrap">
-		###{{$store.dark}}###
 		<g-link
 			v-for="country in $page.allCountries.edges"
 			:key="country.node.id"
@@ -38,9 +37,3 @@
 		},
 	};
 </script>
-
-<style scoped lang="postcss">
-	.invert {
-		filter: invert(1);
-	}
-</style>

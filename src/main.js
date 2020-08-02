@@ -20,8 +20,8 @@ export default function (Vue, {head, appOptions}) {
 	Vue.use(Vuex);
 	Vue.component('Fixed', Fixed);
 	Vue.use(AsyncComputed);
-	head.htmlAttrs = {class: 'bg-gray-800'};
-	// head.bodyAttrs = {class: 'bg-gray-800'};
+	head.htmlAttrs = {class: 'bg-grey-darkest'};
+	// head.bodyAttrs = {class: 'bg-grey-darkest'};
 	appOptions.store = new Vuex.Store({
 		state: {
 			dark: false,

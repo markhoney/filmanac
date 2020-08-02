@@ -124,7 +124,7 @@
 	import MoviePoster from '@/components/movie/Poster.vue';
 	import MovieTitle from '@/components/movie/Title.vue';
 	import EventLine from '@/components/event/Line.vue';
-	import Icons from '@/components/movie/categories/Icons.vue';
+	import Icons from '@/components/movie/Icons.vue';
 	export default {
 		components: {Icons, Score, MoviePoster, Classification, Bechdel, MovieTitle, EventLine},
 		metaInfo() {

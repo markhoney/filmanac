@@ -1,11 +1,12 @@
 <template>
 	<header
-		class="flex flex-col sm:flex-row pt-0 text-center bg-white dark:bg-primary-light text-black dark:text-gray-400 shadow-xl bg-repeat-x"
-		style="background-image: url('/img/backgrounds/curtain.png'), linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));"
+		class="flex flex-col sm:flex-row pt-0 text-center bg-grey-lighter dark:bg-primary-dark text-black dark:text-grey-lightest bg-repeat-x"
+		style="background-image: url('/img/backgrounds/curtain.png');"
 	><!-- style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));" -->
-		<dark class="mx-4" />
+		<dark class="mx-4 mt-5" />
 		<site-menu />
-		<h1 class="flex-auto text-center text-5xl font-bold text-primary-light dark:text-gray-300" style="font-family: Racing Sans One;">
+		<slot />
+		<h1 v-if="!$slots.default" class="flex-auto text-center text-5xl font-bold text-primary-darker dark:text-grey-lighter pb-2" style="font-family: Racing Sans One;">
 			<g-link class="hover:no-underline" to="/">
 				{{title || $static.metadata.siteName}}
 			</g-link>
@@ -24,7 +25,7 @@
 
 <script>
 	// Bangers, Carter One, Sail, Bungee Shade, Creepster, Henny Penny, Alfa Slab One, Special Elite, Audiowide, Monoton, Racing Sans One, Josefin Sans, Catamaran
-	import Search from './Search.vue';
+	import Search from './search/Search.vue';
 	import SiteMenu from './Menu.vue';
 	import Dark from './Dark.vue';
 	export default {

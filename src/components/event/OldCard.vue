@@ -26,7 +26,7 @@
 
 <style scoped lang="postcss">
 	.plot {
-		@apply text-4xl text-base text-gray-100 leading-snug h-16 overflow-hidden;
+		@apply text-4xl text-base text-grey-lightest leading-snug h-16 overflow-hidden;
 		text-overflow: ellipsis;
 	}
 </style>

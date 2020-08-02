@@ -16,5 +16,17 @@
 				searchTerm: '',
 			};
 		},
+		mounted() {
+			if (this.$route.query.s) this.searchTerm = decodeURIComponent(this.$route.query.s);
+		},
+		watch: {
+			searchTerm(searchTerm) {
+				let searchParams = new URLSearchParams(window.location.search);
+				searchParams.set('s', searchTerm);
+				window.history.replaceState(null, '', window.location.pathname + searchTerm ? ('?' + searchParams.toString()) : '');
+				// this.$router.replace(window.location.pathname + '?' + searchParams.toString());
+				// this.$router.replace(window.location.pathname + '?s=' + searchTerm);
+			},
+		},
 	};
 </script>

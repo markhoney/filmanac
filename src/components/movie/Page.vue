@@ -37,7 +37,7 @@
 	import MoviePoster from '@/components/movie/Poster.vue';
 	import MovieTitle from '@/components/movie/Title.vue';
 	import EventLine from '@/components/event/Line.vue';
-	import Icons from './categories/Icons.vue';
+	import Icons from './Icons.vue';
 
 	export default {
 		components: {Icons, Score, MoviePoster, Classification, MovieTitle, EventLine},

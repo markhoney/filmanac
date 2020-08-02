@@ -4,7 +4,7 @@
 			<classification
 				v-for="classification in $page.allClassifications.edges"
 				:key="classification.node.id"
-				class="text-gray-800 dark:text-white border-gray-800 dark:border-white text-4xl m-8"
+				class="text-black border-black dark:text-white dark:border-white text-4xl m-8"
 				:value="classification.node"
 			/>
 		</div>

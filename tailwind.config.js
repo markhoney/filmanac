@@ -1,37 +1,58 @@
+const tinycolor = require("tinycolor2");
+
+const step = 15;
+
+function shades(colour) {
+	return {
+		darkest:  colour.clone().darken(step * 3).toHexString(),
+		darker:   colour.clone().darken(step * 2).toHexString(),
+		dark:     colour.clone().darken(step).toHexString(),
+		default:  colour.toHexString(),
+		light:    colour.clone().lighten(step).toHexString(),
+		lighter:  colour.clone().lighten(step * 2).toHexString(),
+		lightest: colour.clone().lighten(step * 3).toHexString(),
+	};
+}
+
+function colours(colours) {
+	const colors = {};
+	for (const colour of Object.keys(colours)) {
+		colors[colour] = shades(tinycolor(colours[colour]));
+	}
+	return colors;
+}
+
+function autoColours(hex) {
+	const tetrad = tinycolor(hex).tetrad();
+	const triad = tetrad[0].clone().triad();
+	const split = tetrad[0].clone().splitcomplement();
+	const grey = tetrad[0].clone().greyscale();
+	return {
+		primary: shades(tetrad[0]),
+		secondary: shades(tetrad[1]),
+		tertiary: shades(tetrad[2]),
+		quaternary: shades(tetrad[3]),
+		grey: shades(grey),
+		second: shades(triad[1]),
+		third: shades(triad[2]),
+		left: shades(split[1]),
+		right: shades(split[2]),
+	};
+}
+
 module.exports = {
 	purge: ['./src/**/*.vue'],
 	theme: {
 		extend: {
-			colors: { // https://paletton.com/#uid=72Q0u0kFccSvg88DJ9VBOjtEyqu
-				primary: {
-					darker: '#660300',
-					dark: '#410302',
-					default: '#4F0200',
-					light: '#9B0400',
-					lighter: '#D30500',
-				},
-				secondary: {
-					darker: '#003B3E',
-					dark: '#012527',
-					default: '#002E30',
-					light: '#005A5E',
-					lighter: '#017A80',
-				},
-				tertiary: {
-					darker: '#662F00',
-					dark: '#411F02',
-					default: '#4F2400',
-					light: '#9B4800',
-					lighter: '#9B4800',
-				},
-				complementary: {
-					darker: '#005105',
-					dark: '#013304',
-					default: '#003E04',
-					light: '#007A08',
-					lighter: '#00A60B',
-				},
-			},
+			// colors: autoColours('#D0262E'),
+			colors: colours({
+				primary: '#E03C31',
+				secondary: '#ECBAA8',
+				tertiary: '#71CC98',
+				quaternary: '#963821',
+				complementary: '#A65523',
+				grey: '#888888',
+			}),
 			/* screens: {
 				'light': {raw: '(prefers-color-scheme: light)'},
 				'dark': {raw: '(prefers-color-scheme: dark)'},
@@ -45,6 +66,7 @@ module.exports = {
 		textColor: ['responsive', 'hover', 'focus', 'dark'],
 		borderColor: ['responsive', 'hover', 'focus', 'dark'],
 		borderRadius: ['responsive', 'hover'],
+		opacity: ['responsive', 'hover', 'focus', 'dark'],
 	},
 	plugins: [
 		require('@danestves/tailwindcss-darkmode')(),

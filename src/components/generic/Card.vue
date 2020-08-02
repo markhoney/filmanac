@@ -1,12 +1,12 @@
 <template>
-	<div class="rounded shadow-lg m-4 flex bg-gray-900">
+	<div class="rounded shadow-lg m-4 flex bg-grey-darkest">
 		<div class="flex-none">
 			<g-link v-if="poster" :to="link">
 				<g-image class="h-32 w-24 md:h-64 md:w-48" :src="poster" :alt="title + ' poster'" />
 			</g-link>
 		</div>
 		<div class="flex-auto px-4">
-			<h3 class="font-bold text-2xl md:text-4xl text-gray-200 leading-tight">
+			<h3 class="font-bold text-2xl md:text-4xl text-grey-lighter leading-tight">
 				<g-link :to="link">{{title}}</g-link>
 			</h3>
 			<h4 class="text-base md:text-xl leading-tight">{{subtitle}}</h4>
@@ -19,7 +19,7 @@
 </template>
 
 <script>
-	import MovieIcons from '@/components/movie/categories/Icons.vue';
+	import MovieIcons from '@/components/movie/Icons.vue';
 	export default {
 		components: {MovieIcons},
 		props: ['link', 'poster', 'title', 'subtitle', 'icons'],

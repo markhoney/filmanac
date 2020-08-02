@@ -1,5 +1,5 @@
 <template>
-	<div class="h-10 pl-3 pr-2 bg-white border rounded text-gray-700 flex justify-between items-center relative">
+	<div class="h-10 pl-3 pr-2 bg-white border rounded text-grey-darker flex justify-between items-center relative">
 		<input
 			type="search"
 			placeholder="Search..."
@@ -9,11 +9,11 @@
 			@focus="$emit('focus')"
 			@blur="$emit('blur')"
 		/>
-		<button type="submit" class="ml-1 outline-none focus:outline-none active:outline-none">
+		<g-link :to="'/search?s=' + value" class="ml-1 outline-none focus:outline-none active:outline-none">
 			<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6">
 				<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
 			</svg>
-		</button>
+		</g-link>
 	</div>
 </template>
 

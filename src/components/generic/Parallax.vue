@@ -1,6 +1,6 @@
 <template>
 	<div ref="container" class="overflow-hidden"> <!-- flex items-center justify-center -->
-		<blockquote v-if="title" class="absolute bg-black bg-opacity-75 w-full mt-40 p-3 px-64 font-serif text-center text-white z-10">
+		<blockquote v-if="title" class="absolute bg-white text-black dark:bg-black dark:text-white bg-opacity-75 w-full mt-40 p-3 px-64 font-serif text-center z-10">
 			<p class="font-bold italic text-5xl">{{title}}</p>
 		</blockquote>
 		<slot />

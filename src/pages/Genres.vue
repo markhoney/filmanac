@@ -37,9 +37,3 @@
 		},
 	};
 </script>
-
-<style scoped lang="postcss">
-	.invert {
-		filter: invert(1);
-	}
-</style>

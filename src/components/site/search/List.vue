@@ -64,7 +64,6 @@
 		data() {
 			return {
 				items: [],
-				focus: false,
 			};
 		},
 		computed: {
@@ -74,9 +73,6 @@
 			}
 		},
 		methods: {
-			hide() {
-				setTimeout(() => {this.focus = false}, 100);
-			},
 			boldNew(result) {
 				return tag(result, deduplicateRanges(findPartsInString(result, this.value)));
 			},

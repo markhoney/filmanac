@@ -8,7 +8,7 @@
 			class="w-32 m-8"
 		>
 			<figure>
-				<g-image :src="language.node.image" class="invert" />
+				<g-image :src="language.node.image" />
 				<figcaption class="text-center">{{language.node.title}}</figcaption>
 			</figure>
 		</g-link>
