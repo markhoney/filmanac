@@ -1,5 +1,5 @@
 <template>
-	<nav class="z-40 font-bold">
+	<nav class="z-40 font-semibold">
 		<ul class="h-full">
 			<li><dark /></li>
 			<li><g-link to="/" title="See all movies for today">Today</g-link></li>
@@ -101,7 +101,7 @@
 	}
 
 	nav li li {
-		@apply relative;
+		@apply relative pt-1;
 		height: 1.6rem;
 	}
 
