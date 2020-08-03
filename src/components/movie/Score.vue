@@ -16,7 +16,7 @@
 			percent: Number,
 			stars: Number,
 			colour: String,
-			numeric:Boolean,
+			numeric: Boolean,
 		},
 		computed: {
 			rating() {

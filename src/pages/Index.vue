@@ -23,8 +23,6 @@
 		},
 		created () {
 			setInterval(() => this.now = new Date, 1000 * 60);
-		},
-		mounted () {
 			if (window) this.frontend = true;
 		},
 		computed: {

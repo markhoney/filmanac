@@ -1,17 +1,18 @@
 <template>
 	<header
-		class="flex flex-col sm:flex-row pt-0 text-center bg-grey-lighter dark:bg-primary-dark text-black dark:text-grey-lightest bg-repeat-x"
+		class="flex flex-col sm:flex-row pt-0 text-center bg-grey-lighter dark:bg-primary-dark text-black dark:text-grey-lightest bg-repeat-x leading-none transition-all duration-500 ease-in-out"
 		style="background-image: url('/img/backgrounds/curtain.png');"
+		:class="{'p-6 pt-8': $store.state.top}"
 	><!-- style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));" -->
-		<dark class="mx-4 mt-5" />
-		<site-menu />
+		<dark class="mx-4 mt-1 pt-2" />
+		<site-menu class="pt-2" />
 		<slot />
-		<h1 v-if="!$slots.default" class="flex-auto text-center text-5xl font-bold text-primary-darker dark:text-grey-lighter pb-2" style="font-family: Racing Sans One;">
+		<h1 v-if="!$slots.default" class="flex-auto text-center text-5xl pt-1 font-bold text-primary-darker dark:text-grey-lighter capitalize" style="font-family: Bangers, Monoton;">
 			<g-link class="hover:no-underline" to="/">
 				{{title || $static.metadata.siteName}}
 			</g-link>
 		</h1>
-		<search class="m-4" />
+		<search class="m-2" />
 	</header>
 </template>
 
@@ -31,5 +32,10 @@
 	export default {
 		components: {Search, SiteMenu, Dark},
 		props: ['title'],
+		data() {
+			return {
+				top: true,
+			};
+		},
 	}
 </script>

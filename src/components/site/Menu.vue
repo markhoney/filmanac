@@ -82,7 +82,7 @@
 	}
 
 	nav > ul > li {
-		@apply relative float-left p-2 h-full pt-6;
+		@apply relative float-left p-3;
 	}
 
 	nav li:hover {
@@ -104,7 +104,7 @@
 
 	nav > ul > li > ul {
 		@apply absolute left-0 hidden w-32;
-		top: 5rem;
+		top: 2.5rem;
 	}
 
 	nav > ul > li > ul > li > ul {

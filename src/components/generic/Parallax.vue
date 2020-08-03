@@ -32,7 +32,7 @@
 				aspectRatio: 9 / 16,
 			};
 		},
-		mounted() {
+		created() {
 			this.parallax();
 			window.addEventListener('resize', this.animation);
 			window.addEventListener('scroll', this.animation);

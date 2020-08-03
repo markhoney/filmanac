@@ -12,7 +12,7 @@
 			<div class="flex-auto ml-8 md:ml-16 z-10">
 				<div class="h-56">
 					<movie-title :value="$page.movie" class="font-bold text-white text-4xl md:text-5xl tracking-loose leading-tight z-10" style="text-shadow: 2px 2px #111;" />
-					<score v-if="$page.movie.score" class="mt-2 inline" :percent="$page.movie.score.id" :stars="5" />
+					<score v-if="$page.movie.score" class="mt-2 inline" :percent="$page.movie.score.number" :stars="5" />
 					<icons :value="$page.movie" class="hidden md:inline-flex my-4 md:mr-32 float-right" />
 				</div>
 				<div class="mt-4 mr-8 max-w-screen-lg p-8 text-xl">
@@ -45,6 +45,7 @@
 			}
 			score {
 				id
+				number
 			}
 			runtime
 			awards

@@ -145,6 +145,7 @@ class MovieEvents {
 	getScores() {
 		const scores = unique(this.movies.map((movie) => movie.score)).map((score) => ({
 			id: score,
+			number: score,
 			title: score + '%',
 		}));
 		return scores;

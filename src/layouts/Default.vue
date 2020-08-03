@@ -4,7 +4,7 @@
 		:style="{backgroundImage}"
 	>
 		<site-header class="z-10 shadow-xl" />
-		<div class="overflow-y-auto flex-1 flex-grow bg-grey-lightest dark:bg-grey-darkest" style="--bg-opacity: 0.95; backdrop-filter: grayscale(100%);">
+		<div ref="fixed" class="overflow-y-auto flex-grow bg-grey-lightest dark:bg-grey-darkest" style="--bg-opacity: 0.95; backdrop-filter: grayscale(100%);">
 			<slot />
 		</div>
 		<site-footer class="z-10" />
@@ -32,6 +32,20 @@
 				// return `url('/img/backgrounds/${this.backgrounds[~~(Math.random() * this.backgrounds.length)]}.png')`;
 				return `url('/img/backgrounds/tiles/${this.backgrounds[~~(Math.random() * this.backgrounds.length)]}.jpg')`;
 			},
+		},
+		methods: {
+			scroll() {
+				const fixed = this.$refs.fixed;
+				this.$store.commit('top', this.$refs.fixed.scrollTop < 50);
+				this.$store.commit('bottom', fixed.scrollHeight - fixed.clientHeight - fixed.scrollTop === 0);
+
+			},
+		},
+		mounted() {
+			this.$refs.fixed.addEventListener('scroll', this.scroll);
+		},
+		beforeDestroy() {
+			this.$refs.fixed.removeEventListener('scroll', this.scroll);
 		},
 	}
 </script>

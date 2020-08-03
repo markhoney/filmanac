@@ -1,14 +1,14 @@
 <template>
-	<Fixed v-if="$page.day" class="flex flex-col">
-		<back-forward :value="$page.day" title class="text-4xl mt-6" />
-		<template v-if="events" class="flex-grow">
-			<event-card v-for="event in events" :key="event.id" :value="event" class="my-4 md:my-8" />
+	<Fixed class="flex flex-col h-full">
+		<template v-if="$page.day">
+			<back-forward :value="$page.day" title class="text-4xl mt-6" />
+			<div v-if="events" class="flex-grow">
+				<event-card v-for="event in events" :key="event.id" :value="event" class="my-4 md:my-8" />
+			</div>
+			<no-events v-else class="flex-grow" />
+			<back-forward :value="$page.day" class="text-4xl mb-4" />
 		</template>
-		<no-events v-else class="flex-grow" />
-		<back-forward :value="$page.day" class="text-6xl" />
-	</Fixed>
-	<Fixed v-else>
-		<Loading />
+		<Loading v-else />
 	</Fixed>
 </template>
 
@@ -66,6 +66,7 @@
 					}
 					score {
 						id
+						number
 					}
 					votes
 					runtime
@@ -130,14 +131,6 @@
 				if (key.code === 'ArrowLeft') this.$router.push({path: this.$page.day.previous.path});
 				else if (key.code === 'ArrowRight') this.$router.push({path: this.$page.day.next.path}); // || (key.code === 'Space' && this.bottom)
 			},
-			scroll () {
-				this.bottom = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop) + window.innerHeight === document.documentElement.offsetHeight;
-			}
 		},
-		mounted() {
-			window.addEventListener('keydown', this.navigate);
-			// if (document.body.scrollHeight > document.body.clientHeight) this.bottom = false;
-			// window.addEventListener('scroll', this.scroll);
-		}
 	};
 </script>

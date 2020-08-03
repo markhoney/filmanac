@@ -22,6 +22,7 @@
 				}
 				score {
 					id
+					number
 				}
 				runtime
 				awards

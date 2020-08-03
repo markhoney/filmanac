@@ -13,7 +13,7 @@
 	>
 		<p class="text-xl text-grey-lightest leading-snug h-20 overflow-hidden">{{value.plot}}</p>
 		<classification v-if="value.classification" class="float-right" :value="value.classification" />
-		<score v-if="value.score" class="mt-2" :percent="value.score.id" :stars="5" />
+		<score v-if="value.score" class="mt-2" :percent="value.score.number" :stars="5" />
 		<!--<p class="mt-4 text-grey-lightest">- Directed by {{value.director}}.</p>-->
 	</Card>
 </template>

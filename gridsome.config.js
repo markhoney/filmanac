@@ -4,7 +4,7 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const siteName = 'A Film for Today';
+const siteName = 'A Movie for Today';
 
 module.exports = {
 	siteName,
