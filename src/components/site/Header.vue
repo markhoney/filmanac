@@ -1,6 +1,6 @@
 <template>
 	<header
-		class="flex flex-col sm:flex-row pt-0 text-center bg-grey-lightest dark:bg-primary-dark text-black dark:text-grey-lightest bg-repeat-x leading-none transition-all duration-500 ease-in-out"
+		class="flex flex-col sm:flex-row pt-0 text-center bg-grey-lightest dark:bg-primary-dark text-black dark:text-grey-lightest bg-repeat-x leading-none transition-all duration-500 ease-in-out bg-bottom"
 		:style="style"
 		:class="{'p-6 pt-8': $store.state.top}"
 	><!-- style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));" -->
