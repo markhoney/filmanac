@@ -1,6 +1,7 @@
 <template>
 	<nav class="z-40 font-bold">
 		<ul class="h-full">
+			<li><dark /></li>
 			<li><g-link to="/" title="See all movies for today">Today</g-link></li>
 			<li>
 				<g-link to="/">Days</g-link>
@@ -49,7 +50,9 @@
 </static-query>
 
 <script>
+	import Dark from './Dark.vue';
 	export default {
+		components: {Dark},
 		data() {
 			return {
 				categories: [

@@ -1,10 +1,9 @@
 <template>
 	<header
-		class="flex flex-col sm:flex-row pt-0 text-center bg-grey-lighter dark:bg-primary-dark text-black dark:text-grey-lightest bg-repeat-x leading-none transition-all duration-500 ease-in-out"
-		style="background-image: url('/img/backgrounds/curtain.png');"
+		class="flex flex-col sm:flex-row pt-0 text-center bg-grey-lightest dark:bg-primary-dark text-black dark:text-grey-lightest bg-repeat-x leading-none transition-all duration-500 ease-in-out"
+		:style="style"
 		:class="{'p-6 pt-8': $store.state.top}"
 	><!-- style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));" -->
-		<dark class="mx-4 mt-1 pt-2" />
 		<site-menu class="pt-2" />
 		<slot />
 		<h1 v-if="!$slots.default" class="flex-auto text-center text-5xl pt-1 font-bold text-primary-darker dark:text-grey-lighter capitalize" style="font-family: Bangers, Monoton;">
@@ -28,14 +27,18 @@
 	// Bangers, Carter One, Sail, Bungee Shade, Creepster, Henny Penny, Alfa Slab One, Special Elite, Audiowide, Monoton, Racing Sans One, Josefin Sans, Catamaran
 	import Search from './search/Search.vue';
 	import SiteMenu from './Menu.vue';
-	import Dark from './Dark.vue';
 	export default {
-		components: {Search, SiteMenu, Dark},
+		components: {Search, SiteMenu},
 		props: ['title'],
 		data() {
 			return {
 				top: true,
 			};
+		},
+		computed: {
+			style() {
+				if (this.$store.state.dark) return {backgroundImage: `url('/img/backgrounds/curtain.png')`};
+			},
 		},
 	}
 </script>

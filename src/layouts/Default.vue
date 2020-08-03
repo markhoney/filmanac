@@ -4,7 +4,11 @@
 		:style="{backgroundImage}"
 	>
 		<site-header class="z-10 shadow-xl" />
-		<div ref="fixed" class="overflow-y-auto flex-grow bg-grey-lightest dark:bg-grey-darkest" style="--bg-opacity: 0.95; backdrop-filter: grayscale(100%);">
+		<div
+			ref="fixed"
+			class="overflow-y-auto flex-grow bg-grey-lightest dark:bg-grey-darkest"
+			style="--bg-opacity: 0.95; backdrop-filter: grayscale(100%);"
+		>
 			<slot />
 		</div>
 		<site-footer class="z-10" />
