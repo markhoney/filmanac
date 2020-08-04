@@ -21,7 +21,7 @@
 				months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
 			};
 		},
-		created () {
+		mounted () {
 			setInterval(() => this.now = new Date, 1000 * 60);
 			if (window) this.frontend = true;
 		},

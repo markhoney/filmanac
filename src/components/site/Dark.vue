@@ -16,7 +16,7 @@
 			color() {return this.dark ? '#eeeeee' : '#333333'},
 			title() {return this.dark ? 'light' : 'dark'},
 		},
-		created() {
+		mounted() {
 			document.body.classList.add('dark-mode');
 			if (window.localStorage.getItem('theme') === 'dark') this.dark = true;
 			else if (window.localStorage.getItem('theme') === 'light') this.dark = false;

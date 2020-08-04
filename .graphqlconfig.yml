@@ -1,0 +1,5 @@
+projects:
+  gridsome:
+    extensions:
+      endpoints:
+        default: 'http://localhost:8080/___explore'
