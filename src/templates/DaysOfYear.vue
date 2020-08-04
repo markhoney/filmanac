@@ -1,7 +1,7 @@
 <template>
 	<Fixed class="flex flex-col h-full">
 		<template v-if="$page.day">
-			<back-forward :value="$page.day" title class="text-4xl mt-6" />
+			<back-forward :value="$page.day" title class="text-5xl" />
 			<div v-if="events" class="flex-grow">
 				<event-card v-for="event in events" :key="event.id" :value="event" class="my-4 md:my-8" />
 			</div>
@@ -108,7 +108,7 @@
 	import EventCard from '@/components/event/Card.vue';
 	import NoEvents from '@/components/event/None.vue';
 	import Loading from '@/components/day/Loading.vue';
-	import BackForward from '@/components/generic/BackForward.vue';
+	import BackForward from '@/components/day/BackForward.vue';
 	export default {
 		components: {EventCard, NoEvents, Loading, BackForward},
 		data() {

@@ -1,6 +1,6 @@
 <template>
 	<section v-if="value">
-		<h1 class="font-bold text-4xl text-center">
+		<h1 class="font-bold text-5xl text-center">
 			<g-link :to="value.previous.path" :title="value.previous.title">🠰</g-link>&nbsp;
 			<span class="inline-block"><g-link :to="value.month.path" :title="'See all events in ' + value.month.title">{{value.month.title}}</g-link> {{value.day.id}}{{value.day.ordinal}}</span>&nbsp;
 			<g-link :to="value.next.path" :title="value.next.title">🠲</g-link>
