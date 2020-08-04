@@ -52,12 +52,12 @@
 				this.bottom = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop) + window.innerHeight === document.documentElement.offsetHeight;
 			}
 		},
-		created() {
+		mounted() {
 			window.addEventListener('keydown', this.navigate);
 			// if (document.body.scrollHeight > document.body.clientHeight) this.bottom = false;
 			// window.addEventListener('scroll', this.scroll);
 		},
-		destroyed() {
+		beforeDestroy() {
 			window.removeEventListener('keydown', this.navigate);
 		},
 	};
