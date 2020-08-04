@@ -55,13 +55,9 @@
 	import MovieCard from '@/components/movie/Card.vue';
 	export default {
 		components: {MovieCard},
-		metaInfo() {
-			return {
-				title: this.title,
-			};
-		},
+		metaInfo() {return {title: this.title}},
 		computed: {
-			title() {return this.$page.studio.title + ' Movies'},
+			title() {return 'Movies made by ' + this.$page.studio.title},
 		},
 	};
 </script>

@@ -82,11 +82,7 @@
 	import MovieCard from '@/components/movie/Card.vue';
 	export default {
 		components: {MovieCard},
-		metaInfo() {
-			return {
-				title: this.title,
-			};
-		},
+		metaInfo() {return {title: this.title}},
 		computed: {
 			title() {return 'Movies released in ' + this.$page.year.id},
 		},

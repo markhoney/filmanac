@@ -116,14 +116,10 @@
 				bottom: true,
 			};
 		},
-		metaInfo() {
-			return {
-				title: this.title,
-			};
-		},
+		metaInfo() {return {title: this.title}},
 		computed: {
+			title() {return 'Events on ' + this.date},
 			date() {return this.$page.day.month.title + ' ' + this.$page.day.day.id + this.$page.day.day.ordinal},
-			title() {return this.date + ' Movies'},
 			events() {return this.$page.day.events.sort((a, b) => b.movie.votes - a.movie.votes)},
 		},
 		methods: {

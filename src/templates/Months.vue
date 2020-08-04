@@ -1,5 +1,5 @@
 <template>
-	<Fixed :title="$page.month.title">
+	<Fixed :title="title">
 		<ul>
 			<li v-for="day in $page.month.daysofyear" :key="day.id">
 				<h2 class="text-4xl border-b-2 border-black dark:border-white"><g-link :to="day.path" :title="'See all movies on ' + day.title">{{day.day.id}}{{day.day.ordinal}}</g-link></h2>
@@ -45,13 +45,9 @@
 	import EventLine from '@/components/event/Line.vue';
 	export default {
 		components: {MovieTitle, EventLine},
-		metaInfo() {
-			return {
-				title: this.title,
-			};
-		},
+		metaInfo() {return {title: this.title}},
 		computed: {
-			title() {return this.$page.month.title + ' Movies'},
+			title() {return 'Movies set in ' + this.$page.month.title},
 		},
 	};
 </script>

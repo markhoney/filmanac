@@ -20,8 +20,10 @@
 <script>
 	import tailwind from '@/../tailwind.config';
 	export default {
+		metaInfo() {return {title: this.title}},
 		data() {
 			return {
+				title: 'Colour Palette',
 				colours: tailwind.theme.extend.colors,
 			};
 		},

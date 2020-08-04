@@ -128,11 +128,7 @@
 	import Icons from '@/components/movie/Icons.vue';
 	export default {
 		components: {Icons, Score, MoviePoster, Classification, Bechdel, MovieTitle, EventLine},
-		metaInfo() {
-			return {
-				title: this.title,
-			};
-		},
+		metaInfo() {return {title: this.title}},
 		computed: {
 			title() {return this.$page.movie.title},
 		},

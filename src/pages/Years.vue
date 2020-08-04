@@ -1,5 +1,5 @@
 <template>
-	<Fixed title="Event Years" class="flex flex-wrap">
+	<Fixed :title="title" class="flex flex-wrap">
 		<g-link
 			v-for="year in $page.allYears.edges"
 			:key="year.node.id"
@@ -28,8 +28,7 @@
 
 <script>
 	export default {
-		metaInfo: {
-			title: 'Event Years',
-		},
+		metaInfo() {return {title: this.title}},
+		data() {return {title: 'Event Years'}},
 	};
 </script>

@@ -7,7 +7,11 @@
 	><!-- style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));" -->
 		<site-menu class="pt-2" />
 		<slot />
-		<h1 v-if="!$slots.default" class="flex-auto text-center text-5xl pt-1 font-bold text-primary-darker dark:text-grey-lighter capitalize" style="font-family: Bangers, Monoton;">
+		<h1
+			v-if="!$slots.default"
+			class="flex-auto text-center text-5xl pt-1 font-bold text-primary-darker dark:text-grey-lighter capitalize font-bold"
+			style="font-family: Bangers, Monoton;"
+		>
 			<g-link class="hover:no-underline" to="/">
 				{{title || $static.metadata.siteName}}
 			</g-link>

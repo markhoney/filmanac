@@ -1,5 +1,5 @@
 <template>
-	<Fixed :title="$page.year.title">
+	<Fixed :title="title">
 		<div v-for="month in months" :key="month.id">
 			<h2 class="text-4xl border-b-2 border-white"><g-link :to="month.path">{{month.title}}</g-link></h2>
 			<ul>
@@ -47,13 +47,9 @@
 
 <script>
 	export default {
-		metaInfo() {
-			return {
-				title: this.title,
-			};
-		},
+		metaInfo() {return {title: this.title}},
 		computed: {
-			title() {return this.$page.year.title + ' Movies'},
+			title() {return 'Movies set in ' + this.$page.year.title},
 			months() {
 				return this.$page.year.events.reduce((months, event) => {
 					const month = event.dayofyear.month;

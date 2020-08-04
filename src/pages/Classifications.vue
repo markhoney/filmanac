@@ -1,5 +1,5 @@
 <template>
-	<Fixed title="Movie Classifications">
+	<Fixed :title="$metaInfo.title">
 		<div class="flex flex-wrap justify-between mt-12">
 			<classification
 				v-for="classification in $page.allClassifications.edges"
@@ -29,8 +29,7 @@
 	import Classification from '@/components/movie/Classification.vue';
 	export default {
 		components: {Classification},
-		metaInfo: {
-			title: 'Movie Classifications',
-		},
+		metaInfo() {return {title: this.title}},
+		data() {return {title: 'Movie Classifications'}},
 	};
 </script>

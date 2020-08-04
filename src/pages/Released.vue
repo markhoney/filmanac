@@ -1,5 +1,5 @@
 <template>
-	<Fixed title="Movie Release Years" class="flex flex-wrap">
+	<Fixed :title="title" class="flex flex-wrap">
 		<g-link
 			v-for="year in $page.allReleaseYears.edges"
 			:key="year.node.id"
@@ -28,8 +28,7 @@
 
 <script>
 	export default {
-		metaInfo: {
-			title: 'Release Years',
-		},
+		metaInfo() {return {title: this.title}},
+		data() {return {title: 'Movie Release Years'}},
 	};
 </script>

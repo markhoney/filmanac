@@ -8,11 +8,7 @@
 	import Day from '@/components/day/EventCards.vue';
 	export default {
 		components: {Day},
-		metaInfo() {
-			return {
-				title: this.title,
-			};
-		},
+		metaInfo() {return {title: this.title}},
 		data () {
 			return {
 				now: new Date(),

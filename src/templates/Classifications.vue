@@ -1,5 +1,5 @@
 <template>
-	<fixed :title="'Movies classified ' + $page.classification.title">
+	<fixed :title="title">
 		<movie-card v-for="movie in $page.classification.movies" :key="movie.id" :value="movie" />
 	</fixed>
 </template>
@@ -50,13 +50,7 @@
 	import MovieCard from '@/components/movie/Card.vue';
 	export default {
 		components: {MovieCard},
-		metaInfo() {
-			return {
-				title: this.title,
-			};
-		},
-		computed: {
-			title() {return this.$page.classification.title + ' Movies'},
-		},
+		metaInfo() {return {title: this.title}},
+		computed: {title() {return 'Movies classified ' + this.$page.classification.title}},
 	};
 </script>

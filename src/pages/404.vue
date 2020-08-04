@@ -1,13 +1,14 @@
 <template>
-	<Fixed title="Page not Found (404)">
+	<Fixed :title="title">
 
 	</Fixed>
 </template>
 
 <script>
-export default {
-
-}
+	export default {
+		metaInfo() {return {title: this.title}},
+		data() {return {title: '404 - Page not Found'}},
+	};
 </script>
 
 <style>

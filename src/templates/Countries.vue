@@ -60,13 +60,9 @@
 	import MovieCard from '@/components/movie/Card.vue';
 	export default {
 		components: {MovieCard},
-		metaInfo() {
-			return {
-				title: this.title,
-			};
-		},
+		metaInfo() {return {title: this.title}},
 		computed: {
-			title() {return this.$page.country.possessive + ' Movies'},
+			title() {return 'Movies made in ' + this.$page.country.possessive},
 		},
 	};
 </script>

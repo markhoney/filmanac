@@ -1,5 +1,5 @@
 <template>
-	<Fixed title="Languages" class="flex flex-wrap">
+	<Fixed :title="title" class="flex flex-wrap">
 		<g-link
 			v-for="language in $page.allLanguages.edges"
 			:key="language.node.id"
@@ -32,8 +32,7 @@
 
 <script>
 	export default {
-		metaInfo: {
-			title: 'Movie Languages',
-		},
+		metaInfo() {return {title: this.title}},
+		data() {return {title: 'Languages in Movies'}},
 	};
 </script>

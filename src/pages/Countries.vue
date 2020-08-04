@@ -1,5 +1,5 @@
 <template>
-	<Fixed title="Countries" class="flex flex-wrap">
+	<Fixed :title="title" class="flex flex-wrap">
 		<g-link
 			v-for="country in $page.allCountries.edges"
 			:key="country.node.id"
@@ -32,8 +32,7 @@
 
 <script>
 	export default {
-		metaInfo: {
-			title: 'Movie Countries',
-		},
+		metaInfo() {return {title: this.title}},
+		data() {return {title: 'Movie Countries'}},
 	};
 </script>

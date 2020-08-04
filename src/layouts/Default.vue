@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="h-screen flex flex-col min-h-screen text-grey-darkest dark:text-grey-lighter bg-repeat bg-fixed"
+		class="h-screen flex flex-col min-h-screen text-grey-darkest dark:text-grey-lighter bg-repeat bg-fixed transition-all duration-500 ease-in-out"
 		:style="{backgroundImage}"
 	>
 		<site-header class="z-10 shadow-xl" />
@@ -40,7 +40,8 @@
 		methods: {
 			scroll() {
 				const fixed = this.$refs.fixed;
-				this.$store.commit('top', this.$refs.fixed.scrollTop < 50);
+				if (this.$refs.fixed.scrollTop < 50) this.$store.commit('top', true);
+				if (this.$refs.fixed.scrollTop > 80) this.$store.commit('top', false);
 				this.$store.commit('bottom', fixed.scrollHeight - fixed.clientHeight - fixed.scrollTop === 0);
 
 			},

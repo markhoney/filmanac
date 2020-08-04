@@ -1,5 +1,5 @@
 <template>
-	<Fixed title="Days of the Year">
+	<Fixed :title="title">
 		<ul>
 			<li v-for="month in $page.allMonths.edges" :key="month.node.id">
 				<h2 class="text-4xl border-b-2 border-white"><g-link :to="month.node.path" :title="'See all movies in ' + month.node.title">{{month.node.title}}</g-link></h2>
@@ -41,7 +41,8 @@
 
 <script>
 	export default {
-
+		metaInfo() {return {title: this.title}},
+		data() {return {title: 'Days of the Year'}},
 	}
 </script>
 

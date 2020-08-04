@@ -5,7 +5,8 @@
 			:title="'See all events for ' + value.previous.title"
 			class="pr-2 text-lg"
 		>{{value.previous.title}}</g-link>
-		<h1 v-if="title" class="inline-block px-6 pb-3" style="min-width: 20rem;">
+		<h1 v-if="title" class="inline-block px-6 pb-3">
+			<span class="hidden sm:inline">Movies for </span>
 			<g-link :to="value.month.path" :title="'See all events in ' + value.month.title">{{value.month.title}}</g-link>
 			{{value.day.id}}{{value.day.ordinal}}
 		</h1>

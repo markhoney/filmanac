@@ -141,7 +141,7 @@
 	import Bechdel from '@/components/movie/Bechdel.vue';
 	export default {
 		metaInfo: {
-			title: 'About this website'
+			title: 'About'
 		},
 		components: {
 			Parallax,
@@ -149,6 +149,7 @@
 			Bechdel,
 		},
 		computed: {
+			title() {return 'Movies classified ' + this.$page.classification.title},
 			fanart() {
 				return this.$page.allMovies.edges.filter((edge) => edge.node.images.fanart).map((edge) => edge.node.images.fanart);
 			},

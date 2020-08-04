@@ -1,5 +1,5 @@
 <template>
-	<Fixed title="Studios" class="flex flex-wrap">
+	<Fixed :title="title" class="flex flex-wrap">
 		<g-link v-for="studio in $page.allStudios.edges" :key="studio.node.id" :to="studio.node.path" class="w-32 m-8">
 			<g-image v-if="studio.node.image" :src="studio.node.image" />
 			<h3 v-else class="text-center">{{studio.node.title}}</h3>
@@ -24,8 +24,7 @@
 
 <script>
 	export default {
-		metaInfo: {
-			title: 'Movie Studios',
-		},
+		metaInfo() {return {title: this.title}},
+		data() {return {title: 'Movie Studios'}},
 	};
 </script>

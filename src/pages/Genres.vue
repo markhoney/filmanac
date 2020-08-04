@@ -1,5 +1,5 @@
 <template>
-	<Fixed title="Genres" class="flex flex-wrap">
+	<Fixed :title="title" class="flex flex-wrap">
 		<g-link
 			v-for="genre in $page.allGenres.edges"
 			:key="genre.node.id"
@@ -32,8 +32,7 @@
 
 <script>
 	export default {
-		metaInfo: {
-			title: 'Movie Genres',
-		},
+		metaInfo() {return {title: this.title}},
+		data() {return {title: 'Movie Genres'}},
 	};
 </script>
