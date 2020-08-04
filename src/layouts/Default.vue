@@ -21,23 +21,14 @@
 	import SiteFooter from '@/components/site/Footer.vue';
 	export default {
 		components: {SiteHeader, SiteFooter},
-		data() {
-			return {
-				backgrounds: [
-					'overlook',
-					'peacock',
-					'gold',
-					'maze',
-				],
-			};
-		},
 		computed: {
 			backgroundImage() {
 				// return `url('/img/backgrounds/${this.backgrounds[~~(Math.random() * this.backgrounds.length)]}.png')`;
-				return `url('/img/backgrounds/tiles/${this.backgrounds[~~(Math.random() * this.backgrounds.length)]}.jpg')`;
+				return `url('/img/backgrounds/tiles/${this.random(this.$store.state.tiles)}.jpg')`;
 			},
 		},
 		methods: {
+			random: (array) => array[~~(Math.random() * array.length)],
 			scroll() {
 				const fixed = this.$refs.fixed;
 				if (this.$refs.fixed.scrollTop < 50) this.$store.commit('top', true);

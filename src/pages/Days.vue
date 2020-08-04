@@ -2,7 +2,7 @@
 	<Fixed :title="title">
 		<ul>
 			<li v-for="month in $page.allMonths.edges" :key="month.node.id">
-				<h2 class="text-4xl border-b-2 border-white"><g-link :to="month.node.path" :title="'See all movies in ' + month.node.title">{{month.node.title}}</g-link></h2>
+				<h2 class="text-4xl"><g-link :to="month.node.path" :title="'See all movies in ' + month.node.title">{{month.node.title}}</g-link></h2>
 				<ul>
 					<li v-for="day in month.node.daysofyear" :key="day.id" class="inline-block">
 						<h3>

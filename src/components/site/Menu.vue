@@ -1,15 +1,19 @@
 <template>
-	<nav class="z-40 font-semibold">
+	<nav class="font-semibold">
 		<ul class="h-full">
 			<li><dark /></li>
 			<li><g-link to="/" title="See all movies for today">Today</g-link></li>
 			<li>
-				<g-link to="/">Days</g-link>
+				<g-link to="/days" title="See all days of the year">Days</g-link>
 				<ul class="dark:bg-primary-darker">
 					<li v-for="month in $static.months.edges" :key="month.node.id">
 						<g-link :to="month.node.path" :title="'See all movies in ' + month.node.title">{{month.node.title}}</g-link>
 						<ul class="dark:bg-primary-darker">
-							<li v-for="day in month.node.daysofyear" :key="day.day.id"><g-link :to="day.path" :title="`See all movies for ${month.node.title} ${day.day.id}${day.day.ordinal}`">{{day.day.id}}{{day.day.ordinal}}</g-link></li>
+							<li v-for="day in month.node.daysofyear" :key="day.day.id">
+								<g-link :to="day.path" :title="`See all movies for ${month.node.title} ${day.day.id}${day.day.ordinal}`">
+									{{day.day.id}}{{day.day.ordinal}}
+								</g-link>
+							</li>
 						</ul>
 					</li>
 				</ul>
@@ -18,11 +22,12 @@
 				Categories
 				<ul class="dark:bg-primary-darker">
 					<li v-for="category in categories" :key="category">
-						<g-link :to="category.toLowerCase()" :title="`See all ${category} movies`">{{category}}</g-link>
+						<g-link :to="category.toLowerCase()" :title="`See all ${category}`">{{category}}</g-link>
 					</li>
 				</ul>
 			</li>
-			<li><g-link to="/about/">About</g-link></li>
+			<li><g-link to="/submit" title="Submit a Movie">Submit</g-link></li>
+			<li><g-link to="/about" title="About this website">About</g-link></li>
 		</ul>
 	</nav>
 </template>
@@ -97,7 +102,7 @@
 	}
 
 	nav ul ul {
-		@apply bg-white;
+		@apply bg-white z-50;
 	}
 
 	nav li li {

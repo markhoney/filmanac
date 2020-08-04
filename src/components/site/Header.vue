@@ -9,8 +9,8 @@
 		<slot />
 		<h1
 			v-if="!$slots.default"
-			class="flex-auto text-center text-5xl pt-1 font-bold text-primary-darker dark:text-grey-lighter capitalize font-bold"
-			style="font-family: Bangers, Monoton;"
+			class="flex-auto text-center text-5xl pt-1 font-bold text-primary-darker dark:text-grey-lighter uppercase"
+			:style="font"
 		>
 			<g-link class="hover:no-underline" to="/">
 				{{title || $static.metadata.siteName}}
@@ -40,10 +40,16 @@
 				top: true,
 			};
 		},
+		methods: {
+			random: (array) => array[~~(Math.random() * array.length)],
+		},
 		computed: {
 			style() {
 				// if (this.$store.state.dark) return {backgroundImage: `url('/img/backgrounds/curtain.png')`};
 			},
+			font() {
+				return {fontFamily: this.random(this.$store.state.fonts)};
+			}
 		},
 	}
 </script>

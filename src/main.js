@@ -2,19 +2,21 @@ import Vuex from 'vuex';
 import AsyncComputed from 'vue-async-computed';
 import Fixed from '~/layouts/Fixed.vue';
 
-// require('typeface-bangers');
-// require('typeface-carter-one');
-// require('typeface-sail');
-// require('typeface-bungee-shade');
-// require('typeface-creepster');
-// require('typeface-henny-penny');
-// require('typeface-alfa-slab-one');
-// require('typeface-special-elite');
-// require('typeface-audiowide');
+// for (const font of fonts) require('typeface-' + font.split(' ').join('').toLowerCase()); // https://fonts.google.com/
+require('typeface-carter-one');
+require('typeface-bungee-shade');
+require('typeface-creepster');
+require('typeface-henny-penny');
+require('typeface-alfa-slab-one');
+require('typeface-audiowide');
 require('typeface-monoton');
-// require('typeface-racing-sans-one');
-// require('typeface-josefin-sans');
-// require('typeface-catamaran');
+require('typeface-bangers');
+require('typeface-black-ops-one');
+require('typeface-shojumaru');
+require('typeface-faster-one');
+require('typeface-ewert');
+require('typeface-fascinate-inline');
+require('typeface-voltaire');
 
 export default function (Vue, {head, appOptions}) {
 	Vue.use(Vuex);
@@ -27,6 +29,8 @@ export default function (Vue, {head, appOptions}) {
 			dark: false,
 			top: true,
 			bottom: false,
+			tiles: ['gold', 'overlook', 'peacock', 'maze'],
+			fonts: ['Bangers', 'Carter One', 'Shojumaru', 'Bungee Shade', 'Creepster', 'Henny Penny', 'Alfa Slab One', 'Audiowide', 'Monoton', 'Black Ops One', 'Faster One', 'Ewert', 'Fascinate Inline', 'Voltaire'],
 		},
 		mutations: {
 			dark(state, dark) {

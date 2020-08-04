@@ -2348,9 +2348,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001093, caniuse-lite@^1.0.30001109:
-  version "1.0.30001109"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001109.tgz#a9f3f26a0c3753b063d7acbb48dfb9c0e46f2b19"
-  integrity sha512-4JIXRodHzdS3HdK8nSgIqXYLExOvG+D2/EenSvcub2Kp3QEADjo2v2oUn5g0n0D+UNwG9BtwKOyGcSq2qvQXvQ==
+  version "1.0.30001110"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001110.tgz#9003e3c7f5a43ea6f1193d4d5acba0bfb152c71a"
+  integrity sha512-KqJWeat4rhSHF0ito4yz9q/JuZHkvn71SsBnxge4azjPDbowIjOUnS8i1xpKGxZxU6BFiPqO2hSV2eiCpFQVRw==
 
 case-sensitive-paths-webpack-plugin@^2.2.0:
   version "2.3.0"
@@ -3649,9 +3649,9 @@ ejs@^2.6.1:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.3.488:
-  version "1.3.517"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.517.tgz#891995c711f748db14946b86661db7a5c87a16c3"
-  integrity sha512-8wucrMsmXxeBxaM3TPg+YiwIJwPd1IZMudOj1XytmkP3UPXRagMhO9vo4nzzbSWeq91N1zhfUhJW2u9/MVhPxw==
+  version "1.3.518"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.518.tgz#c54ee9cf1a7bafd6e482a1a6cceac86448d941e8"
+  integrity sha512-IspiwXYDKZMxo+qc3Vof4WtwbG9BMDbJfati8PYj7uS4DJmJ67pwjCKZxlTBSAuCZSMcbRnj2Xz2H14uiKT7bQ==
 
 elliptic@^6.0.0, elliptic@^6.5.2:
   version "6.5.3"
@@ -5805,9 +5805,9 @@ is-png@^1.0.0:
   integrity sha1-1XSxK/J1wDUEVVcLDltXqwYgd84=
 
 is-regex@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/is-regex/-/is-regex-1.1.0.tgz#ece38e389e490df0dc21caea2bd596f987f767ff"
-  integrity sha512-iI97M8KTWID2la5uYXlkbSDQIg4F6o1sYboZKKTDpnDQMLtUL86zxhgDet3Q2SriaYsyGqZ6Mn2SjbRKeLHdqw==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/is-regex/-/is-regex-1.1.1.tgz#c6f98aacc546f6cec5468a07b7b153ab564a57b9"
+  integrity sha512-1+QkEcxiLlB7VEyFtyBg94e08OAsvq7FUBgApTq/w2ymCLyKJgDPsybBENVtA7XCQEgEXxKPonG+mvYRxh/LIg==
   dependencies:
     has-symbols "^1.0.1"
 
@@ -10139,6 +10139,16 @@ typeface-bangers@^0.0.72:
   resolved "https://registry.yarnpkg.com/typeface-bangers/-/typeface-bangers-0.0.72.tgz#162cbcb17bb16feba38abe65ff653fd56a31feae"
   integrity sha512-nzGLKrQe4soTKapT7E0UyKoGyPvrwrrEXQwothBq9yJ+GbsEs6ivOthAbxh19hUx8cGIxmtO8hCeWhSn9Hr3Ag==
 
+typeface-bevan@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-bevan/-/typeface-bevan-0.0.72.tgz#f8c756f5b1e31bee8f464ebd689a36500a41ea67"
+  integrity sha512-fTL5zY/rGKJs+8ElSfSjAE3X7O1SfD7ZQS3U8bS63neRXEUdFzDdAGF1Kz1nx1wUeMlG4zg9ClpRAaSvV2pZnw==
+
+typeface-black-ops-one@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-black-ops-one/-/typeface-black-ops-one-0.0.72.tgz#3f5d1b2312a2a16242cb15bef1ebbe1e68414396"
+  integrity sha512-eKSOfNfgXQRjNSIIzOBgBY3Ce7BZ2+wY/UFmxiG7pPuea/SLm0SD7fNAodwxRjh/gCgQFt30jO1E5SDF/wFh2Q==
+
 typeface-bungee-shade@^0.0.71:
   version "0.0.71"
   resolved "https://registry.yarnpkg.com/typeface-bungee-shade/-/typeface-bungee-shade-0.0.71.tgz#959b2de27ff0fd3bdbe388386afa3541f9bd7c73"
@@ -10149,50 +10159,50 @@ typeface-carter-one@^0.0.72:
   resolved "https://registry.yarnpkg.com/typeface-carter-one/-/typeface-carter-one-0.0.72.tgz#45d4e7bb52c3514d604d8effa30eb69112a2a4f2"
   integrity sha512-bxlljJ/2UkLTkI5FANb0TrQrywe1zsUDWh1Z/JOY3GpxR5wMj3eG5HZbRHslub9s2ucvyI21c2aYsa+rnl3rBw==
 
-typeface-catamaran@^0.0.72:
-  version "0.0.72"
-  resolved "https://registry.yarnpkg.com/typeface-catamaran/-/typeface-catamaran-0.0.72.tgz#eddb2c8cf2e75696c89f055e25057b85538efc9b"
-  integrity sha512-6l9gq/IPseoC40lv/etxdUlIR2RHBKpAm+vu3lwt03Jd4i2+VOhKS/fOz1n0YpRjkz8QyG2qFwYjcoLT02/2qw==
-
 typeface-creepster@^0.0.72:
   version "0.0.72"
   resolved "https://registry.yarnpkg.com/typeface-creepster/-/typeface-creepster-0.0.72.tgz#8133c1c040433d06af811d7f18931e6cf86305e1"
   integrity sha512-UrCpMBduBcBsJp8CkW7LZYzHmBfT/EKxFgUPpvUjC+ghmYX7tO6NM+yPtEIwVIaYjTJRnf0CCF2KTNuviQcuzw==
+
+typeface-ewert@^0.0.71:
+  version "0.0.71"
+  resolved "https://registry.yarnpkg.com/typeface-ewert/-/typeface-ewert-0.0.71.tgz#f76f62ca4e63cac9ea8f43bb3272b3f211d7aa51"
+  integrity sha512-+5Z4KmWyK6/dxcLPJiXPoaQM7LM10YgcupE4FwoVkIgT7xsY5pNdm5EvuOKf+DjTuJGSs8xCZMNPP6qcxEqN8Q==
+
+typeface-fascinate-inline@^0.0.71:
+  version "0.0.71"
+  resolved "https://registry.yarnpkg.com/typeface-fascinate-inline/-/typeface-fascinate-inline-0.0.71.tgz#f05aa7e598f61b91cc1225f111f1e84452b1417b"
+  integrity sha512-hM+tFnXY/GD7oorrI/Fs2UonrZjAAv4lUQLbNN3aDzgPUYVlv8Ou6Y/uyiDQn5H0KoOklrASpm/Hu2vyz7DBfw==
+
+typeface-faster-one@^0.0.61:
+  version "0.0.61"
+  resolved "https://registry.yarnpkg.com/typeface-faster-one/-/typeface-faster-one-0.0.61.tgz#48500be94e11aedeb2a10f7943663277d96595f0"
+  integrity sha512-XQZRvOP8zXuNEI5GI2HulzqdTvQ4Ecf+D9Os+aQykm/EO+Hlkz9pW9RMVBhJR3sODgVOcWaA22aWTgyLov5vEw==
 
 typeface-henny-penny@^0.0.71:
   version "0.0.71"
   resolved "https://registry.yarnpkg.com/typeface-henny-penny/-/typeface-henny-penny-0.0.71.tgz#21595315d28059b836a71b8e4c4bdb847f289392"
   integrity sha512-OWEAz4f5XT2fD/PBiOt4hnAfFjSBvNvlJitzwVS58/dZhk+OSPNphnZERVp+vTmZ8qOWT4gchFBntcwPMQUUYg==
 
-typeface-josefin-sans@^0.0.75:
-  version "0.0.75"
-  resolved "https://registry.yarnpkg.com/typeface-josefin-sans/-/typeface-josefin-sans-0.0.75.tgz#15e26410172c47bf112aa8fb7d29e887f2344d50"
-  integrity sha512-cmpBiO2kUYQVeTvnG4zF3ZVplc+3tND4u4FtoFZqgs9iYwqd26aG7RC8u4YaeL8BgEL1AM4TCMM1/hF+4xSX8Q==
-
 typeface-monoton@^0.0.72:
   version "0.0.72"
   resolved "https://registry.yarnpkg.com/typeface-monoton/-/typeface-monoton-0.0.72.tgz#11d18398efe537a2884fc88466a748ea0f5bc89b"
   integrity sha512-Ob/Efhz3r/QvLKcxzctMIVY4sBgCdqf3yNTtfJoOD2vYeCG+a+MeGUljuhXgfjD0Yu7bsmkI44/KWtpVaHAzTQ==
 
-typeface-mountains-of-christmas@^0.0.72:
-  version "0.0.72"
-  resolved "https://registry.yarnpkg.com/typeface-mountains-of-christmas/-/typeface-mountains-of-christmas-0.0.72.tgz#5e0a2670e26b08f142b75f0c419b4a1cf1e5197b"
-  integrity sha512-CWuueDfovW/611Eo3lMjEADORkPMol80HVRoassQJht9iFMhIZwt9AZPhNpl89HcjzdLhUiPC12Ky+NJcIcPlg==
-
-typeface-racing-sans-one@^0.0.72:
-  version "0.0.72"
-  resolved "https://registry.yarnpkg.com/typeface-racing-sans-one/-/typeface-racing-sans-one-0.0.72.tgz#2417e097cc02991ac56639a49ac0037e542fc676"
-  integrity sha512-m+3o3Lm0EtrUbURFBb4VYAO6KxBcNSvHzw6pkXScxbfiCvNJnSEpsIqIzOejJqAMFdYfOMRiIMLz7tu0b1luXQ==
-
-typeface-sail@^0.0.71:
+typeface-sancreek@^0.0.71:
   version "0.0.71"
-  resolved "https://registry.yarnpkg.com/typeface-sail/-/typeface-sail-0.0.71.tgz#9bcc1f6e8dfba4a14bab6d33f296d5a6ede4acf1"
-  integrity sha512-AKMimJuO4H1m3hj2jcFi06ZQkWiufi3FUzji0k822JGMhZ5fcGlstgYVjPxnm/52t9CbxzHWtrPtZ53tv3HlJA==
+  resolved "https://registry.yarnpkg.com/typeface-sancreek/-/typeface-sancreek-0.0.71.tgz#29f2d071c4fcb8b9ea3779044e8e305f203d675e"
+  integrity sha512-Aw9PPJvi36JfmWrwUQSgMseiUi5in84o8dvDz2+kR5OPbUU02F51tauCKQIz00ps0RLzDRgg/77b4FsJ4Q91Xw==
 
-typeface-special-elite@^0.0.72:
+typeface-shojumaru@^0.0.72:
   version "0.0.72"
-  resolved "https://registry.yarnpkg.com/typeface-special-elite/-/typeface-special-elite-0.0.72.tgz#4a6f250d67f7bd80d307bcd756a729af0c48710e"
-  integrity sha512-xRtWPqpbFQvxT2Y+1ypYYPJ+FoQqyaWlGtu4U7MGNIQx50sNK2nwbWaR2Y+KVe13vzdcJd4ZbzvX5cLJ8y7toA==
+  resolved "https://registry.yarnpkg.com/typeface-shojumaru/-/typeface-shojumaru-0.0.72.tgz#a57480588f4fb47b2bd7ba1a31791980c35bc478"
+  integrity sha512-iWORoclRO5h2xLCrIJqrrFtwMaw4BLYtMePYTqJOJcF7KX6S63lnhsZuSB/KwoHUuB8yZPfZTtlbP1uDH4erYg==
+
+typeface-voltaire@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-voltaire/-/typeface-voltaire-0.0.72.tgz#53f2c534f9d05cd8fdd303b758ee3a5d5ebb8576"
+  integrity sha512-qWfpdS7PwyQKxBv+z56FfjO6cChlDpeHHs40knUdMBgwenpEDAjb2QSkaCF9PWCoAFPOUUaOZAgEdFbYv2YI3Q==
 
 uglify-js@3.4.x:
   version "3.4.10"

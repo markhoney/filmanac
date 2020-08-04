@@ -6,6 +6,18 @@
 
 const siteName = 'A Movie for Today';
 
+const search = {
+	Movies: 'Movie',
+	DaysOfYear:'Day of Year',
+	Years: 'Event Year',
+	Genres: 'Genre',
+	Languages: 'Language',
+	Countries: 'Country',
+	Studios: 'Studio',
+	Months: 'Event Month',
+	ReleaseYears: 'Movie Release Year',
+};
+
 module.exports = {
 	siteName,
 	// siteUrl: '',
@@ -18,9 +30,9 @@ module.exports = {
 		{
 			use: 'gridsome-plugin-flexsearch',
 			options: {
-				collections: ['Movies', 'DaysOfYear', 'Years', 'Genres', 'Languages', 'Countries', 'Studios'].map((collection) => ({
+				collections: Object.keys(search).map((collection) => ({
 					typeName: collection,
-					indexName: collection,
+					indexName: search[collection],
 					fields: ['title'],
 				})),
 				searchFields: ['title'],

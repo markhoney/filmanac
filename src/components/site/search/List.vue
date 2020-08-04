@@ -1,7 +1,7 @@
 <template>
 	<ul v-if="value.length >= 3" class="font-medium">
 		<li v-for="result in searchResults" :key="result.id">
-			<g-link :to="result.path"><span v-html="boldNew(result.title)" /></g-link>
+			<g-link :to="result.path" :title="result.index"><span v-html="boldNew(result.title)" /></g-link>
 		</li>
 		<li v-if="!searchResults.length">
 			<em>Sorry, no results found</em>
