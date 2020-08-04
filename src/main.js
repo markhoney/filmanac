@@ -2,17 +2,17 @@ import Vuex from 'vuex';
 import AsyncComputed from 'vue-async-computed';
 import Fixed from '~/layouts/Fixed.vue';
 
-// for (const font of fonts) require('typeface-' + font.split(' ').join('').toLowerCase()); // https://fonts.google.com/
+// https://fonts.google.com/
+require('typeface-bangers');
 require('typeface-carter-one');
+require('typeface-shojumaru');
 require('typeface-bungee-shade');
 require('typeface-creepster');
 require('typeface-henny-penny');
 require('typeface-alfa-slab-one');
 require('typeface-audiowide');
 require('typeface-monoton');
-require('typeface-bangers');
 require('typeface-black-ops-one');
-require('typeface-shojumaru');
 require('typeface-faster-one');
 require('typeface-ewert');
 require('typeface-fascinate-inline');

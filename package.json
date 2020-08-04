@@ -22,9 +22,7 @@
 		"extras:classifications": "napa wyrm65/resource.images.classificationicons.colour",
 		"extras:countries": "napa djaiss/mapsicon braz96/resource.images.moviecountryicons.flags braz96/resource.images.moviecountryicons.maps",
 		"extras:languages": "napa vdb86/resource.images.languageflags.completepack jeroenpardon/resource.images.languageflags.colour-flat",
-		"extras:imdb": "napa https://datasets.imdbws.com/name.basics.tsv.gz https://datasets.imdbws.com/title.basics.tsv.gz https://datasets.imdbws.com/title.principals.tsv.gz",
-		"extras:bacon": "napa itwasmattgregg/six-degrees-kevin-bacon-api && cd node_modules/six-degrees-kevin-bacon-api && yarn install",
-		"extras": "yarn extras:genres && yarn extras:studios && yarn extras:classifications && yarn extras:countries && yarn extras:languages extras:bacon"
+		"extras": "yarn extras:genres && yarn extras:studios && yarn extras:classifications && yarn extras:countries && yarn extras:languages"
 	},
 	"devDependencies": {
 		"@danestves/tailwindcss-darkmode": "^1.1.5",
