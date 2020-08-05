@@ -26,8 +26,8 @@
 		<h2 class="my-4 text-4xl">Tiles</h2>
 		<div class="flex flex-wrap">
 			<figure v-for="tile in $store.state.tiles" :key="tile" class="m-8">
-				<img :src="'/img/backgrounds/tiles/' + tile + '.jpg'" />
-				<figcaption class="text-center">{{tile}}.jpg</figcaption>
+				<img :src="'/img/backgrounds/tiles/' + tile" />
+				<figcaption class="text-center">{{tile}}</figcaption>
 			</figure>
 		</div>
 	</div>

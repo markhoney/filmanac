@@ -10,14 +10,14 @@
 <script>
 	export default {
 		data: () => ({
-			dark: true,
+			dark: false,
 		}),
 		computed: {
 			color() {return this.dark ? '#eeeeee' : '#333333'},
 			title() {return this.dark ? 'light' : 'dark'},
 		},
 		mounted() {
-			document.body.classList.add('dark-mode');
+			// document.body.classList.add('dark-mode');
 			if (window.localStorage.getItem('theme') === 'dark') this.dark = true;
 			else if (window.localStorage.getItem('theme') === 'light') this.dark = false;
 			else if (window.matchMedia('(prefers-color-scheme: dark)')) this.dark = true;

@@ -29,7 +29,7 @@ export default function (Vue, {head, appOptions}) {
 			dark: false,
 			top: true,
 			bottom: false,
-			tiles: ['gold', 'overlook', 'peacock', 'maze'],
+			tiles: ['gold.jpg', 'overlook.jpg', 'peacock.jpg', 'maze.jpg', 'clouds.jpg', 'code.jpg', 'ice.jpg', 'zebra.jpg'], // https://katgregorowicz.com/The-Shining
 			fonts: ['Bangers', 'Carter One', 'Shojumaru', 'Bungee Shade', 'Creepster', 'Henny Penny', 'Alfa Slab One', 'Audiowide', 'Monoton', 'Black Ops One', 'Faster One', 'Ewert', 'Fascinate Inline', 'Voltaire'],
 		},
 		mutations: {

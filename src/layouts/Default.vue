@@ -16,16 +16,14 @@
 </template>
 
 <script>
-	// https://katgregorowicz.com/The-Shining
 	import SiteHeader from '@/components/site/Header.vue';
 	import SiteFooter from '@/components/site/Footer.vue';
 	export default {
 		components: {SiteHeader, SiteFooter},
-		computed: {
-			backgroundImage() {
-				// return `url('/img/backgrounds/${this.backgrounds[~~(Math.random() * this.backgrounds.length)]}.png')`;
-				return `url('/img/backgrounds/tiles/${this.random(this.$store.state.tiles)}.jpg')`;
-			},
+		data() {
+			return {
+				backgroundImage: `url('/img/backgrounds/tiles/${this.random(this.$store.state.tiles)}')`,
+			};
 		},
 		methods: {
 			random: (array) => array[~~(Math.random() * array.length)],
@@ -37,6 +35,11 @@
 
 			},
 		},
+		/* watch: {
+			$route() {
+				this.backgroundImage = `url('/img/backgrounds/tiles/${this.random(this.$store.state.tiles)}')`;
+			},
+		}, */
 		mounted() {
 			this.$refs.fixed.addEventListener('scroll', this.scroll);
 		},

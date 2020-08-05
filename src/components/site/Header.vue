@@ -2,7 +2,6 @@
 	<header
 		class="flex flex-col sm:flex-row pt-0 text-center bg-grey-lightest dark:bg-grey-darkest text-black dark:text-grey-lightest bg-repeat-x leading-none transition-all duration-500 ease-in-out bg-bottom"
 		style="--bg-opacity: 0.8;"
-		:style="style"
 		:class="{'p-6 pt-8': $store.state.top}"
 	><!-- style="background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));" -->
 		<site-menu class="pt-2" />
@@ -10,7 +9,7 @@
 		<h1
 			v-if="!$slots.default"
 			class="flex-auto text-center text-5xl pt-1 font-bold text-primary-darker dark:text-grey-lighter uppercase"
-			:style="font"
+			:style="{fontFamily}"
 		>
 			<g-link class="hover:no-underline" to="/">
 				{{title || $static.metadata.siteName}}
@@ -38,18 +37,16 @@
 		data() {
 			return {
 				top: true,
+				fontFamily: this.random(this.$store.state.fonts),
 			};
 		},
 		methods: {
 			random: (array) => array[~~(Math.random() * array.length)],
 		},
-		computed: {
-			style() {
-				// if (this.$store.state.dark) return {backgroundImage: `url('/img/backgrounds/curtain.png')`};
+		/* watch: {
+			$route() {
+				this.fontFamily = this.random(this.$store.state.fonts);
 			},
-			font() {
-				return {fontFamily: this.random(this.$store.state.fonts)};
-			}
-		},
-	}
+		}, */
+	};
 </script>

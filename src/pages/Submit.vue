@@ -12,3 +12,10 @@
 		</iframe>
 	</Fixed>
 </template>
+
+<script>
+	export default {
+		metaInfo() {return {title: this.title}},
+		data() {return {title: 'Submit a Movie'}},
+	};
+</script>
