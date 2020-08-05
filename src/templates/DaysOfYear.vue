@@ -128,5 +128,11 @@
 				else if (key.code === 'ArrowRight') this.$router.push({path: this.$page.day.next.path}); // || (key.code === 'Space' && this.bottom)
 			},
 		},
+		mounted() {
+			window.addEventListener('keydown', this.navigate);
+		},
+		beforeDestroy() {
+			window.removeEventListener('keydown', this.navigate);
+		},
 	};
 </script>

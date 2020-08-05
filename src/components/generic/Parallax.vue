@@ -60,6 +60,8 @@
 		},
 		methods: {
 			parallax() {
+				// console.log(window.innerHeight);
+				// console.log(this.$refs.container.getBoundingClientRect());
 				const containerRect = this.$refs.container.getBoundingClientRect();
 				this.width = containerRect.width;
 				this.height = containerRect.height;

@@ -136,7 +136,7 @@
 </page-query>
 
 <script>
-	import Parallax from '@/components/generic/Parallax.vue';
+	import Parallax from '@/components/generic/ImageHeader.vue';
 	import Score from '@/components/movie/Score.vue';
 	import Bechdel from '@/components/movie/Bechdel.vue';
 	export default {
