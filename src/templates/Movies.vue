@@ -2,7 +2,8 @@
 	<div>
 		<g-image
 			v-if="$page.movie.images && $page.movie.images.fanart"
-			:src="$page.movie.images.fanart" class="absolute z-0 w-full object-cover object-top"
+			:src="$page.movie.images.fanart"
+			class="absolute z-0 w-full object-cover object-top"
 			style="height: 20rem; filter: saturate(0.2) brightness(0.5); clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%)"
 		/>
 		<div class="flex w-full h-full p-2 pt-16">

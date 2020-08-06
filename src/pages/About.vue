@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="bg-grey-lightest dark:bg-grey-darkest">
 		<parallax :src="fanart[0]" title="About" class="mb-16 h-64" />
 		<p>
 			Have you ever spotted a date mentioned in a movie, or wondered when historical events in movies actually took place?
@@ -149,7 +149,7 @@
 </page-query>
 
 <script>
-	import Parallax from '@/components/generic/ImageHeader.vue';
+	import Parallax from '@/components/generic/Parallax.vue';
 	import Score from '@/components/movie/Score.vue';
 	import Bechdel from '@/components/movie/Bechdel.vue';
 	export default {

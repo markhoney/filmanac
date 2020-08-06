@@ -1,7 +1,13 @@
 <template>
-	<section>
-		<day :value="this.today" />
-		</section>
+	<Fixed class="flex flex-col h-full">
+		<template v-if="events">
+			<div v-if="events.length" class="flex-grow">
+				<event-card v-for="event in events" :key="event.id" :value="event" class="my-4 md:my-8" />
+			</div>
+			<no-events v-else class="flex-grow" />
+		</template>
+		<Loading v-else />
+	</Fixed>
 </template>
 
 <script>
@@ -28,14 +34,14 @@
 			dev() {return !!process.env.TheMovieDBKey},
 		},
 		asyncComputed: {
-			async today() {
+			async events() {
 				if (this.frontend) {
 					const month = this.months[this.now.getMonth()].toLowerCase();
 					const day = this.now.getDate();
 					const results = await fetch(`/assets/data/${month}/${day}/index.json`);
 					try {
 						const json = await results.json();
-						return json.data.days.edges[0].node;
+						return json.data.day;
 					} catch(e) {
 						// if (!dev) this.$router.push({path: `/${this.month}/${this.day}/`});
 						this.$router.push({path: `/${this.month}/${this.day}/`});

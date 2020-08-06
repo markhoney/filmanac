@@ -1,21 +1,19 @@
 <template>
-	<div ref="container" class="overflow-hidden"> <!-- flex items-center justify-center -->
-		<blockquote v-if="title" class="absolute bg-white text-black dark:bg-black dark:text-white bg-opacity-75 w-full mt-40 p-3 px-64 font-serif text-center z-10">
+	<div ref="image" style="height: 20rem;">
+		<blockquote
+			v-if="title"
+			class="absolute bg-white text-black dark:bg-black dark:text-white w-full mt-56 p-3 px-64 font-serif text-center z-10"
+			style="--bg-opacity: 0.85;"
+		>
 			<p class="font-bold italic text-5xl">{{title}}</p>
 		</blockquote>
-		<slot />
-		<div ref="image" :style="style.image">
-			<div ref="element" :style="style.element" class="relative overflow-hidden h-0" style="top: -100%;">
-				<div ref="inside" class="absolute top-0 left-0 h-full w-full">
-					<g-image
-						ref="img"
-						:src="src"
-						class="absolute z-10"
-						style="filter: saturate(0.5) brightness(0.5);"
-					/>
-				</div>
-			</div>
-		</div>
+		<slot v-else />
+		<g-image
+			:src="src"
+			class="z-0 w-full object-cover"
+			style="height: 20rem; filter: saturate(0.5) brightness(0.5);"
+			:style="{objectPosition}"
+		/>
 	</div>
 </template>
 
@@ -24,51 +22,21 @@
 		props: ['src', 'title', 'speed'],
 		data() {
 			return {
-				width: 0,
-				height: 0,
-				innerHeight: 0,
-				scrollFactor: 0,
-				factor: 0.5,
-				aspectRatio: 9 / 16,
+				objectPosition: '0 0%',
 			};
 		},
 		mounted() {
 			this.parallax();
-			window.addEventListener('resize', this.animation);
-			window.addEventListener('scroll', this.animation);
+			window.addEventListener('scroll', this.animation, true);
 		},
 		beforeDestroy() {
-			window.removeEventListener('resize', this.animation);
 			window.removeEventListener('scroll', this.animation);
-		},
-		computed: {
-			offset() {
-				return this.scrollFactor * this.height * this.factor;
-			},
-			compensatedHeight() {
-				return this.innerHeight - (this.innerHeight * this.factor);
-			},
-			style() {
-				return {
-					image: {height: `${this.compensatedHeight}px`},
-					element: {
-						transform: `translate3d(0, ${this.offset}px, 0)`,
-						paddingTop: `${this.aspectRatio * 100}%`,
-					},
-				};
-			},
 		},
 		methods: {
 			parallax() {
-				// console.log(window.innerHeight);
-				// console.log(this.$refs.container.getBoundingClientRect());
-				const containerRect = this.$refs.container.getBoundingClientRect();
-				this.width = containerRect.width;
-				this.height = containerRect.height;
-				this.innerHeight = this.$refs.inside.getBoundingClientRect().height;
-				const viewportOffsetTop = containerRect.top;
-				const viewportOffsetBottom = window.innerHeight - viewportOffsetTop;
-				this.scrollFactor = viewportOffsetBottom / (window.innerHeight + this.height);
+				try {
+					this.objectPosition = '0 ' + this.$refs.image.getBoundingClientRect().top * 100 / window.innerHeight + '%';
+				} catch(e) {}
 			},
 			animation() {
 				requestAnimationFrame(this.parallax);
