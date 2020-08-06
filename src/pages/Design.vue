@@ -10,7 +10,7 @@
 			<div
 				v-for="(hex, shade) in shades"
 				class="w-32 h-24 m-4"
-				:class="['bg', colour, shade.replace('default', '')].filter(Boolean).join('-')"
+				:style="{backgroundColor: hex}"
 				:title="[colour, shade.replace('default', '')].filter(Boolean).join('-') + ' - ' + hex"
 				:key="shade"
 			>
@@ -21,7 +21,7 @@
 		<h2 class="my-4 text-4xl">Fonts</h2>
 		<template v-for="font in $store.state.fonts">
 			<h3 class="text-2xl" :key="font">{{font}}</h3>
-			<h4 :style="'font-family: ' + font" class="uppercase text-6xl ml-4" :key="font.toLowerCase()">A Movie for Today</h4>
+			<h4 :style="'font-family: ' + font" class="uppercase text-6xl ml-4" :key="font.toLowerCase()">Today in Movies</h4>
 		</template>
 		<h2 class="my-4 text-4xl">Tiles</h2>
 		<div class="flex flex-wrap">

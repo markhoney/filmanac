@@ -29,8 +29,8 @@
 			random: (array) => array[~~(Math.random() * array.length)],
 			scroll() {
 				const fixed = this.$refs.fixed;
-				if (this.$refs.fixed.scrollTop < 50) this.$store.commit('top', true);
-				if (this.$refs.fixed.scrollTop > 80) this.$store.commit('top', false);
+				if (this.$refs.fixed.scrollTop < 20) this.$store.commit('top', true);
+				if (this.$refs.fixed.scrollTop > 100) this.$store.commit('top', false);
 				this.$store.commit('bottom', fixed.scrollHeight - fixed.clientHeight - fixed.scrollTop === 0);
 
 			},
