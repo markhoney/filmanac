@@ -108,7 +108,20 @@
 		</p>
 		<h3 id="value">Value for Money</h3>
 		<p>Coming soon...</p>
-		<parallax :src="fanart[4]" class="mt-32 h-64" />
+		<parallax :src="fanart[4]" title="Technology" class="mt-24 mb-16 h-64" />
+		<p>
+			This website uses the awesome <a href="https://gridsome.org/" target="_blank" rel="noopener">Gridsome</a> static site generator, which creates the entire site
+			as a set of static HTML pages (along with CSS, JS and JSON files) that are deployed to <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
+			The code used to create the site is <a href="https://github.com/markhoney/inmovies.today" target="_blank" rel="noopener">available on GitHub</a>.
+		</p>
+		<p>
+			All data about the events in movies has been lovingly compiled by hand into a Google sheet.
+			The code used to build this website reads from that spreadsheet and downloads a bunch of metadata before running the Gridsome build command to construct the site.
+		</p>
+		<p>
+			Metadata (images, movie information) is scraped from a variety of sources, including The Movie DB, the Open Movie DB, the Bechdel Test website, IMDB, Wikipedia and WikiData.
+		</p>
+		<parallax :src="fanart[5]" class="mt-32 h-64" />
 	</div>
 </template>
 

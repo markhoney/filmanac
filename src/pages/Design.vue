@@ -39,7 +39,7 @@
 		metaInfo() {return {title: this.title}},
 		data() {
 			return {
-				title: 'Colour Palette',
+				title: 'Design Elements',
 				colours: tailwind.theme.extend.colors,
 			};
 		},
