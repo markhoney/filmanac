@@ -5,7 +5,7 @@
 			<span class="inline-block">{{date}}</span>&nbsp;
 			<g-link :to="value.next.path" :title="value.next.title">⇨</g-link>
 		</h1>
-		<carousel-3d v-if="value.events" :controlsVisible="true" :count="value.events.length" height="300" width="800">
+		<carousel-3d v-if="value.events" controlsVisible :count="value.events.length" height="300" width="800">
 			<slide v-for="(event, index) in events" :key="event.id" :index="index">
 				<Event :value="event" />
 			</slide>

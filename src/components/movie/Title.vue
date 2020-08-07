@@ -1,7 +1,7 @@
 <template>
 	<h2 v-if="value.images && value.images.logo">
 		<g-link v-if="value.path" :to="value.path" :title="'See details for the movie ' + value.title">
-			<g-image :src="value.images.logo" :immediate="true" />
+			<g-image :src="value.images.logo" immediate />
 		</g-link>
 		<g-image v-else :src="value.images.logo" />
 	</h2>

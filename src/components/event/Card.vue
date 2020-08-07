@@ -3,7 +3,7 @@
 		class="flex shadow-xl bg-grey-lightest dark:bg-grey-darkest rounded-lg"
 		style="background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.05));"
 	>
-		<movie-poster :value="value.movie" :rounded="true" class="relative" />
+		<movie-poster :value="value.movie" rounded class="relative" />
 		<div class="w-3/4 pt-4 pl-6 pr-4 pb-1 rounded-lg flex flex-col">
 			<movie-title :value="value.movie" class="mb-4 font-bold text-2xl md:text-4xl leading-none" />
 			<div class="flex-grow">

@@ -12,7 +12,7 @@
 			<div class="flex-auto md:ml-16 z-10">
 				<div class="h-56">
 					<movie-title :value="value" class="font-bold text-4xl md:text-6xl tracking-loose leading-tight z-10" style="text-shadow: 2px 2px #111;" />
-					<score v-if="value.score" class="mt-2" :percent="value.score.number" :stars="5" :numeric="true" />
+					<score v-if="value.score" class="mt-2" :percent="value.score.number" :stars="5" numeric />
 				</div>
 				<div class="mt-4 mr-8 max-w-screen-lg p-8 text-xl">
 					<p>{{value.plot}}</p>

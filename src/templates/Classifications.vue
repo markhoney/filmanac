@@ -1,6 +1,6 @@
 <template>
 	<fixed :title="title">
-		<movie-card v-for="movie in $page.classification.movies" :key="movie.id" :value="movie" />
+		<movie-details v-for="movie in $page.classification.movies" :key="movie.id" :value="movie" />
 	</fixed>
 </template>
 
@@ -41,16 +41,41 @@
 					image
 					path
 				}
+				events(sortBy: "date", order: ASC) {
+					id
+					title
+					year {
+						id
+						path
+					}
+					info {
+						wikipedia {
+							url
+						}
+					}
+					dayofyear {
+						path
+						month {
+							id
+							title
+							path
+						}
+						day {
+							id
+							ordinal
+						}
+					}
+				}
 			}
 		}
 	}
 </page-query>
 
 <script>
-	import MovieCard from '@/components/movie/Card.vue';
+	import MovieDetails from '@/components/movie/Details.vue';
 	export default {
-		components: {MovieCard},
+		components: {MovieDetails},
 		metaInfo() {return {title: this.title}},
-		computed: {title() {return 'Movies classified ' + this.$page.classification.title}},
+		computed: {title() {return 'Today in ' + this.$page.classification.title}},
 	};
 </script>

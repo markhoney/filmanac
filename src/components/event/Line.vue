@@ -1,5 +1,5 @@
 <template>
-	<h3>
+	<h3 v-if="value.dayofyear">
 		<template v-if="value.dayofyear.month && value.dayofyear.day && value.dayofyear.path">
 			<g-link class="inline-block" :to="value.dayofyear.path" :title="'See all events on ' + [value.dayofyear.month.title, value.dayofyear.day.id + value.dayofyear.day.ordinal].join(' ')">
 				{{[value.dayofyear.month.title, value.dayofyear.day.id + value.dayofyear.day.ordinal].join(' ')}}

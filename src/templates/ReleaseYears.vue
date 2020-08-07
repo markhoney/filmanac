@@ -1,6 +1,6 @@
 <template>
 	<Fixed :title="title">
-		<movie-card v-for="movie in $page.year.movies" :key="movie.id" :value="movie" />
+		<movie-details v-for="movie in $page.year.movies" :key="movie.id" :value="movie" />
 	</Fixed>
 </template>
 
@@ -79,9 +79,9 @@
 </page-query>
 
 <script>
-	import MovieCard from '@/components/movie/Card.vue';
+	import MovieDetails from '@/components/movie/Details.vue';
 	export default {
-		components: {MovieCard},
+		components: {MovieDetails},
 		metaInfo() {return {title: this.title}},
 		computed: {
 			title() {return 'Movies released in ' + this.$page.year.id},
