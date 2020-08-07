@@ -41,12 +41,12 @@ Once the plugin has been configured, you can use the provided mixin to offer sea
 ```vue
 <!-- /src/components/Search.vue -->
 <template>
-  <Fixed>
+  <fixed>
     <input id="search" v-model="searchTerm" class="input" type="text" placeholder="Search">
     <g-link v-for="result in searchResults" :key="result.id" :to="result.path" class="navbar-item">
       {{result.title}}
     </g-link>
-  </Fixed>
+  </fixed>
 </template>
 
 <script>

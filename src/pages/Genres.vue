@@ -1,5 +1,5 @@
 <template>
-	<Fixed :title="title" class="flex flex-wrap">
+	<fixed :title="title" class="flex flex-wrap">
 		<g-link
 			v-for="genre in $page.allGenres.edges"
 			:key="genre.node.id"
@@ -12,7 +12,7 @@
 				<figcaption class="text-center">{{genre.node.title}}</figcaption>
 			</figure>
 		</g-link>
-	</Fixed>
+	</fixed>
 </template>
 
 <page-query>

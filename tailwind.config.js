@@ -67,6 +67,7 @@ module.exports = {
 		borderColor: ['responsive', 'hover', 'focus', 'dark'],
 		borderRadius: ['responsive', 'hover'],
 		opacity: ['responsive', 'hover', 'focus', 'dark'],
+		width: ['responsive', 'hover', 'group-hover'],
 	},
 	plugins: [
 		require('@danestves/tailwindcss-darkmode')(),

@@ -1,7 +1,7 @@
 <template>
-	<Fixed :title="title">
+	<fixed :title="title">
 
-	</Fixed>
+	</fixed>
 </template>
 
 <script>

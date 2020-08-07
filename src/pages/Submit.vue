@@ -1,5 +1,5 @@
 <template>
-	<Fixed>
+	<fixed>
 		<iframe
 			src="https://docs.google.com/forms/d/e/1FAIpQLScHIrrdLHayB8kvMgS_tQhxLZXNacMnwxNiOD0vfYDODDT8Wg/viewform?embedded=true"
 			class="w-full"
@@ -10,7 +10,7 @@
 		>
 			Loading…
 		</iframe>
-	</Fixed>
+	</fixed>
 </template>
 
 <script>

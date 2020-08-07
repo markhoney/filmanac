@@ -17,6 +17,7 @@
 			<div classs="flex justify-around">
 				<!--<movie-icons :value="value.movie" class="bg-grey-darker m-2 mb-4 p-2 pt-3 rounded-full float-right hidden sm:inline-flex" />-->
 				<movie-icons :value="value.movie" class="m-2 mb-4 p-2 pt-3 float-right hidden sm:inline-flex" />
+				<event-screenshot v-if="value.image" :src="value.image" class="w-16" title="Click to open screenshot" />
 			</div>
 		</div>
 	</div>
@@ -27,8 +28,9 @@
 	import MoviePoster from '@/components/movie/Poster.vue';
 	import MovieTitle from '@/components/movie/Title.vue';
 	import EventLine from '@/components/event/Line.vue';
+	import EventScreenshot from '@/components/event/Lightbox.vue';
 	export default {
-		components: {MovieIcons, MoviePoster, MovieTitle, EventLine},
+		components: {MovieIcons, MoviePoster, MovieTitle, EventLine, EventScreenshot},
 		props: ['value'],
 	};
 </script>

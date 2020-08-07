@@ -1,5 +1,5 @@
 <template>
-	<Fixed :title="$metaInfo.title">
+	<fixed :title="$metaInfo.title">
 		<div class="flex flex-wrap justify-between mt-12">
 			<classification
 				v-for="classification in $page.allClassifications.edges"
@@ -8,7 +8,7 @@
 				:value="classification.node"
 			/>
 		</div>
-	</Fixed>
+	</fixed>
 </template>
 
 <page-query>

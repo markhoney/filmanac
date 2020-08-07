@@ -1,19 +1,20 @@
 <template>
-	<Fixed class="flex flex-col h-full">
+	<fixed class="flex flex-col h-full">
 		<template v-if="events">
 			<div v-if="events.length" class="flex-grow">
 				<event-card v-for="event in events" :key="event.id" :value="event" class="my-4 md:my-8" />
 			</div>
 			<no-events v-else class="flex-grow" />
 		</template>
-		<Loading v-else />
-	</Fixed>
+		<loading v-else />
+	</fixed>
 </template>
 
 <script>
 	import Day from '@/components/day/EventCards.vue';
+	import Loading from '@/components/day/Loading.vue';
 	export default {
-		components: {Day},
+		components: {Day, Loading},
 		metaInfo() {return {title: this.title}},
 		data () {
 			return {

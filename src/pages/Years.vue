@@ -1,5 +1,5 @@
 <template>
-	<Fixed :title="title" class="flex flex-wrap">
+	<fixed :title="title" class="flex flex-wrap">
 		<g-link
 			v-for="year in $page.allYears.edges"
 			:key="year.node.id"
@@ -9,7 +9,7 @@
 		>
 			{{year.node.title}}
 		</g-link>
-	</Fixed>
+	</fixed>
 </template>
 
 <page-query>

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<g-link v-for="item in value" :key="item.title" :to="item.path" class="badge">
+		<g-link v-for="item in value" :key="item.title" :to="item.path" class="badge text-sm">
 			{{item.title.toLowerCase()}}
 		</g-link>
 	</div>

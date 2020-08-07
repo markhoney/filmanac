@@ -25,7 +25,7 @@
 		</div>
 	</section>
 	<section v-else>
-		<Loading />
+		<loading />
 	</section>
 </template>
 

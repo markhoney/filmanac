@@ -1,7 +1,7 @@
 <template>
-	<Fixed :title="title">
+	<fixed :title="title">
 		<movie-details v-for="movie in $page.country.movies" :key="movie.id" :value="movie" />
-	</Fixed>
+	</fixed>
 </template>
 
 <page-query>

@@ -1,7 +1,7 @@
 <template>
-	<Fixed :title="title">
+	<fixed :title="title">
 		<movie-details v-for="movie in $page.genre.movies" :key="movie.id" :value="movie" />
-	</Fixed>
+	</fixed>
 </template>
 
 <page-query>
@@ -54,6 +54,7 @@
 				events(sortBy: "date", order: ASC) {
 					id
 					title
+					image
 					year {
 						id
 						path

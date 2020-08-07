@@ -1,5 +1,5 @@
 <template>
-	<Fixed :title="title" class="flex flex-wrap">
+	<fixed :title="title" class="flex flex-wrap">
 		<g-link
 			v-for="language in $page.allLanguages.edges"
 			:key="language.node.id"
@@ -12,7 +12,7 @@
 				<figcaption class="text-center">{{language.node.title}}</figcaption>
 			</figure>
 		</g-link>
-	</Fixed>
+	</fixed>
 </template>
 
 <page-query>

@@ -1,5 +1,5 @@
 <template>
-	<Fixed :title="title">
+	<fixed :title="title">
 		<div v-for="month in months" :key="month.id">
 			<h2 class="text-4xl border-b-2 border-white"><g-link :to="month.path">{{month.title}}</g-link></h2>
 			<ul>
@@ -9,7 +9,7 @@
 				</li>
 			</ul>
 		</div>
-	</Fixed>
+	</fixed>
 </template>
 
 <page-query>

@@ -10,14 +10,19 @@ function screenshot(event, movie) {
 		const movieName = `${movie.title.replace(': ', ' - ').replace('…', '...').replace('AVP - ', '')} (${movie.year})`;
 		const input = resolve(process.env.MoviePath, movieName, movieName + '.mkv');
 		const output = resolve('cache', 'images', 'screenshot', `${event.id}.jpg`);
-		if (existsSync(input)) {
-			if (!existsSync(output)) return extractFrames({
-				input,
-				output,
-				timestamps: event.time,
-			});
+		if (!existsSync(output)) {
+			if (existsSync(input)) {
+				extractFrames({
+					input,
+					output,
+					timestamps: event.time,
+				});
+				return output;
+			} else {
+				console.log('Movie file missing'.red, input);
+			}
 		} else {
-			console.log('Movie file missing'.red, input);
+			return output;
 		}
 	}
 }

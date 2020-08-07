@@ -1,5 +1,5 @@
 <template>
-	<Fixed :title="title">
+	<fixed :title="title">
 		<ul>
 			<li v-for="day in $page.month.daysofyear" :key="day.id">
 				<h2 class="text-4xl border-b-2 border-black dark:border-white"><g-link :to="day.path" :title="'See all movies on ' + day.title">{{day.day.id}}{{day.day.ordinal}}</g-link></h2>
@@ -11,7 +11,7 @@
 				</ul>
 			</li>
 		</ul>
-	</Fixed>
+	</fixed>
 </template>
 
 <page-query>

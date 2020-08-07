@@ -1,5 +1,5 @@
 <template>
-	<Fixed class="flex flex-col h-full">
+	<fixed class="flex flex-col">
 		<template v-if="$page.day">
 			<back-forward :value="$page.day" title class="text-5xl" />
 			<div v-if="events" class="flex-grow">
@@ -8,8 +8,8 @@
 			<no-events v-else class="flex-grow" />
 			<back-forward :value="$page.day" class="text-4xl mb-4" />
 		</template>
-		<Loading v-else />
-	</Fixed>
+		<loading v-else />
+	</fixed>
 </template>
 
 <page-query>
@@ -34,6 +34,7 @@
 			events {
 				id
 				title
+				image
 				info {
 					wikipedia {
 						url
@@ -73,6 +74,7 @@
 					awards
 					images {
 						poster (width: 200, height: 300, quality: 80)
+
 					}
 					classification {
 						title
