@@ -31,7 +31,24 @@
 				Talk Like a Pirate Day (<g-link to="/september/19">September 19th</g-link>)
 			</li>
 		</ul>
-		<parallax :src="fanart[1]" title="Stats" class="mt-24 mb-16 h-64" />
+		<parallax :src="fanart[1]" title="Data" class="mb-16 h-64" />
+		<h3>Sources</h3>
+		<p>
+			The data has been collected from a variety of sources, including several Wikipedia list pages, the Movie Quotes database, the Movie Timeline website and user collated IMDB lists.
+			Here are some of the URLs that have been used:
+		</p>
+		<ul>
+			<li v-for="url in sources" :key="url"><a :href="url" target="_blank" rel="noopener">{{url}}</a></li>
+		</ul>
+		<h3>Dates</h3>
+		<p>
+			Please be aware when looking at the screenshots of dates that they may be in either US (month/day/year) or European (day/month/year) format.
+			For some dates, with a day beyond the 12th, there's only one format that makes sense, so in those cases working out the correct format is easy.
+			Beyond that, in a lot of cases the date format can be inferred from the country the movie is set in.
+			However, sometimes (especially for some movies made in the US but set elsewhere) the date format may not match the movie's country.
+			In those cases, the correct format can often be inferred from hints found elsewhere in the movie.
+		</p>
+		<parallax :src="fanart[2]" title="Stats" class="mt-24 mb-16 h-64" />
 		<p>
 			This database contains <b>{{stat('events')}}</b> events from <b>{{stat('movies')}}</b> movies.
 			These events cover <g-link to="/days">{{stat('days')}}</g-link> days of the year,
@@ -51,7 +68,7 @@
 			<p><g-link to="/languages">{{stat('languages')}}</g-link>Languages</p>
 			<p><g-link to="/released">{{stat('releaseyears')}}</g-link>Movie Release Years</p>
 		</div>
-		<parallax :src="fanart[2]" title="History" class="mt-24 mb-16 h-64" />
+		<parallax :src="fanart[3]" title="History" class="mt-24 mb-16 h-64" />
 		<p>
 			The idea for this website came about when a friend watched <g-link to="/movie/tt0367594">Charlie and the Chocolate Factory</g-link> on the First of February,
 			and spotted that the visit to the chocolate factory happens on <g-link to="/february/1">February the first</g-link>.
@@ -74,7 +91,7 @@
 			I'm a big fan of shiny new JavaScript technologies, and a <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a>/GraphQL solution seemed perfect.
 			I've also used <a href="https://tailwindcss.com/" target="_blank" rel="noopener">Tailwind CSS</a>, a utility-first CSS library, to make things look pretty.
 		</p>
-		<parallax :src="fanart[3]" title="Metrics" class="mt-24 mb-16 h-64" />
+		<parallax :src="fanart[4]" title="Metrics" class="mt-24 mb-16 h-64" />
 		<h3 id="stars">Stars</h3>
 		<p>
 			The star rating on this website is based on
@@ -108,7 +125,7 @@
 		</p>
 		<h3 id="value">Value for Money</h3>
 		<p>Coming soon...</p>
-		<parallax :src="fanart[4]" title="Technology" class="mt-24 mb-16 h-64" />
+		<parallax :src="fanart[5]" title="Technology" class="mt-24 mb-16 h-64" />
 		<p>
 			This website uses the awesome <a href="https://gridsome.org/" target="_blank" rel="noopener">Gridsome</a> static site generator, which creates the entire site
 			as a set of static HTML pages (along with CSS, JS and JSON files) that are deployed to <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
@@ -121,7 +138,7 @@
 		<p>
 			Metadata (images, movie information) is scraped from a variety of sources, including The Movie DB, the Open Movie DB, the Bechdel Test website, IMDB, Wikipedia and WikiData.
 		</p>
-		<parallax :src="fanart[5]" class="mt-32 h-64" />
+		<parallax :src="fanart[6]" class="mt-32 h-64" />
 	</div>
 </template>
 
@@ -160,6 +177,31 @@
 			Parallax,
 			Score,
 			Bechdel,
+		},
+		data() {
+			return {
+				sources: [
+					'https://en.wikipedia.org/wiki/List_of_films_based_on_actual_events',
+					'https://en.wikipedia.org/wiki/Category:Lists_of_documentary_films',
+					'https://en.wikipedia.org/wiki/Category:Documentary_films',
+					'http://www.quodb.com/',
+					'https://www.imdb.com/list/ls063654949/',
+					'https://www.imdb.com/list/ls020840979/',
+					'https://books.google.co.nz/books?id=hsuhCgAAQBAJ&printsec=frontcover',
+					'http://www.themovietimeline.com/',
+					'https://en.wikipedia.org/wiki/Category:American_disaster_films',
+					'https://www.youtube.com/playlist?list=PLRDnnvx-4xZ0dHwuIvZbnWPojyQ1ZLqxO',
+					'https://www.daysoftheyear.com/',
+					'https://en.wikipedia.org/wiki/List_of_biographical_films',
+					'https://www.imdb.com/list/ls009393621/',
+					'https://en.wikipedia.org/wiki/Category:Crime_films_based_on_actual_events',
+					'https://en.wikipedia.org/wiki/Category:Drama_films_based_on_actual_events',
+					'http://www.aetherco.com/timelinks/',
+					'https://en.wikipedia.org/wiki/Category:Films_about_time_travel',
+					'https://en.wikipedia.org/wiki/One-shot_film',
+					'https://en.wikipedia.org/wiki/List_of_media_set_within_one_day',
+				]
+			};
 		},
 		computed: {
 			title() {return 'Movies classified ' + this.$page.classification.title},

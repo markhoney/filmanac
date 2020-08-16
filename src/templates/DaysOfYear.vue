@@ -34,10 +34,14 @@
 			events {
 				id
 				title
-				image
+				screenshot {
+					image
+					position
+				}
 				info {
 					wikipedia {
 						url
+						mobile
 					}
 				}
 				year {

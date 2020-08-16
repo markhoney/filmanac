@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="flex shadow-xl bg-grey-lightest dark:bg-grey-darkest rounded-lg"
+		class="flex shadow-xl bg-grey-lightest dark:bg-grey-darkest rounded-lg relative"
 		style="background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.05));"
 	>
 		<movie-poster :value="value.movie" rounded class="relative" />
@@ -10,6 +10,7 @@
 				<h4 v-if="value.title" class="text-lg md:text-xl leading-tight text-primary-dark dark:text-primary-light">
 					<event-line :value="value" />
 				</h4>
+				<!--<event-screenshot v-if="value.screenshot" :src="value.screenshot.image" class="w-16 mt-2" title="Click to open screenshot" />-->
 				<div class="hidden sm:block">
 					<p class="plot">{{value.movie.plot}}</p>
 				</div>
@@ -17,9 +18,19 @@
 			<div classs="flex justify-around">
 				<!--<movie-icons :value="value.movie" class="bg-grey-darker m-2 mb-4 p-2 pt-3 rounded-full float-right hidden sm:inline-flex" />-->
 				<movie-icons :value="value.movie" class="m-2 mb-4 p-2 pt-3 float-right hidden sm:inline-flex" />
-				<event-screenshot v-if="value.image" :src="value.image" class="w-16" title="Click to open screenshot" />
 			</div>
 		</div>
+		<g-image
+			v-if="value.screenshot"
+			:src="value.screenshot.image"
+			class="absolute h-full w-8 right-0 object-cover z-40 hover:w-full hover:h-auto transition-all duration-1000 ease-in-out rounded-r-lg hover:rounded-r-none"
+			:class="imageclass"
+		/>
+		<iframe
+			v-else-if="value.info && value.info.wikipedia"
+			:src="value.info.wikipedia.mobile.split('#')[0]"
+			class="absolute h-full w-8 right-0 object-cover z-40 hover:w-full hover:h-auto transition-all duration-1000 ease-in-out rounded-r-lg hover:rounded-r-none overflow-hidden hover:overflow-auto"
+		/>
 	</div>
 </template>
 
@@ -32,6 +43,11 @@
 	export default {
 		components: {MovieIcons, MoviePoster, MovieTitle, EventLine, EventScreenshot},
 		props: ['value'],
+		computed: {
+			imageclass() {
+				if (this.value.screenshot && this.value.screenshot.position) return 'object-' + this.value.screenshot.position;
+			}
+		},
 	};
 </script>
 

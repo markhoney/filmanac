@@ -44,4 +44,12 @@ export default function (Vue, {head, appOptions}) {
 			},
 		}
 	});
+	Vue.component('root', {
+		functional: true,
+		props: ['show'],
+		render(h, ctx) {
+			const children = ctx.children.filter(vnode => vnode.tag);
+			return ctx.props.show ? children[0] : children[0].children;
+		}
+	});
 }

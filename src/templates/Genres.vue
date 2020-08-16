@@ -54,7 +54,6 @@
 				events(sortBy: "date", order: ASC) {
 					id
 					title
-					image
 					year {
 						id
 						path

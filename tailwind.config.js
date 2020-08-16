@@ -67,6 +67,8 @@ module.exports = {
 		borderColor: ['responsive', 'hover', 'focus', 'dark'],
 		borderRadius: ['responsive', 'hover'],
 		opacity: ['responsive', 'hover', 'focus', 'dark'],
+		// objectPosition: ['responsive', 'hover'],
+		// position: ['responsive', 'hover'],
 		width: ['responsive', 'hover', 'group-hover'],
 	},
 	plugins: [

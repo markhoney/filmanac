@@ -111,7 +111,6 @@ class MovieEvents {
 				movie: event.imdb,
 				title: event.reason,
 				mention: event.mention,
-				time: event.timestamp && [event.timestamp],
 				refreshments: event.refreshments && event.refreshments.split(',').map((refreshment) => refreshment.trim()),
 				celebration: event.celebration,
 				eponymous: event.dateintitle === 'TRUE',
@@ -121,15 +120,45 @@ class MovieEvents {
 				date: year ? new Date([event.year, event.month, event.day].join('-')) : null,
 				// date: year ? new Date(event.year, event.month - 1, event.day) : null,
 			};
-			if (event.timestamp && event.timestampend) ev.time.push(event.timestampend);
-			if (event.wikipedia) {
-				ev.info.wikipedia = {
-					id: event.wikipedia,
-					url: `https://en.wikipedia.org/wiki/${event.wikipedia}`,
-				};
+			if (event.timestamp) {
+				if (event.timestampend) ev.audio = {time: [event.timestamp, event.timestampend]};
+				else {
+					ev.screenshot = {time: event.timestamp};
+					if (event.position) ev.screenshot.position = event.position;
+				}
 			}
+			if (event.wikipedia) ev.info.wikipedia = this.processWikipedia(event.wikipedia);
 			return ev;
 		}).filter((event) => event.month && event.day && event.movie);
+	}
+
+	processWikipedia(slug) {
+		const url = slug.split('#');
+		const wikipedia = {
+			id: url[0],
+			url: `https://en.wikipedia.org/wiki/${slug}`,
+			page: `https://en.wikipedia.org/wiki/${url[0]}`,
+			mobile: `https://en.m.wikipedia.org/wiki/${slug}`,
+		};
+		if (url.length === 2) wikipedia.anchor = url[1];
+		return wikipedia;
+	}
+
+	getWatchLinks(title) {
+		return {
+			plex: {
+				url: `https://app.plex.tv/desktop#!/search?query=${encodeURI(title)}`,
+				image: resolve(__dirname, '..', 'images', 'watch', 'plex.png'),
+				title: 'Search on Plex',
+				// type: 'plex',
+			},
+			netflix: {
+				url: `https://www.netflix.com/search?q=${encodeURI(title)}`,
+				image: resolve(__dirname, '..', 'images', 'watch', 'netflix.png'),
+				title: 'Search on Netflix',
+				// type: 'netflix',
+			},
+		};
 	}
 
 	getClassifications() {
@@ -294,31 +323,9 @@ class MovieEvents {
 						},
 					},
 				};
-				if (event.moviewikipedia) {
-					movie.info.wikipedia = {
-						id: event.moviewikipedia,
-						url: `https://en.wikipedia.org/wiki/${event.moviewikipedia}`,
-					};
-				}
+				if (event.moviewikipedia) movie.info.wikipedia = this.processWikipedia(event.moviewikipedia);
 				return movie;
 		});
-	}
-
-	getWatchLinks(title) {
-		return {
-			plex: {
-				url: `https://app.plex.tv/desktop#!/search?query=${encodeURI(title)}`,
-				image: resolve(__dirname, '..', 'images', 'watch', 'plex.png'),
-				title: 'Search on Plex',
-				type: 'plex',
-			},
-			netflix: {
-				url: `https://www.netflix.com/search?q=${encodeURI(title)}`,
-				image: resolve(__dirname, '..', 'images', 'watch', 'netflix.png'),
-				title: 'Search on Netflix',
-				type: 'netflix',
-			},
-		};
 	}
 
 	getImagePath(title, paths, staticFolder = null) {
@@ -389,6 +396,12 @@ class MovieEvents {
 					url: `https://www.wikidata.org/wiki/${wikidatapage.id}`,
 				};
 			}
+			if (event.screenshot) {
+				const image = await screenshot(event, this.movies.find((movie) => movie.id === event.movie));
+				if (image) {
+					event.screenshot.image = image;
+				}
+			}
 		}
 	}
 
@@ -413,7 +426,6 @@ class MovieEvents {
 			}
 		}
 		await this.getEventsDetails();
-		for (const event of this.events) event.image = await screenshot(event, this.movies.find((movie) => movie.id === event.movie));
 		// this.export();
 		this.studios = this.getStudios(studios);
 		this.classifications = this.getClassifications();

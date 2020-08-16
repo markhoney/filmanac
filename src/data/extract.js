@@ -5,24 +5,30 @@ const extractFrames = require('ffmpeg-extract-frames');
 const {existsSync} = require('fs');
 const {resolve} = require('path');
 
-function screenshot(event, movie) {
-	if (process.env.MoviePath && event.time && event.time.length === 1) {
-		const movieName = `${movie.title.replace(': ', ' - ').replace('…', '...').replace('AVP - ', '')} (${movie.year})`;
-		const input = resolve(process.env.MoviePath, movieName, movieName + '.mkv');
-		const output = resolve('cache', 'images', 'screenshot', `${event.id}.jpg`);
-		if (!existsSync(output)) {
-			if (existsSync(input)) {
-				extractFrames({
-					input,
-					output,
-					timestamps: event.time,
-				});
-				return output;
+async function screenshot(event, movie) {
+	if (event.screenshot) {
+		if (process.env.MoviePath && existsSync(process.env.MoviePath)) {
+			const movieName = `${movie.title.replace(/\//g, '-').replace(': ', ' - ').replace('…', '...').replace('AVP - ', '')} (${movie.year})`;
+			const input = resolve(process.env.MoviePath, movieName, movieName + '.mkv');
+			const output = resolve('cache', 'images', 'screenshot', `${event.id}.jpg`);
+			if (!existsSync(output)) {
+				if (existsSync(input)) {
+					console.log('Extracting screenshot for', movieName);
+					const result = await extractFrames({
+						input,
+						output,
+						timestamps: [event.screenshot.time],
+					});
+					if (result) return output;
+					console.log('Screenshot failed'.red);
+				} else {
+					console.log('Movie file missing'.red, input);
+				}
 			} else {
-				console.log('Movie file missing'.red, input);
+				return output;
 			}
 		} else {
-			return output;
+			console.log('Missing MoviePath'.red);
 		}
 	}
 }

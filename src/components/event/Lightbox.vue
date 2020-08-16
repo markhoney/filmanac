@@ -1,9 +1,9 @@
 <template>
-	<div contenteditable="true" @blur="visible = false">
+	<div tabindex="0" contenteditable="true" @blur="visible = false">
 		<g-image
 			:src="src"
 			@click="visible = !visible"
-			class="border-white border-2 rounded"
+			class="border-white border-2 rounded cursor-pointer"
 		/>
 		<g-image
 			:src="src"
