@@ -25,13 +25,13 @@
 					<p v-if="$page.movie.directors" class="mt-4"><b>Directed by</b> {{$page.movie.directors.map((director) => director.title).join(', ')}}</p>
 					<p v-if="$page.movie.actors" class="mt-4"><b>Starring</b> {{$page.movie.actors.map((actor) => actor.title).join(', ')}}</p>
 					<p v-if="$page.movie.bechdel" class="mt-4"><g-link class="font-bold" to="/about#bechdel">Bechdel score</g-link> <bechdel :value="$page.movie.bechdel.rating" /></p>
-					<ClientOnly>
+					<client-only>
 						<carousel perPage="1" navigationEnabled :paginationEnabled="false" class="mt-16">
 							<slide v-for="event in $page.movie.events.filter((event) => event.screenshot)" :key="event.id">
 								<g-image :src="event.screenshot.image" />
 							</slide>
 						</carousel>
-					</ClientOnly>
+					</client-only>
 				</div>
 			</div>
 			<div class="z-10">
