@@ -19,8 +19,26 @@ function split(string, separator = ',') {
 	return [];
 }
 
+const replacements = {
+	'\\': '-',
+	'"': '\'',
+	' ': '_',
+	':': '-',
+	'/': '-',
+	'*': '',
+	'<': '_',
+	'>': '_',
+	'?': '',
+	'|': '-',
+};
+
 function slugify(name) {
-	return name.toLowerCase().split(' ').join('_').split(':').join('-');
+	// return name.toLowerCase().split(' ').join('_').split(':').join('-');
+	name = name.toLowerCase();
+	for (const r of Object.keys(replacements)) {
+		name = name.split(r).join(replacements[r]);
+	}
+	name = name.replace(/\.+$/, '');
 }
 
 function monthName(number) {

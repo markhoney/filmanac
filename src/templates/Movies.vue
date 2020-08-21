@@ -25,13 +25,13 @@
 					<p v-if="$page.movie.directors" class="mt-4"><b>Directed by</b> {{$page.movie.directors.map((director) => director.title).join(', ')}}</p>
 					<p v-if="$page.movie.actors" class="mt-4"><b>Starring</b> {{$page.movie.actors.map((actor) => actor.title).join(', ')}}</p>
 					<p v-if="$page.movie.bechdel" class="mt-4"><g-link class="font-bold" to="/about#bechdel">Bechdel score</g-link> <bechdel :value="$page.movie.bechdel.rating" /></p>
-					<client-only>
+					<ClientOnly>
 						<carousel perPage="1" navigationEnabled :paginationEnabled="false" class="mt-16">
 							<slide v-for="event in $page.movie.events.filter((event) => event.screenshot)" :key="event.id">
 								<g-image :src="event.screenshot.image" />
 							</slide>
 						</carousel>
-					</client-only>
+					</ClientOnly>
 				</div>
 			</div>
 			<div class="z-10">
@@ -130,7 +130,7 @@
 </page-query>
 
 <script>
-	import {Carousel, Slide} from 'vue-carousel';
+	// import {Carousel, Slide} from 'vue-carousel';
 	import Score from '@/components/movie/Score.vue';
 	import Classification from '@/components/movie/Classification.vue';
 	import Bechdel from '@/components/movie/Bechdel.vue';
@@ -139,7 +139,16 @@
 	import EventLine from '@/components/event/Line.vue';
 	import Icons from '@/components/movie/Icons.vue';
 	export default {
-		components: {Carousel, Slide, Icons, Score, MoviePoster, Classification, Bechdel, MovieTitle, EventLine},
+		components: {Icons, Score, MoviePoster, Classification, Bechdel, MovieTitle, EventLine, // Carousel, Slide
+			Carousel: () =>
+				import ('vue-carousel')
+				.then(m => m.Carousel)
+				.catch(),
+			Slide: () =>
+				import ('vue-carousel')
+				.then(m => m.Slide)
+				.catch()
+		},
 		metaInfo() {return {title: this.title}},
 		computed: {
 			title() {return this.$page.movie.title},
