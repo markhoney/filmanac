@@ -7,11 +7,11 @@ const {resolve} = require('path');
 
 async function screenshot(event, movie) {
 	if (event.screenshot) {
-		if (process.env.MoviePath && existsSync(process.env.MoviePath)) {
-			const movieName = `${movie.title.replace(/\//g, '-').replace(': ', ' - ').replace('…', '...').replace('AVP - ', '')} (${movie.year})`;
-			const input = resolve(process.env.MoviePath, movieName, movieName + '.mkv');
-			const output = resolve('cache', 'images', 'screenshot', `${event.id}.jpg`);
-			if (!existsSync(output)) {
+		const movieName = `${movie.title.replace(/\//g, '-').replace(': ', ' - ').replace('…', '...').replace('AVP - ', '')} (${movie.year})`;
+		const output = resolve('cache', 'images', 'screenshot', `${event.id}.jpg`);
+		if (!existsSync(output)) {
+			if (process.env.MoviePath && existsSync(process.env.MoviePath)) {
+				const input = resolve(process.env.MoviePath, movieName, movieName + '.mkv');
 				if (existsSync(input)) {
 					console.log('Extracting screenshot for', movieName);
 					const result = await extractFrames({
@@ -25,10 +25,10 @@ async function screenshot(event, movie) {
 					console.log('Movie file missing'.red, input);
 				}
 			} else {
-				return output;
+				console.log('Missing MoviePath'.red);
 			}
 		} else {
-			console.log('Missing MoviePath'.red);
+			return output;
 		}
 	}
 }

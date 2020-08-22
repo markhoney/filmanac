@@ -21,7 +21,7 @@
 			</div>
 		</div>
 		<g-image
-			v-if="value.screenshot"
+			v-if="value.screenshot && value.screenshot.image"
 			:src="value.screenshot.image"
 			class="absolute h-full w-8 right-0 object-cover z-40 hover:w-full hover:h-auto transition-all duration-1000 ease-in-out rounded-r-lg hover:rounded-r-none"
 			:class="imageclass"
