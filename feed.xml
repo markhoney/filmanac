@@ -4,7 +4,7 @@
         <title>Today in Movies</title>
         <link>https://movies.honeychurch.org/</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 06 Aug 2020 02:40:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Aug 2020 03:31:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Gridsome Feed Plugin</generator>
         <atom:link href="https://movies.honeychurch.org/feed.xml" rel="self" type="application/rss+xml"/>
@@ -34,6 +34,11 @@
             <guid>https://movies.honeychurch.org/movie/tt2334649/</guid>
         </item>
         <item>
+            <title><![CDATA[The Poseidon Adventure]]></title>
+            <link>https://movies.honeychurch.org/movie/tt0069113/</link>
+            <guid>https://movies.honeychurch.org/movie/tt0069113/</guid>
+        </item>
+        <item>
             <title><![CDATA[Poseidon]]></title>
             <link>https://movies.honeychurch.org/movie/tt0409182/</link>
             <guid>https://movies.honeychurch.org/movie/tt0409182/</guid>
@@ -42,11 +47,6 @@
             <title><![CDATA[Rocky]]></title>
             <link>https://movies.honeychurch.org/movie/tt0075148/</link>
             <guid>https://movies.honeychurch.org/movie/tt0075148/</guid>
-        </item>
-        <item>
-            <title><![CDATA[The Poseidon Adventure]]></title>
-            <link>https://movies.honeychurch.org/movie/tt0069113/</link>
-            <guid>https://movies.honeychurch.org/movie/tt0069113/</guid>
         </item>
         <item>
             <title><![CDATA[The Poseidon Adventure]]></title>
