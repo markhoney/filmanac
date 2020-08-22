@@ -39,6 +39,7 @@ function slugify(name) {
 		name = name.split(r).join(replacements[r]);
 	}
 	name = name.replace(/\.+$/, '');
+	return name;
 }
 
 function monthName(number) {
@@ -377,6 +378,7 @@ class MovieEvents {
 			...openmoviedb,
 			...themoviedb,
 		};
+		movie.slug = slugify(movie.title + ' ' + movie.year);
 		const bechdelScore = await bechdel(movie.id);
 		if (bechdelScore) movie.bechdel = bechdelScore;
 		if (themoviedb) movie.info.tmdb = {
