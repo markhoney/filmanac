@@ -381,10 +381,13 @@ class MovieEvents {
 		movie.slug = slugify(movie.title + ' ' + movie.year);
 		const bechdelScore = await bechdel(movie.id);
 		if (bechdelScore) movie.bechdel = bechdelScore;
-		if (themoviedb) movie.info.tmdb = {
-			id: themoviedb.id,
-			url: `https://www.themoviedb.org/movie/${themoviedb.id}`,
-		};
+		if (themoviedb) {
+			movie.info.tmdb = {
+				id: themoviedb.tmdb,
+				url: `https://www.themoviedb.org/movie/${themoviedb.tmdb}`,
+			};
+			delete movie.tmdb;
+		}
 		if (movie.info.wikipedia) {
 			let wikidatapage = await wikidata(movie.id, movie.info.wikipedia.id);
 			if (wikidatapage) movie.info.wikidata = {

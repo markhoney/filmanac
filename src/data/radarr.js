@@ -15,23 +15,25 @@ const options = {
 
 function post(movie) {
 	const title = movie.title + ' (' + movie.year + ')';
+	console.log(movie);
 	const request = {
 		title: title,
 		titleSlug: movie.slug,
 		// imdbid: movie.info.imdbid.id,
-		tmdbid: movie.info.tmdb.id,
 		rootFolderPath: "/movies/",
+		// tmdbid: movie.info.tmdb.id,
 		// profileId: 1,
 		// qualityProfileId: 1,
 		// monitored: true,
 		// year: movie.year,
+		tmdbid: movie.info.tmdb.id.toString(),
 		profileId: '1',
 		qualityProfileId: '1',
 		monitored: 'true',
 		year: movie.year.toString(),
 		path: '/movies/' + title,
 	};
-	// console.log(request);
+	console.log(request);
 	const post = http.request(options);
 	post.write(JSON.stringify(request));
   post.end();

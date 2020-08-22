@@ -10,6 +10,7 @@ const v3Client = v3(process.env.TheMovieDBKey);
 
 function processTMDB(tmdb) {
 	const movie = {};
+	movie.tmdb = tmdb.id;
 	if (tmdb.original_title) movie.title = tmdb.original_title;
 	if (tmdb.title) movie.title = tmdb.title;
 	if (tmdb.genres) movie.genres = tmdb.genres.map((genre) => genre.name);
