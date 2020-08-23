@@ -28,7 +28,6 @@ function processTMDB(tmdb) {
 		movie.year = parseInt(tmdb.release_date.slice(0, 4));
 		movie.date = new Date(tmdb.release_date);
 	}
-	// if (tmdb.revenue || tmdb.budget)
 	if (tmdb.revenue) movie.revenue = tmdb.revenue;
 	if (tmdb.budget) movie.budget = tmdb.budget;
 	if (tmdb.runtime) movie.runtime = tmdb.runtime;

@@ -1,6 +1,10 @@
 {
-	"name": "filmanac",
-	"private": true,
+	"name": "inmovies.today",
+	"description": "Today in Movies",
+	"version": "0.1.0",
+	"homepage": "https://inmovies.today",
+	"author": "Mark Honeychurch <mark@honeychurch.org> (https://mark.honeychurch.org)",
+	"repository": "https://github.com/markhoney/inmovies.today",
 	"scripts": {
 		"scrape": "node src/data/movieevents",
 		"develop": "gridsome develop",
