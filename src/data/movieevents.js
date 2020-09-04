@@ -329,6 +329,11 @@ class MovieEvents {
 		return writers;
 	}
 
+	getValue(movie) {
+		if (movie.score && movie.revenue && movie.budget)
+			return parseInt(100 * Math.pow(movie.score / 100, 1.8 / 2.8) * Math.pow(movie.revenue / (movie.budget + movie.revenue), (1 / 2.8)));
+	}
+
 	getMovies(events) {
 		return events
 			.filter((v,i,a) => a.findIndex((t) => (t.imdb === v.imdb)) === i)
@@ -379,6 +384,7 @@ class MovieEvents {
 			...themoviedb,
 		};
 		movie.slug = slugify(movie.title + ' ' + movie.year);
+		movie.value = this.getValue(movie);
 		const bechdelScore = await bechdel(movie.id);
 		if (bechdelScore) movie.bechdel = bechdelScore;
 		if (themoviedb) {

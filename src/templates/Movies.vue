@@ -24,6 +24,7 @@
 					</ul>
 					<p v-if="$page.movie.directors" class="mt-4"><b>Directed by</b> {{$page.movie.directors.map((director) => director.title).join(', ')}}</p>
 					<p v-if="$page.movie.actors" class="mt-4"><b>Starring</b> {{$page.movie.actors.map((actor) => actor.title).join(', ')}}</p>
+					<p v-if="$page.movie.value" class="mt-4"><g-link class="font-bold" to="/about#value">Value for Money</g-link> <value :value="$page.movie.value" :scale="5" /></p>
 					<p v-if="$page.movie.bechdel" class="mt-4"><g-link class="font-bold" to="/about#bechdel">Bechdel score</g-link> <bechdel :value="$page.movie.bechdel.rating" /></p>
 					<ClientOnly>
 						<carousel perPage="1" navigationEnabled :paginationEnabled="false" class="mt-16">
@@ -57,6 +58,7 @@
 			}
 			runtime
 			awards
+			value
 			bechdel {
 				rating
 			}
@@ -133,13 +135,14 @@
 	// import {Carousel, Slide} from 'vue-carousel';
 	import Score from '@/components/movie/Score.vue';
 	import Classification from '@/components/movie/Classification.vue';
+	import Value from '@/components/movie/Value.vue';
 	import Bechdel from '@/components/movie/Bechdel.vue';
 	import MoviePoster from '@/components/movie/Poster.vue';
 	import MovieTitle from '@/components/movie/Title.vue';
 	import EventLine from '@/components/event/Line.vue';
 	import Icons from '@/components/movie/Icons.vue';
 	export default {
-		components: {Icons, Score, MoviePoster, Classification, Bechdel, MovieTitle, EventLine, // Carousel, Slide
+		components: {Icons, Score, MoviePoster, Classification, Value, Bechdel, MovieTitle, EventLine, // Carousel, Slide
 			Carousel: () =>
 				import ('vue-carousel')
 				.then(m => m.Carousel)
