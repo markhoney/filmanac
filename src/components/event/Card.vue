@@ -45,7 +45,12 @@
 		props: ['value'],
 		computed: {
 			imageclass() {
-				if (this.value.screenshot && this.value.screenshot.position) return 'object-' + this.value.screenshot.position;
+				if (this.value.screenshot && this.value.screenshot.position) {
+					// return 'object-' + this.value.screenshot.position;
+					if (this.value.screenshot.position === 'top') return 'object-top'; // These are needed to avoid losing the classes in production due to tree shaking
+					else if (this.value.screenshot.position === 'bottom') return 'object-bottom';
+					else return 'object-center';
+				}
 			}
 		},
 	};
