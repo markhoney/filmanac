@@ -329,6 +329,11 @@ class MovieEvents {
 		return writers;
 	}
 
+	getValue(movie) {
+		if (movie.score && movie.revenue && movie.budget)
+			return parseInt(100 * Math.pow(movie.score / 100, 1.8 / 2.8) * Math.pow(movie.revenue / (movie.budget + movie.revenue), (1 / 2.8)));
+	}
+
 	getMovies(events) {
 		return events
 			.filter((v,i,a) => a.findIndex((t) => (t.imdb === v.imdb)) === i)
@@ -379,6 +384,7 @@ class MovieEvents {
 			...themoviedb,
 		};
 		movie.slug = slugify(movie.title + ' ' + movie.year);
+		movie.value = this.getValue(movie);
 		const bechdelScore = await bechdel(movie.id);
 		if (bechdelScore) movie.bechdel = bechdelScore;
 		if (themoviedb) {
@@ -489,10 +495,12 @@ class MovieEvents {
 		for (const source of ['wikipedia', 'wikidata']) {
 			stats[source] = this.movies.filter((movie) => movie.info[source]).length;
 		}
-		stats.descriptions = this.events.filter((event) => event.title).length;
 		for (const image of ['poster', 'fanart', 'logo', 'clearart', 'keyart', 'disc', 'banner', 'landscape']) {
 			stats[image] = this.movies.filter((movie) => movie.images && movie.images[image]).length;
 		}
+		stats.descriptions = this.events.filter((event) => event.title).length;
+		stats.screenshots = this.events.filter((event) => event.screenshot && event.screenshot.image).length;
+		stats.eventwiki = this.events.filter((event) => event.info.wikipedia).length;
 		return stats;
 	}
 
@@ -509,16 +517,16 @@ class MovieEvents {
 
 	getMissing(stats) {
 		const missing = {};
-		missing.days = 366 - stats.days;
-		missing.multiple = 366 - stats.multiple;
-		for (const value of ['descriptions']) {
-			missing[value] = stats.events - stats[value];
+		missing.days = [366 - stats.days, parseInt((366 - stats.days) * 100 / 366) + '%'];
+		missing.multiple = [366 - stats.multiple, parseInt((366 - stats.multiple) * 100 / 366) + '%'];
+		for (const value of ['descriptions', 'screenshots', 'eventwiki']) {
+			missing[value] = [stats.events - stats[value], parseInt((stats.events - stats[value]) * 100 / stats.events) + '%'];
 		}
 		for (const value of ['wikipedia', 'wikidata', 'poster', 'fanart', 'logo', 'clearart', 'keyart', 'disc', 'banner', 'landscape']) {
-			missing[value] = stats.movies - stats[value];
+			missing[value] = [stats.movies - stats[value], parseInt((stats.movies - stats[value]) * 100 / stats.movies) + '%'];
 		}
 		for (const value of ['studios', 'classification', 'directors', 'actors', 'runtime', 'score', 'year']) {
-			missing[value] = stats.movies - this.movies.filter((movie) => movie[value]).length;
+			missing[value] = [stats.movies - this.movies.filter((movie) => movie[value]).length, parseInt((stats.movies - this.movies.filter((movie) => movie[value]).length) * 100 / stats.movies) + '%'];
 		}
 		return missing;
 	}

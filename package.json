@@ -1,6 +1,11 @@
 {
-	"name": "filmanac",
-	"private": true,
+	"name": "inmovies.today",
+	"description": "Today in Movies",
+	"version": "0.1.0",
+	"homepage": "https://inmovies.today",
+	"author": "Mark Honeychurch <mark@honeychurch.org> (https://mark.honeychurch.org)",
+	"repository": "https://github.com/markhoney/inmovies.today",
+	"license": "ISC",
 	"scripts": {
 		"scrape": "node src/data/movieevents",
 		"develop": "gridsome develop",
@@ -51,7 +56,7 @@
 	"dependencies": {
 		"@leonardocabeza/the-movie-db": "^4.1.1",
 		"gridsome-plugin-nprogress": "^0.0.7",
-		"sharp": "^0.25.4",
+		"sharp": "^0.26.0",
 		"svg-country-flags": "^1.2.7",
 		"tinycolor2": "^1.4.1",
 		"trakt.tv": "^8.0.0",

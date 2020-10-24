@@ -37,7 +37,7 @@
 			The data has been collected from a variety of sources, including several Wikipedia list pages, the Movie Quotes database, the Movie Timeline website and user collated IMDB lists.
 			Here are some of the URLs that have been used:
 		</p>
-		<ul>
+		<ul class="list-disc">
 			<li v-for="url in sources" :key="url"><a :href="url" target="_blank" rel="noopener">{{url}}</a></li>
 		</ul>
 		<h3>Dates</h3>
@@ -100,11 +100,11 @@
 			and takes into account that only very bad movies score below 40% (and not many of those reach below 30%), and very few movies score higher than 80%.
 		</p>
 		<div class="scores">
-			<p><score :percent="35" :stars="5" />0% - 40%</p>
-			<p><score :percent="45" :stars="5" />40% - 50%</p>
-			<p><score :percent="55" :stars="5" />50% - 60%</p>
-			<p><score :percent="65" :stars="5" />60% - 70%</p>
-			<p><score :percent="75" :stars="5" />70% - 80%</p>
+			<p><score :percent="35" :stars="5" />0% - 39%</p>
+			<p><score :percent="45" :stars="5" />40% - 49%</p>
+			<p><score :percent="55" :stars="5" />50% - 59%</p>
+			<p><score :percent="65" :stars="5" />60% - 69%</p>
+			<p><score :percent="75" :stars="5" />70% - 79%</p>
 			<p><score :percent="85" :stars="5" />80% - 100%</p>
 		</div>
 		<h3 id="bechdel">Bechdel Score</h3>
@@ -124,7 +124,21 @@
 			When the next build of this website is run, the score will be added.
 		</p>
 		<h3 id="value">Value for Money</h3>
-		<p>Coming soon...</p>
+		<p>This custom designed metric is based on a movie score of 1 to 100, and a budget and revenue in dollars,
+			and aims to represent how well the movie did compared to its cost - not just how much money did it make, but how much enjoyment did it bring to people.
+			The metric was tuned for the movies in this dataset, and kindly created for the site by James Kerr.
+		</p>
+		<p>The formula used for calculating value for money is:</p>
+		<p>( score / 100 ) <sup>1.8 / 2.8</sup> x ( revenue / ( budget + revenue ) ) <sup>1 / 2.8</sup></p>
+		<p>On this site the metric has been turned into a score from 0 to 5, with the following equally spaced ranges:</p>
+		<div class="values">
+			<p><value :value="0" :scale="5" />0% - 16%</p>
+			<p><value :value="20" :scale="5" />17% - 33%</p>
+			<p><value :value="40" :scale="5" />34% - 50%</p>
+			<p><value :value="60" :scale="5" />51% - 66%</p>
+			<p><value :value="80" :scale="5" />67% - 83%</p>
+			<p><value :value="100" :scale="5" />84% - 100%</p>
+		</div>
 		<parallax :src="fanart[5]" title="Technology" class="mt-24 mb-16 h-64" />
 		<p>
 			This website uses the awesome <a href="https://gridsome.org/" target="_blank" rel="noopener">Gridsome</a> static site generator, which creates the entire site
@@ -169,6 +183,7 @@
 	import Parallax from '@/components/generic/Parallax.vue';
 	import Score from '@/components/movie/Score.vue';
 	import Bechdel from '@/components/movie/Bechdel.vue';
+	import Value from '@/components/movie/Value.vue';
 	export default {
 		metaInfo: {
 			title: 'About'
@@ -177,6 +192,7 @@
 			Parallax,
 			Score,
 			Bechdel,
+			Value,
 		},
 		data() {
 			return {
@@ -228,16 +244,16 @@
 	h3 {
 		@apply text-2xl ml-2;
 	}
-	p, ul, ol, dl, h2, h3, .stats, .scores {
+	p, ul, ol, dl, h2, h3, .stats, .scores, .values {
 		@apply m-4 max-w-screen-xl mx-auto px-4;
 	}
 	ul, ol {
 		@apply pl-16;
 	}
-	.scores, .stats {
+	.scores, .stats, .values {
 		@apply flex flex-wrap text-center;
 	}
-	.stats span, .stats a {
+	.stats span, .stats a, .values div {
 		@apply block text-3xl;
 	}
 	/* dt::after {
