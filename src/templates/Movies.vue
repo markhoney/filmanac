@@ -27,7 +27,7 @@
 					<p v-if="$page.movie.bechdel" class="mt-4"><g-link class="font-bold" to="/about#bechdel">Bechdel score</g-link> <bechdel :value="$page.movie.bechdel.rating" /></p>
 					<ClientOnly>
 						<carousel perPage="1" navigationEnabled :paginationEnabled="false" class="mt-16">
-							<slide v-for="event in $page.movie.events.filter((event) => event.screenshot)" :key="event.id">
+							<slide v-for="event in $page.movie.events.filter((event) => event.screenshot && event.screenshot.image)" :key="event.id">
 								<g-image :src="event.screenshot.image" />
 							</slide>
 						</carousel>
