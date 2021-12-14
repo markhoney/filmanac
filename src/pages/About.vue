@@ -125,7 +125,7 @@
 		</p>
 		<h3 id="value">Value for Money</h3>
 		<p>This custom designed metric is based on a movie score of 1 to 100, and a budget and revenue in dollars,
-			and aims to represent how well the movie did compared to its cost - not just how much money did it make, but how much enjoyment did it bring to people.
+			and aims to represent how well the movie did compared to its cost - not just how much money it made, but how much enjoyment it brought to people.
 			The metric was tuned for the movies in this dataset, and kindly created for the site by James Kerr.
 		</p>
 		<p>The formula used for calculating value for money is:</p>
