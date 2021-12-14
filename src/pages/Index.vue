@@ -42,7 +42,7 @@
 					const results = await fetch(`/assets/data/${month}/${day}/index.json`);
 					try {
 						const json = await results.json();
-						return json.data.day;
+						return json.data.day.events;
 					} catch(e) {
 						// if (!dev) this.$router.push({path: `/${this.month}/${this.day}/`});
 						this.$router.push({path: `/${this.month}/${this.day}/`});
