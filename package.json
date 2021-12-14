@@ -13,13 +13,13 @@
 		"bacon": "node node_modules/six-degrees-kevin-bacon-api/index",
 		"dep": "depcheck",
 		"build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 gridsome build",
-		"predeploy": "yarn build",
 		"serve": "serve dist",
+		"predeploy": "yarn build",
 		"deploy": "gh-pages -d dist",
 		"explore": "gridsome explore",
 		"lint": "eslint --ext .js,.vue --ignore-path .gitignore -f table .",
 		"lint:fix": "npm run lint --fix",
-		"share": "lt --port 8080 --subdomain aarond",
+		"share": "lt --port 8080 --subdomain inmovies",
 		"napa": "napa",
 		"extras:genres": "napa DjCisco/resource.images.moviegenreicons.transparent XBMC-Addons/resource.images.moviegenreicons.white XBMC-Addons/resource.images.moviegenreicons.filmstrip dproudmoore/resource.images.moviegenrefanart.metrocity Helly1206/resource.images.moviegenrefanart.xonfluence mistervee/resource.images.moviegenreicons.filmstrip-hd.colour mistervee/resource.images.moviegenreicons.filmstrip-hd.bw",
 		"extras:studios": "napa XBMC-Addons/resource.images.studios.coloured XBMC-Addons/resource.images.studios.white braz96/resource.images.studios.squarehd",
@@ -28,7 +28,10 @@
 		"extras:languages": "napa vdb86/resource.images.languageflags.completepack jeroenpardon/resource.images.languageflags.colour-flat",
 		"extras": "yarn extras:genres && yarn extras:studios && yarn extras:classifications && yarn extras:countries && yarn extras:languages",
 		"up": "yarn upgrade && yarn extras",
-		"bump": "yarn upgrade-interactive --latest && yarn extras"
+		"postupgrade": "yarn extras",
+		"postinstall": "yarn extras",
+		"bump": "yarn upgrade-interactive --latest",
+		"postbump": "yarn extras"
 	},
 	"devDependencies": {
 		"@danestves/tailwindcss-darkmode": "^2.0.1",

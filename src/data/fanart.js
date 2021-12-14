@@ -1,6 +1,7 @@
 require('dotenv').config();
 require('colors');
-const fanart = new (require('fanart.tv'))(process.env.FanartTVKey);
+const Fanart = require('fanart.tv');
+const fanart = new Fanart(process.env.FanartTVKey);
 const unavailable = require('./unavailable');
 const cache = require('./cache');
 
