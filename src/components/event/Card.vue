@@ -26,11 +26,11 @@
 			class="absolute h-full w-8 right-0 object-cover z-40 hover:w-full hover:h-auto transition-all duration-1000 ease-in-out rounded-r-lg hover:rounded-r-none"
 			:class="imageclass"
 		/>
-		<iframe
+		<!--<iframe
 			v-else-if="value.info && value.info.wikipedia"
 			:src="value.info.wikipedia.mobile.split('#')[0]"
 			class="absolute h-full w-8 right-0 object-cover z-40 hover:w-full hover:h-auto transition-all duration-1000 ease-in-out rounded-r-lg hover:rounded-r-none overflow-hidden hover:overflow-auto"
-		/>
+		/>-->
 	</div>
 </template>
 
