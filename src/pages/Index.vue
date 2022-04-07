@@ -41,14 +41,18 @@
 					const day = this.now.getDate();
 					const results = await fetch(`/assets/data/${month}/${day}/index.json`);
 					try {
+						console.log(results);
 						const json = await results.json();
-						return json.data.day.events;
+						// return json.data.day.events;
+						console.log(json);
+						return json.day.events;
 					} catch(e) {
 						// if (!dev) this.$router.push({path: `/${this.month}/${this.day}/`});
 						this.$router.push({path: `/${this.month}/${this.day}/`});
+						return [];
 					}
 				}
-				return null;
+				return [];
 			},
 		},
 	};

@@ -67,6 +67,7 @@ module.exports = {
 			options: {
 				title: siteName,
 				disableServiceWorker: true,
+				serviceWorkerPath: '',
 				shortName: siteName,
 				cachedFileTypes: 'js,css',
 				themeColor: '#e32929',
