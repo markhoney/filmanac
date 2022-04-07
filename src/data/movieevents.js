@@ -140,7 +140,7 @@ class MovieEvents {
 				// date: year ? new Date(event.year, event.month - 1, event.day) : null,
 			};
 			if (event.timestamp) {
-				if (event.timestampend) ev.audio = {time: [event.timestamp, event.timestampend]};
+				if (event.timestampaudioend) ev.audio = {time: [event.timestamp, event.timestampaudioend]};
 				else {
 					ev.screenshot = {time: event.timestamp};
 					if (event.position) ev.screenshot.position = event.position;
@@ -347,7 +347,7 @@ class MovieEvents {
 						},
 					},
 				};
-				if (event.moviewikipedia) movie.info.wikipedia = this.processWikipedia(event.moviewikipedia);
+				if (event.wikipediamovie) movie.info.wikipedia = this.processWikipedia(event.wikipediamovie);
 				return movie;
 		});
 	}

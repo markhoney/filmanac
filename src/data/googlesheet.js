@@ -13,5 +13,7 @@ module.exports = async function getSheet(name) {
 		range: name + '!A1:ZZ10000',
 	});
 	const titles = sheet.data.values.shift();
-	return sheet.data.values.map((row) => titles.reduce((rows, title, index) => ({...rows, [title.toLowerCase()]: row[index]}), {}));
-}
+	return sheet.data.values.map((row) => titles.reduce((rows, title, index) => {
+		return {...rows, [title.toLowerCase()]: row[index]};
+	}, {}));
+};

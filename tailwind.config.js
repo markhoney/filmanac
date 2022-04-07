@@ -42,6 +42,9 @@ function autoColours(hex) {
 
 module.exports = {
 	purge: ['./src/**/*.vue'],
+	future: {
+		purgeLayersByDefault: true,
+	},
 	theme: {
 		extend: {
 			// colors: autoColours('#D0262E'),

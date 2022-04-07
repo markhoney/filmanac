@@ -2,7 +2,7 @@ const siteName = 'Today in Movies';
 
 const search = {
 	Movies: 'Movie',
-	DaysOfYear:'Day of Year',
+	DaysOfYear: 'Day of Year',
 	Years: 'Event Year',
 	Genres: 'Genre',
 	Languages: 'Language',
