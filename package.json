@@ -60,7 +60,6 @@
 	"dependencies": {
 		"@leonardocabeza/the-movie-db": "^4.1.1",
 		"gridsome-plugin-nprogress": "^0.0.7",
-		"sharp": "^0.30.3",
 		"svg-country-flags": "^1.2.7",
 		"tinycolor2": "^1.4.1",
 		"trakt.tv": "^8.0.0",

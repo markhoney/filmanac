@@ -142,16 +142,7 @@
 	import EventLine from '@/components/event/Line.vue';
 	import Icons from '@/components/movie/Icons.vue';
 	export default {
-		components: {Icons, Score, MoviePoster, Classification, Value, Bechdel, MovieTitle, EventLine, // Carousel, Slide
-			Carousel: () =>
-				import ('vue-carousel')
-				.then(m => m.Carousel)
-				.catch(),
-			Slide: () =>
-				import ('vue-carousel')
-				.then(m => m.Slide)
-				.catch()
-		},
+		components: {Icons, Score, MoviePoster, Classification, Value, Bechdel, MovieTitle, EventLine},
 		metaInfo() {return {title: this.title}},
 		computed: {
 			title() {return this.$page.movie.title},

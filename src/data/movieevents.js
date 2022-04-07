@@ -146,7 +146,7 @@ class MovieEvents {
 					if (event.position) ev.screenshot.position = event.position;
 				}
 			}
-			if (event.wikipedia) ev.info.wikipedia = this.processWikipedia(event.wikipedia);
+			if (event.wikipediamovie) ev.info.wikipedia = this.processWikipedia(event.wikipediamovie);
 			return ev;
 		}).filter((event) => event.month && event.day && event.movie);
 	}
@@ -395,7 +395,7 @@ class MovieEvents {
 			delete movie.tmdb;
 		}
 		if (movie.info.wikipedia) {
-			let wikidatapage = await wikidata(movie.id, movie.info.wikipedia.id);
+			let wikidatapage = await wikidata(movie.id, movie.info.wikipedia.id.split('#')[0]);
 			if (wikidatapage) movie.info.wikidata = {
 				id: wikidatapage.id,
 				url: `https://www.wikidata.org/wiki/${wikidatapage.id}`,

@@ -22,6 +22,10 @@ export default function (Vue, {head, appOptions}) {
 	Vue.use(Vuex);
 	Vue.component('Fixed', Fixed);
 	Vue.use(AsyncComputed);
+	if (process.isClient) {
+		Vue.component('Carousel', require('vue-carousel').Carousel);
+		Vue.component('Slide', require('vue-carousel').Slide);
+	}
 	head.htmlAttrs = {class: 'bg-grey-darkest'};
 	// head.bodyAttrs = {class: 'bg-grey-darkest'};
 	appOptions.store = new Vuex.Store({
