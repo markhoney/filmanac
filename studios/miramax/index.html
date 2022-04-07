@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" class="bg-grey-darkest" data-vue-tag="%7B%22class%22:%7B%22ssr%22:%22bg-grey-darkest%22%7D%7D">
+  <head>
+    <title>Movies made by Miramax - Today in Movies</title><meta name="gridsome:hash" content="8b3ae2c691c806cf9e10a1d3d83c108464ddc640"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.23"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><meta data-vue-tag="ssr" name="theme-color" content="#e32929"><meta data-vue-tag="ssr" name="apple-mobile-web-app-capable" content="yes"><meta data-vue-tag="ssr" name="apple-mobile-web-app-status-bar-style" content="default"><meta data-vue-tag="ssr" name="apple-mobile-web-app-title" content="Today in Movies"><meta data-vue-tag="ssr" name="application-name" content="Today in Movies"><meta data-vue-tag="ssr" name="msapplication-TileColor" content="#666600"><meta data-vue-tag="ssr" name="msapplication-TileImage" content="/assets/static/favicon.png-144x144.png"><meta data-vue-tag="ssr" data-key="description" name="description" content=""><link data-vue-tag="ssr" rel="icon" href="data:,"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="16x16" href="/assets/static/favicon.ce0531f.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="32x32" href="/assets/static/favicon.ac8d93a.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96" href="/assets/static/favicon.b9532cc.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/assets/static/favicon.f22e9f3.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/assets/static/favicon.62d22cb.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/assets/static/favicon.1539b60.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/assets/static/favicon.dc0cdc5.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/static/favicon.7b22250.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="manifest" href="/manifest.json"><link rel="preload" href="/assets/css/0.styles.827e0d66.css" as="style"><link rel="preload" href="/assets/js/app.c97897c8.js" as="script"><link rel="preload" href="/assets/js/page--src-templates-studios-vue.9ad88135.js" as="script"><link rel="prefetch" href="/assets/js/page--src-pages-404-vue.7ce81ea3.js"><link rel="prefetch" href="/assets/js/page--src-pages-about-vue.4cd07938.js"><link rel="prefetch" href="/assets/js/page--src-pages-classifications-vue.54b4d921.js"><link rel="prefetch" href="/assets/js/page--src-pages-countries-vue.eb57703f.js"><link rel="prefetch" href="/assets/js/page--src-pages-days-vue.b6e8eb23.js"><link rel="prefetch" href="/assets/js/page--src-pages-design-vue.b053f6ac.js"><link rel="prefetch" href="/assets/js/page--src-pages-genres-vue.41b285bc.js"><link rel="prefetch" href="/assets/js/page--src-pages-index-vue.2bcce1db.js"><link rel="prefetch" href="/assets/js/page--src-pages-languages-vue.90b20a3c.js"><link rel="prefetch" href="/assets/js/page--src-pages-released-vue.913c4a24.js"><link rel="prefetch" href="/assets/js/page--src-pages-search-vue.11ea7a85.js"><link rel="prefetch" href="/assets/js/page--src-pages-studios-vue.bb95d3de.js"><link rel="prefetch" href="/assets/js/page--src-pages-submit-vue.cd40a64d.js"><link rel="prefetch" href="/assets/js/page--src-pages-years-vue.57017bf2.js"><link rel="prefetch" href="/assets/js/page--src-templates-classifications-vue.a5301df1.js"><link rel="prefetch" href="/assets/js/page--src-templates-countries-vue.899ab4bf.js"><link rel="prefetch" href="/assets/js/page--src-templates-days-of-year-vue.5d8ea99f.js"><link rel="prefetch" href="/assets/js/page--src-templates-genres-vue.956a2d1f.js"><link rel="prefetch" href="/assets/js/page--src-templates-languages-vue.c282c233.js"><link rel="prefetch" href="/assets/js/page--src-templates-months-vue.48106ffb.js"><link rel="prefetch" href="/assets/js/page--src-templates-movies-vue.c571684e.js"><link rel="prefetch" href="/assets/js/page--src-templates-release-years-vue.0bdfcbba.js"><link rel="prefetch" href="/assets/js/page--src-templates-years-vue.614b9044.js"><link rel="prefetch" href="/assets/js/vendors~page--src-pages-design-vue.eabdd2b1.js"><link rel="stylesheet" href="/assets/css/0.styles.827e0d66.css"><style data-vue-tag="ssr" type="text/css">
+    #nprogress {
+     pointer-events: none;
+    }
+    #nprogress .bar {
+      background: #667eea;
+      position: fixed;
+      z-index: 1031;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+    }
+    #nprogress .peg {
+      display: block;
+      position: absolute;
+      right: 0px;
+      width: 100px;
+      height: 100%;
+      box-shadow: 0 0 10px #667eea, 0 0 5px #667eea;
+      opacity: 1.0;
+      -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+      transform: rotate(3deg) translate(0px, -4px);
+    }
+    #nprogress .spinner {
+      display: block;
+      position: fixed;
+      z-index: 1031;
+      top: 15px;
+      right: 15px;
+    }
+    #nprogress .spinner-icon {
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+      border: solid 2px transparent;
+      border-top-color: #667eea;
+      border-left-color: #667eea;
+      border-radius: 50%;
+      -webkit-animation: nprogress-spinner 400ms linear infinite;
+      animation: nprogress-spinner 400ms linear infinite;
+    }
+    .nprogress-custom-parent {
+      overflow: hidden;
+      position: relative;
+    }
+    .nprogress-custom-parent #nprogress .spinner,
+    .nprogress-custom-parent #nprogress .bar {
+      position: absolute;
+    }
+    @-webkit-keyframes nprogress-spinner {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    @keyframes nprogress-spinner {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <div data-server-rendered="true" id="app" class="h-screen flex flex-col min-h-screen text-grey-darkest dark:text-grey-lighter bg-repeat bg-fixed transition-all duration-500 ease-in-out" style="background-image:url('/img/backgrounds/tiles/overlook.jpg');"><header class="flex flex-col sm:flex-row pt-0 text-center bg-grey-lightest dark:bg-grey-darkest text-black dark:text-grey-lightest bg-repeat-x leading-none transition-all duration-500 ease-in-out bg-bottom z-10 shadow-xl p-6 pt-8" style="--bg-opacity:0.8;"><nav class="font-semibold pt-2" data-v-2fa43f1a><ul class="h-full" data-v-2fa43f1a><li data-v-2fa43f1a><div data-v-2fa43f1a><svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 32 32" class="cursor-pointer" style="width: 1rem;"><title>Switch to dark mode</title><path fill="#333333" d="M31.3 25.2a7 7 0 10-14 0 7 7 0 0014 0zm-7 5a5 5 0 110-10 5 5 0 010 10zM23.3 34v6.2a1 1 0 102 0v-6.1a1 1 0 10-2 0zM23.3 10.2v6.2a1 1 0 102 0v-6.2a1 1 0 10-2 0zM34.2 36.5a1 1 0 001.4 0c.4-.4.4-1 0-1.4l-4.3-4.3a1 1 0 10-1.4 1.4l4.3 4.3zM13 14a1 1 0 000 1.3l4.3 4.4a1 1 0 001.5 0c.4-.4.4-1 0-1.5L14.4 14a1 1 0 00-1.4 0zM39.3 24.2h-6.1a1 1 0 100 2h6.1a1 1 0 100-2zM8.3 25.2c0 .6.5 1 1 1h6.2a1 1 0 100-2H9.3a1 1 0 00-1 1zM34.2 14L30 18.1a1 1 0 101.4 1.5l4.3-4.4a1 1 0 10-1.4-1.4zM13.7 36.8c.3 0 .5 0 .7-.3l4.4-4.3a1 1 0 10-1.5-1.4L13 35a1 1 0 00.7 1.7z"></path></svg></div></li><li data-v-2fa43f1a><a href="/" title="See all movies for today" class="active" data-v-2fa43f1a>Today</a></li><li data-v-2fa43f1a><a href="/days" title="See all days of the year" data-v-2fa43f1a>Days</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/january/" title="See all movies in January" data-v-2fa43f1a>January</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/january/1/" title="See all movies for January 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/january/2/" title="See all movies for January 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/january/3/" title="See all movies for January 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/january/4/" title="See all movies for January 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/january/5/" title="See all movies for January 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/january/6/" title="See all movies for January 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/january/7/" title="See all movies for January 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/january/8/" title="See all movies for January 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/january/9/" title="See all movies for January 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/january/10/" title="See all movies for January 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/january/11/" title="See all movies for January 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/january/12/" title="See all movies for January 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/january/13/" title="See all movies for January 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/january/14/" title="See all movies for January 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/january/15/" title="See all movies for January 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/january/16/" title="See all movies for January 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/january/17/" title="See all movies for January 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/january/18/" title="See all movies for January 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/january/19/" title="See all movies for January 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/january/20/" title="See all movies for January 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/january/21/" title="See all movies for January 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/january/22/" title="See all movies for January 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/january/23/" title="See all movies for January 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/january/24/" title="See all movies for January 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/january/25/" title="See all movies for January 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/january/26/" title="See all movies for January 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/january/27/" title="See all movies for January 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/january/28/" title="See all movies for January 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/january/29/" title="See all movies for January 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/january/30/" title="See all movies for January 30th" data-v-2fa43f1a>
+								30th
+							</a></li><li data-v-2fa43f1a><a href="/january/31/" title="See all movies for January 31st" data-v-2fa43f1a>
+								31st
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/february/" title="See all movies in February" data-v-2fa43f1a>February</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/february/1/" title="See all movies for February 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/february/2/" title="See all movies for February 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/february/3/" title="See all movies for February 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/february/4/" title="See all movies for February 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/february/5/" title="See all movies for February 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/february/6/" title="See all movies for February 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/february/7/" title="See all movies for February 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/february/8/" title="See all movies for February 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/february/9/" title="See all movies for February 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/february/10/" title="See all movies for February 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/february/11/" title="See all movies for February 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/february/12/" title="See all movies for February 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/february/13/" title="See all movies for February 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/february/14/" title="See all movies for February 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/february/15/" title="See all movies for February 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/february/16/" title="See all movies for February 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/february/17/" title="See all movies for February 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/february/18/" title="See all movies for February 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/february/19/" title="See all movies for February 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/february/20/" title="See all movies for February 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/february/21/" title="See all movies for February 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/february/22/" title="See all movies for February 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/february/23/" title="See all movies for February 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/february/24/" title="See all movies for February 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/february/25/" title="See all movies for February 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/february/26/" title="See all movies for February 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/february/27/" title="See all movies for February 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/february/28/" title="See all movies for February 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/february/29/" title="See all movies for February 29th" data-v-2fa43f1a>
+								29th
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/march/" title="See all movies in March" data-v-2fa43f1a>March</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/march/1/" title="See all movies for March 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/march/2/" title="See all movies for March 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/march/3/" title="See all movies for March 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/march/4/" title="See all movies for March 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/march/5/" title="See all movies for March 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/march/6/" title="See all movies for March 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/march/7/" title="See all movies for March 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/march/8/" title="See all movies for March 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/march/9/" title="See all movies for March 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/march/10/" title="See all movies for March 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/march/11/" title="See all movies for March 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/march/12/" title="See all movies for March 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/march/13/" title="See all movies for March 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/march/14/" title="See all movies for March 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/march/15/" title="See all movies for March 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/march/16/" title="See all movies for March 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/march/17/" title="See all movies for March 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/march/18/" title="See all movies for March 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/march/19/" title="See all movies for March 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/march/20/" title="See all movies for March 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/march/21/" title="See all movies for March 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/march/22/" title="See all movies for March 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/march/23/" title="See all movies for March 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/march/24/" title="See all movies for March 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/march/25/" title="See all movies for March 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/march/26/" title="See all movies for March 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/march/27/" title="See all movies for March 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/march/28/" title="See all movies for March 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/march/29/" title="See all movies for March 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/march/30/" title="See all movies for March 30th" data-v-2fa43f1a>
+								30th
+							</a></li><li data-v-2fa43f1a><a href="/march/31/" title="See all movies for March 31st" data-v-2fa43f1a>
+								31st
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/april/" title="See all movies in April" data-v-2fa43f1a>April</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/april/1/" title="See all movies for April 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/april/2/" title="See all movies for April 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/april/3/" title="See all movies for April 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/april/4/" title="See all movies for April 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/april/5/" title="See all movies for April 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/april/6/" title="See all movies for April 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/april/7/" title="See all movies for April 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/april/8/" title="See all movies for April 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/april/9/" title="See all movies for April 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/april/10/" title="See all movies for April 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/april/11/" title="See all movies for April 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/april/12/" title="See all movies for April 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/april/13/" title="See all movies for April 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/april/14/" title="See all movies for April 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/april/15/" title="See all movies for April 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/april/16/" title="See all movies for April 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/april/17/" title="See all movies for April 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/april/18/" title="See all movies for April 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/april/19/" title="See all movies for April 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/april/20/" title="See all movies for April 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/april/21/" title="See all movies for April 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/april/22/" title="See all movies for April 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/april/23/" title="See all movies for April 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/april/24/" title="See all movies for April 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/april/25/" title="See all movies for April 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/april/26/" title="See all movies for April 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/april/27/" title="See all movies for April 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/april/28/" title="See all movies for April 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/april/29/" title="See all movies for April 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/april/30/" title="See all movies for April 30th" data-v-2fa43f1a>
+								30th
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/may/" title="See all movies in May" data-v-2fa43f1a>May</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/may/1/" title="See all movies for May 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/may/2/" title="See all movies for May 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/may/3/" title="See all movies for May 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/may/4/" title="See all movies for May 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/may/5/" title="See all movies for May 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/may/6/" title="See all movies for May 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/may/7/" title="See all movies for May 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/may/8/" title="See all movies for May 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/may/9/" title="See all movies for May 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/may/10/" title="See all movies for May 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/may/11/" title="See all movies for May 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/may/12/" title="See all movies for May 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/may/13/" title="See all movies for May 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/may/14/" title="See all movies for May 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/may/15/" title="See all movies for May 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/may/16/" title="See all movies for May 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/may/17/" title="See all movies for May 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/may/18/" title="See all movies for May 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/may/19/" title="See all movies for May 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/may/20/" title="See all movies for May 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/may/21/" title="See all movies for May 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/may/22/" title="See all movies for May 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/may/23/" title="See all movies for May 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/may/24/" title="See all movies for May 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/may/25/" title="See all movies for May 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/may/26/" title="See all movies for May 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/may/27/" title="See all movies for May 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/may/28/" title="See all movies for May 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/may/29/" title="See all movies for May 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/may/30/" title="See all movies for May 30th" data-v-2fa43f1a>
+								30th
+							</a></li><li data-v-2fa43f1a><a href="/may/31/" title="See all movies for May 31st" data-v-2fa43f1a>
+								31st
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/june/" title="See all movies in June" data-v-2fa43f1a>June</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/june/1/" title="See all movies for June 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/june/2/" title="See all movies for June 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/june/3/" title="See all movies for June 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/june/4/" title="See all movies for June 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/june/5/" title="See all movies for June 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/june/6/" title="See all movies for June 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/june/7/" title="See all movies for June 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/june/8/" title="See all movies for June 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/june/9/" title="See all movies for June 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/june/10/" title="See all movies for June 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/june/11/" title="See all movies for June 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/june/12/" title="See all movies for June 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/june/13/" title="See all movies for June 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/june/14/" title="See all movies for June 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/june/15/" title="See all movies for June 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/june/16/" title="See all movies for June 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/june/17/" title="See all movies for June 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/june/18/" title="See all movies for June 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/june/19/" title="See all movies for June 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/june/20/" title="See all movies for June 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/june/21/" title="See all movies for June 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/june/22/" title="See all movies for June 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/june/23/" title="See all movies for June 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/june/24/" title="See all movies for June 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/june/25/" title="See all movies for June 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/june/26/" title="See all movies for June 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/june/27/" title="See all movies for June 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/june/28/" title="See all movies for June 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/june/29/" title="See all movies for June 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/june/30/" title="See all movies for June 30th" data-v-2fa43f1a>
+								30th
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/july/" title="See all movies in July" data-v-2fa43f1a>July</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/july/1/" title="See all movies for July 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/july/2/" title="See all movies for July 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/july/3/" title="See all movies for July 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/july/4/" title="See all movies for July 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/july/5/" title="See all movies for July 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/july/6/" title="See all movies for July 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/july/7/" title="See all movies for July 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/july/8/" title="See all movies for July 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/july/9/" title="See all movies for July 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/july/10/" title="See all movies for July 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/july/11/" title="See all movies for July 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/july/12/" title="See all movies for July 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/july/13/" title="See all movies for July 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/july/14/" title="See all movies for July 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/july/15/" title="See all movies for July 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/july/16/" title="See all movies for July 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/july/17/" title="See all movies for July 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/july/18/" title="See all movies for July 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/july/19/" title="See all movies for July 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/july/20/" title="See all movies for July 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/july/21/" title="See all movies for July 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/july/22/" title="See all movies for July 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/july/23/" title="See all movies for July 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/july/24/" title="See all movies for July 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/july/25/" title="See all movies for July 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/july/26/" title="See all movies for July 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/july/27/" title="See all movies for July 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/july/28/" title="See all movies for July 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/july/29/" title="See all movies for July 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/july/30/" title="See all movies for July 30th" data-v-2fa43f1a>
+								30th
+							</a></li><li data-v-2fa43f1a><a href="/july/31/" title="See all movies for July 31st" data-v-2fa43f1a>
+								31st
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/august/" title="See all movies in August" data-v-2fa43f1a>August</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/august/1/" title="See all movies for August 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/august/2/" title="See all movies for August 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/august/3/" title="See all movies for August 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/august/4/" title="See all movies for August 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/august/5/" title="See all movies for August 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/august/6/" title="See all movies for August 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/august/7/" title="See all movies for August 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/august/8/" title="See all movies for August 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/august/9/" title="See all movies for August 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/august/10/" title="See all movies for August 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/august/11/" title="See all movies for August 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/august/12/" title="See all movies for August 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/august/13/" title="See all movies for August 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/august/14/" title="See all movies for August 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/august/15/" title="See all movies for August 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/august/16/" title="See all movies for August 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/august/17/" title="See all movies for August 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/august/18/" title="See all movies for August 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/august/19/" title="See all movies for August 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/august/20/" title="See all movies for August 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/august/21/" title="See all movies for August 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/august/22/" title="See all movies for August 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/august/23/" title="See all movies for August 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/august/24/" title="See all movies for August 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/august/25/" title="See all movies for August 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/august/26/" title="See all movies for August 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/august/27/" title="See all movies for August 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/august/28/" title="See all movies for August 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/august/29/" title="See all movies for August 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/august/30/" title="See all movies for August 30th" data-v-2fa43f1a>
+								30th
+							</a></li><li data-v-2fa43f1a><a href="/august/31/" title="See all movies for August 31st" data-v-2fa43f1a>
+								31st
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/september/" title="See all movies in September" data-v-2fa43f1a>September</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/september/1/" title="See all movies for September 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/september/2/" title="See all movies for September 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/september/3/" title="See all movies for September 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/september/4/" title="See all movies for September 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/september/5/" title="See all movies for September 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/september/6/" title="See all movies for September 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/september/7/" title="See all movies for September 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/september/8/" title="See all movies for September 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/september/9/" title="See all movies for September 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/september/10/" title="See all movies for September 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/september/11/" title="See all movies for September 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/september/12/" title="See all movies for September 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/september/13/" title="See all movies for September 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/september/14/" title="See all movies for September 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/september/15/" title="See all movies for September 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/september/16/" title="See all movies for September 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/september/17/" title="See all movies for September 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/september/18/" title="See all movies for September 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/september/19/" title="See all movies for September 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/september/20/" title="See all movies for September 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/september/21/" title="See all movies for September 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/september/22/" title="See all movies for September 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/september/23/" title="See all movies for September 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/september/24/" title="See all movies for September 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/september/25/" title="See all movies for September 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/september/26/" title="See all movies for September 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/september/27/" title="See all movies for September 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/september/28/" title="See all movies for September 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/september/29/" title="See all movies for September 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/september/30/" title="See all movies for September 30th" data-v-2fa43f1a>
+								30th
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/october/" title="See all movies in October" data-v-2fa43f1a>October</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/october/1/" title="See all movies for October 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/october/2/" title="See all movies for October 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/october/3/" title="See all movies for October 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/october/4/" title="See all movies for October 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/october/5/" title="See all movies for October 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/october/6/" title="See all movies for October 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/october/7/" title="See all movies for October 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/october/8/" title="See all movies for October 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/october/9/" title="See all movies for October 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/october/10/" title="See all movies for October 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/october/11/" title="See all movies for October 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/october/12/" title="See all movies for October 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/october/13/" title="See all movies for October 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/october/14/" title="See all movies for October 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/october/15/" title="See all movies for October 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/october/16/" title="See all movies for October 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/october/17/" title="See all movies for October 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/october/18/" title="See all movies for October 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/october/19/" title="See all movies for October 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/october/20/" title="See all movies for October 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/october/21/" title="See all movies for October 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/october/22/" title="See all movies for October 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/october/23/" title="See all movies for October 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/october/24/" title="See all movies for October 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/october/25/" title="See all movies for October 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/october/26/" title="See all movies for October 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/october/27/" title="See all movies for October 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/october/28/" title="See all movies for October 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/october/29/" title="See all movies for October 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/october/30/" title="See all movies for October 30th" data-v-2fa43f1a>
+								30th
+							</a></li><li data-v-2fa43f1a><a href="/october/31/" title="See all movies for October 31st" data-v-2fa43f1a>
+								31st
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/november/" title="See all movies in November" data-v-2fa43f1a>November</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/november/1/" title="See all movies for November 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/november/2/" title="See all movies for November 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/november/3/" title="See all movies for November 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/november/4/" title="See all movies for November 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/november/5/" title="See all movies for November 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/november/6/" title="See all movies for November 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/november/7/" title="See all movies for November 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/november/8/" title="See all movies for November 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/november/9/" title="See all movies for November 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/november/10/" title="See all movies for November 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/november/11/" title="See all movies for November 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/november/12/" title="See all movies for November 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/november/13/" title="See all movies for November 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/november/14/" title="See all movies for November 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/november/15/" title="See all movies for November 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/november/16/" title="See all movies for November 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/november/17/" title="See all movies for November 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/november/18/" title="See all movies for November 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/november/19/" title="See all movies for November 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/november/20/" title="See all movies for November 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/november/21/" title="See all movies for November 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/november/22/" title="See all movies for November 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/november/23/" title="See all movies for November 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/november/24/" title="See all movies for November 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/november/25/" title="See all movies for November 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/november/26/" title="See all movies for November 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/november/27/" title="See all movies for November 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/november/28/" title="See all movies for November 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/november/29/" title="See all movies for November 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/november/30/" title="See all movies for November 30th" data-v-2fa43f1a>
+								30th
+							</a></li></ul></li><li data-v-2fa43f1a><a href="/december/" title="See all movies in December" data-v-2fa43f1a>December</a><ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/december/1/" title="See all movies for December 1st" data-v-2fa43f1a>
+								1st
+							</a></li><li data-v-2fa43f1a><a href="/december/2/" title="See all movies for December 2nd" data-v-2fa43f1a>
+								2nd
+							</a></li><li data-v-2fa43f1a><a href="/december/3/" title="See all movies for December 3rd" data-v-2fa43f1a>
+								3rd
+							</a></li><li data-v-2fa43f1a><a href="/december/4/" title="See all movies for December 4th" data-v-2fa43f1a>
+								4th
+							</a></li><li data-v-2fa43f1a><a href="/december/5/" title="See all movies for December 5th" data-v-2fa43f1a>
+								5th
+							</a></li><li data-v-2fa43f1a><a href="/december/6/" title="See all movies for December 6th" data-v-2fa43f1a>
+								6th
+							</a></li><li data-v-2fa43f1a><a href="/december/7/" title="See all movies for December 7th" data-v-2fa43f1a>
+								7th
+							</a></li><li data-v-2fa43f1a><a href="/december/8/" title="See all movies for December 8th" data-v-2fa43f1a>
+								8th
+							</a></li><li data-v-2fa43f1a><a href="/december/9/" title="See all movies for December 9th" data-v-2fa43f1a>
+								9th
+							</a></li><li data-v-2fa43f1a><a href="/december/10/" title="See all movies for December 10th" data-v-2fa43f1a>
+								10th
+							</a></li><li data-v-2fa43f1a><a href="/december/11/" title="See all movies for December 11th" data-v-2fa43f1a>
+								11th
+							</a></li><li data-v-2fa43f1a><a href="/december/12/" title="See all movies for December 12th" data-v-2fa43f1a>
+								12th
+							</a></li><li data-v-2fa43f1a><a href="/december/13/" title="See all movies for December 13th" data-v-2fa43f1a>
+								13th
+							</a></li><li data-v-2fa43f1a><a href="/december/14/" title="See all movies for December 14th" data-v-2fa43f1a>
+								14th
+							</a></li><li data-v-2fa43f1a><a href="/december/15/" title="See all movies for December 15th" data-v-2fa43f1a>
+								15th
+							</a></li><li data-v-2fa43f1a><a href="/december/16/" title="See all movies for December 16th" data-v-2fa43f1a>
+								16th
+							</a></li><li data-v-2fa43f1a><a href="/december/17/" title="See all movies for December 17th" data-v-2fa43f1a>
+								17th
+							</a></li><li data-v-2fa43f1a><a href="/december/18/" title="See all movies for December 18th" data-v-2fa43f1a>
+								18th
+							</a></li><li data-v-2fa43f1a><a href="/december/19/" title="See all movies for December 19th" data-v-2fa43f1a>
+								19th
+							</a></li><li data-v-2fa43f1a><a href="/december/20/" title="See all movies for December 20th" data-v-2fa43f1a>
+								20th
+							</a></li><li data-v-2fa43f1a><a href="/december/21/" title="See all movies for December 21st" data-v-2fa43f1a>
+								21st
+							</a></li><li data-v-2fa43f1a><a href="/december/22/" title="See all movies for December 22nd" data-v-2fa43f1a>
+								22nd
+							</a></li><li data-v-2fa43f1a><a href="/december/23/" title="See all movies for December 23rd" data-v-2fa43f1a>
+								23rd
+							</a></li><li data-v-2fa43f1a><a href="/december/24/" title="See all movies for December 24th" data-v-2fa43f1a>
+								24th
+							</a></li><li data-v-2fa43f1a><a href="/december/25/" title="See all movies for December 25th" data-v-2fa43f1a>
+								25th
+							</a></li><li data-v-2fa43f1a><a href="/december/26/" title="See all movies for December 26th" data-v-2fa43f1a>
+								26th
+							</a></li><li data-v-2fa43f1a><a href="/december/27/" title="See all movies for December 27th" data-v-2fa43f1a>
+								27th
+							</a></li><li data-v-2fa43f1a><a href="/december/28/" title="See all movies for December 28th" data-v-2fa43f1a>
+								28th
+							</a></li><li data-v-2fa43f1a><a href="/december/29/" title="See all movies for December 29th" data-v-2fa43f1a>
+								29th
+							</a></li><li data-v-2fa43f1a><a href="/december/30/" title="See all movies for December 30th" data-v-2fa43f1a>
+								30th
+							</a></li><li data-v-2fa43f1a><a href="/december/31/" title="See all movies for December 31st" data-v-2fa43f1a>
+								31st
+							</a></li></ul></li></ul></li><li data-v-2fa43f1a>
+			Categories
+			<ul class="dark:bg-primary-darker" data-v-2fa43f1a><li data-v-2fa43f1a><a href="/genres" title="See all Genres" data-v-2fa43f1a>Genres</a></li><li data-v-2fa43f1a><a href="/studios" title="See all Studios" class="active" data-v-2fa43f1a>Studios</a></li><li data-v-2fa43f1a><a href="/languages" title="See all Languages" data-v-2fa43f1a>Languages</a></li><li data-v-2fa43f1a><a href="/countries" title="See all Countries" data-v-2fa43f1a>Countries</a></li><li data-v-2fa43f1a><a href="/classifications" title="See all Classifications" data-v-2fa43f1a>Classifications</a></li><li data-v-2fa43f1a><a href="/years" title="See all Years" data-v-2fa43f1a>Years</a></li><li data-v-2fa43f1a><a href="/released" title="See all Released" data-v-2fa43f1a>Released</a></li></ul></li><li data-v-2fa43f1a><a href="/submit" title="Submit a Movie" data-v-2fa43f1a>Submit</a></li><li data-v-2fa43f1a><a href="/about" title="About this website" data-v-2fa43f1a>About</a></li></ul></nav><h1 class="flex-auto text-center text-5xl pt-1 font-bold text-primary-darker dark:text-grey-lighter uppercase" style="font-family:Bungee Shade;"><a href="/" class="hover:no-underline active">
+			Today in Movies
+		</a></h1><div class="w-48 text-grey-darker m-2"><div class="h-10 pl-3 pr-2 bg-white border rounded text-grey-darker flex justify-between items-center relative"><input type="search" placeholder="Search..." value="" class="appearance-none w-full outline-none focus:outline-none active:outline-none"><a href="/search?s=" class="ml-1 outline-none focus:outline-none active:outline-none"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></a></div><!----></div></header><div class="overflow-y-auto flex-grow bg-grey-lightest dark:bg-grey-darkest" style="--bg-opacity: 0.95; backdrop-filter: grayscale(100%);"><div class="max-w-screen-lg min-h-full mx-auto p-8 bg-grey-lightest dark:bg-grey-darkest shadow-lg transition-all duration-500 ease-in-out" style="--bg-opacity:0.8;"><h1 class="text-5xl text-center w-full">Movies made by Miramax</h1><div class="flex my-16"><a href="/studios/miramax" aria-current="page" class="w-32 active--exact active cursor-default"><div class="text-grey-lightest font-bold hover:scale-110 transform transition-transform ease-in-out duration-500" style="max-width:200px;"><div class="hover:opacity-100 duration-500 ease-in-out transition-all hover:rounded-l-none flex flex-col bg-black bg-opacity-75 top-0 left-0 w-full h-full p-2 text-center justify-around absolute opacity-0"><!----><div>
+				Awards:
+				1 win &amp; 3 nominations.
+			</div><div>
+				Length: 116 mins
+			</div></div><img alt="The Hoax poster" src="data:image/svg+xml,%3csvg fill='none' viewBox='0 0 200 300' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3cfilter id='__svg-blur-2ba42a019fb9658806653966c40cb599'%3e%3cfeGaussianBlur in='SourceGraphic' stdDeviation='40'/%3e%3c/filter%3e%3c/defs%3e%3cimage x='0' y='0' filter='url(%23__svg-blur-2ba42a019fb9658806653966c40cb599)' width='200' height='300' xlink:href='data:image/jpeg%3bbase64%2c/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABgAEADASIAAhEBAxEB/8QAHAAAAgMBAAMAAAAAAAAAAAAABgcEBQgDAAEC/8QANxAAAQMCBQIEAwYFBQAAAAAAAQIDBAURAAYSITEHQRMiUWEUcYEVIzJCYpEIFlKh0TNkweHw/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQMEAgD/xAAtEQACAgIBAgMFCQAAAAAAAAABAgARAyExBBMSFNFBUXGh8AUVIjJhgZGx8f/aAAwDAQACEQMRAD8A0vNnyWJJaZpz76dIUHEkBJO%2b3/vXHBup1Fa0BVIW0gnzKcfTtx2H1/b3xjrJubjQpy/jZD6oKyVFKXfPqt21G2%2b2G9EzlUZ1BnS05YlyYSEhpMlEoIKQo7EpUAfe%2b/GNFSDUK/ijYmV%2bbGUtTqKWxHCrBx6alN99%2b/pvia5m3LjatK6/SQrnSZjd/wBr4yVljK9YzhU56KYwz4SFKJkPK0pKj%2bVJtza29sX6ekWZftIOzzTGWuVOJVr9r8XJ/tgaHJhCM3Aj2qufaO288lvNeXozYUAlS3wpSRYXuOL3v9MVi%2bpeX0Mvpdz3Q0uqI8NTdl6d/TvtfGesx0pnJOeqcJS2axHcX961KZBSpKtjqTxte%2bBnMUJMLN1ThQFlUJuQoNECwKb9vbsMGhzBXvmt4ecqRU0n4TNaVhu5U43HNgDtubW5wQzc3UinQ1vSZaloaRqWpDSjf34xlXIMpcGrwy6lTsRZWlxvcgkbg2G574eVQqNOqdAXBpsSQ21IbcCl/DFCAQLG6lenp3wWAU1MqCwuKTpVRJtEzq7emMBlDbpOtsOGyL2NyPKdVuOeMMnM9eYl01hyXUYyH16ilkvaCBxZSb%2ba3vhb5YzumjZxS9mBTy/iFlMs6fKltxO5A%2bdlW9sEUuhZYrNenV5Vciy6VTkIeUy1cLdvfSixAsSRY46jN9wKTI/R2puZeyjI8aFNmI%2bOWGRHRqUsWG5vg4rucH2Y8MpoE94StwEABSBffVc7YX3SnOipc2oxGfDD%2btcnwimwspRvsfQkf2wbVPMSm6m2EtNtraa8z7jqPCWo72Hf/GEPpiJbgrtg3UW3U2jyKzXqTNQ04wHdSHGnBdTaU7k/K2BzOVLUy/AnxJKFNqR4ZNtQTbi9va/7Ysuq1aqKWlSGyUuJUUOFtX4W1ix/c2GAilZwaRFMSpMl%2bOvZQO9vf5jnDUuhEPXiNS0brJg/CBkEqbWVuKAsdP6ffDv6VOyc8xpajWkGBFWkOR20WdJI5N%2bAQOd9xxhE1OdT6hKpK4DyCDGQ08VeXSsEpuodtrHFqFVDKlSqEOnVEx3XUBl92E75XWzv5VDkHsRizsjINHcjViooSJ1KjLpWe51PfdVIMdLTBesOUtpABA2G1v2wE1WpuHVHZcIbGyrG2r2%2bWHpm6e1lSbWqxJZZXmStvuONMuAL%2bDjk7E/qULfSw74QtPpk2s1BxqBHU84dTigLAJF%2bSTsBhRmsZB2eBLbptVGaXnSlvylFuOpwsuLv%2bELBTqPsCQT8sObN%2bZqPQ6ipc%2bmTW6ikWCfDQGlKtylYTcj64QMynyaZOTHnMltwWIFwQR6gjkYfOScyKrWWI9KmQm6hKbebiOKcG6YytvFJ58o2%2bmB2g/MYepbDtdgwTqaHpuQ6tWZqCDKcQyykjsXASR7bWwoHApLiknkG2NE9S4kmNRJcJElD9NbmIaZCgPERpTvxykkXF9xhGViGW3wtI2UN/njbIFUVFYchdj4pChrLbqTc24VhuZOjUrMeSJ0J%2bUImYYTuqKtwbPtkXDKVXATuFc%2boPrhTMIusbHFpEU02pwOpKiQCPNYA9zbvjKkzbrc1JmLoPGqk%2bZVqvmee444VOuaY6NhzYb4%2bsqdHMsUdM1USvVFxak3dUnSlSAkXI2H6hhw19b7dFmriaPHS0pSdadQ2Hp3wPs1hSKg4tpyO9GUWE6A0Uk6tSToP9N0pO99jyBbE5ykHcbj6Y5UJHH%2besX9S6TZBqEoO1Co1Z95tKiSH9OkA73Gn1wQZYyDk2gvyX6Z8cXG2fvW3HVKunVttbc3T/f3xNrNTqkihOTwp2JIZcYFoqUhSg4sJW2dQO4vtuNzvbEB2VVF5iVDcmViEw8/GY0vutlSEOBwqIKbgFRbCQb3FzhZ6kg6uW4/skuhJYCr%2bVeolxW8t5cqVHgx6lDly4zIUpu61a7DaxIIKudgb4qD026fG6VZaU%2bb8r8VV/wB1YkVmZOgO1Ggw5tReLzkcMOoJdkMpWFKcAPJsEXF9xqxYTJDNbyEJtSlyqdLjNqQ6tpxSFNvp8pSUgjVcj8J/q2wfME2IPu0r4WJ0xA0N7Fg18v2%2bEiUvpvkJ1xaWcow0aO70Y2O9trnf/vFy106yc0QUZYowt/tEf4xC6ftoVKmu1IuM10K%2b9hreUUsIIBToBUbg2vq9bjtg3wUcsLk3U4exkOO7r61zY9x9sFH%2boOUArwV5jpepfkATJSSSfSxxUy8%2bZLiOPoer3nabLiwl9ZKUjk7emM2UPLtOj0GJU3zHlSHUOPIWXdKUISQLJbtdSuSDsOPTA3Fm/ak6sKa1I1wJACDvayb/APGNaPEy2NsY2eZrSRmDJ9UobTjz06RBUj4hASHrrSnhVk79ri/cXGBVXUjpk/MI8OfKfk6GVFbbqtW4Cb6ldjuDyORgAyvWExqlPhTZDrLKISQhCVFKVpSCNKiASBuDtbgYCmcqVAn7WpkUSqchwSFLacCi02HALqB8wA23%2buJsbByfEJTkbLhxqUc7/Wa2%2bysuRnlPR6c2%2b9Hcs4tCta0L2vqJVe%2b453tbAfmDNmQKFVUw3qTGkFSfELjbKFJvqKSDfuO98A9fqtRazLmDwGnIkefIISl5KmvF4Tq1XBBunkD5nABmSnNPx4KkusNyXmPFdW6VaSp1QUAFW2IACbn3xQuIE8ak3nMpW%2b4b%2bJj%2bzznim5DfM7%2bV2nGdCPCltONoW4padkAWKhsNzxYYl5B6nO5qSw%2b9QX4MCUtbUaSXgtLi0gqKbWBBsCR8jhP/AMQ9GWKVQKoqRJU4phmM6ySS0gpQbKHa5IOPOj9WeQaPR247inES0ylXNgy0GlDVcn8xV%2bED8vbAfWMskwGL7cwuo/TCtIyFR6ZLgtJntMym3ymQlNgrUW0lQFyNRSduLYFaD0KzNCk2kSaVGDrDrX%2bsVKJU2U343sSMPjJ1VzLUZj6a/SGoDDbYKVC4K1X7eYjjFzXaY1UGULXFafkM38EOOKSkarBW49sbLGBALpjqKOgdG3IFVVLm1GE84Giltzza0ggg3HBvzf2tg1yflNFCqz0hdUiSGJLJZ%2bGS0Ej8vG%2b%2byfTviaaE8%2b9ETKplNUw1ZIBdWooRe5Aud%2bTjpEoUliQpTdPozOyilxAUVhYFkncW%2bfthAWjYErZVK0X/AK9YJZ06fRMzZidq/wDM6YjKWkNhlttKw2Em19RVt5j6WxQyujOXb%2bHVM1zlFvfQgtJIHPFie%2bGfGos5CnQ4zRfCcbUlSUxybnlPPIBsSD9LY6Ck1Q6FKk00rTYX%2bDFiOLevAA2w3uP7Ivs4QfzfX8SgrvTyhZ0g00TanUpMaCgtN%2bDISkKUNipXl/Ftj1S%2bkWV6ZLZlsonLfZWHEKXJJIV9AOe%2bD9hpDLelttCByQhNhfAbU84zYlWkQ26JUnW2ndAdTEWUqHqk8Ee%2bGIrMKEldlXjif//Z' /%3e%3c/svg%3e" width="200" data-src="/assets/static/tt0462338.6d0d83a.c06ec957b981b40a8b8a67bfd2f9af95.jpg" data-srcset="/assets/static/tt0462338.6d0d83a.c06ec957b981b40a8b8a67bfd2f9af95.jpg 200w" data-sizes="(max-width: 200px) 100vw, 200px" class="g-image g-image--lazy g-image--loading"><noscript><img src="/assets/static/tt0462338.6d0d83a.c06ec957b981b40a8b8a67bfd2f9af95.jpg" class="g-image g-image--loaded" width="200" alt="The Hoax poster"></noscript></div></a><div class="ml-8 flex-grow flex flex-col"><h2 class="font-bold text-4xl tracking-loose leading-none">The Hoax (<a href="/released/2006/" title="See all movies released in 2006">2006</a>)</h2><ul class="flex-grow text-xl list-disc mt-4 mb-8 ml-16"><li><h3><a href="/january/7/" title="See all events on January 7th" class="inline-block">
+			January 7th
+		</a>,
+	<a href="/years/1972/" title="See all events in 1972">1972</a>,
+	
+	
+	Howard Hughes takes part in a conference call where he denies any knowledge of Clifford Irving
+</h3></li><li><h3><a href="/january/28/" title="See all events on January 28th" class="inline-block">
+			January 28th
+		</a>,
+	<a href="/years/1972/" title="See all events in 1972">1972</a>,
+	
+	
+	Clifford Irving confesses
+</h3></li><li><h3><a href="/june/16/" title="See all events on June 16th" class="inline-block">
+			June 16th
+		</a>,
+	<a href="/years/1972/" title="See all events in 1972">1972</a>,
+	
+	
+	Clifford Irving pleads guilty
+</h3></li></ul><ul class="inline-flex flex-row ml-8" data-v-b5d058e8><li data-v-b5d058e8><a href="/genres/comedy/" data-v-b5d058e8><img title="Comedy" src="/img/genres/Comedy.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/genres/drama/" data-v-b5d058e8><img title="Drama" src="/img/genres/Drama.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/yari_film_group/" data-v-b5d058e8><img title="Yari Film Group" src="/img/studios/Yari Film Group.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/miramax/" aria-current="page" class="active--exact active" data-v-b5d058e8><img title="Miramax" src="/img/studios/Miramax.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/the_mark_gordon_company/" data-v-b5d058e8><img title="The Mark Gordon Company" src="/img/studios/The Mark Gordon Company.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/bob_yari_productions/" data-v-b5d058e8><img title="Bob Yari Productions" src="/img/studios/Bob Yari Productions.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/countries/united_states_of_america/" data-v-b5d058e8><img title="United States of America" src="/img/countries/maps/United States of America.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/languages/english/" data-v-b5d058e8><img title="English" src="/img/countries/flags/gb.svg" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li></ul></div></div><div class="flex my-16"><a href="/studios/miramax" aria-current="page" class="w-32 active--exact active cursor-default"><div class="text-grey-lightest font-bold hover:scale-110 transform transition-transform ease-in-out duration-500" style="max-width:200px;"><div class="hover:opacity-100 duration-500 ease-in-out transition-all hover:rounded-l-none flex flex-col bg-black bg-opacity-75 top-0 left-0 w-full h-full p-2 text-center justify-around absolute opacity-0"><!----><div>
+				Awards:
+				Nominated for 10 Oscars. Another 50 wins &amp; 124 nominations.
+			</div><div>
+				Length: 167 mins
+			</div></div><img alt="Gangs of New York poster" src="data:image/svg+xml,%3csvg fill='none' viewBox='0 0 200 300' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3cfilter id='__svg-blur-eceea30a81f7d24914700ad777fabff4'%3e%3cfeGaussianBlur in='SourceGraphic' stdDeviation='40'/%3e%3c/filter%3e%3c/defs%3e%3cimage x='0' y='0' filter='url(%23__svg-blur-eceea30a81f7d24914700ad777fabff4)' width='200' height='300' xlink:href='data:image/jpeg%3bbase64%2c/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABgAEADASIAAhEBAxEB/8QAHAAAAQUBAQEAAAAAAAAAAAAABwIDBAUGAAgB/8QAOBAAAgEDAwIFAwIDBgcAAAAAAQIDBAURAAYSITEHE0FRYRQicTKBFSORM0JDgqHBUmKSorLR0v/EABkBAAIDAQAAAAAAAAAAAAAAAAECAAMEBf/EACURAAEEAQQBBQEBAAAAAAAAAAEAAgMRBBITQVHwFCExYYEiQv/aAAwDAQACEQMRAD8ABm3toXS%2bRLJRQF0YZyNSq/ZFzoQ31EDIR7jRn8A9w2mPb9JbZYJXuf3hQqfa%2bORA5dgcD%2b9jUuth3ZvGFZ6e0Lb46iZgFZlxFGP0s2QSc9fUfjXIfnStkLaAA7WhsDSAV55sdjqLvcBR0qFpevTHXWgr/Di90yB0pXlU/wDAMkfka0Vrnh2J4oiKaJrg7xmDjT4BMjEYxnpovV143FXU1C22Nvq0NQCZp648PIAJBBXvnI79dNNmSBw0AURyg2JtG/kLytcrTVW5%2bNXE0TZxhhg6hBCxAUZJ6DRx8T9uXI2dbjfaSnpal8cY4ZOeD1zy6DB6D41kfBnbabh3Q8TBOUEZkUP1Xl860R5YMRkdwkfFTgBysK9uqEQM0bAHtkd9R5Ynj/WpH516lpdtXKsus9DX7dtxoo8YqopeGB8A5z%2bBjQb8Sp7LOgSxW%2bpiBmKCeX/EK9CACc4/Okgz95%2bgD9RfDpFkq38CL/Hbqm8W8pTirqITLTPUSFE5AcSCQD6EH9jo9bbvJobJVU1yr6WWtyWC0yuURQoGA5/V1BOfY68m7cmaguFPXxBRNTTK65GQfg/ntoqbk8WYKvb9TR0dLUNUyAnzJJSeB9seuO2sediPfLqjF38/SvhlAZpdwhzvW4iHerXChlJqYZhMJD1wwOR/ro7bf8TlvMFpPktAjqXqTAkkzqwOBEFVCMnuMntrzKFaaUzSgszt0Bz1Otjsm5S7YutNXgl2OeXNcqrY6FfkDIzrZPitdGG8hUsk/ontFPxKobvXxy11zinFAkZ8uMHi5J7ckPUfOsj4J3OOwUt5u5oqiqlg6BIF5EA%2b/wDy/PpqTuve9XebMJFcqhDF%2bB9jjWN2Buqba24vrIomlo3%2b2oiBwSvuD7jWduM/YcweUrHSAuBRum8Y7NQ0JjqYLmlVNGS3KAARuR6deo%2bdA3dNyhul3oI6SQPFEgyR%2bnmxycf6a2G/PEC131G%2bipZmqmjKIJowQp7ZOcjp8euhpSw%2bTcadWyMMO%2bmwcYMGstLT1aEsn%2bQbT1sRGd0kACsQuR7nOlUSSfXFckci6kY799RqKsp0kmEiuUcYGB176chqUWuaVy6oSxzjJ6jvjXQIPuqAVJuEQjrIUWNVVQuMHoDy1BSaaWCanZyY1nLKB2Gc5xp2vrRNVIyF3VQo5FcdjntpupqISpSHllpS7Hjg4PYft21Gj2Fo2riBZBZAoX7ODnkT8noNRrDRCqSc8m%2b0gZx3OO2plE6tt9sxry8phyLdVGT0x/vpW10VoagylseYowDj09euqyaBRpVdFDGLlJCc4Uvj1xjSpet4pw6AZIyMfB11GV/jExwOOZO/bvpEkgkv8LdMAjpj4OrOfxBVVHTy1UhWAAsqlupx20pJC2FAyTov%2bIfhrBFQWhdpUoFXT2oz1qZYyVT%2bYikj565x06aq6Pwcuq7so7XdKqBbfOkshq6dwxCooP6T6lmUYPzpBkRkXamkoeSU00VUtMyjzXKhQDnOTgaud42CWwbiu1DMFC01ZJAMHJ6HIP8AQjUi37fqqSfaF1lYzQXKpBbC/wBkY6gIVJPqQM60Hi5b/wCJ%2bJ2%2bKimcBaThV8AM8%2bXlJgfOWz%2b2juC6vz4QpY%2b3I81vEcaK7srgdOvc9tSNuyFKSVlQElwe2TjHxok%2bGWzAtNtG6zT8zVz1DT0rpgJGquB368s%2bn41UbO8O6%2ba0U09ZUx00VbSzzQ46mN4wOKuPkBvxqp0rKIvzwJgCh5RufrpSPZvX502uRdUwR0/9aKreHtFVXzaa0VQYae5WtKmsyB9hXylbifVm556%2buqfcmz6e32Ba63Amtiv9TbOLklpI%2bixfHQqeuOvLTiZhNWgQVcN4gE1yVHMZWJo/nqyn/bX1vEANWw1JkPOJHQDPTDFSf/EaCatWNHHIsMzRytwRgpwzew9z0P8ATTiRXF1iZKSpZZVDoQh%2b9TnqPcfa3X4Ptqj0DFo3x0ivJuO0yU1HTvRw%2bTRymaBBkCNyeRIwfU9dOVG6qCatqKwwxpWVAjEs69HYIwZQT%2bVGhCfrQYwaecGRuKDgfuPsPnTj09zji816OqWLlw5mMgcsgYz75IH7jR9EO0N4dI1jxFwQQwGMkfGdJbxCBiaMFQpUrgdO/fQbSgvDuypbq1mV/LZRE2Q3X7SPf7W6fB9tNyU90jmiikoqpZZWVY0MZDOTnAA9c4OPwdL6BiO/9Iu27e60sFCpYGSmphTg/H2//I1MfxDDDDFSAcjIB6%2b%2bgrFT3OUxiKiqnMhCoFjJ5E9gNJlS4RQNNLS1CRKSpdkIAIxkZ%2bOS/wBR76JwGEqb46V1a79QRQ7fqHlKVNr8tfK68WUSysxIxgn%2bYMf5tSqDcVupqJrbUTCSKJJ6anqFBysEmSR2yMEZHtzOh7rtbTHfKzh9cLdwbioae7Wyp895fpHkiEpU5eIxlULj1deRXl6gD20jde46e50FtpoJIzwcLI2CGACxLn8Epn/KNYfXagjF3amvhECu3TDW2%2bvk%2bojS4VDwzSMQ2WmjjlBkUgd2JX/rOq7d244rpcaCqoXeOankdg/Yj%2bYXU/sWY6yGu0RGAbtQvJRYpN622C4SlJUWH6qUqRGQvFqhZQ/b2XHvqn3Pe7Zc9rvTCs82rSoFTEWVgwBjiQx9sYwv/YP3H%2bu0oiAN2UTJYql//9k=' /%3e%3c/svg%3e" width="200" data-src="/assets/static/tt0217505.6d0d83a.19e5a30db6f57641d793caf031925a99.jpg" data-srcset="/assets/static/tt0217505.6d0d83a.19e5a30db6f57641d793caf031925a99.jpg 200w" data-sizes="(max-width: 200px) 100vw, 200px" class="g-image g-image--lazy g-image--loading"><noscript><img src="/assets/static/tt0217505.6d0d83a.19e5a30db6f57641d793caf031925a99.jpg" class="g-image g-image--loaded" width="200" alt="Gangs of New York poster"></noscript></div></a><div class="ml-8 flex-grow flex flex-col"><h2 class="font-bold text-4xl tracking-loose leading-none">Gangs of New York (<a href="/released/2002/" title="See all movies released in 2002">2002</a>)</h2><ul class="flex-grow text-xl list-disc mt-4 mb-8 ml-16"><li><h3><a href="/february/3/" title="See all events on February 3rd" class="inline-block">
+			February 3rd
+		</a>,
+	<a href="/years/1848/" title="See all events in 1848">1848</a>,
+	
+	
+	Priest Fallon is killed by Bill the Butcher
+</h3></li><li><h3><a href="/july/5/" title="See all events on July 5th" class="inline-block">
+			July 5th
+		</a>,
+	<a href="/years/1857/" title="See all events in 1857">1857</a>,
+	
+	
+	the Dead Rabbits fight the Natives
+</h3></li><li><h3><a href="/july/13/" title="See all events on July 13th" class="inline-block">
+			July 13th
+		</a>,
+	<a href="/years/1863/" title="See all events in 1863">1863</a>,
+	
+	
+	the Draft Riots break out
+</h3></li></ul><ul class="inline-flex flex-row ml-8" data-v-b5d058e8><li data-v-b5d058e8><a href="/genres/drama/" data-v-b5d058e8><img title="Drama" src="/img/genres/Drama.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/genres/history/" data-v-b5d058e8><img title="History" src="/img/genres/History.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/genres/crime/" data-v-b5d058e8><img title="Crime" src="/img/genres/Crime.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/miramax/" aria-current="page" class="active--exact active" data-v-b5d058e8><img title="Miramax" src="/img/studios/Miramax.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/initial_entertainment_group_(ieg)/" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/alberto_grimaldi_productions/" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/countries/united_states_of_america/" data-v-b5d058e8><img title="United States of America" src="/img/countries/maps/United States of America.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/countries/italy/" data-v-b5d058e8><img title="Italy" src="/img/countries/maps/Italy.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/languages/english/" data-v-b5d058e8><img title="English" src="/img/countries/flags/gb.svg" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/languages/irish/" data-v-b5d058e8><img title="Irish" src="/img/countries/flags/ie.svg" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/languages/latin/" data-v-b5d058e8><img title="Latin" src="/img/countries/flags/it.svg" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/languages/mandarin/" data-v-b5d058e8><img title="Mandarin" src="/img/countries/flags/cn.svg" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li></ul></div></div><div class="flex my-16"><a href="/studios/miramax" aria-current="page" class="w-32 active--exact active cursor-default"><div class="text-grey-lightest font-bold hover:scale-110 transform transition-transform ease-in-out duration-500" style="max-width:200px;"><div class="hover:opacity-100 duration-500 ease-in-out transition-all hover:rounded-l-none flex flex-col bg-black bg-opacity-75 top-0 left-0 w-full h-full p-2 text-center justify-around absolute opacity-0"><!----><div>
+				Awards:
+				Won 5 Oscars. Another 81 wins &amp; 130 nominations.
+			</div><div>
+				Length: 170 mins
+			</div></div><img alt="The Aviator poster" src="data:image/svg+xml,%3csvg fill='none' viewBox='0 0 200 300' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3cfilter id='__svg-blur-975dbfecd0b0139d95a17ce27e7f2053'%3e%3cfeGaussianBlur in='SourceGraphic' stdDeviation='40'/%3e%3c/filter%3e%3c/defs%3e%3cimage x='0' y='0' filter='url(%23__svg-blur-975dbfecd0b0139d95a17ce27e7f2053)' width='200' height='300' xlink:href='data:image/jpeg%3bbase64%2c/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABgAEADASIAAhEBAxEB/8QAGwAAAwEBAQEBAAAAAAAAAAAABAUGAwIHAQD/xAA0EAACAQMDAgUDAQYHAAAAAAABAgMEBREAEiEGMRMiQVFhFHGBFSMyQnKR0QcWM1KhscH/xAAZAQACAwEAAAAAAAAAAAAAAAACBAABAwX/xAAfEQACAgIDAQEBAAAAAAAAAAABAgARAyEEEjFBEzL/2gAMAwEAAhEDEQA/AJe19PyV1zkp6ZEecpja/APrn/vVX/lZqW3yU1VGBKCG8vIPyNc9LKYutYZmceFKuAPXseNVPWNfT0U/mkcFl5O3yj864WZ2JAE6%2bJFAszz79DSNjwPuNaxWlN3Iz%2bNN4JYqtSY5UP2OtxRS5BXkH21k2VvCZqMS%2biKf0tQMEADQ1ZbFwMDVEKeUnAQnQNzkjpFxPIq8%2bp0KuSdS2RQNyWrLZujbj01N9OWdprzPHIv7gJI%2b/bVfLc6eabwYzuduOBnRFhoVpp62qbGZdqqD8afTM2NCD9iT4ldgRGVG5iroGU%2bZHyNWNxZnkVKnb9PPjc7KGAH50inoI1k8VRyORzqho6lKq2eFKAzJ765zOG8jyKQNyOu9mhWujEdPCIVJ3ywnY7exGOBxrSxyy09SYXqHKEnaH82PzplWoRkbiB2HGgYWh3M0WGdQfvojkLLRlDGFaxPl1uUsMHhUzYk253f%2banKamZrh48yGaMrkmQBmDY7A9sZxz7emmtcwaYliBkAaIVVjXk%2bXRY26DX2C6dzv5FlLSFFZ5Ame%2bVULnRUciuFhTdleTga6ml3sI04B41rTQMCwGNpGM41Zf6ZOlihHjSIKd0ZiTjuffQ71BoqoEH9nJyD862vqLBIwj4BOeNLpJlqadklPA7EdwdYY1vcNm6wiuqVdMg8HQVNWQRZjkgjKhGAYfvZJzpZUySxqEckD0b3GgKuok2Fkm49mA1uMN6gNlrcOrKlZajG0BR799fqisDKADxqbkrJlPEikfy6%2bx1ReRELYye/tpgceov8AvKe1xmd2kY8L2%2bTpwjCCEhVVjyxx3%2b2ltHNSw7Iy6iIcbicDPydNofpnUiIYH%2b4nOksrHt5qOIB10dzXqZy8ETgjexOFHc6W01PUGEbYGGeCX413bb9R1TCSSvtqyHssspRlOO3mGM/nT2Kw3uutL3BZaKSnZsRpFOCT%2bRwdMji5kFdYsubHkN9pO9RoTRxJFGGcdyvZRqLrHKNtY4PsdV92svU0KkLbJgncNhiP%2bBqTvUlXbaeOqqKCmqrnLJ4cS1QYQQIoyzspxvYkgAdgMnnTnG4uQC3ifI5KeL7Aoqd6qVlU7VU4aT%2bFfvrDDwTSwlo/qQ2weYEAH1B9vnVHba%2b3Xnp%2bonty0cVzTYsy00ZjR2Ynnbk47Htqbk6L6oqm8WOhYqSQCcqMe%2bSMa6A44IomInOwN1OrfNVtUvTMdw3YZAQd32/vphNW1drfYr7Iz2UnOPjSsdIdQU67pKq00pXkmavRCf66wuFZPAhiq7hQVWRhkpXaTP5xjOgbhlm1RENeWFXdgyZWp8IkvOjMGxhWBz88abi/1ctu%2bkNa5pkOdgfgHOO2vPxOQpAY4PBGvnjDbgk4zk%2b2uo3Vv6mCp0vqSLl/RdS3ihq1iob7c4JM7fDjqJBz7YzjVndesq42Z4KupkrKydPCaWVt0iDGMA%2bnr868MWbafKSD8HGiKi4zzkmeZ5GJyWY8n86BlUm6lDGQKsyztN/nsdO8dmrp7cJf9RoXIaT%2bY9/xrKvutdMqzV1zrJlfJBllZs/1Oovx%2bcliec8nXTVbNt3SO23sCxONWoRdgCCcRPpMpTUQHBZo2GM8DnWctREpxGxAzjjnGp6SteTIdy2Tnk51qlfJHKkkcrpIuMMrEHtgeuj/AEMAcVB8i5QWYADJJwBr1StvHTtR0vZFmpIxWWaq%2bkqpIIojJWUbBT4mWVhvVwwBI7Ea8yoKr6SpWbwYZivZZQSv3wCNGWq8fp31QShop1qF2Ms6M4VfYebj79/nSzG45UoK6426lutwhSATUv1SrRuIIFPg5yS37Lliu32wT66KtVXan65qYJjPBYDI0auIozKn8MbkKgU4bBIwMgHUhLdJJZ6KSSGnIpEVFTaQHCkkbsHJPOM57Aa3ut7a4zVEr0NDC89R9S5gRlwcfujzcL34%2bdDuSNoLlAKau8ek3VMCbiwjhKtIZPMTmMnbg8DP9tc1VzjpZacPRoVnUS4NPACqN2Cnw%2bT8kYPtrGbq6ole8t%2bnWtDdYVhn2QFQoUhsoN3lYlQSfX8nI8fUtV4FrjqaekqzbeKV54yWVd24I2CA6hskBs4yR241NyS2pLp1HTWqz2ijg2z0d0laKQwjfLwD4OMeYY/g7c6guqq0XHqO41a0Mdv8aZmNLHHsWI%2boC%2bnOePTTm5f4gXi4WeGgqBTboq1ritWqMtQKljlpd%2b7ucDjGBgYAxoDrTqqs6vuv6ndaeiSvZQs01ND4RnIAG5wDgtx3wNRbBkqf/9k=' /%3e%3c/svg%3e" width="200" data-src="/assets/static/tt0338751.6d0d83a.31819ddc198eb1e31c9a4cad11bf7ee5.jpg" data-srcset="/assets/static/tt0338751.6d0d83a.31819ddc198eb1e31c9a4cad11bf7ee5.jpg 200w" data-sizes="(max-width: 200px) 100vw, 200px" class="g-image g-image--lazy g-image--loading"><noscript><img src="/assets/static/tt0338751.6d0d83a.31819ddc198eb1e31c9a4cad11bf7ee5.jpg" class="g-image g-image--loaded" width="200" alt="The Aviator poster"></noscript></div></a><div class="ml-8 flex-grow flex flex-col"><h2 class="font-bold text-4xl tracking-loose leading-none">The Aviator (<a href="/released/2004/" title="See all movies released in 2004">2004</a>)</h2><ul class="flex-grow text-xl list-disc mt-4 mb-8 ml-16"><li><h3><a href="/may/27/" title="See all events on May 27th" class="inline-block">
+			May 27th
+		</a>,
+	<a href="/years/1930/" title="See all events in 1930">1930</a>,
+	
+	
+	
+</h3></li><li><h3><a href="/september/13/" title="See all events on September 13th" class="inline-block">
+			September 13th
+		</a>,
+	<a href="/years/1935/" title="See all events in 1935">1935</a>,
+	
+	
+	Howard Hughes breaks the world landplane speed record in his H-1 Racer
+</h3></li><li><h3><a href="/july/14/" title="See all events on July 14th" class="inline-block">
+			July 14th
+		</a>,
+	<a href="/years/1938/" title="See all events in 1938">1938</a>,
+	
+	
+	Howard Hughes lands after flying around the world in four days
+</h3></li><li><h3><a href="/july/7/" title="See all events on July 7th" class="inline-block">
+			July 7th
+		</a>,
+	<a href="/years/1946/" title="See all events in 1946">1946</a>,
+	
+	
+	Howard Hughes crashes his prototype Hughes XF-11 plane
+</h3></li><li><h3><a href="/november/2/" title="See all events on November 2nd" class="inline-block">
+			November 2nd
+		</a>,
+	<a href="/years/1947/" title="See all events in 1947">1947</a>,
+	
+	
+	Howard Hughes flies the Hughes H-4 Hercules, known as the &quot;Spruce Goose&quot;
+</h3></li></ul><ul class="inline-flex flex-row ml-8" data-v-b5d058e8><li data-v-b5d058e8><a href="/genres/drama/" data-v-b5d058e8><img title="Drama" src="/img/genres/Drama.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/miramax/" aria-current="page" class="active--exact active" data-v-b5d058e8><img title="Miramax" src="/img/studios/Miramax.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/appian_way/" data-v-b5d058e8><img title="Appian Way" src="/img/studios/Appian Way.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/forward_pass/" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/cappa_productions/" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/initial_entertainment_group_(ieg)/" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/imf_internationale_medien_und_film_gmbh_%26_co._3._produktions_kg/" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/mel's_cite_du_cinema/" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/warner_bros._pictures/" data-v-b5d058e8><img title="Warner Bros. Pictures" src="/img/studios/Warner Bros. Pictures.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/countries/germany/" data-v-b5d058e8><img title="Germany" src="/img/countries/maps/Germany.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/countries/united_states_of_america/" data-v-b5d058e8><img title="United States of America" src="/img/countries/maps/United States of America.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/languages/english/" data-v-b5d058e8><img title="English" src="/img/countries/flags/gb.svg" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li></ul></div></div><div class="flex my-16"><a href="/studios/miramax" aria-current="page" class="w-32 active--exact active cursor-default"><div class="text-grey-lightest font-bold hover:scale-110 transform transition-transform ease-in-out duration-500" style="max-width:200px;"><div class="hover:opacity-100 duration-500 ease-in-out transition-all hover:rounded-l-none flex flex-col bg-black bg-opacity-75 top-0 left-0 w-full h-full p-2 text-center justify-around absolute opacity-0"><!----><div>
+				Awards:
+				Nominated for 3 Oscars. Another 16 wins &amp; 42 nominations.
+			</div><div>
+				Length: 144 mins
+			</div></div><img alt="Cinderella Man poster" src="data:image/svg+xml,%3csvg fill='none' viewBox='0 0 200 300' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3cfilter id='__svg-blur-c195d251b9fbff0b5181790f63ba9f3a'%3e%3cfeGaussianBlur in='SourceGraphic' stdDeviation='40'/%3e%3c/filter%3e%3c/defs%3e%3cimage x='0' y='0' filter='url(%23__svg-blur-c195d251b9fbff0b5181790f63ba9f3a)' width='200' height='300' xlink:href='data:image/jpeg%3bbase64%2c/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABgAEADASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAABQcEBgIDCAAB/8QAOBAAAgECBQIEBAMFCQAAAAAAAQIDBBEABQYSIRMxByJRYRQyQXEjgaEIQlKRwRUXM1NygrHh8f/EABoBAAIDAQEAAAAAAAAAAAAAAAAFAQIEAwb/xAAqEQABBAECBQMEAwAAAAAAAAABAAIDEQQSIQUTMUFRIrHRI2Fx8IGR4f/aAAwDAQACEQMRAD8AsGj80WgkSNiQB2xe8y8RMpyWni%2bLl6sz9oo2BYD1PoMc26q16uTTSw5dIvWW8ZcWYk%2bq8cel8VjSuX6m11nFP8HBPJSvMonlDBdke4Bmuf8AvnHlcfDkiJyHP0D98r02ZJBI7RVldLeJmt6fOPDStbJw7PUFUK8FlAN2vb7D8scW5nWyTVcjFiST3vjrnOfCSgotONk9BqSVKupnaSlSrdFaUheUFrbrAX4xzTrDw71DpvNhSV1IrNNd4DHKr9VL23LY9sM8Ga3OErrPbtsluQ0aAIBsqaWJN8eBxnUwS007w1EbRyobMrCxBxqw2Sw2DujWTV3w1RE243B7HtjqjwZ1Y7PLulWOneINIHYm7jjcLnucciUaNJUIq9ycPXSUSUWnz1yVkYi32thRxSO2AtNO7J1w080FjuiRNTM88hZ2JJw9/wBlTMnjzPOaNpSB0kljQ9r3IP8ATC38I8ryHOdXJR6nl6dK0LGJS20PLxZSbj6XIFxcgDD8yTQmW6brDmWUU81HOi9JrMxhnUnhwSTzx8t%2bP1xw4zlxCJ2MbBIFHt1XLh%2bO%2bR4lvborfqDTFTm2ocvzLZQqsEqs1VMzNMFH7qDsoN%2bcVDXua0pznL6GHLGeXL%2bokbQDeEjBuxN%2bQvN7e2LxT1zyUoDsDb%2bE3tipTUuZQawp6/L5YU6VlYCPdJIrHzLzwB7m%2bPNYc/rqQ7AeU7ETgD5HRc/T6ZbPNY5xBFI4tIZle17huRgTQ6Jz6vrnpqbL5fIxBeTyL97nHRXiXX6N0Jm7SNNJ16oCRaCiiVmjXty5O1R3t3Pfi2FlX%2bMFKtQ75XlFQibeBPUBjf7hRxj1UWVlPH0WWK2JSh8OGTcjqPU/CK%2bG/hHPFqCinzkpUUo/xY472v2tf274m62yqryConoJwQ0LWDfxL9GHsRhZf3oavNUsiZ5V08YNxFTt00A9LD%2buL%2bNa1GrMoRM7qjVTom1J5AN6fcgXYexxR8OU13MnIP2HZdsaaF1shFD79Unc5yaryiqkgq4XiljNmVhbnDt8Elqs803VJXV9bL0nKwq9Q7KlhwQpNsE/E3L6XM8mPxDRJUICYpJGAt7XP0OFlo3xCXR2VSU9HSfEVRZj52sgPqbd/sMVklk4hifTHrtAhZgZGpx9NJh6lr8308snVrY4YV53v2wsMx8TM/kSogpq5hFKNrNsAJHt6YBao1RnGq67r5tVGUg%2bSJRtjj/0qP8A3BHTWkXzIq0zWB7DGmDDjgjDsgAu/C4S5c2S/Tj2AqtVVM1VKZKiRpHP1Y3xpxbNVaa/sqQhDcDAOiy56qOYr3Tb%2bpthiyRjm6h0S6THka/S7qh%2bJVHXT0jXicgemNldlk9GoaUCxxBxfZwXKnRnwUUzPOK/NWLVUskp7ksSScey7JqmuUmKKZrgbdkRe5Jt9MeyuqCGQGlgkXby0ik7B63HubYu3ho2V1OdQ02dV5p6eoTotTsSquQCxJII2KQAPUk245xnmk5DCWjYLRG3nPGs3arsenDDWBOrI5AuQIuQfqOGOGJp0R0FG1RM7mngH4oWOzfXyi5%2bY24w2MtzfQpkzAmHIoDQOY3kkgQbhsDXUhuV5t7njArVWu9F5dCkMdFltes0cc3RpUjYSEkhlc3IG0WJB73FuxwkdnyZJDBGUzjYzHsgpUakppa%2bQIFlvINyqI9xta/54GZdkMlHCSGmLTxrIFMVuA3uQPXDig8RNJ0L5VFUZdQCmkjk%2bIqBSXanAuYwQAb3AF7diR3xorfEjSFbR5gDR06GOWOGKGSLbJUq/LMAOwHue%2bLDKyGgNbGa/wBr9/tSeW52px3SW1Pl9Z8OjPTVWxuzdNbG3fsxxTJU6bspDCxt5hY4dmtq3w%2bXrvl%2bYzS1dNHaCNIiyG5%2bVb27G5IJwoc4jpkqnNFVJPCfMriNk/Kxw0wZzK3dpH5BCwZsYBsEH%2bVASR0BCMwB72Nr4lRVSU%2bYR1MCuQhDgO1ju%2b498aKZVMyl2RVB5L3t%2bmCVDTnN65KeqqoKaKIMZKhh5UQWHYcn2HvjY8gblY2AnYdeyGpOy7%2bfnN29%2bb/84kTuQolhLjsTuAFz9T74%2bZtRxUVX06eqjq4WUOkqArcH1B7H2xDufXEinbhBJbbSpEdVIpchirMD5lNjz3xnLV8/gB4lAG0B72I97YiDtyPtiZluXVeZO0dJFvKDcSWCgfmbDAQ0blDS52wUXqOb3Y88HGUMEswbpIzbRc29MYndE7KRtYGxBHIxsSqmRERZGCI/VVfoG9bevA/liTfZVFd0dzDJKHLYKOKuqKj4ypoVrQ0aBo03oXjQjubi12%2bl%2bxscYVWks2hNU8VMzQ05ZHZnRWusYkYBdxJsh3cXuAT640w6gqEoo6dtzCOFoFclS6xtfcgYrcKdzcX%2bp9cTG1hXs7uzEs7Mx4j7tF0T%2b5/l%2bX9e/OC0aR591vOh80ky%2bj%2bGpJpMykmnjmpwyHpKghIJIPlN5gCGsb29cQqbRufVRhFPQNI00fVULIhOy%2b0MRu8ov5ebc8d8b5dZV8sTxTHqRyFjKrpGeqWCbi/k8xPTQ3P1UHviMupahQq7d0a0wpOmwQo0QbeFK7LGzcgnm%2bC0aR59/hEavScS5MlTTSzNVPFRuscm1V3TGVWBJ7WMYtf1N8RNP6cer1K%2bRZrLJl8xVgCQCFm2/hhuflJIFx2DXx6DV9dAkKxEhYliVARGbCPdsHyfTe388RZ8%2bkqK%2borZ1Z6moj6UjsV5XaF7bbA2A5HOC1Okeff4ROo0dWvluUSQdSfNswknD0rbUMfTKADk8sS97fbAao0/mdPli5hLTWpGQSBuopIUuyBioNwNystyO4tguuus2Wo%2bI%2bIlao6kkvVfpsxd2VmYkp3JjQ/7RiBVakqqiglpDxFJEICLJ8glMtuFB%2bdie/19OMCgtHn3X//Z' /%3e%3c/svg%3e" width="200" data-src="/assets/static/tt0352248.6d0d83a.a263c70ba8b2a0cf4563e54f2faa6973.jpg" data-srcset="/assets/static/tt0352248.6d0d83a.a263c70ba8b2a0cf4563e54f2faa6973.jpg 200w" data-sizes="(max-width: 200px) 100vw, 200px" class="g-image g-image--lazy g-image--loading"><noscript><img src="/assets/static/tt0352248.6d0d83a.a263c70ba8b2a0cf4563e54f2faa6973.jpg" class="g-image g-image--loaded" width="200" alt="Cinderella Man poster"></noscript></div></a><div class="ml-8 flex-grow flex flex-col"><h2 class="font-bold text-4xl tracking-loose leading-none">Cinderella Man (<a href="/released/2005/" title="See all movies released in 2005">2005</a>)</h2><ul class="flex-grow text-xl list-disc mt-4 mb-8 ml-16"><li><h3><a href="/june/13/" title="See all events on June 13th" class="inline-block">
+			June 13th
+		</a>,
+	<a href="/years/1935/" title="See all events in 1935">1935</a>,
+	
+	
+	James J. Braddock beats Max Baer
+</h3></li></ul><ul class="inline-flex flex-row ml-8" data-v-b5d058e8><li data-v-b5d058e8><a href="/genres/romance/" data-v-b5d058e8><img title="Romance" src="/img/genres/Romance.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/genres/drama/" data-v-b5d058e8><img title="Drama" src="/img/genres/Drama.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/genres/history/" data-v-b5d058e8><img title="History" src="/img/genres/History.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/touchstone_pictures/" data-v-b5d058e8><img title="Touchstone Pictures" src="/img/studios/Touchstone Pictures.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/miramax/" aria-current="page" class="active--exact active" data-v-b5d058e8><img title="Miramax" src="/img/studios/Miramax.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/imagine_entertainment/" data-v-b5d058e8><img title="Imagine Entertainment" src="/img/studios/Imagine Entertainment.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/universal_pictures/" data-v-b5d058e8><img title="Universal Pictures" src="/img/studios/Universal Pictures.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/parkway_pictures_(i)/" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/countries/united_states_of_america/" data-v-b5d058e8><img title="United States of America" src="/img/countries/maps/United States of America.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/languages/english/" data-v-b5d058e8><img title="English" src="/img/countries/flags/gb.svg" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li></ul></div></div><div class="flex my-16"><a href="/studios/miramax" aria-current="page" class="w-32 active--exact active cursor-default"><div class="text-grey-lightest font-bold hover:scale-110 transform transition-transform ease-in-out duration-500" style="max-width:200px;"><div class="hover:opacity-100 duration-500 ease-in-out transition-all hover:rounded-l-none flex flex-col bg-black bg-opacity-75 top-0 left-0 w-full h-full p-2 text-center justify-around absolute opacity-0"><!----><div>
+				Awards:
+				Nominated for 1 Golden Globe. Another 3 wins &amp; 7 nominations.
+			</div><div>
+				Length: 126 mins
+			</div></div><img alt="Hollywoodland poster" src="data:image/svg+xml,%3csvg fill='none' viewBox='0 0 200 300' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3cfilter id='__svg-blur-13baea38a2128e5d76a08750d044e8d3'%3e%3cfeGaussianBlur in='SourceGraphic' stdDeviation='40'/%3e%3c/filter%3e%3c/defs%3e%3cimage x='0' y='0' filter='url(%23__svg-blur-13baea38a2128e5d76a08750d044e8d3)' width='200' height='300' xlink:href='data:image/jpeg%3bbase64%2c/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABgAEADASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAABgcFCAIDBAAB/8QAOBAAAgEDAgQFAwIEBAcAAAAAAQIDBAURACEGEjFBBxMiUWEUcYEyQhUjJLEIJWKRQ1KCkqHB8P/EABoBAAMBAQEBAAAAAAAAAAAAAAMEBQIABgH/xAAvEQACAgECAwUGBwAAAAAAAAABAgADEQQhEjFRBRMUIkEjQmFxkaGBscHR4fDx/9oADAMBAAIRAxEAPwCu0oSumiMyunKCMJjJGc5yfvohFvoKCgilWiSonc5Anctgdztgew6agKE%2bcyLPOE2Mkat%2b49h%2bdTVW0ldXx00YeCAIsZdh%2bke%2b3XO/TU24MCADgCXKSjAtzJhPw1xYlukVKKx09TK2FeKKJi3zy9vb7aL6%2b8190mpzU2RKOFcLLLJInMEwdxv16dfnQTZ5Fpb7NVz0jvAoKRyFwvo2wOVcAdNzrLiLje1V/wBLTRW96nym9fM3KjH7Dr0GpT0C2z2aZ6nOf1jYPdjLmFsVKlVHKaaeMPHIsTIcZBbp099QnEFMPopoJpoC8kZZCZVHMMZGPfUdaeK6enhY0lMGqGaJj5j4A8tsjYDPxobracSVk1Vyh3ckiNmJUb527411elKv5tsQhsLL5d5tu1tYkyvGyswBA5e2O%2bhO4zIAsanLI5zqVpq6eGaKGQgpkohPVeYEY%2b2%2boieD6enhn5syOfUCARqxQpU4Y/KT9S/EvlHzmuqcy1BMRBCeoEnoPbPx00S8NT0n1tvpqZ3M1SPLfnPpDds5Pv0x767K/wAK7/QUElRULGCoJMYbJOgelkkpqtHX0SxvnPcEaMr1ahSqNmTsW6dg5GIyuI3rxSVAt6SukQxMUTJjA6k6guC%2bEbxxVUTNaafzjCOZy0gTc9OunFY4orpYJpaIj6quhUs7bKshXlY7HfO7aJeHobNwbFTwQhKOKSML5jKcSEDcs3v99QD2j4YGlV82f9zLb098RZ8JX7iix1nC11gpK%2bFqesWKOR0zzA8w9WCOo27fOuqoVVCmBy8ci86MO4OnV4pC2X%2byql0QlonDQVFOA0iZ7L7humO%2bq7x3CopJI6OoRo1gZkKuvqGTnBHbGdN6a8a1MrzExg0HLcjNdY4ppeciUsASDG2Cp2wdRkKxztzeZJgHdXOdGUSUtEXq6hPMDwHlOMkE9vjoRoZpE53kqHUKrnIUbDT1VmxgbaiXGfWXHv0dLLRMkjIuRjLkDf8AOqveKnBddYb2s5pHFNcG5qeRd0Y43Gffvqw1dwdQGSVrBZKSWp8vmSas5pRI%2bf3Fm2274OoG9WyWslpeFbtNDS05T6mnkhj9MNQu%2bUB/bjm21G0lo01nGDsZp6%2b%2brKdN4I%2bFl3SC10NBVYjqEDLjb1rnYj8Z0yK%2bqtMnlR3P6Z6OIgk1H6Qx2GM9vc9NVx4guk1uutLLb5RE0EjPBjcomwGfvgnHzo24wqLlUTUFPxRTUlOldRCogko5CVlBx17c3fHzrGq7PNlovBwDuesbS1F9j6jb7Quh4frbtxM1Xa56aKx01R/IpHU%2bUQoxzAL87jf/AG0CePlDBT8RUc8EfLJPC3O4/eVON/nGmFwNxBa6O2UVshqK6suhjLfTIhOw6nfb851B%2bMUFXNw6jzU8LvUVCLFGsgLQsdh989Dj30LSWNXq1DbDl0zO1I4kaKOzVJNOwkYlEZcD2yd8f76xcQvKSrBIwds7a0Ggmo0qFneOKYYHJ5y5Jz8HWFRKiuwUIcbFuudejwCcrE0fCgNLs8PVjqrR1PKsZAaJ8jDA/wDw0vvFSr%2bh4istZtiGYszf6cZP9ta%2bB%2bJrtxF9L/lscaqiiSpqnA9I7Iide/UjrqG8fbtT09phpxj6qdykYHZceo/gbfnXnakZmWow5HdOWMU3FPDbXC%2b3%2bewJPUCizWVEJ9TLA%2bGEi%2b6jnGR1AwdxnDFvCPdP8O1vqaqJorlZHj8l%2b5iZuUMD3Uq4H3XQ34VcQVVv4vmvGV/p7elLg9H6BVP/AG7/AANFHHHGdhS0vZo6VaGgr6ORU8tSyU83UqF7LzYIx0zjGw1VtufiWoDJGPy3iy0YBt5D%2bYi2qZzN5pmk80DHOGIOPvqR4UhFbxPbIpmYoZ1LZbsDk/20X0HhtHV2mC4yX2COmkQOWEXMASNxnmxt86kLPScBcLVH1lTe57pXR/oSCM8qHGD02PU9TjW211TArVknlsD%2b040OpBfYfOA/EVPALpPKvM8QYHPucb/%2btQBOHJJ3Jzvpq376VrVTVifTyPOCyhEQcxO4AAHYYGfjS7uSKXBPKGxuMDrouku41x02hNTTvxLG7w3dm4SvC0CzmtpzGHhlccp5f%2bUgdwdCPi1XyXK7UtdK/MCjIAOi4PQaaN6sNiiZJYqOnLUa1soUNJt5dBHMqNk7jnbmODvsM9tcd54KtDcRWOOntglpf40y1S87t/JIpsK3q2UNMQMb7rvpSigJYLid/X4zduoSyvgA36xcWSkaitMaSAiec%2bdID2z0H4Gonj1Wmo6Sc/8ADcx7DsRt/bTaipbNQ01DUXezIGe%2bi3Sc5fEsEjB0lB59sIGUe%2bc9tS914GsixGP%2bGwS%2bRSVkjeY7FWqaVXXLer9BZlOP9PtoyArYLGMHbarUmlR/RKxwVtRDA1Osj/TuQWi5jysR0OOmdb0xMAIzv7HqNWRu3hXwzRQXNIbdFn%2brqUZ5WLR%2bXJTBEG/6MSSAg5J5hvsNBfi9whaLMyvZrXFSO0lbCqRs5B8qpEcZ9THflOD76cNyHlE9NRZYwQdD9gTF1DU8kMUZyxjAUEjOFB3AHbXFWMs0p5EI9ttTdFT8sNAJ4%2bYSK6zZ652IPxjP/jWcdFAEkDwLzL5gJBORyop9/cnS4tVTLo7KudRuBy6%2boB6fHH4Ga6jjW%2bT1CSTXisLRyGUHn6MU5CfynpPuNtdcHH92pqdgl8uAcymfHPnMhYMWz75VT/0j20Akk99fNOdwvKed8URyAh5NxvV19N5d1u1XOolWZY3HMokUYVsbdBqZs/iSaFzNLW1E1WXkczNGSB5hzJhc4y25J%2bdKrXtZbTI3OfPFP6Ylg4PGWwyUTi4UtXI0pLPCqbF8gliS2%2b6qfwPbUZevFLha7VTS3G13OtbGFeWc%2bnJ5jgZ2330j9e1jwVfLf6zk1ViHiU4Mb1ZxpwY1DiktdTFOWB6ZwO%2bSWwdcEHEfDUx/mGpgBzzEqTknvsT7aWGvaGez6j6n6xpO1tSvvZ%2bs/9k=' /%3e%3c/svg%3e" width="200" data-src="/assets/static/tt0427969.6d0d83a.204f97e68e4428bedd11da95df143bb8.jpg" data-srcset="/assets/static/tt0427969.6d0d83a.204f97e68e4428bedd11da95df143bb8.jpg 200w" data-sizes="(max-width: 200px) 100vw, 200px" class="g-image g-image--lazy g-image--loading"><noscript><img src="/assets/static/tt0427969.6d0d83a.204f97e68e4428bedd11da95df143bb8.jpg" class="g-image g-image--loaded" width="200" alt="Hollywoodland poster"></noscript></div></a><div class="ml-8 flex-grow flex flex-col"><h2 class="font-bold text-4xl tracking-loose leading-none">Hollywoodland (<a href="/released/2006/" title="See all movies released in 2006">2006</a>)</h2><ul class="flex-grow text-xl list-disc mt-4 mb-8 ml-16"><li><h3><a href="/june/16/" title="See all events on June 16th" class="inline-block">
+			June 16th
+		</a>,
+	<a href="/years/1959/" title="See all events in 1959">1959</a>,
+	
+	
+	George Reeves dies
+</h3></li></ul><ul class="inline-flex flex-row ml-8" data-v-b5d058e8><li data-v-b5d058e8><a href="/genres/drama/" data-v-b5d058e8><img title="Drama" src="/img/genres/Drama.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/genres/thriller/" data-v-b5d058e8><img title="Thriller" src="/img/genres/Thriller.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/genres/crime/" data-v-b5d058e8><img title="Crime" src="/img/genres/Crime.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/focus_features/" data-v-b5d058e8><img title="Focus Features" src="/img/studios/Focus Features.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/miramax/" aria-current="page" class="active--exact active" data-v-b5d058e8><img title="Miramax" src="/img/studios/Miramax.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/countries/united_states_of_america/" data-v-b5d058e8><img title="United States of America" src="/img/countries/maps/United States of America.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/languages/english/" data-v-b5d058e8><img title="English" src="/img/countries/flags/gb.svg" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li></ul></div></div><div class="flex my-16"><a href="/studios/miramax" aria-current="page" class="w-32 active--exact active cursor-default"><div class="text-grey-lightest font-bold hover:scale-110 transform transition-transform ease-in-out duration-500" style="max-width:200px;"><div class="hover:opacity-100 duration-500 ease-in-out transition-all hover:rounded-l-none flex flex-col bg-black bg-opacity-75 top-0 left-0 w-full h-full p-2 text-center justify-around absolute opacity-0"><!----><div>
+				Awards:
+				Won 1 Oscar. Another 19 wins &amp; 80 nominations.
+			</div><div>
+				Length: 106 mins
+			</div></div><img alt="Finding Neverland poster" src="data:image/svg+xml,%3csvg fill='none' viewBox='0 0 200 300' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3cfilter id='__svg-blur-e0c009326e19b1082c69499e886d5286'%3e%3cfeGaussianBlur in='SourceGraphic' stdDeviation='40'/%3e%3c/filter%3e%3c/defs%3e%3cimage x='0' y='0' filter='url(%23__svg-blur-e0c009326e19b1082c69499e886d5286)' width='200' height='300' xlink:href='data:image/jpeg%3bbase64%2c/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCABgAEADASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAABgcACAMEBQIB/8QAMxAAAQMDAwIEBQIGAwAAAAAAAQIDBAAFEQYSITFBBxNRYSIjcYGhCBQyQlKRscFyktH/xAAaAQACAwEBAAAAAAAAAAAAAAAEBQABAwIG/8QAIREAAgICAgIDAQAAAAAAAAAAAQIAEQMSBCEiMRNBURT/2gAMAwEAAhEDEQA/AAHxBsE24aXg3SZFLNya%2bS6Ou8gcEfUA0CWGTcIyv2i2wpjOUofb4B74ParziyQFRnI6mhsWMH296XGs9FfLcXGQlSRk42gUr%2bdkWiLEariXI1g0ZWPU1vbby6lOxh3%2bJGOWlfT09wcUHOoUhZTjp39aZHiBBfh7t6FDBwD/AJB%2bv%2bqAHU7mlbv42xkc9RR2F91uB8jHo1Syv6JL5IE/UNhUpSopaRNQk9ELCtisfUFP/WrY1R/9IEOa74tKeiOuIjR4TqpO3G1aThKUq5/qIPHcCrwVtBpKlSpUkgokYHPetOW2FpUlYBBFe0yG1pBSoYNfHHWgMrKQPekzEERqAQYjPFuwMvxZJSkBQG5P2qs8tpJk4aGN2Qfar1XqPYbrFW26WH3OU7Qcn8UJ2rww0qWvPc07CdKgcgpPP5onhWLE55XmAYJfoitalTdUXZWzaltmKMg7sklZ59OB%2bKtfQTpnSkTSlidY09HYtzbqi6pthOAVEAZPXJwK5cW/X1gPouTgLSVKSHynZgD1xxweM0xrq4vVNjQjKqUrPEy8XlrT0RVnuDsaSZQQ4tsgYTtIxyOcnFd3ScqQLS15tzfnO4%2bN1xwKOft0rF8wV9DNP5zrtcGNHQpiUraljYlA%2bWndnHrQZqqHeb/cZMRDq2IzYcCFbiEFYB2hWDnBPp0ppW55KpuUYySQQK5kENovMth1KcFRWM9etJAoFERsHNkmL7w7teoLMwBcGbeqQqUG0sNN7vlkDKirtzkfbNOmQ2iKwg7QkjjAr5bmI7at5xntk1yNf3P9tbSmOlbjh5w0Coj7CmfFHd/sCzPdCdJ%2b5MyJbUfcCtsKKkhXQ9vzWafaUXTT8iCystOLQptaiAo/F16%2buaqvP1NqYXxt%2bJBuXmtL2oc8pxWB67cYOMf6p7%2bGepHLrDVJUJqltLU2S7HW2pxOeCQoZ6cij9qWz9QHINGBX7nOlWudbNPy4siUqe83hSFvq6kcFJPY4AxjjArf07BtSYybnCS429LbIdIeUQfhPH/lFuptNxr7E2ritlLpCl%2bYjrjvjvQCuA7ZZD1uvUF%2bVCQ6tcN1hs/AgnITwMYxS3kvsQwWhGOB/k8TMtt1PAi3MR5IeYcbOFKU2QDzyK9Qr9BuWs3I0JXmrCS4Vp6AY6ZrXuN90/dGPLmKfAHIcLCkkewzzXIs980/a5YZtodQ%2b4ohOW1FSiftS6iBR9Q44zV6mMCZNRHZJUcYrT8MJhu2rLxJHLUZhDQ9Ny1En8J/NCurbitEEOcpW78KR759KN/BO1Khaely1jCpkgkH%2bpKBtz/fdRPDt8gJgfJATEf0xiYqYqVKcRVJUqVKkkT5iSmdwirUlCuwOa0WoJivF5ZKnCeSTXtGurKpsK89I7nPAoeu%2brmrm%2bi32AmXNkK2oQ2M4J%2bledIZhVz0Advuc3V1zXNvsaNGbU6tKgkIT3UTin3MubGnGIEZqKlFtEdXzUq%2bFgJ2gFXH8JKhlXbqeOaF9F6FasscS7glD1zWklSuobz1A9/eutovVdg1VKnQmFsLutrUuG804AV7Mgbk%2bqFYH3GDTTi4jjXvomLOVkDnx9CaDcp%2bYVLSEhUqQtHDquFqSn4EkdMckH2J4xWBx993CkvJy5FcdCitW5ScrBJI4/nzjAztHIpisxI7KQllhptIwQEoAxxj/FfP2UXbt/bM7cYx5Y6UVof2B3FzcnZEd6eky2CppaS4kuuLaRu3qH8vKfUZwCkHgZFENk1G8ty2x5UVIRJedhtuIcyre0lR3KTgcEIPToSB3zRMmJGSQUx2QR0wgcVgiWmBDfU9FhsNOqzlaEAHk5PPueT61YUiS5THXukXtL6nVZY92ZnhKUqJPwKa3dErHTOOeO3ann4BWzSsG3qTbZzUzUBTmWpxJQ4kZ6ISrnZ7jr39KScqe8/fJRn4MuS7ulKKeHTnIX9DWBxm5QrnFkaecS1cWXwtt1JxtUOivcEZBHegkZVa66h7hmWrlt9bXZqxaVudwcUE/t2FLTn%2brGE/kiqZ6KkPtl67tPOtTnXlPIebUUqBJ9RTh8d9XvSfDpkk%2bUZ7KFltI53YAI%2bm44%2b1J7TrXkWxhHIAT3/Na5DsOpzhGvuOrQPjnIamm36vaLzCRhM%2bO3laTnHzEDgj3Tz7HrTzsV/tV%2bjefZ58eY33LS8lP1HUfcVSOAEoekHB5Xjnr0ry5MlW%2b7tPQJL0Z9CSUuMrKFAkjuKtcpHRlPgVux1L41KqXpTx11VaHEtXUMXiMkhPzx5boH/NI5%2b4NObSXjZpK/eW1KkrtExWB5U0bU59nB8P9yK3DgwZsTLP/9k=' /%3e%3c/svg%3e" width="200" data-src="/assets/static/tt0308644.6d0d83a.886652ef148b8a535e393d9b12031213.jpg" data-srcset="/assets/static/tt0308644.6d0d83a.886652ef148b8a535e393d9b12031213.jpg 200w" data-sizes="(max-width: 200px) 100vw, 200px" class="g-image g-image--lazy g-image--loading"><noscript><img src="/assets/static/tt0308644.6d0d83a.886652ef148b8a535e393d9b12031213.jpg" class="g-image g-image--loaded" width="200" alt="Finding Neverland poster"></noscript></div></a><div class="ml-8 flex-grow flex flex-col"><h2 class="font-bold text-4xl tracking-loose leading-none">Finding Neverland (<a href="/released/2004/" title="See all movies released in 2004">2004</a>)</h2><ul class="flex-grow text-xl list-disc mt-4 mb-8 ml-16"><li><h3><a href="/december/27/" title="See all events on December 27th" class="inline-block">
+			December 27th
+		</a>,
+	<a href="/years/1904/" title="See all events in 1904">1904</a>,
+	
+	
+	Peter Pan is a success on its opening night
+</h3></li><li><h3><a href="/august/27/" title="See all events on August 27th" class="inline-block">
+			August 27th
+		</a>,
+	<a href="/years/1910/" title="See all events in 1910">1910</a>,
+	
+	
+	Sylvia Llewelyn Davies dies
+</h3></li></ul><ul class="inline-flex flex-row ml-8" data-v-b5d058e8><li data-v-b5d058e8><a href="/genres/drama/" data-v-b5d058e8><img title="Drama" src="/img/genres/Drama.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/film_colony/" data-v-b5d058e8><img title="Film Colony" src="/img/studios/Film Colony.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/studios/miramax/" aria-current="page" class="active--exact active" data-v-b5d058e8><img title="Miramax" src="/img/studios/Miramax.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/countries/united_kingdom/" data-v-b5d058e8><img title="United Kingdom" src="/img/countries/maps/United Kingdom.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/countries/united_states_of_america/" data-v-b5d058e8><img title="United States of America" src="/img/countries/maps/United States of America.png" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 invert g-image" data-v-b5d058e8></a></li><li data-v-b5d058e8><a href="/languages/english/" data-v-b5d058e8><img title="English" src="/img/countries/flags/gb.svg" class="icon hover:scale-150 transform transition-transform ease-in-out duration-500 g-image" data-v-b5d058e8></a></li></ul></div></div></div></div><footer class="text-center p-1 bg-grey-lighter dark:bg-grey-darker transition-all duration-500 ease-in-out z-10 p-4">
+	Site created by <a href="https://mark.honeychurch.org" target="_blank" rel="noopener" class="font-bold">Mark Honeychurch</a>, with a little help from my friends
+</footer></div>
+    <script src="/assets/js/app.c97897c8.js" defer></script><script src="/assets/js/page--src-templates-studios-vue.9ad88135.js" defer></script>
+  </body>
+</html>
