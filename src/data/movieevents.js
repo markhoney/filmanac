@@ -419,7 +419,7 @@ class MovieEvents {
 	async getEventsDetails() {
 		for (const event of this.events) {
 			if (event.info.wikipedia) {
-				let wikidatapage = await wikidata(event.id, event.info.wikipedia.id.split('#')[0]);
+				let wikidatapage = await wikidata(event.movie, event.info.wikipedia.id.split('#')[0]);
 				if (wikidatapage) event.info.wikidata = {
 					id: wikidatapage.id,
 					url: `https://www.wikidata.org/wiki/${wikidatapage.id}`,
