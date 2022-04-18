@@ -7,7 +7,7 @@
 		<div
 			ref="fixed"
 			class="overflow-y-auto flex-grow bg-grey-lightest dark:bg-grey-darkest"
-			style="--bg-opacity: 0.95; backdrop-filter: grayscale(100%);"
+			style="--bg-opacity: 0.99; backdrop-filter: grayscale(100%);"
 		>
 			<slot />
 		</div>
