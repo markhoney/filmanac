@@ -11,6 +11,8 @@ const bechdel = require('./bechdel');
 const wikidata = require('./wikidata');
 const googlesheet = require('./googlesheet');
 
+const git_path = 'git_modules/';
+
 function unique(array) {
 	return [...new Set(array)].filter((element) => !['N/A', 'None', '', null, undefined, false].includes(element));
 }
@@ -184,7 +186,7 @@ class MovieEvents {
 		const classifications = unique(this.movies.map((movie) => movie.classification)).map((classification) => ({
 			id: slugify(classification),
 			title: classification,
-			image: this.getImagePath('USA ' + classification, ['node_modules/resource.images.classificationicons.colour/resources']),
+			image: this.getImagePath('USA ' + classification, [git_path + 'resource.images.classificationicons.colour/resources']),
 		}));
 		for (const movie of this.movies) if (movie.classification) movie.classification = slugify(movie.classification);
 		return classifications;
@@ -214,7 +216,7 @@ class MovieEvents {
 			return {
 				id: slugify(studio),
 				title: studio,
-				image: this.getImagePath((image && image.to) || studio, ['node_modules/resource.images.studios.coloured/resources', 'src/images/studios'], 'studios'),
+				image: this.getImagePath((image && image.to) || studio, [git_path + 'resource.images.studios.coloured/resources', 'src/images/studios'], 'studios'),
 			};
 		});
 		for (const movie of this.movies) if (movie.studios) movie.studios = movie.studios.map((studio) => slugify(studio));
@@ -250,8 +252,8 @@ class MovieEvents {
 				title: country,
 				code: row.code,
 				possessive: row.possessive,
-				image: this.getImagePath(row.name, ['node_modules/resource.images.moviecountryicons.maps/resources'], 'countries/maps'),
-				map: this.getImagePath(row.code.toLowerCase() + '/vector', ['node_modules/mapsicon/all'], 'countries/maps'),
+				image: this.getImagePath(row.name, [git_path + 'resource.images.moviecountryicons.maps/resources'], 'countries/maps'),
+				map: this.getImagePath(row.code.toLowerCase() + '/vector', [git_path + 'mapsicon/all'], 'countries/maps'),
 				flag: this.getImagePath(row.code.toLowerCase(), ['node_modules/svg-country-flags/svg'], 'countries/flags'),
 			};
 			else {
@@ -270,8 +272,8 @@ class MovieEvents {
 		const genres = unique(this.movies.map((movie) => movie.genres).flat()).map((genre) => ({
 			id: slugify(genre),
 			title: genre,
-			image: this.getImagePath(genre, ['node_modules/resource.images.moviegenreicons.transparent/resources', 'src/images/genres/transparent'], 'genres'),
-			fanart: this.getImagePath(genre, ['node_modules/resource.images.moviegenrefanart.xonfluence/resources', 'node_modules/resource.images.moviegenrefanart.metrocity/resources']),
+			image: this.getImagePath(genre, [git_path + 'resource.images.moviegenreicons.transparent/resources', 'src/images/genres/transparent'], 'genres'),
+			fanart: this.getImagePath(genre, [git_path + 'resource.images.moviegenrefanart.xonfluence/resources', git_path + 'resource.images.moviegenrefanart.metrocity/resources']),
 		}));
 		for (const movie of this.movies) if (movie.genres) movie.genres = movie.genres.map((genre) => slugify(genre));
 		return genres;

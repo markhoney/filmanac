@@ -20,18 +20,8 @@
 		"lint": "eslint --ext .js,.vue --ignore-path .gitignore -f table .",
 		"lint:fix": "npm run lint --fix",
 		"share": "lt --port 8080 --subdomain inmovies",
-		"napa": "napa",
-		"extras:genres": "napa git+https://github.com/DjCisco/resource.images.moviegenreicons.transparent git+https://github.com/XBMC-Addons/resource.images.moviegenreicons.white git+https://github.com/XBMC-Addons/resource.images.moviegenreicons.filmstrip git+https://github.com/dproudmoore/resource.images.moviegenrefanart.metrocity git+https://github.com/Helly1206/resource.images.moviegenrefanart.xonfluence git+https://github.com/mistervee/resource.images.moviegenreicons.filmstrip-hd.colour git+https://github.com/mistervee/resource.images.moviegenreicons.filmstrip-hd.bw",
-		"extras:studios": "napa git+https://github.com/XBMC-Addons/resource.images.studios.coloured git+https://github.com/XBMC-Addons/resource.images.studios.white git+https://github.com/braz96/resource.images.studios.squarehd",
-		"extras:classifications": "napa git+https://github.com/wyrm65/resource.images.classificationicons.colour",
-		"extras:countries": "napa git+https://github.com/djaiss/mapsicon git+https://github.com/braz96/resource.images.moviecountryicons.flags git+https://github.com/braz96/resource.images.moviecountryicons.maps",
-		"extras:languages": "napa git+https://github.com/vdb86/resource.images.languageflags.completepack git+https://github.com/jeroenpardon/resource.images.languageflags.colour-flat",
-		"extras": "yarn extras:genres && yarn extras:studios && yarn extras:classifications && yarn extras:countries && yarn extras:languages",
-		"up": "yarn upgrade && yarn extras",
-		"postupgrade": "yarn extras",
-		"postinstall": "yarn extras",
-		"bump": "yarn upgrade-interactive --latest",
-		"postbump": "yarn extras"
+		"extras": "node src/data/extras",
+		"upgrade:major": "yarn upgrade-interactive --latest"
 	},
 	"devDependencies": {
 		"@danestves/tailwindcss-darkmode": "^2.0.1",
@@ -40,6 +30,7 @@
 		"cross-env": "^7.0.2",
 		"csv-parse": "^5.0.3",
 		"depcheck": "^1.2.0",
+		"download-git-repo": "^3.0.2",
 		"fanart.tv": "^2.1.0",
 		"ffmpeg-extract-frames": "^2.0.2",
 		"fluent-ffmpeg": "^2.1.2",
@@ -58,7 +49,7 @@
 		"wikidata-sdk": "^7.7.0"
 	},
 	"dependencies": {
-		"@leonardocabeza/the-movie-db": "^4.1.1",
+		"@leonardocabeza/the-movie-db": "^4.5.0",
 		"gridsome-plugin-nprogress": "^0.0.7",
 		"svg-country-flags": "^1.2.7",
 		"tinycolor2": "^1.4.1",
