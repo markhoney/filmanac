@@ -44,7 +44,7 @@ module.exports = {
 					title: node.title,
 					// date: node.date || node.fields.date,
 					content: node.description,
-				})
+				}),
 			},
 		},
 		{
