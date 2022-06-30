@@ -18,6 +18,18 @@ require('typeface-ewert');
 require('typeface-fascinate-inline');
 require('typeface-voltaire');
 
+const cleanPage = ($page) => {
+	for (const field of Object.keys($page)) {
+		if ($page[field] instanceof Object && Object.getPrototypeOf($page[field]) == Object.prototype) {
+			cleanPage($page[field]);
+		} else if (field === 'edges') {
+			$page = $page.edges.map((edge) => edge.node);
+		}
+	}
+	return $page;
+};
+
+
 export default function (Vue, {head, appOptions}) {
 	Vue.use(Vuex);
 	Vue.component('Fixed', Fixed);
@@ -26,6 +38,7 @@ export default function (Vue, {head, appOptions}) {
 		Vue.component('Carousel', require('vue-carousel').Carousel);
 		Vue.component('Slide', require('vue-carousel').Slide);
 	}
+	Vue.prototype.$clean = cleanPage;
 	head.htmlAttrs = {class: 'bg-grey-darkest'};
 	// head.bodyAttrs = {class: 'bg-grey-darkest'};
 	appOptions.store = new Vuex.Store({
